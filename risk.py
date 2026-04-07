@@ -19,157 +19,151 @@ DECAY = 0.6
 MAX_LOG_ENTRIES = 200
 
 KEYWORDS = {
-    "missile": 4,"attack": 3,"strike": 3,"bomb": 4,"drone": 2,
-    "war": 2,"conflict": 2,"clash": 2,"tension": 2,
-    "crisis": 3,"threat": 3,"deploy": 3,"mobilize": 3,
-    "military": 2,"exercise": 1,"nuclear": 10
+    "missile":4,"attack":3,"strike":3,"bomb":4,"drone":2,
+    "war":2,"conflict":2,"clash":2,"tension":2,
+    "crisis":3,"threat":3,"deploy":3,"mobilize":3,
+    "military":2,"exercise":1,"nuclear":10
 }
 
 SEQUENCE_STAGES = {
-    "threat": 1,"deploy": 2,"mobilize": 2,
-    "strike": 3,"attack": 3,"missile": 3,"bomb": 3
+    "threat":1,"deploy":2,"mobilize":2,
+    "strike":3,"attack":3,"missile":3,"bomb":3
 }
 
 ACTORS = {
-    "iran": "middle_east","israel": "middle_east","gaza": "middle_east",
-    "russia": "europe","ukraine": "europe",
-    "china": "asia","taiwan": "asia","north korea": "asia"
+    "iran":"middle_east","israel":"middle_east","gaza":"middle_east",
+    "russia":"europe","ukraine":"europe",
+    "china":"asia","taiwan":"asia","north korea":"asia"
 }
 
 REGION_BASELINE = {
-    "middle_east": 2.5,"europe": 2.0,"asia": 1.5
+    "middle_east":2.5,"europe":2.0,"asia":1.5
 }
 
 def tokenize(text):
     return re.findall(r"\b[a-z]+\b", text.lower())
 
 def time_weight(h):
-    return math.exp(-h / 24)
-
-def get_source(link):
-    try:
-        return urlparse(link).netloc.replace("www.", "")
-    except:
-        return "unknown"
+    return math.exp(-h/24)
 
 def fetch():
-    out = []
-    now = datetime.datetime.utcnow()
+    out=[]
+    now=datetime.datetime.utcnow()
 
     for url in RSS_FEEDS:
-        feed = feedparser.parse(url)
+        feed=feedparser.parse(url)
         for e in feed.entries[:30]:
             try:
-                title = e.title
-                link = getattr(e, "link", "")
-                published = e.get("published_parsed")
-                if published:
-                    dt = datetime.datetime(*published[:6])
-                    age = (now - dt).total_seconds() / 3600
+                title=e.title
+                link=getattr(e,"link","")
+                pub=e.get("published_parsed")
+                if pub:
+                    dt=datetime.datetime(*pub[:6])
+                    age=(now-dt).total_seconds()/3600
                 else:
-                    age = 6
-                out.append((title, age, link))
+                    age=6
+                out.append((title,age,link))
             except:
                 continue
     return out
 
-def score(text, age, link):
-    tokens = tokenize(text)
-    matches = [t for t in tokens if t in KEYWORDS]
-    actors = [t for t in tokens if t in ACTORS]
+def score(text,age):
+    t=tokenize(text)
+    m=[x for x in t if x in KEYWORDS]
+    a=[x for x in t if x in ACTORS]
 
-    if not matches or not actors:
-        return 0, [], [], [], 0
+    if not m or not a:
+        return 0,[],[],[],0
 
-    regions = list({ACTORS[a] for a in actors})
-    base = sum(KEYWORDS[m] for m in matches)
+    r=list({ACTORS[x] for x in a})
+    base=sum(KEYWORDS[x] for x in m)
+    stage=max([SEQUENCE_STAGES.get(x,0) for x in m],default=0)
+    mult=[1,0.6,1.1,1.5][stage] if stage<=3 else 1.5
 
-    stage = max([SEQUENCE_STAGES.get(m,0) for m in matches], default=0)
+    return base*time_weight(age)*mult,m,a,r,stage
 
-    mult = [1,0.6,1.1,1.5][stage] if stage <=3 else 1.5
-
-    return base * time_weight(age) * mult, matches, actors, regions, stage
-
-def load_json(path):
+def load(path):
     if not os.path.exists(path):
         return {}
     try:
-        with open(path,"r") as f:
+        with open(path) as f:
             return json.load(f)
     except:
         return {}
 
-def save_json(path, data):
+def save(path,data):
     with open(path,"w") as f:
         json.dump(data,f)
 
 def update_log(prob):
-    log = load_json(LOG_FILE)
-    arr = log.get("data", [])
+    log=load(LOG_FILE)
+    arr=log.get("data",[])
 
-    arr.append({
-        "t": datetime.datetime.utcnow().isoformat(),
-        "p": prob
-    })
+    now=datetime.datetime.utcnow().isoformat()
 
-    arr = arr[-MAX_LOG_ENTRIES:]
+    if not arr:
+        # seed with 5 identical points for instant chart
+        arr=[{"t":now,"p":prob} for _ in range(5)]
+    else:
+        arr.append({"t":now,"p":prob})
 
-    save_json(LOG_FILE, {"data": arr})
+    arr=arr[-MAX_LOG_ENTRIES:]
+    save(LOG_FILE,{"data":arr})
 
 def main():
-    headlines = fetch()
-    history = load_json(HISTORY_FILE)
+    headlines=fetch()
+    history=load(HISTORY_FILE)
 
-    grouped = defaultdict(float)
-    regions = set()
-    scored = []
+    grouped=defaultdict(float)
+    regions=set()
+    scored=[]
 
     for t,a,l in headlines:
-        s,m,ac,r,stage = score(t,a,l)
-        if s > 0:
-            key = tuple(sorted(set(m+ac)))
-            grouped[str(key)] += s
+        s,m,ac,r,stage=score(t,a)
+        if s>0:
+            key=tuple(sorted(set(m+ac)))
+            grouped[str(key)]+=s
             regions.update(r)
-            scored.append((s,t,m,ac,r,l,get_source(l)))
+            scored.append((s,t,m,ac,r,l))
 
-    total = 0
-    new_hist = {}
+    total=0
+    new_hist={}
 
     for k,v in grouped.items():
-        prev = history.get(k,0)
-        combined = v + prev * DECAY
-        new_hist[k] = combined
-        total += combined
+        prev=history.get(k,0)
+        combined=v+prev*DECAY
+        new_hist[k]=combined
+        total+=combined
 
-    save_json(HISTORY_FILE, new_hist)
+    save(HISTORY_FILE,new_hist)
 
-    baseline = sum(REGION_BASELINE.get(r,1) for r in regions)
-    total += baseline
+    baseline=sum(REGION_BASELINE.get(x,1) for x in regions)
+    total+=baseline
 
-    norm = total / max(len(regions),1)
+    norm=total/max(len(regions),1)
 
-    if norm < 5:
-        prob = 1 + norm
-    elif norm < 20:
-        prob = 6 + (norm-5)*1.2
+    if norm<5:
+        prob=1+norm
+    elif norm<20:
+        prob=6+(norm-5)*1.2
     else:
-        prob = min(95, 20 + (norm-20)*1.5)
+        prob=min(95,20+(norm-20)*1.5)
 
-    prob = round(prob,2)
+    prob=round(prob,2)
 
     update_log(prob)
 
-    top = sorted(scored, reverse=True)[:5]
+    top=sorted(scored,reverse=True)[:5]
 
-    out = {
-        "last_updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
-        "probability": prob,
+    out={
+        "last_updated":datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
+        "probability":prob,
         "top_drivers":[
             {
                 "title":x[1],
                 "actors":x[3],
                 "matches":x[2],
-                "source":x[6],
+                "source":urlparse(x[5]).netloc,
                 "link":x[5]
             } for x in top
         ]
