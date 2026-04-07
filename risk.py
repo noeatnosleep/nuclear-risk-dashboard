@@ -37,15 +37,23 @@ KEYWORDS = {
     "crisis": 3,
     "threat": 3,
     "deploy": 3,
+    "mobilize": 3,
     "military": 2,
     "exercise": 1,
     "nuclear": 10
 }
 
-ACTION_WORDS = {
-    "launch","strike","attack","deploy","threat",
-    "warn","escalate","mobilize","bomb"
+SEQUENCE_STAGES = {
+    "threat": 1,
+    "deploy": 2,
+    "mobilize": 2,
+    "strike": 3,
+    "attack": 3,
+    "missile": 3,
+    "bomb": 3
 }
+
+ACTION_WORDS = set(SEQUENCE_STAGES.keys())
 
 BLACKLIST = {
     "war crime","charged","court","trial",
@@ -86,7 +94,7 @@ def get_source(link):
 def normalize_source(source):
     for wire in WIRE_SOURCES:
         if wire in source:
-            return wire  # collapse to single identity
+            return wire
     return source
 
 def get_source_weight(link):
@@ -155,56 +163,52 @@ def time_weight(hours):
 def is_blacklisted(text):
     return any(b in text.lower() for b in BLACKLIST)
 
-def has_proximity(tokens):
-    for i, t in enumerate(tokens):
-        if t in KEYWORDS:
-            window = tokens[max(0, i-3):i+4]
-            if any(w in ACTION_WORDS for w in window):
-                return True
-    return False
-
 def extract_actors(tokens):
     return sorted({t for t in tokens if t in ACTORS})
 
-def action_multiplier(matches):
-    if "nuclear" in matches:
-        return 2.5
-    if any(m in ["missile","strike","bomb","attack"] for m in matches):
-        return 1.6
-    if any(m in ["deploy","mobilize"] for m in matches):
+def get_sequence_stage(matches):
+    stages = [SEQUENCE_STAGES[m] for m in matches if m in SEQUENCE_STAGES]
+    return max(stages) if stages else 0
+
+def sequence_multiplier(stage):
+    if stage == 1:
+        return 0.5
+    if stage == 2:
         return 1.2
-    if any(m in ["threat","warn"] for m in matches):
-        return 0.4
+    if stage == 3:
+        return 2.0
     return 1.0
 
 def score_headline(text, age_hours, link):
     if is_blacklisted(text):
-        return 0, [], [], None
+        return 0, [], [], None, 0
 
     tokens = tokenize(text)
     matches = [t for t in tokens if t in KEYWORDS]
 
-    if not matches or not has_proximity(tokens):
-        return 0, [], [], None
+    if not matches:
+        return 0, [], [], None, 0
 
     actors = extract_actors(tokens)
     if not actors:
-        return 0, [], [], None
+        return 0, [], [], None, 0
 
     regions = sorted({ACTORS[a] for a in actors})
 
     base = sum(KEYWORDS[m] for m in matches)
-    weighted = base * time_weight(age_hours) * action_multiplier(matches)
+    stage = get_sequence_stage(matches)
 
-    return weighted * get_source_weight(link), matches, actors, regions
+    weighted = base * time_weight(age_hours) * sequence_multiplier(stage)
+
+    return weighted * get_source_weight(link), matches, actors, regions, stage
 
 def group_events(scored):
     groups = defaultdict(list)
 
-    for score, text, matches, actors, regions, link, source in scored:
+    for score, text, matches, actors, regions, link, source, stage in scored:
         key = tuple(sorted(set(matches + actors)))
         normalized_source = normalize_source(source)
-        groups[key].append((score, normalized_source))
+        groups[key].append((score, normalized_source, stage))
 
     return groups
 
@@ -228,11 +232,17 @@ def apply_persistence(groups, history):
     for key, entries in groups.items():
         scores = [e[0] for e in entries]
         sources = set(e[1] for e in entries)
+        stages = [e[2] for e in entries]
 
         base = sum(scores)
         confirmation = 1 + (len(sources) - 1) * 0.5
 
-        current = base * confirmation
+        # NEW: escalation boost
+        max_stage = max(stages) if stages else 0
+        escalation = 1 + (max_stage * 0.3)
+
+        current = base * confirmation * escalation
+
         prev = history.get(str(key), 0)
         combined = current + prev * DECAY
 
@@ -243,7 +253,7 @@ def apply_persistence(groups, history):
 
 def compute_regions(scored):
     regions = set()
-    for _, _, _, _, r, _, _ in scored:
+    for _, _, _, _, r, _, _, _ in scored:
         for x in r:
             regions.add(x)
     return regions
@@ -253,10 +263,10 @@ def main():
     scored = []
 
     for text, age, link in headlines:
-        score, matches, actors, regions = score_headline(text, age, link)
+        score, matches, actors, regions, stage = score_headline(text, age, link)
         if score > 0:
             source = get_source(link)
-            scored.append((score, text, matches, actors, regions, link, source))
+            scored.append((score, text, matches, actors, regions, link, source, stage))
 
     history = load_history()
     groups = group_events(scored)
