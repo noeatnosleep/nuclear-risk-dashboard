@@ -57,7 +57,7 @@ def detect_actors(text):
 
 def pair_multiplier(actors):
     if len(actors) < 2:
-        return 0.5  # allow weak signals instead of killing them
+        return 0.5  # allow weak signals
 
     for pair in HIGH_RISK_PAIRS:
         if pair.issubset(actors):
@@ -117,13 +117,13 @@ def main():
         total_score += score
         drivers.append((score, h["title"]))
 
-    # FIXED normalization (0 score ≈ 1–2%)
-    probability = 1 / (1 + math.exp(-0.08 * (total_score - 25)))
+    # FIXED baseline: 0 score ≈ ~2%
+    probability = 1 / (1 + math.exp(-0.08 * (total_score - 30)))
 
     drivers = sorted(drivers, reverse=True)[:5]
 
     data = {
-        "last_updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
+        "last_updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
         "score": round(total_score, 2),
         "probability": round(probability * 100, 2),
         "top_drivers": [d[1] for d in drivers]
