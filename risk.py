@@ -53,8 +53,6 @@ SEQUENCE_STAGES = {
     "bomb": 3
 }
 
-ACTION_WORDS = set(SEQUENCE_STAGES.keys())
-
 BLACKLIST = {
     "war crime","charged","court","trial",
     "alleged","history","affected by war"
@@ -83,7 +81,7 @@ REGION_BASELINE = {
 }
 
 HISTORY_FILE = "history.json"
-DECAY = 0.85
+DECAY = 0.6   # REDUCED (was 0.85)
 
 def get_source(link):
     try:
@@ -171,12 +169,13 @@ def get_sequence_stage(matches):
     return max(stages) if stages else 0
 
 def sequence_multiplier(stage):
+    # REDUCED scaling
     if stage == 1:
-        return 0.5
+        return 0.6
     if stage == 2:
-        return 1.2
+        return 1.1
     if stage == 3:
-        return 2.0
+        return 1.5
     return 1.0
 
 def score_headline(text, age_hours, link):
@@ -235,11 +234,10 @@ def apply_persistence(groups, history):
         stages = [e[2] for e in entries]
 
         base = sum(scores)
-        confirmation = 1 + (len(sources) - 1) * 0.5
+        confirmation = 1 + (len(sources) - 1) * 0.4  # reduced
 
-        # NEW: escalation boost
         max_stage = max(stages) if stages else 0
-        escalation = 1 + (max_stage * 0.3)
+        escalation = 1 + (max_stage * 0.2)  # reduced
 
         current = base * confirmation * escalation
 
