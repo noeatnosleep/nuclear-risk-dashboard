@@ -46,7 +46,7 @@ RELATIONSHIP_WEIGHT = {
     ("iran","us"):2.5,
     ("iran","israel"):2.2,
     ("us","china"):2.0,
-    ("russia","ukraine"):1.0,  # reduced heavily
+    ("russia","ukraine"):1.0,
     ("israel","gaza"):1.0,
     ("global","middle_east"):2.0
 }
@@ -57,8 +57,7 @@ PERSISTENT_THEATERS = [
 ]
 
 ESCALATION_KEYWORDS = {
-    "nuclear","nato","tactical","icbm","chemical","retaliation",
-    "direct conflict","alliance","world war"
+    "nuclear","nato","icbm","chemical","retaliation","alliance"
 }
 
 INTENT_WORDS = {"threat","warn","vow","rhetoric"}
@@ -82,22 +81,20 @@ def time_weight(h):
 def relationship_multiplier(actors):
     actors=list(set(actors))
     max_w=1.0
-
     for i in range(len(actors)):
         for j in range(i+1,len(actors)):
             pair=tuple(sorted((actors[i],actors[j])))
             max_w=max(max_w,RELATIONSHIP_WEIGHT.get(pair,1.0))
-
     return max_w
 
-def is_persistent_theater(actors):
+def is_persistent(actors):
     a=set(actors)
     return any(t.issubset(a) for t in PERSISTENT_THEATERS)
 
 def has_escalation(tokens):
     return any(t in ESCALATION_KEYWORDS for t in tokens)
 
-def classify_event(tokens):
+def classify(tokens):
     if any(t in STRATEGIC_WORDS for t in tokens):
         return "strategic"
     if any(t in ACTION_WORDS for t in tokens):
@@ -139,31 +136,24 @@ def score(text,age):
     actors=[x for x in tokens if x in ACTORS]
 
     if not actors:
-        return 0,None,actors,[],False
-
-    regions=list({ACTORS[x] for x in actors})
+        return 0,actors
 
     if hard:
         base=max(HARD[x] for x in hard)
-        is_hard=True
     elif soft:
         base=max(SOFT[x] for x in soft)*0.25
-        is_hard=False
     else:
-        return 0,None,actors,regions,False
+        return 0,actors
 
-    event_class=classify_event(tokens)
-    event_mult=EVENT_MULTIPLIER.get(event_class,1.0)
+    event_class=classify(tokens)
+    mult=EVENT_MULTIPLIER.get(event_class,1.0)
 
-    rel_mult=relationship_multiplier(actors)
+    rel=relationship_multiplier(actors)
 
-    # THEATER SUPPRESSION (critical fix)
-    if is_persistent_theater(actors) and not has_escalation(tokens):
-        rel_mult *= 0.35  # aggressive suppression
+    if is_persistent(actors) and not has_escalation(tokens):
+        rel*=0.35
 
-    final=base * event_mult * rel_mult * time_weight(age)
-
-    return final,"",actors,regions,is_hard
+    return base*mult*rel*time_weight(age),actors
 
 def load(path):
     if not os.path.exists(path):
@@ -181,11 +171,9 @@ def save(path,data):
 def update_log(prob):
     log=load(LOG_FILE)
     arr=log.get("data",[])
-
     now=datetime.datetime.utcnow()
 
     if not arr:
-        arr=[]
         for i in range(5):
             t=(now - datetime.timedelta(minutes=(5-i)*6)).isoformat()
             arr.append({"t":t,"p":prob})
@@ -198,21 +186,33 @@ def update_log(prob):
 def main():
     headlines=fetch()
 
-    total=0
-    regions=set()
-    hard_present=False
+    clusters={}
 
     for t,a,l in headlines:
-        s,_,_,r,is_hard=score(t,a)
-
+        s,actors=score(t,a)
         if s==0:
             continue
 
-        total+=s
-        regions.update(r)
+        key=tuple(sorted(set(actors)))
 
-        if is_hard:
-            hard_present=True
+        if key not in clusters:
+            clusters[key]=[]
+
+        clusters[key].append(s)
+
+    total=0
+    regions=set()
+
+    for key,vals in clusters.items():
+        base=max(vals)
+
+        # cluster boost capped
+        boost=1+min(len(vals)*0.08,0.4)
+
+        total+=base*boost
+
+        for a in key:
+            regions.add(ACTORS[a])
 
     baseline=sum(REGION_BASELINE.get(x,1) for x in regions)
     total+=baseline
@@ -225,9 +225,6 @@ def main():
         prob=6+(norm-5)*1.2
     else:
         prob=min(95,20+(norm-20)*1.5)
-
-    if not hard_present:
-        prob=min(prob,12)
 
     prob=round(prob,2)
 
