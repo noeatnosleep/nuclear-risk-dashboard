@@ -38,7 +38,8 @@ BLACKLIST = {
     "alleged","history","affected by war"
 }
 
-REGIONS = {
+# actor → region
+ACTORS = {
     "iran": "middle_east",
     "israel": "middle_east",
     "gaza": "middle_east",
@@ -53,7 +54,6 @@ REGIONS = {
     "north korea": "asia"
 }
 
-# persistent baseline risk per region
 REGION_BASELINE = {
     "middle_east": 2.5,
     "europe": 2.0,
@@ -100,48 +100,58 @@ def has_proximity(tokens):
                 return True
     return False
 
-def extract_regions(tokens):
-    return sorted({REGIONS[t] for t in tokens if t in REGIONS})
+def extract_actors(tokens):
+    return sorted({t for t in tokens if t in ACTORS})
 
 def score_headline(text, age_hours):
     if is_blacklisted(text):
-        return 0, [], []
+        return 0, [], [], None
 
     tokens = tokenize(text)
     matches = [t for t in tokens if t in KEYWORDS]
 
     if not matches:
-        return 0, [], []
+        return 0, [], [], None
 
     if not has_proximity(tokens):
-        return 0, [], []
+        return 0, [], [], None
+
+    actors = extract_actors(tokens)
+    if not actors:
+        return 0, [], [], None
+
+    regions = sorted({ACTORS[a] for a in actors})
 
     base = sum(KEYWORDS[m] for m in matches)
-    regions = extract_regions(tokens)
-
-    if not regions:
-        return 0, [], []
-
     weighted = base * time_weight(age_hours)
 
-    return weighted, matches, regions
+    return weighted, matches, actors, regions
 
 def cluster_events(scored):
     clusters = defaultdict(list)
 
-    for score, text, matches, regions in scored:
+    for score, text, matches, actors, regions in scored:
         key = tuple(regions)
-        clusters[key].append(score)
+        clusters[key].append((score, actors))
 
     return clusters
 
 def compute_cluster_score(clusters):
     total = 0
 
-    for region_key, scores in clusters.items():
+    for region_key, entries in clusters.items():
+        scores = [e[0] for e in entries]
+        actors = set(a for e in entries for a in e[1])
+
         cluster_sum = sum(scores)
-        multiplier = 1 + (len(scores) - 1) * 0.3
-        total += cluster_sum * multiplier
+
+        # repetition escalation
+        repetition_multiplier = 1 + (len(scores) - 1) * 0.3
+
+        # actor diversity escalation (new)
+        actor_multiplier = 1 + (len(actors) - 1) * 0.4
+
+        total += cluster_sum * repetition_multiplier * actor_multiplier
 
     return total
 
@@ -154,28 +164,36 @@ def compute_baseline(clusters):
 
     return baseline
 
+def compute_cross_region_bonus(clusters):
+    if len(clusters) < 2:
+        return 0
+
+    # more regions = more global risk
+    return (len(clusters) - 1) * 2.5
+
 def main():
     headlines = fetch_headlines()
 
     scored = []
 
     for text, age in headlines:
-        score, matches, regions = score_headline(text, age)
+        score, matches, actors, regions = score_headline(text, age)
 
         if score > 0:
-            scored.append((score, text, matches, regions))
+            scored.append((score, text, matches, actors, regions))
 
     clusters = cluster_events(scored)
 
     event_score = compute_cluster_score(clusters)
     baseline_score = compute_baseline(clusters)
+    cross_region_bonus = compute_cross_region_bonus(clusters)
 
-    total_score = event_score + baseline_score
+    total_score = event_score + baseline_score + cross_region_bonus
 
     region_count = max(len(clusters), 1)
     normalized_score = total_score / region_count
 
-    # smooth curve
+    # probability curve
     if normalized_score < 5:
         probability = 0.01 + (normalized_score / 5) * 0.05
     elif normalized_score < 20:
@@ -193,7 +211,7 @@ def main():
         "normalized_score": round(normalized_score, 2),
         "probability": round(probability * 100, 2),
         "top_drivers": [
-            f"{t[1]} (matches: {t[2]})" for t in top
+            f"{t[1]} (actors: {t[3]}, matches: {t[2]})" for t in top
         ],
         "debug": {
             "headline_count": len(headlines),
