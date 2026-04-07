@@ -1,34 +1,95 @@
-import math
 import re
+import math
+from datetime import datetime, timezone
 
-INTENT = {"threat","warn","vow","rhetoric"}
-PREP = {"deploy","mobilize","exercise"}
-ACTION = {"attack","strike","bomb","raid"}
-STRATEGIC = {"nuclear","icbm","warhead"}
+from actors import extract_actors
 
-CLASS_SCORE = {
-    "intent": 0.2,
-    "preparation": 0.5,
-    "action": 0.9,
-    "strategic": 1.5
+
+# -----------------------------
+# CONFIG
+# -----------------------------
+
+CLASS_WEIGHTS = {
+    "rhetoric": 0.3,
+    "movement": 0.6,
+    "action": 1.0,
+    "strategic": 1.4
 }
 
-MAX_IMPACT_PER_EVENT = 1.5
+MAX_IMPACT = 1.25
+DECAY_HALFLIFE_HOURS = 12
 
-def classify(text):
-    tokens = re.findall(r"\b[a-z]+\b", text.lower())
 
-    if any(t in STRATEGIC for t in tokens):
-        return "strategic"
-    if any(t in ACTION for t in tokens):
+# -----------------------------
+# HELPERS
+# -----------------------------
+
+def hours_since(published):
+    try:
+        dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
+    except:
+        return 24  # assume old
+
+    now = datetime.now(timezone.utc)
+    return (now - dt).total_seconds() / 3600
+
+
+def time_decay(hours):
+    # exponential decay
+    return math.exp(-math.log(2) * hours / DECAY_HALFLIFE_HOURS)
+
+
+def classify_text(title):
+    t = title.lower()
+
+    if re.search(r"(launch|strike|attack|bomb|missile|drone)", t):
         return "action"
-    if any(t in PREP for t in tokens):
-        return "preparation"
-    if any(t in INTENT for t in tokens):
-        return "intent"
-    return None
+    if re.search(r"(deploy|movement|exercise|drill|mobilize)", t):
+        return "movement"
+    if re.search(r"(sanction|policy|nuclear|treaty|doctrine)", t):
+        return "strategic"
+    return "rhetoric"
 
-def event_impact(event_class, age):
-    base = CLASS_SCORE.get(event_class, 0)
-    decay = math.exp(-age / 24)
-    return min(MAX_IMPACT_PER_EVENT, base * decay)
+
+# -----------------------------
+# MAIN API (REQUIRED BY risk.py)
+# -----------------------------
+
+def classify_event(event):
+    """
+    Expected input:
+    {
+        "title": str,
+        "published": ISO timestamp (optional),
+        "link": str,
+        "source": str
+    }
+    """
+
+    title = event.get("title", "")
+    if not title:
+        return None
+
+    actors = extract_actors(title)
+
+    # need at least 2 actors for a pair
+    if len(actors) < 2:
+        return None
+
+    # pick first 2 deterministically
+    actors = sorted(actors)[:2]
+
+    event_class = classify_text(title)
+    weight = CLASS_WEIGHTS[event_class]
+
+    age_hours = hours_since(event.get("published", ""))
+    decay = time_decay(age_hours)
+
+    impact = weight * decay
+    impact = min(impact, MAX_IMPACT)
+
+    return {
+        "actors": actors,
+        "class": event_class,
+        "impact": impact
+    }
