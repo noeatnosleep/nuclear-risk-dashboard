@@ -5,6 +5,8 @@ from datetime import datetime
 from states import BASELINE_STATE
 from actors import STATE_KEYS
 from events import classify_event
+from ingest import fetch_events
+
 
 STATE_FILE = "risk.json"
 HISTORY_FILE = "history_log.json"
@@ -14,9 +16,9 @@ HISTORY_FILE = "history_log.json"
 # CONFIG
 # -----------------------------
 
-DECAY_RATE = 0.15                 # pull toward baseline every run
-EMPTY_RUN_DECAY_MULTIPLIER = 2.5  # stronger decay when no events
-MAX_STEP_CHANGE = 1.25            # per-run clamp per pair
+DECAY_RATE = 0.15
+EMPTY_RUN_DECAY_MULTIPLIER = 2.5
+MAX_STEP_CHANGE = 1.25
 
 
 # -----------------------------
@@ -78,11 +80,14 @@ def decay_toward_baseline(current, baseline, multiplier=1.0):
 
 def apply_event_impacts(state, events):
     updates = {k: 0.0 for k in state}
-
     top_drivers = []
 
     for e in events:
-        classified = classify_event(e)
+        try:
+            classified = classify_event(e)
+        except Exception:
+            continue
+
         if not classified:
             continue
 
@@ -93,11 +98,10 @@ def apply_event_impacts(state, events):
             continue
 
         impact = classified["impact"]
-
         updates[pair] += impact
 
         top_drivers.append({
-            "title": e["title"],
+            "title": e.get("title"),
             "actors": actors,
             "class": classified["class"],
             "impact": round(impact, 3),
@@ -119,52 +123,46 @@ def apply_updates_with_clamp(state, updates):
 
 
 def compute_probability(state):
-    # weighted average (simple for now)
-    vals = list(state.values())
-    avg = sum(vals) / len(vals)
-
-    # sigmoid normalize into %
+    avg = sum(state.values()) / len(state)
     prob = 1 / (1 + math.exp(-(avg - 5)))
-
     return prob * 100
 
 
 # -----------------------------
-# MAIN ENTRY
+# MAIN
 # -----------------------------
 
 def run(events):
 
+    print("EVENT COUNT:", len(events))
+
     prev_state = load_previous_state()
 
-    # 1. classify + extract impacts
     updates, top_drivers = apply_event_impacts(prev_state, events)
 
     total_signal = sum(abs(v) for v in updates.values())
 
-    # -----------------------------
-    # CRITICAL FIX: NO-EVENT HANDLING
-    # -----------------------------
     if total_signal == 0:
-        # no valid events → DO NOT accumulate
         state = decay_toward_baseline(
             prev_state,
             BASELINE_STATE,
             multiplier=EMPTY_RUN_DECAY_MULTIPLIER
         )
     else:
-        # normal flow
         decayed = decay_toward_baseline(prev_state, BASELINE_STATE)
         state = apply_updates_with_clamp(decayed, updates)
 
-    # -----------------------------
-    # probability
-    # -----------------------------
     probability = compute_probability(state)
 
-    # -----------------------------
-    # save
-    # -----------------------------
     save_state(probability, state, top_drivers)
 
     return probability, state, top_drivers
+
+
+# -----------------------------
+# ENTRY POINT (CRITICAL FIX)
+# -----------------------------
+
+if __name__ == "__main__":
+    events = fetch_events()
+    run(events)
