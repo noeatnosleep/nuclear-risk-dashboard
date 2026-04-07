@@ -126,13 +126,13 @@ def main():
         drivers.append((score, h, matches))
         scored_count += 1
 
-    # ---- NORMALIZATION ----
+    # NORMALIZATION
     region_count = max(len(seen_regions), 1)
     normalized_score = total_score / region_count
 
-    # ---- HARD FLOOR (critical fix) ----
+    # HARD FLOOR (this is what you're missing)
     if normalized_score < 5:
-        probability = 0.03  # force baseline (3%)
+        probability = 0.03
     else:
         probability = 1 / (1 + math.exp(-0.15 * (normalized_score - 12)))
 
