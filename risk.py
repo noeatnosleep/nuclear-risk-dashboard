@@ -8,56 +8,55 @@ RSS_FEEDS = [
     "https://feeds.npr.org/1004/rss.xml"
 ]
 
-# fallback headlines if feeds fail
-FALLBACK_HEADLINES = [
-    "iran launches missile strike amid tensions",
-    "us deploys carrier group to middle east",
-    "china conducts military exercises near taiwan",
-    "russia warns nato of escalation risk",
-    "israel responds to regional attack with airstrike"
-]
-
 NUCLEAR_STATES = {
     "us","russia","china","israel",
     "india","pakistan","north korea"
 }
 
 EVENT_KEYWORDS = {
-    "missile": 3,
-    "ballistic": 4,
-    "airstrike": 2,
+    # hard military
+    "missile": 4,
+    "ballistic": 5,
+    "airstrike": 3,
     "strike": 2,
-    "attack": 2,
+    "attack": 3,
+    "bomb": 3,
+    "drone": 3,
+
+    # escalation language
+    "conflict": 1.5,
+    "clash": 1.5,
+    "clashes": 1.5,
+    "tensions": 2,
+    "crisis": 2,
+    "threat": 2,
+
+    # military posture
     "deploy": 3,
+    "deployment": 3,
     "mobilize": 4,
-    "evacuate": 5,
-    "nuclear": 8
+    "exercise": 2,
+    "drills": 2,
+
+    # explicit nuclear
+    "nuclear": 8,
+    "atomic": 6
 }
 
 def fetch_headlines():
     headlines = []
-
     for url in RSS_FEEDS:
         feed = feedparser.parse(url)
-        for entry in feed.entries[:20]:
+        for entry in feed.entries[:30]:
             headlines.append({
                 "title": entry.title.lower(),
                 "published": entry.get("published_parsed")
             })
-
-    # fallback if feeds fail
-    if len(headlines) == 0:
-        for h in FALLBACK_HEADLINES:
-            headlines.append({
-                "title": h,
-                "published": None
-            })
-
     return headlines
 
 def detect_actors(text):
     actors = set()
-    for state in NUCLEAR_STATES.union({"iran","taiwan"}):
+    for state in NUCLEAR_STATES.union({"iran","taiwan","gaza","ukraine"}):
         if state in text:
             actors.add(state)
     return actors
@@ -75,9 +74,9 @@ def score_headline(text):
 
     multiplier = 1.0
     if len(actors) >= 2:
-        multiplier = 2.0
+        multiplier = 2.2
     elif len(actors) == 1:
-        multiplier = 0.8
+        multiplier = 1.2
 
     return base * multiplier, actors
 
@@ -99,6 +98,7 @@ def main():
 
     total_score = 0
     drivers = []
+    scored_count = 0
 
     for h in headlines:
         score, actors = score_headline(h["title"])
@@ -111,8 +111,9 @@ def main():
 
         total_score += score
         drivers.append((score, h["title"]))
+        scored_count += 1
 
-    probability = 1 / (1 + math.exp(-0.08 * (total_score - 35)))
+    probability = 1 / (1 + math.exp(-0.07 * (total_score - 25)))
 
     drivers = sorted(drivers, reverse=True)[:5]
 
@@ -123,8 +124,7 @@ def main():
         "top_drivers": [d[1] for d in drivers],
         "debug": {
             "headline_count": len(headlines),
-            "scored_count": len(drivers),
-            "using_fallback": len(headlines) == len(FALLBACK_HEADLINES)
+            "scored_count": scored_count
         }
     }
 
