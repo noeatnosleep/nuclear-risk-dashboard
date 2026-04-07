@@ -70,6 +70,12 @@ REGION_BASELINE = {
     "global": 1.0
 }
 
+def get_source(link):
+    try:
+        return urlparse(link).netloc.replace("www.", "")
+    except:
+        return "unknown"
+
 def get_source_weight(link):
     try:
         domain = urlparse(link).netloc.lower()
@@ -183,7 +189,7 @@ def score_headline(text, age_hours, link):
 
 def cluster_events(scored):
     clusters = defaultdict(list)
-    for score, text, matches, actors, regions, link in scored:
+    for score, text, matches, actors, regions, link, source in scored:
         clusters[tuple(regions)].append((score, actors))
     return clusters
 
@@ -219,7 +225,8 @@ def main():
     for text, age, link in headlines:
         score, matches, actors, regions = score_headline(text, age, link)
         if score > 0:
-            scored.append((score, text, matches, actors, regions, link))
+            source = get_source(link)
+            scored.append((score, text, matches, actors, regions, link, source))
 
     clusters = cluster_events(scored)
 
@@ -253,6 +260,7 @@ def main():
                 "title": t[1],
                 "actors": t[3],
                 "matches": t[2],
+                "source": t[6],
                 "link": t[5]
             } for t in top
         ],
