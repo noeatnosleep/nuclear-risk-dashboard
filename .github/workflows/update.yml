@@ -10,19 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
 
-      - uses: actions/setup-python@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.11
+          python-version: '3.11'
 
-      - run: pip install feedparser
-      - run: python risk.py
+      - name: Install dependencies
+        run: pip install feedparser
 
-- name: Commit and push
-  run: |
-    git config user.name "github-actions"
-    git config user.email "actions@github.com"
-    git add risk.json
-    git commit -m "update risk" || exit 0
-    git push
+      - name: Run script
+        run: python risk.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add risk.json
+          git commit -m "update risk" || exit 0
+          git push
