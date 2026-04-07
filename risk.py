@@ -27,7 +27,7 @@ MAX_LOG_ENTRIES = 200
 DECAY = 0.985
 
 # ======================
-# BASELINE (RESEARCH-DRIVEN)
+# BASELINE (RESEARCH-ALIGNED)
 # ======================
 
 BASELINE_STATE = {
@@ -67,16 +67,22 @@ STATE_WEIGHTS = {
 }
 
 # ======================
-# ACTORS + MAPPING
+# ACTOR REGEX (FIXED)
 # ======================
 
-ACTORS = {
-    "us","america","united states",
-    "russia","china",
-    "india","pakistan",
-    "iran","israel",
-    "north korea","korea","japan",
-    "taiwan","ukraine"
+ACTOR_PATTERNS = {
+    "us": r"\b(U\.S\.|U\.S|USA|United States|America)\b",
+    "russia": r"\bRussia|Russian\b",
+    "china": r"\bChina|Chinese\b",
+    "india": r"\bIndia|Indian\b",
+    "pakistan": r"\bPakistan\b",
+    "iran": r"\bIran|Iranian\b",
+    "israel": r"\bIsrael|Israeli\b",
+    "north korea": r"\bNorth Korea|DPRK\b",
+    "korea": r"\bSouth Korea\b",
+    "japan": r"\bJapan|Japanese\b",
+    "taiwan": r"\bTaiwan\b",
+    "ukraine": r"\bUkraine|Ukrainian\b"
 }
 
 STATE_KEYS = {
@@ -117,9 +123,6 @@ CLASS_SCORE = {
 # UTILS
 # ======================
 
-def tokenize(text):
-    return re.findall(r"\b[a-z]+\b", text.lower())
-
 def load_json(path, default):
     if not os.path.exists(path):
         return default
@@ -132,6 +135,44 @@ def load_json(path, default):
 def save_json(path, data):
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
+
+def extract_actors(text):
+    found = set()
+    for actor, pattern in ACTOR_PATTERNS.items():
+        if re.search(pattern, text, re.IGNORECASE):
+            found.add(actor)
+    return list(found)
+
+def classify(text):
+    tokens = re.findall(r"\b[a-z]+\b", text.lower())
+
+    if any(t in STRATEGIC for t in tokens):
+        return "strategic"
+    if any(t in ACTION for t in tokens):
+        return "action"
+    if any(t in PREP for t in tokens):
+        return "preparation"
+    if any(t in INTENT for t in tokens):
+        return "intent"
+    return None
+
+def map_state(actors):
+    actors = set(actors)
+    for pair, key in STATE_KEYS.items():
+        if set(pair).issubset(actors):
+            return key
+    return None
+
+def event_impact(event_class, age):
+    base = CLASS_SCORE.get(event_class, 0)
+    decay = math.exp(-age / 24)
+    return base * decay
+
+def extract_source(link):
+    try:
+        return link.split("/")[2]
+    except:
+        return ""
 
 # ======================
 # FETCH
@@ -162,48 +203,15 @@ def fetch():
     return out
 
 # ======================
-# CLASSIFICATION
-# ======================
-
-def classify(tokens):
-    if any(t in STRATEGIC for t in tokens):
-        return "strategic"
-    if any(t in ACTION for t in tokens):
-        return "action"
-    if any(t in PREP for t in tokens):
-        return "preparation"
-    if any(t in INTENT for t in tokens):
-        return "intent"
-    return None
-
-def extract_actors(tokens):
-    return list(set([t for t in tokens if t in ACTORS]))
-
-def map_state(actors):
-    actors = set(actors)
-
-    for pair, key in STATE_KEYS.items():
-        if set(pair).issubset(actors):
-            return key
-
-    return None
-
-def event_impact(event_class, age):
-    base = CLASS_SCORE.get(event_class, 0)
-    decay = math.exp(-age / 24)
-    return base * decay
-
-# ======================
 # MAIN
 # ======================
 
 def main():
     headlines = fetch()
 
-    # initialize or load state
     state = load_json(STATE_FILE, BASELINE_STATE.copy())
 
-    # decay toward baseline (critical)
+    # decay toward baseline (NOT zero)
     for k in state:
         baseline = BASELINE_STATE[k]
         state[k] = baseline + (state[k] - baseline) * DECAY
@@ -211,23 +219,21 @@ def main():
     updates = []
 
     for title, age, link in headlines:
-        tokens = tokenize(title)
-
-        actors = extract_actors(tokens)
-        if not actors:
+        actors = extract_actors(title)
+        if len(actors) < 2:
             continue
 
         state_key = map_state(actors)
         if not state_key:
             continue
 
-        event_class = classify(tokens)
+        event_class = classify(title)
         if not event_class:
             continue
 
         impact = event_impact(event_class, age)
 
-        # persistent conflict dampening
+        # damp persistent war noise
         if state_key == "russia_ukraine" and event_class != "strategic":
             impact *= 0.25
 
@@ -238,22 +244,26 @@ def main():
             "actors": actors,
             "class": event_class,
             "impact": round(impact, 3),
-            "link": link
+            "link": link,
+            "source": extract_source(link)
         })
 
-    # clamp state
+    # clamp
     for k in state:
         state[k] = min(10, state[k])
 
     # ======================
-    # GLOBAL RISK
+    # GLOBAL RISK (NORMALIZED TO BASELINE)
     # ======================
 
-    risk = 0
-    for k, v in state.items():
-        risk += v * STATE_WEIGHTS[k]
+    weighted_sum = sum(state[k] * STATE_WEIGHTS[k] for k in state)
+    baseline_sum = sum(BASELINE_STATE[k] * STATE_WEIGHTS[k] for k in BASELINE_STATE)
 
-    risk = min(95, round(risk * 10, 2))
+    # ratio vs baseline (this is the key fix)
+    normalized = weighted_sum / baseline_sum
+
+    # map to % scale
+    risk = min(95, round(normalized * 12, 2))
 
     # ======================
     # LOGGING
@@ -269,7 +279,6 @@ def main():
 
     log["data"] = log["data"][-MAX_LOG_ENTRIES:]
     save_json(LOG_FILE, log)
-
     save_json(STATE_FILE, state)
 
     # ======================
