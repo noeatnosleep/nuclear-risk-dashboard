@@ -28,7 +28,7 @@ fetch('risk.json')
     data.top_drivers.forEach(d => {
         const li = document.createElement('li');
 
-        // Title (link if available)
+        // clickable title
         if (d.link) {
             const a = document.createElement('a');
             a.href = d.link;
@@ -39,11 +39,13 @@ fetch('risk.json')
             li.innerText = d.title;
         }
 
-        // Metadata
         const meta = document.createElement('div');
         meta.style.fontSize = "0.9em";
         meta.style.color = "gray";
-        meta.innerText = "actors: [" + d.actors.join(", ") + "] | matches: [" + d.matches.join(", ") + "]";
+        meta.innerText =
+            "source: " + d.source +
+            " | actors: [" + d.actors.join(", ") + "]" +
+            " | matches: [" + d.matches.join(", ") + "]";
 
         li.appendChild(document.createElement('br'));
         li.appendChild(meta);
