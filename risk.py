@@ -4,26 +4,23 @@ import json
 import math
 import re
 import os
-from collections import defaultdict
 from urllib.parse import urlparse
 
 RSS_FEEDS = [
     "http://feeds.bbci.co.uk/news/world/rss.xml",
-    "https://feeds.npr.org/1004/rss.xml"
+    "https://feeds.npr.org/1004/rss.xml",
     "https://rss.cnn.com/rss/edition_world.rss",
     "https://feeds.reuters.com/Reuters/worldNews",
     "https://feeds.reuters.com/reuters/topNews",
     "https://www.aljazeera.com/xml/rss/all.xml",
     "https://rss.dw.com/xml/rss-en-all",
-    "https://tass.com/rss/v2.xml",
-    "https://www.theguardian.com/world/rss",
-    "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
+    "https://www.theguardian.com/world/rss"
 ]
 
 HISTORY_FILE = "history.json"
 LOG_FILE = "history_log.json"
 
-DECAY = 0.6
+DECAY = 0.3
 MAX_LOG_ENTRIES = 200
 
 KEYWORDS = {
@@ -31,11 +28,6 @@ KEYWORDS = {
     "war":2,"conflict":2,"clash":2,"tension":2,
     "crisis":3,"threat":3,"deploy":3,"mobilize":3,
     "military":2,"exercise":1,"nuclear":10
-}
-
-SEQUENCE_STAGES = {
-    "threat":1,"deploy":2,"mobilize":2,
-    "strike":3,"attack":3,"missile":3,"bomb":3
 }
 
 ACTORS = {
@@ -50,6 +42,9 @@ REGION_BASELINE = {
 
 def tokenize(text):
     return re.findall(r"\b[a-z]+\b", text.lower())
+
+def normalize(text):
+    return " ".join(sorted(set(tokenize(text))))
 
 def time_weight(h):
     return math.exp(-h/24)
@@ -81,14 +76,12 @@ def score(text,age):
     a=[x for x in t if x in ACTORS]
 
     if not m or not a:
-        return 0,[],[],[],0
+        return 0,[],[],[]
 
     r=list({ACTORS[x] for x in a})
     base=sum(KEYWORDS[x] for x in m)
-    stage=max([SEQUENCE_STAGES.get(x,0) for x in m],default=0)
-    mult=[1,0.6,1.1,1.5][stage] if stage<=3 else 1.5
 
-    return base*time_weight(age)*mult,m,a,r,stage
+    return base*time_weight(age),m,a,r
 
 def load(path):
     if not os.path.exists(path):
@@ -110,10 +103,9 @@ def update_log(prob):
     now=datetime.datetime.utcnow()
 
     if not arr:
-        # seed with time-separated points (fixes invisible chart)
         arr=[]
         for i in range(5):
-            t = (now - datetime.timedelta(minutes=(5-i)*6)).isoformat()
+            t=(now - datetime.timedelta(minutes=(5-i)*6)).isoformat()
             arr.append({"t":t,"p":prob})
     else:
         arr.append({"t":now.isoformat(),"p":prob})
@@ -125,28 +117,24 @@ def main():
     headlines=fetch()
     history=load(HISTORY_FILE)
 
-    grouped=defaultdict(float)
+    total=0
     regions=set()
     scored=[]
 
+    seen=set()
+
     for t,a,l in headlines:
-        s,m,ac,r,stage=score(t,a)
+        norm=normalize(t)
+
+        if norm in seen:
+            continue
+        seen.add(norm)
+
+        s,m,ac,r=score(t,a)
         if s>0:
-            key=tuple(sorted(set(m+ac)))
-            grouped[str(key)]+=s
+            total+=s
             regions.update(r)
             scored.append((s,t,m,ac,r,l))
-
-    total=0
-    new_hist={}
-
-    for k,v in grouped.items():
-        prev=history.get(k,0)
-        combined=v+prev*DECAY
-        new_hist[k]=combined
-        total+=combined
-
-    save(HISTORY_FILE,new_hist)
 
     baseline=sum(REGION_BASELINE.get(x,1) for x in regions)
     total+=baseline
