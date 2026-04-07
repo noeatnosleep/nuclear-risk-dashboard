@@ -33,11 +33,24 @@ SOFT = {
 ACTORS = {
     "iran":"middle_east","israel":"middle_east","gaza":"middle_east",
     "russia":"europe","ukraine":"europe",
-    "china":"asia","taiwan":"asia","north korea":"asia"
+    "china":"asia","taiwan":"asia","north korea":"asia",
+    "us":"global","america":"global","united states":"global"
 }
 
 REGION_BASELINE = {
-    "middle_east":2.5,"europe":2.0,"asia":1.5
+    "middle_east":2.5,"europe":2.0,"asia":1.5,"global":2.0
+}
+
+RELATIONSHIP_WEIGHT = {
+    ("iran","us"): 2.5,
+    ("iran","israel"): 2.2,
+    ("us","china"): 2.0,
+    ("russia","ukraine"): 2.3,
+
+    ("israel","gaza"): 1.2,
+    ("israel","lebanon"): 1.5,
+
+    ("global","middle_east"): 2.0
 }
 
 def tokenize(text):
@@ -45,6 +58,18 @@ def tokenize(text):
 
 def time_weight(h):
     return math.exp(-h/24)
+
+def relationship_multiplier(actors):
+    actors = list(set(actors))
+    max_w = 1.0
+
+    for i in range(len(actors)):
+        for j in range(i+1, len(actors)):
+            pair = tuple(sorted((actors[i], actors[j])))
+            w = RELATIONSHIP_WEIGHT.get(pair, 1.0)
+            max_w = max(max_w, w)
+
+    return max_w
 
 def fetch():
     out=[]
@@ -90,7 +115,9 @@ def score(text,age):
     else:
         return 0,None,actors,regions,False
 
-    return base*time_weight(age),strongest,actors,regions,is_hard
+    multiplier = relationship_multiplier(actors)
+
+    return base * multiplier * time_weight(age), strongest, actors, regions, is_hard
 
 def load(path):
     if not os.path.exists(path):
@@ -167,7 +194,6 @@ def main():
     else:
         prob=min(95,20+(norm-20)*1.5)
 
-    # HARD SIGNAL GATE
     if not hard_present:
         prob=min(prob,12)
 
