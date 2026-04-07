@@ -51,9 +51,7 @@ REGIONS = {
 }
 
 def normalize(word):
-    if word.endswith("s"):
-        return word[:-1]
-    return word
+    return word[:-1] if word.endswith("s") else word
 
 def tokenize(text):
     words = re.findall(r"\b[a-z]+\b", text.lower())
@@ -68,8 +66,7 @@ def fetch_headlines():
     return headlines
 
 def is_blacklisted(text):
-    text = text.lower()
-    return any(b in text for b in BLACKLIST)
+    return any(b in text.lower() for b in BLACKLIST)
 
 def has_proximity(tokens):
     for i, t in enumerate(tokens):
@@ -80,11 +77,7 @@ def has_proximity(tokens):
     return False
 
 def extract_region(tokens):
-    regions = set()
-    for t in tokens:
-        if t in REGIONS:
-            regions.add(REGIONS[t])
-    return tuple(sorted(regions))
+    return tuple(sorted({REGIONS[t] for t in tokens if t in REGIONS}))
 
 def score_headline(text):
     if is_blacklisted(text):
@@ -124,7 +117,7 @@ def main():
         if score == 0:
             continue
 
-        if region in seen_regions and len(region) > 0:
+        if region in seen_regions and region:
             continue
 
         seen_regions.add(region)
@@ -133,19 +126,15 @@ def main():
         drivers.append((score, h, matches))
         scored_count += 1
 
-    # ---- CRITICAL FIXES BELOW ----
+    # ---- NORMALIZATION ----
+    region_count = max(len(seen_regions), 1)
+    normalized_score = total_score / region_count
 
-    # normalize score by number of regions (prevents multi-region inflation)
-    if len(seen_regions) > 0:
-        normalized_score = total_score / len(seen_regions)
+    # ---- HARD FLOOR (critical fix) ----
+    if normalized_score < 5:
+        probability = 0.03  # force baseline (3%)
     else:
-        normalized_score = 0
-
-    # soft cap (prevents runaway spikes)
-    normalized_score = min(normalized_score, 20)
-
-    # calibrated sigmoid (correct scale)
-    probability = 1 / (1 + math.exp(-0.15 * (normalized_score - 12)))
+        probability = 1 / (1 + math.exp(-0.15 * (normalized_score - 12)))
 
     drivers = sorted(drivers, reverse=True)[:5]
 
