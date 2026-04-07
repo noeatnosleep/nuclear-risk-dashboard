@@ -13,6 +13,7 @@ RSS_FEEDS = [
 
 SOURCE_WEIGHTS = {
     "bbc.co.uk": 1.0,
+    "bbc.com": 1.0,
     "npr.org": 0.9,
     "reuters.com": 1.1,
     "apnews.com": 1.1
@@ -154,14 +155,15 @@ def extract_actors(tokens):
     return sorted({t for t in tokens if t in ACTORS})
 
 def action_multiplier(matches):
+    # Capability > intent
     if "nuclear" in matches:
-        return 2.0
+        return 2.5
     if any(m in ["missile","strike","bomb","attack"] for m in matches):
-        return 1.4
+        return 1.6
     if any(m in ["deploy","mobilize"] for m in matches):
-        return 1.1
+        return 1.2
     if any(m in ["threat","warn"] for m in matches):
-        return 0.7
+        return 0.4
     return 1.0
 
 def score_headline(text, age_hours, link):
