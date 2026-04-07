@@ -15,7 +15,7 @@ KEYWORDS = {
     "strike": 3,
     "bomb": 4,
     "drone": 3,
-    "war": 3,
+    "war": 2,
     "conflict": 2,
     "clash": 2,
     "tension": 2,
@@ -25,6 +25,13 @@ KEYWORDS = {
     "military": 3,
     "exercise": 2,
     "nuclear": 10
+}
+
+# must indicate active or forward-looking event
+ACTION_WORDS = {
+    "launch","launched","strike","strikes","attack","attacks",
+    "deploy","deploys","threat","threatens","warn","warns",
+    "escalate","escalation","mobilize","mobilization"
 }
 
 ACTORS = {
@@ -49,6 +56,9 @@ def fetch_headlines():
             headlines.append(entry.title)
     return headlines
 
+def is_actionable(tokens):
+    return any(t in ACTION_WORDS for t in tokens)
+
 def extract_cluster(tokens):
     return tuple(sorted(set(t for t in tokens if t in ACTORS)))
 
@@ -56,14 +66,17 @@ def score_headline(text):
     tokens = tokenize(text)
 
     matches = [t for t in tokens if t in KEYWORDS]
+
     if not matches:
         return 0, [], ()
 
-    base = sum(KEYWORDS[m] for m in matches)
+    # FILTER: must be actionable
+    if not is_actionable(tokens):
+        return 0, [], ()
 
+    base = sum(KEYWORDS[m] for m in matches)
     actors = extract_cluster(tokens)
 
-    # escalation weighting
     multiplier = 1.0
     if len(actors) >= 2:
         multiplier = 2.5
@@ -86,7 +99,6 @@ def main():
         if score == 0:
             continue
 
-        # deduplicate similar geopolitical events
         if cluster in seen_clusters and len(cluster) > 0:
             continue
 
@@ -96,8 +108,7 @@ def main():
         drivers.append((score, h, matches))
         scored_count += 1
 
-    # sigmoid (bounded)
-    probability = 1 / (1 + math.exp(-0.05 * (total_score - 40)))
+    probability = 1 / (1 + math.exp(-0.05 * (total_score - 35)))
 
     drivers = sorted(drivers, reverse=True)[:5]
 
