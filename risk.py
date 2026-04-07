@@ -3,6 +3,7 @@ import datetime
 import json
 import math
 import re
+import os
 from collections import defaultdict
 from urllib.parse import urlparse
 
@@ -70,6 +71,9 @@ REGION_BASELINE = {
     "asia": 1.5,
     "global": 1.0
 }
+
+HISTORY_FILE = "history.json"
+DECAY = 0.85
 
 def get_source(link):
     try:
@@ -186,32 +190,45 @@ def score_headline(text, age_hours, link):
 
     return weighted * get_source_weight(link), matches, actors, regions
 
-# NEW: group events by signature
 def group_events(scored):
     groups = defaultdict(list)
-
     for score, text, matches, actors, regions, link, source in scored:
         key = tuple(sorted(set(matches + actors)))
         groups[key].append((score, source))
-
     return groups
 
-def compute_cluster_score(scored):
-    groups = group_events(scored)
+def load_history():
+    if not os.path.exists(HISTORY_FILE):
+        return {}
+    try:
+        with open(HISTORY_FILE, "r") as f:
+            return json.load(f)
+    except:
+        return {}
+
+def save_history(data):
+    with open(HISTORY_FILE, "w") as f:
+        json.dump(data, f)
+
+def apply_persistence(groups, history):
+    new_history = {}
     total = 0
 
-    for group, entries in groups.items():
+    for key, entries in groups.items():
         scores = [e[0] for e in entries]
         sources = set(e[1] for e in entries)
 
         base = sum(scores)
-
-        # confirmation multiplier
         confirmation = 1 + (len(sources) - 1) * 0.5
+        current = base * confirmation
 
-        total += base * confirmation
+        prev = history.get(str(key), 0)
+        combined = current + prev * DECAY
 
-    return total
+        new_history[str(key)] = combined
+        total += combined
+
+    return total, new_history
 
 def compute_regions(scored):
     regions = set()
@@ -230,11 +247,13 @@ def main():
             source = get_source(link)
             scored.append((score, text, matches, actors, regions, link, source))
 
-    total_score = compute_cluster_score(scored)
+    history = load_history()
+    groups = group_events(scored)
+    total_score, new_history = apply_persistence(groups, history)
+    save_history(new_history)
 
     regions = compute_regions(scored)
     baseline = sum(REGION_BASELINE.get(r, 1.0) for r in regions)
-
     total_score += baseline
 
     region_count = max(len(regions), 1)
