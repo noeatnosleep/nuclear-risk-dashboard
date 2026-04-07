@@ -3,6 +3,7 @@ import datetime
 import json
 import math
 import re
+from collections import defaultdict
 
 RSS_FEEDS = [
     "http://feeds.bbci.co.uk/news/world/rss.xml",
@@ -10,21 +11,21 @@ RSS_FEEDS = [
 ]
 
 KEYWORDS = {
-    "missile": 3,
-    "attack": 2,
-    "strike": 2,
-    "bomb": 2,
+    "missile": 4,
+    "attack": 3,
+    "strike": 3,
+    "bomb": 4,
     "drone": 2,
-    "war": 1,
-    "conflict": 1,
-    "clash": 1,
-    "tension": 1,
-    "crisis": 1,
-    "threat": 2,
-    "deploy": 2,
-    "military": 1,
+    "war": 2,
+    "conflict": 2,
+    "clash": 2,
+    "tension": 2,
+    "crisis": 3,
+    "threat": 3,
+    "deploy": 3,
+    "military": 2,
     "exercise": 1,
-    "nuclear": 8
+    "nuclear": 10
 }
 
 ACTION_WORDS = {
@@ -41,8 +42,10 @@ REGIONS = {
     "iran": "middle_east",
     "israel": "middle_east",
     "gaza": "middle_east",
+    "lebanon": "middle_east",
     "us": "global",
     "russia": "europe",
+    "ukraine": "europe",
     "china": "asia",
     "taiwan": "asia",
     "india": "asia",
@@ -59,11 +62,25 @@ def tokenize(text):
 
 def fetch_headlines():
     headlines = []
+    now = datetime.datetime.utcnow()
+
     for url in RSS_FEEDS:
         feed = feedparser.parse(url)
         for entry in feed.entries[:30]:
-            headlines.append(entry.title)
+            published = entry.get("published_parsed")
+            if published:
+                published_dt = datetime.datetime(*published[:6])
+                age_hours = (now - published_dt).total_seconds() / 3600
+            else:
+                age_hours = 6  # default fallback
+
+            headlines.append((entry.title, age_hours))
+
     return headlines
+
+def time_weight(hours):
+    # decay: fresh news matters more
+    return math.exp(-hours / 24)
 
 def is_blacklisted(text):
     return any(b in text.lower() for b in BLACKLIST)
@@ -76,78 +93,101 @@ def has_proximity(tokens):
                 return True
     return False
 
-def extract_region(tokens):
-    return tuple(sorted({REGIONS[t] for t in tokens if t in REGIONS}))
+def extract_regions(tokens):
+    return sorted({REGIONS[t] for t in tokens if t in REGIONS})
 
-def score_headline(text):
+def score_headline(text, age_hours):
     if is_blacklisted(text):
-        return 0, [], ()
+        return 0, [], []
 
     tokens = tokenize(text)
-
     matches = [t for t in tokens if t in KEYWORDS]
+
     if not matches:
-        return 0, [], ()
+        return 0, [], []
 
     if not has_proximity(tokens):
-        return 0, [], ()
+        return 0, [], []
 
     base = sum(KEYWORDS[m] for m in matches)
-    region = extract_region(tokens)
+    regions = extract_regions(tokens)
 
-    multiplier = 1.0
-    if len(region) >= 2:
-        multiplier = 1.5
-    elif len(region) == 1:
-        multiplier = 1.1
+    if not regions:
+        return 0, [], []
 
-    return base * multiplier, matches, region
+    # time weighting
+    weighted = base * time_weight(age_hours)
+
+    return weighted, matches, regions
+
+def cluster_events(scored):
+    clusters = defaultdict(list)
+
+    for score, text, matches, regions in scored:
+        key = tuple(regions)
+        clusters[key].append(score)
+
+    return clusters
+
+def compute_cluster_score(clusters):
+    total = 0
+
+    for region_key, scores in clusters.items():
+        cluster_sum = sum(scores)
+
+        # escalation multiplier for repeated signals
+        multiplier = 1 + (len(scores) - 1) * 0.3
+
+        total += cluster_sum * multiplier
+
+    return total
 
 def main():
     headlines = fetch_headlines()
 
-    total_score = 0
-    drivers = []
-    seen_regions = set()
-    scored_count = 0
+    scored = []
 
-    for h in headlines:
-        score, matches, region = score_headline(h)
+    for text, age in headlines:
+        score, matches, regions = score_headline(text, age)
 
-        if score == 0:
-            continue
+        if score > 0:
+            scored.append((score, text, matches, regions))
 
-        if region in seen_regions and region:
-            continue
+    clusters = cluster_events(scored)
 
-        seen_regions.add(region)
+    total_score = compute_cluster_score(clusters)
 
-        total_score += score
-        drivers.append((score, h, matches))
-        scored_count += 1
-
-    # NORMALIZATION
-    region_count = max(len(seen_regions), 1)
+    region_count = max(len(clusters), 1)
     normalized_score = total_score / region_count
 
-    # HARD FLOOR (this is what you're missing)
+    # LOW RANGE: smooth floor
     if normalized_score < 5:
-        probability = 0.03
-    else:
-        probability = 1 / (1 + math.exp(-0.15 * (normalized_score - 12)))
+        probability = 0.01 + (normalized_score / 5) * 0.04
 
-    drivers = sorted(drivers, reverse=True)[:5]
+    # MID RANGE
+    elif normalized_score < 20:
+        probability = 0.05 + (normalized_score - 5) * 0.01
+
+    # HIGH RANGE (logistic)
+    else:
+        probability = 1 / (1 + math.exp(-0.12 * (normalized_score - 25)))
+
+    probability = min(probability, 0.95)
+
+    top = sorted(scored, reverse=True)[:5]
 
     data = {
         "last_updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
         "score": round(total_score, 2),
         "normalized_score": round(normalized_score, 2),
         "probability": round(probability * 100, 2),
-        "top_drivers": [f"{d[1]} (matches: {d[2]})" for d in drivers],
+        "top_drivers": [
+            f"{t[1]} (matches: {t[2]})" for t in top
+        ],
         "debug": {
             "headline_count": len(headlines),
-            "scored_count": scored_count,
-            "unique_regions": len(seen_regions)
+            "scored_count": len(scored),
+            "unique_regions": len(clusters)
         }
     }
 
