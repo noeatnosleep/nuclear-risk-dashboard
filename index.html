@@ -11,12 +11,15 @@
   <h3>Top Drivers</h3>
   <ul id="drivers"></ul>
 
+  <h3>Debug</h3>
+  <pre id="debug"></pre>
+
 <script>
 fetch("risk.json")
   .then(res => res.json())
   .then(data => {
     document.getElementById("risk").innerText = data.probability + "%";
-    document.getElementById("date").innerText = "Updated: " + data.date;
+    document.getElementById("date").innerText = "Updated: " + data.last_updated;
 
     let list = document.getElementById("drivers");
     list.innerHTML = "";
@@ -26,6 +29,8 @@ fetch("risk.json")
       li.innerText = d;
       list.appendChild(li);
     });
+
+    document.getElementById("debug").innerText = JSON.stringify(data.debug, null, 2);
   });
 </script>
 </body>
