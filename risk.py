@@ -13,18 +13,6 @@ NUCLEAR_STATES = {
     "india","pakistan","north korea"
 }
 
-HIGH_RISK_PAIRS = [
-    {"us","china"},
-    {"us","russia"},
-    {"india","pakistan"}
-]
-
-MEDIUM_RISK_PAIRS = [
-    {"israel","iran"},
-    {"us","iran"},
-    {"china","taiwan"}
-]
-
 EVENT_KEYWORDS = {
     "missile": 3,
     "ballistic": 4,
@@ -55,34 +43,20 @@ def detect_actors(text):
             actors.add(state)
     return actors
 
-def pair_multiplier(actors):
-    if len(actors) < 2:
-        return 0.5
-
-    for pair in HIGH_RISK_PAIRS:
-        if pair.issubset(actors):
-            return 3.0
-
-    for pair in MEDIUM_RISK_PAIRS:
-        if pair.issubset(actors):
-            return 1.8
-
-    if len(actors.intersection(NUCLEAR_STATES)) >= 2:
-        return 2.2
-
-    return 1.0
-
 def score_headline(text):
     base = 0
     for word, weight in EVENT_KEYWORDS.items():
         if word in text:
             base += weight
 
-    if base == 0:
-        return 0, set()
-
     actors = detect_actors(text)
-    multiplier = pair_multiplier(actors)
+
+    # relaxed multiplier (no more zeroing)
+    multiplier = 1.0
+    if len(actors) >= 2:
+        multiplier = 2.0
+    elif len(actors) == 1:
+        multiplier = 0.8
 
     return base * multiplier, actors
 
@@ -104,7 +78,6 @@ def main():
 
     total_score = 0
     drivers = []
-    scored_count = 0
 
     for h in headlines:
         score, actors = score_headline(h["title"])
@@ -117,9 +90,9 @@ def main():
 
         total_score += score
         drivers.append((score, h["title"]))
-        scored_count += 1
 
-    probability = 1 / (1 + math.exp(-0.08 * (total_score - 30)))
+    # stable baseline
+    probability = 1 / (1 + math.exp(-0.08 * (total_score - 35)))
 
     drivers = sorted(drivers, reverse=True)[:5]
 
@@ -130,7 +103,7 @@ def main():
         "top_drivers": [d[1] for d in drivers],
         "debug": {
             "headline_count": len(headlines),
-            "scored_count": scored_count
+            "scored_count": len(drivers)
         }
     }
 
