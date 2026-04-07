@@ -4,8 +4,9 @@ import json
 import math
 
 RSS_FEEDS = [
-    "https://www.reuters.com/rssFeed/worldNews",
-    "https://apnews.com/rss/apf-topnews"
+    "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "https://feeds.npr.org/1004/rss.xml",
+    "https://www.reutersagency.com/feed/?best-topics=world&post_type=best"
 ]
 
 NUCLEAR_STATES = {
@@ -29,7 +30,7 @@ def fetch_headlines():
     headlines = []
     for url in RSS_FEEDS:
         feed = feedparser.parse(url)
-        for entry in feed.entries[:30]:
+        for entry in feed.entries[:20]:
             headlines.append({
                 "title": entry.title.lower(),
                 "published": entry.get("published_parsed")
@@ -49,9 +50,11 @@ def score_headline(text):
         if word in text:
             base += weight
 
+    if base == 0:
+        return 0, set()
+
     actors = detect_actors(text)
 
-    # relaxed multiplier (no more zeroing)
     multiplier = 1.0
     if len(actors) >= 2:
         multiplier = 2.0
@@ -91,7 +94,6 @@ def main():
         total_score += score
         drivers.append((score, h["title"]))
 
-    # stable baseline
     probability = 1 / (1 + math.exp(-0.08 * (total_score - 35)))
 
     drivers = sorted(drivers, reverse=True)[:5]
