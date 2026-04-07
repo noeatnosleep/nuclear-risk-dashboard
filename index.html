@@ -19,18 +19,27 @@ fetch("risk.json")
   .then(res => res.json())
   .then(data => {
     document.getElementById("risk").innerText = data.probability + "%";
-    document.getElementById("date").innerText = "Updated: " + data.last_updated;
+
+    document.getElementById("date").innerText =
+      "Updated: " + (data.last_updated || "missing");
 
     let list = document.getElementById("drivers");
     list.innerHTML = "";
 
-    data.top_drivers.forEach(d => {
+    if (data.top_drivers && data.top_drivers.length > 0) {
+      data.top_drivers.forEach(d => {
+        let li = document.createElement("li");
+        li.innerText = d;
+        list.appendChild(li);
+      });
+    } else {
       let li = document.createElement("li");
-      li.innerText = d;
+      li.innerText = "No drivers detected (model too strict)";
       list.appendChild(li);
-    });
+    }
 
-    document.getElementById("debug").innerText = JSON.stringify(data.debug, null, 2);
+    document.getElementById("debug").innerText =
+      JSON.stringify(data, null, 2);
   });
 </script>
 </body>
