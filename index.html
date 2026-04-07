@@ -9,37 +9,84 @@
 
 <style>
 body {
-    font-family: system-ui;
-    background: #0f172a;
-    color: #e2e8f0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto;
+    background: #0b1220;
+    color: #e5e7eb;
+    margin: 0;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
-    padding: 20px;
+    padding: 24px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .risk {
-    font-size: 4rem;
-    font-weight: bold;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 10px 0;
 }
 
-.low {color:#22c55e;}
-.medium {color:#f59e0b;}
-.high {color:#ef4444;}
+.low { color: #22c55e; }
+.medium { color: #f59e0b; }
+.high { color: #ef4444; }
 
-.driver {
-    background:#1e293b;
-    padding:15px;
-    border-radius:10px;
-    margin-bottom:10px;
+.updated {
+    text-align: center;
+    color: #94a3b8;
+    margin-bottom: 30px;
 }
 
-a {color:#60a5fa;}
+.section {
+    margin-top: 40px;
+}
+
+.card {
+    background: #162033;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    transition: background 0.2s ease;
+}
+
+.card:hover {
+    background: #1d2a44;
+}
+
+.card a {
+    color: #60a5fa;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.meta {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    margin-top: 6px;
+}
 
 canvas {
-    margin-top:20px;
+    margin-top: 10px;
+    background: #111827;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #64748b;
 }
 </style>
 </head>
@@ -48,14 +95,23 @@ canvas {
 <div class="container">
 
 <h1>Global Nuclear Risk</h1>
+
 <div id="risk" class="risk">--%</div>
-<div id="updated"></div>
+<div id="updated" class="updated"></div>
 
-<h2>Trend</h2>
-<canvas id="chart"></canvas>
+<div class="section">
+    <h2>Trend</h2>
+    <canvas id="chart"></canvas>
+</div>
 
-<h2>Top Drivers</h2>
-<div id="drivers"></div>
+<div class="section">
+    <h2>Top Drivers</h2>
+    <div id="drivers"></div>
+</div>
+
+<div class="footer">
+    Signal-based model using global news inputs. Not predictive.
+</div>
 
 </div>
 
@@ -87,15 +143,17 @@ async function load() {
     d.innerHTML = "";
 
     risk.top_drivers.forEach(x=>{
-        d.innerHTML += `
-        <div class="driver">
+        const el = document.createElement("div");
+        el.className = "card";
+
+        el.innerHTML = `
             <a href="${x.link}" target="_blank">${x.title}</a>
-            <div style="font-size:12px;color:#94a3b8">
-                source: ${x.source} |
-                actors: [${x.actors.join(", ")}] |
-                matches: [${x.matches.join(", ")}]
+            <div class="meta">
+                ${x.source} | actors: [${x.actors.join(", ")}] | matches: [${x.matches.join(", ")}]
             </div>
-        </div>`;
+        `;
+
+        d.appendChild(el);
     });
 
     if (hist.data && hist.data.length > 1) {
@@ -109,12 +167,14 @@ async function load() {
                 datasets: [{
                     data: values,
                     borderWidth: 2,
-                    tension: 0.3
+                    tension: 0.35
                 }]
             },
             options: {
                 plugins:{legend:{display:false}},
-                scales:{y:{beginAtZero:true}}
+                scales:{
+                    y:{beginAtZero:true}
+                }
             }
         });
     }
