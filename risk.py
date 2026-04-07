@@ -5,8 +5,16 @@ import math
 
 RSS_FEEDS = [
     "http://feeds.bbci.co.uk/news/world/rss.xml",
-    "https://feeds.npr.org/1004/rss.xml",
-    "https://www.reutersagency.com/feed/?best-topics=world&post_type=best"
+    "https://feeds.npr.org/1004/rss.xml"
+]
+
+# fallback headlines if feeds fail
+FALLBACK_HEADLINES = [
+    "iran launches missile strike amid tensions",
+    "us deploys carrier group to middle east",
+    "china conducts military exercises near taiwan",
+    "russia warns nato of escalation risk",
+    "israel responds to regional attack with airstrike"
 ]
 
 NUCLEAR_STATES = {
@@ -28,6 +36,7 @@ EVENT_KEYWORDS = {
 
 def fetch_headlines():
     headlines = []
+
     for url in RSS_FEEDS:
         feed = feedparser.parse(url)
         for entry in feed.entries[:20]:
@@ -35,6 +44,15 @@ def fetch_headlines():
                 "title": entry.title.lower(),
                 "published": entry.get("published_parsed")
             })
+
+    # fallback if feeds fail
+    if len(headlines) == 0:
+        for h in FALLBACK_HEADLINES:
+            headlines.append({
+                "title": h,
+                "published": None
+            })
+
     return headlines
 
 def detect_actors(text):
@@ -105,7 +123,8 @@ def main():
         "top_drivers": [d[1] for d in drivers],
         "debug": {
             "headline_count": len(headlines),
-            "scored_count": len(drivers)
+            "scored_count": len(drivers),
+            "using_fallback": len(headlines) == len(FALLBACK_HEADLINES)
         }
     }
 
