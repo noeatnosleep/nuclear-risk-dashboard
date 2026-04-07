@@ -38,7 +38,6 @@ BLACKLIST = {
     "alleged","history","affected by war"
 }
 
-# actor → region
 ACTORS = {
     "iran": "middle_east",
     "israel": "middle_east",
@@ -103,6 +102,28 @@ def has_proximity(tokens):
 def extract_actors(tokens):
     return sorted({t for t in tokens if t in ACTORS})
 
+def action_multiplier(matches):
+    # default neutral
+    multiplier = 1.0
+
+    # highest priority
+    if "nuclear" in matches:
+        return 2.0
+
+    # kinetic actions
+    if any(m in ["missile", "strike", "bomb", "attack"] for m in matches):
+        multiplier = 1.4
+
+    # military movement
+    elif any(m in ["deploy", "mobilize"] for m in matches):
+        multiplier = 1.1
+
+    # rhetoric
+    elif any(m in ["threat", "warn"] for m in matches):
+        multiplier = 0.7
+
+    return multiplier
+
 def score_headline(text, age_hours):
     if is_blacklisted(text):
         return 0, [], [], None
@@ -123,7 +144,12 @@ def score_headline(text, age_hours):
     regions = sorted({ACTORS[a] for a in actors})
 
     base = sum(KEYWORDS[m] for m in matches)
-    weighted = base * time_weight(age_hours)
+
+    weighted = (
+        base *
+        time_weight(age_hours) *
+        action_multiplier(matches)
+    )
 
     return weighted, matches, actors, regions
 
@@ -145,10 +171,7 @@ def compute_cluster_score(clusters):
 
         cluster_sum = sum(scores)
 
-        # repetition escalation
         repetition_multiplier = 1 + (len(scores) - 1) * 0.3
-
-        # actor diversity escalation (new)
         actor_multiplier = 1 + (len(actors) - 1) * 0.4
 
         total += cluster_sum * repetition_multiplier * actor_multiplier
@@ -167,8 +190,6 @@ def compute_baseline(clusters):
 def compute_cross_region_bonus(clusters):
     if len(clusters) < 2:
         return 0
-
-    # more regions = more global risk
     return (len(clusters) - 1) * 2.5
 
 def main():
@@ -193,7 +214,6 @@ def main():
     region_count = max(len(clusters), 1)
     normalized_score = total_score / region_count
 
-    # probability curve
     if normalized_score < 5:
         probability = 0.01 + (normalized_score / 5) * 0.05
     elif normalized_score < 20:
