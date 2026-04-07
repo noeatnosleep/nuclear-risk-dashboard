@@ -61,19 +61,30 @@ canvas {
 
 <script>
 async function load() {
-    const risk = await fetch("risk.json").then(r=>r.json());
-    const hist = await fetch("history_log.json").then(r=>r.json());
+    let risk, hist;
+
+    try {
+        risk = await fetch("risk.json").then(r=>r.json());
+    } catch {
+        return;
+    }
+
+    try {
+        hist = await fetch("history_log.json").then(r=>r.json());
+    } catch {
+        hist = { data: [] };
+    }
 
     const prob = risk.probability;
     const riskEl = document.getElementById("risk");
 
-    riskEl.innerText = prob+"%";
+    riskEl.innerText = prob + "%";
     riskEl.className = "risk " + (prob<7?"low":prob<15?"medium":"high");
 
     document.getElementById("updated").innerText = risk.last_updated;
 
     const d = document.getElementById("drivers");
-    d.innerHTML="";
+    d.innerHTML = "";
 
     risk.top_drivers.forEach(x=>{
         d.innerHTML += `
@@ -87,27 +98,26 @@ async function load() {
         </div>`;
     });
 
-    const labels = hist.data.map(x=>x.t.slice(11,16));
-    const values = hist.data.map(x=>x.p);
+    if (hist.data && hist.data.length > 1) {
+        const labels = hist.data.map(x=>x.t.slice(11,16));
+        const values = hist.data.map(x=>x.p);
 
-    new Chart(document.getElementById("chart"), {
-        type: "line",
-        data: {
-            labels: labels,
-            datasets: [{
-                label: "Risk %",
-                data: values,
-                borderWidth: 2,
-                tension: 0.3
-            }]
-        },
-        options: {
-            plugins:{legend:{display:false}},
-            scales:{
-                y:{beginAtZero:true}
+        new Chart(document.getElementById("chart"), {
+            type: "line",
+            data: {
+                labels: labels,
+                datasets: [{
+                    data: values,
+                    borderWidth: 2,
+                    tension: 0.3
+                }]
+            },
+            options: {
+                plugins:{legend:{display:false}},
+                scales:{y:{beginAtZero:true}}
             }
-        }
-    });
+        });
+    }
 }
 
 load();
