@@ -20,8 +20,6 @@ RSS_FEEDS = [
 LOG_FILE = "history_log.json"
 MAX_LOG_ENTRIES = 200
 
-DECAY = 0.3
-
 KEYWORDS = {
     "missile":4,"attack":3,"strike":3,"bomb":4,"drone":2,
     "war":2,"conflict":2,"clash":2,"tension":2,
@@ -75,9 +73,13 @@ def score(text,age):
         return 0,[],[],[]
 
     regions=list({ACTORS[x] for x in actors})
-    base=sum(KEYWORDS[x] for x in matches)
 
-    return base*time_weight(age),matches,actors,regions
+    # pick strongest keyword only
+    strongest=max(matches, key=lambda x: KEYWORDS[x])
+
+    base=KEYWORDS[strongest]
+
+    return base*time_weight(age),strongest,actors,regions
 
 def load(path):
     if not os.path.exists(path):
@@ -114,26 +116,27 @@ def main():
 
     clusters={}
     scored=[]
+    regions=set()
 
     for t,a,l in headlines:
-        s,m,ac,r=score(t,a)
+        s,kw,ac,r=score(t,a)
         if s == 0:
             continue
 
-        # cluster key = actors + top keywords
-        key = tuple(sorted(set(ac))) + tuple(sorted(set(m)))
+        key = tuple(sorted(set(ac))) + (kw,)
 
         if key not in clusters:
             clusters[key] = []
-        clusters[key].append((s,t,m,ac,r,l))
+        clusters[key].append((s,t,kw,ac,r,l))
 
     total=0
-    regions=set()
 
     for key,items in clusters.items():
-        # cap cluster impact (prevents spam amplification)
-        cluster_score = sum(x[0] for x in items)
-        cluster_score = min(cluster_score, max(x[0] for x in items) * 2)
+        # strongest single signal dominates cluster
+        cluster_score = max(x[0] for x in items)
+
+        # small boost for multiple confirmations (capped)
+        cluster_score *= min(1.5, 1 + len(items)*0.1)
 
         total += cluster_score
 
@@ -166,7 +169,7 @@ def main():
             {
                 "title":x[1],
                 "actors":x[3],
-                "matches":x[2],
+                "matches":[x[2]],
                 "source":urlparse(x[5]).netloc,
                 "link":x[5]
             } for x in top
