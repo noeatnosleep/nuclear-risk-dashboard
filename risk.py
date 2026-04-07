@@ -57,7 +57,7 @@ def detect_actors(text):
 
 def pair_multiplier(actors):
     if len(actors) < 2:
-        return 0.5  # allow weak signals
+        return 0.5
 
     for pair in HIGH_RISK_PAIRS:
         if pair.issubset(actors):
@@ -104,6 +104,7 @@ def main():
 
     total_score = 0
     drivers = []
+    scored_count = 0
 
     for h in headlines:
         score, actors = score_headline(h["title"])
@@ -116,8 +117,8 @@ def main():
 
         total_score += score
         drivers.append((score, h["title"]))
+        scored_count += 1
 
-    # FIXED baseline: 0 score ≈ ~2%
     probability = 1 / (1 + math.exp(-0.08 * (total_score - 30)))
 
     drivers = sorted(drivers, reverse=True)[:5]
@@ -126,7 +127,11 @@ def main():
         "last_updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
         "score": round(total_score, 2),
         "probability": round(probability * 100, 2),
-        "top_drivers": [d[1] for d in drivers]
+        "top_drivers": [d[1] for d in drivers],
+        "debug": {
+            "headline_count": len(headlines),
+            "scored_count": scored_count
+        }
     }
 
     with open("risk.json", "w") as f:
