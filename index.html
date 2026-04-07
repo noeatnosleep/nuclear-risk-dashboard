@@ -1,46 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nuclear Risk Dashboard</title>
+    <title>Nuclear Risk Dashboard</title>
 </head>
 <body>
-  <h1>Global Nuclear Risk</h1>
-  <h2 id="risk">Loading...</h2>
-  <p id="date"></p>
 
-  <h3>Top Drivers</h3>
-  <ul id="drivers"></ul>
+<h1>Global Nuclear Risk</h1>
 
-  <h3>Debug</h3>
-  <pre id="debug"></pre>
+<h2 id="risk"></h2>
+<p id="updated"></p>
+
+<h3>Top Drivers</h3>
+<ul id="drivers"></ul>
 
 <script>
-fetch("risk.json")
-  .then(res => res.json())
-  .then(data => {
-    document.getElementById("risk").innerText = data.probability + "%";
+fetch('risk.json')
+.then(r => r.json())
+.then(data => {
+    document.getElementById('risk').innerText = data.probability + "%";
+    document.getElementById('updated').innerText = "Updated: " + data.last_updated;
 
-    document.getElementById("date").innerText =
-      "Updated: " + (data.last_updated || "missing");
+    const list = document.getElementById('drivers');
+    data.top_drivers.forEach(d => {
+        const li = document.createElement('li');
 
-    let list = document.getElementById("drivers");
-    list.innerHTML = "";
+        const a = document.createElement('a');
+        a.href = d.link;
+        a.innerText = d.title;
+        a.target = "_blank";
 
-    if (data.top_drivers && data.top_drivers.length > 0) {
-      data.top_drivers.forEach(d => {
-        let li = document.createElement("li");
-        li.innerText = d;
+        li.appendChild(a);
         list.appendChild(li);
-      });
-    } else {
-      let li = document.createElement("li");
-      li.innerText = "No drivers detected (model too strict)";
-      list.appendChild(li);
-    }
-
-    document.getElementById("debug").innerText =
-      JSON.stringify(data, null, 2);
-  });
+    });
+});
 </script>
+
 </body>
 </html>
