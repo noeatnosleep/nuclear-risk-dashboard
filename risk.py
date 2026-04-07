@@ -9,22 +9,23 @@ RSS_FEEDS = [
     "https://feeds.npr.org/1004/rss.xml"
 ]
 
+# LOWERED weights (critical fix)
 KEYWORDS = {
-    "missile": 5,
-    "attack": 4,
-    "strike": 3,
-    "bomb": 4,
-    "drone": 3,
+    "missile": 3,
+    "attack": 2,
+    "strike": 2,
+    "bomb": 2,
+    "drone": 2,
     "war": 1,
-    "conflict": 2,
-    "clash": 2,
-    "tension": 2,
-    "crisis": 2,
-    "threat": 3,
-    "deploy": 4,
-    "military": 3,
-    "exercise": 2,
-    "nuclear": 10
+    "conflict": 1,
+    "clash": 1,
+    "tension": 1,
+    "crisis": 1,
+    "threat": 2,
+    "deploy": 2,
+    "military": 1,
+    "exercise": 1,
+    "nuclear": 8
 }
 
 ACTION_WORDS = {
@@ -42,7 +43,7 @@ ACTORS = {
     "india","pakistan","north korea","taiwan","gaza"
 }
 
-# region mapping (critical)
+# region mapping
 REGIONS = {
     "iran": "middle_east",
     "israel": "middle_east",
@@ -108,11 +109,12 @@ def score_headline(text):
     base = sum(KEYWORDS[m] for m in matches)
     region = extract_region(tokens)
 
+    # LOWER multipliers
     multiplier = 1.0
     if len(region) >= 2:
-        multiplier = 2.2
+        multiplier = 1.8
     elif len(region) == 1:
-        multiplier = 1.2
+        multiplier = 1.1
 
     return base * multiplier, matches, region
 
@@ -130,7 +132,6 @@ def main():
         if score == 0:
             continue
 
-        # region-level dedup (critical fix)
         if region in seen_regions and len(region) > 0:
             continue
 
@@ -140,7 +141,8 @@ def main():
         drivers.append((score, h, matches))
         scored_count += 1
 
-    probability = 1 / (1 + math.exp(-0.05 * (total_score - 35)))
+    # FIXED calibration
+    probability = 1 / (1 + math.exp(-0.1 * (total_score - 20)))
 
     drivers = sorted(drivers, reverse=True)[:5]
 
