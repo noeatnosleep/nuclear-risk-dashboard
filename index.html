@@ -55,7 +55,6 @@ canvas {
     height: 100% !important;
 }
 
-/* LOADING SPINNER */
 .spinner {
     width: 30px;
     height: 30px;
@@ -134,7 +133,8 @@ canvas {
 </div>
 
 <div class="footer">
-    Signal-based model using global news inputs. Not predictive.
+    Signal-based model using global news inputs. Not predictive.<br>
+    contact me: <a href="mailto:noeatnosleep@pm.me" style="color:#60a5fa;">noeatnosleep@pm.me</a>
 </div>
 
 </div>
@@ -142,7 +142,6 @@ canvas {
 <script>
 async function load() {
     let risk, hist;
-
     const status = document.getElementById("status");
 
     try {
@@ -203,7 +202,6 @@ async function load() {
         });
 
     } else {
-        // NOT loading anymore — waiting for more data
         status.innerHTML = "Waiting for more data points…";
     }
 }
