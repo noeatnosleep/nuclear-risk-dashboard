@@ -4,7 +4,10 @@ import json
 import math
 import re
 import os
-from urllib.parse import urlparse
+
+# ======================
+# CONFIG
+# ======================
 
 RSS_FEEDS = [
     "http://feeds.bbci.co.uk/news/world/rss.xml",
@@ -17,259 +20,273 @@ RSS_FEEDS = [
     "https://www.theguardian.com/world/rss"
 ]
 
+STATE_FILE = "state.json"
 LOG_FILE = "history_log.json"
 MAX_LOG_ENTRIES = 200
 
-HARD = {
-    "missile":5,"attack":4,"strike":4,"bomb":5,
-    "deploy":4,"mobilize":4,"nuclear":10
+DECAY = 0.985
+
+# ======================
+# BASELINE (RESEARCH-DRIVEN)
+# ======================
+
+BASELINE_STATE = {
+    "us_russia": 6.5,
+    "us_china": 5.5,
+    "china_taiwan": 6.5,
+
+    "india_pakistan": 7.5,
+    "china_india": 4.5,
+
+    "iran_us": 6.0,
+    "iran_israel": 7.0,
+
+    "nk_us": 6.5,
+    "nk_sk": 6.0,
+    "nk_japan": 5.5,
+
+    "russia_ukraine": 8.0
 }
 
-SOFT = {
-    "war":2,"conflict":2,"clash":2,"tension":2,
-    "crisis":2,"threat":2,"military":1,"exercise":1,
-    "rhetoric":1
+STATE_WEIGHTS = {
+    "us_russia": 0.25,
+    "us_china": 0.20,
+    "china_taiwan": 0.15,
+
+    "india_pakistan": 0.15,
+    "china_india": 0.08,
+
+    "iran_us": 0.07,
+    "iran_israel": 0.05,
+
+    "nk_us": 0.03,
+    "nk_sk": 0.015,
+    "nk_japan": 0.015,
+
+    "russia_ukraine": 0.07
 }
+
+# ======================
+# ACTORS + MAPPING
+# ======================
 
 ACTORS = {
-    "iran":"middle_east","israel":"middle_east","gaza":"middle_east","lebanon":"middle_east",
-    "russia":"europe","ukraine":"europe",
-    "china":"asia","taiwan":"asia","north korea":"asia",
-    "us":"global","america":"global","united states":"global"
+    "us","america","united states",
+    "russia","china",
+    "india","pakistan",
+    "iran","israel",
+    "north korea","korea","japan",
+    "taiwan","ukraine"
 }
 
-REGION_BASELINE = {
-    "middle_east":2.5,"europe":2.0,"asia":1.5,"global":2.0
+STATE_KEYS = {
+    ("us","russia"): "us_russia",
+    ("us","china"): "us_china",
+    ("china","taiwan"): "china_taiwan",
+
+    ("india","pakistan"): "india_pakistan",
+    ("china","india"): "china_india",
+
+    ("iran","us"): "iran_us",
+    ("iran","israel"): "iran_israel",
+
+    ("north korea","us"): "nk_us",
+    ("north korea","korea"): "nk_sk",
+    ("north korea","japan"): "nk_japan",
+
+    ("russia","ukraine"): "russia_ukraine"
 }
 
-RELATIONSHIP_WEIGHT = {
-    ("iran","us"):2.5,
-    ("iran","israel"):2.2,
-    ("us","china"):2.0,
-    ("russia","ukraine"):1.0,
-    ("israel","gaza"):1.0,
-    ("global","middle_east"):2.0
+# ======================
+# EVENT CLASSIFICATION
+# ======================
+
+INTENT = {"threat","warn","vow","rhetoric"}
+PREP = {"deploy","mobilize","exercise"}
+ACTION = {"attack","strike","bomb","raid"}
+STRATEGIC = {"nuclear","icbm","warhead"}
+
+CLASS_SCORE = {
+    "intent": 0.2,
+    "preparation": 0.5,
+    "action": 0.9,
+    "strategic": 1.5
 }
 
-PERSISTENT_THEATERS = [
-    {"russia","ukraine"},
-    {"israel","gaza"}
-]
-
-ESCALATION_KEYWORDS = {
-    "nuclear","nato","icbm","chemical","retaliation","alliance"
-}
-
-CLASS_PRIORITY = {
-    "strategic":4,
-    "action":3,
-    "preparation":2,
-    "intent":1
-}
-
-EVENT_MULTIPLIER = {
-    "intent":0.3,
-    "preparation":0.7,
-    "action":1.2,
-    "strategic":2.0
-}
+# ======================
+# UTILS
+# ======================
 
 def tokenize(text):
     return re.findall(r"\b[a-z]+\b", text.lower())
 
-def time_weight(h):
-    return math.exp(-h/24)
-
-def relationship_multiplier(actors):
-    actors=list(set(actors))
-    max_w=1.0
-    for i in range(len(actors)):
-        for j in range(i+1,len(actors)):
-            pair=tuple(sorted((actors[i],actors[j])))
-            max_w=max(max_w,RELATIONSHIP_WEIGHT.get(pair,1.0))
-    return max_w
-
-def is_persistent(actors):
-    a=set(actors)
-    return any(t.issubset(a) for t in PERSISTENT_THEATERS)
-
-def has_escalation(tokens):
-    return any(t in ESCALATION_KEYWORDS for t in tokens)
-
-def classify(tokens):
-    if any(t in ["nuclear","icbm"] for t in tokens):
-        return "strategic"
-    if any(t in ["attack","strike","bomb"] for t in tokens):
-        return "action"
-    if any(t in ["deploy","mobilize","exercise"] for t in tokens):
-        return "preparation"
-    if any(t in ["threat","warn","vow","rhetoric"] for t in tokens):
-        return "intent"
-    return None
-
-def fetch():
-    out=[]
-    now=datetime.datetime.utcnow()
-
-    for url in RSS_FEEDS:
-        feed=feedparser.parse(url)
-        for e in feed.entries[:30]:
-            try:
-                title=e.title
-                link=getattr(e,"link","")
-                pub=e.get("published_parsed")
-
-                if pub:
-                    dt=datetime.datetime(*pub[:6])
-                    age=(now-dt).total_seconds()/3600
-                else:
-                    age=6
-
-                out.append((title,age,link))
-            except:
-                continue
-    return out
-
-def score(text,age):
-    tokens=tokenize(text)
-
-    hard=[x for x in tokens if x in HARD]
-    soft=[x for x in tokens if x in SOFT]
-    actors=[x for x in tokens if x in ACTORS]
-
-    if not actors:
-        return None
-
-    if hard:
-        base=max(HARD[x] for x in hard)
-    elif soft:
-        base=max(SOFT[x] for x in soft)*0.25
-    else:
-        return None
-
-    event_class=classify(tokens)
-    mult=EVENT_MULTIPLIER.get(event_class,1.0)
-
-    rel=relationship_multiplier(actors)
-
-    if is_persistent(actors) and not has_escalation(tokens):
-        rel*=0.35
-
-    score=base*mult*rel*time_weight(age)
-
-    return {
-        "score":score,
-        "actors":actors,
-        "class":event_class,
-        "title":text,
-        "link":None
-    }
-
-def load(path):
+def load_json(path, default):
     if not os.path.exists(path):
-        return {}
+        return default
     try:
         with open(path) as f:
             return json.load(f)
     except:
-        return {}
+        return default
 
-def save(path,data):
-    with open(path,"w") as f:
-        json.dump(data,f)
+def save_json(path, data):
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2)
 
-def update_log(prob):
-    log=load(LOG_FILE)
-    arr=log.get("data",[])
-    now=datetime.datetime.utcnow()
+# ======================
+# FETCH
+# ======================
 
-    if not arr:
-        for i in range(5):
-            t=(now - datetime.timedelta(minutes=(5-i)*6)).isoformat()
-            arr.append({"t":t,"p":prob})
-    else:
-        arr.append({"t":now.isoformat(),"p":prob})
+def fetch():
+    out = []
+    now = datetime.datetime.utcnow()
 
-    arr=arr[-MAX_LOG_ENTRIES:]
-    save(LOG_FILE,{"data":arr})
+    for url in RSS_FEEDS:
+        feed = feedparser.parse(url)
+        for e in feed.entries[:30]:
+            try:
+                title = e.title
+                link = getattr(e, "link", "")
+                pub = e.get("published_parsed")
+
+                if pub:
+                    dt = datetime.datetime(*pub[:6])
+                    age = (now - dt).total_seconds() / 3600
+                else:
+                    age = 6
+
+                out.append((title, age, link))
+            except:
+                continue
+
+    return out
+
+# ======================
+# CLASSIFICATION
+# ======================
+
+def classify(tokens):
+    if any(t in STRATEGIC for t in tokens):
+        return "strategic"
+    if any(t in ACTION for t in tokens):
+        return "action"
+    if any(t in PREP for t in tokens):
+        return "preparation"
+    if any(t in INTENT for t in tokens):
+        return "intent"
+    return None
+
+def extract_actors(tokens):
+    return list(set([t for t in tokens if t in ACTORS]))
+
+def map_state(actors):
+    actors = set(actors)
+
+    for pair, key in STATE_KEYS.items():
+        if set(pair).issubset(actors):
+            return key
+
+    return None
+
+def event_impact(event_class, age):
+    base = CLASS_SCORE.get(event_class, 0)
+    decay = math.exp(-age / 24)
+    return base * decay
+
+# ======================
+# MAIN
+# ======================
 
 def main():
-    headlines=fetch()
+    headlines = fetch()
 
-    clusters={}
-    scored=[]
+    # initialize or load state
+    state = load_json(STATE_FILE, BASELINE_STATE.copy())
 
-    for t,a,l in headlines:
-        result=score(t,a)
-        if not result:
+    # decay toward baseline (critical)
+    for k in state:
+        baseline = BASELINE_STATE[k]
+        state[k] = baseline + (state[k] - baseline) * DECAY
+
+    updates = []
+
+    for title, age, link in headlines:
+        tokens = tokenize(title)
+
+        actors = extract_actors(tokens)
+        if not actors:
             continue
 
-        key=tuple(sorted(set(result["actors"])))
+        state_key = map_state(actors)
+        if not state_key:
+            continue
 
-        if key not in clusters:
-            clusters[key]=[]
+        event_class = classify(tokens)
+        if not event_class:
+            continue
 
-        result["link"]=l
-        clusters[key].append(result)
+        impact = event_impact(event_class, age)
 
-    total=0
-    regions=set()
-    top_events=[]
+        # persistent conflict dampening
+        if state_key == "russia_ukraine" and event_class != "strategic":
+            impact *= 0.25
 
-    for key,items in clusters.items():
-        # sort by severity class first, then score
-        items.sort(key=lambda x:(CLASS_PRIORITY.get(x["class"],0),x["score"]), reverse=True)
+        state[state_key] += impact
 
-        primary=items[0]
+        updates.append({
+            "title": title,
+            "actors": actors,
+            "class": event_class,
+            "impact": round(impact, 3),
+            "link": link
+        })
 
-        # dampen secondary signals in same cluster
-        secondary_score=sum(x["score"]*0.3 for x in items[1:])
+    # clamp state
+    for k in state:
+        state[k] = min(10, state[k])
 
-        cluster_score=primary["score"] + secondary_score
+    # ======================
+    # GLOBAL RISK
+    # ======================
 
-        # cap cluster amplification
-        cluster_score*=min(1.3,1+len(items)*0.05)
+    risk = 0
+    for k, v in state.items():
+        risk += v * STATE_WEIGHTS[k]
 
-        total+=cluster_score
+    risk = min(95, round(risk * 10, 2))
 
-        for a in key:
-            regions.add(ACTORS[a])
+    # ======================
+    # LOGGING
+    # ======================
 
-        top_events.append(primary)
+    log = load_json(LOG_FILE, {"data": []})
+    now = datetime.datetime.utcnow()
 
-    baseline=sum(REGION_BASELINE.get(x,1) for x in regions)
-    total+=baseline
+    log["data"].append({
+        "t": now.isoformat(),
+        "p": risk
+    })
 
-    norm=total/max(len(regions),1)
+    log["data"] = log["data"][-MAX_LOG_ENTRIES:]
+    save_json(LOG_FILE, log)
 
-    if norm<5:
-        prob=1+norm
-    elif norm<20:
-        prob=6+(norm-5)*1.2
-    else:
-        prob=min(95,20+(norm-20)*1.5)
+    save_json(STATE_FILE, state)
 
-    prob=round(prob,2)
+    # ======================
+    # OUTPUT
+    # ======================
 
-    update_log(prob)
+    top = sorted(updates, key=lambda x: x["impact"], reverse=True)[:5]
 
-    top_events=sorted(top_events, key=lambda x:x["score"], reverse=True)[:5]
-
-    output={
-        "last_updated":datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
-        "probability":prob,
-        "top_drivers":[
-            {
-                "title":x["title"],
-                "actors":x["actors"],
-                "matches":[x["class"]],
-                "link":x["link"]
-            } for x in top_events
-        ]
+    output = {
+        "last_updated": now.strftime("%Y-%m-%d %H:%M:%S UTC"),
+        "probability": risk,
+        "state": state,
+        "top_drivers": top
     }
 
-    with open("risk.json","w") as f:
-        json.dump(output,f,indent=2)
+    save_json("risk.json", output)
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()
