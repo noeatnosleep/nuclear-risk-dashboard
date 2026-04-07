@@ -6,9 +6,6 @@ import re
 import os
 from urllib.parse import urlparse
 
-# ----------------------------
-# SOURCES
-# ----------------------------
 RSS_FEEDS = [
     "http://feeds.bbci.co.uk/news/world/rss.xml",
     "https://feeds.npr.org/1004/rss.xml",
@@ -20,129 +17,85 @@ RSS_FEEDS = [
     "https://www.theguardian.com/world/rss"
 ]
 
-# ----------------------------
-# STORAGE
-# ----------------------------
 LOG_FILE = "history_log.json"
 MAX_LOG_ENTRIES = 200
 
-# ----------------------------
-# SIGNAL DICTIONARIES
-# ----------------------------
-
-# HARD signals (real-world actions or capabilities)
 HARD = {
-    "missile": 5,
-    "attack": 4,
-    "strike": 4,
-    "bomb": 5,
-    "deploy": 4,
-    "mobilize": 4,
-    "nuclear": 10
+    "missile":5,"attack":4,"strike":4,"bomb":5,
+    "deploy":4,"mobilize":4,"nuclear":10
 }
 
-# SOFT signals (rhetoric / narrative)
 SOFT = {
-    "war": 2,
-    "conflict": 2,
-    "clash": 2,
-    "tension": 2,
-    "crisis": 2,
-    "threat": 2,
-    "military": 1,
-    "exercise": 1,
-    "rhetoric": 1
+    "war":2,"conflict":2,"clash":2,"tension":2,
+    "crisis":2,"threat":2,"military":1,"exercise":1,
+    "rhetoric":1
 }
 
-# ACTORS → REGION
 ACTORS = {
-    "iran": "middle_east",
-    "israel": "middle_east",
-    "gaza": "middle_east",
-    "lebanon": "middle_east",
-
-    "russia": "europe",
-    "ukraine": "europe",
-
-    "china": "asia",
-    "taiwan": "asia",
-    "north korea": "asia",
-
-    "us": "global",
-    "america": "global",
-    "united states": "global"
+    "iran":"middle_east","israel":"middle_east","gaza":"middle_east","lebanon":"middle_east",
+    "russia":"europe","ukraine":"europe",
+    "china":"asia","taiwan":"asia","north korea":"asia",
+    "us":"global","america":"global","united states":"global"
 }
 
-# BASELINE RISK BY REGION PRESENCE
 REGION_BASELINE = {
-    "middle_east": 2.5,
-    "europe": 2.0,
-    "asia": 1.5,
-    "global": 2.0
+    "middle_east":2.5,"europe":2.0,"asia":1.5,"global":2.0
 }
 
-# RELATIONSHIP WEIGHTS
 RELATIONSHIP_WEIGHT = {
-    ("iran", "us"): 2.5,
-    ("iran", "israel"): 2.2,
-    ("us", "china"): 2.0,
-    ("russia", "ukraine"): 2.3,
+    ("iran","us"):2.5,
+    ("iran","israel"):2.2,
+    ("us","china"):2.0,
+    ("russia","ukraine"):1.2,  # reduced (persistent conflict)
 
-    ("israel", "gaza"): 1.2,
-    ("israel", "lebanon"): 1.5,
+    ("israel","gaza"):1.2,
+    ("israel","lebanon"):1.5,
 
-    ("global", "middle_east"): 2.0
+    ("global","middle_east"):2.0
 }
 
-# ----------------------------
-# EVENT CLASSIFICATION
-# ----------------------------
-# Intent < Preparation < Action < Strategic
-
-INTENT_WORDS = {
-    "threat", "warn", "vow", "condemn", "rhetoric", "statement", "says", "calls"
+# Persistent conflicts (always-on)
+PERSISTENT_PAIRS = {
+    ("russia","ukraine"),
+    ("israel","gaza")
 }
 
-PREPARATION_WORDS = {
-    "deploy", "mobilize", "exercise", "drill", "position", "build-up"
-}
-
-ACTION_WORDS = {
-    "attack", "strike", "bomb", "raid", "assault", "shell", "clash"
-}
-
-STRATEGIC_WORDS = {
-    "nuclear", "icbm", "warhead", "deterrence"
-}
+INTENT_WORDS = {"threat","warn","vow","rhetoric","statement","says"}
+PREPARATION_WORDS = {"deploy","mobilize","exercise","drill"}
+ACTION_WORDS = {"attack","strike","bomb","raid","assault"}
+STRATEGIC_WORDS = {"nuclear","icbm","warhead"}
 
 EVENT_MULTIPLIER = {
-    "intent": 0.3,
-    "preparation": 0.7,
-    "action": 1.2,
-    "strategic": 2.0
+    "intent":0.3,
+    "preparation":0.7,
+    "action":1.2,
+    "strategic":2.0
 }
-
-# ----------------------------
-# UTILITIES
-# ----------------------------
 
 def tokenize(text):
     return re.findall(r"\b[a-z]+\b", text.lower())
 
-def time_weight(hours):
-    return math.exp(-hours / 24)
+def time_weight(h):
+    return math.exp(-h/24)
 
 def relationship_multiplier(actors):
-    actors = list(set(actors))
-    max_w = 1.0
+    actors=list(set(actors))
+    max_w=1.0
 
     for i in range(len(actors)):
-        for j in range(i + 1, len(actors)):
-            pair = tuple(sorted((actors[i], actors[j])))
-            w = RELATIONSHIP_WEIGHT.get(pair, 1.0)
-            max_w = max(max_w, w)
+        for j in range(i+1,len(actors)):
+            pair=tuple(sorted((actors[i],actors[j])))
+            w=RELATIONSHIP_WEIGHT.get(pair,1.0)
+            max_w=max(max_w,w)
 
     return max_w
+
+def is_persistent(actors):
+    actors=set(actors)
+    for p in PERSISTENT_PAIRS:
+        if set(p).issubset(actors):
+            return True
+    return False
 
 def classify_event(tokens):
     if any(t in STRATEGIC_WORDS for t in tokens):
@@ -155,76 +108,64 @@ def classify_event(tokens):
         return "intent"
     return None
 
-# ----------------------------
-# FETCH
-# ----------------------------
-
 def fetch():
-    out = []
-    now = datetime.datetime.utcnow()
+    out=[]
+    now=datetime.datetime.utcnow()
 
     for url in RSS_FEEDS:
-        feed = feedparser.parse(url)
+        feed=feedparser.parse(url)
         for e in feed.entries[:30]:
             try:
-                title = e.title
-                link = getattr(e, "link", "")
-                pub = e.get("published_parsed")
+                title=e.title
+                link=getattr(e,"link","")
+                pub=e.get("published_parsed")
 
                 if pub:
-                    dt = datetime.datetime(*pub[:6])
-                    age = (now - dt).total_seconds() / 3600
+                    dt=datetime.datetime(*pub[:6])
+                    age=(now-dt).total_seconds()/3600
                 else:
-                    age = 6
+                    age=6
 
-                out.append((title, age, link))
+                out.append((title,age,link))
             except:
                 continue
-
     return out
 
-# ----------------------------
-# SCORING
-# ----------------------------
+def score(text,age):
+    tokens=tokenize(text)
 
-def score(text, age):
-    tokens = tokenize(text)
-
-    hard = [x for x in tokens if x in HARD]
-    soft = [x for x in tokens if x in SOFT]
-    actors = [x for x in tokens if x in ACTORS]
+    hard=[x for x in tokens if x in HARD]
+    soft=[x for x in tokens if x in SOFT]
+    actors=[x for x in tokens if x in ACTORS]
 
     if not actors:
-        return 0, None, actors, [], False
+        return 0,None,actors,[],False
 
-    regions = list({ACTORS[x] for x in actors})
+    regions=list({ACTORS[x] for x in actors})
 
-    # Base signal
     if hard:
-        strongest = max(hard, key=lambda x: HARD[x])
-        base = HARD[strongest]
-        is_hard = True
+        strongest=max(hard,key=lambda x:HARD[x])
+        base=HARD[strongest]
+        is_hard=True
     elif soft:
-        strongest = max(soft, key=lambda x: SOFT[x])
-        base = SOFT[strongest] * 0.25
-        is_hard = False
+        strongest=max(soft,key=lambda x:SOFT[x])
+        base=SOFT[strongest]*0.25
+        is_hard=False
     else:
-        return 0, None, actors, regions, False
+        return 0,None,actors,regions,False
 
-    # Event class multiplier
-    event_class = classify_event(tokens)
-    event_mult = EVENT_MULTIPLIER.get(event_class, 1.0)
+    event_class=classify_event(tokens)
+    event_mult=EVENT_MULTIPLIER.get(event_class,1.0)
 
-    # Relationship multiplier
-    rel_mult = relationship_multiplier(actors)
+    rel_mult=relationship_multiplier(actors)
 
-    final_score = base * event_mult * rel_mult * time_weight(age)
+    # Persistent conflict dampening
+    if is_persistent(actors) and event_class in ["intent","preparation"]:
+        rel_mult *= 0.5
 
-    return final_score, strongest, actors, regions, is_hard
+    final=base * event_mult * rel_mult * time_weight(age)
 
-# ----------------------------
-# LOGGING
-# ----------------------------
+    return final,strongest,actors,regions,is_hard
 
 def load(path):
     if not os.path.exists(path):
@@ -235,106 +176,99 @@ def load(path):
     except:
         return {}
 
-def save(path, data):
-    with open(path, "w") as f:
-        json.dump(data, f)
+def save(path,data):
+    with open(path,"w") as f:
+        json.dump(data,f)
 
 def update_log(prob):
-    log = load(LOG_FILE)
-    arr = log.get("data", [])
+    log=load(LOG_FILE)
+    arr=log.get("data",[])
 
-    now = datetime.datetime.utcnow()
+    now=datetime.datetime.utcnow()
 
     if not arr:
-        arr = []
+        arr=[]
         for i in range(5):
-            t = (now - datetime.timedelta(minutes=(5 - i) * 6)).isoformat()
-            arr.append({"t": t, "p": prob})
+            t=(now - datetime.timedelta(minutes=(5-i)*6)).isoformat()
+            arr.append({"t":t,"p":prob})
     else:
-        arr.append({"t": now.isoformat(), "p": prob})
+        arr.append({"t":now.isoformat(),"p":prob})
 
-    arr = arr[-MAX_LOG_ENTRIES:]
-    save(LOG_FILE, {"data": arr})
-
-# ----------------------------
-# MAIN
-# ----------------------------
+    arr=arr[-MAX_LOG_ENTRIES:]
+    save(LOG_FILE,{"data":arr})
 
 def main():
-    headlines = fetch()
+    headlines=fetch()
 
-    clusters = {}
-    scored = []
-    regions = set()
-    hard_present = False
+    clusters={}
+    scored=[]
+    regions=set()
+    hard_present=False
 
-    for t, a, l in headlines:
-        s, kw, ac, r, is_hard = score(t, a)
+    for t,a,l in headlines:
+        s,kw,ac,r,is_hard=score(t,a)
 
-        if s == 0 or kw is None:
+        if s==0 or kw is None:
             continue
 
-        key = tuple(sorted(set(ac))) + (kw,)
+        key=tuple(sorted(set(ac)))+(kw,)
 
         if key not in clusters:
-            clusters[key] = []
+            clusters[key]=[]
 
-        clusters[key].append((s, t, kw, ac, r, l, is_hard))
+        clusters[key].append((s,t,kw,ac,r,l,is_hard))
 
-    total = 0
+    total=0
 
-    for key, items in clusters.items():
-        cluster_score = max(x[0] for x in items)
-        cluster_score *= min(1.3, 1 + len(items) * 0.05)
+    for key,items in clusters.items():
+        cluster_score=max(x[0] for x in items)
+        cluster_score*=min(1.3,1+len(items)*0.05)
 
-        total += cluster_score
+        total+=cluster_score
 
         for x in items:
             regions.update(x[4])
             scored.append(x)
             if x[6]:
-                hard_present = True
+                hard_present=True
 
-    baseline = sum(REGION_BASELINE.get(x, 1) for x in regions)
-    total += baseline
+    baseline=sum(REGION_BASELINE.get(x,1) for x in regions)
+    total+=baseline
 
-    norm = total / max(len(regions), 1)
+    norm=total/max(len(regions),1)
 
-    if norm < 5:
-        prob = 1 + norm
-    elif norm < 20:
-        prob = 6 + (norm - 5) * 1.2
+    if norm<5:
+        prob=1+norm
+    elif norm<20:
+        prob=6+(norm-5)*1.2
     else:
-        prob = min(95, 20 + (norm - 20) * 1.5)
+        prob=min(95,20+(norm-20)*1.5)
 
-    # HARD SIGNAL GATE
     if not hard_present:
-        prob = min(prob, 12)
+        prob=min(prob,12)
 
-    prob = round(prob, 2)
+    prob=round(prob,2)
 
     update_log(prob)
 
-    top = sorted(scored, reverse=True)[:5]
+    top=sorted(scored,reverse=True)[:5]
 
-    out = {
-        "last_updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
-        "probability": prob,
-        "top_drivers": [
+    out={
+        "last_updated":datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
+        "probability":prob,
+        "top_drivers":[
             {
-                "title": x[1],
-                "actors": x[3],
-                "matches": [x[2]],
-                "source": urlparse(x[5]).netloc,
-                "link": x[5]
+                "title":x[1],
+                "actors":x[3],
+                "matches":[x[2]],
+                "source":urlparse(x[5]).netloc,
+                "link":x[5]
             } for x in top
         ]
     }
 
-    with open("risk.json", "w") as f:
-        json.dump(out, f, indent=2)
+    with open("risk.json","w") as f:
+        json.dump(out,f,indent=2)
 
-# ----------------------------
-
-if __name__ == "__main__":
+if __name__=="__main__":
     main()
