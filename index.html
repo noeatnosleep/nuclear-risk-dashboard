@@ -39,24 +39,30 @@ h1 {
 .updated {
     text-align: center;
     color: #94a3b8;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .section {
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 .chart-container {
     background: #111827;
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 12px;
+    padding: 16px;
+    height: 260px;   /* critical fix */
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .placeholder {
     text-align: center;
     color: #64748b;
     font-size: 0.9rem;
-    padding: 30px 0;
+    margin-top: -180px;
 }
 
 .card {
@@ -98,7 +104,7 @@ h1 {
     <h2>Trend</h2>
     <div class="chart-container">
         <canvas id="chart"></canvas>
-        <div id="placeholder" class="placeholder">Collecting data… (refresh in ~6 hours)</div>
+        <div id="placeholder" class="placeholder">Collecting data…</div>
     </div>
 </div>
 
@@ -167,8 +173,11 @@ async function load() {
                 }]
             },
             options: {
+                maintainAspectRatio: false,
                 plugins:{legend:{display:false}},
-                scales:{y:{beginAtZero:true}}
+                scales:{
+                    y:{beginAtZero:true}
+                }
             }
         });
     }
