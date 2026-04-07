@@ -10,6 +10,14 @@ from urllib.parse import urlparse
 RSS_FEEDS = [
     "http://feeds.bbci.co.uk/news/world/rss.xml",
     "https://feeds.npr.org/1004/rss.xml"
+    "https://rss.cnn.com/rss/edition_world.rss",
+    "https://feeds.reuters.com/Reuters/worldNews",
+    "https://feeds.reuters.com/reuters/topNews",
+    "https://www.aljazeera.com/xml/rss/all.xml",
+    "https://rss.dw.com/xml/rss-en-all",
+    "https://tass.com/rss/v2.xml",
+    "https://www.theguardian.com/world/rss",
+    "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
 ]
 
 HISTORY_FILE = "history.json"
