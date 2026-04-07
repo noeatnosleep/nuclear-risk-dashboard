@@ -64,7 +64,20 @@ def normalize(word):
     return word[:-1] if word.endswith("s") else word
 
 def tokenize(text):
-    return re.findall(r"\b[a-z]+\b", text.lower())
+    return [normalize(w) for w in re.findall(r"\b[a-z]+\b", text.lower())]
+
+def is_duplicate(a, b):
+    a_tokens = set(tokenize(a))
+    b_tokens = set(tokenize(b))
+    overlap = len(a_tokens & b_tokens)
+    return overlap >= 5
+
+def dedupe(headlines):
+    unique = []
+    for h, age in headlines:
+        if not any(is_duplicate(h, u[0]) for u in unique):
+            unique.append((h, age))
+    return unique
 
 def fetch_headlines():
     headlines = []
@@ -73,8 +86,7 @@ def fetch_headlines():
     for url in RSS_FEEDS:
         try:
             feed = feedparser.parse(url)
-        except Exception as e:
-            print(f"Feed parse failed: {url} -> {e}")
+        except Exception:
             continue
 
         for entry in getattr(feed, "entries", [])[:30]:
@@ -95,7 +107,7 @@ def fetch_headlines():
 
             headlines.append((title, age_hours))
 
-    return headlines
+    return dedupe(headlines)
 
 def time_weight(hours):
     return math.exp(-hours / 24)
@@ -149,55 +161,95 @@ def score_headline(text, age_hours):
 
     return weighted, matches, actors, regions
 
+def cluster_events(scored):
+    clusters = defaultdict(list)
+
+    for score, text, matches, actors, regions in scored:
+        key = tuple(regions)
+        clusters[key].append((score, actors))
+
+    return clusters
+
+def compute_cluster_score(clusters):
+    total = 0
+
+    for region_key, entries in clusters.items():
+        scores = [e[0] for e in entries]
+        actors = set(a for e in entries for a in e[1])
+
+        cluster_sum = sum(scores)
+
+        repetition_multiplier = 1 + (len(scores) - 1) * 0.18
+        actor_multiplier = 1 + (len(actors) - 1) * 0.25
+
+        total += cluster_sum * repetition_multiplier * actor_multiplier
+
+    return total
+
+def compute_baseline(clusters):
+    baseline = 0
+
+    for region_key in clusters.keys():
+        for r in region_key:
+            baseline += REGION_BASELINE.get(r, 1.0)
+
+    return baseline
+
+def compute_cross_region_bonus(clusters):
+    if len(clusters) < 2:
+        return 0
+    return (len(clusters) - 1) * 2.5
+
 def main():
-    try:
-        headlines = fetch_headlines()
-        print(f"Fetched {len(headlines)} headlines")
+    headlines = fetch_headlines()
 
-        scored = []
+    scored = []
 
-        for text, age in headlines:
-            try:
-                score, matches, actors, regions = score_headline(text, age)
-                if score > 0:
-                    scored.append((score, text, matches, actors, regions))
-            except Exception as e:
-                print(f"Scoring failed: {text} -> {e}")
+    for text, age in headlines:
+        score, matches, actors, regions = score_headline(text, age)
 
-        print(f"Scored: {len(scored)}")
+        if score > 0:
+            scored.append((score, text, matches, actors, regions))
 
-        clusters = defaultdict(list)
-        for score, text, matches, actors, regions in scored:
-            clusters[tuple(regions)].append((score, actors))
+    clusters = cluster_events(scored)
 
-        total_score = sum(s for s, _, _, _, _ in scored)
+    event_score = compute_cluster_score(clusters)
+    baseline_score = compute_baseline(clusters)
+    cross_region_bonus = compute_cross_region_bonus(clusters)
 
-        probability = min(0.01 + total_score * 0.01, 0.95)
+    total_score = event_score + baseline_score + cross_region_bonus
 
-        top = sorted(scored, reverse=True)[:5]
+    region_count = max(len(clusters), 1)
+    normalized_score = total_score / region_count
 
-        data = {
-            "last_updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
-            "score": round(total_score, 2),
-            "probability": round(probability * 100, 2),
-            "top_drivers": [
-                f"{t[1]} (actors: {t[3]}, matches: {t[2]})" for t in top
-            ],
-            "debug": {
-                "headline_count": len(headlines),
-                "scored_count": len(scored),
-                "unique_regions": len(clusters)
-            }
+    if normalized_score < 5:
+        probability = 0.01 + (normalized_score / 5) * 0.05
+    elif normalized_score < 20:
+        probability = 0.06 + (normalized_score - 5) * 0.012
+    else:
+        probability = 1 / (1 + math.exp(-0.12 * (normalized_score - 25)))
+
+    probability = min(probability, 0.95)
+
+    top = sorted(scored, reverse=True)[:5]
+
+    data = {
+        "last_updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
+        "score": round(total_score, 2),
+        "normalized_score": round(normalized_score, 2),
+        "probability": round(probability * 100, 2),
+        "top_drivers": [
+            f"{t[1]} (actors: {t[3]}, matches: {t[2]})" for t in top
+        ],
+        "debug": {
+            "headline_count": len(headlines),
+            "scored_count": len(scored),
+            "unique_regions": len(clusters)
         }
+    }
 
-        with open("risk.json", "w") as f:
-            json.dump(data, f, indent=2)
-
-        print("risk.json written successfully")
-
-    except Exception as e:
-        print("FATAL ERROR:", e)
-        raise
+    with open("risk.json", "w") as f:
+        json.dump(data, f, indent=2)
 
 if __name__ == "__main__":
     main()
