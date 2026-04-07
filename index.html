@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nuclear Risk Dashboard</title>
+</head>
+<body>
+  <h1>Global Nuclear Risk</h1>
+  <h2 id="risk">Loading...</h2>
+  <p id="date"></p>
+
+  <h3>Top Drivers</h3>
+  <ul id="drivers"></ul>
+
+<script>
+fetch("risk.json")
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById("risk").innerText = data.probability + "%";
+    document.getElementById("date").innerText = "Updated: " + data.date;
+
+    let list = document.getElementById("drivers");
+    list.innerHTML = "";
+
+    data.top_drivers.forEach(d => {
+      let li = document.createElement("li");
+      li.innerText = d;
+      list.appendChild(li);
+    });
+  });
+</script>
+</body>
+</html>
