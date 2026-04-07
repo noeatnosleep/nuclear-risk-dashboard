@@ -72,19 +72,13 @@ def important_tokens(tokens):
 def is_duplicate(a, b):
     ta = tokenize(a)
     tb = tokenize(b)
-
-    important_a = important_tokens(ta)
-    important_b = important_tokens(tb)
-
-    overlap = len(important_a & important_b)
-
-    return overlap >= 2
+    return len(important_tokens(ta) & important_tokens(tb)) >= 2
 
 def dedupe(headlines):
     unique = []
-    for h, age in headlines:
+    for h, age, link in headlines:
         if not any(is_duplicate(h, u[0]) for u in unique):
-            unique.append((h, age))
+            unique.append((h, age, link))
     return unique
 
 def fetch_headlines():
@@ -100,6 +94,7 @@ def fetch_headlines():
         for entry in getattr(feed, "entries", [])[:30]:
             try:
                 title = entry.title
+                link = getattr(entry, "link", None)
             except:
                 continue
 
@@ -113,7 +108,7 @@ def fetch_headlines():
             except:
                 age_hours = 6
 
-            headlines.append((title, age_hours))
+            headlines.append((title, age_hours, link))
 
     return dedupe(headlines)
 
@@ -152,10 +147,7 @@ def score_headline(text, age_hours):
     tokens = tokenize(text)
     matches = [t for t in tokens if t in KEYWORDS]
 
-    if not matches:
-        return 0, [], [], None
-
-    if not has_proximity(tokens):
+    if not matches or not has_proximity(tokens):
         return 0, [], [], None
 
     actors = extract_actors(tokens)
@@ -171,85 +163,78 @@ def score_headline(text, age_hours):
 
 def cluster_events(scored):
     clusters = defaultdict(list)
-
-    for score, text, matches, actors, regions in scored:
-        key = tuple(regions)
-        clusters[key].append((score, actors))
-
+    for score, text, matches, actors, regions, link in scored:
+        clusters[tuple(regions)].append((score, actors))
     return clusters
 
 def compute_cluster_score(clusters):
     total = 0
-
     for region_key, entries in clusters.items():
         scores = [e[0] for e in entries]
         actors = set(a for e in entries for a in e[1])
 
         cluster_sum = sum(scores)
-
         repetition_multiplier = 1 + (len(scores) - 1) * 0.18
         actor_multiplier = 1 + (len(actors) - 1) * 0.25
+        damping = 1 / (1 + (len(scores) - 1) * 0.4)
 
-        # NEW: intra-region damping
-        intra_region_damping = 1 / (1 + (len(scores) - 1) * 0.4)
-
-        total += cluster_sum * repetition_multiplier * actor_multiplier * intra_region_damping
+        total += cluster_sum * repetition_multiplier * actor_multiplier * damping
 
     return total
 
 def compute_baseline(clusters):
     baseline = 0
-
     for region_key in clusters.keys():
         for r in region_key:
             baseline += REGION_BASELINE.get(r, 1.0)
-
     return baseline
 
 def compute_cross_region_bonus(clusters):
-    if len(clusters) < 2:
-        return 0
-    return (len(clusters) - 1) * 2.5
+    return (len(clusters) - 1) * 2.5 if len(clusters) > 1 else 0
 
 def main():
     headlines = fetch_headlines()
-
     scored = []
 
-    for text, age in headlines:
+    for text, age, link in headlines:
         score, matches, actors, regions = score_headline(text, age)
         if score > 0:
-            scored.append((score, text, matches, actors, regions))
+            scored.append((score, text, matches, actors, regions, link))
 
     clusters = cluster_events(scored)
 
-    event_score = compute_cluster_score(clusters)
-    baseline_score = compute_baseline(clusters)
-    cross_region_bonus = compute_cross_region_bonus(clusters)
-
-    total_score = event_score + baseline_score + cross_region_bonus
+    total_score = (
+        compute_cluster_score(clusters)
+        + compute_baseline(clusters)
+        + compute_cross_region_bonus(clusters)
+    )
 
     region_count = max(len(clusters), 1)
-    normalized_score = total_score / region_count
+    normalized = total_score / region_count
 
-    if normalized_score < 5:
-        probability = 0.01 + (normalized_score / 5) * 0.05
-    elif normalized_score < 20:
-        probability = 0.06 + (normalized_score - 5) * 0.012
+    if normalized < 5:
+        prob = 0.01 + (normalized / 5) * 0.05
+    elif normalized < 20:
+        prob = 0.06 + (normalized - 5) * 0.012
     else:
-        probability = 1 / (1 + math.exp(-0.12 * (normalized_score - 25)))
+        prob = 1 / (1 + math.exp(-0.12 * (normalized - 25)))
 
-    probability = min(probability, 0.95)
+    prob = min(prob, 0.95)
 
     top = sorted(scored, reverse=True)[:5]
 
     data = {
         "last_updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
         "score": round(total_score, 2),
-        "normalized_score": round(normalized_score, 2),
-        "probability": round(probability * 100, 2),
+        "normalized_score": round(normalized, 2),
+        "probability": round(prob * 100, 2),
         "top_drivers": [
-            f"{t[1]} (actors: {t[3]}, matches: {t[2]})" for t in top
+            {
+                "title": t[1],
+                "actors": t[3],
+                "matches": t[2],
+                "link": t[5]
+            } for t in top
         ],
         "debug": {
             "headline_count": len(headlines),
