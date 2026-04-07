@@ -9,7 +9,6 @@ RSS_FEEDS = [
     "https://feeds.npr.org/1004/rss.xml"
 ]
 
-# LOWERED weights (critical fix)
 KEYWORDS = {
     "missile": 3,
     "attack": 2,
@@ -38,12 +37,6 @@ BLACKLIST = {
     "alleged","history","affected by war"
 }
 
-ACTORS = {
-    "us","russia","china","israel","iran",
-    "india","pakistan","north korea","taiwan","gaza"
-}
-
-# region mapping
 REGIONS = {
     "iran": "middle_east",
     "israel": "middle_east",
@@ -109,10 +102,9 @@ def score_headline(text):
     base = sum(KEYWORDS[m] for m in matches)
     region = extract_region(tokens)
 
-    # LOWER multipliers
     multiplier = 1.0
     if len(region) >= 2:
-        multiplier = 1.8
+        multiplier = 1.5
     elif len(region) == 1:
         multiplier = 1.1
 
@@ -141,14 +133,26 @@ def main():
         drivers.append((score, h, matches))
         scored_count += 1
 
-    # FIXED calibration
-    probability = 1 / (1 + math.exp(-0.1 * (total_score - 20)))
+    # ---- CRITICAL FIXES BELOW ----
+
+    # normalize score by number of regions (prevents multi-region inflation)
+    if len(seen_regions) > 0:
+        normalized_score = total_score / len(seen_regions)
+    else:
+        normalized_score = 0
+
+    # soft cap (prevents runaway spikes)
+    normalized_score = min(normalized_score, 20)
+
+    # calibrated sigmoid (correct scale)
+    probability = 1 / (1 + math.exp(-0.15 * (normalized_score - 12)))
 
     drivers = sorted(drivers, reverse=True)[:5]
 
     data = {
         "last_updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
         "score": round(total_score, 2),
+        "normalized_score": round(normalized_score, 2),
         "probability": round(probability * 100, 2),
         "top_drivers": [f"{d[1]} (matches: {d[2]})" for d in drivers],
         "debug": {
