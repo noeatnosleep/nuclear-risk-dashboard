@@ -15,7 +15,7 @@ KEYWORDS = {
     "strike": 3,
     "bomb": 4,
     "drone": 3,
-    "war": 1,  # reduced weight (very noisy)
+    "war": 1,
     "conflict": 2,
     "clash": 2,
     "tension": 2,
@@ -28,24 +28,32 @@ KEYWORDS = {
 }
 
 ACTION_WORDS = {
-    "launch","launched","strike","attack","deploy","threat",
+    "launch","strike","attack","deploy","threat",
     "warn","escalate","mobilize","bomb"
 }
 
-# hard noise filters
 BLACKLIST = {
-    "war crime",
-    "charged",
-    "court",
-    "trial",
-    "alleged",
-    "history",
-    "affected by war"
+    "war crime","charged","court","trial",
+    "alleged","history","affected by war"
 }
 
 ACTORS = {
     "us","russia","china","israel","iran",
-    "india","pakistan","north korea","taiwan"
+    "india","pakistan","north korea","taiwan","gaza"
+}
+
+# region mapping (critical)
+REGIONS = {
+    "iran": "middle_east",
+    "israel": "middle_east",
+    "gaza": "middle_east",
+    "us": "global",
+    "russia": "europe",
+    "china": "asia",
+    "taiwan": "asia",
+    "india": "asia",
+    "pakistan": "asia",
+    "north korea": "asia"
 }
 
 def normalize(word):
@@ -77,8 +85,12 @@ def has_proximity(tokens):
                 return True
     return False
 
-def extract_cluster(tokens):
-    return tuple(sorted(set(t for t in tokens if t in ACTORS)))
+def extract_region(tokens):
+    regions = set()
+    for t in tokens:
+        if t in REGIONS:
+            regions.add(REGIONS[t])
+    return tuple(sorted(regions))
 
 def score_headline(text):
     if is_blacklisted(text):
@@ -94,34 +106,35 @@ def score_headline(text):
         return 0, [], ()
 
     base = sum(KEYWORDS[m] for m in matches)
-    actors = extract_cluster(tokens)
+    region = extract_region(tokens)
 
     multiplier = 1.0
-    if len(actors) >= 2:
-        multiplier = 2.5
-    elif len(actors) == 1:
-        multiplier = 1.3
+    if len(region) >= 2:
+        multiplier = 2.2
+    elif len(region) == 1:
+        multiplier = 1.2
 
-    return base * multiplier, matches, actors
+    return base * multiplier, matches, region
 
 def main():
     headlines = fetch_headlines()
 
     total_score = 0
     drivers = []
-    seen_clusters = set()
+    seen_regions = set()
     scored_count = 0
 
     for h in headlines:
-        score, matches, cluster = score_headline(h)
+        score, matches, region = score_headline(h)
 
         if score == 0:
             continue
 
-        if cluster in seen_clusters and len(cluster) > 0:
+        # region-level dedup (critical fix)
+        if region in seen_regions and len(region) > 0:
             continue
 
-        seen_clusters.add(cluster)
+        seen_regions.add(region)
 
         total_score += score
         drivers.append((score, h, matches))
@@ -139,7 +152,7 @@ def main():
         "debug": {
             "headline_count": len(headlines),
             "scored_count": scored_count,
-            "unique_clusters": len(seen_clusters)
+            "unique_regions": len(seen_regions)
         }
     }
 
