@@ -12,6 +12,8 @@ RSS_FEEDS = [
     "https://feeds.npr.org/1004/rss.xml"
 ]
 
+WIRE_SOURCES = ["reuters", "apnews"]
+
 SOURCE_WEIGHTS = {
     "bbc.co.uk": 1.0,
     "bbc.com": 1.0,
@@ -80,6 +82,12 @@ def get_source(link):
         return urlparse(link).netloc.replace("www.", "")
     except:
         return "unknown"
+
+def normalize_source(source):
+    for wire in WIRE_SOURCES:
+        if wire in source:
+            return wire  # collapse to single identity
+    return source
 
 def get_source_weight(link):
     try:
@@ -192,9 +200,12 @@ def score_headline(text, age_hours, link):
 
 def group_events(scored):
     groups = defaultdict(list)
+
     for score, text, matches, actors, regions, link, source in scored:
         key = tuple(sorted(set(matches + actors)))
-        groups[key].append((score, source))
+        normalized_source = normalize_source(source)
+        groups[key].append((score, normalized_source))
+
     return groups
 
 def load_history():
@@ -220,8 +231,8 @@ def apply_persistence(groups, history):
 
         base = sum(scores)
         confirmation = 1 + (len(sources) - 1) * 0.5
-        current = base * confirmation
 
+        current = base * confirmation
         prev = history.get(str(key), 0)
         combined = current + prev * DECAY
 
