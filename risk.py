@@ -4,11 +4,21 @@ import json
 import math
 import re
 from collections import defaultdict
+from urllib.parse import urlparse
 
 RSS_FEEDS = [
     "http://feeds.bbci.co.uk/news/world/rss.xml",
     "https://feeds.npr.org/1004/rss.xml"
 ]
+
+SOURCE_WEIGHTS = {
+    "bbc.co.uk": 1.0,
+    "npr.org": 0.9,
+    "reuters.com": 1.1,
+    "apnews.com": 1.1
+}
+
+DEFAULT_SOURCE_WEIGHT = 0.75
 
 KEYWORDS = {
     "missile": 4,
@@ -60,6 +70,16 @@ REGION_BASELINE = {
     "global": 1.0
 }
 
+def get_source_weight(link):
+    try:
+        domain = urlparse(link).netloc.lower()
+        for k in SOURCE_WEIGHTS:
+            if k in domain:
+                return SOURCE_WEIGHTS[k]
+    except:
+        pass
+    return DEFAULT_SOURCE_WEIGHT
+
 def normalize(word):
     return word[:-1] if word.endswith("s") else word
 
@@ -70,9 +90,7 @@ def important_tokens(tokens):
     return {t for t in tokens if t in KEYWORDS or t in ACTORS}
 
 def is_duplicate(a, b):
-    ta = tokenize(a)
-    tb = tokenize(b)
-    return len(important_tokens(ta) & important_tokens(tb)) >= 2
+    return len(important_tokens(tokenize(a)) & important_tokens(tokenize(b))) >= 2
 
 def dedupe(headlines):
     unique = []
@@ -140,7 +158,7 @@ def action_multiplier(matches):
         return 0.7
     return 1.0
 
-def score_headline(text, age_hours):
+def score_headline(text, age_hours, link):
     if is_blacklisted(text):
         return 0, [], [], None
 
@@ -159,7 +177,9 @@ def score_headline(text, age_hours):
     base = sum(KEYWORDS[m] for m in matches)
     weighted = base * time_weight(age_hours) * action_multiplier(matches)
 
-    return weighted, matches, actors, regions
+    source_weight = get_source_weight(link)
+
+    return weighted * source_weight, matches, actors, regions
 
 def cluster_events(scored):
     clusters = defaultdict(list)
@@ -197,7 +217,7 @@ def main():
     scored = []
 
     for text, age, link in headlines:
-        score, matches, actors, regions = score_headline(text, age)
+        score, matches, actors, regions = score_headline(text, age, link)
         if score > 0:
             scored.append((score, text, matches, actors, regions, link))
 
