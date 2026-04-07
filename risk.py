@@ -53,6 +53,14 @@ REGIONS = {
     "north korea": "asia"
 }
 
+# persistent baseline risk per region
+REGION_BASELINE = {
+    "middle_east": 2.5,
+    "europe": 2.0,
+    "asia": 1.5,
+    "global": 1.0
+}
+
 def normalize(word):
     return word[:-1] if word.endswith("s") else word
 
@@ -72,14 +80,13 @@ def fetch_headlines():
                 published_dt = datetime.datetime(*published[:6])
                 age_hours = (now - published_dt).total_seconds() / 3600
             else:
-                age_hours = 6  # default fallback
+                age_hours = 6
 
             headlines.append((entry.title, age_hours))
 
     return headlines
 
 def time_weight(hours):
-    # decay: fresh news matters more
     return math.exp(-hours / 24)
 
 def is_blacklisted(text):
@@ -115,7 +122,6 @@ def score_headline(text, age_hours):
     if not regions:
         return 0, [], []
 
-    # time weighting
     weighted = base * time_weight(age_hours)
 
     return weighted, matches, regions
@@ -134,13 +140,19 @@ def compute_cluster_score(clusters):
 
     for region_key, scores in clusters.items():
         cluster_sum = sum(scores)
-
-        # escalation multiplier for repeated signals
         multiplier = 1 + (len(scores) - 1) * 0.3
-
         total += cluster_sum * multiplier
 
     return total
+
+def compute_baseline(clusters):
+    baseline = 0
+
+    for region_key in clusters.keys():
+        for r in region_key:
+            baseline += REGION_BASELINE.get(r, 1.0)
+
+    return baseline
 
 def main():
     headlines = fetch_headlines()
@@ -155,20 +167,19 @@ def main():
 
     clusters = cluster_events(scored)
 
-    total_score = compute_cluster_score(clusters)
+    event_score = compute_cluster_score(clusters)
+    baseline_score = compute_baseline(clusters)
+
+    total_score = event_score + baseline_score
 
     region_count = max(len(clusters), 1)
     normalized_score = total_score / region_count
 
-    # LOW RANGE: smooth floor
+    # smooth curve
     if normalized_score < 5:
-        probability = 0.01 + (normalized_score / 5) * 0.04
-
-    # MID RANGE
+        probability = 0.01 + (normalized_score / 5) * 0.05
     elif normalized_score < 20:
-        probability = 0.05 + (normalized_score - 5) * 0.01
-
-    # HIGH RANGE (logistic)
+        probability = 0.06 + (normalized_score - 5) * 0.012
     else:
         probability = 1 / (1 + math.exp(-0.12 * (normalized_score - 25)))
 
