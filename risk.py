@@ -99,13 +99,16 @@ def update_log(prob):
     log=load(LOG_FILE)
     arr=log.get("data",[])
 
-    now=datetime.datetime.utcnow().isoformat()
+    now=datetime.datetime.utcnow()
 
     if not arr:
-        # seed with 5 identical points for instant chart
-        arr=[{"t":now,"p":prob} for _ in range(5)]
+        # seed with time-separated points (fixes invisible chart)
+        arr=[]
+        for i in range(5):
+            t = (now - datetime.timedelta(minutes=(5-i)*6)).isoformat()
+            arr.append({"t":t,"p":prob})
     else:
-        arr.append({"t":now,"p":prob})
+        arr.append({"t":now.isoformat(),"p":prob})
 
     arr=arr[-MAX_LOG_ENTRIES:]
     save(LOG_FILE,{"data":arr})
