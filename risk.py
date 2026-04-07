@@ -155,7 +155,6 @@ def extract_actors(tokens):
     return sorted({t for t in tokens if t in ACTORS})
 
 def action_multiplier(matches):
-    # Capability > intent
     if "nuclear" in matches:
         return 2.5
     if any(m in ["missile","strike","bomb","attack"] for m in matches):
@@ -185,40 +184,41 @@ def score_headline(text, age_hours, link):
     base = sum(KEYWORDS[m] for m in matches)
     weighted = base * time_weight(age_hours) * action_multiplier(matches)
 
-    source_weight = get_source_weight(link)
+    return weighted * get_source_weight(link), matches, actors, regions
 
-    return weighted * source_weight, matches, actors, regions
+# NEW: group events by signature
+def group_events(scored):
+    groups = defaultdict(list)
 
-def cluster_events(scored):
-    clusters = defaultdict(list)
     for score, text, matches, actors, regions, link, source in scored:
-        clusters[tuple(regions)].append((score, actors))
-    return clusters
+        key = tuple(sorted(set(matches + actors)))
+        groups[key].append((score, source))
 
-def compute_cluster_score(clusters):
+    return groups
+
+def compute_cluster_score(scored):
+    groups = group_events(scored)
     total = 0
-    for region_key, entries in clusters.items():
+
+    for group, entries in groups.items():
         scores = [e[0] for e in entries]
-        actors = set(a for e in entries for a in e[1])
+        sources = set(e[1] for e in entries)
 
-        cluster_sum = sum(scores)
-        repetition_multiplier = 1 + (len(scores) - 1) * 0.18
-        actor_multiplier = 1 + (len(actors) - 1) * 0.25
-        damping = 1 / (1 + (len(scores) - 1) * 0.4)
+        base = sum(scores)
 
-        total += cluster_sum * repetition_multiplier * actor_multiplier * damping
+        # confirmation multiplier
+        confirmation = 1 + (len(sources) - 1) * 0.5
+
+        total += base * confirmation
 
     return total
 
-def compute_baseline(clusters):
-    baseline = 0
-    for region_key in clusters.keys():
-        for r in region_key:
-            baseline += REGION_BASELINE.get(r, 1.0)
-    return baseline
-
-def compute_cross_region_bonus(clusters):
-    return (len(clusters) - 1) * 2.5 if len(clusters) > 1 else 0
+def compute_regions(scored):
+    regions = set()
+    for _, _, _, _, r, _, _ in scored:
+        for x in r:
+            regions.add(x)
+    return regions
 
 def main():
     headlines = fetch_headlines()
@@ -230,15 +230,14 @@ def main():
             source = get_source(link)
             scored.append((score, text, matches, actors, regions, link, source))
 
-    clusters = cluster_events(scored)
+    total_score = compute_cluster_score(scored)
 
-    total_score = (
-        compute_cluster_score(clusters)
-        + compute_baseline(clusters)
-        + compute_cross_region_bonus(clusters)
-    )
+    regions = compute_regions(scored)
+    baseline = sum(REGION_BASELINE.get(r, 1.0) for r in regions)
 
-    region_count = max(len(clusters), 1)
+    total_score += baseline
+
+    region_count = max(len(regions), 1)
     normalized = total_score / region_count
 
     if normalized < 5:
@@ -269,7 +268,7 @@ def main():
         "debug": {
             "headline_count": len(headlines),
             "scored_count": len(scored),
-            "unique_regions": len(clusters)
+            "unique_regions": len(regions)
         }
     }
 
