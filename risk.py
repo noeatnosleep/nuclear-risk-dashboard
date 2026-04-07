@@ -103,26 +103,15 @@ def extract_actors(tokens):
     return sorted({t for t in tokens if t in ACTORS})
 
 def action_multiplier(matches):
-    # default neutral
-    multiplier = 1.0
-
-    # highest priority
     if "nuclear" in matches:
         return 2.0
-
-    # kinetic actions
-    if any(m in ["missile", "strike", "bomb", "attack"] for m in matches):
-        multiplier = 1.4
-
-    # military movement
-    elif any(m in ["deploy", "mobilize"] for m in matches):
-        multiplier = 1.1
-
-    # rhetoric
-    elif any(m in ["threat", "warn"] for m in matches):
-        multiplier = 0.7
-
-    return multiplier
+    if any(m in ["missile","strike","bomb","attack"] for m in matches):
+        return 1.4
+    if any(m in ["deploy","mobilize"] for m in matches):
+        return 1.1
+    if any(m in ["threat","warn"] for m in matches):
+        return 0.7
+    return 1.0
 
 def score_headline(text, age_hours):
     if is_blacklisted(text):
@@ -145,11 +134,7 @@ def score_headline(text, age_hours):
 
     base = sum(KEYWORDS[m] for m in matches)
 
-    weighted = (
-        base *
-        time_weight(age_hours) *
-        action_multiplier(matches)
-    )
+    weighted = base * time_weight(age_hours) * action_multiplier(matches)
 
     return weighted, matches, actors, regions
 
@@ -172,7 +157,9 @@ def compute_cluster_score(clusters):
         cluster_sum = sum(scores)
 
         repetition_multiplier = 1 + (len(scores) - 1) * 0.3
-        actor_multiplier = 1 + (len(actors) - 1) * 0.4
+
+        # reduced actor influence
+        actor_multiplier = 1 + (len(actors) - 1) * 0.25
 
         total += cluster_sum * repetition_multiplier * actor_multiplier
 
