@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Nuclear Risk Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -17,21 +18,39 @@
 fetch('risk.json')
 .then(r => r.json())
 .then(data => {
+
     document.getElementById('risk').innerText = data.probability + "%";
     document.getElementById('updated').innerText = "Updated: " + data.last_updated;
 
     const list = document.getElementById('drivers');
+    list.innerHTML = "";
+
     data.top_drivers.forEach(d => {
         const li = document.createElement('li');
 
-        const a = document.createElement('a');
-        a.href = d.link;
-        a.innerText = d.title;
-        a.target = "_blank";
+        // Title (link if available)
+        if (d.link) {
+            const a = document.createElement('a');
+            a.href = d.link;
+            a.innerText = d.title;
+            a.target = "_blank";
+            li.appendChild(a);
+        } else {
+            li.innerText = d.title;
+        }
 
-        li.appendChild(a);
+        // Metadata
+        const meta = document.createElement('div');
+        meta.style.fontSize = "0.9em";
+        meta.style.color = "gray";
+        meta.innerText = "actors: [" + d.actors.join(", ") + "] | matches: [" + d.matches.join(", ") + "]";
+
+        li.appendChild(document.createElement('br'));
+        li.appendChild(meta);
+
         list.appendChild(li);
     });
+
 });
 </script>
 
