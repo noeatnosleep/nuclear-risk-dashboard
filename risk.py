@@ -46,24 +46,25 @@ RELATIONSHIP_WEIGHT = {
     ("iran","us"):2.5,
     ("iran","israel"):2.2,
     ("us","china"):2.0,
-    ("russia","ukraine"):1.2,  # reduced (persistent conflict)
-
-    ("israel","gaza"):1.2,
-    ("israel","lebanon"):1.5,
-
+    ("russia","ukraine"):1.0,  # reduced heavily
+    ("israel","gaza"):1.0,
     ("global","middle_east"):2.0
 }
 
-# Persistent conflicts (always-on)
-PERSISTENT_PAIRS = {
-    ("russia","ukraine"),
-    ("israel","gaza")
+PERSISTENT_THEATERS = [
+    {"russia","ukraine"},
+    {"israel","gaza"}
+]
+
+ESCALATION_KEYWORDS = {
+    "nuclear","nato","tactical","icbm","chemical","retaliation",
+    "direct conflict","alliance","world war"
 }
 
-INTENT_WORDS = {"threat","warn","vow","rhetoric","statement","says"}
-PREPARATION_WORDS = {"deploy","mobilize","exercise","drill"}
-ACTION_WORDS = {"attack","strike","bomb","raid","assault"}
-STRATEGIC_WORDS = {"nuclear","icbm","warhead"}
+INTENT_WORDS = {"threat","warn","vow","rhetoric"}
+PREPARATION_WORDS = {"deploy","mobilize","exercise"}
+ACTION_WORDS = {"attack","strike","bomb"}
+STRATEGIC_WORDS = {"nuclear","icbm"}
 
 EVENT_MULTIPLIER = {
     "intent":0.3,
@@ -85,17 +86,16 @@ def relationship_multiplier(actors):
     for i in range(len(actors)):
         for j in range(i+1,len(actors)):
             pair=tuple(sorted((actors[i],actors[j])))
-            w=RELATIONSHIP_WEIGHT.get(pair,1.0)
-            max_w=max(max_w,w)
+            max_w=max(max_w,RELATIONSHIP_WEIGHT.get(pair,1.0))
 
     return max_w
 
-def is_persistent(actors):
-    actors=set(actors)
-    for p in PERSISTENT_PAIRS:
-        if set(p).issubset(actors):
-            return True
-    return False
+def is_persistent_theater(actors):
+    a=set(actors)
+    return any(t.issubset(a) for t in PERSISTENT_THEATERS)
+
+def has_escalation(tokens):
+    return any(t in ESCALATION_KEYWORDS for t in tokens)
 
 def classify_event(tokens):
     if any(t in STRATEGIC_WORDS for t in tokens):
@@ -144,12 +144,10 @@ def score(text,age):
     regions=list({ACTORS[x] for x in actors})
 
     if hard:
-        strongest=max(hard,key=lambda x:HARD[x])
-        base=HARD[strongest]
+        base=max(HARD[x] for x in hard)
         is_hard=True
     elif soft:
-        strongest=max(soft,key=lambda x:SOFT[x])
-        base=SOFT[strongest]*0.25
+        base=max(SOFT[x] for x in soft)*0.25
         is_hard=False
     else:
         return 0,None,actors,regions,False
@@ -159,13 +157,13 @@ def score(text,age):
 
     rel_mult=relationship_multiplier(actors)
 
-    # Persistent conflict dampening
-    if is_persistent(actors) and event_class in ["intent","preparation"]:
-        rel_mult *= 0.5
+    # THEATER SUPPRESSION (critical fix)
+    if is_persistent_theater(actors) and not has_escalation(tokens):
+        rel_mult *= 0.35  # aggressive suppression
 
     final=base * event_mult * rel_mult * time_weight(age)
 
-    return final,strongest,actors,regions,is_hard
+    return final,"",actors,regions,is_hard
 
 def load(path):
     if not os.path.exists(path):
@@ -200,37 +198,21 @@ def update_log(prob):
 def main():
     headlines=fetch()
 
-    clusters={}
-    scored=[]
+    total=0
     regions=set()
     hard_present=False
 
     for t,a,l in headlines:
-        s,kw,ac,r,is_hard=score(t,a)
+        s,_,_,r,is_hard=score(t,a)
 
-        if s==0 or kw is None:
+        if s==0:
             continue
 
-        key=tuple(sorted(set(ac)))+(kw,)
+        total+=s
+        regions.update(r)
 
-        if key not in clusters:
-            clusters[key]=[]
-
-        clusters[key].append((s,t,kw,ac,r,l,is_hard))
-
-    total=0
-
-    for key,items in clusters.items():
-        cluster_score=max(x[0] for x in items)
-        cluster_score*=min(1.3,1+len(items)*0.05)
-
-        total+=cluster_score
-
-        for x in items:
-            regions.update(x[4])
-            scored.append(x)
-            if x[6]:
-                hard_present=True
+        if is_hard:
+            hard_present=True
 
     baseline=sum(REGION_BASELINE.get(x,1) for x in regions)
     total+=baseline
@@ -251,24 +233,11 @@ def main():
 
     update_log(prob)
 
-    top=sorted(scored,reverse=True)[:5]
-
-    out={
-        "last_updated":datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
-        "probability":prob,
-        "top_drivers":[
-            {
-                "title":x[1],
-                "actors":x[3],
-                "matches":[x[2]],
-                "source":urlparse(x[5]).netloc,
-                "link":x[5]
-            } for x in top
-        ]
-    }
-
     with open("risk.json","w") as f:
-        json.dump(out,f,indent=2)
+        json.dump({
+            "last_updated":datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
+            "probability":prob
+        },f,indent=2)
 
 if __name__=="__main__":
     main()
