@@ -12,18 +12,10 @@ STATE_FILE = "risk.json"
 HISTORY_FILE = "history_log.json"
 
 
-# -----------------------------
-# CONFIG
-# -----------------------------
-
 DECAY_RATE = 0.15
 EMPTY_RUN_DECAY_MULTIPLIER = 2.5
 MAX_STEP_CHANGE = 1.25
 
-
-# -----------------------------
-# UTIL
-# -----------------------------
 
 def clamp(val, lo, hi):
     return max(lo, min(hi, val))
@@ -38,6 +30,26 @@ def load_previous_state():
         return BASELINE_STATE.copy()
 
 
+def load_history():
+    try:
+        with open(HISTORY_FILE, "r") as f:
+            data = json.load(f)
+
+            # CRITICAL FIX
+            if isinstance(data, list):
+                return data
+            else:
+                return []
+
+    except:
+        return []
+
+
+def save_history(history):
+    with open(HISTORY_FILE, "w") as f:
+        json.dump(history, f, indent=2)
+
+
 def save_state(probability, state, top_drivers):
     payload = {
         "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
@@ -49,11 +61,7 @@ def save_state(probability, state, top_drivers):
     with open(STATE_FILE, "w") as f:
         json.dump(payload, f, indent=2)
 
-    try:
-        with open(HISTORY_FILE, "r") as f:
-            history = json.load(f)
-    except:
-        history = []
+    history = load_history()
 
     history.append({
         "ts": payload["last_updated"],
@@ -62,13 +70,8 @@ def save_state(probability, state, top_drivers):
 
     history = history[-200:]
 
-    with open(HISTORY_FILE, "w") as f:
-        json.dump(history, f, indent=2)
+    save_history(history)
 
-
-# -----------------------------
-# CORE
-# -----------------------------
 
 def decay_toward_baseline(current, baseline, multiplier=1.0):
     new_state = {}
@@ -128,10 +131,6 @@ def compute_probability(state):
     return prob * 100
 
 
-# -----------------------------
-# MAIN
-# -----------------------------
-
 def run(events):
 
     print("EVENT COUNT:", len(events))
@@ -158,10 +157,6 @@ def run(events):
 
     return probability, state, top_drivers
 
-
-# -----------------------------
-# ENTRY POINT (CRITICAL FIX)
-# -----------------------------
 
 if __name__ == "__main__":
     events = fetch_events()
