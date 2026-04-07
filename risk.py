@@ -10,14 +10,29 @@ RSS_FEEDS = [
 ]
 
 KEYWORDS = {
-    "missile","ballistic","airstrike","strike","attack","bomb","drone",
-    "conflict","clash","tension","crisis","threat",
-    "deploy","deployment","mobilize","exercise","drill",
-    "military","war","nuclear","atomic"
+    "missile": 5,
+    "attack": 4,
+    "strike": 3,
+    "bomb": 4,
+    "drone": 3,
+    "war": 3,
+    "conflict": 2,
+    "clash": 2,
+    "tension": 2,
+    "crisis": 2,
+    "threat": 3,
+    "deploy": 4,
+    "military": 3,
+    "exercise": 2,
+    "nuclear": 10
+}
+
+ACTORS = {
+    "us","russia","china","israel","iran",
+    "india","pakistan","north korea","taiwan"
 }
 
 def normalize(word):
-    # crude plural normalization
     if word.endswith("s"):
         return word[:-1]
     return word
@@ -34,41 +49,67 @@ def fetch_headlines():
             headlines.append(entry.title)
     return headlines
 
+def extract_cluster(tokens):
+    return tuple(sorted(set(t for t in tokens if t in ACTORS)))
+
 def score_headline(text):
     tokens = tokenize(text)
-    matches = [w for w in tokens if w in KEYWORDS]
-    score = len(matches)
-    return score, matches
+
+    matches = [t for t in tokens if t in KEYWORDS]
+    if not matches:
+        return 0, [], ()
+
+    base = sum(KEYWORDS[m] for m in matches)
+
+    actors = extract_cluster(tokens)
+
+    # escalation weighting
+    multiplier = 1.0
+    if len(actors) >= 2:
+        multiplier = 2.5
+    elif len(actors) == 1:
+        multiplier = 1.3
+
+    return base * multiplier, matches, actors
 
 def main():
     headlines = fetch_headlines()
 
     total_score = 0
     drivers = []
+    seen_clusters = set()
     scored_count = 0
 
     for h in headlines:
-        score, matches = score_headline(h)
+        score, matches, cluster = score_headline(h)
 
         if score == 0:
             continue
+
+        # deduplicate similar geopolitical events
+        if cluster in seen_clusters and len(cluster) > 0:
+            continue
+
+        seen_clusters.add(cluster)
 
         total_score += score
         drivers.append((score, h, matches))
         scored_count += 1
 
-    probability = min(100, total_score * 1.2)
+    # sigmoid (bounded)
+    probability = 1 / (1 + math.exp(-0.05 * (total_score - 40)))
 
     drivers = sorted(drivers, reverse=True)[:5]
 
     data = {
         "last_updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
-        "score": total_score,
-        "probability": round(probability, 2),
+        "score": round(total_score, 2),
+        "probability": round(probability * 100, 2),
         "top_drivers": [f"{d[1]} (matches: {d[2]})" for d in drivers],
         "debug": {
             "headline_count": len(headlines),
-            "scored_count": scored_count
+            "scored_count": scored_count,
+            "unique_clusters": len(seen_clusters)
         }
     }
 
