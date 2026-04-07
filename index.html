@@ -1,56 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Nuclear Risk Dashboard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Nuclear Risk Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.risk {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.low { color: #22c55e; }
+.medium { color: #f59e0b; }
+.high { color: #ef4444; }
+
+.updated {
+    color: #94a3b8;
+    margin-bottom: 30px;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.driver {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.driver a {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+.meta {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin-top: 5px;
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #64748b;
+}
+</style>
 </head>
+
 <body>
+<div class="container">
 
 <h1>Global Nuclear Risk</h1>
 
-<h2 id="risk"></h2>
-<p id="updated"></p>
+<div id="risk" class="risk">--%</div>
+<div id="updated" class="updated"></div>
 
-<h3>Top Drivers</h3>
-<ul id="drivers"></ul>
+<div class="section">
+    <h2>Top Drivers</h2>
+    <div id="drivers"></div>
+</div>
+
+<div class="section">
+    <h2>Trend (coming next)</h2>
+    <div style="color:#64748b;">Historical graph will appear here</div>
+</div>
+
+<div class="footer">
+    Signal-based model using global news inputs. Not predictive.
+</div>
+
+</div>
 
 <script>
-fetch('risk.json')
-.then(r => r.json())
+fetch("risk.json")
+.then(res => res.json())
 .then(data => {
 
-    document.getElementById('risk').innerText = data.probability + "%";
-    document.getElementById('updated').innerText = "Updated: " + data.last_updated;
+    const riskEl = document.getElementById("risk");
+    const updatedEl = document.getElementById("updated");
+    const driversEl = document.getElementById("drivers");
 
-    const list = document.getElementById('drivers');
-    list.innerHTML = "";
+    const prob = data.probability;
+
+    riskEl.innerText = prob + "%";
+
+    if (prob < 7) riskEl.classList.add("low");
+    else if (prob < 15) riskEl.classList.add("medium");
+    else riskEl.classList.add("high");
+
+    updatedEl.innerText = "Updated: " + data.last_updated;
 
     data.top_drivers.forEach(d => {
-        const li = document.createElement('li');
+        const div = document.createElement("div");
+        div.className = "driver";
 
-        // clickable title
-        if (d.link) {
-            const a = document.createElement('a');
-            a.href = d.link;
-            a.innerText = d.title;
-            a.target = "_blank";
-            li.appendChild(a);
-        } else {
-            li.innerText = d.title;
-        }
+        div.innerHTML = `
+            <a href="${d.link}" target="_blank">${d.title}</a>
+            <div class="meta">
+                source: ${d.source} |
+                actors: [${d.actors.join(", ")}] |
+                matches: [${d.matches.join(", ")}]
+            </div>
+        `;
 
-        const meta = document.createElement('div');
-        meta.style.fontSize = "0.9em";
-        meta.style.color = "gray";
-        meta.innerText =
-            "source: " + d.source +
-            " | actors: [" + d.actors.join(", ") + "]" +
-            " | matches: [" + d.matches.join(", ") + "]";
-
-        li.appendChild(document.createElement('br'));
-        li.appendChild(meta);
-
-        list.appendChild(li);
+        driversEl.appendChild(div);
     });
 
 });
