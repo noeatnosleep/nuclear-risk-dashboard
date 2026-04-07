@@ -60,10 +60,12 @@ ESCALATION_KEYWORDS = {
     "nuclear","nato","icbm","chemical","retaliation","alliance"
 }
 
-INTENT_WORDS = {"threat","warn","vow","rhetoric"}
-PREPARATION_WORDS = {"deploy","mobilize","exercise"}
-ACTION_WORDS = {"attack","strike","bomb"}
-STRATEGIC_WORDS = {"nuclear","icbm"}
+CLASS_PRIORITY = {
+    "strategic":4,
+    "action":3,
+    "preparation":2,
+    "intent":1
+}
 
 EVENT_MULTIPLIER = {
     "intent":0.3,
@@ -95,13 +97,13 @@ def has_escalation(tokens):
     return any(t in ESCALATION_KEYWORDS for t in tokens)
 
 def classify(tokens):
-    if any(t in STRATEGIC_WORDS for t in tokens):
+    if any(t in ["nuclear","icbm"] for t in tokens):
         return "strategic"
-    if any(t in ACTION_WORDS for t in tokens):
+    if any(t in ["attack","strike","bomb"] for t in tokens):
         return "action"
-    if any(t in PREPARATION_WORDS for t in tokens):
+    if any(t in ["deploy","mobilize","exercise"] for t in tokens):
         return "preparation"
-    if any(t in INTENT_WORDS for t in tokens):
+    if any(t in ["threat","warn","vow","rhetoric"] for t in tokens):
         return "intent"
     return None
 
@@ -136,14 +138,14 @@ def score(text,age):
     actors=[x for x in tokens if x in ACTORS]
 
     if not actors:
-        return 0,actors
+        return None
 
     if hard:
         base=max(HARD[x] for x in hard)
     elif soft:
         base=max(SOFT[x] for x in soft)*0.25
     else:
-        return 0,actors
+        return None
 
     event_class=classify(tokens)
     mult=EVENT_MULTIPLIER.get(event_class,1.0)
@@ -153,7 +155,15 @@ def score(text,age):
     if is_persistent(actors) and not has_escalation(tokens):
         rel*=0.35
 
-    return base*mult*rel*time_weight(age),actors
+    score=base*mult*rel*time_weight(age)
+
+    return {
+        "score":score,
+        "actors":actors,
+        "class":event_class,
+        "title":text,
+        "link":None
+    }
 
 def load(path):
     if not os.path.exists(path):
@@ -187,32 +197,45 @@ def main():
     headlines=fetch()
 
     clusters={}
+    scored=[]
 
     for t,a,l in headlines:
-        s,actors=score(t,a)
-        if s==0:
+        result=score(t,a)
+        if not result:
             continue
 
-        key=tuple(sorted(set(actors)))
+        key=tuple(sorted(set(result["actors"])))
 
         if key not in clusters:
             clusters[key]=[]
 
-        clusters[key].append(s)
+        result["link"]=l
+        clusters[key].append(result)
 
     total=0
     regions=set()
+    top_events=[]
 
-    for key,vals in clusters.items():
-        base=max(vals)
+    for key,items in clusters.items():
+        # sort by severity class first, then score
+        items.sort(key=lambda x:(CLASS_PRIORITY.get(x["class"],0),x["score"]), reverse=True)
 
-        # cluster boost capped
-        boost=1+min(len(vals)*0.08,0.4)
+        primary=items[0]
 
-        total+=base*boost
+        # dampen secondary signals in same cluster
+        secondary_score=sum(x["score"]*0.3 for x in items[1:])
+
+        cluster_score=primary["score"] + secondary_score
+
+        # cap cluster amplification
+        cluster_score*=min(1.3,1+len(items)*0.05)
+
+        total+=cluster_score
 
         for a in key:
             regions.add(ACTORS[a])
+
+        top_events.append(primary)
 
     baseline=sum(REGION_BASELINE.get(x,1) for x in regions)
     total+=baseline
@@ -230,11 +253,23 @@ def main():
 
     update_log(prob)
 
+    top_events=sorted(top_events, key=lambda x:x["score"], reverse=True)[:5]
+
+    output={
+        "last_updated":datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
+        "probability":prob,
+        "top_drivers":[
+            {
+                "title":x["title"],
+                "actors":x["actors"],
+                "matches":[x["class"]],
+                "link":x["link"]
+            } for x in top_events
+        ]
+    }
+
     with open("risk.json","w") as f:
-        json.dump({
-            "last_updated":datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
-            "probability":prob
-        },f,indent=2)
+        json.dump(output,f,indent=2)
 
 if __name__=="__main__":
     main()
