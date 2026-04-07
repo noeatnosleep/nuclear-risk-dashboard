@@ -5,13 +5,13 @@
 <title>Nuclear Risk Dashboard</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <style>
 body {
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    font-family: system-ui;
     background: #0f172a;
     color: #e2e8f0;
-    margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -20,55 +20,26 @@ body {
     padding: 20px;
 }
 
-h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
 .risk {
     font-size: 4rem;
     font-weight: bold;
 }
 
-.low { color: #22c55e; }
-.medium { color: #f59e0b; }
-.high { color: #ef4444; }
-
-.updated {
-    color: #94a3b8;
-    margin-bottom: 30px;
-}
-
-.section {
-    margin-top: 40px;
-}
+.low {color:#22c55e;}
+.medium {color:#f59e0b;}
+.high {color:#ef4444;}
 
 .driver {
-    background: #1e293b;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 12px;
+    background:#1e293b;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:10px;
 }
 
-.driver a {
-    color: #60a5fa;
-    text-decoration: none;
-}
+a {color:#60a5fa;}
 
-.driver a:hover {
-    text-decoration: underline;
-}
-
-.meta {
-    font-size: 0.85rem;
-    color: #94a3b8;
-    margin-top: 6px;
-}
-
-.footer {
-    margin-top: 50px;
-    font-size: 0.8rem;
-    color: #64748b;
+canvas {
+    margin-top:20px;
 }
 </style>
 </head>
@@ -77,66 +48,69 @@ h1 {
 <div class="container">
 
 <h1>Global Nuclear Risk</h1>
-
 <div id="risk" class="risk">--%</div>
-<div id="updated" class="updated"></div>
+<div id="updated"></div>
 
-<div class="section">
-    <h2>Trend</h2>
-    <div style="color:#64748b;">
-        Historical graph will appear here
-    </div>
-</div>
+<h2>Trend</h2>
+<canvas id="chart"></canvas>
 
-<div class="section">
-    <h2>Top Drivers</h2>
-    <div id="drivers"></div>
-</div>
-
-<div class="footer">
-    Signal-based model using global news inputs. Not predictive.
-</div>
+<h2>Top Drivers</h2>
+<div id="drivers"></div>
 
 </div>
 
 <script>
-fetch("risk.json")
-.then(res => res.json())
-.then(data => {
+async function load() {
+    const risk = await fetch("risk.json").then(r=>r.json());
+    const hist = await fetch("history_log.json").then(r=>r.json());
 
+    const prob = risk.probability;
     const riskEl = document.getElementById("risk");
-    const updatedEl = document.getElementById("updated");
-    const driversEl = document.getElementById("drivers");
 
-    const prob = data.probability;
+    riskEl.innerText = prob+"%";
+    riskEl.className = "risk " + (prob<7?"low":prob<15?"medium":"high");
 
-    riskEl.innerText = prob + "%";
+    document.getElementById("updated").innerText = risk.last_updated;
 
-    if (prob < 7) riskEl.classList.add("low");
-    else if (prob < 15) riskEl.classList.add("medium");
-    else riskEl.classList.add("high");
+    const d = document.getElementById("drivers");
+    d.innerHTML="";
 
-    updatedEl.innerText = "Updated: " + data.last_updated;
-
-    driversEl.innerHTML = "";
-
-    data.top_drivers.forEach(d => {
-        const div = document.createElement("div");
-        div.className = "driver";
-
-        div.innerHTML = `
-            <a href="${d.link}" target="_blank">${d.title}</a>
-            <div class="meta">
-                source: ${d.source} |
-                actors: [${d.actors.join(", ")}] |
-                matches: [${d.matches.join(", ")}]
+    risk.top_drivers.forEach(x=>{
+        d.innerHTML += `
+        <div class="driver">
+            <a href="${x.link}" target="_blank">${x.title}</a>
+            <div style="font-size:12px;color:#94a3b8">
+                source: ${x.source} |
+                actors: [${x.actors.join(", ")}] |
+                matches: [${x.matches.join(", ")}]
             </div>
-        `;
-
-        driversEl.appendChild(div);
+        </div>`;
     });
 
-});
+    const labels = hist.data.map(x=>x.t.slice(11,16));
+    const values = hist.data.map(x=>x.p);
+
+    new Chart(document.getElementById("chart"), {
+        type: "line",
+        data: {
+            labels: labels,
+            datasets: [{
+                label: "Risk %",
+                data: values,
+                borderWidth: 2,
+                tension: 0.3
+            }]
+        },
+        options: {
+            plugins:{legend:{display:false}},
+            scales:{
+                y:{beginAtZero:true}
+            }
+        }
+    });
+}
+
+load();
 </script>
 
 </body>
