@@ -57,7 +57,7 @@ def detect_actors(text):
 
 def pair_multiplier(actors):
     if len(actors) < 2:
-        return 0  # HARD FILTER — ignore weak signals
+        return 0.5  # allow weak signals instead of killing them
 
     for pair in HIGH_RISK_PAIRS:
         if pair.issubset(actors):
@@ -70,7 +70,7 @@ def pair_multiplier(actors):
     if len(actors.intersection(NUCLEAR_STATES)) >= 2:
         return 2.2
 
-    return 0  # ignore irrelevant multi-actor noise
+    return 1.0
 
 def score_headline(text):
     base = 0
@@ -114,18 +114,16 @@ def main():
         age = hours_old(h["published"])
         score = apply_decay(score, age)
 
-        if score < 1:
-            continue  # remove weak residual noise
-
         total_score += score
         drivers.append((score, h["title"]))
 
-    probability = 1 / (1 + math.exp(-0.1 * (total_score - 15)))
+    # FIXED normalization (0 score ≈ 1–2%)
+    probability = 1 / (1 + math.exp(-0.08 * (total_score - 25)))
 
     drivers = sorted(drivers, reverse=True)[:5]
 
     data = {
-        "date": str(datetime.date.today()),
+        "last_updated": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
         "score": round(total_score, 2),
         "probability": round(probability * 100, 2),
         "top_drivers": [d[1] for d in drivers]
