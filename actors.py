@@ -1,23 +1,21 @@
-# actors.py
+import re
 
-# Canonical nuclear-relevant actor names
-ACTORS = {
-    "us": ["united states", "u.s.", "u.s", "america", "american"],
-    "russia": ["russia", "russian"],
-    "china": ["china", "chinese"],
-    "india": ["india", "indian"],
-    "pakistan": ["pakistan"],
-    "iran": ["iran", "iranian"],
-    "israel": ["israel", "israeli"],
-    "nk": ["north korea", "dprk"],
-    "sk": ["south korea"],
-    "japan": ["japan", "japanese"],
-    "ukraine": ["ukraine", "ukrainian"],
-    "taiwan": ["taiwan"]
+ACTOR_PATTERNS = {
+    "us": r"\b(united states|u\.s\.|u\.s|america|washington)\b",
+    "russia": r"\brussia|russian\b",
+    "china": r"\bchina|chinese\b",
+    "india": r"\bindia|indian\b",
+    "pakistan": r"\bpakistan\b",
+    "iran": r"\biran|iranian\b",
+    "israel": r"\bisrael|israeli\b",
+    "nk": r"\b(north korea|dprk)\b",
+    "sk": r"\b(south korea)\b",
+    "japan": r"\bjapan|japanese\b",
+    "ukraine": r"\bukraine|ukrainian\b",
+    "taiwan": r"\btaiwan\b"
 }
 
 
-# All valid state pairs (must match states.py keys)
 STATE_KEYS = [
     "us_russia",
     "us_china",
@@ -37,9 +35,8 @@ def extract_actors(text):
     text = text.lower()
     found = set()
 
-    for actor, keywords in ACTORS.items():
-        for k in keywords:
-            if k in text:
-                found.add(actor)
+    for actor, pattern in ACTOR_PATTERNS.items():
+        if re.search(pattern, text):
+            found.add(actor)
 
     return list(found)
