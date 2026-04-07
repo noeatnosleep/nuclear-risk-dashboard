@@ -15,7 +15,7 @@ KEYWORDS = {
     "strike": 3,
     "bomb": 4,
     "drone": 3,
-    "war": 2,
+    "war": 1,  # reduced weight (very noisy)
     "conflict": 2,
     "clash": 2,
     "tension": 2,
@@ -27,11 +27,20 @@ KEYWORDS = {
     "nuclear": 10
 }
 
-# must indicate active or forward-looking event
 ACTION_WORDS = {
-    "launch","launched","strike","strikes","attack","attacks",
-    "deploy","deploys","threat","threatens","warn","warns",
-    "escalate","escalation","mobilize","mobilization"
+    "launch","launched","strike","attack","deploy","threat",
+    "warn","escalate","mobilize","bomb"
+}
+
+# hard noise filters
+BLACKLIST = {
+    "war crime",
+    "charged",
+    "court",
+    "trial",
+    "alleged",
+    "history",
+    "affected by war"
 }
 
 ACTORS = {
@@ -56,22 +65,32 @@ def fetch_headlines():
             headlines.append(entry.title)
     return headlines
 
-def is_actionable(tokens):
-    return any(t in ACTION_WORDS for t in tokens)
+def is_blacklisted(text):
+    text = text.lower()
+    return any(b in text for b in BLACKLIST)
+
+def has_proximity(tokens):
+    for i, t in enumerate(tokens):
+        if t in KEYWORDS:
+            window = tokens[max(0, i-3):i+4]
+            if any(w in ACTION_WORDS for w in window):
+                return True
+    return False
 
 def extract_cluster(tokens):
     return tuple(sorted(set(t for t in tokens if t in ACTORS)))
 
 def score_headline(text):
+    if is_blacklisted(text):
+        return 0, [], ()
+
     tokens = tokenize(text)
 
     matches = [t for t in tokens if t in KEYWORDS]
-
     if not matches:
         return 0, [], ()
 
-    # FILTER: must be actionable
-    if not is_actionable(tokens):
+    if not has_proximity(tokens):
         return 0, [], ()
 
     base = sum(KEYWORDS[m] for m in matches)
