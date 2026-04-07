@@ -1,115 +1,170 @@
-import datetime
 import json
-import os
+import math
+from datetime import datetime
 
-from actors import extract_actors
-from events import classify, event_impact
-from states import BASELINE_STATE, STATE_WEIGHTS, map_state
-from ingest import fetch
+from states import BASELINE_STATE
+from actors import STATE_KEYS
+from events import classify_event
 
-STATE_FILE = "state.json"
-LOG_FILE = "history_log.json"
-MAX_LOG_ENTRIES = 200
+STATE_FILE = "risk.json"
+HISTORY_FILE = "history_log.json"
 
-DECAY = 0.985
-MAX_IMPACT_PER_STATE_PER_CYCLE = 3.0
 
-def load_json(path, default):
-    if not os.path.exists(path):
-        return default
+# -----------------------------
+# CONFIG
+# -----------------------------
+
+DECAY_RATE = 0.15                 # pull toward baseline every run
+EMPTY_RUN_DECAY_MULTIPLIER = 2.5  # stronger decay when no events
+MAX_STEP_CHANGE = 1.25            # per-run clamp per pair
+
+
+# -----------------------------
+# UTIL
+# -----------------------------
+
+def clamp(val, lo, hi):
+    return max(lo, min(hi, val))
+
+
+def load_previous_state():
     try:
-        with open(path) as f:
-            return json.load(f)
+        with open(STATE_FILE, "r") as f:
+            data = json.load(f)
+            return data.get("state", BASELINE_STATE.copy())
     except:
-        return default
+        return BASELINE_STATE.copy()
 
-def save_json(path, data):
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
 
-def extract_source(link):
-    try:
-        return link.split("/")[2]
-    except:
-        return ""
-
-def main():
-    headlines = fetch()
-
-    state = load_json(STATE_FILE, BASELINE_STATE.copy())
-
-    # decay toward baseline
-    for k in state:
-        baseline = BASELINE_STATE[k]
-        state[k] = baseline + (state[k] - baseline) * DECAY
-
-    updates = []
-    cycle_impact = {k: 0 for k in state}
-
-    for title, age, link in headlines:
-        actors = extract_actors(title)
-        if len(actors) < 2:
-            continue
-
-        state_key = map_state(actors)
-        if not state_key:
-            continue
-
-        event_class = classify(title)
-        if not event_class:
-            continue
-
-        impact = event_impact(event_class, age)
-
-        if state_key == "russia_ukraine" and event_class != "strategic":
-            impact *= 0.25
-
-        remaining = MAX_IMPACT_PER_STATE_PER_CYCLE - cycle_impact[state_key]
-        if remaining <= 0:
-            continue
-
-        impact = min(impact, remaining)
-
-        state[state_key] += impact
-        cycle_impact[state_key] += impact
-
-        updates.append({
-            "title": title,
-            "actors": actors,
-            "class": event_class,
-            "impact": round(impact, 3),
-            "link": link,
-            "source": extract_source(link)
-        })
-
-    for k in state:
-        state[k] = min(10, state[k])
-
-    weighted_sum = sum(state[k] * STATE_WEIGHTS[k] for k in state)
-    baseline_sum = sum(BASELINE_STATE[k] * STATE_WEIGHTS[k] for k in BASELINE_STATE)
-
-    normalized = weighted_sum / baseline_sum
-    risk = min(95, round(normalized * 12, 2))
-
-    log = load_json(LOG_FILE, {"data": []})
-    now = datetime.datetime.utcnow()
-
-    log["data"].append({"t": now.isoformat(), "p": risk})
-    log["data"] = log["data"][-MAX_LOG_ENTRIES:]
-
-    save_json(LOG_FILE, log)
-    save_json(STATE_FILE, state)
-
-    top = sorted(updates, key=lambda x: x["impact"], reverse=True)[:5]
-
-    output = {
-        "last_updated": now.strftime("%Y-%m-%d %H:%M:%S UTC"),
-        "probability": risk,
+def save_state(probability, state, top_drivers):
+    payload = {
+        "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
+        "probability": round(probability, 2),
         "state": state,
-        "top_drivers": top
+        "top_drivers": top_drivers[:5]
     }
 
-    save_json("risk.json", output)
+    with open(STATE_FILE, "w") as f:
+        json.dump(payload, f, indent=2)
 
-if __name__ == "__main__":
-    main()
+    try:
+        with open(HISTORY_FILE, "r") as f:
+            history = json.load(f)
+    except:
+        history = []
+
+    history.append({
+        "ts": payload["last_updated"],
+        "probability": payload["probability"]
+    })
+
+    history = history[-200:]
+
+    with open(HISTORY_FILE, "w") as f:
+        json.dump(history, f, indent=2)
+
+
+# -----------------------------
+# CORE
+# -----------------------------
+
+def decay_toward_baseline(current, baseline, multiplier=1.0):
+    new_state = {}
+    for k in current:
+        delta = baseline[k] - current[k]
+        new_state[k] = current[k] + (delta * DECAY_RATE * multiplier)
+    return new_state
+
+
+def apply_event_impacts(state, events):
+    updates = {k: 0.0 for k in state}
+
+    top_drivers = []
+
+    for e in events:
+        classified = classify_event(e)
+        if not classified:
+            continue
+
+        actors = classified["actors"]
+        pair = "_".join(sorted(actors))
+
+        if pair not in updates:
+            continue
+
+        impact = classified["impact"]
+
+        updates[pair] += impact
+
+        top_drivers.append({
+            "title": e["title"],
+            "actors": actors,
+            "class": classified["class"],
+            "impact": round(impact, 3),
+            "link": e.get("link"),
+            "source": e.get("source")
+        })
+
+    return updates, top_drivers
+
+
+def apply_updates_with_clamp(state, updates):
+    new_state = {}
+
+    for k in state:
+        step = clamp(updates[k], -MAX_STEP_CHANGE, MAX_STEP_CHANGE)
+        new_state[k] = clamp(state[k] + step, 0, 10)
+
+    return new_state
+
+
+def compute_probability(state):
+    # weighted average (simple for now)
+    vals = list(state.values())
+    avg = sum(vals) / len(vals)
+
+    # sigmoid normalize into %
+    prob = 1 / (1 + math.exp(-(avg - 5)))
+
+    return prob * 100
+
+
+# -----------------------------
+# MAIN ENTRY
+# -----------------------------
+
+def run(events):
+
+    prev_state = load_previous_state()
+
+    # 1. classify + extract impacts
+    updates, top_drivers = apply_event_impacts(prev_state, events)
+
+    total_signal = sum(abs(v) for v in updates.values())
+
+    # -----------------------------
+    # CRITICAL FIX: NO-EVENT HANDLING
+    # -----------------------------
+    if total_signal == 0:
+        # no valid events → DO NOT accumulate
+        state = decay_toward_baseline(
+            prev_state,
+            BASELINE_STATE,
+            multiplier=EMPTY_RUN_DECAY_MULTIPLIER
+        )
+    else:
+        # normal flow
+        decayed = decay_toward_baseline(prev_state, BASELINE_STATE)
+        state = apply_updates_with_clamp(decayed, updates)
+
+    # -----------------------------
+    # probability
+    # -----------------------------
+    probability = compute_probability(state)
+
+    # -----------------------------
+    # save
+    # -----------------------------
+    save_state(probability, state, top_drivers)
+
+    return probability, state, top_drivers
