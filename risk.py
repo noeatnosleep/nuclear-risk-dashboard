@@ -17,11 +17,10 @@ RSS_FEEDS = [
     "https://www.theguardian.com/world/rss"
 ]
 
-HISTORY_FILE = "history.json"
 LOG_FILE = "history_log.json"
+MAX_LOG_ENTRIES = 200
 
 DECAY = 0.3
-MAX_LOG_ENTRIES = 200
 
 KEYWORDS = {
     "missile":4,"attack":3,"strike":3,"bomb":4,"drone":2,
@@ -42,9 +41,6 @@ REGION_BASELINE = {
 
 def tokenize(text):
     return re.findall(r"\b[a-z]+\b", text.lower())
-
-def normalize(text):
-    return " ".join(sorted(set(tokenize(text))))
 
 def time_weight(h):
     return math.exp(-h/24)
@@ -72,16 +68,16 @@ def fetch():
 
 def score(text,age):
     t=tokenize(text)
-    m=[x for x in t if x in KEYWORDS]
-    a=[x for x in t if x in ACTORS]
+    matches=[x for x in t if x in KEYWORDS]
+    actors=[x for x in t if x in ACTORS]
 
-    if not m or not a:
+    if not matches or not actors:
         return 0,[],[],[]
 
-    r=list({ACTORS[x] for x in a})
-    base=sum(KEYWORDS[x] for x in m)
+    regions=list({ACTORS[x] for x in actors})
+    base=sum(KEYWORDS[x] for x in matches)
 
-    return base*time_weight(age),m,a,r
+    return base*time_weight(age),matches,actors,regions
 
 def load(path):
     if not os.path.exists(path):
@@ -115,26 +111,35 @@ def update_log(prob):
 
 def main():
     headlines=fetch()
-    history=load(HISTORY_FILE)
+
+    clusters={}
+    scored=[]
+
+    for t,a,l in headlines:
+        s,m,ac,r=score(t,a)
+        if s == 0:
+            continue
+
+        # cluster key = actors + top keywords
+        key = tuple(sorted(set(ac))) + tuple(sorted(set(m)))
+
+        if key not in clusters:
+            clusters[key] = []
+        clusters[key].append((s,t,m,ac,r,l))
 
     total=0
     regions=set()
-    scored=[]
 
-    seen=set()
+    for key,items in clusters.items():
+        # cap cluster impact (prevents spam amplification)
+        cluster_score = sum(x[0] for x in items)
+        cluster_score = min(cluster_score, max(x[0] for x in items) * 2)
 
-    for t,a,l in headlines:
-        norm=normalize(t)
+        total += cluster_score
 
-        if norm in seen:
-            continue
-        seen.add(norm)
-
-        s,m,ac,r=score(t,a)
-        if s>0:
-            total+=s
-            regions.update(r)
-            scored.append((s,t,m,ac,r,l))
+        for x in items:
+            regions.update(x[4])
+            scored.append(x)
 
     baseline=sum(REGION_BASELINE.get(x,1) for x in regions)
     total+=baseline
