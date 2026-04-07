@@ -2,10 +2,6 @@ import feedparser
 import datetime
 import json
 import math
-import re
-from collections import Counter
-
-# --- CONFIG ---
 
 RSS_FEEDS = [
     "https://www.reuters.com/rssFeed/worldNews",
@@ -13,11 +9,10 @@ RSS_FEEDS = [
 ]
 
 NUCLEAR_STATES = {
-    "united states","us","russia","china","israel",
+    "us","russia","china","israel",
     "india","pakistan","north korea"
 }
 
-# High-risk nuclear pairings
 HIGH_RISK_PAIRS = [
     {"us","china"},
     {"us","russia"},
@@ -39,11 +34,8 @@ EVENT_KEYWORDS = {
     "deploy": 3,
     "mobilize": 4,
     "evacuate": 5,
-    "threat": 2,
     "nuclear": 8
 }
-
-# --- FETCH ---
 
 def fetch_headlines():
     headlines = []
@@ -56,20 +48,6 @@ def fetch_headlines():
             })
     return headlines
 
-# --- CLEAN ---
-
-def dedupe(headlines):
-    seen = set()
-    unique = []
-    for h in headlines:
-        key = h["title"][:80]
-        if key not in seen:
-            seen.add(key)
-            unique.append(h)
-    return unique
-
-# --- ACTOR DETECTION ---
-
 def detect_actors(text):
     actors = set()
     for state in NUCLEAR_STATES.union({"iran","taiwan"}):
@@ -77,11 +55,9 @@ def detect_actors(text):
             actors.add(state)
     return actors
 
-# --- PAIR RISK ---
-
 def pair_multiplier(actors):
     if len(actors) < 2:
-        return 0.3  # low relevance
+        return 0  # HARD FILTER — ignore weak signals
 
     for pair in HIGH_RISK_PAIRS:
         if pair.issubset(actors):
@@ -94,24 +70,21 @@ def pair_multiplier(actors):
     if len(actors.intersection(NUCLEAR_STATES)) >= 2:
         return 2.2
 
-    return 1.0
-
-# --- SCORING ---
+    return 0  # ignore irrelevant multi-actor noise
 
 def score_headline(text):
     base = 0
-
     for word, weight in EVENT_KEYWORDS.items():
         if word in text:
             base += weight
 
-    actors = detect_actors(text)
+    if base == 0:
+        return 0, set()
 
+    actors = detect_actors(text)
     multiplier = pair_multiplier(actors)
 
     return base * multiplier, actors
-
-# --- TIME DECAY ---
 
 def hours_old(published_struct):
     try:
@@ -126,28 +99,8 @@ def hours_old(published_struct):
 def apply_decay(score, hours):
     return score * (0.5 ** (hours / 24))
 
-# --- KEYWORD DISCOVERY (CONTROLLED) ---
-
-def extract_new_terms(headlines):
-    words = []
-    for h in headlines:
-        tokens = re.findall(r'\b[a-z]{5,}\b', h["title"])
-        words.extend(tokens)
-
-    counts = Counter(words)
-
-    new_terms = {}
-    for word, count in counts.items():
-        if count >= 3 and word not in EVENT_KEYWORDS:
-            new_terms[word] = min(3, count)
-
-    return new_terms
-
-# --- MAIN ---
-
 def main():
     headlines = fetch_headlines()
-    headlines = dedupe(headlines)
 
     total_score = 0
     drivers = []
@@ -161,24 +114,21 @@ def main():
         age = hours_old(h["published"])
         score = apply_decay(score, age)
 
-        total_score += score
+        if score < 1:
+            continue  # remove weak residual noise
 
+        total_score += score
         drivers.append((score, h["title"]))
 
-    # normalize
-    probability = 1 / (1 + math.exp(-0.08 * (total_score - 20)))
+    probability = 1 / (1 + math.exp(-0.1 * (total_score - 15)))
 
-    # top drivers
     drivers = sorted(drivers, reverse=True)[:5]
-
-    new_terms = extract_new_terms(headlines)
 
     data = {
         "date": str(datetime.date.today()),
         "score": round(total_score, 2),
         "probability": round(probability * 100, 2),
-        "top_drivers": [d[1] for d in drivers],
-        "new_terms_detected": list(new_terms.keys())[:5]
+        "top_drivers": [d[1] for d in drivers]
     }
 
     with open("risk.json", "w") as f:
