@@ -75,22 +75,22 @@ def score(text,age):
     actors=[x for x in t if x in ACTORS]
 
     if not actors:
-        return 0,None,actors,[]
+        return 0,None,actors,[],False
 
     regions=list({ACTORS[x] for x in actors})
-
-    base=0
 
     if hard:
         strongest=max(hard, key=lambda x: HARD[x])
         base=HARD[strongest]
+        is_hard=True
     elif soft:
         strongest=max(soft, key=lambda x: SOFT[x])
-        base=SOFT[strongest] * 0.25  # heavy discount
+        base=SOFT[strongest]*0.25
+        is_hard=False
     else:
-        return 0,None,actors,[]
+        return 0,None,actors,regions,False
 
-    return base*time_weight(age),strongest,actors,regions
+    return base*time_weight(age),strongest,actors,regions,is_hard
 
 def load(path):
     if not os.path.exists(path):
@@ -128,9 +128,10 @@ def main():
     clusters={}
     scored=[]
     regions=set()
+    hard_present=False
 
     for t,a,l in headlines:
-        s,kw,ac,r=score(t,a)
+        s,kw,ac,r,is_hard=score(t,a)
         if s == 0 or kw is None:
             continue
 
@@ -138,7 +139,7 @@ def main():
 
         if key not in clusters:
             clusters[key] = []
-        clusters[key].append((s,t,kw,ac,r,l))
+        clusters[key].append((s,t,kw,ac,r,l,is_hard))
 
     total=0
 
@@ -151,6 +152,8 @@ def main():
         for x in items:
             regions.update(x[4])
             scored.append(x)
+            if x[6]:
+                hard_present=True
 
     baseline=sum(REGION_BASELINE.get(x,1) for x in regions)
     total+=baseline
@@ -163,6 +166,10 @@ def main():
         prob=6+(norm-5)*1.2
     else:
         prob=min(95,20+(norm-20)*1.5)
+
+    # HARD SIGNAL GATE
+    if not hard_present:
+        prob=min(prob,12)
 
     prob=round(prob,2)
 
