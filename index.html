@@ -55,31 +55,6 @@ canvas {
     height: 100% !important;
 }
 
-.spinner {
-    width: 30px;
-    height: 30px;
-    border: 3px solid #334155;
-    border-top: 3px solid #60a5fa;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-    margin: auto;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-.status {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #64748b;
-    font-size: 0.9rem;
-}
-
 .card {
     background: #162033;
     padding: 16px;
@@ -101,7 +76,7 @@ canvas {
 .footer {
     margin-top: 50px;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     color: #64748b;
 }
 </style>
@@ -119,11 +94,6 @@ canvas {
     <h2>Trend</h2>
     <div class="chart-container">
         <canvas id="chart"></canvas>
-
-        <div id="status" class="status">
-            <div class="spinner"></div>
-            <div style="margin-top:10px;">Loading…</div>
-        </div>
     </div>
 </div>
 
@@ -133,29 +103,16 @@ canvas {
 </div>
 
 <div class="footer">
-    Signal-based model using global news inputs. Not predictive.<br>
-    contact me: <a href="mailto:noeatnosleep@pm.me" style="color:#60a5fa;">noeatnosleep@pm.me</a>
+    Signal-based model using global news inputs. Not predictive.<br><br>
+    Contact: <a href="mailto:noeatnosleep@pm.me" style="color:#60a5fa;">noeatnosleep@pm.me</a>
 </div>
 
 </div>
 
 <script>
 async function load() {
-    let risk, hist;
-    const status = document.getElementById("status");
-
-    try {
-        risk = await fetch("risk.json").then(r=>r.json());
-    } catch {
-        status.innerHTML = "Failed to load data";
-        return;
-    }
-
-    try {
-        hist = await fetch("history_log.json").then(r=>r.json());
-    } catch {
-        hist = { data: [] };
-    }
+    const risk = await fetch("risk.json").then(r=>r.json());
+    const hist = await fetch("history_log.json").then(r=>r.json());
 
     const prob = risk.probability;
     const riskEl = document.getElementById("risk");
@@ -178,32 +135,25 @@ async function load() {
         </div>`;
     });
 
-    if (hist.data && hist.data.length > 1) {
-        status.style.display = "none";
+    const labels = hist.data.map(x=>x.t.slice(11,16));
+    const values = hist.data.map(x=>x.p);
 
-        const labels = hist.data.map(x=>x.t.slice(11,16));
-        const values = hist.data.map(x=>x.p);
-
-        new Chart(document.getElementById("chart"), {
-            type: "line",
-            data: {
-                labels: labels,
-                datasets: [{
-                    data: values,
-                    borderWidth: 2,
-                    tension: 0.35
-                }]
-            },
-            options: {
-                maintainAspectRatio: false,
-                plugins:{legend:{display:false}},
-                scales:{y:{beginAtZero:true}}
-            }
-        });
-
-    } else {
-        status.innerHTML = "Waiting for more data points…";
-    }
+    new Chart(document.getElementById("chart"), {
+        type: "line",
+        data: {
+            labels: labels,
+            datasets: [{
+                data: values,
+                borderWidth: 2,
+                tension: 0.35
+            }]
+        },
+        options: {
+            maintainAspectRatio: false,
+            plugins:{legend:{display:false}},
+            scales:{y:{beginAtZero:true}}
+        }
+    });
 }
 
 load();
