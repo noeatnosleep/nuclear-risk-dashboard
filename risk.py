@@ -20,11 +20,14 @@ RSS_FEEDS = [
 LOG_FILE = "history_log.json"
 MAX_LOG_ENTRIES = 200
 
-KEYWORDS = {
-    "missile":4,"attack":3,"strike":3,"bomb":4,"drone":2,
+HARD = {
+    "missile":5,"attack":4,"strike":4,"bomb":5,
+    "deploy":4,"mobilize":4,"nuclear":10
+}
+
+SOFT = {
     "war":2,"conflict":2,"clash":2,"tension":2,
-    "crisis":3,"threat":3,"deploy":3,"mobilize":3,
-    "military":2,"exercise":1,"nuclear":10
+    "crisis":2,"threat":2,"military":1,"exercise":1
 }
 
 ACTORS = {
@@ -66,18 +69,26 @@ def fetch():
 
 def score(text,age):
     t=tokenize(text)
-    matches=[x for x in t if x in KEYWORDS]
+
+    hard=[x for x in t if x in HARD]
+    soft=[x for x in t if x in SOFT]
     actors=[x for x in t if x in ACTORS]
 
-    if not matches or not actors:
-        return 0,[],[],[]
+    if not actors:
+        return 0,None,actors,[]
 
     regions=list({ACTORS[x] for x in actors})
 
-    # pick strongest keyword only
-    strongest=max(matches, key=lambda x: KEYWORDS[x])
+    base=0
 
-    base=KEYWORDS[strongest]
+    if hard:
+        strongest=max(hard, key=lambda x: HARD[x])
+        base=HARD[strongest]
+    elif soft:
+        strongest=max(soft, key=lambda x: SOFT[x])
+        base=SOFT[strongest] * 0.25  # heavy discount
+    else:
+        return 0,None,actors,[]
 
     return base*time_weight(age),strongest,actors,regions
 
@@ -120,7 +131,7 @@ def main():
 
     for t,a,l in headlines:
         s,kw,ac,r=score(t,a)
-        if s == 0:
+        if s == 0 or kw is None:
             continue
 
         key = tuple(sorted(set(ac))) + (kw,)
@@ -132,11 +143,8 @@ def main():
     total=0
 
     for key,items in clusters.items():
-        # strongest single signal dominates cluster
         cluster_score = max(x[0] for x in items)
-
-        # small boost for multiple confirmations (capped)
-        cluster_score *= min(1.5, 1 + len(items)*0.1)
+        cluster_score *= min(1.3, 1 + len(items)*0.05)
 
         total += cluster_score
 
