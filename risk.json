@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-08 14:24:41 UTC",
-  "probability": 79.65,
-  "uncertainty": 6.06,
+  "last_updated": "2026-04-08 14:54:57 UTC",
+  "probability": 79.08,
+  "uncertainty": 6.19,
   "state": {
-    "us_russia": 6.72491223392608,
-    "us_china": 5.711715077738988,
-    "china_taiwan": 6.575827257396399,
+    "us_russia": 6.799908085221435,
+    "us_china": 5.612473635048837,
+    "china_taiwan": 6.540283230491837,
     "india_pakistan": 7.5,
     "china_india": 4.5,
-    "iran_us": 4.27061218588477,
-    "iran_israel": 5.46715642645246,
+    "iran_us": 3.8312627237512835,
+    "iran_israel": 4.93567685155287,
     "nk_us": 6.5,
     "nk_sk": 6.0,
     "nk_japan": 5.5,
-    "russia_ukraine": 9.12641350027546
+    "russia_ukraine": 9.500524476762365
   },
   "top_drivers": [
     {
@@ -24,10 +24,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.929,
-      "raw_impact": 0.929,
+      "impact": 0.902,
+      "raw_impact": 0.902,
       "source_weight": 1.0,
-      "age_hours": 1.28,
+      "age_hours": 1.78,
       "confidence": 0.84,
       "signal_total": 1.0,
       "signal_components": {
@@ -48,10 +48,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.793,
-      "raw_impact": -0.793,
+      "impact": -0.771,
+      "raw_impact": -0.771,
       "source_weight": 1.0,
-      "age_hours": 0.14,
+      "age_hours": 0.65,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -65,6 +65,30 @@
       "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
     },
     {
+      "title": "Lavan refinery blaze continues hours after US-Iran ceasefire agreement",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.734,
+      "raw_impact": -0.773,
+      "source_weight": 0.95,
+      "age_hours": 0.6,
+      "confidence": 0.875,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/lavan-refinery-blaze-continues-hours-after-us-iran-ceasefire-agreement?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
       "title": "\u2018Stone Age\u2019 to \u2018Golden Age\u2019: How the final hours before the truce unfolded",
       "actors": [
         "iran",
@@ -72,10 +96,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.736,
-      "raw_impact": -0.775,
+      "impact": -0.715,
+      "raw_impact": -0.752,
       "source_weight": 0.95,
-      "age_hours": 0.56,
+      "age_hours": 1.06,
       "confidence": 0.875,
       "signal_total": -0.8,
       "signal_components": {
@@ -96,10 +120,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.724,
-      "raw_impact": -0.762,
+      "impact": -0.703,
+      "raw_impact": -0.74,
       "source_weight": 0.95,
-      "age_hours": 0.83,
+      "age_hours": 1.34,
       "confidence": 0.875,
       "signal_total": -0.8,
       "signal_components": {
@@ -120,10 +144,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.567,
-      "raw_impact": -0.597,
+      "impact": -0.551,
+      "raw_impact": -0.58,
       "source_weight": 0.95,
-      "age_hours": 5.07,
+      "age_hours": 5.58,
       "confidence": 0.875,
       "signal_total": -0.8,
       "signal_components": {
@@ -144,10 +168,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.537,
-      "raw_impact": -0.566,
+      "impact": -0.522,
+      "raw_impact": -0.549,
       "source_weight": 0.95,
-      "age_hours": 6.0,
+      "age_hours": 6.51,
       "confidence": 0.875,
       "signal_total": -0.8,
       "signal_components": {
@@ -161,18 +185,18 @@
       "source": "https://www.aljazeera.com/xml/rss/all.xml"
     },
     {
-      "title": "Tehran celebrates as Iran, US agree to two-week ceasefire",
+      "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.536,
-      "raw_impact": -0.564,
-      "source_weight": 0.95,
-      "age_hours": 6.06,
-      "confidence": 0.875,
+      "impact": -0.414,
+      "raw_impact": -0.414,
+      "source_weight": 1.0,
+      "age_hours": 11.4,
+      "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
         "deescalation": -0.8,
@@ -181,46 +205,22 @@
         "strategic": 0.0,
         "rhetoric": 0.0
       },
-      "link": "https://www.aljazeera.com/gallery/2026/4/8/tehran-celebrates-as-iran-us-agree-to-two-week-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
-    },
-    {
-      "title": "US-Israeli war on Iran: What is happening on day 40?",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.497,
-      "raw_impact": -0.523,
-      "source_weight": 0.95,
-      "age_hours": 7.36,
-      "confidence": 0.805,
-      "signal_total": -0.8,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/8/iran-war-what-is-happening-on-day-40-of-us-israeli-attacks?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+      "link": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
     }
   ],
   "debug": {
     "event_count": 60,
-    "classified_count": 15,
-    "paired_count": 15,
-    "valid_pair_updates": 6,
-    "top_driver_count": 15,
-    "total_signal": 6.2154,
+    "classified_count": 14,
+    "paired_count": 14,
+    "valid_pair_updates": 4,
+    "top_driver_count": 14,
+    "total_signal": 5.2273,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 26,
       "no_signal": 14,
-      "invalid_pair": 5,
+      "invalid_pair": 6,
       "low_confidence": 0,
       "classifier_error": 0
     }
