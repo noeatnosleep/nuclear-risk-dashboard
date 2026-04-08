@@ -79,6 +79,12 @@ canvas {
     font-size: 0.85rem;
     color: #64748b;
 }
+
+.build {
+    margin-top: 12px;
+    font-size: 0.75rem;
+    color: #64748b;
+}
 </style>
 </head>
 
@@ -102,58 +108,105 @@ canvas {
     <div id="drivers"></div>
 </div>
 
+<div class="section">
+    <h2>Debug</h2>
+    <div id="debug" class="card"></div>
+</div>
+
 <div class="footer">
     Signal-based model using global news inputs. Not predictive.<br><br>
     Contact: <a href="mailto:noeatnosleep@pm.me" style="color:#60a5fa;">noeatnosleep@pm.me</a>
+    <div id="build" class="build">Build: loading...</div>
 </div>
 
 </div>
 
 <script>
+function getHistoryRows(hist) {
+    if (Array.isArray(hist)) return hist;
+    if (hist && Array.isArray(hist.data)) return hist.data;
+    return [];
+}
+
 async function load() {
-    const risk = await fetch("risk.json").then(r=>r.json());
-    const hist = await fetch("history_log.json").then(r=>r.json());
+    try {
+        const cacheBust = `?v=${Date.now()}`;
+        const risk = await fetch(`risk.json${cacheBust}`).then(r=>r.json());
+        const hist = await fetch(`history_log.json${cacheBust}`).then(r=>r.json());
+        const build = await fetch(`build_info.json${cacheBust}`).then(r=>r.json()).catch(()=>null);
 
-    const prob = risk.probability;
-    const riskEl = document.getElementById("risk");
+        const prob = Number(risk.probability || 0);
+        const riskEl = document.getElementById("risk");
 
-    riskEl.innerText = prob + "%";
-    riskEl.className = "risk " + (prob<7?"low":prob<15?"medium":"high");
+        riskEl.innerText = prob.toFixed(2) + "%";
+        riskEl.className = "risk " + (prob<7?"low":prob<15?"medium":"high");
 
-    document.getElementById("updated").innerText = risk.last_updated;
+        document.getElementById("updated").innerText = risk.last_updated || "n/a";
 
-    const d = document.getElementById("drivers");
-    d.innerHTML = "";
+        const d = document.getElementById("drivers");
+        d.innerHTML = "";
+        const drivers = Array.isArray(risk.top_drivers) ? risk.top_drivers : [];
 
-    risk.top_drivers.forEach(x=>{
-        d.innerHTML += `
-        <div class="card">
-            <a href="${x.link}" target="_blank">${x.title}</a>
-            <div class="meta">
-                ${x.source} | actors: [${x.actors.join(", ")}] | matches: [${x.matches.join(", ")}]
-            </div>
-        </div>`;
-    });
-
-    const labels = hist.data.map(x=>x.t.slice(11,16));
-    const values = hist.data.map(x=>x.p);
-
-    new Chart(document.getElementById("chart"), {
-        type: "line",
-        data: {
-            labels: labels,
-            datasets: [{
-                data: values,
-                borderWidth: 2,
-                tension: 0.35
-            }]
-        },
-        options: {
-            maintainAspectRatio: false,
-            plugins:{legend:{display:false}},
-            scales:{y:{beginAtZero:true}}
+        if (drivers.length === 0) {
+            d.innerHTML = `<div class="card"><div class="meta">No top drivers found in current run.</div></div>`;
+        } else {
+            drivers.forEach(x=>{
+                d.innerHTML += `
+                <div class="card">
+                    <a href="${x.link}" target="_blank">${x.title}</a>
+                    <div class="meta">
+                        ${x.source} | actors: [${(x.actors || []).join(", ")}] | class: ${x.class} | impact: ${x.impact}
+                    </div>
+                </div>`;
+            });
         }
-    });
+
+        const rows = getHistoryRows(hist);
+        const labels = rows.map(x=>(x.ts || x.t || "").slice(11,16));
+        const values = rows.map(x=>x.probability ?? x.p ?? 0);
+
+        new Chart(document.getElementById("chart"), {
+            type: "line",
+            data: {
+                labels: labels,
+                datasets: [{
+                    data: values,
+                    borderWidth: 2,
+                    tension: 0.35
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                plugins:{legend:{display:false}},
+                scales:{y:{beginAtZero:true}}
+            }
+        });
+
+        const debug = risk.debug || {};
+        document.getElementById("debug").innerHTML = `
+            <div class="meta">event_count: ${debug.event_count ?? "n/a"}</div>
+            <div class="meta">classified_count: ${debug.classified_count ?? "n/a"}</div>
+            <div class="meta">paired_count: ${debug.paired_count ?? "n/a"}</div>
+            <div class="meta">valid_pair_updates: ${debug.valid_pair_updates ?? "n/a"}</div>
+            <div class="meta">top_driver_count: ${debug.top_driver_count ?? "n/a"}</div>
+            <div class="meta">total_signal: ${debug.total_signal ?? "n/a"}</div>
+            <div class="meta">trend_points: ${rows.length}</div>
+        `;
+
+        document.getElementById("build").innerText = build
+            ? `Build: ${build.built_at_utc || "n/a"} | run #${build.run_number || "n/a"} | sha ${String(build.sha || "").slice(0, 7)}`
+            : "Build: unavailable";
+    } catch (err) {
+        document.getElementById("debug").innerHTML = `
+            <div class="meta">UI load error: ${(err && err.message) ? err.message : String(err)}</div>
+        `;
+        console.error(err);
+        document.getElementById("drivers").innerHTML = `<div class="card"><div class="meta">Unable to render drivers due to UI load error.</div></div>`;
+        document.getElementById("updated").innerText = "load failed";
+        document.getElementById("risk").innerText = "--%";
+        document.getElementById("risk").className = "risk";
+        document.getElementById("build").innerText = "Build: load failed";
+    }
 }
 
 load();
