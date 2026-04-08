@@ -32,6 +32,7 @@ Current automation:
 
 ## Files
 
+- `requirements.txt`: runtime dependencies.
 - `model_config.json`: model weights/thresholds and source weighting.
 - `config.py`: configuration loader.
 - `ingest.py`: ingestion + dedupe + summary extraction.
@@ -45,7 +46,7 @@ Current automation:
 ## Local run
 
 ```bash
-pip install feedparser
+pip install -r requirements.txt
 python -m unittest discover -s tests -p 'test_*.py'
 python tools/evaluate.py
 python risk.py

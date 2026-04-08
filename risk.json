@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-08 15:19:32 UTC",
-  "probability": 28.65,
-  "uncertainty": 5.92,
+  "last_updated": "2026-04-08 15:40:11 UTC",
+  "probability": 24.83,
+  "uncertainty": 6.22,
   "state": {
-    "us_russia": 3.6745063965705818,
-    "us_china": 3.254109500445016,
-    "china_taiwan": 4.2413757193677615,
-    "india_pakistan": 4.781124114990234,
-    "china_india": 2.9593036651611326,
-    "iran_us": 1.7587359937525155,
-    "iran_israel": 2.777153768981189,
-    "nk_us": 3.3279781341552734,
-    "nk_sk": 3.09986572265625,
-    "nk_japan": 2.871753311157226,
-    "russia_ukraine": 6.828615972886316
+    "us_russia": 3.4029337882236494,
+    "us_china": 3.044822781755743,
+    "china_taiwan": 4.042576649717581,
+    "india_pakistan": 4.549587932880968,
+    "china_india": 2.8280998286325483,
+    "iran_us": 1.6616056531948713,
+    "iran_israel": 2.664854394064675,
+    "nk_us": 3.057852588361129,
+    "nk_sk": 2.852893795073032,
+    "nk_japan": 2.6479350017849352,
+    "russia_ukraine": 6.514900949909321
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.796,
-      "raw_impact": -0.796,
+      "impact": -0.78,
+      "raw_impact": -0.78,
       "source_weight": 1.0,
-      "age_hours": 0.09,
+      "age_hours": 0.43,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -51,10 +51,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.793,
-      "raw_impact": 0.793,
+      "impact": 0.777,
+      "raw_impact": 0.777,
       "source_weight": 1.0,
-      "age_hours": 2.19,
+      "age_hours": 2.54,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -69,6 +69,32 @@
       "source_domain": "feeds.bbci.co.uk"
     },
     {
+      "title": "Hegseth touts US \u2018victory\u2019 over Iran as Tehran hails its own \u2018historic\u2019 win",
+      "published": "Wed, 08 Apr 2026 15:05:50 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.697,
+      "raw_impact": -0.774,
+      "source_weight": 0.9,
+      "age_hours": 0.57,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/hegseth-touts-us-victory-over-iran-as-tehran-hails-its-own-historic-win?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
       "title": "Lavan refinery blaze continues hours after US-Iran ceasefire agreement",
       "published": "Wed, 08 Apr 2026 14:18:48 +0000",
       "actors": [
@@ -77,10 +103,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.679,
-      "raw_impact": -0.755,
+      "impact": -0.666,
+      "raw_impact": -0.74,
       "source_weight": 0.9,
-      "age_hours": 1.01,
+      "age_hours": 1.36,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -103,10 +129,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.661,
-      "raw_impact": -0.735,
+      "impact": -0.648,
+      "raw_impact": -0.72,
       "source_weight": 0.9,
-      "age_hours": 1.47,
+      "age_hours": 1.82,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -129,10 +155,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.651,
-      "raw_impact": -0.723,
+      "impact": -0.638,
+      "raw_impact": -0.709,
       "source_weight": 0.9,
-      "age_hours": 1.75,
+      "age_hours": 2.09,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -147,58 +173,6 @@
       "source_domain": "www.aljazeera.com"
     },
     {
-      "title": "US-Iran ceasefire deal: What are the terms, and what\u2019s next?",
-      "published": "Wed, 08 Apr 2026 09:20:22 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.51,
-      "raw_impact": -0.566,
-      "source_weight": 0.9,
-      "age_hours": 5.99,
-      "confidence": 0.87,
-      "signal_total": -0.8,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com"
-    },
-    {
-      "title": "GCC, other Middle East nations react to Iran-US ceasefire announcement",
-      "published": "Wed, 08 Apr 2026 08:24:31 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.483,
-      "raw_impact": -0.536,
-      "source_weight": 0.9,
-      "age_hours": 6.92,
-      "confidence": 0.87,
-      "signal_total": -0.8,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/8/gulf-arab-nations-react-to-iran-us-ceasefire-announcement?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com"
-    },
-    {
       "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
       "published": "Wed, 08 Apr 2026 03:30:55 GMT",
       "actors": [
@@ -207,10 +181,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.404,
-      "raw_impact": -0.404,
+      "impact": -0.396,
+      "raw_impact": -0.396,
       "source_weight": 1.0,
-      "age_hours": 11.81,
+      "age_hours": 12.15,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -225,6 +199,58 @@
       "source_domain": "feeds.bbci.co.uk"
     },
     {
+      "title": "Iran, US both claim victory, but did they actually concede ground?",
+      "published": "Wed, 08 Apr 2026 15:06:13 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.174,
+      "raw_impact": 0.194,
+      "source_weight": 0.9,
+      "age_hours": 0.57,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/iran-us-both-claim-victory-but-did-they-actually-concede-ground?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "Did America lose yet another war?",
+      "published": "Wed, 08 Apr 2026 14:57:19 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.173,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.71,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2
+      },
+      "link": "https://www.aljazeera.com/opinions/2026/4/8/did-america-lose-yet-another-war?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
       "title": "World Athletics postpones Doha Diamond League amid US-Israel war on Iran",
       "published": "Wed, 08 Apr 2026 12:46:23 +0000",
       "actors": [
@@ -233,10 +259,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.155,
-      "raw_impact": 0.173,
+      "impact": 0.152,
+      "raw_impact": 0.169,
       "source_weight": 0.9,
-      "age_hours": 2.55,
+      "age_hours": 2.9,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -259,10 +285,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.094,
-      "raw_impact": 0.094,
+      "impact": 0.092,
+      "raw_impact": 0.092,
       "source_weight": 1.0,
-      "age_hours": 1.09,
+      "age_hours": 1.43,
       "confidence": 0.6,
       "signal_total": 0.1,
       "signal_components": {
@@ -285,10 +311,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.089,
-      "raw_impact": 0.089,
+      "impact": 0.087,
+      "raw_impact": 0.087,
       "source_weight": 1.0,
-      "age_hours": 2.1,
+      "age_hours": 2.44,
       "confidence": 0.6,
       "signal_total": 0.1,
       "signal_components": {
@@ -301,32 +327,6 @@
       "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
       "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
       "source_domain": "feeds.bbci.co.uk"
-    },
-    {
-      "title": "Israeli attacks across Lebanon kill dozens hours after Iran-US ceasefire",
-      "published": "Wed, 08 Apr 2026 14:39:33 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.087,
-      "raw_impact": 0.096,
-      "source_weight": 0.9,
-      "age_hours": 0.67,
-      "confidence": 0.59,
-      "signal_total": 0.1,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/8/hundreds-of-casualties-across-lebanon-after-israel-says-it-hit-100-sites?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com"
     }
   ],
   "driver_sort_default": "severity",
@@ -338,16 +338,16 @@
   ],
   "debug": {
     "event_count": 60,
-    "classified_count": 14,
-    "paired_count": 14,
+    "classified_count": 15,
+    "paired_count": 15,
     "valid_pair_updates": 4,
-    "top_driver_count": 14,
-    "total_signal": 5.0935,
+    "top_driver_count": 15,
+    "total_signal": 4.2342,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 26,
-      "no_signal": 14,
-      "invalid_pair": 6,
+      "no_signal": 12,
+      "invalid_pair": 7,
       "low_confidence": 0,
       "classifier_error": 0
     }
