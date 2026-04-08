@@ -1,0 +1,35 @@
+{
+  "fallback_pairing_enabled": false,
+  "decay_halflife_hours": 12,
+  "max_impact": 1.25,
+  "probability_center": 4.8,
+  "probability_steepness": 0.9,
+  "min_confidence_by_class": {
+    "rhetoric": 0.45,
+    "movement": 0.5,
+    "action": 0.55,
+    "strategic": 0.55,
+    "deescalation": 0.5
+  },
+  "signal_weights": {
+    "deescalation": -0.8,
+    "rhetoric": 0.2,
+    "movement": 0.5,
+    "action": 0.9,
+    "strategic": 1.2
+  },
+  "source_weights": {
+    "bbc_world": 1.0,
+    "cnn_world": 0.9,
+    "aljazeera_all": 0.9
+  },
+  "ambiguity_penalty": 0.15,
+  "strong_signal_keywords": [
+    "nuclear",
+    "missile",
+    "strike",
+    "attack",
+    "ceasefire",
+    "sanction"
+  ]
+}
