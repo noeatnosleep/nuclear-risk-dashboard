@@ -945,5 +945,33 @@
     },
     "event_count": 60,
     "classified_count": 15
+  },
+  {
+    "ts": "2026-04-08 19:32:34 UTC",
+    "probability": 24.38,
+    "uncertainty": 18.0,
+    "state": {
+      "us_russia": 3.292257984741822,
+      "us_china": 3.000050161238841,
+      "china_taiwan": 4.00004764758928,
+      "india_pakistan": 4.500055493926245,
+      "china_india": 2.8000314465582057,
+      "iran_us": 2.1669967333061564,
+      "iran_israel": 3.3204413155238415,
+      "nk_us": 3.0000647429139526,
+      "nk_sk": 2.8000591935213284,
+      "nk_japan": 2.600053644128704,
+      "russia_ukraine": 5.922004140315263
+    },
+    "drop_reasons": {
+      "missing_title": 0,
+      "no_actor": 0,
+      "no_signal": 0,
+      "invalid_pair": 0,
+      "low_confidence": 0,
+      "classifier_error": 0
+    },
+    "event_count": 0,
+    "classified_count": 0
   }
 ]
