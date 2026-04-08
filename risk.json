@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-08 16:03:07 UTC",
-  "probability": 23.86,
-  "uncertainty": 6.22,
+  "last_updated": "2026-04-08 16:14:24 UTC",
+  "probability": 23.82,
+  "uncertainty": 5.68,
   "state": {
-    "us_russia": 3.3643389373259325,
-    "us_china": 3.0018966776262332,
-    "china_taiwan": 4.001801632468045,
-    "india_pakistan": 4.502098315167921,
-    "china_india": 2.8011890452618213,
-    "iran_us": 1.3791470205166432,
-    "iran_israel": 2.379284491103693,
-    "nk_us": 3.0024480343625743,
-    "nk_sk": 2.802238202845782,
-    "nk_japan": 2.6020283713289905,
-    "russia_ukraine": 6.621620955918116
+    "us_russia": 3.362516851482807,
+    "us_china": 3.0010076099889362,
+    "china_taiwan": 4.0009571172486496,
+    "india_pakistan": 4.501114729932959,
+    "china_india": 2.800631680295343,
+    "iran_us": 1.3732968546494666,
+    "iran_israel": 2.373369885898837,
+    "nk_us": 3.0013005182551176,
+    "nk_sk": 2.8011890452618213,
+    "nk_japan": 2.6010775722685264,
+    "russia_ukraine": 6.613604043115555
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.763,
-      "raw_impact": -0.763,
+      "impact": -0.755,
+      "raw_impact": -0.755,
       "source_weight": 1.0,
-      "age_hours": 0.81,
+      "age_hours": 1.0,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -51,10 +51,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.76,
-      "raw_impact": 0.76,
+      "impact": 0.752,
+      "raw_impact": 0.752,
       "source_weight": 1.0,
-      "age_hours": 2.92,
+      "age_hours": 3.11,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -69,6 +69,84 @@
       "source_domain": "feeds.bbci.co.uk"
     },
     {
+      "title": "How Pakistan managed to get the US and Iran to a ceasefire",
+      "published": "Wed, 08 Apr 2026 15:49:03 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.703,
+      "raw_impact": -0.781,
+      "source_weight": 0.9,
+      "age_hours": 0.42,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/features/2026/4/8/how-pakistan-managed-to-get-the-us-and-iran-to-a-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "Hegseth: Iran \u2018begged\u2019 for ceasefire, claims \u2018historic victory\u2019",
+      "published": "Wed, 08 Apr 2026 15:47:24 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.702,
+      "raw_impact": -0.779,
+      "source_weight": 0.9,
+      "age_hours": 0.45,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/hegseth-iran-begged-for-ceasefire-claims-historic?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "Trump says Lebanon not included in US-Iran ceasefire amid Israeli assault",
+      "published": "Wed, 08 Apr 2026 15:40:30 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.697,
+      "raw_impact": -0.774,
+      "source_weight": 0.9,
+      "age_hours": 0.57,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/trump-says-lebanon-not-included-in-us-iran-ceasefire-amid-israeli-assault?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
       "title": "Hegseth touts US \u2018victory\u2019 over Iran as Tehran hails its own \u2018historic\u2019 win",
       "published": "Wed, 08 Apr 2026 15:05:50 +0000",
       "actors": [
@@ -77,10 +155,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.681,
-      "raw_impact": -0.757,
+      "impact": -0.674,
+      "raw_impact": -0.749,
       "source_weight": 0.9,
-      "age_hours": 0.95,
+      "age_hours": 1.14,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -103,10 +181,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.651,
-      "raw_impact": -0.724,
+      "impact": -0.644,
+      "raw_impact": -0.716,
       "source_weight": 0.9,
-      "age_hours": 1.74,
+      "age_hours": 1.93,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -129,10 +207,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.634,
-      "raw_impact": -0.704,
+      "impact": -0.627,
+      "raw_impact": -0.697,
       "source_weight": 0.9,
-      "age_hours": 2.2,
+      "age_hours": 2.39,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -155,10 +233,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.624,
-      "raw_impact": -0.693,
+      "impact": -0.617,
+      "raw_impact": -0.686,
       "source_weight": 0.9,
-      "age_hours": 2.48,
+      "age_hours": 2.66,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -181,10 +259,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.388,
-      "raw_impact": -0.388,
+      "impact": -0.384,
+      "raw_impact": -0.384,
       "source_weight": 1.0,
-      "age_hours": 12.54,
+      "age_hours": 12.72,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -207,10 +285,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.17,
-      "raw_impact": 0.189,
+      "impact": 0.169,
+      "raw_impact": 0.187,
       "source_weight": 0.9,
-      "age_hours": 0.95,
+      "age_hours": 1.14,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -233,10 +311,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.169,
-      "raw_impact": 0.188,
+      "impact": 0.167,
+      "raw_impact": 0.186,
       "source_weight": 0.9,
-      "age_hours": 1.1,
+      "age_hours": 1.28,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -249,84 +327,6 @@
       "link": "https://www.aljazeera.com/opinions/2026/4/8/did-america-lose-yet-another-war?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_domain": "www.aljazeera.com"
-    },
-    {
-      "title": "World Athletics postpones Doha Diamond League amid US-Israel war on Iran",
-      "published": "Wed, 08 Apr 2026 12:46:23 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.149,
-      "raw_impact": 0.165,
-      "source_weight": 0.9,
-      "age_hours": 3.28,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2
-      },
-      "link": "https://www.aljazeera.com/sports/2026/4/8/world-athletics-postpones-doha-diamond-league-amid-us-israel-war-on-iran?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com"
-    },
-    {
-      "title": "What we know about the two-week ceasefire between the US and Iran",
-      "published": "Wed, 08 Apr 2026 14:14:08 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.09,
-      "raw_impact": 0.09,
-      "source_weight": 1.0,
-      "age_hours": 1.82,
-      "confidence": 0.6,
-      "signal_total": 0.1,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk"
-    },
-    {
-      "title": "Israel carries out large wave of air strikes across Lebanon",
-      "published": "Wed, 08 Apr 2026 13:13:46 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.085,
-      "raw_impact": 0.085,
-      "source_weight": 1.0,
-      "age_hours": 2.82,
-      "confidence": 0.6,
-      "signal_total": 0.1,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk"
     }
   ],
   "driver_sort_default": "severity",
@@ -338,15 +338,15 @@
   ],
   "debug": {
     "event_count": 60,
-    "classified_count": 15,
-    "paired_count": 15,
+    "classified_count": 17,
+    "paired_count": 17,
     "valid_pair_updates": 4,
-    "top_driver_count": 15,
-    "total_signal": 4.1418,
+    "top_driver_count": 17,
+    "total_signal": 6.6968,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 26,
-      "no_signal": 12,
+      "no_actor": 25,
+      "no_signal": 11,
       "invalid_pair": 7,
       "low_confidence": 0,
       "classifier_error": 0
