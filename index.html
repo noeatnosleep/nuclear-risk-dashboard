@@ -435,7 +435,7 @@ async function load() {
     const uncertainty = Number(risk.uncertainty || 0);
 
     const riskEl = document.getElementById("risk");
-    riskEl.innerText = `${probability.toFixed(2)}%`;
+    riskEl.innerText = `${Math.round(probability)}%`;
     riskEl.className = `risk ${fixedBand(probability)}`;
 
     document.getElementById("updated").innerText = risk.last_updated || "n/a";
