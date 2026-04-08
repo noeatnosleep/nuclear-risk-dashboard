@@ -20,10 +20,10 @@ STRONG_SIGNAL_KEYWORDS = tuple(CONFIG.get("strong_signal_keywords", []))
 
 # Contradiction matrix: if both classes appear in one event text, apply additive penalty.
 DEFAULT_CONTRADICTION_MATRIX = {
-    "action:deescalation": -0.45,
-    "movement:deescalation": -0.30,
-    "strategic:deescalation": -0.35,
-    "action:movement": -0.10,
+    "action:deescalation": -0.05,
+    "movement:deescalation": -0.04,
+    "strategic:deescalation": -0.06,
+    "action:movement": -0.03,
 }
 CONTRADICTION_MATRIX = CONFIG.get("contradiction_matrix", DEFAULT_CONTRADICTION_MATRIX)
 
@@ -177,7 +177,7 @@ def compute_confidence(actors, signal_total, source_weight, text, signal_compone
     has_negative_signal = signal_components.get("deescalation", 0) < 0
     ambiguity_penalty = AMBIGUITY_PENALTY if has_positive_signal and has_negative_signal else 0.0
 
-    contradiction_penalty = abs(float(signal_components.get("contradiction_adjustment", 0.0))) * 0.08
+    contradiction_penalty = abs(float(signal_components.get("contradiction_adjustment", 0.0))) * 0.04
 
     confidence = actor_score + signal_score + source_score + strong_keyword_bonus - ambiguity_penalty - contradiction_penalty
     return max(0.0, min(1.0, confidence))

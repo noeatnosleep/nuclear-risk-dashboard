@@ -37,7 +37,9 @@ def extract_domain(url):
 
 
 def normalize_title(title):
-    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]+", " ", str(title or "").lower())).strip()
+    text = re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]+", " ", str(title or "").lower())).strip()
+    tokens = [tok for tok in text.split() if tok not in {"and", "the", "a", "an", "after", "amid"}]
+    return " ".join(tokens)
 
 
 def cluster_key_for_driver(driver):
