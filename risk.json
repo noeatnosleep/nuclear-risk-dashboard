@@ -1,35 +1,189 @@
 {
-  "last_updated": "2026-04-08 14:12:48 UTC",
-  "probability": 79.44,
-  "uncertainty": 20.0,
+  "last_updated": "2026-04-08 13:53:49 UTC",
+  "probability": 85.53,
   "state": {
-    "us_russia": 6.5737064056954475,
-    "us_china": 5.587095458522676,
-    "china_taiwan": 6.533734196718705,
+    "us_russia": 6.5,
+    "us_china": 5.5,
+    "china_taiwan": 6.786426691055721,
     "india_pakistan": 7.5,
     "china_india": 4.5,
-    "iran_us": 5.097622938136037,
-    "iran_israel": 6.467588567439925,
+    "iran_us": 9.378440816460698,
+    "iran_israel": 10,
     "nk_us": 6.5,
     "nk_sk": 6.0,
     "nk_japan": 5.5,
-    "russia_ukraine": 8.372018768515
+    "russia_ukraine": 8.093596465199013
   },
-  "top_drivers": [],
-  "debug": {
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0,
-    "valid_pair_updates": 0,
-    "top_driver_count": 0,
-    "total_signal": 0.0,
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
+  "top_drivers": [
+    {
+      "title": "Israel carries out large wave of air strikes across Lebanon",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.747,
+      "raw_impact": -0.747,
+      "source_weight": 1.0,
+      "age_hours": 1.18,
+      "confidence": 0.9,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Scenes of chaos, destruction as Israel bombards Lebanon",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "class": "action",
+      "impact": 0.25,
+      "matches": [
+        "action"
+      ],
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/scenes-of-chaos-destruction-as-israel-bombards-lebanon?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "title": "UAE, Kuwait, Bahrain report attacks despite Iran-US ceasefire",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "class": "action",
+      "impact": 0.25,
+      "matches": [
+        "action"
+      ],
+      "link": "https://www.aljazeera.com/news/2026/4/8/uae-kuwait-bahrain-report-attacks-despite-iran-us-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "title": "GCC, other Middle East nations react to Iran-US ceasefire announcement",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.557,
+      "raw_impact": -0.586,
+      "source_weight": 0.95,
+      "age_hours": 5.37,
+      "confidence": 0.895,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/gulf-arab-nations-react-to-iran-us-ceasefire-announcement?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "title": "Tehran celebrates as Iran, US agree to two-week ceasefire",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.555,
+      "raw_impact": -0.585,
+      "source_weight": 0.95,
+      "age_hours": 5.43,
+      "confidence": 0.895,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/gallery/2026/4/8/tehran-celebrates-as-iran-us-agree-to-two-week-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "title": "How Pakistan helped secure a fragile ceasefire between the US and Iran",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.483,
+      "raw_impact": -0.483,
+      "source_weight": 1.0,
+      "age_hours": 8.72,
+      "confidence": 0.9,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cj401qvgg19o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.442,
+      "raw_impact": -0.442,
+      "source_weight": 1.0,
+      "age_hours": 10.27,
+      "confidence": 0.6,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Defeat from the jaws of victory: Israel reacts to Trump\u2019s Iran ceasefire",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "class": "rhetoric",
+      "impact": 0.062,
+      "matches": [
+        "rhetoric"
+      ],
+      "link": "https://www.aljazeera.com/news/2026/4/8/defeat-from-the-jaws-of-victory-israel-reacts-to-trumps-iran-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
     }
+  ],
+  "debug": {
+    "event_count": 30,
+    "classified_count": 10,
+    "paired_count": 10,
+    "valid_pair_updates": 3,
+    "top_driver_count": 10,
+    "total_signal": 1.3375
   }
 }

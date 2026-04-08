@@ -6,17 +6,19 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 from actors import extract_actors, has_conflict_signal
-from config import load_config
 from states import ACTOR_PAIR_TO_STATE, STATE_WEIGHTS
 
-CONFIG = load_config()
-SIGNAL_WEIGHTS = CONFIG["signal_weights"]
-MAX_IMPACT = float(CONFIG["max_impact"])
-DECAY_HALFLIFE_HOURS = float(CONFIG["decay_halflife_hours"])
-MIN_CONFIDENCE_BY_CLASS = CONFIG["min_confidence_by_class"]
-FALLBACK_PAIRING_ENABLED = bool(CONFIG.get("fallback_pairing_enabled", False))
-AMBIGUITY_PENALTY = float(CONFIG.get("ambiguity_penalty", 0.15))
-STRONG_SIGNAL_KEYWORDS = tuple(CONFIG.get("strong_signal_keywords", []))
+SIGNAL_WEIGHTS = {
+    "deescalation": -0.8,
+    "rhetoric": 0.25,
+    "movement": 0.6,
+    "action": 1.0,
+    "strategic": 1.4,
+}
+
+MAX_IMPACT = 1.25
+DECAY_HALFLIFE_HOURS = 12
+MIN_CONFIDENCE = 0.35
 
 FALLBACK_MAP = {
     "us": ["china", "russia", "iran"],
@@ -46,7 +48,6 @@ def parse_published_datetime(published):
     raw = str(published).strip()
     if not raw:
         return None
-
     try:
         dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
         if dt.tzinfo is None:
@@ -54,7 +55,6 @@ def parse_published_datetime(published):
         return dt.astimezone(timezone.utc)
     except Exception:
         pass
-
     try:
         dt = parsedate_to_datetime(raw)
         if dt is None:
@@ -78,27 +78,20 @@ def time_decay(hours):
     return math.exp(-math.log(2) * hours / DECAY_HALFLIFE_HOURS)
 
 
-def event_text(event):
-    title = event.get("title", "")
-    summary = event.get("summary", "")
-    return f"{title} {summary}".strip()
-
-
-def score_signals(text):
+def score_signals(title):
+    text = title or ""
     components = {
         "deescalation": SIGNAL_WEIGHTS["deescalation"] if DEESCALATION_PATTERN.search(text) else 0.0,
         "action": SIGNAL_WEIGHTS["action"] if ACTION_PATTERN.search(text) else 0.0,
         "movement": SIGNAL_WEIGHTS["movement"] if MOVEMENT_PATTERN.search(text) else 0.0,
         "strategic": SIGNAL_WEIGHTS["strategic"] if STRATEGIC_PATTERN.search(text) else 0.0,
     }
-
     total = sum(components.values())
     if total == 0:
         components["rhetoric"] = SIGNAL_WEIGHTS["rhetoric"]
         total = SIGNAL_WEIGHTS["rhetoric"]
     else:
         components["rhetoric"] = 0.0
-
     dominant_class = max(components, key=lambda key: abs(components[key]))
     return dominant_class, total, components
 
@@ -123,8 +116,7 @@ def choose_state_key_from_actors(actors):
     if len(actors) >= 2:
         keys = build_valid_state_keys(actors)
         return select_state_key_deterministically(keys)
-
-    if len(actors) == 1 and FALLBACK_PAIRING_ENABLED:
+    if len(actors) == 1:
         actor = actors[0]
         for candidate in FALLBACK_MAP.get(actor, []):
             pair = tuple(sorted([actor, candidate]))
@@ -133,19 +125,11 @@ def choose_state_key_from_actors(actors):
     return None
 
 
-def compute_confidence(actors, signal_total, source_weight, text, signal_components):
-    actor_score = min(0.55, 0.27 * len(actors))
-    signal_score = min(0.25, abs(signal_total) / 5)
-    source_score = min(0.12, max(0.0, float(source_weight) / 10.0))
-
-    strong_keyword_bonus = 0.08 if any(keyword in text.lower() for keyword in STRONG_SIGNAL_KEYWORDS) else 0.0
-
-    has_positive_signal = any(signal_components[label] > 0 for label in ["action", "movement", "strategic"])
-    has_negative_signal = signal_components["deescalation"] < 0
-    ambiguity_penalty = AMBIGUITY_PENALTY if has_positive_signal and has_negative_signal else 0.0
-
-    confidence = actor_score + signal_score + source_score + strong_keyword_bonus - ambiguity_penalty
-    return max(0.0, min(1.0, confidence))
+def compute_confidence(actors, signal_total, source_weight):
+    actor_score = min(0.6, 0.3 * len(actors))
+    signal_score = min(0.3, abs(signal_total) / 4)
+    source_score = min(0.1, max(0.0, float(source_weight) / 10.0))
+    return actor_score + signal_score + source_score
 
 
 def classify_event(event):
@@ -153,25 +137,21 @@ def classify_event(event):
     if not title:
         return {"ok": False, "reason": "missing_title"}
 
-    text = event_text(event)
-
-    actors = extract_actors(text)
+    actors = extract_actors(title)
     if not actors:
         return {"ok": False, "reason": "no_actor"}
 
-    if not has_conflict_signal(text):
+    if not has_conflict_signal(title):
         return {"ok": False, "reason": "no_signal"}
 
     state_key = choose_state_key_from_actors(actors)
     if not state_key:
         return {"ok": False, "reason": "invalid_pair"}
 
-    event_class, signal_total, signal_components = score_signals(text)
+    event_class, signal_total, signal_components = score_signals(title)
     source_weight = float(event.get("source_weight", 1.0))
-    confidence = compute_confidence(actors, signal_total, source_weight, text, signal_components)
-
-    min_confidence = float(MIN_CONFIDENCE_BY_CLASS.get(event_class, 0.5))
-    if confidence < min_confidence:
+    confidence = compute_confidence(actors, signal_total, source_weight)
+    if confidence < MIN_CONFIDENCE:
         return {"ok": False, "reason": "low_confidence"}
 
     age_hours = hours_since(event.get("published", ""))
