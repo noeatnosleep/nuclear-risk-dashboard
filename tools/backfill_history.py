@@ -36,7 +36,7 @@ HISTORY_FILE = ROOT / "history_log.json"
 DIAGNOSTICS_FILE = ROOT / "diagnostics_log.json"
 DEFAULT_POLICY_FILE = ROOT / "data" / "backhistory_policy.json"
 
-QUERY = "(nuclear OR missile OR ceasefire OR strike OR escalation OR deterrence)"
+QUERY = "(nuclear OR missile OR ceasefire OR strike OR escalation OR deterrence OR war OR military OR sanctions OR conflict)"
 
 
 @dataclass(frozen=True)
@@ -94,7 +94,7 @@ def lookup_source_weight(url: str, domain_weights: list[tuple[str, float]]) -> f
     return 0.85
 
 
-def fetch_gdelt_day(day: datetime, max_records: int = 80) -> list[dict]:
+def fetch_gdelt_day(day: datetime, max_records: int = 180) -> list[dict]:
     start = day.strftime("%Y%m%d000000")
     end = day.strftime("%Y%m%d235959")
     url = (
@@ -165,6 +165,7 @@ def replay_from_articles(days: int, config: dict) -> tuple[list[dict], list[dict
                 "event_count": len(events),
                 "classified_count": classified_count,
                 "paired_count": paired_count,
+                "drivers": sorted(top_drivers, key=lambda row: abs(row.get("impact", 0)), reverse=True)[:64],
             }
         )
 
@@ -249,12 +250,12 @@ def main() -> None:
         except Exception:
             policy = load_policy(Path(args.policy), current_probability)
             entries = build_policy_entries(policy, current_probability)
-            diagnostics = [{"ts": e["ts"], "probability": e["probability"], "uncertainty": 18.0, "state": BASELINE_STATE, "drop_reasons": {}, "event_count": 0, "classified_count": 0} for e in entries]
+            diagnostics = [{"ts": e["ts"], "probability": e["probability"], "uncertainty": 18.0, "state": BASELINE_STATE, "drop_reasons": {}, "event_count": 0, "classified_count": 0, "drivers": []} for e in entries]
             mode_used = "policy-fallback"
     else:
         policy = load_policy(Path(args.policy), current_probability)
         entries = build_policy_entries(policy, current_probability)
-        diagnostics = [{"ts": e["ts"], "probability": e["probability"], "uncertainty": 18.0, "state": BASELINE_STATE, "drop_reasons": {}, "event_count": 0, "classified_count": 0} for e in entries]
+        diagnostics = [{"ts": e["ts"], "probability": e["probability"], "uncertainty": 18.0, "state": BASELINE_STATE, "drop_reasons": {}, "event_count": 0, "classified_count": 0, "drivers": []} for e in entries]
         mode_used = "policy"
 
     save_outputs(entries, diagnostics)

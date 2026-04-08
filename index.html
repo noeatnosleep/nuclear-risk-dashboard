@@ -429,7 +429,11 @@ function renderDrivers() {
   const payload = window.__riskPayload || {};
   const sortSelect = document.getElementById("driverSort");
   const limitSelect = document.getElementById("driverLimit");
-  const drivers = Array.isArray(payload.top_drivers) ? payload.top_drivers : [];
+  let drivers = Array.isArray(payload.top_drivers) ? payload.top_drivers : [];
+  if (!drivers.length && Array.isArray(window.__diagnosticsRows) && window.__diagnosticsRows.length) {
+    const latestDiag = window.__diagnosticsRows[window.__diagnosticsRows.length - 1] || {};
+    drivers = Array.isArray(latestDiag.drivers) ? latestDiag.drivers : [];
+  }
   const sorted = sortDrivers(drivers, sortSelect.value).slice(0, Number(limitSelect.value || 16));
 
   const container = document.getElementById("drivers");
@@ -440,7 +444,7 @@ function renderDrivers() {
     empty.className = "card";
     const meta = document.createElement("div");
     meta.className = "meta";
-    meta.textContent = "No top drivers found in current run.";
+    meta.textContent = "No drivers found for current selection/history window.";
     empty.appendChild(meta);
     container.appendChild(empty);
     return;
