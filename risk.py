@@ -97,7 +97,48 @@ def compute_uncertainty(top_drivers, event_count):
     return round(clamp(confidence_penalty + low_volume_penalty, 2, 30), 2)
 
 
-def save_state(probability, state, top_drivers, debug):
+def build_signal_sources(events, top_drivers):
+    seen = set()
+    rows = []
+
+    for event in events:
+        source_name = str(event.get("source_name", "")).strip()
+        source_url = str(event.get("source", "")).strip()
+        source_domain = extract_domain(source_url)
+        if not source_name and not source_url and not source_domain:
+            continue
+        key = (source_name, source_url, source_domain)
+        if key in seen:
+            continue
+        seen.add(key)
+        rows.append(
+            {
+                "name": source_name or source_domain or "unknown",
+                "url": source_url,
+                "domain": source_domain,
+            }
+        )
+
+    for driver in top_drivers:
+        source_url = str(driver.get("source", "")).strip()
+        source_domain = str(driver.get("source_domain", "")).strip() or extract_domain(source_url)
+        key = (source_domain, source_url, source_domain)
+        if key in seen:
+            continue
+        seen.add(key)
+        rows.append(
+            {
+                "name": source_domain or "unknown",
+                "url": source_url,
+                "domain": source_domain,
+            }
+        )
+
+    rows.sort(key=lambda row: row.get("name", ""))
+    return rows
+
+
+def save_state(probability, state, top_drivers, debug, signal_sources):
     sorted_drivers = sorted(top_drivers, key=lambda row: abs(row.get("impact", 0)), reverse=True)
     uncertainty = compute_uncertainty(sorted_drivers, debug.get("event_count", 0))
 
@@ -107,6 +148,7 @@ def save_state(probability, state, top_drivers, debug):
         "uncertainty": uncertainty,
         "state": state,
         "top_drivers": sorted_drivers[:12],
+        "signal_sources": signal_sources,
         "driver_sort_default": "severity",
         "available_driver_sort": ["severity", "chronological", "confidence", "source_weight"],
         "debug": debug,
@@ -265,10 +307,12 @@ def run(events):
         "drop_reasons": debug_drops,
     }
 
-    save_state(probability, state, top_drivers, debug)
+    signal_sources = build_signal_sources(events, top_drivers)
+    save_state(probability, state, top_drivers, debug, signal_sources)
     return probability, state, top_drivers
 
 
 if __name__ == "__main__":
     from ingest import fetch_events
+
     run(fetch_events())

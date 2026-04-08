@@ -42,6 +42,7 @@ Current automation:
 - `tools/evaluate.py`: benchmark/backtest runner.
 - `data/eval_events.json`: starter labeled benchmark dataset.
 - `GOVERNANCE.md`: change management process.
+- `docs/likelihood-assessment.md`: calibration logic for realistic absolute likelihood.
 
 ## Local run
 

@@ -2,8 +2,8 @@
   "fallback_pairing_enabled": false,
   "decay_halflife_hours": 12,
   "max_impact": 1.25,
-  "probability_center": 4.8,
-  "probability_steepness": 0.9,
+  "probability_center": 6.0,
+  "probability_steepness": 0.85,
   "min_confidence_by_class": {
     "rhetoric": 0.45,
     "movement": 0.5,
@@ -21,7 +21,16 @@
   "source_weights": {
     "bbc_world": 1.0,
     "cnn_world": 0.9,
-    "aljazeera_all": 0.9
+    "aljazeera_all": 0.9,
+    "reuters_world": 1.0,
+    "guardian_world": 0.9,
+    "npr_world": 0.85,
+    "un_news": 1.05,
+    "iaea_news": 1.1,
+    "us_state_press": 1.05,
+    "us_defense_news": 1.05,
+    "whitehouse_briefing": 1.0,
+    "nato_news": 1.0
   },
   "ambiguity_penalty": 0.15,
   "strong_signal_keywords": [

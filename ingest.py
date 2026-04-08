@@ -23,6 +23,51 @@ FEEDS = [
         "name": "aljazeera_all",
         "default_weight": 0.95,
     },
+    {
+        "url": "https://www.reuters.com/world/rss",
+        "name": "reuters_world",
+        "default_weight": 1.0,
+    },
+    {
+        "url": "https://www.theguardian.com/world/rss",
+        "name": "guardian_world",
+        "default_weight": 0.9,
+    },
+    {
+        "url": "https://feeds.npr.org/1004/rss.xml",
+        "name": "npr_world",
+        "default_weight": 0.85,
+    },
+    {
+        "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "name": "un_news",
+        "default_weight": 1.05,
+    },
+    {
+        "url": "https://www.iaea.org/newscenter/rss",
+        "name": "iaea_news",
+        "default_weight": 1.1,
+    },
+    {
+        "url": "https://www.state.gov/feeds/press-releases.xml",
+        "name": "us_state_press",
+        "default_weight": 1.05,
+    },
+    {
+        "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+        "name": "us_defense_news",
+        "default_weight": 1.05,
+    },
+    {
+        "url": "https://www.whitehouse.gov/briefing-room/feed/",
+        "name": "whitehouse_briefing",
+        "default_weight": 1.0,
+    },
+    {
+        "url": "https://www.nato.int/cps/en/natohq/news.htm?displayMode=rss",
+        "name": "nato_news",
+        "default_weight": 1.0,
+    },
 ]
 
 MAX_ENTRIES_PER_FEED = 20

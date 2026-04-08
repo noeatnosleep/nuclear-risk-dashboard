@@ -64,6 +64,9 @@ h1 { margin: 0; font-size: 2.6rem; line-height: 1.1; text-align: center; }
 .card { background: var(--card); border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; border: 1px solid var(--border); }
 .card a { color: var(--link); text-decoration: none; }
 .meta { font-size: 0.84rem; color: var(--muted); margin-top: 7px; }
+.sources-list { display: grid; grid-template-columns: 1fr; gap: 8px; }
+.source-item { font-size: 0.88rem; color: var(--muted); }
+.source-item a { color: var(--link); text-decoration: none; }
 .footer { margin-top: 42px; text-align: center; font-size: 0.9rem; color: var(--muted); }
 .build { margin-top: 10px; font-size: 0.8rem; }
 canvas { width: 100% !important; height: 100% !important; }
@@ -112,6 +115,11 @@ canvas { width: 100% !important; height: 100% !important; }
       </select>
     </div>
     <div id="drivers"></div>
+  </div>
+
+  <div class="section">
+    <h2>Signal Sources</h2>
+    <div id="sources" class="sources-list"></div>
   </div>
 
   <div class="footer">
@@ -403,10 +411,55 @@ function renderDrivers() {
   sorted.forEach(driver => renderDriverCard(container, driver));
 }
 
+
+function renderSources() {
+  const payload = window.__riskPayload || {};
+  const container = document.getElementById("sources");
+  container.replaceChildren();
+
+  const sourceRows = Array.isArray(payload.signal_sources) ? payload.signal_sources : [];
+
+  if (!sourceRows.length) {
+    const empty = document.createElement("div");
+    empty.className = "source-item";
+    empty.textContent = "No sources available in current run.";
+    container.appendChild(empty);
+    return;
+  }
+
+  sourceRows.forEach(row => {
+    const wrap = document.createElement("div");
+    wrap.className = "source-item";
+
+    const label = asText(row.name || row.domain, "unknown source");
+    const href = safeExternalUrl(row.url);
+
+    if (href) {
+      const link = document.createElement("a");
+      link.href = href;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = label;
+      wrap.appendChild(link);
+    } else {
+      wrap.textContent = label;
+    }
+
+    if (row.domain && row.domain !== label) {
+      const suffix = document.createElement("span");
+      suffix.textContent = ` (${row.domain})`;
+      wrap.appendChild(suffix);
+    }
+
+    container.appendChild(wrap);
+  });
+}
+
 function refreshChartsAndDrivers() {
   renderRiskChart();
   renderStateChart();
   renderDrivers();
+  renderSources();
   document.querySelectorAll("#timeModeSwitch button").forEach(btn => {
     btn.classList.toggle("active", btn.dataset.mode === window.__timeMode);
   });
