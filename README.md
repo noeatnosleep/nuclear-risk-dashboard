@@ -43,6 +43,7 @@ Current automation:
 - `data/eval_events.json`: starter labeled benchmark dataset.
 - `GOVERNANCE.md`: change management process.
 - `docs/likelihood-assessment.md`: calibration logic for realistic absolute likelihood.
+- `docs/policy-driven-back-history.md`: policy model for deterministic historical backfill.
 
 ## Local run
 
@@ -51,4 +52,5 @@ pip install -r requirements.txt
 python -m unittest discover -s tests -p 'test_*.py'
 python tools/evaluate.py
 python risk.py
+python tools/backfill_history.py
 ```
