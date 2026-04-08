@@ -24,12 +24,27 @@ jobs:
       - name: Run script
         run: python risk.py
 
+      - name: Write build info
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          payload = {
+            "built_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
+            "run_id": "${{ github.run_id }}",
+            "run_number": "${{ github.run_number }}",
+            "sha": "${{ github.sha }}"
+          }
+          with open("build_info.json", "w") as f:
+            json.dump(payload, f, indent=2)
+          PY
+
       - name: Commit and push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add risk.json history.json history_log.json
+          git add risk.json history.json history_log.json build_info.json
 
           git commit -m "update risk" || exit 0
           git push
