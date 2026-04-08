@@ -7,19 +7,35 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <style>
 body { font-family: system-ui; background: #0b1220; color: #e5e7eb; margin: 0; }
-.container { max-width: 920px; margin: auto; padding: 24px; }
+.container { max-width: 980px; margin: auto; padding: 24px; }
 h1 { text-align: center; }
 .risk { text-align: center; font-size: 4.5rem; font-weight: 700; margin: 10px 0; }
 .low { color: #22c55e; }
 .medium { color: #f59e0b; }
 .high { color: #ef4444; }
 .updated, .submeta { text-align: center; color: #94a3b8; }
-.submeta { font-size: 0.9rem; margin-bottom: 20px; }
-.section { margin-top: 36px; }
-.chart-container { background: #111827; border-radius: 12px; padding: 16px; height: 260px; position: relative; }
-.card { background: #162033; border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; }
+.submeta { font-size: 0.9rem; margin-bottom: 18px; }
+.section { margin-top: 34px; }
+.chart-container { background: #111827; border-radius: 12px; padding: 14px; height: 270px; position: relative; }
+.mode-switch {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+.mode-switch button {
+  background: transparent;
+  color: #94a3b8;
+  border: none;
+  margin: 0 8px;
+  cursor: pointer;
+}
+.mode-switch button.active { color: #e5e7eb; text-decoration: underline; }
+.driver-controls { margin-bottom: 10px; font-size: 0.85rem; color: #94a3b8; }
+.driver-controls select { background: #0f172a; color: #e5e7eb; border: 1px solid #243247; border-radius: 6px; padding: 3px 6px; }
+.card { background: #162033; border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; border: 1px solid #243247; }
 .card a { color: #60a5fa; text-decoration: none; }
-.meta { font-size: 0.8rem; color: #94a3b8; margin-top: 5px; }
+.meta { font-size: 0.8rem; color: #94a3b8; margin-top: 6px; }
 .footer { margin-top: 40px; text-align: center; font-size: 0.85rem; color: #64748b; }
 .build { margin-top: 12px; font-size: 0.75rem; color: #64748b; }
 canvas { width: 100% !important; height: 100% !important; }
@@ -33,24 +49,48 @@ canvas { width: 100% !important; height: 100% !important; }
 <div id="submeta" class="submeta"></div>
 
 <div class="section">
-    <h2>Trend</h2>
-    <div class="chart-container"><canvas id="chart"></canvas></div>
+  <h2>Risk Trend</h2>
+  <div class="chart-container"><canvas id="riskChart"></canvas></div>
+  <div class="mode-switch" id="timeModeSwitch">
+    <button data-mode="years">years</button> |
+    <button data-mode="days" class="active">days</button> |
+    <button data-mode="hours">hours</button>
+  </div>
 </div>
 
 <div class="section">
-    <h2>Top Drivers</h2>
-    <div id="drivers"></div>
+  <h2>Risk Vectors (State Levels Over Time)</h2>
+  <div class="chart-container"><canvas id="stateChart"></canvas></div>
+</div>
+
+<div class="section">
+  <h2>Top Drivers</h2>
+  <div class="driver-controls">
+    sort by:
+    <select id="driverSort">
+      <option value="severity">severity</option>
+      <option value="chronological">chronological</option>
+      <option value="confidence">confidence</option>
+      <option value="source_weight">source weight</option>
+    </select>
+  </div>
+  <div id="drivers"></div>
 </div>
 
 <div class="footer">
-    Signal-based model using global news inputs. Not predictive financial/safety advice.<br><br>
-    Contact: <a href="mailto:noeatnosleep@pm.me" style="color:#60a5fa;">noeatnosleep@pm.me</a>
-    <div id="build" class="build">Build: loading...</div>
+  Signal-based model using global news inputs. Not predictive financial/safety advice.<br><br>
+  Contact: <a href="mailto:noeatnosleep@pm.me" style="color:#60a5fa;">noeatnosleep@pm.me</a>
+  <div id="build" class="build">Build: loading...</div>
 </div>
 </div>
 
 <script>
 window.__riskChart = null;
+window.__stateChart = null;
+window.__riskPayload = null;
+window.__historyRows = [];
+window.__diagnosticsRows = [];
+window.__timeMode = "days";
 
 function getHistoryRows(payload) {
   if (Array.isArray(payload)) return payload;
@@ -59,17 +99,39 @@ function getHistoryRows(payload) {
   return [];
 }
 
+function parseUtc(ts) {
+  if (!ts) return null;
+  const iso = ts.replace(" UTC", "Z").replace(" ", "T");
+  const d = new Date(iso);
+  return Number.isNaN(d.getTime()) ? null : d;
+}
+
+function formatLabel(ts, mode) {
+  const d = parseUtc(ts);
+  if (!d) return "";
+  const y = d.getUTCFullYear();
+  const m = String(d.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(d.getUTCDate()).padStart(2, "0");
+  const hh = String(d.getUTCHours()).padStart(2, "0");
+
+  if (mode === "years") return `${y}-${m}`;
+  if (mode === "hours") return `${m}-${day} ${hh}:00`;
+  return `${m}-${day}`;
+}
+
 function fixedBand(probability) {
   if (probability < 30) return "low";
   if (probability < 60) return "medium";
   return "high";
 }
 
-function renderChart(labels, values) {
-  const chartCanvas = document.getElementById("chart");
-  if (window.__riskChart) window.__riskChart.destroy();
+function renderRiskChart() {
+  const labels = window.__historyRows.map(x => formatLabel(x.ts || x.t || "", window.__timeMode));
+  const values = window.__historyRows.map(x => Number(x.probability ?? x.p ?? 0));
 
-  window.__riskChart = new Chart(chartCanvas, {
+  const canvas = document.getElementById("riskChart");
+  if (window.__riskChart) window.__riskChart.destroy();
+  window.__riskChart = new Chart(canvas, {
     type: "line",
     data: { labels, datasets: [{ data: values, borderWidth: 2, tension: 0.35 }] },
     options: {
@@ -80,15 +142,118 @@ function renderChart(labels, values) {
   });
 }
 
+function pickTopStates(latestState) {
+  const rows = Object.entries(latestState || {});
+  rows.sort((a, b) => b[1] - a[1]);
+  return rows.slice(0, 5).map(([k]) => k);
+}
+
+function renderStateChart() {
+  const rows = Array.isArray(window.__diagnosticsRows) ? window.__diagnosticsRows : [];
+  if (!rows.length) return;
+
+  const labels = rows.map(x => formatLabel(x.ts || "", window.__timeMode));
+  const latestState = rows[rows.length - 1].state || {};
+  const keys = pickTopStates(latestState);
+
+  const datasets = keys.map((key, idx) => ({
+    label: key,
+    data: rows.map(r => Number((r.state || {})[key] ?? null)),
+    borderWidth: 2,
+    tension: 0.25,
+    hidden: false
+  }));
+
+  const canvas = document.getElementById("stateChart");
+  if (window.__stateChart) window.__stateChart.destroy();
+  window.__stateChart = new Chart(canvas, {
+    type: "line",
+    data: { labels, datasets },
+    options: {
+      maintainAspectRatio: false,
+      plugins: { legend: { display: true } },
+      scales: { y: { beginAtZero: true, max: 10 } }
+    }
+  });
+}
+
+function sortDrivers(drivers, mode) {
+  const rows = [...drivers];
+
+  if (mode === "chronological") {
+    rows.sort((a, b) => {
+      const ta = parseUtc(a.published || "")?.getTime() || 0;
+      const tb = parseUtc(b.published || "")?.getTime() || 0;
+      return tb - ta;
+    });
+    return rows;
+  }
+
+  if (mode === "confidence") {
+    rows.sort((a, b) => (b.confidence ?? 0) - (a.confidence ?? 0));
+    return rows;
+  }
+
+  if (mode === "source_weight") {
+    rows.sort((a, b) => (b.source_weight ?? 0) - (a.source_weight ?? 0));
+    return rows;
+  }
+
+  rows.sort((a, b) => Math.abs(b.impact ?? 0) - Math.abs(a.impact ?? 0));
+  return rows;
+}
+
+function renderDrivers() {
+  const payload = window.__riskPayload || {};
+  const defaultSort = payload.driver_sort_default || "severity";
+  const available = payload.available_driver_sort || ["severity", "chronological", "confidence", "source_weight"];
+
+  const sortSelect = document.getElementById("driverSort");
+  if (!available.includes(sortSelect.value)) {
+    sortSelect.value = defaultSort;
+  }
+
+  const drivers = Array.isArray(payload.top_drivers) ? payload.top_drivers : [];
+  const sorted = sortDrivers(drivers, sortSelect.value);
+
+  const container = document.getElementById("drivers");
+  container.innerHTML = sorted.length ? "" : `<div class="card"><div class="meta">No top drivers found in current run.</div></div>`;
+
+  sorted.forEach(driver => {
+    container.innerHTML += `
+      <div class="card">
+        <a href="${driver.link}" target="_blank" rel="noopener noreferrer">${driver.title}</a>
+        <div class="meta">
+          source: ${driver.source_domain || "n/a"} | state: ${driver.state_key || "n/a"} | class: ${driver.class || "n/a"}
+        </div>
+        <div class="meta">
+          impact: ${driver.impact ?? "n/a"} | source_weight: ${driver.source_weight ?? "n/a"} | confidence: ${driver.confidence ?? "n/a"} | age_hours: ${driver.age_hours ?? "n/a"}
+        </div>
+      </div>`;
+  });
+}
+
+function refreshChartsAndDrivers() {
+  renderRiskChart();
+  renderStateChart();
+  renderDrivers();
+
+  document.querySelectorAll('#timeModeSwitch button').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.mode === window.__timeMode);
+  });
+}
+
 async function load() {
   try {
     const bust = `?v=${Date.now()}`;
     const risk = await fetch(`risk.json${bust}`).then(r => r.json());
     const hist = await fetch(`history_log.json${bust}`).then(r => r.json());
     const build = await fetch(`build_info.json${bust}`).then(r => r.json()).catch(() => null);
+    const diag = await fetch(`diagnostics_log.json${bust}`).then(r => r.json()).catch(() => []);
 
-    const rows = getHistoryRows(hist);
-    const values = rows.map(x => Number(x.probability ?? x.p ?? 0));
+    window.__riskPayload = risk;
+    window.__historyRows = getHistoryRows(hist);
+    window.__diagnosticsRows = Array.isArray(diag) ? diag : [];
 
     const probability = Number(risk.probability || 0);
     const uncertainty = Number(risk.uncertainty || 0);
@@ -98,32 +263,27 @@ async function load() {
     riskEl.className = `risk ${fixedBand(probability)}`;
 
     document.getElementById("updated").innerText = risk.last_updated || "n/a";
-    document.getElementById("submeta").innerText = `Uncertainty: ±${uncertainty.toFixed(2)}`;
-
-    const drivers = Array.isArray(risk.top_drivers) ? risk.top_drivers : [];
-    const driversEl = document.getElementById("drivers");
-    driversEl.innerHTML = drivers.length ? "" : `<div class="card"><div class="meta">No top drivers found in current run.</div></div>`;
-
-    drivers.forEach(driver => {
-      driversEl.innerHTML += `
-        <div class="card">
-          <a href="${driver.link}" target="_blank" rel="noopener noreferrer">${driver.title}</a>
-          <div class="meta">
-            ${driver.source || "n/a"} | state: ${driver.state_key || "n/a"} | class: ${driver.class} | impact: ${driver.impact}
-          </div>
-        </div>`;
-    });
-
-    renderChart(rows.map(x => (x.ts || x.t || "").slice(11, 16)), values);
+    document.getElementById("submeta").innerText = `Uncertainty: ±${uncertainty.toFixed(2)} | Driver sort: configurable below`;
 
     document.getElementById("build").innerText = build
       ? `Build: ${build.built_at_utc || "n/a"} | run #${build.run_number || "n/a"} | sha ${String(build.sha || "").slice(0, 7)}`
       : "Build: unavailable";
+
+    refreshChartsAndDrivers();
   } catch (err) {
     document.getElementById("submeta").innerText = `Load error: ${err && err.message ? err.message : String(err)}`;
     document.getElementById("updated").innerText = "load failed";
   }
 }
+
+document.querySelectorAll('#timeModeSwitch button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    window.__timeMode = btn.dataset.mode;
+    refreshChartsAndDrivers();
+  });
+});
+
+document.getElementById('driverSort').addEventListener('change', renderDrivers);
 
 load();
 </script>

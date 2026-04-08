@@ -3,6 +3,7 @@
 import json
 import math
 from datetime import datetime, timezone
+from urllib.parse import urlparse
 
 from config import load_config
 from events import classify_event
@@ -23,6 +24,13 @@ PROBABILITY_STEEPNESS = float(CONFIG.get("probability_steepness", 0.9))
 
 def clamp(value, low, high):
     return max(low, min(high, value))
+
+
+def extract_domain(url):
+    try:
+        return (urlparse(url).netloc or "").lower()
+    except Exception:
+        return ""
 
 
 def load_previous_state():
@@ -98,7 +106,9 @@ def save_state(probability, state, top_drivers, debug):
         "probability": round(probability, 2),
         "uncertainty": uncertainty,
         "state": state,
-        "top_drivers": sorted_drivers[:8],
+        "top_drivers": sorted_drivers[:12],
+        "driver_sort_default": "severity",
+        "available_driver_sort": ["severity", "chronological", "confidence", "source_weight"],
         "debug": debug,
     }
 
@@ -107,13 +117,14 @@ def save_state(probability, state, top_drivers, debug):
 
     history = load_history()
     history.append({"ts": payload["last_updated"], "probability": payload["probability"]})
-    save_history(history[-200:])
+    save_history(history[-400:])
 
     save_diagnostics(
         {
             "ts": payload["last_updated"],
             "probability": payload["probability"],
             "uncertainty": payload["uncertainty"],
+            "state": state,
             "drop_reasons": debug.get("drop_reasons", {}),
             "event_count": debug.get("event_count", 0),
             "classified_count": debug.get("classified_count", 0),
@@ -168,9 +179,12 @@ def apply_event_impacts(state, events):
         impact = classified["impact"] * source_weight
         updates[state_key] += impact
 
+        source_url = event.get("source", "")
+
         top_drivers.append(
             {
                 "title": event.get("title"),
+                "published": event.get("published", ""),
                 "actors": classified["actors"],
                 "state_key": state_key,
                 "class": classified["class"],
@@ -182,7 +196,8 @@ def apply_event_impacts(state, events):
                 "signal_total": classified.get("signal_total"),
                 "signal_components": classified.get("signal_components"),
                 "link": event.get("link"),
-                "source": event.get("source"),
+                "source": source_url,
+                "source_domain": extract_domain(source_url),
             }
         )
 

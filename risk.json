@@ -1,57 +1,34 @@
 {
-  "last_updated": "2026-04-08 15:03:16 UTC",
-  "probability": 42.82,
-  "uncertainty": 5.92,
+  "last_updated": "2026-04-08 15:18:21 UTC",
+  "probability": 33.27,
+  "uncertainty": 6.22,
   "state": {
-    "us_russia": 4.450923913616604,
-    "us_china": 3.9003741469055226,
-    "china_taiwan": 4.8552551440573986,
-    "india_pakistan": 5.49609375,
-    "china_india": 3.364453125,
-    "iran_us": 2.7558673273445526,
-    "iran_israel": 3.8211261572205437,
-    "nk_us": 4.162109375,
-    "nk_sk": 3.8625,
-    "nk_japan": 3.5628906249999996,
-    "russia_ukraine": 7.1755272169716875
+    "us_russia": 3.9439349556049144,
+    "us_china": 3.478323765543559,
+    "china_taiwan": 4.454354295280493,
+    "india_pakistan": 5.0291748046875,
+    "china_india": 3.09986572265625,
+    "iran_us": 2.104679517651794,
+    "iran_israel": 3.1393482710234144,
+    "nk_us": 3.61737060546875,
+    "nk_sk": 3.364453125,
+    "nk_japan": 3.1115356445312496,
+    "russia_ukraine": 6.949565098977143
   },
   "top_drivers": [
     {
-      "title": "Cameroon 'military contractors' killed in Russia-Ukraine war - BBC confirms leaked message",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.805,
-      "raw_impact": 0.805,
-      "source_weight": 1.0,
-      "age_hours": 1.92,
-      "confidence": 0.82,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cvg0v5gy01go?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
-    },
-    {
       "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
+      "published": "Wed, 08 Apr 2026 15:14:16 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.764,
-      "raw_impact": -0.764,
+      "impact": -0.797,
+      "raw_impact": -0.797,
       "source_weight": 1.0,
-      "age_hours": 0.79,
+      "age_hours": 0.07,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -62,20 +39,74 @@
         "rhetoric": 0.0
       },
       "link": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
     },
     {
-      "title": "Lavan refinery blaze continues hours after US-Iran ceasefire agreement",
+      "title": "Cameroon 'military contractors' killed in Russia-Ukraine war - BBC confirms leaked message",
+      "published": "Wed, 08 Apr 2026 13:07:57 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.794,
+      "raw_impact": 0.794,
+      "source_weight": 1.0,
+      "age_hours": 2.17,
+      "confidence": 0.82,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cvg0v5gy01go?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
+    },
+    {
+      "title": "Hegseth touts US \u2018victory\u2019 over Iran as Tehran hails its own \u2018historic\u2019 win",
+      "published": "Wed, 08 Apr 2026 15:05:50 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.69,
-      "raw_impact": -0.766,
+      "impact": -0.711,
+      "raw_impact": -0.79,
       "source_weight": 0.9,
-      "age_hours": 0.74,
+      "age_hours": 0.21,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/hegseth-touts-us-victory-over-iran-as-tehran-hails-its-own-historic-win?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "Lavan refinery blaze continues hours after US-Iran ceasefire agreement",
+      "published": "Wed, 08 Apr 2026 14:18:48 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.68,
+      "raw_impact": -0.755,
+      "source_weight": 0.9,
+      "age_hours": 0.99,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -86,20 +117,22 @@
         "rhetoric": 0.0
       },
       "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/lavan-refinery-blaze-continues-hours-after-us-iran-ceasefire-agreement?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
     },
     {
       "title": "\u2018Stone Age\u2019 to \u2018Golden Age\u2019: How the final hours before the truce unfolded",
+      "published": "Wed, 08 Apr 2026 13:51:04 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.672,
-      "raw_impact": -0.746,
+      "impact": -0.662,
+      "raw_impact": -0.736,
       "source_weight": 0.9,
-      "age_hours": 1.2,
+      "age_hours": 1.45,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -110,20 +143,22 @@
         "rhetoric": 0.0
       },
       "link": "https://www.aljazeera.com/news/2026/4/8/stone-age-to-golden-age-how-the-final-hours-before-the-truce-unfolded?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
     },
     {
       "title": "Defeat from the jaws of victory: Israel reacts to Trump\u2019s Iran ceasefire",
+      "published": "Wed, 08 Apr 2026 13:34:36 +0000",
       "actors": [
         "iran",
         "israel"
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.661,
-      "raw_impact": -0.735,
+      "impact": -0.652,
+      "raw_impact": -0.724,
       "source_weight": 0.9,
-      "age_hours": 1.48,
+      "age_hours": 1.73,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -134,68 +169,22 @@
         "rhetoric": 0.0
       },
       "link": "https://www.aljazeera.com/news/2026/4/8/defeat-from-the-jaws-of-victory-israel-reacts-to-trumps-iran-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
-    },
-    {
-      "title": "US-Iran ceasefire deal: What are the terms, and what\u2019s next?",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.518,
-      "raw_impact": -0.575,
-      "source_weight": 0.9,
-      "age_hours": 5.72,
-      "confidence": 0.87,
-      "signal_total": -0.8,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
-    },
-    {
-      "title": "GCC, other Middle East nations react to Iran-US ceasefire announcement",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.49,
-      "raw_impact": -0.545,
-      "source_weight": 0.9,
-      "age_hours": 6.65,
-      "confidence": 0.87,
-      "signal_total": -0.8,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/8/gulf-arab-nations-react-to-iran-us-ceasefire-announcement?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
     },
     {
       "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
+      "published": "Wed, 08 Apr 2026 03:30:55 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.411,
-      "raw_impact": -0.411,
+      "impact": -0.405,
+      "raw_impact": -0.405,
       "source_weight": 1.0,
-      "age_hours": 11.54,
+      "age_hours": 11.79,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -206,21 +195,159 @@
         "rhetoric": 0.0
       },
       "link": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
+    },
+    {
+      "title": "Iran, US both claim victory, but did they actually concede ground?",
+      "published": "Wed, 08 Apr 2026 15:06:13 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.178,
+      "raw_impact": 0.198,
+      "source_weight": 0.9,
+      "age_hours": 0.2,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/iran-us-both-claim-victory-but-did-they-actually-concede-ground?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "Did America lose yet another war?",
+      "published": "Wed, 08 Apr 2026 14:57:19 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.176,
+      "raw_impact": 0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.35,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2
+      },
+      "link": "https://www.aljazeera.com/opinions/2026/4/8/did-america-lose-yet-another-war?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "World Athletics postpones Doha Diamond League amid US-Israel war on Iran",
+      "published": "Wed, 08 Apr 2026 12:46:23 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.156,
+      "raw_impact": 0.173,
+      "source_weight": 0.9,
+      "age_hours": 2.53,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2
+      },
+      "link": "https://www.aljazeera.com/sports/2026/4/8/world-athletics-postpones-doha-diamond-league-amid-us-israel-war-on-iran?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "What we know about the two-week ceasefire between the US and Iran",
+      "published": "Wed, 08 Apr 2026 14:14:08 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.094,
+      "raw_impact": 0.094,
+      "source_weight": 1.0,
+      "age_hours": 1.07,
+      "confidence": 0.6,
+      "signal_total": 0.1,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
+    },
+    {
+      "title": "Israel carries out large wave of air strikes across Lebanon",
+      "published": "Wed, 08 Apr 2026 13:13:46 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.089,
+      "raw_impact": 0.089,
+      "source_weight": 1.0,
+      "age_hours": 2.08,
+      "confidence": 0.6,
+      "signal_total": 0.1,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
     }
+  ],
+  "driver_sort_default": "severity",
+  "available_driver_sort": [
+    "severity",
+    "chronological",
+    "confidence",
+    "source_weight"
   ],
   "debug": {
     "event_count": 60,
-    "classified_count": 14,
-    "paired_count": 14,
+    "classified_count": 15,
+    "paired_count": 15,
     "valid_pair_updates": 4,
-    "top_driver_count": 14,
-    "total_signal": 5.1211,
+    "top_driver_count": 15,
+    "total_signal": 4.3242,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 26,
-      "no_signal": 14,
-      "invalid_pair": 6,
+      "no_signal": 12,
+      "invalid_pair": 7,
       "low_confidence": 0,
       "classifier_error": 0
     }
