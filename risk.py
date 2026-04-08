@@ -4,6 +4,7 @@ import json
 import math
 from datetime import datetime, timezone
 
+from config import load_config
 from events import classify_event
 from states import BASELINE_STATE, STATE_WEIGHTS
 
@@ -13,7 +14,11 @@ DIAGNOSTICS_FILE = "diagnostics_log.json"
 
 DECAY_RATE = 0.15
 EMPTY_RUN_DECAY_MULTIPLIER = 2.5
-MAX_STEP_CHANGE = 1.25
+MAX_STEP_CHANGE = 1.0
+
+CONFIG = load_config()
+PROBABILITY_CENTER = float(CONFIG.get("probability_center", 4.8))
+PROBABILITY_STEEPNESS = float(CONFIG.get("probability_steepness", 0.9))
 
 
 def clamp(value, low, high):
@@ -71,19 +76,17 @@ def save_diagnostics(entry):
     diagnostics = load_diagnostics()
     diagnostics.append(entry)
     diagnostics = diagnostics[-400:]
-
     with open(DIAGNOSTICS_FILE, "w", encoding="utf-8") as file_obj:
         json.dump(diagnostics, file_obj, indent=2)
 
 
 def compute_uncertainty(top_drivers, event_count):
     if not top_drivers:
-        return 20.0
-
+        return 18.0
     avg_confidence = sum(driver.get("confidence", 0) for driver in top_drivers) / len(top_drivers)
-    confidence_penalty = (1 - avg_confidence) * 18
-    low_volume_penalty = 12 if event_count < 15 else 6 if event_count < 30 else 2
-    return round(clamp(confidence_penalty + low_volume_penalty, 2, 35), 2)
+    confidence_penalty = (1 - avg_confidence) * 16
+    low_volume_penalty = 10 if event_count < 15 else 5 if event_count < 30 else 2
+    return round(clamp(confidence_penalty + low_volume_penalty, 2, 30), 2)
 
 
 def save_state(probability, state, top_drivers, debug):
@@ -187,9 +190,9 @@ def apply_event_impacts(state, events):
 
 
 COUPLING_RULES = {
-    "us_china": [("china_taiwan", 0.35)],
-    "iran_us": [("iran_israel", 0.30)],
-    "russia_ukraine": [("us_russia", 0.20)],
+    "us_china": [("china_taiwan", 0.2)],
+    "iran_us": [("iran_israel", 0.2)],
+    "russia_ukraine": [("us_russia", 0.1)],
 }
 
 
@@ -216,13 +219,13 @@ def compute_probability(state):
     total_weight = sum(STATE_WEIGHTS.values())
     weighted_sum = sum(state[key] * STATE_WEIGHTS.get(key, 0.0) for key in state)
     average = weighted_sum / total_weight if total_weight else (sum(state.values()) / len(state))
-    probability = 1 / (1 + math.exp(-(average - 5)))
+    z = (average - PROBABILITY_CENTER) * PROBABILITY_STEEPNESS
+    probability = 1 / (1 + math.exp(-z))
     return probability * 100
 
 
 def run(events):
     previous_state = load_previous_state()
-
     updates, top_drivers, classified_count, paired_count, debug_drops = apply_event_impacts(previous_state, events)
     coupled_updates = apply_cross_state_coupling(updates)
 
@@ -253,6 +256,4 @@ def run(events):
 
 if __name__ == "__main__":
     from ingest import fetch_events
-
-    fetched_events = fetch_events()
-    run(fetched_events)
+    run(fetch_events())

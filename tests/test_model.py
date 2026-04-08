@@ -52,7 +52,7 @@ class TestModel(unittest.TestCase):
         state = {"us_china": 5.0}
         updates = {"us_china": 99.0}
         new_state = risk.apply_updates_with_clamp(state, updates)
-        self.assertEqual(new_state["us_china"], 6.25)
+        self.assertEqual(new_state["us_china"], 6.0)
 
     def test_cross_state_coupling(self):
         updates = {
@@ -64,7 +64,7 @@ class TestModel(unittest.TestCase):
             "us_russia": 0.0,
         }
         coupled = risk.apply_cross_state_coupling(updates)
-        self.assertAlmostEqual(coupled["china_taiwan"], 0.35, places=6)
+        self.assertAlmostEqual(coupled["china_taiwan"], 0.2, places=6)
 
     def test_uncertainty_output(self):
         probability, state, drivers = risk.run([])

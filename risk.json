@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-08 14:24:41 UTC",
-  "probability": 79.65,
-  "uncertainty": 6.06,
+  "last_updated": "2026-04-08 15:03:16 UTC",
+  "probability": 42.82,
+  "uncertainty": 5.92,
   "state": {
-    "us_russia": 6.72491223392608,
-    "us_china": 5.711715077738988,
-    "china_taiwan": 6.575827257396399,
-    "india_pakistan": 7.5,
-    "china_india": 4.5,
-    "iran_us": 4.27061218588477,
-    "iran_israel": 5.46715642645246,
-    "nk_us": 6.5,
-    "nk_sk": 6.0,
-    "nk_japan": 5.5,
-    "russia_ukraine": 9.12641350027546
+    "us_russia": 4.450923913616604,
+    "us_china": 3.9003741469055226,
+    "china_taiwan": 4.8552551440573986,
+    "india_pakistan": 5.49609375,
+    "china_india": 3.364453125,
+    "iran_us": 2.7558673273445526,
+    "iran_israel": 3.8211261572205437,
+    "nk_us": 4.162109375,
+    "nk_sk": 3.8625,
+    "nk_japan": 3.5628906249999996,
+    "russia_ukraine": 7.1755272169716875
   },
   "top_drivers": [
     {
@@ -24,15 +24,15 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.929,
-      "raw_impact": 0.929,
+      "impact": 0.805,
+      "raw_impact": 0.805,
       "source_weight": 1.0,
-      "age_hours": 1.28,
-      "confidence": 0.84,
-      "signal_total": 1.0,
+      "age_hours": 1.92,
+      "confidence": 0.82,
+      "signal_total": 0.9,
       "signal_components": {
         "deescalation": 0.0,
-        "action": 1.0,
+        "action": 0.9,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0
@@ -48,10 +48,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.793,
-      "raw_impact": -0.793,
+      "impact": -0.764,
+      "raw_impact": -0.764,
       "source_weight": 1.0,
-      "age_hours": 0.14,
+      "age_hours": 0.79,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -65,6 +65,30 @@
       "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
     },
     {
+      "title": "Lavan refinery blaze continues hours after US-Iran ceasefire agreement",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.69,
+      "raw_impact": -0.766,
+      "source_weight": 0.9,
+      "age_hours": 0.74,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/lavan-refinery-blaze-continues-hours-after-us-iran-ceasefire-agreement?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
       "title": "\u2018Stone Age\u2019 to \u2018Golden Age\u2019: How the final hours before the truce unfolded",
       "actors": [
         "iran",
@@ -72,11 +96,11 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.736,
-      "raw_impact": -0.775,
-      "source_weight": 0.95,
-      "age_hours": 0.56,
-      "confidence": 0.875,
+      "impact": -0.672,
+      "raw_impact": -0.746,
+      "source_weight": 0.9,
+      "age_hours": 1.2,
+      "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
         "deescalation": -0.8,
@@ -96,11 +120,11 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.724,
-      "raw_impact": -0.762,
-      "source_weight": 0.95,
-      "age_hours": 0.83,
-      "confidence": 0.875,
+      "impact": -0.661,
+      "raw_impact": -0.735,
+      "source_weight": 0.9,
+      "age_hours": 1.48,
+      "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
         "deescalation": -0.8,
@@ -120,11 +144,11 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.567,
-      "raw_impact": -0.597,
-      "source_weight": 0.95,
-      "age_hours": 5.07,
-      "confidence": 0.875,
+      "impact": -0.518,
+      "raw_impact": -0.575,
+      "source_weight": 0.9,
+      "age_hours": 5.72,
+      "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
         "deescalation": -0.8,
@@ -144,11 +168,11 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.537,
-      "raw_impact": -0.566,
-      "source_weight": 0.95,
-      "age_hours": 6.0,
-      "confidence": 0.875,
+      "impact": -0.49,
+      "raw_impact": -0.545,
+      "source_weight": 0.9,
+      "age_hours": 6.65,
+      "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
         "deescalation": -0.8,
@@ -161,18 +185,18 @@
       "source": "https://www.aljazeera.com/xml/rss/all.xml"
     },
     {
-      "title": "Tehran celebrates as Iran, US agree to two-week ceasefire",
+      "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.536,
-      "raw_impact": -0.564,
-      "source_weight": 0.95,
-      "age_hours": 6.06,
-      "confidence": 0.875,
+      "impact": -0.411,
+      "raw_impact": -0.411,
+      "source_weight": 1.0,
+      "age_hours": 11.54,
+      "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
         "deescalation": -0.8,
@@ -181,46 +205,22 @@
         "strategic": 0.0,
         "rhetoric": 0.0
       },
-      "link": "https://www.aljazeera.com/gallery/2026/4/8/tehran-celebrates-as-iran-us-agree-to-two-week-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
-    },
-    {
-      "title": "US-Israeli war on Iran: What is happening on day 40?",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.497,
-      "raw_impact": -0.523,
-      "source_weight": 0.95,
-      "age_hours": 7.36,
-      "confidence": 0.805,
-      "signal_total": -0.8,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/8/iran-war-what-is-happening-on-day-40-of-us-israeli-attacks?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+      "link": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
     }
   ],
   "debug": {
     "event_count": 60,
-    "classified_count": 15,
-    "paired_count": 15,
-    "valid_pair_updates": 6,
-    "top_driver_count": 15,
-    "total_signal": 6.2154,
+    "classified_count": 14,
+    "paired_count": 14,
+    "valid_pair_updates": 4,
+    "top_driver_count": 14,
+    "total_signal": 5.1211,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 26,
       "no_signal": 14,
-      "invalid_pair": 5,
+      "invalid_pair": 6,
       "low_confidence": 0,
       "classifier_error": 0
     }
