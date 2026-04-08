@@ -39,13 +39,13 @@ h1 { margin:0; font-size:2.6rem; line-height:1.1; text-align:center; }
 .sources-list { display:grid; grid-template-columns:1fr 1fr; gap:8px 14px; }
 .source-item { font-size:.88rem; color:var(--muted); word-break:break-word; }
 .nerdy-grid { display:grid; grid-template-columns:repeat(3,minmax(220px,1fr)); gap:12px; align-items:stretch; }
-.nerdy-block { border:1px solid var(--border); border-radius:8px; padding:8px; min-height:220px; max-height:220px; overflow:hidden; position:relative; }
+.nerdy-block { border:1px solid var(--border); border-radius:8px; padding:8px 8px 42px; min-height:220px; max-height:220px; overflow:hidden; position:relative; }
 .nerdy-block.expanded { max-height:none; box-shadow:0 14px 34px rgba(0,0,0,.26); transform:translateY(-2px); z-index:2; }
-.nerdy-block:not(.expanded)::after { content:""; position:absolute; left:0; right:0; bottom:34px; height:26px; background:linear-gradient(to bottom, rgba(0,0,0,0), var(--card)); pointer-events:none; }
+.nerdy-block:not(.expanded)::after { content:""; position:absolute; left:0; right:0; bottom:38px; height:30px; background:linear-gradient(to bottom, rgba(0,0,0,0), var(--card)); pointer-events:none; }
 .nerdy-stack { display:grid; grid-template-rows:1fr 1fr; gap:12px; min-height:220px; }
 .nerdy-subblock { border:1px solid var(--border); border-radius:8px; padding:8px; overflow:hidden; }
 .nerdy-title { font-size:.85rem; font-weight:700; color:var(--text); margin-bottom:6px; }
-.nerdy-expand { border:1px solid var(--border); background:var(--card); color:var(--text); border-radius:6px; font-size:.75rem; padding:4px 8px; cursor:pointer; display:none; margin-top:8px; }
+.nerdy-expand { border:1px solid var(--border); background:var(--card); color:var(--text); border-radius:6px; font-size:.75rem; padding:4px 8px; cursor:pointer; display:block; margin-top:8px; }
 .source-item a { color:var(--link); text-decoration:none; }
 .footer { margin-top:42px; text-align:center; font-size:.9rem; color:var(--muted); }
 .build { margin-top:10px; font-size:.8rem; }
@@ -172,7 +172,7 @@ function renderNerdyDetails(){ const container=document.getElementById("nerdyDet
     });
     el.appendChild(btn);
     requestAnimationFrame(()=>{
-      if(el.scrollHeight>el.clientHeight+6){ btn.style.display='block'; }
+      btn.style.display='block';
     });
   });
 }
