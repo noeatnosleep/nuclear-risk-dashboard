@@ -52,8 +52,9 @@ h1 { margin: 0; font-size: 2.6rem; line-height: 1.1; text-align: center; }
 .low { color: var(--low); }
 .medium { color: var(--medium); }
 .high { color: var(--high); }
-.updated, .submeta { text-align: center; color: var(--muted); }
-.submeta { font-size: 0.95rem; margin-bottom: 18px; }
+.updated, .submeta, .honesty { text-align: center; color: var(--muted); }
+.submeta { font-size: 0.95rem; margin-bottom: 6px; }
+.honesty { font-size: 0.86rem; margin-bottom: 18px; }
 .section { margin-top: 38px; }
 .chart-container { background: var(--card); border-radius: 12px; padding: 16px; height: 280px; border: 1px solid var(--border); }
 .mode-switch { text-align: center; margin-top: 9px; font-size: 0.82rem; color: var(--muted); }
@@ -92,6 +93,7 @@ canvas { width: 100% !important; height: 100% !important; }
   <div id="risk" class="risk">--%</div>
   <div id="updated" class="updated"></div>
   <div id="submeta" class="submeta"></div>
+  <div id="honesty" class="honesty">This is a headline-driven risk index, not a literal prediction.</div>
 
   <div class="section">
     <h2>Risk Trend</h2>
@@ -500,6 +502,7 @@ function renderNerdyDetails() {
     lines.push(`<div class="meta">${k}: ${v}</div>`);
   });
   lines.push(`<div class="meta"><strong>Back-history policy:</strong> days=${asText(policy.days)} | floor=${asText(policy.floor)} | ceiling=${asText(policy.ceiling)}</div>`);
+  lines.push(`<div class="meta"><strong>Honesty checks:</strong> sparse-history days can still be flat; source weighting is heuristic and should be reviewed regularly.</div>`);
   lines.push(`<div class="meta"><strong>Anchors:</strong> ${anchors.map(a => `${a.date}:${a.probability}`).join(' | ') || 'n/a'}</div>`);
   lines.push(`<div class="meta"><strong>Volatility bands:</strong> ${bands.map(b => `${b.start_date}→${b.end_date} amp=${b.amplitude}`).join(' | ') || 'none'}</div>`);
   container.innerHTML = lines.join('');

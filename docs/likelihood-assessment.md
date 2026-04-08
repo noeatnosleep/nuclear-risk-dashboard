@@ -33,3 +33,10 @@ This range is intentionally conservative and should be treated as a calibration 
 - Expanded ingestion feeds to include government and institutional channels (UN, IAEA, U.S. State, U.S. DoD, NATO) plus additional major media feeds.
 - Added `signal_sources` to `risk.json` and surfaced them in the UI.
 - Lowered logistic calibration aggressiveness in `model_config.json` (`probability_center`, `probability_steepness`) to reduce inflated top-line percentages while preserving movement sensitivity.
+
+
+## Honesty principle
+
+- Treat the dashboard as a **relative stress index**, not a precise forecast.
+- Prefer transparent uncertainty and limitations over impressive precision.
+- When data is sparse, display that clearly rather than smoothing it away.
