@@ -1,42 +1,43 @@
+"""Actor extraction and normalization utilities."""
+
 import re
 
 ACTOR_PATTERNS = {
-    "us": r"\b(united states|u\.s\.|u\.s|america|washington)\b",
-    "russia": r"\brussia|russian\b",
-    "china": r"\bchina|chinese\b",
-    "india": r"\bindia|indian\b",
-    "pakistan": r"\bpakistan\b",
-    "iran": r"\biran|iranian\b",
-    "israel": r"\bisrael|israeli\b",
-    "nk": r"\b(north korea|dprk)\b",
-    "sk": r"\b(south korea)\b",
-    "japan": r"\bjapan|japanese\b",
-    "ukraine": r"\bukraine|ukrainian\b",
-    "taiwan": r"\btaiwan\b"
+    "us": r"\b(united states|u\.s\.|u\.s|us|america|washington|pentagon|white house)\b",
+    "russia": r"\b(russia|russian|kremlin|moscow)\b",
+    "china": r"\b(china|chinese|beijing)\b",
+    "india": r"\b(india|indian|new delhi)\b",
+    "pakistan": r"\b(pakistan|pakistani|islamabad)\b",
+    "iran": r"\b(iran|iranian|tehran)\b",
+    "israel": r"\b(israel|israeli|jerusalem)\b",
+    "nk": r"\b(north korea|dprk|pyongyang)\b",
+    "sk": r"\b(south korea|seoul|republic of korea)\b",
+    "japan": r"\b(japan|japanese|tokyo)\b",
+    "ukraine": r"\b(ukraine|ukrainian|kyiv|kiev)\b",
+    "taiwan": r"\b(taiwan|taipei)\b",
 }
 
 
-STATE_KEYS = [
-    "us_russia",
-    "us_china",
-    "china_taiwan",
-    "india_pakistan",
-    "china_india",
-    "iran_us",
-    "iran_israel",
-    "nk_us",
-    "nk_sk",
-    "nk_japan",
-    "russia_ukraine"
-]
+CONFLICT_SIGNAL_PATTERN = re.compile(
+    r"\b("
+    r"strike|attack|bomb|missile|drone|killed|destroyed|"
+    r"military|troops|forces|exercise|drill|sanction|"
+    r"ceasefire|talks|negotiation|truce|nuclear|war"
+    r")\b",
+    flags=re.IGNORECASE,
+)
+
+
+def has_conflict_signal(text):
+    return bool(CONFLICT_SIGNAL_PATTERN.search((text or "").lower()))
 
 
 def extract_actors(text):
-    text = text.lower()
+    text = (text or "").lower()
     found = set()
 
     for actor, pattern in ACTOR_PATTERNS.items():
         if re.search(pattern, text):
             found.add(actor)
 
-    return list(found)
+    return sorted(found)
