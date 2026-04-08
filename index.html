@@ -62,7 +62,7 @@ canvas { width: 100% !important; height: 100% !important; }
 <div class="container">
   <div class="header-row">
     <h1>Global Nuclear Risk</h1>
-    <button id="themeToggle" class="toggle-btn" type="button">Toggle light/dark</button>
+    <button id="themeToggle" class="toggle-btn" type="button">Switch to light mode</button>
   </div>
 
   <div id="risk" class="risk">--%</div>
@@ -128,35 +128,44 @@ function parseUtc(ts) {
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
-function bucketKey(ts, mode) {
-  const d = parseUtc(ts);
-  if (!d) return "";
+function formatBucket(d, mode) {
   const y = d.getUTCFullYear();
   const m = String(d.getUTCMonth() + 1).padStart(2, "0");
   const day = String(d.getUTCDate()).padStart(2, "0");
   const hh = String(d.getUTCHours()).padStart(2, "0");
-
   if (mode === "years") return `${y}-${m}`;
   if (mode === "hours") return `${y}-${m}-${day} ${hh}:00`;
   return `${y}-${m}-${day}`;
 }
 
+function bucketKey(ts, mode) {
+  const d = parseUtc(ts);
+  if (!d) return "";
+  return formatBucket(d, mode);
+}
+
 function bucketRows(rows, mode, valueGetter) {
-  const map = new Map();
+  const buckets = new Map();
   rows.forEach(row => {
     const ts = row.ts || row.t || "";
-    const key = bucketKey(ts, mode);
-    if (!key) return;
+    const dt = parseUtc(ts);
+    if (!dt) return;
+    const key = formatBucket(dt, mode);
     const value = valueGetter(row);
     if (value === null || Number.isNaN(value)) return;
-    if (!map.has(key)) map.set(key, []);
-    map.get(key).push(value);
+
+    if (!buckets.has(key)) {
+      buckets.set(key, { key, t: dt.getTime(), values: [] });
+    }
+    buckets.get(key).values.push(Number(value));
   });
 
-  return [...map.entries()].map(([key, vals]) => ({
-    key,
-    value: vals.reduce((a, b) => a + b, 0) / vals.length
-  }));
+  return [...buckets.values()]
+    .sort((a, b) => a.t - b.t)
+    .map(bucket => ({
+      key: bucket.key,
+      value: bucket.values.reduce((a, b) => a + b, 0) / bucket.values.length
+    }));
 }
 
 function fixedBand(probability) {
@@ -189,6 +198,19 @@ function pickTopStates(latestState) {
   return rows.slice(0, 5).map(([k]) => k);
 }
 
+function buildStateSeries(rows, key, mode) {
+  const buckets = new Map();
+  rows.forEach(row => {
+    const bucket = bucketKey(row.ts || "", mode);
+    if (!bucket) return;
+    const value = Number((row.state || {})[key]);
+    if (Number.isNaN(value)) return;
+    if (!buckets.has(bucket)) buckets.set(bucket, []);
+    buckets.get(bucket).push(value);
+  });
+  return buckets;
+}
+
 function renderStateChart() {
   const rows = Array.isArray(window.__diagnosticsRows) ? window.__diagnosticsRows : [];
   if (!rows.length) return;
@@ -196,24 +218,24 @@ function renderStateChart() {
   const latestState = rows[rows.length - 1].state || {};
   const keys = pickTopStates(latestState);
 
-  const labelSet = [];
-  const labelIndex = new Map();
+  const labels = [];
+  const labelSet = new Set();
   rows.forEach(r => {
     const k = bucketKey(r.ts || "", window.__timeMode);
-    if (k && !labelIndex.has(k)) {
-      labelIndex.set(k, labelSet.length);
-      labelSet.push(k);
+    if (k && !labelSet.has(k)) {
+      labelSet.add(k);
+      labels.push(k);
     }
   });
 
+  const sortedLabels = [...labels].sort((a, b) => a.localeCompare(b));
+
   const datasets = keys.map(key => {
-    const data = new Array(labelSet.length).fill(null);
-    rows.forEach(r => {
-      const bucket = bucketKey(r.ts || "", window.__timeMode);
-      if (!labelIndex.has(bucket)) return;
-      const idx = labelIndex.get(bucket);
-      const v = Number((r.state || {})[key]);
-      if (!Number.isNaN(v)) data[idx] = v;
+    const seriesByBucket = buildStateSeries(rows, key, window.__timeMode);
+    const data = sortedLabels.map(label => {
+      const values = seriesByBucket.get(label) || [];
+      if (!values.length) return null;
+      return values.reduce((a, b) => a + b, 0) / values.length;
     });
     return { label: key, data, borderWidth: 2, tension: 0.25, spanGaps: false };
   });
@@ -222,7 +244,7 @@ function renderStateChart() {
   if (window.__stateChart) window.__stateChart.destroy();
   window.__stateChart = new Chart(canvas, {
     type: "line",
-    data: { labels: labelSet, datasets },
+    data: { labels: sortedLabels, datasets },
     options: {
       maintainAspectRatio: false,
       plugins: { legend: { display: true } },
@@ -257,6 +279,54 @@ function sortDrivers(drivers, mode) {
   return rows;
 }
 
+function safeExternalUrl(url) {
+  if (!url) return "";
+  try {
+    const parsed = new URL(url);
+    if (parsed.protocol === "http:" || parsed.protocol === "https:") {
+      return parsed.toString();
+    }
+    return "";
+  } catch (_) {
+    return "";
+  }
+}
+
+function asText(value, fallback = "n/a") {
+  if (value === null || value === undefined) return fallback;
+  const text = String(value).trim();
+  return text || fallback;
+}
+
+function renderDriverCard(container, driver) {
+  const card = document.createElement("div");
+  card.className = "card";
+
+  const link = document.createElement("a");
+  const href = safeExternalUrl(driver.link);
+  link.href = href || "#";
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = asText(driver.title, "Untitled event");
+  if (!href) {
+    link.removeAttribute("target");
+    link.removeAttribute("rel");
+  }
+
+  const metaA = document.createElement("div");
+  metaA.className = "meta";
+  metaA.textContent = `source: ${asText(driver.source_domain)} | state: ${asText(driver.state_key)} | class: ${asText(driver.class)}`;
+
+  const metaB = document.createElement("div");
+  metaB.className = "meta";
+  metaB.textContent = `impact: ${asText(driver.impact)} | source_weight: ${asText(driver.source_weight)} | confidence: ${asText(driver.confidence)} | age_hours: ${asText(driver.age_hours)}`;
+
+  card.appendChild(link);
+  card.appendChild(metaA);
+  card.appendChild(metaB);
+  container.appendChild(card);
+}
+
 function renderDrivers() {
   const payload = window.__riskPayload || {};
   const sortSelect = document.getElementById("driverSort");
@@ -265,20 +335,17 @@ function renderDrivers() {
   const sorted = sortDrivers(drivers, sortSelect.value);
 
   const container = document.getElementById("drivers");
-  container.innerHTML = sorted.length ? "" : `<div class="card"><div class="meta">No top drivers found in current run.</div></div>`;
+  container.replaceChildren();
 
-  sorted.forEach(driver => {
-    container.innerHTML += `
-      <div class="card">
-        <a href="${driver.link}" target="_blank" rel="noopener noreferrer">${driver.title}</a>
-        <div class="meta">
-          source: ${driver.source_domain || "n/a"} | state: ${driver.state_key || "n/a"} | class: ${driver.class || "n/a"}
-        </div>
-        <div class="meta">
-          impact: ${driver.impact ?? "n/a"} | source_weight: ${driver.source_weight ?? "n/a"} | confidence: ${driver.confidence ?? "n/a"} | age_hours: ${driver.age_hours ?? "n/a"}
-        </div>
-      </div>`;
-  });
+  if (!sorted.length) {
+    const empty = document.createElement("div");
+    empty.className = "card";
+    empty.innerHTML = '<div class="meta">No top drivers found in current run.</div>';
+    container.appendChild(empty);
+    return;
+  }
+
+  sorted.forEach(driver => renderDriverCard(container, driver));
 }
 
 function refreshChartsAndDrivers() {
@@ -286,14 +353,20 @@ function refreshChartsAndDrivers() {
   renderStateChart();
   renderDrivers();
 
-  document.querySelectorAll('#timeModeSwitch button').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.mode === window.__timeMode);
+  document.querySelectorAll("#timeModeSwitch button").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.mode === window.__timeMode);
   });
 }
 
+function updateThemeButton(theme) {
+  const btn = document.getElementById("themeToggle");
+  btn.textContent = theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
+}
+
 function applyTheme(theme) {
-  document.documentElement.setAttribute('data-theme', theme);
+  document.documentElement.setAttribute("data-theme", theme);
   localStorage.setItem(THEME_KEY, theme);
+  updateThemeButton(theme);
 }
 
 async function load() {
@@ -329,21 +402,21 @@ async function load() {
   }
 }
 
-document.querySelectorAll('#timeModeSwitch button').forEach(btn => {
-  btn.addEventListener('click', () => {
+document.querySelectorAll("#timeModeSwitch button").forEach(btn => {
+  btn.addEventListener("click", () => {
     window.__timeMode = btn.dataset.mode;
     refreshChartsAndDrivers();
   });
 });
 
-document.getElementById('driverSort').addEventListener('change', renderDrivers);
+document.getElementById("driverSort").addEventListener("change", renderDrivers);
 
-document.getElementById('themeToggle').addEventListener('click', () => {
-  const current = document.documentElement.getAttribute('data-theme') || 'dark';
-  applyTheme(current === 'dark' ? 'light' : 'dark');
+document.getElementById("themeToggle").addEventListener("click", () => {
+  const current = document.documentElement.getAttribute("data-theme") || "dark";
+  applyTheme(current === "dark" ? "light" : "dark");
 });
 
-applyTheme(localStorage.getItem(THEME_KEY) || 'dark');
+applyTheme(localStorage.getItem(THEME_KEY) || "dark");
 load();
 </script>
 </body>
