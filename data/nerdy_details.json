@@ -1,32 +1,34 @@
 {
-  "plain_english": [
-    "Score rises when concrete, corroborated escalation events dominate.",
-    "Score falls only when stabilizing signals include verifiable operational follow-through.",
-    "Source reputation improves confidence, but cannot turn weak commentary into high impact.",
-    "Uncertainty is higher when signals conflict or corroboration is shallow."
+  "what_score_is": [
+    "The large percentage is a bounded model output from the current state vector, not a literal real-world strike frequency.",
+    "Uncertainty is model uncertainty from signal quality/conflict/corroboration depth, not a confidence interval over geopolitical reality.",
+    "Values are comparable across time under the same scoring rules and historical replay assumptions."
   ],
-  "model_mechanics": [
-    "Pipeline: ingest -> normalize -> classify -> event-cluster -> bounded state update -> bounded probability.",
-    "Event clusters are grouped by actor pair, signal class, time bucket, and normalized title tokens.",
-    "Signal hierarchy suppresses rhetoric relative to operational events (action/movement/strategic).",
-    "De-escalation is discounted unless verification language is present (inspection/implemented/stand-down/rollback)."
+  "how_model_works": [
+    "Pipeline: ingest -> normalize -> classify -> event-cluster -> bounded state update -> bounded logistic mapping.",
+    "Classification uses actor pairing, signal class detection, contradiction adjustment, and recency decay.",
+    "Event clusters group by actor pair, class, time bucket, and normalized title to reduce duplicate-wire inflation.",
+    "Class hierarchy down-weights commentary/rhetoric relative to operational actions."
   ],
-  "transparency": [
-    "Per-driver source weight, corroboration count, and confidence are surfaced.",
-    "Nerdy Details documents hierarchy and de-escalation eligibility rules.",
-    "Back-history metadata reports replay mode and days covered.",
-    "Build metadata and update timestamp are shown on page."
+  "why_drivers_shown": [
+    "Drivers are ranked by modeled contribution magnitude after clustering, class weighting, corroboration, and decay.",
+    "Displayed rows include source domain, class, impact, confidence, and corroboration count for inspection.",
+    "Node-click filtering switches drivers to the nearest diagnostics slice for that selected historical point."
+  ],
+  "history_policy": [
+    "History is replay-based and scored through the same model path as current data.",
+    "Stored series include event/scoring timestamps and diagnostics rows with driver payloads.",
+    "Coverage quality depends on external archive/API completeness and may vary by date range."
   ],
   "limitations": [
-    "Semantic clustering is token/time based and can still miss nuanced same-event links.",
-    "Archive/replay coverage quality varies by date and external API completeness.",
-    "Model confidence is not real-world truth confidence.",
-    "Backtesting is present but still lightweight and should be expanded."
+    "Token/time clustering can still miss some semantically equivalent events.",
+    "Backtesting is lightweight and currently focused on direction/pair sanity checks.",
+    "Model confidence should not be read as ground-truth certainty."
   ],
-  "example_scenarios": [
-    "One missile test from one source -> medium event impact with higher uncertainty.",
-    "Same operational event corroborated by many outlets -> stronger confidence, bounded impact increase.",
-    "Many articles about one speech -> clustered and strongly down-weighted vs operational actions.",
-    "Ceasefire headline without verification -> weak stabilization contribution."
+  "worked_examples": [
+    "Single-source missile test: medium movement with elevated uncertainty.",
+    "Multi-source corroborated strike event: stronger confidence, bounded impact uplift.",
+    "Speech/commentary flood without operations: clustered and heavily down-weighted.",
+    "Ceasefire claim without verification terms: weak stabilization effect."
   ]
 }
