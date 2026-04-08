@@ -35,6 +35,8 @@ def dedupe_key(title, link):
 
 
 def fetch_events():
+    config = load_config()
+
     events = []
     seen = set()
 

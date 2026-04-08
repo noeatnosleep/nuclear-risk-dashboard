@@ -31,7 +31,7 @@ def load_previous_state():
         return BASELINE_STATE.copy()
 
 
-def load_history():
+def load_json(path):
     try:
         with open(HISTORY_FILE, "r", encoding="utf-8") as file_obj:
             data = json.load(file_obj)
@@ -64,6 +64,7 @@ def save_state(probability, state, top_drivers, debug):
     payload = {
         "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
         "probability": round(probability, 2),
+        "uncertainty": uncertainty,
         "state": state,
         "top_drivers": sorted_drivers[:8],
         "debug": debug,
