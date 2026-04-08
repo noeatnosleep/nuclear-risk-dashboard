@@ -31,3 +31,16 @@ _Date: 2026-04-08_
 2. Corroboration-aware confidence boost/penalty.
 3. Historical replay quality scoring per day.
 4. Scenario tests for duplicate flood + mixed contradiction days.
+
+## Completion status against the prior "full-system hardening" checklist
+
+Completed in this pass:
+- Added a written end-to-end system audit with explicit partial/complete calls per subsystem.
+- Added guardrail tests around boundedness behavior and transparency fields.
+- Surfaced more implementation details in Nerdy details to reduce "black box" behavior.
+
+Still open:
+1. Full contradiction matrix (routine drill vs threat posture vs de-escalation) with tested pairwise interactions.
+2. Robust multi-source clustering for same-event corroboration (beyond near-title dedupe).
+3. Historical backtest report that compares predicted risk direction to subsequent event intensity.
+4. Expanded fixture matrix covering stale-source, duplication floods, and mixed-signal days with deterministic expected outputs.
