@@ -1,22 +1,401 @@
 {
-  "last_updated": "2026-04-08 20:01:33 UTC",
-  "probability": 11.21,
-  "uncertainty": 18.0,
+  "last_updated": "2026-04-08 20:02:06 UTC",
+  "probability": 11.02,
+  "uncertainty": 6.13,
   "state": {
-    "us_russia": 3.2603847835724284,
-    "us_china": 3.000000609654937,
-    "china_taiwan": 4.000000579104279,
-    "india_pakistan": 4.500000674467914,
-    "china_india": 2.8000003821984847,
-    "iran_us": 2.5594983651189924,
-    "iran_israel": 3.88183433896414,
-    "nk_us": 3.0000007868792333,
-    "nk_sk": 2.800000719432442,
-    "nk_japan": 2.6000006519856504,
-    "russia_ukraine": 5.603840838634775
+    "us_russia": 3.297042184048822,
+    "us_china": 3.0000003238791852,
+    "china_taiwan": 4.000000307649149,
+    "india_pakistan": 4.5000003583110795,
+    "china_india": 2.800000203042945,
+    "iran_us": 2.0003585064694644,
+    "iran_israel": 3.4879234999735007,
+    "nk_us": 3.0000004180295927,
+    "nk_sk": 2.8000003821984847,
+    "nk_japan": 2.600000346367377,
+    "russia_ukraine": 5.97041812328442
   },
-  "top_drivers": [],
-  "signal_sources": [],
+  "top_drivers": [
+    {
+      "title": "Iran Strait of Hormuz warning adds to shipping uncertainty",
+      "published": "Wed, 08 Apr 2026 17:21:31 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.685,
+      "raw_impact": -0.685,
+      "source_weight": 1.0,
+      "age_hours": 2.68,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c3w39lg84w2o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
+    },
+    {
+      "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
+      "published": "Wed, 08 Apr 2026 16:36:29 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.656,
+      "raw_impact": -0.656,
+      "source_weight": 1.0,
+      "age_hours": 3.43,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
+    },
+    {
+      "title": "\u2018A lot of work to do\u2019 to reopen Strait of Hormuz after US-Iran ceasefire",
+      "published": "Wed, 08 Apr 2026 18:08:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.645,
+      "raw_impact": -0.717,
+      "source_weight": 0.9,
+      "age_hours": 1.9,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/starmer-a-lot-of-work-to-do-to-reopen-strait-of-hormuz-after-us-iran-cea?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "Cameroon 'military contractors' killed in Russia-Ukraine war - BBC confirms leaked message",
+      "published": "Wed, 08 Apr 2026 13:07:57 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.604,
+      "raw_impact": 0.604,
+      "source_weight": 1.0,
+      "age_hours": 6.9,
+      "confidence": 0.82,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cvg0v5gy01go?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
+    },
+    {
+      "title": "How Pakistan managed to get the US and Iran to a ceasefire",
+      "published": "Wed, 08 Apr 2026 15:49:03 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.564,
+      "raw_impact": -0.627,
+      "source_weight": 0.9,
+      "age_hours": 4.22,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/features/2026/4/8/how-pakistan-managed-to-get-the-us-and-iran-to-a-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "Hegseth: Iran \u2018begged\u2019 for ceasefire, claims \u2018historic victory\u2019",
+      "published": "Wed, 08 Apr 2026 15:47:24 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.563,
+      "raw_impact": -0.626,
+      "source_weight": 0.9,
+      "age_hours": 4.25,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/hegseth-iran-begged-for-ceasefire-claims-historic?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "Trump says Lebanon not included in US-Iran ceasefire amid Israeli assault",
+      "published": "Wed, 08 Apr 2026 15:40:30 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.56,
+      "raw_impact": -0.622,
+      "source_weight": 0.9,
+      "age_hours": 4.36,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/trump-says-lebanon-not-included-in-us-iran-ceasefire-amid-israeli-assault?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "Oil prices plunge and stocks soar after U.S. and Iran agree on a ceasefire",
+      "published": "Wed, 08 Apr 2026 09:33:28 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.468,
+      "raw_impact": -0.55,
+      "source_weight": 0.85,
+      "age_hours": 6.48,
+      "confidence": 0.865,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/08/nx-s1-5776818/wall-street-stocks-oil-trump-iran-ceasefire",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org"
+    },
+    {
+      "title": "U.S., Iran agree to 2-week ceasefire. And, Trump-backed Clay Fuller wins House race",
+      "published": "Wed, 08 Apr 2026 07:55:39 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.426,
+      "raw_impact": -0.501,
+      "source_weight": 0.85,
+      "age_hours": 8.11,
+      "confidence": 0.865,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/08/g-s1-116752/up-first-newsletter-iran-trump-israel-ceasefire-clay-fuller-ice-spyware-telehealth-abortions",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org"
+    },
+    {
+      "title": "Leaders Praise Troops Who Rescued Downed Airmen in Iran",
+      "published": "Wed, 08 Apr 2026 15:22:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.401,
+      "raw_impact": 0.382,
+      "source_weight": 1.05,
+      "age_hours": 4.67,
+      "confidence": 0.745,
+      "signal_total": 0.5,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.war.gov/News/News-Stories/Article/Article/4454212/leaders-praise-troops-who-rescued-downed-airmen-in-iran/",
+      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "source_domain": "www.defense.gov"
+    },
+    {
+      "title": "White House says Trump\u2019s \u2018red line\u2019 against Iran nuclear enrichment remains",
+      "published": "Wed, 08 Apr 2026 19:00:28 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.339,
+      "raw_impact": 0.377,
+      "source_weight": 0.9,
+      "age_hours": 1.03,
+      "confidence": 0.65,
+      "signal_total": 0.4,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/white-house-says-trumps-red-line-against-iran-nuclear-enrichment-remains?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
+      "published": "Wed, 08 Apr 2026 03:30:55 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.308,
+      "raw_impact": -0.308,
+      "source_weight": 1.0,
+      "age_hours": 16.52,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
+    }
+  ],
+  "signal_sources": [
+    {
+      "name": "aljazeera_all",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "domain": "www.aljazeera.com"
+    },
+    {
+      "name": "bbc_world",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "domain": "feeds.bbci.co.uk"
+    },
+    {
+      "name": "cnn_world",
+      "url": "http://rss.cnn.com/rss/edition_world.rss",
+      "domain": "rss.cnn.com"
+    },
+    {
+      "name": "feeds.bbci.co.uk",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "domain": "feeds.bbci.co.uk"
+    },
+    {
+      "name": "feeds.npr.org",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "domain": "feeds.npr.org"
+    },
+    {
+      "name": "guardian_world",
+      "url": "https://www.theguardian.com/world/rss",
+      "domain": "www.theguardian.com"
+    },
+    {
+      "name": "news.un.org",
+      "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "domain": "news.un.org"
+    },
+    {
+      "name": "npr_world",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "domain": "feeds.npr.org"
+    },
+    {
+      "name": "un_news",
+      "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "domain": "news.un.org"
+    },
+    {
+      "name": "us_defense_news",
+      "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "domain": "www.defense.gov"
+    },
+    {
+      "name": "www.aljazeera.com",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "domain": "www.aljazeera.com"
+    },
+    {
+      "name": "www.defense.gov",
+      "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "domain": "www.defense.gov"
+    },
+    {
+      "name": "www.theguardian.com",
+      "url": "https://www.theguardian.com/world/rss",
+      "domain": "www.theguardian.com"
+    }
+  ],
   "driver_sort_default": "severity",
   "available_driver_sort": [
     "severity",
@@ -25,17 +404,17 @@
     "source_weight"
   ],
   "debug": {
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0,
-    "valid_pair_updates": 0,
-    "top_driver_count": 0,
-    "total_signal": 0.0,
+    "event_count": 130,
+    "classified_count": 24,
+    "paired_count": 24,
+    "valid_pair_updates": 4,
+    "top_driver_count": 24,
+    "total_signal": 5.2287,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
+      "no_actor": 62,
+      "no_signal": 28,
+      "invalid_pair": 16,
       "low_confidence": 0,
       "classifier_error": 0
     }
