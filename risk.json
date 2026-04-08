@@ -1,60 +1,34 @@
 {
-  "last_updated": "2026-04-08 17:16:47 UTC",
-  "probability": 23.77,
-  "uncertainty": 5.76,
+  "last_updated": "2026-04-08 18:47:13 UTC",
+  "probability": 23.78,
+  "uncertainty": 5.68,
   "state": {
-    "us_russia": 3.355652606662903,
-    "us_china": 3.000151073848744,
-    "china_taiwan": 4.000143503327716,
-    "india_pakistan": 4.500167134648457,
-    "china_india": 2.8000947096341253,
-    "iran_us": 1.367660749722071,
-    "iran_israel": 2.4369501957584134,
-    "nk_us": 3.0001949904231995,
-    "nk_sk": 2.8001782769583534,
-    "nk_japan": 2.6001615634935082,
-    "russia_ukraine": 6.554792172295427
+    "us_russia": 3.347612775586915,
+    "us_china": 3.000080257982145,
+    "china_taiwan": 4.000076236142849,
+    "india_pakistan": 4.500088790281993,
+    "china_india": 2.800050314493129,
+    "iran_us": 1.36719477328985,
+    "iran_israel": 2.612706104838147,
+    "nk_us": 3.0001035886623244,
+    "nk_sk": 2.8000947096341253,
+    "nk_japan": 2.6000858306059267,
+    "russia_ukraine": 6.475206624504421
   },
   "top_drivers": [
     {
-      "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
-      "published": "Wed, 08 Apr 2026 16:36:29 GMT",
+      "title": "Iran Strait of Hormuz warning adds to shipping uncertainty",
+      "published": "Wed, 08 Apr 2026 17:21:31 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.77,
-      "raw_impact": -0.77,
+      "impact": -0.737,
+      "raw_impact": -0.737,
       "source_weight": 1.0,
-      "age_hours": 0.67,
-      "confidence": 0.88,
-      "signal_total": -0.8,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk"
-    },
-    {
-      "title": "Ships still cautious about using Strait of Hormuz as Iran issues warning",
-      "published": "Wed, 08 Apr 2026 16:13:44 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.753,
-      "raw_impact": -0.753,
-      "source_weight": 1.0,
-      "age_hours": 1.05,
+      "age_hours": 1.43,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -69,6 +43,58 @@
       "source_domain": "feeds.bbci.co.uk"
     },
     {
+      "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
+      "published": "Wed, 08 Apr 2026 16:36:29 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.705,
+      "raw_impact": -0.705,
+      "source_weight": 1.0,
+      "age_hours": 2.18,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
+    },
+    {
+      "title": "\u2018A lot of work to do\u2019 to reopen Strait of Hormuz after US-Iran ceasefire",
+      "published": "Wed, 08 Apr 2026 18:08:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.693,
+      "raw_impact": -0.77,
+      "source_weight": 0.9,
+      "age_hours": 0.65,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/starmer-a-lot-of-work-to-do-to-reopen-strait-of-hormuz-after-us-iran-cea?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
       "title": "Cameroon 'military contractors' killed in Russia-Ukraine war - BBC confirms leaked message",
       "published": "Wed, 08 Apr 2026 13:07:57 GMT",
       "actors": [
@@ -77,10 +103,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.708,
-      "raw_impact": 0.708,
+      "impact": 0.649,
+      "raw_impact": 0.649,
       "source_weight": 1.0,
-      "age_hours": 4.15,
+      "age_hours": 5.65,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -103,10 +129,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.662,
-      "raw_impact": -0.735,
+      "impact": -0.607,
+      "raw_impact": -0.674,
       "source_weight": 0.9,
-      "age_hours": 1.46,
+      "age_hours": 2.97,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -129,10 +155,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.661,
-      "raw_impact": -0.734,
+      "impact": -0.606,
+      "raw_impact": -0.673,
       "source_weight": 0.9,
-      "age_hours": 1.49,
+      "age_hours": 3.0,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -155,10 +181,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.656,
-      "raw_impact": -0.729,
+      "impact": -0.602,
+      "raw_impact": -0.668,
       "source_weight": 0.9,
-      "age_hours": 1.6,
+      "age_hours": 3.11,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -181,10 +207,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.635,
-      "raw_impact": -0.705,
+      "impact": -0.582,
+      "raw_impact": -0.646,
       "source_weight": 0.9,
-      "age_hours": 2.18,
+      "age_hours": 3.69,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -199,58 +225,6 @@
       "source_domain": "www.aljazeera.com"
     },
     {
-      "title": "Lavan refinery blaze continues hours after US-Iran ceasefire agreement",
-      "published": "Wed, 08 Apr 2026 14:18:48 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.607,
-      "raw_impact": -0.674,
-      "source_weight": 0.9,
-      "age_hours": 2.97,
-      "confidence": 0.87,
-      "signal_total": -0.8,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/lavan-refinery-blaze-continues-hours-after-us-iran-ceasefire-agreement?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com"
-    },
-    {
-      "title": "\u2018Stone Age\u2019 to \u2018Golden Age\u2019: How the final hours before the truce unfolded",
-      "published": "Wed, 08 Apr 2026 13:51:04 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.591,
-      "raw_impact": -0.656,
-      "source_weight": 0.9,
-      "age_hours": 3.43,
-      "confidence": 0.87,
-      "signal_total": -0.8,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/8/stone-age-to-golden-age-how-the-final-hours-before-the-truce-unfolded?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com"
-    },
-    {
       "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
       "published": "Wed, 08 Apr 2026 03:30:55 GMT",
       "actors": [
@@ -259,10 +233,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.361,
-      "raw_impact": -0.361,
+      "impact": -0.331,
+      "raw_impact": -0.331,
       "source_weight": 1.0,
-      "age_hours": 13.76,
+      "age_hours": 15.27,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -285,10 +259,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.159,
-      "raw_impact": 0.176,
+      "impact": 0.146,
+      "raw_impact": 0.162,
       "source_weight": 0.9,
-      "age_hours": 2.18,
+      "age_hours": 3.68,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -311,10 +285,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.157,
-      "raw_impact": 0.175,
+      "impact": 0.144,
+      "raw_impact": 0.16,
       "source_weight": 0.9,
-      "age_hours": 2.32,
+      "age_hours": 3.83,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -327,6 +301,32 @@
       "link": "https://www.aljazeera.com/opinions/2026/4/8/did-america-lose-yet-another-war?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "Israel carries out large wave of air strikes across Lebanon",
+      "published": "Wed, 08 Apr 2026 17:53:58 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.095,
+      "raw_impact": 0.095,
+      "source_weight": 1.0,
+      "age_hours": 0.89,
+      "confidence": 0.6,
+      "signal_total": 0.1,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
     }
   ],
   "driver_sort_default": "severity",
@@ -338,16 +338,16 @@
   ],
   "debug": {
     "event_count": 60,
-    "classified_count": 17,
-    "paired_count": 17,
+    "classified_count": 15,
+    "paired_count": 15,
     "valid_pair_updates": 4,
-    "top_driver_count": 17,
-    "total_signal": 6.7586,
+    "top_driver_count": 15,
+    "total_signal": 5.8242,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 25,
-      "no_signal": 12,
-      "invalid_pair": 6,
+      "no_actor": 27,
+      "no_signal": 13,
+      "invalid_pair": 5,
       "low_confidence": 0,
       "classifier_error": 0
     }
