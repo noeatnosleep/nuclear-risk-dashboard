@@ -20,33 +20,30 @@ class TestModel(unittest.TestCase):
         hours = events.hours_since("Wed, 08 Apr 2026 12:00:00 GMT")
         self.assertGreaterEqual(hours, 0)
 
-    def test_mixed_signal_ambiguity_penalty(self):
+    def test_mixed_signal_nets_toward_action(self):
         event = {
             "title": "Israel strikes after ceasefire talks with Iran",
-            "summary": "Both active attacks and negotiations reported.",
             "published": "2026-04-08T11:00:00Z",
             "source_weight": 1.0,
         }
         classified = events.classify_event(event)
         self.assertTrue(classified["ok"])
         self.assertGreater(classified["impact"], 0)
-        self.assertLessEqual(classified["confidence"], 1.0)
 
-    def test_single_actor_fallback_disabled(self):
+    def test_deterministic_pair_selection_uses_weighted_priority(self):
+        actors = ["us", "china", "russia"]
+        state_key = events.choose_state_key_from_actors(actors)
+        self.assertEqual(state_key, "us_russia")
+
+    def test_event_without_signal_is_dropped(self):
         event = {
-            "title": "Iran conducts missile test",
-            "summary": "No other state explicitly named.",
+            "title": "Iran and Israel cultural exchange event opens",
             "published": "2026-04-08T11:00:00Z",
             "source_weight": 1.0,
         }
         classified = events.classify_event(event)
         self.assertFalse(classified["ok"])
-        self.assertEqual(classified["reason"], "invalid_pair")
-
-    def test_deterministic_pair_selection(self):
-        actors = ["us", "china", "russia"]
-        state_key = events.choose_state_key_from_actors(actors)
-        self.assertEqual(state_key, "us_russia")
+        self.assertEqual(classified["reason"], "no_signal")
 
     def test_apply_updates_clamp(self):
         state = {"us_china": 5.0}
@@ -66,11 +63,10 @@ class TestModel(unittest.TestCase):
         coupled = risk.apply_cross_state_coupling(updates)
         self.assertAlmostEqual(coupled["china_taiwan"], 0.35, places=6)
 
-    def test_uncertainty_output(self):
-        probability, state, drivers = risk.run([])
+    def test_zero_event_decay_path(self):
+        probability, state, _ = risk.run([])
         self.assertIsInstance(probability, float)
         self.assertIsInstance(state, dict)
-        self.assertIsInstance(drivers, list)
 
 
 if __name__ == "__main__":

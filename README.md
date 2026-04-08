@@ -4,42 +4,46 @@ A static dashboard that estimates global nuclear escalation risk from recent new
 
 ## What this does (plain language)
 
-- The system reads recent world-news headlines and summaries.
-- It identifies actors and conflict/de-escalation signals.
-- It maps events to predefined bilateral state keys.
-- It computes state updates with decay/coupling and produces a global probability.
-- It publishes `risk.json`, `history_log.json`, `diagnostics_log.json`, and `build_info.json`.
+- The system reads recent world-news headlines.
+- It looks for country/actor names (US, China, Iran, etc.).
+- It looks for escalation words (strike, missile, drill) and de-escalation words (ceasefire, talks, withdrawal).
+- It converts those signals into a risk score for predefined country pairs.
+- It applies time decay so old headlines matter less.
+- It aggregates pair scores into one global risk percent shown on the dashboard.
 
-## Changes for long-term realism
+## Why this is better for long-term accuracy
 
-- **Fallback pairing is disabled by default** to avoid inventing second actors from single-actor headlines.
-- **Confidence thresholds are class-specific** (action/strategic need more confidence than rhetoric).
-- **Ambiguity penalty** lowers confidence when headlines include both escalation and de-escalation terms.
-- **Uncertainty score** is now output and shown in the UI.
-- **Diagnostics history** records drop-reason trends over time.
-- **Benchmark evaluation** runs in CI with `tools/evaluate.py` over `data/eval_events.json`.
+- **Mixed-signal scoring**: Headlines can contain both positive and negative signals; we now net them instead of picking only one label.
+- **Deterministic pair selection**: If a headline mentions multiple countries, selection is stable and based on configured state weight priority.
+- **Confidence filtering**: Weak/noisy events are dropped.
+- **Drop-reason telemetry**: Debug output shows why events were ignored, which improves model tuning over time.
 
-## Files
+## Important limitations
 
-- `model_config.json`: model weights/thresholds and source weighting.
-- `config.py`: configuration loader.
-- `ingest.py`: ingestion + dedupe + summary extraction.
-- `events.py`: classifier + confidence + impacts.
-- `risk.py`: state update + outputs + diagnostics.
-- `index.html`: dashboard UI.
-- `tools/evaluate.py`: benchmark/backtest runner.
-- `data/eval_events.json`: starter labeled benchmark dataset.
-- `GOVERNANCE.md`: change management process.
+- This is a **signal model**, not a predictive intelligence system.
+- It is only as good as the headline quality and source coverage.
+- Use this as exploratory analytics, not operational decision support.
+
+## Core files
+
+- `ingest.py`: RSS ingestion, deduplication, and source weighting.
+- `actors.py`: actor extraction and conflict-signal detection.
+- `events.py`: mixed-signal classification and impact scoring.
+- `states.py`: canonical state configuration and weights.
+- `risk.py`: end-to-end state update and probability generation.
+- `index.html`: static UI that reads generated JSON artifacts.
 
 ## Local run
 
 ```bash
 pip install feedparser
 python -m unittest discover -s tests -p 'test_*.py'
-python tools/evaluate.py
 python risk.py
 ```
 
+Then open `index.html` in a static server (or publish via GitHub Pages).
+
 ## CI/CD
 
-- `.github/workflows/update.yml`: tests, evaluation benchmark, risk run, publish artifacts.
+- `.github/workflows/update.yml`: scheduled/manual refresh + tests.
+- `.github/workflows/pages.yml`: deploy static site to GitHub Pages.

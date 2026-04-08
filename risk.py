@@ -9,7 +9,6 @@ from states import BASELINE_STATE, STATE_WEIGHTS
 
 STATE_FILE = "risk.json"
 HISTORY_FILE = "history_log.json"
-DIAGNOSTICS_FILE = "diagnostics_log.json"
 
 DECAY_RATE = 0.15
 EMPTY_RUN_DECAY_MULTIPLIER = 2.5
@@ -34,62 +33,34 @@ def load_previous_state():
 
 def load_json(path):
     try:
-        with open(path, "r", encoding="utf-8") as file_obj:
-            return json.load(file_obj)
+        with open(HISTORY_FILE, "r", encoding="utf-8") as file_obj:
+            data = json.load(file_obj)
     except Exception:
-        return None
+        return []
 
-
-def load_history():
-    data = load_json(HISTORY_FILE)
     if isinstance(data, dict) and isinstance(data.get("entries"), list):
         return data["entries"]
+
     if isinstance(data, dict) and isinstance(data.get("data"), list):
-        return [{"ts": row.get("t", ""), "probability": row.get("p", 0)} for row in data["data"]]
+        return [{"ts": point.get("t", ""), "probability": point.get("p", 0)} for point in data["data"]]
+
     if isinstance(data, list):
         return data
+
     return []
 
 
 def save_history(history):
     payload = {
         "entries": history,
-        "data": [{"t": row.get("ts", ""), "p": row.get("probability", 0)} for row in history],
+        "data": [{"t": item.get("ts", ""), "p": item.get("probability", 0)} for item in history],
     }
     with open(HISTORY_FILE, "w", encoding="utf-8") as file_obj:
         json.dump(payload, file_obj, indent=2)
 
 
-def load_diagnostics():
-    data = load_json(DIAGNOSTICS_FILE)
-    if isinstance(data, list):
-        return data
-    return []
-
-
-def save_diagnostics(entry):
-    diagnostics = load_diagnostics()
-    diagnostics.append(entry)
-    diagnostics = diagnostics[-400:]
-
-    with open(DIAGNOSTICS_FILE, "w", encoding="utf-8") as file_obj:
-        json.dump(diagnostics, file_obj, indent=2)
-
-
-def compute_uncertainty(top_drivers, event_count):
-    if not top_drivers:
-        return 20.0
-
-    avg_confidence = sum(driver.get("confidence", 0) for driver in top_drivers) / len(top_drivers)
-    confidence_penalty = (1 - avg_confidence) * 18
-    low_volume_penalty = 12 if event_count < 15 else 6 if event_count < 30 else 2
-    return round(clamp(confidence_penalty + low_volume_penalty, 2, 35), 2)
-
-
 def save_state(probability, state, top_drivers, debug):
     sorted_drivers = sorted(top_drivers, key=lambda row: abs(row.get("impact", 0)), reverse=True)
-    uncertainty = compute_uncertainty(sorted_drivers, debug.get("event_count", 0))
-
     payload = {
         "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
         "probability": round(probability, 2),
@@ -106,24 +77,13 @@ def save_state(probability, state, top_drivers, debug):
     history.append({"ts": payload["last_updated"], "probability": payload["probability"]})
     save_history(history[-200:])
 
-    save_diagnostics(
-        {
-            "ts": payload["last_updated"],
-            "probability": payload["probability"],
-            "uncertainty": payload["uncertainty"],
-            "drop_reasons": debug.get("drop_reasons", {}),
-            "event_count": debug.get("event_count", 0),
-            "classified_count": debug.get("classified_count", 0),
-        }
-    )
-
 
 def decay_toward_baseline(current, baseline, multiplier=1.0):
-    output = {}
+    new_state = {}
     for key in current:
         delta = baseline[key] - current[key]
-        output[key] = current[key] + (delta * DECAY_RATE * multiplier)
-    return output
+        new_state[key] = current[key] + (delta * DECAY_RATE * multiplier)
+    return new_state
 
 
 def apply_event_impacts(state, events):
@@ -205,11 +165,11 @@ def apply_cross_state_coupling(updates):
 
 
 def apply_updates_with_clamp(state, updates):
-    output = {}
+    new_state = {}
     for key in state:
         step = clamp(updates[key], -MAX_STEP_CHANGE, MAX_STEP_CHANGE)
-        output[key] = clamp(state[key] + step, 0, 10)
-    return output
+        new_state[key] = clamp(state[key] + step, 0, 10)
+    return new_state
 
 
 def compute_probability(state):
