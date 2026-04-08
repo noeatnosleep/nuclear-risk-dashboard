@@ -4,103 +4,47 @@
 <meta charset="UTF-8">
 <title>Nuclear Risk Dashboard</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
 <style>
-body {
-    font-family: system-ui;
-    background: #0b1220;
-    color: #e5e7eb;
-    margin: 0;
-}
-
-.container {
-    max-width: 900px;
-    margin: auto;
-    padding: 24px;
-}
-
+body { font-family: system-ui; background: #0b1220; color: #e5e7eb; margin: 0; }
+.container { max-width: 980px; margin: auto; padding: 24px; }
 h1 { text-align: center; }
-
-.risk {
-    text-align: center;
-    font-size: 4.5rem;
-    font-weight: 700;
-    margin: 10px 0;
-}
-
+.risk { text-align: center; font-size: 4.5rem; font-weight: 700; margin: 10px 0; }
 .low { color: #22c55e; }
 .medium { color: #f59e0b; }
 .high { color: #ef4444; }
-
-.updated {
-    text-align: center;
-    color: #94a3b8;
-    margin-bottom: 30px;
-}
-
-.section { margin-top: 40px; }
-
-.chart-container {
-    background: #111827;
-    border-radius: 12px;
-    padding: 16px;
-    height: 260px;
-    position: relative;
-}
-
-canvas {
-    width: 100% !important;
-    height: 100% !important;
-}
-
-.card {
-    background: #162033;
-    padding: 16px;
-    border-radius: 10px;
-    margin-bottom: 12px;
-}
-
-.card a {
-    color: #60a5fa;
-    text-decoration: none;
-}
-
-.meta {
-    font-size: 0.8rem;
-    color: #94a3b8;
-    margin-top: 5px;
-}
-
-.footer {
-    margin-top: 50px;
-    text-align: center;
-    font-size: 0.85rem;
-    color: #64748b;
-}
-
-.build {
-    margin-top: 12px;
-    font-size: 0.75rem;
-    color: #64748b;
-}
+.updated, .submeta { text-align: center; color: #94a3b8; }
+.submeta { font-size: 0.85rem; margin-bottom: 20px; }
+.section { margin-top: 36px; }
+.chart-container { background: #111827; border-radius: 12px; padding: 16px; height: 260px; position: relative; }
+.controls, .card { background: #162033; border-radius: 10px; padding: 12px 16px; margin-top: 10px; }
+.card { margin-bottom: 12px; }
+.card a { color: #60a5fa; text-decoration: none; }
+.meta { font-size: 0.8rem; color: #94a3b8; margin-top: 5px; }
+.footer { margin-top: 40px; text-align: center; font-size: 0.85rem; color: #64748b; }
+.build { margin-top: 12px; font-size: 0.75rem; color: #64748b; }
+canvas { width: 100% !important; height: 100% !important; }
 </style>
 </head>
-
 <body>
 <div class="container">
-
 <h1>Global Nuclear Risk</h1>
-
 <div id="risk" class="risk">--%</div>
 <div id="updated" class="updated"></div>
+<div id="submeta" class="submeta"></div>
+
+<div class="controls">
+  <label for="bandMode">Risk color mode:</label>
+  <select id="bandMode">
+    <option value="relative">Relative to recent history (default)</option>
+    <option value="absolute">Fixed thresholds</option>
+  </select>
+  <button id="resetPrefs" type="button">Reset preferences</button>
+</div>
 
 <div class="section">
     <h2>Trend</h2>
-    <div class="chart-container">
-        <canvas id="chart"></canvas>
-    </div>
+    <div class="chart-container"><canvas id="chart"></canvas></div>
 </div>
 
 <div class="section">
@@ -114,103 +58,132 @@ canvas {
 </div>
 
 <div class="footer">
-    Signal-based model using global news inputs. Not predictive.<br><br>
+    Signal-based model using global news inputs. Not predictive financial/safety advice.<br><br>
     Contact: <a href="mailto:noeatnosleep@pm.me" style="color:#60a5fa;">noeatnosleep@pm.me</a>
     <div id="build" class="build">Build: loading...</div>
 </div>
-
 </div>
 
 <script>
-function getHistoryRows(hist) {
-    if (Array.isArray(hist)) return hist;
-    if (hist && Array.isArray(hist.data)) return hist.data;
-    return [];
+window.__riskChart = null;
+const STORAGE_KEY = "nuclear-risk-dashboard:band-mode";
+
+function getHistoryRows(payload) {
+  if (Array.isArray(payload)) return payload;
+  if (payload && Array.isArray(payload.entries)) return payload.entries;
+  if (payload && Array.isArray(payload.data)) return payload.data;
+  return [];
+}
+
+function percentile(sortedValues, p) {
+  if (!sortedValues.length) return 0;
+  const idx = Math.min(sortedValues.length - 1, Math.max(0, Math.floor((p / 100) * sortedValues.length)));
+  return sortedValues[idx];
+}
+
+function getRiskBand(probability, values, mode) {
+  if (mode === "absolute" || values.length < 5) {
+    if (probability < 40) return { band: "low", label: "fixed thresholds" };
+    if (probability < 70) return { band: "medium", label: "fixed thresholds" };
+    return { band: "high", label: "fixed thresholds" };
+  }
+
+  const sorted = [...values].sort((a, b) => a - b);
+  const p33 = percentile(sorted, 33);
+  const p66 = percentile(sorted, 66);
+
+  if (probability <= p33) return { band: "low", label: "relative history" };
+  if (probability <= p66) return { band: "medium", label: "relative history" };
+  return { band: "high", label: "relative history" };
+}
+
+function getBandMode() { return localStorage.getItem(STORAGE_KEY) || "relative"; }
+function setBandMode(mode) { localStorage.setItem(STORAGE_KEY, mode); }
+function resetPrefs() { localStorage.removeItem(STORAGE_KEY); }
+
+function renderChart(labels, values) {
+  const chartCanvas = document.getElementById("chart");
+  if (window.__riskChart) window.__riskChart.destroy();
+
+  window.__riskChart = new Chart(chartCanvas, {
+    type: "line",
+    data: { labels, datasets: [{ data: values, borderWidth: 2, tension: 0.35 }] },
+    options: {
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: { y: { beginAtZero: true, max: 100 } }
+    }
+  });
 }
 
 async function load() {
-    try {
-        const cacheBust = `?v=${Date.now()}`;
-        const risk = await fetch(`risk.json${cacheBust}`).then(r=>r.json());
-        const hist = await fetch(`history_log.json${cacheBust}`).then(r=>r.json());
-        const build = await fetch(`build_info.json${cacheBust}`).then(r=>r.json()).catch(()=>null);
+  try {
+    const bust = `?v=${Date.now()}`;
+    const risk = await fetch(`risk.json${bust}`).then(r => r.json());
+    const hist = await fetch(`history_log.json${bust}`).then(r => r.json());
+    const build = await fetch(`build_info.json${bust}`).then(r => r.json()).catch(() => null);
 
-        const prob = Number(risk.probability || 0);
-        const riskEl = document.getElementById("risk");
+    const rows = getHistoryRows(hist);
+    const values = rows.map(x => Number(x.probability ?? x.p ?? 0));
 
-        riskEl.innerText = prob.toFixed(2) + "%";
-        riskEl.className = "risk " + (prob<7?"low":prob<15?"medium":"high");
+    const mode = getBandMode();
+    document.getElementById("bandMode").value = mode;
 
-        document.getElementById("updated").innerText = risk.last_updated || "n/a";
+    const probability = Number(risk.probability || 0);
+    const uncertainty = Number(risk.uncertainty || 0);
+    const band = getRiskBand(probability, values, mode);
 
-        const d = document.getElementById("drivers");
-        d.innerHTML = "";
-        const drivers = Array.isArray(risk.top_drivers) ? risk.top_drivers : [];
+    const riskEl = document.getElementById("risk");
+    riskEl.innerText = `${probability.toFixed(2)}%`;
+    riskEl.className = `risk ${band.band}`;
 
-        if (drivers.length === 0) {
-            d.innerHTML = `<div class="card"><div class="meta">No top drivers found in current run.</div></div>`;
-        } else {
-            drivers.forEach(x=>{
-                d.innerHTML += `
-                <div class="card">
-                    <a href="${x.link}" target="_blank">${x.title}</a>
-                    <div class="meta">
-                        ${x.source} | actors: [${(x.actors || []).join(", ")}] | class: ${x.class} | impact: ${x.impact}
-                    </div>
-                </div>`;
-            });
-        }
+    document.getElementById("updated").innerText = risk.last_updated || "n/a";
+    document.getElementById("submeta").innerText = `Uncertainty: ±${uncertainty.toFixed(2)} | Color mode: ${band.label}`;
 
-        const rows = getHistoryRows(hist);
-        const labels = rows.map(x=>(x.ts || x.t || "").slice(11,16));
-        const values = rows.map(x=>x.probability ?? x.p ?? 0);
+    const drivers = Array.isArray(risk.top_drivers) ? risk.top_drivers : [];
+    const driversEl = document.getElementById("drivers");
+    driversEl.innerHTML = drivers.length ? "" : `<div class="card"><div class="meta">No top drivers found in current run.</div></div>`;
 
-        new Chart(document.getElementById("chart"), {
-            type: "line",
-            data: {
-                labels: labels,
-                datasets: [{
-                    data: values,
-                    borderWidth: 2,
-                    tension: 0.35
-                }]
-            },
-            options: {
-                maintainAspectRatio: false,
-                plugins:{legend:{display:false}},
-                scales:{y:{beginAtZero:true}}
-            }
-        });
+    drivers.forEach(driver => {
+      driversEl.innerHTML += `
+        <div class="card">
+          <a href="${driver.link}" target="_blank" rel="noopener noreferrer">${driver.title}</a>
+          <div class="meta">
+            ${driver.source || "n/a"} | state: ${driver.state_key || "n/a"} | class: ${driver.class} | impact: ${driver.impact} | confidence: ${driver.confidence ?? "n/a"}
+          </div>
+        </div>`;
+    });
 
-        const debug = risk.debug || {};
-        document.getElementById("debug").innerHTML = `
-            <div class="meta">event_count: ${debug.event_count ?? "n/a"}</div>
-            <div class="meta">classified_count: ${debug.classified_count ?? "n/a"}</div>
-            <div class="meta">paired_count: ${debug.paired_count ?? "n/a"}</div>
-            <div class="meta">valid_pair_updates: ${debug.valid_pair_updates ?? "n/a"}</div>
-            <div class="meta">top_driver_count: ${debug.top_driver_count ?? "n/a"}</div>
-            <div class="meta">total_signal: ${debug.total_signal ?? "n/a"}</div>
-            <div class="meta">trend_points: ${rows.length}</div>
-        `;
+    renderChart(rows.map(x => (x.ts || x.t || "").slice(11, 16)), values);
 
-        document.getElementById("build").innerText = build
-            ? `Build: ${build.built_at_utc || "n/a"} | run #${build.run_number || "n/a"} | sha ${String(build.sha || "").slice(0, 7)}`
-            : "Build: unavailable";
-    } catch (err) {
-        document.getElementById("debug").innerHTML = `
-            <div class="meta">UI load error: ${(err && err.message) ? err.message : String(err)}</div>
-        `;
-        console.error(err);
-        document.getElementById("drivers").innerHTML = `<div class="card"><div class="meta">Unable to render drivers due to UI load error.</div></div>`;
-        document.getElementById("updated").innerText = "load failed";
-        document.getElementById("risk").innerText = "--%";
-        document.getElementById("risk").className = "risk";
-        document.getElementById("build").innerText = "Build: load failed";
-    }
+    const debug = risk.debug || {};
+    const drops = debug.drop_reasons || {};
+    document.getElementById("debug").innerHTML = `
+      <div class="meta">event_count: ${debug.event_count ?? "n/a"}</div>
+      <div class="meta">classified_count: ${debug.classified_count ?? "n/a"}</div>
+      <div class="meta">paired_count: ${debug.paired_count ?? "n/a"}</div>
+      <div class="meta">valid_pair_updates: ${debug.valid_pair_updates ?? "n/a"}</div>
+      <div class="meta">top_driver_count: ${debug.top_driver_count ?? "n/a"}</div>
+      <div class="meta">total_signal: ${debug.total_signal ?? "n/a"}</div>
+      <div class="meta">drop_no_actor: ${drops.no_actor ?? 0}</div>
+      <div class="meta">drop_no_signal: ${drops.no_signal ?? 0}</div>
+      <div class="meta">drop_invalid_pair: ${drops.invalid_pair ?? 0}</div>
+      <div class="meta">drop_low_confidence: ${drops.low_confidence ?? 0}</div>
+    `;
+
+    document.getElementById("build").innerText = build
+      ? `Build: ${build.built_at_utc || "n/a"} | run #${build.run_number || "n/a"} | sha ${String(build.sha || "").slice(0, 7)}`
+      : "Build: unavailable";
+  } catch (err) {
+    document.getElementById("debug").innerHTML = `<div class="meta">UI load error: ${err && err.message ? err.message : String(err)}</div>`;
+    document.getElementById("updated").innerText = "load failed";
+  }
 }
+
+document.getElementById("bandMode").addEventListener("change", (event) => { setBandMode(event.target.value); load(); });
+document.getElementById("resetPrefs").addEventListener("click", () => { resetPrefs(); load(); });
 
 load();
 </script>
-
 </body>
 </html>
