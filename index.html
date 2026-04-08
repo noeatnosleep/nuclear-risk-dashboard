@@ -6,88 +6,46 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <style>
-:root {
-  --bg: #f4f7fb;
-  --text: #0f172a;
-  --muted: #475569;
-  --card: #ffffff;
-  --border: #d7dfeb;
-  --link: #2563eb;
-  --low: #16a34a;
-  --medium: #d97706;
-  --high: #dc2626;
-}
-html[data-theme="dark"] {
-  --bg: #0b1220;
-  --text: #e5e7eb;
-  --muted: #a5b4c7;
-  --card: #162033;
-  --border: #2a3950;
-  --link: #60a5fa;
-  --low: #22c55e;
-  --medium: #f59e0b;
-  --high: #ef4444;
-}
-body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--text); margin: 0; transition: background .2s ease, color .2s ease; }
-.container { max-width: 980px; margin: auto; padding: 24px; }
-.header-row { position: relative; display: flex; justify-content: center; align-items: center; min-height: 48px; }
-h1 { margin: 0; font-size: 2.6rem; line-height: 1.1; text-align: center; }
-.theme-icon-btn {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  border: 1px solid var(--border);
-  background: var(--card);
-  color: var(--text);
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  cursor: pointer;
-  display: grid;
-  place-items: center;
-  font-size: 18px;
-}
-.risk { text-align: center; font-size: 4.2rem; font-weight: 700; margin: 14px 0 10px; }
-.low { color: var(--low); }
-.medium { color: var(--medium); }
-.high { color: var(--high); }
-.updated, .submeta, .honesty { text-align: center; color: var(--muted); }
-.submeta { font-size: 0.95rem; margin-bottom: 6px; }
-.honesty { font-size: 0.86rem; margin-bottom: 18px; }
-.section { margin-top: 38px; }
-.chart-container { background: var(--card); border-radius: 12px; padding: 16px; height: 280px; border: 1px solid var(--border); }
-.mode-switch { text-align: center; margin-top: 9px; font-size: 0.82rem; color: var(--muted); }
-.mode-switch button { background: transparent; color: var(--muted); border: none; margin: 0 8px; cursor: pointer; text-transform: lowercase; }
-.mode-switch button.active { color: var(--text); text-decoration: underline; }
-.driver-controls { margin-bottom: 10px; font-size: 0.88rem; color: var(--muted); }
-.driver-controls select { background: var(--card); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 3px 7px; }
-.card { background: var(--card); border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; border: 1px solid var(--border); }
-.card a { color: var(--link); text-decoration: none; }
-.meta { font-size: 0.84rem; color: var(--muted); margin-top: 7px; }
-.impact-pos { color: var(--high); font-weight: 600; }
-.impact-neg { color: var(--low); font-weight: 600; }
-.details-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; }
-.details-card summary { cursor: pointer; font-weight: 600; color: var(--text); }
-.details-body { margin-top: 10px; }
-.sources-list { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 14px; }
-.source-item { font-size: 0.88rem; color: var(--muted); word-break: break-word; }
-.nerdy-grid { display: grid; grid-template-columns: repeat(3, minmax(180px, 1fr)); gap: 12px; }
-.nerdy-block { border: 1px solid var(--border); border-radius: 8px; padding: 8px; }
-.nerdy-title { font-size: 0.85rem; font-weight: 700; color: var(--text); margin-bottom: 6px; }
-.source-item a { color: var(--link); text-decoration: none; }
-.footer { margin-top: 42px; text-align: center; font-size: 0.9rem; color: var(--muted); }
-.build { margin-top: 10px; font-size: 0.8rem; }
-canvas { width: 100% !important; height: 100% !important; }
-@media (max-width: 800px) {
-  .sources-list { grid-template-columns: 1fr; }
-  .nerdy-grid { grid-template-columns: 1fr; }
-}
-@media (max-width: 640px) {
-  h1 { font-size: 1.9rem; }
-  .risk { font-size: 3.2rem; }
-  .container { padding: 16px; }
-}
+:root { --bg:#f4f7fb; --text:#0f172a; --muted:#475569; --card:#ffffff; --border:#d7dfeb; --link:#2563eb; --low:#16a34a; --medium:#d97706; --high:#dc2626; }
+html[data-theme="dark"] { --bg:#0b1220; --text:#e5e7eb; --muted:#a5b4c7; --card:#162033; --border:#2a3950; --link:#60a5fa; --low:#22c55e; --medium:#f59e0b; --high:#ef4444; }
+body { font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); margin:0; }
+.container { max-width:980px; margin:auto; padding:24px; }
+.header-row { position:relative; display:flex; justify-content:center; align-items:center; min-height:48px; }
+h1 { margin:0; font-size:2.6rem; line-height:1.1; text-align:center; }
+.theme-icon-btn { position:absolute; right:0; top:50%; transform:translateY(-50%); border:1px solid var(--border); background:var(--card); color:var(--text); width:40px; height:40px; border-radius:10px; cursor:pointer; display:grid; place-items:center; font-size:18px; }
+.risk { text-align:center; font-size:4.2rem; font-weight:700; margin:14px 0 10px; }
+.low { color:var(--low); } .medium { color:var(--medium); } .high { color:var(--high); }
+.updated,.submeta,.honesty,.chart-tip { text-align:center; color:var(--muted); }
+.honesty { font-size:.86rem; margin-bottom:18px; }
+.chart-tip { font-size:.82rem; margin-top:8px; }
+.section { margin-top:38px; }
+.chart-container { background:var(--card); border-radius:12px; padding:16px; height:280px; border:1px solid var(--border); }
+.mode-switch { text-align:center; margin-top:9px; font-size:.82rem; color:var(--muted); }
+.mode-switch button { background:transparent; color:var(--muted); border:none; margin:0 8px; cursor:pointer; text-transform:lowercase; }
+.mode-switch button.active { color:var(--text); text-decoration:underline; }
+.driver-controls { margin-bottom:10px; font-size:.88rem; color:var(--muted); display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+.driver-left, .driver-center, .driver-right { display:flex; align-items:center; gap:8px; }
+.driver-controls select { background:var(--card); color:var(--text); border:1px solid var(--border); border-radius:6px; padding:3px 7px; }
+#driverFilterText { font-size:.83rem; color:var(--muted); text-align:center; min-height:1.2rem; }
+#resetFilter { border:1px solid var(--border); background:var(--card); color:var(--text); border-radius:7px; padding:4px 10px; cursor:pointer; }
+.card { background:var(--card); border-radius:10px; padding:14px 16px; margin-bottom:12px; border:1px solid var(--border); }
+.card a { color:var(--link); text-decoration:none; }
+.meta { font-size:.84rem; color:var(--muted); margin-top:7px; }
+.impact-pos { color:var(--high); font-weight:600; } .impact-neg { color:var(--low); font-weight:600; }
+.details-card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:10px 12px; }
+.details-card summary { cursor:pointer; font-weight:600; color:var(--text); }
+.details-body { margin-top:10px; }
+.sources-list { display:grid; grid-template-columns:1fr 1fr; gap:8px 14px; }
+.source-item { font-size:.88rem; color:var(--muted); word-break:break-word; }
+.nerdy-grid { display:grid; grid-template-columns:repeat(3,minmax(180px,1fr)); gap:12px; }
+.nerdy-block { border:1px solid var(--border); border-radius:8px; padding:8px; }
+.nerdy-title { font-size:.85rem; font-weight:700; color:var(--text); margin-bottom:6px; }
+.source-item a { color:var(--link); text-decoration:none; }
+.footer { margin-top:42px; text-align:center; font-size:.9rem; color:var(--muted); }
+.build { margin-top:10px; font-size:.8rem; }
+canvas { width:100% !important; height:100% !important; }
+@media (max-width:800px) { .sources-list { grid-template-columns:1fr; } .nerdy-grid { grid-template-columns:1fr; } }
+@media (max-width:640px) { h1 { font-size:1.9rem; } .risk { font-size:3.2rem; } .container { padding:16px; } }
 </style>
 </head>
 <body>
@@ -96,7 +54,6 @@ canvas { width: 100% !important; height: 100% !important; }
     <h1>Global Nuclear Strike Risk</h1>
     <button id="themeToggle" class="theme-icon-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
-
   <div id="risk" class="risk">--%</div>
   <div id="updated" class="updated"></div>
   <div id="submeta" class="submeta"></div>
@@ -105,6 +62,7 @@ canvas { width: 100% !important; height: 100% !important; }
   <div class="section">
     <h2>Risk Trend</h2>
     <div class="chart-container"><canvas id="riskChart"></canvas></div>
+    <div class="chart-tip">Tip: click a point to isolate the drivers that produced that score.</div>
     <div class="mode-switch" id="timeModeSwitch">
       <button data-mode="years">years</button> |
       <button data-mode="days" class="active">days</button> |
@@ -120,519 +78,68 @@ canvas { width: 100% !important; height: 100% !important; }
   <div class="section">
     <h2>Top Drivers</h2>
     <div class="driver-controls">
-      sort by:
-      <select id="driverSort">
-        <option value="chronological" selected>chronological</option>
-        <option value="severity">severity</option>
-        <option value="confidence">confidence</option>
-        <option value="source_weight">source weight</option>
-      </select>
-      &nbsp;|&nbsp; show:
-      <select id="driverLimit">
-        <option value="16" selected>16</option>
-        <option value="32">32</option>
-        <option value="64">64</option>
-        <option value="128">128</option>
-      </select>
+      <div class="driver-left">
+        sort by:
+        <select id="driverSort">
+          <option value="chronological" selected>chronological</option>
+          <option value="severity">severity</option>
+          <option value="confidence">confidence</option>
+          <option value="source_weight">source weight</option>
+          <option value="corroboration">corroboration</option>
+        </select>
+        &nbsp;|&nbsp; show:
+        <select id="driverLimit">
+          <option value="16">16</option>
+          <option value="32">32</option>
+          <option value="64" selected>64</option>
+          <option value="128">128</option>
+          <option value="256">256</option>
+        </select>
+      </div>
+      <div class="driver-center"><span id="driverFilterText"></span></div>
+      <div class="driver-right"><button id="resetFilter" type="button">reset filter</button></div>
     </div>
     <div id="drivers"></div>
   </div>
 
-  <div class="section">
-    <details class="details-card">
-      <summary>Signal Sources</summary>
-      <div class="details-body">
-        <div id="sources" class="sources-list"></div>
-      </div>
-    </details>
-  </div>
-
-  <div class="section">
-    <details class="details-card">
-      <summary>Nerdy Details</summary>
-      <div class="details-body" id="nerdyDetails"></div>
-    </details>
-  </div>
-
-  <div class="footer">
-    Signal-based model using global news inputs. Not predictive financial/safety advice.<br><br>
-    Contact: <a href="mailto:noeatnosleep@pm.me" style="color:var(--link);">noeatnosleep@pm.me</a>
-    <div id="build" class="build">Build: loading...</div>
-  </div>
+  <div class="section"><details class="details-card"><summary>Signal Sources</summary><div class="details-body"><div id="sources" class="sources-list"></div></div></details></div>
+  <div class="section"><details class="details-card"><summary>Nerdy Details</summary><div class="details-body" id="nerdyDetails"></div></details></div>
+  <div class="footer">Signal-based model using global news inputs. Not predictive financial/safety advice.<br><br>Contact: <a href="mailto:noeatnosleep@pm.me" style="color:var(--link);">noeatnosleep@pm.me</a><div id="build" class="build">Build: loading...</div></div>
 </div>
 
 <script>
-window.__riskChart = null;
-window.__stateChart = null;
-window.__riskPayload = null;
-window.__historyRows = [];
-window.__diagnosticsRows = [];
-window.__modelConfig = null;
-window.__backhistoryPolicy = null;
-window.__nerdyDetails = null;
-window.__timeMode = "days";
+window.__riskChart = null; window.__stateChart = null; window.__riskPayload = null; window.__historyRows = []; window.__diagnosticsRows = []; window.__modelConfig = null; window.__backhistoryPolicy = null; window.__nerdyDetails = null; window.__timeMode = "days"; window.__selectedPoint = null;
 const THEME_KEY = "nuclear-risk-theme";
-
-function getHistoryRows(payload) {
-  if (Array.isArray(payload)) return payload;
-  if (payload && Array.isArray(payload.entries)) return payload.entries;
-  if (payload && Array.isArray(payload.data)) return payload.data;
-  return [];
-}
-
-function parseUtc(ts) {
-  if (!ts) return null;
-  const iso = String(ts).replace(" UTC", "Z").replace(" ", "T");
-  const d = new Date(iso);
-  return Number.isNaN(d.getTime()) ? null : d;
-}
-
-function bucketStart(dt, mode) {
-  const d = new Date(dt.getTime());
-  if (mode === "years") {
-    d.setUTCDate(1);
-    d.setUTCHours(0, 0, 0, 0);
-    return d;
-  }
-  if (mode === "days") {
-    d.setUTCHours(0, 0, 0, 0);
-    return d;
-  }
-  d.setUTCMinutes(0, 0, 0);
-  return d;
-}
-
-function formatBucketLabel(dt, mode) {
-  const y = dt.getUTCFullYear();
-  const m = String(dt.getUTCMonth() + 1).padStart(2, "0");
-  const day = String(dt.getUTCDate()).padStart(2, "0");
-  const hh = String(dt.getUTCHours()).padStart(2, "0");
-  if (mode === "years") return `${y}-${m}`;
-  if (mode === "days") return `${m}-${day}`;
-  return `${m}-${day} ${hh}:00`;
-}
-
-function addBucket(dt, mode) {
-  const d = new Date(dt.getTime());
-  if (mode === "years") {
-    d.setUTCMonth(d.getUTCMonth() + 1, 1);
-    return d;
-  }
-  if (mode === "days") {
-    d.setUTCDate(d.getUTCDate() + 1);
-    return d;
-  }
-  d.setUTCHours(d.getUTCHours() + 1);
-  return d;
-}
-
-function rangeForMode(mode, maxDate) {
-  const end = bucketStart(maxDate, mode);
-  const start = new Date(end.getTime());
-  if (mode === "years") start.setUTCMonth(start.getUTCMonth() - 23, 1);
-  else if (mode === "days") start.setUTCDate(start.getUTCDate() - 29);
-  else start.setUTCHours(start.getUTCHours() - 71);
-  return { start, end };
-}
-
-function buildTimeline(rows, mode) {
-  const dates = rows
-    .map(row => parseUtc(row.ts || row.t || ""))
-    .filter(Boolean)
-    .sort((a, b) => a.getTime() - b.getTime());
-
-  const maxDate = dates.length ? dates[dates.length - 1] : new Date();
-  const { start, end } = rangeForMode(mode, maxDate);
-
-  const timeline = [];
-  for (let cursor = new Date(start.getTime()); cursor <= end; cursor = addBucket(cursor, mode)) {
-    timeline.push(new Date(cursor.getTime()));
-  }
-  return timeline;
-}
-
-function aggregateRows(rows, mode, valueGetter, field = "ts") {
-  const bucketValues = new Map();
-  rows.forEach(row => {
-    const dt = parseUtc(row[field] || "");
-    if (!dt) return;
-    const value = Number(valueGetter(row));
-    if (Number.isNaN(value)) return;
-    const bucket = bucketStart(dt, mode).getTime();
-    if (!bucketValues.has(bucket)) bucketValues.set(bucket, []);
-    bucketValues.get(bucket).push(value);
-  });
-
-  const averaged = new Map();
-  bucketValues.forEach((values, key) => {
-    averaged.set(key, values.reduce((a, b) => a + b, 0) / values.length);
-  });
-  return averaged;
-}
-
-function fixedBand(probability) {
-  if (probability < 30) return "low";
-  if (probability < 60) return "medium";
-  return "high";
-}
-
-function renderRiskChart() {
-  const timeline = buildTimeline(window.__historyRows, window.__timeMode);
-  const aggregates = aggregateRows(window.__historyRows, window.__timeMode, row => Number(row.probability ?? row.p ?? NaN), "ts");
-
-  const labels = timeline.map(dt => formatBucketLabel(dt, window.__timeMode));
-  const values = timeline.map(dt => {
-    const key = bucketStart(dt, window.__timeMode).getTime();
-    return aggregates.has(key) ? aggregates.get(key) : null;
-  });
-
-  const canvas = document.getElementById("riskChart");
-  if (window.__riskChart) window.__riskChart.destroy();
-  window.__riskChart = new Chart(canvas, {
-    type: "line",
-    data: {
-      labels,
-      datasets: [{
-        data: values,
-        borderWidth: 2,
-        tension: 0.25,
-        spanGaps: true,
-        pointRadius: values.map(v => (v === null ? 0 : 2)),
-        pointHoverRadius: values.map(v => (v === null ? 0 : 4))
-      }]
-    },
-    options: {
-      maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
-      scales: {
-        y: { beginAtZero: true, max: 100, ticks: { callback: (value) => `${value}%` } },
-        x: { ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 12 } }
-      }
-    }
-  });
-}
-
-function pickTopStates(latestState) {
-  const rows = Object.entries(latestState || {});
-  rows.sort((a, b) => b[1] - a[1]);
-  return rows.slice(0, 5).map(([key]) => key);
-}
-
-function renderStateChart() {
-  const historyRows = Array.isArray(window.__historyRows) ? window.__historyRows : [];
-  const risk = window.__riskPayload || {};
-  const currentState = risk.state || {};
-  const currentProb = Number(risk.probability || 1) || 1;
-
-  if (!historyRows.length || !Object.keys(currentState).length) return;
-
-  const rows = historyRows.map(row => {
-    const prob = Number(row.probability ?? row.p ?? currentProb);
-    const ratio = currentProb ? prob / currentProb : 1;
-    const state = {};
-    Object.keys(currentState).forEach(key => {
-      state[key] = Number(currentState[key] || 0) * ratio;
-    });
-    return { ts: row.ts || row.t, state };
-  });
-
-  const latestState = rows[rows.length - 1].state || {};
-  const keys = pickTopStates(latestState);
-  const timeline = buildTimeline(rows.map(r => ({ ts: r.ts })), window.__timeMode);
-  const labels = timeline.map(dt => formatBucketLabel(dt, window.__timeMode));
-
-  const datasets = keys.map(key => {
-    const aggregates = aggregateRows(rows, window.__timeMode, row => Number((row.state || {})[key]), "ts");
-    const data = timeline.map(dt => {
-      const bucket = bucketStart(dt, window.__timeMode).getTime();
-      return aggregates.has(bucket) ? aggregates.get(bucket) : null;
-    });
-
-    return {
-      label: key,
-      data,
-      borderWidth: 2,
-      tension: 0.25,
-      spanGaps: true,
-      pointRadius: data.map(v => (v === null ? 0 : 2)),
-      pointHoverRadius: data.map(v => (v === null ? 0 : 4))
-    };
-  });
-
-  const canvas = document.getElementById("stateChart");
-  if (window.__stateChart) window.__stateChart.destroy();
-  window.__stateChart = new Chart(canvas, {
-    type: "line",
-    data: { labels, datasets },
-    options: {
-      maintainAspectRatio: false,
-      plugins: { legend: { display: true } },
-      scales: {
-        y: { beginAtZero: true, max: 10, ticks: { callback: (value) => `${value}%` } },
-        x: { ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 12 } }
-      }
-    }
-  });
-}
-
-function sortDrivers(drivers, mode) {
-  const rows = [...drivers];
-  if (mode === "chronological") {
-    rows.sort((a, b) => (parseUtc(b.published || "")?.getTime() || 0) - (parseUtc(a.published || "")?.getTime() || 0));
-    return rows;
-  }
-  if (mode === "confidence") {
-    rows.sort((a, b) => (b.confidence ?? 0) - (a.confidence ?? 0));
-    return rows;
-  }
-  if (mode === "source_weight") {
-    rows.sort((a, b) => (b.source_weight ?? 0) - (a.source_weight ?? 0));
-    return rows;
-  }
-  rows.sort((a, b) => Math.abs(b.impact ?? 0) - Math.abs(a.impact ?? 0));
-  return rows;
-}
-
-function safeExternalUrl(url) {
-  if (!url) return "";
-  try {
-    const parsed = new URL(url);
-    if (parsed.protocol === "http:" || parsed.protocol === "https:") return parsed.toString();
-    return "";
-  } catch (_) {
-    return "";
-  }
-}
-
-function asText(value, fallback = "n/a") {
-  if (value === null || value === undefined) return fallback;
-  const text = String(value).trim();
-  return text || fallback;
-}
-
-function renderDriverCard(container, driver) {
-  const card = document.createElement("div");
-  card.className = "card";
-
-  const link = document.createElement("a");
-  const href = safeExternalUrl(driver.link);
-  link.href = href || "#";
-  link.textContent = asText(driver.title, "Untitled event");
-  if (href) {
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-  }
-
-  const meta = document.createElement("div");
-  meta.className = "meta";
-  const impact = Number(driver.impact || 0);
-  const impactClass = impact >= 0 ? "impact-pos" : "impact-neg";
-  const impactSign = impact >= 0 ? "+" : "";
-  meta.innerHTML = `source: ${asText(driver.source_domain)} | impact: <span class="${impactClass}">${impactSign}${impact.toFixed(3)}</span> | state: ${asText(driver.state_key)} | class: ${asText(driver.class)} | confidence: ${asText(driver.confidence)} | source_weight: ${asText(driver.source_weight)} | age_hours: ${asText(driver.age_hours)}`;
-
-  card.appendChild(link);
-  card.appendChild(meta);
-  container.appendChild(card);
-}
-
-function renderDrivers() {
-  const payload = window.__riskPayload || {};
-  const sortSelect = document.getElementById("driverSort");
-  const limitSelect = document.getElementById("driverLimit");
-  let drivers = Array.isArray(payload.top_drivers) ? payload.top_drivers : [];
-  if (!drivers.length && Array.isArray(window.__diagnosticsRows) && window.__diagnosticsRows.length) {
-    const latestDiag = window.__diagnosticsRows[window.__diagnosticsRows.length - 1] || {};
-    drivers = Array.isArray(latestDiag.drivers) ? latestDiag.drivers : [];
-  }
-  const sorted = sortDrivers(drivers, sortSelect.value).slice(0, Number(limitSelect.value || 16));
-
-  const container = document.getElementById("drivers");
-  container.replaceChildren();
-
-  if (!sorted.length) {
-    const empty = document.createElement("div");
-    empty.className = "card";
-    const meta = document.createElement("div");
-    meta.className = "meta";
-    meta.textContent = "No drivers found for current selection/history window.";
-    empty.appendChild(meta);
-    container.appendChild(empty);
-    return;
-  }
-
-  sorted.forEach(driver => renderDriverCard(container, driver));
-}
-
-
-function rootDomain(url) {
-  try {
-    const host = new URL(url).hostname.toLowerCase();
-    const parts = host.split('.').filter(Boolean);
-    if (parts.length <= 2) return host;
-    return parts.slice(-2).join('.');
-  } catch (_) {
-    return '';
-  }
-}
-
-function renderSources() {
-  const payload = window.__riskPayload || {};
-  const cfg = window.__modelConfig || {};
-  const container = document.getElementById("sources");
-  container.replaceChildren();
-
-  const configured = Array.isArray(cfg.source_urls) ? cfg.source_urls : [];
-  const signalRows = Array.isArray(payload.signal_sources) ? payload.signal_sources.map(r => r.url) : [];
-  const allUrls = [...new Set([...configured, ...signalRows].map(safeExternalUrl).filter(Boolean))];
-
-  if (!allUrls.length) {
-    const empty = document.createElement("div");
-    empty.className = "source-item";
-    empty.textContent = "No sources available in current run.";
-    container.appendChild(empty);
-    return;
-  }
-
-  allUrls.forEach(href => {
-    const wrap = document.createElement("div");
-    wrap.className = "source-item";
-    const link = document.createElement("a");
-    link.href = href;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.textContent = rootDomain(href) || href;
-    link.title = href;
-    wrap.appendChild(link);
-    container.appendChild(wrap);
-  });
-}
-
-function renderNerdyDetails() {
-  const container = document.getElementById("nerdyDetails");
-  const config = window.__modelConfig || {};
-  const policy = window.__backhistoryPolicy || {};
-  const nerdy = window.__nerdyDetails || {};
-  const sourceWeights = config.source_weights || {};
-  const anchors = policy.anchors || [];
-  const bands = policy.volatility_bands || [];
-
-  const topWeights = Object.entries(sourceWeights).sort((a,b)=>b[1]-a[1]).slice(0, 12).map(([k,v]) => `<div class="meta">${k}: ${v}</div>`).join('');
-  const anchorRows = anchors.map(a => `<div class="meta">${a.date}: ${a.probability}</div>`).join('') || '<div class="meta">n/a</div>';
-  const bandRows = bands.map(b => `<div class="meta">${b.start_date} → ${b.end_date} (amp ${b.amplitude})</div>`).join('') || '<div class="meta">none</div>';
-
-  const listBlock = (title, rows) => `
-    <div class="nerdy-block">
-      <div class="nerdy-title">${title}</div>
-      ${(rows && rows.length ? rows : ["n/a"]).map(row => `<div class="meta">${row}</div>`).join("")}
-    </div>`;
-
-  container.innerHTML = `
-    <div class="nerdy-grid">
-      <div class="nerdy-block">
-        <div class="nerdy-title">Calibration</div>
-        <div class="meta">center: ${asText(config.probability_center)}</div>
-        <div class="meta">steepness: ${asText(config.probability_steepness)}</div>
-        <div class="meta">ambiguity penalty: ${asText(config.ambiguity_penalty)}</div>
-      </div>
-      <div class="nerdy-block">
-        <div class="nerdy-title">Source Weights (top 12)</div>
-        ${topWeights}
-      </div>
-      <div class="nerdy-block">
-        <div class="nerdy-title">History Policy</div>
-        <div class="meta">days: ${asText(policy.days)} | floor: ${asText(policy.floor)} | ceiling: ${asText(policy.ceiling)}</div>
-        <div class="meta" style="margin-top:6px;font-weight:600;">Anchors</div>
-        ${anchorRows}
-        <div class="meta" style="margin-top:6px;font-weight:600;">Volatility Bands</div>
-        ${bandRows}
-      </div>
-      ${listBlock('Plain English', nerdy.plain_english)}
-      ${listBlock('Model Mechanics', nerdy.model_mechanics)}
-      ${listBlock('Transparency', nerdy.transparency)}
-      ${listBlock('Limitations', nerdy.limitations)}
-      ${listBlock('Example Scenarios', nerdy.example_scenarios)}
-      <div class="nerdy-block">
-        <div class="nerdy-title">Audit</div>
-        <div class="meta">See full repository audit in <code>docs/system_audit.md</code>.</div>
-      </div>
-    </div>
-  `;
-}
-
-function refreshChartsAndDrivers() {
-  renderRiskChart();
-  renderStateChart();
-  renderDrivers();
-  renderSources();
-  renderNerdyDetails();
-  document.querySelectorAll("#timeModeSwitch button").forEach(btn => {
-    btn.classList.toggle("active", btn.dataset.mode === window.__timeMode);
-  });
-}
-
-function applyTheme(theme) {
-  const normalized = theme === "light" ? "light" : "dark";
-  document.documentElement.setAttribute("data-theme", normalized);
-  localStorage.setItem(THEME_KEY, normalized);
-  document.getElementById("themeToggle").textContent = normalized === "dark" ? "🌙" : "☀️";
-}
-
-async function load() {
-  try {
-    const bust = `?v=${Date.now()}`;
-    const risk = await fetch(`risk.json${bust}`).then(r => r.json());
-    const hist = await fetch(`history_log.json${bust}`).then(r => r.json());
-    const build = await fetch(`build_info.json${bust}`).then(r => r.json()).catch(() => null);
-    const diag = await fetch(`diagnostics_log.json${bust}`).then(r => r.json()).catch(() => []);
-    const modelConfig = await fetch(`model_config.json${bust}`).then(r => r.json()).catch(() => ({}));
-    const backhistoryPolicy = await fetch(`data/backhistory_policy.json${bust}`).then(r => r.json()).catch(() => ({}));
-    const nerdyDetails = await fetch(`data/nerdy_details.json${bust}`).then(r => r.json()).catch(() => ({}));
-
-    window.__riskPayload = risk;
-    window.__historyRows = getHistoryRows(hist);
-    window.__diagnosticsRows = Array.isArray(diag) ? diag : [];
-    window.__modelConfig = modelConfig;
-    window.__backhistoryPolicy = backhistoryPolicy;
-    window.__nerdyDetails = nerdyDetails;
-
-    const probability = Number(risk.probability || 0);
-    const uncertainty = Number(risk.uncertainty || 0);
-
-    const riskEl = document.getElementById("risk");
-    riskEl.innerText = `${Math.round(probability)}%`;
-    riskEl.className = `risk ${fixedBand(probability)}`;
-
-    document.getElementById("updated").innerText = risk.last_updated || "n/a";
-    document.getElementById("submeta").innerText = `Uncertainty: ±${uncertainty.toFixed(2)}%`;
-
-    document.getElementById("build").innerText = build
-      ? `Build: ${build.built_at_utc || "n/a"} | run #${build.run_number || "n/a"} | sha ${String(build.sha || "").slice(0, 7)}`
-      : "Build: unavailable";
-
-    refreshChartsAndDrivers();
-  } catch (err) {
-    document.getElementById("submeta").innerText = `Load error: ${err && err.message ? err.message : String(err)}`;
-    document.getElementById("updated").innerText = "load failed";
-  }
-}
-
-document.querySelectorAll("#timeModeSwitch button").forEach(btn => {
-  btn.addEventListener("click", () => {
-    window.__timeMode = btn.dataset.mode;
-    refreshChartsAndDrivers();
-  });
-});
-
-document.getElementById("driverSort").addEventListener("change", renderDrivers);
-document.getElementById("driverLimit").addEventListener("change", renderDrivers);
-
-document.getElementById("themeToggle").addEventListener("click", () => {
-  const current = document.documentElement.getAttribute("data-theme") || "dark";
-  applyTheme(current === "dark" ? "light" : "dark");
-});
-
-applyTheme(localStorage.getItem(THEME_KEY) || "dark");
-load();
+function getHistoryRows(payload){ if(Array.isArray(payload)) return payload; if(payload&&Array.isArray(payload.entries)) return payload.entries; if(payload&&Array.isArray(payload.data)) return payload.data; return []; }
+function parseUtc(ts){ if(!ts) return null; const iso=String(ts).replace(" UTC","Z").replace(" ","T"); const d=new Date(iso); return Number.isNaN(d.getTime())?null:d; }
+function bucketStart(dt,mode){ const d=new Date(dt.getTime()); if(mode==="years"){ d.setUTCMonth(0,1); d.setUTCHours(0,0,0,0); return d; } if(mode==="days"){ d.setUTCHours(0,0,0,0); return d; } d.setUTCMinutes(0,0,0); return d; }
+function formatBucketLabel(dt,mode){ const y=dt.getUTCFullYear(); const m=String(dt.getUTCMonth()+1).padStart(2,"0"); const day=String(dt.getUTCDate()).padStart(2,"0"); const hh=String(dt.getUTCHours()).padStart(2,"0"); if(mode==="years") return `${y}`; if(mode==="days") return `${y}-${m}-${day}`; return `${m}-${day} ${hh}:00`; }
+function addBucket(dt,mode){ const d=new Date(dt.getTime()); if(mode==="years"){ d.setUTCFullYear(d.getUTCFullYear()+1,0,1); return d; } if(mode==="days"){ d.setUTCDate(d.getUTCDate()+1); return d; } d.setUTCHours(d.getUTCHours()+1); return d; }
+function rangeForMode(mode,dates){ if(!dates.length){ const now=bucketStart(new Date(),mode); return {start:now,end:now}; } const sorted=[...dates].sort((a,b)=>a-b); return { start: bucketStart(sorted[0],mode), end: bucketStart(sorted[sorted.length-1],mode) }; }
+function buildTimeline(rows,mode){ const dates=rows.map(r=>parseUtc(r.ts||r.t||"")).filter(Boolean); const {start,end}=rangeForMode(mode,dates); const timeline=[]; for(let c=new Date(start); c<=end; c=addBucket(c,mode)){ timeline.push(new Date(c)); } return timeline; }
+function aggregateRows(rows, mode, valueGetter, field="ts"){ const bucketValues=new Map(); rows.forEach(row=>{ const dt=parseUtc(row[field]||""); if(!dt) return; const value=Number(valueGetter(row)); if(Number.isNaN(value)) return; const key=bucketStart(dt,mode).getTime(); if(!bucketValues.has(key)) bucketValues.set(key,[]); bucketValues.get(key).push(value); }); const averaged=new Map(); bucketValues.forEach((v,k)=>averaged.set(k,v.reduce((a,b)=>a+b,0)/v.length)); return averaged; }
+function fixedBand(p){ if(p<30) return "low"; if(p<60) return "medium"; return "high"; }
+function sortDrivers(drivers,mode){ const rows=[...drivers]; if(mode==="chronological"){ rows.sort((a,b)=>(parseUtc(b.published||"")?.getTime()||0)-(parseUtc(a.published||"")?.getTime()||0)); return rows; } if(mode==="confidence"){ rows.sort((a,b)=>(b.confidence??0)-(a.confidence??0)); return rows;} if(mode==="source_weight"){ rows.sort((a,b)=>(b.source_weight??0)-(a.source_weight??0)); return rows;} if(mode==="corroboration"){ rows.sort((a,b)=>(b.corroboration_count??1)-(a.corroboration_count??1)); return rows;} rows.sort((a,b)=>Math.abs(b.impact??0)-Math.abs(a.impact??0)); return rows; }
+function safeExternalUrl(url){ if(!url) return ""; try{ const p=new URL(url); return (p.protocol==="http:"||p.protocol==="https:")?p.toString():""; } catch(_){ return ""; } }
+function asText(value,fallback="n/a"){ if(value===null||value===undefined) return fallback; const text=String(value).trim(); return text||fallback; }
+function renderRiskChart(){ const timeline=buildTimeline(window.__historyRows,window.__timeMode); const aggregates=aggregateRows(window.__historyRows,window.__timeMode,row=>Number(row.probability??row.p??NaN),"ts"); const labels=timeline.map(dt=>formatBucketLabel(dt,window.__timeMode)); const values=timeline.map(dt=>{ const k=bucketStart(dt,window.__timeMode).getTime(); return aggregates.has(k)?aggregates.get(k):null; }); const canvas=document.getElementById("riskChart"); if(window.__riskChart) window.__riskChart.destroy(); window.__riskChart=new Chart(canvas,{ type:"line", data:{ labels, datasets:[{ data:values, borderWidth:2, tension:.2, spanGaps:true, pointRadius:values.map(v=>v===null?0:3), pointHoverRadius:values.map(v=>v===null?0:5)}]}, options:{ maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{ y:{beginAtZero:true,max:100,ticks:{callback:v=>`${v}%`}}, x:{ticks:{maxRotation:0,autoSkip:true,maxTicksLimit:12}}}, onClick:(evt,elements)=>{ if(!elements.length) return; const idx=elements[0].index; const label=labels[idx]; const value=values[idx]; if(value===null) return; const tsMatch=timeline[idx]; window.__selectedPoint={label, value:Number(value), ts:tsMatch}; renderDrivers(); } } }); }
+function pickTopStates(latestState){ const rows=Object.entries(latestState||{}); rows.sort((a,b)=>b[1]-a[1]); return rows.slice(0,5).map(([k])=>k); }
+function renderStateChart(){ const historyRows=Array.isArray(window.__historyRows)?window.__historyRows:[]; const risk=window.__riskPayload||{}; const currentState=risk.state||{}; const currentProb=Number(risk.probability||1)||1; if(!historyRows.length||!Object.keys(currentState).length) return; const rows=historyRows.map(row=>{ const prob=Number(row.probability??row.p??currentProb); const ratio=currentProb?prob/currentProb:1; const state={}; Object.keys(currentState).forEach(key=>{ state[key]=Number(currentState[key]||0)*ratio;}); return {ts:row.ts||row.t,state};}); const latestState=rows[rows.length-1].state||{}; const keys=pickTopStates(latestState); const timeline=buildTimeline(rows.map(r=>({ts:r.ts})),window.__timeMode); const labels=timeline.map(dt=>formatBucketLabel(dt,window.__timeMode)); const datasets=keys.map(key=>{ const aggregates=aggregateRows(rows,window.__timeMode,row=>Number((row.state||{})[key]),"ts"); const data=timeline.map(dt=>{ const b=bucketStart(dt,window.__timeMode).getTime(); return aggregates.has(b)?aggregates.get(b):null; }); return {label:key,data,borderWidth:2,tension:.2,spanGaps:true,pointRadius:data.map(v=>v===null?0:2),pointHoverRadius:data.map(v=>v===null?0:4)};}); const canvas=document.getElementById("stateChart"); if(window.__stateChart) window.__stateChart.destroy(); window.__stateChart=new Chart(canvas,{type:"line",data:{labels,datasets},options:{maintainAspectRatio:false,plugins:{legend:{display:true}},scales:{y:{beginAtZero:true,max:10},x:{ticks:{maxRotation:0,autoSkip:true,maxTicksLimit:12}}}}}); }
+function renderDriverCard(container,driver){ const card=document.createElement("div"); card.className="card"; const link=document.createElement("a"); const href=safeExternalUrl(driver.link); link.href=href||"#"; link.textContent=asText(driver.title,"Untitled event"); if(href){link.target="_blank";link.rel="noopener noreferrer";} const meta=document.createElement("div"); meta.className="meta"; const impact=Number(driver.impact||0); const impactClass=impact>=0?"impact-pos":"impact-neg"; const impactSign=impact>=0?"+":""; meta.innerHTML=`source: ${asText(driver.source_domain)} | impact: <span class="${impactClass}">${impactSign}${impact.toFixed(3)}</span> | state: ${asText(driver.state_key)} | class: ${asText(driver.class)} | confidence: ${asText(driver.confidence)} | corroboration: ${asText(driver.corroboration_count,1)} | source_weight: ${asText(driver.source_weight)} | age_hours: ${asText(driver.age_hours)}`; card.appendChild(link); card.appendChild(meta); container.appendChild(card); }
+function closestDiagnosticsEntry(selected){ const rows=Array.isArray(window.__diagnosticsRows)?window.__diagnosticsRows:[]; if(!selected||!rows.length) return null; const target=selected.ts.getTime(); let best=null; let bestDiff=Infinity; rows.forEach(row=>{ const dt=parseUtc(row.ts||""); if(!dt) return; const diff=Math.abs(dt.getTime()-target); if(diff<bestDiff){bestDiff=diff; best=row;}}); return best; }
+function renderDrivers(){ const payload=window.__riskPayload||{}; const sortSelect=document.getElementById("driverSort"); const limitSelect=document.getElementById("driverLimit"); const filterText=document.getElementById("driverFilterText"); let drivers=Array.isArray(payload.top_drivers)?payload.top_drivers:[]; if(window.__selectedPoint){ const diag=closestDiagnosticsEntry(window.__selectedPoint); drivers=diag&&Array.isArray(diag.drivers)?diag.drivers:[]; filterText.textContent=`filtered: ${window.__selectedPoint.label} @ ${window.__selectedPoint.value.toFixed(1)}%`; } else { filterText.textContent="showing latest combined drivers"; if(!drivers.length&&Array.isArray(window.__diagnosticsRows)&&window.__diagnosticsRows.length){ const latestDiag=window.__diagnosticsRows[window.__diagnosticsRows.length-1]||{}; drivers=Array.isArray(latestDiag.drivers)?latestDiag.drivers:[]; } }
+  const sorted=sortDrivers(drivers,sortSelect.value).slice(0,Number(limitSelect.value||64)); const container=document.getElementById("drivers"); container.replaceChildren(); if(!sorted.length){ const empty=document.createElement("div"); empty.className="card"; const meta=document.createElement("div"); meta.className="meta"; meta.textContent="No drivers found for current selection/history window."; empty.appendChild(meta); container.appendChild(empty); return; } sorted.forEach(driver=>renderDriverCard(container,driver)); }
+function rootDomain(url){ try{ const host=new URL(url).hostname.toLowerCase(); const parts=host.split('.').filter(Boolean); if(parts.length<=2) return host; return parts.slice(-2).join('.'); }catch(_){ return ''; } }
+function renderSources(){ const payload=window.__riskPayload||{}; const cfg=window.__modelConfig||{}; const container=document.getElementById("sources"); container.replaceChildren(); const configured=Array.isArray(cfg.source_urls)?cfg.source_urls:[]; const signalRows=Array.isArray(payload.signal_sources)?payload.signal_sources.map(r=>r.url):[]; const allUrls=[...new Set([...configured,...signalRows].map(safeExternalUrl).filter(Boolean))]; if(!allUrls.length){ const empty=document.createElement("div"); empty.className="source-item"; empty.textContent="No sources available in current run."; container.appendChild(empty); return; } allUrls.forEach(href=>{ const wrap=document.createElement("div"); wrap.className="source-item"; const link=document.createElement("a"); link.href=href; link.target="_blank"; link.rel="noopener noreferrer"; link.textContent=rootDomain(href)||href; link.title=href; wrap.appendChild(link); container.appendChild(wrap);}); }
+function renderNerdyDetails(){ const container=document.getElementById("nerdyDetails"); const config=window.__modelConfig||{}; const policy=window.__backhistoryPolicy||{}; const nerdy=window.__nerdyDetails||{}; const sourceWeights=config.source_weights||{}; const topWeights=Object.entries(sourceWeights).sort((a,b)=>b[1]-a[1]).slice(0,12).map(([k,v])=>`<div class="meta">${k}: ${v}</div>`).join(''); const listBlock=(title,rows)=>`<div class="nerdy-block"><div class="nerdy-title">${title}</div>${(rows&&rows.length?rows:["n/a"]).map(r=>`<div class="meta">${r}</div>`).join("")}</div>`; container.innerHTML=`<div class="nerdy-grid"><div class="nerdy-block"><div class="nerdy-title">Calibration</div><div class="meta">center: ${asText(config.probability_center)}</div><div class="meta">steepness: ${asText(config.probability_steepness)}</div><div class="meta">ambiguity penalty: ${asText(config.ambiguity_penalty)}</div></div><div class="nerdy-block"><div class="nerdy-title">Source Weights (top 12)</div>${topWeights}</div><div class="nerdy-block"><div class="nerdy-title">History Source</div><div class="meta">mode: ${asText(policy.mode,"replay-only")}</div><div class="meta">synthetic fallback disabled</div></div>${listBlock('Plain English',nerdy.plain_english)}${listBlock('Model Mechanics',nerdy.model_mechanics)}${listBlock('Transparency',nerdy.transparency)}${listBlock('Limitations',nerdy.limitations)}${listBlock('Example Scenarios',nerdy.example_scenarios)}</div>`; }
+function refreshChartsAndDrivers(){ renderRiskChart(); renderStateChart(); renderDrivers(); renderSources(); renderNerdyDetails(); document.querySelectorAll("#timeModeSwitch button").forEach(btn=>btn.classList.toggle("active",btn.dataset.mode===window.__timeMode)); }
+function applyTheme(theme){ const normalized=theme==="light"?"light":"dark"; document.documentElement.setAttribute("data-theme",normalized); localStorage.setItem(THEME_KEY,normalized); document.getElementById("themeToggle").textContent=normalized==="dark"?"🌙":"☀️"; }
+async function load(){ try{ const bust=`?v=${Date.now()}`; const risk=await fetch(`risk.json${bust}`).then(r=>r.json()); const hist=await fetch(`history_log.json${bust}`).then(r=>r.json()); const build=await fetch(`build_info.json${bust}`).then(r=>r.json()).catch(()=>null); const diag=await fetch(`diagnostics_log.json${bust}`).then(r=>r.json()).catch(()=>[]); const modelConfig=await fetch(`model_config.json${bust}`).then(r=>r.json()).catch(()=>({})); const backhistoryPolicy=await fetch(`data/backhistory_policy.json${bust}`).then(r=>r.json()).catch(()=>({})); const nerdyDetails=await fetch(`data/nerdy_details.json${bust}`).then(r=>r.json()).catch(()=>({})); window.__riskPayload=risk; window.__historyRows=getHistoryRows(hist); window.__diagnosticsRows=Array.isArray(diag)?diag:[]; window.__modelConfig=modelConfig; window.__backhistoryPolicy=backhistoryPolicy; window.__nerdyDetails=nerdyDetails; const probability=Number(risk.probability||0); const uncertainty=Number(risk.uncertainty||0); const riskEl=document.getElementById("risk"); riskEl.innerText=`${Math.round(probability)}%`; riskEl.className=`risk ${fixedBand(probability)}`; document.getElementById("updated").innerText=risk.last_updated||"n/a"; document.getElementById("submeta").innerText=`Uncertainty: ±${uncertainty.toFixed(2)}%`; document.getElementById("build").innerText=build?`Build: ${build.built_at_utc||"n/a"} | run #${build.run_number||"n/a"} | sha ${String(build.sha||"").slice(0,7)}`:"Build: unavailable"; refreshChartsAndDrivers(); } catch(err){ document.getElementById("submeta").innerText=`Load error: ${err&&err.message?err.message:String(err)}`; document.getElementById("updated").innerText="load failed"; } }
+document.querySelectorAll("#timeModeSwitch button").forEach(btn=>btn.addEventListener("click",()=>{ window.__timeMode=btn.dataset.mode; refreshChartsAndDrivers(); }));
+document.getElementById("driverSort").addEventListener("change",renderDrivers); document.getElementById("driverLimit").addEventListener("change",renderDrivers);
+document.getElementById("resetFilter").addEventListener("click",()=>{ window.__selectedPoint=null; renderDrivers(); });
+document.getElementById("themeToggle").addEventListener("click",()=>{ const current=document.documentElement.getAttribute("data-theme")||"dark"; applyTheme(current==="dark"?"light":"dark"); });
+applyTheme(localStorage.getItem(THEME_KEY)||"dark"); load();
 </script>
 </body>
 </html>

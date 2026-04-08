@@ -4,6 +4,8 @@
   "max_impact": 1.25,
   "probability_center": 6.0,
   "probability_steepness": 0.85,
+  "cluster_corroboration_bonus": 0.08,
+  "max_driver_count": 256,
   "min_confidence_by_class": {
     "rhetoric": 0.45,
     "movement": 0.5,
@@ -17,6 +19,12 @@
     "movement": 0.5,
     "action": 0.9,
     "strategic": 1.2
+  },
+  "contradiction_matrix": {
+    "action:deescalation": -0.45,
+    "movement:deescalation": -0.30,
+    "strategic:deescalation": -0.35,
+    "action:movement": -0.10
   },
   "source_weights": {
     "bbc_world": 1.0,

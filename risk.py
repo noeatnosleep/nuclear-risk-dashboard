@@ -2,6 +2,7 @@
 
 import json
 import math
+import re
 from datetime import datetime, timezone
 from urllib.parse import urlparse
 
@@ -20,6 +21,8 @@ MAX_STEP_CHANGE = 1.0
 CONFIG = load_config()
 PROBABILITY_CENTER = float(CONFIG.get("probability_center", 4.8))
 PROBABILITY_STEEPNESS = float(CONFIG.get("probability_steepness", 0.9))
+CLUSTER_CORROBORATION_BONUS = float(CONFIG.get("cluster_corroboration_bonus", 0.08))
+MAX_DRIVER_COUNT = int(CONFIG.get("max_driver_count", 256))
 
 
 def clamp(value, low, high):
@@ -31,6 +34,16 @@ def extract_domain(url):
         return (urlparse(url).netloc or "").lower()
     except Exception:
         return ""
+
+
+def normalize_title(title):
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]+", " ", str(title or "").lower())).strip()
+
+
+def cluster_key_for_driver(driver):
+    tokens = normalize_title(driver.get("title", "")).split()
+    short = " ".join(tokens[:8]) if tokens else "untitled"
+    return f"{driver.get('state_key','unknown')}::{short}"
 
 
 def load_previous_state():
@@ -92,9 +105,11 @@ def compute_uncertainty(top_drivers, event_count):
     if not top_drivers:
         return 18.0
     avg_confidence = sum(driver.get("confidence", 0) for driver in top_drivers) / len(top_drivers)
+    avg_corroboration = sum(driver.get("corroboration_count", 1) for driver in top_drivers) / len(top_drivers)
     confidence_penalty = (1 - avg_confidence) * 16
+    corroboration_bonus = min(4.0, (avg_corroboration - 1) * 1.2)
     low_volume_penalty = 10 if event_count < 15 else 5 if event_count < 30 else 2
-    return round(clamp(confidence_penalty + low_volume_penalty, 2, 30), 2)
+    return round(clamp(confidence_penalty + low_volume_penalty - corroboration_bonus, 2, 30), 2)
 
 
 def build_signal_sources(events, top_drivers):
@@ -111,13 +126,7 @@ def build_signal_sources(events, top_drivers):
         if key in seen:
             continue
         seen.add(key)
-        rows.append(
-            {
-                "name": source_name or source_domain or "unknown",
-                "url": source_url,
-                "domain": source_domain,
-            }
-        )
+        rows.append({"name": source_name or source_domain or "unknown", "url": source_url, "domain": source_domain})
 
     for driver in top_drivers:
         source_url = str(driver.get("source", "")).strip()
@@ -126,16 +135,38 @@ def build_signal_sources(events, top_drivers):
         if key in seen:
             continue
         seen.add(key)
-        rows.append(
-            {
-                "name": source_domain or "unknown",
-                "url": source_url,
-                "domain": source_domain,
-            }
-        )
+        rows.append({"name": source_domain or "unknown", "url": source_url, "domain": source_domain})
 
     rows.sort(key=lambda row: row.get("name", ""))
     return rows
+
+
+def merge_driver_clusters(top_drivers):
+    grouped = {}
+    for driver in top_drivers:
+        key = cluster_key_for_driver(driver)
+        grouped.setdefault(key, []).append(driver)
+
+    merged = []
+    for _, rows in grouped.items():
+        seed = rows[0].copy()
+        domains = sorted(set(r.get("source_domain", "") for r in rows if r.get("source_domain")))
+        links = [r.get("link") for r in rows if r.get("link")]
+        corroboration_count = len(rows)
+
+        mean_impact = sum(float(r.get("impact", 0.0)) for r in rows) / corroboration_count
+        mean_conf = sum(float(r.get("confidence", 0.0)) for r in rows) / corroboration_count
+        boost = 1.0 + (corroboration_count - 1) * CLUSTER_CORROBORATION_BONUS
+
+        seed["impact"] = round(clamp(mean_impact * boost, -2.0, 2.0), 3)
+        seed["confidence"] = round(clamp(mean_conf + min(0.18, (corroboration_count - 1) * 0.03), 0.0, 1.0), 3)
+        seed["corroboration_count"] = corroboration_count
+        seed["cluster_sources"] = domains
+        seed["cluster_links"] = links[:12]
+        merged.append(seed)
+
+    merged.sort(key=lambda row: abs(row.get("impact", 0)), reverse=True)
+    return merged
 
 
 def save_state(probability, state, top_drivers, debug, signal_sources):
@@ -147,10 +178,10 @@ def save_state(probability, state, top_drivers, debug, signal_sources):
         "probability": round(probability, 2),
         "uncertainty": uncertainty,
         "state": state,
-        "top_drivers": sorted_drivers[:12],
+        "top_drivers": sorted_drivers[:MAX_DRIVER_COUNT],
         "signal_sources": signal_sources,
         "driver_sort_default": "chronological",
-        "available_driver_sort": ["severity", "chronological", "confidence", "source_weight"],
+        "available_driver_sort": ["severity", "chronological", "confidence", "source_weight", "corroboration"],
         "debug": debug,
     }
 
@@ -170,6 +201,7 @@ def save_state(probability, state, top_drivers, debug, signal_sources):
             "drop_reasons": debug.get("drop_reasons", {}),
             "event_count": debug.get("event_count", 0),
             "classified_count": debug.get("classified_count", 0),
+            "drivers": sorted_drivers[:MAX_DRIVER_COUNT],
         }
     )
 
@@ -243,7 +275,8 @@ def apply_event_impacts(state, events):
             }
         )
 
-    return updates, top_drivers, classified_count, paired_count, debug_drops
+    clustered_drivers = merge_driver_clusters(top_drivers)
+    return updates, clustered_drivers, classified_count, paired_count, debug_drops
 
 
 COUPLING_RULES = {

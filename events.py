@@ -18,6 +18,15 @@ FALLBACK_PAIRING_ENABLED = bool(CONFIG.get("fallback_pairing_enabled", False))
 AMBIGUITY_PENALTY = float(CONFIG.get("ambiguity_penalty", 0.15))
 STRONG_SIGNAL_KEYWORDS = tuple(CONFIG.get("strong_signal_keywords", []))
 
+# Contradiction matrix: if both classes appear in one event text, apply additive penalty.
+DEFAULT_CONTRADICTION_MATRIX = {
+    "action:deescalation": -0.45,
+    "movement:deescalation": -0.30,
+    "strategic:deescalation": -0.35,
+    "action:movement": -0.10,
+}
+CONTRADICTION_MATRIX = CONFIG.get("contradiction_matrix", DEFAULT_CONTRADICTION_MATRIX)
+
 FALLBACK_MAP = {
     "us": ["china", "russia", "iran"],
     "china": ["us", "taiwan", "india"],
@@ -84,6 +93,22 @@ def event_text(event):
     return f"{title} {summary}".strip()
 
 
+def matrix_penalty(components):
+    present = [key for key, value in components.items() if key != "rhetoric" and value != 0]
+    if len(present) < 2:
+        return 0.0
+
+    penalty = 0.0
+    for i in range(len(present)):
+        for j in range(i + 1, len(present)):
+            a = present[i]
+            b = present[j]
+            key1 = f"{a}:{b}"
+            key2 = f"{b}:{a}"
+            penalty += float(CONTRADICTION_MATRIX.get(key1, CONTRADICTION_MATRIX.get(key2, 0.0)))
+    return penalty
+
+
 def score_signals(text):
     components = {
         "deescalation": SIGNAL_WEIGHTS["deescalation"] if DEESCALATION_PATTERN.search(text) else 0.0,
@@ -99,7 +124,15 @@ def score_signals(text):
     else:
         components["rhetoric"] = 0.0
 
-    dominant_class = max(components, key=lambda key: abs(components[key]))
+    contradiction_adjustment = matrix_penalty(components)
+    if contradiction_adjustment:
+        total += contradiction_adjustment
+        components["contradiction_adjustment"] = contradiction_adjustment
+
+    dominant_class = max(
+        ["deescalation", "action", "movement", "strategic", "rhetoric"],
+        key=lambda key: abs(components.get(key, 0.0)),
+    )
     return dominant_class, total, components
 
 
@@ -140,11 +173,13 @@ def compute_confidence(actors, signal_total, source_weight, text, signal_compone
 
     strong_keyword_bonus = 0.08 if any(keyword in text.lower() for keyword in STRONG_SIGNAL_KEYWORDS) else 0.0
 
-    has_positive_signal = any(signal_components[label] > 0 for label in ["action", "movement", "strategic"])
-    has_negative_signal = signal_components["deescalation"] < 0
+    has_positive_signal = any(signal_components.get(label, 0) > 0 for label in ["action", "movement", "strategic"])
+    has_negative_signal = signal_components.get("deescalation", 0) < 0
     ambiguity_penalty = AMBIGUITY_PENALTY if has_positive_signal and has_negative_signal else 0.0
 
-    confidence = actor_score + signal_score + source_score + strong_keyword_bonus - ambiguity_penalty
+    contradiction_penalty = abs(float(signal_components.get("contradiction_adjustment", 0.0))) * 0.08
+
+    confidence = actor_score + signal_score + source_score + strong_keyword_bonus - ambiguity_penalty - contradiction_penalty
     return max(0.0, min(1.0, confidence))
 
 
