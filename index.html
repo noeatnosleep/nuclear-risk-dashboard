@@ -16,8 +16,6 @@
   --low: #16a34a;
   --medium: #d97706;
   --high: #dc2626;
-  --switch-bg: #dbe5f4;
-  --switch-thumb: #ffffff;
 }
 html[data-theme="dark"] {
   --bg: #0b1220;
@@ -29,37 +27,23 @@ html[data-theme="dark"] {
   --low: #22c55e;
   --medium: #f59e0b;
   --high: #ef4444;
-  --switch-bg: #30435f;
-  --switch-thumb: #dce7fa;
 }
 body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--text); margin: 0; transition: background .2s ease, color .2s ease; }
 .container { max-width: 980px; margin: auto; padding: 24px; }
-.header-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
-h1 { margin: 0; font-size: 1.6rem; }
-.theme-toggle { border: 0; background: transparent; cursor: pointer; padding: 0; }
-.theme-toggle-track {
-  width: 58px;
-  height: 32px;
-  background: var(--switch-bg);
+.header-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+h1 { margin: 0; font-size: 2.6rem; line-height: 1.1; }
+.theme-icon-btn {
   border: 1px solid var(--border);
-  border-radius: 999px;
-  position: relative;
-  transition: background .2s ease;
-}
-.theme-toggle-thumb {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: var(--switch-thumb);
-  position: absolute;
-  top: 3px;
-  left: 4px;
+  background: var(--card);
+  color: var(--text);
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
   display: grid;
   place-items: center;
-  font-size: 12px;
-  transition: left .2s ease;
+  font-size: 18px;
 }
-html[data-theme="light"] .theme-toggle-thumb { left: 29px; }
 .risk { text-align: center; font-size: 4.2rem; font-weight: 700; margin: 14px 0 10px; }
 .low { color: var(--low); }
 .medium { color: var(--medium); }
@@ -80,9 +64,9 @@ html[data-theme="light"] .theme-toggle-thumb { left: 29px; }
 .build { margin-top: 10px; font-size: 0.8rem; }
 canvas { width: 100% !important; height: 100% !important; }
 @media (max-width: 640px) {
+  h1 { font-size: 1.9rem; }
   .risk { font-size: 3.2rem; }
   .container { padding: 16px; }
-  h1 { font-size: 1.3rem; }
 }
 </style>
 </head>
@@ -90,11 +74,7 @@ canvas { width: 100% !important; height: 100% !important; }
 <div class="container">
   <div class="header-row">
     <h1>Global Nuclear Strike Risk</h1>
-    <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
-      <span class="theme-toggle-track" aria-hidden="true">
-        <span id="themeThumb" class="theme-toggle-thumb">🌙</span>
-      </span>
-    </button>
+    <button id="themeToggle" class="theme-icon-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 
   <div id="risk" class="risk">--%</div>
@@ -185,12 +165,6 @@ function formatBucketLabel(dt, mode) {
   return `${m}-${day} ${hh}:00`;
 }
 
-function bucketStepMs(mode) {
-  if (mode === "years") return 30 * 24 * 3600 * 1000;
-  if (mode === "days") return 24 * 3600 * 1000;
-  return 3600 * 1000;
-}
-
 function addBucket(dt, mode) {
   const d = new Date(dt.getTime());
   if (mode === "years") {
@@ -244,8 +218,7 @@ function aggregateRows(rows, mode, valueGetter, field = "ts") {
 
   const averaged = new Map();
   bucketValues.forEach((values, key) => {
-    const mean = values.reduce((a, b) => a + b, 0) / values.length;
-    averaged.set(key, mean);
+    averaged.set(key, values.reduce((a, b) => a + b, 0) / values.length);
   });
   return averaged;
 }
@@ -258,12 +231,7 @@ function fixedBand(probability) {
 
 function renderRiskChart() {
   const timeline = buildTimeline(window.__historyRows, window.__timeMode);
-  const aggregates = aggregateRows(
-    window.__historyRows,
-    window.__timeMode,
-    row => Number(row.probability ?? row.p ?? NaN),
-    "ts"
-  );
+  const aggregates = aggregateRows(window.__historyRows, window.__timeMode, row => Number(row.probability ?? row.p ?? NaN), "ts");
 
   const labels = timeline.map(dt => formatBucketLabel(dt, window.__timeMode));
   const values = timeline.map(dt => {
@@ -280,8 +248,8 @@ function renderRiskChart() {
       datasets: [{
         data: values,
         borderWidth: 2,
-        tension: 0.3,
-        spanGaps: false,
+        tension: 0.25,
+        spanGaps: true,
         pointRadius: values.map(v => (v === null ? 0 : 2)),
         pointHoverRadius: values.map(v => (v === null ? 0 : 4))
       }]
@@ -312,13 +280,8 @@ function renderStateChart() {
   const timeline = buildTimeline(rows.map(r => ({ ts: r.ts })), window.__timeMode);
   const labels = timeline.map(dt => formatBucketLabel(dt, window.__timeMode));
 
-  const datasets = keys.map((key, idx) => {
-    const aggregates = aggregateRows(
-      rows,
-      window.__timeMode,
-      row => Number((row.state || {})[key]),
-      "ts"
-    );
+  const datasets = keys.map(key => {
+    const aggregates = aggregateRows(rows, window.__timeMode, row => Number((row.state || {})[key]), "ts");
     const data = timeline.map(dt => {
       const bucket = bucketStart(dt, window.__timeMode).getTime();
       return aggregates.has(bucket) ? aggregates.get(bucket) : null;
@@ -329,7 +292,7 @@ function renderStateChart() {
       data,
       borderWidth: 2,
       tension: 0.25,
-      spanGaps: false,
+      spanGaps: true,
       pointRadius: data.map(v => (v === null ? 0 : 2)),
       pointHoverRadius: data.map(v => (v === null ? 0 : 4))
     };
@@ -354,11 +317,7 @@ function renderStateChart() {
 function sortDrivers(drivers, mode) {
   const rows = [...drivers];
   if (mode === "chronological") {
-    rows.sort((a, b) => {
-      const ta = parseUtc(a.published || "")?.getTime() || 0;
-      const tb = parseUtc(b.published || "")?.getTime() || 0;
-      return tb - ta;
-    });
+    rows.sort((a, b) => (parseUtc(b.published || "")?.getTime() || 0) - (parseUtc(a.published || "")?.getTime() || 0));
     return rows;
   }
   if (mode === "confidence") {
@@ -453,7 +412,7 @@ function applyTheme(theme) {
   const normalized = theme === "light" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", normalized);
   localStorage.setItem(THEME_KEY, normalized);
-  document.getElementById("themeThumb").textContent = normalized === "dark" ? "🌙" : "☀️";
+  document.getElementById("themeToggle").textContent = normalized === "dark" ? "🌙" : "☀️";
 }
 
 async function load() {
@@ -501,7 +460,6 @@ document.getElementById("driverSort").addEventListener("change", renderDrivers);
 document.getElementById("themeToggle").addEventListener("click", () => {
   const current = document.documentElement.getAttribute("data-theme") || "dark";
   applyTheme(current === "dark" ? "light" : "dark");
-  refreshChartsAndDrivers();
 });
 
 applyTheme(localStorage.getItem(THEME_KEY) || "dark");
