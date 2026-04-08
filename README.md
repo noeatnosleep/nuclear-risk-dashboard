@@ -2,7 +2,7 @@
 
 A static dashboard that estimates global nuclear escalation risk from recent news headlines.
 
-## What this does (plain language)
+## What this does
 
 - The system reads recent world-news headlines.
 - It looks for country/actor names (US, China, Iran, etc.).
