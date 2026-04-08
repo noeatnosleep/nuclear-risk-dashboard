@@ -1,22 +1,22 @@
 {
-  "last_updated": "2026-04-08 13:46:59 UTC",
-  "probability": 77.92,
+  "last_updated": "2026-04-08 13:38:12 UTC",
+  "probability": 85.51,
   "state": {
     "us_russia": 6.5,
-    "us_china": 5.603353820785037,
-    "china_taiwan": 6.551838802476774,
+    "us_china": 5.5,
+    "china_taiwan": 6.763443165947907,
     "india_pakistan": 7.5,
     "china_india": 4.5,
-    "iran_us": 4.004545358359069,
-    "iran_israel": 6.787344437922276,
+    "iran_us": 9.386400960541996,
+    "iran_israel": 10,
     "nk_us": 6.5,
     "nk_sk": 6.0,
     "nk_japan": 5.5,
-    "russia_ukraine": 8.01680198493491
+    "russia_ukraine": 8.110113488469427
   },
   "top_drivers": [
     {
-      "title": "What we know about the two-week ceasefire between the US and Iran",
+      "title": "Israel carries out large wave of air strikes across Lebanon",
       "actors": [
         "iran",
         "us"
@@ -184,44 +184,26 @@
       "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
     },
     {
-      "title": "WHO suspends Gaza medical evacuations after contractor killed by Israeli troops",
+      "title": "World Athletics postpones Doha Diamond League amid US-Israel war on Iran",
       "actors": [
         "iran",
         "israel"
       ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.403,
-      "raw_impact": 0.403,
-      "source_weight": 1.0,
-      "age_hours": 23.86,
-      "confidence": 0.7,
-      "signal_total": 1.6,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 1.0,
-        "movement": 0.6,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/c4g8pzpw2g2o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
+      "class": "rhetoric",
+      "impact": 0.062,
+      "matches": [
+        "rhetoric"
+      ],
+      "link": "https://www.aljazeera.com/sports/2026/4/8/world-athletics-postpones-doha-diamond-league-amid-us-israel-war-on-iran?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
     }
   ],
   "debug": {
-    "event_count": 60,
-    "classified_count": 16,
-    "paired_count": 16,
-    "valid_pair_updates": 4,
-    "top_driver_count": 16,
-    "total_signal": 3.3098,
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 33,
-      "no_signal": 11,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    }
+    "event_count": 30,
+    "classified_count": 11,
+    "paired_count": 11,
+    "valid_pair_updates": 3,
+    "top_driver_count": 11,
+    "total_signal": 1.4375
   }
 }
