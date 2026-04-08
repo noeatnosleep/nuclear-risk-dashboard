@@ -1,6 +1,6 @@
 [
   {
-    "ts": "2026-03-10 00:00:00 UTC",
+    "ts": "2026-03-26 00:00:00 UTC",
     "probability": 11.52,
     "uncertainty": 18.0,
     "state": {
@@ -26,10 +26,11 @@
     },
     "event_count": 0,
     "classified_count": 0,
-    "paired_count": 0
+    "paired_count": 0,
+    "drivers": []
   },
   {
-    "ts": "2026-03-11 00:00:00 UTC",
+    "ts": "2026-03-27 00:00:00 UTC",
     "probability": 11.52,
     "uncertainty": 18.0,
     "state": {
@@ -55,49 +56,21 @@
     },
     "event_count": 0,
     "classified_count": 0,
-    "paired_count": 0
+    "paired_count": 0,
+    "drivers": []
   },
   {
-    "ts": "2026-03-12 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.5,
-      "china_india": 2.8,
-      "iran_us": 3.5,
-      "iran_israel": 4.5,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-13 00:00:00 UTC",
+    "ts": "2026-03-28 00:00:00 UTC",
     "probability": 11.52,
     "uncertainty": 10.0,
     "state": {
-      "us_russia": 3.2000000000000006,
+      "us_russia": 3.2,
       "us_china": 3.0,
       "china_taiwan": 4.0,
       "india_pakistan": 4.5,
       "china_india": 2.8,
-      "iran_us": 3.5,
-      "iran_israel": 4.5,
+      "iran_us": 3.5000008228341324,
+      "iran_israel": 4.500005166703493,
       "nk_us": 3.0,
       "nk_sk": 2.8,
       "nk_japan": 2.6,
@@ -106,492 +79,2713 @@
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 57,
-      "no_signal": 13,
-      "invalid_pair": 6,
+      "no_signal": 22,
+      "invalid_pair": 44,
       "low_confidence": 0,
       "classifier_error": 0
     },
-    "event_count": 80,
-    "classified_count": 4,
-    "paired_count": 4
-  },
-  {
-    "ts": "2026-03-14 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.5,
-      "china_india": 2.8,
-      "iran_us": 3.5,
-      "iran_israel": 4.5,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-15 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.5,
-      "china_india": 2.8,
-      "iran_us": 3.5,
-      "iran_israel": 4.5,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-16 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.5,
-      "china_india": 2.8,
-      "iran_us": 3.5,
-      "iran_israel": 4.5,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-17 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.5,
-      "china_india": 2.8,
-      "iran_us": 3.5,
-      "iran_israel": 4.5,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-18 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.5,
-      "china_india": 2.8,
-      "iran_us": 3.5,
-      "iran_israel": 4.5,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-19 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.5,
-      "china_india": 2.8,
-      "iran_us": 3.5,
-      "iran_israel": 4.5,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-20 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 10.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000001692,
-      "china_india": 2.8,
-      "iran_us": 3.4999999999983062,
-      "iran_israel": 4.500000000000323,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 44,
-      "no_signal": 17,
-      "invalid_pair": 14,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 80,
-    "classified_count": 5,
-    "paired_count": 5
-  },
-  {
-    "ts": "2026-03-21 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000001058,
-      "china_india": 2.8,
-      "iran_us": 3.4999999999989413,
-      "iran_israel": 4.5000000000002025,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-22 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000661,
-      "china_india": 2.8,
-      "iran_us": 3.4999999999993383,
-      "iran_israel": 4.500000000000127,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-23 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000413,
-      "china_india": 2.8,
-      "iran_us": 3.4999999999995866,
-      "iran_israel": 4.500000000000079,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-24 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.5000000000002585,
-      "china_india": 2.8,
-      "iran_us": 3.4999999999997415,
-      "iran_israel": 4.50000000000005,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-25 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000162,
-      "china_india": 2.8,
-      "iran_us": 3.4999999999998384,
-      "iran_israel": 4.500000000000031,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-26 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000101,
-      "china_india": 2.8,
-      "iran_us": 3.4999999999998987,
-      "iran_israel": 4.5000000000000195,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-27 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000063,
-      "china_india": 2.8,
-      "iran_us": 3.4999999999999365,
-      "iran_israel": 4.500000000000012,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
-  },
-  {
-    "ts": "2026-03-28 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2000000000000006,
-      "us_china": 3.0,
-      "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000039,
-      "china_india": 2.8,
-      "iran_us": 3.4999999999999605,
-      "iran_israel": 4.500000000000008,
-      "nk_us": 3.0,
-      "nk_sk": 2.8,
-      "nk_japan": 2.6,
-      "russia_ukraine": 5.0
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
+    "event_count": 180,
+    "classified_count": 57,
+    "paired_count": 57,
+    "drivers": [
+      {
+        "title": "Tehran strikes military base in Saudi Arabia after Israel hits Iranian nuclear facilities",
+        "published": "20260328T043000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "strategic",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 280.74,
+        "confidence": 0.955,
+        "signal_total": 2.1,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 1.2,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.cbc.ca/news/world/iran-strikes-military-base-us-troops-wounded-9.7145616",
+        "source": "https://www.cbc.ca/news/world/iran-strikes-military-base-us-troops-wounded-9.7145616",
+        "source_domain": "www.cbc.ca"
+      },
+      {
+        "title": "Houthis Launch First Strike On Israel As Iran War Widens Across Middle East",
+        "published": "20260328T111500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 273.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.ibtimes.com/houthis-launch-first-strike-israel-iran-war-widens-across-middle-east-3800470",
+        "source": "https://www.ibtimes.com/houthis-launch-first-strike-israel-iran-war-widens-across-middle-east-3800470",
+        "source_domain": "www.ibtimes.com"
+      },
+      {
+        "title": "Yemen Houthis enter Iran war with attack on Israel , while Marines arrive in region",
+        "published": "20260328T220000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 263.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.spokesman.com/stories/2026/mar/28/yemens-houthis-enter-iran-war-with-attack-on-israe/",
+        "source": "https://www.spokesman.com/stories/2026/mar/28/yemens-houthis-enter-iran-war-with-attack-on-israe/",
+        "source_domain": "www.spokesman.com"
+      },
+      {
+        "title": "Yemen Houthis strike at Israel in their first such attack since Iran war began",
+        "published": "20260328T211500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 263.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.al-monitor.com/originals/2026/03/yemens-houthis-strike-israel-their-first-such-attack-iran-war-began",
+        "source": "https://www.al-monitor.com/originals/2026/03/yemens-houthis-strike-israel-their-first-such-attack-iran-war-began",
+        "source_domain": "www.al-monitor.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Middle East intensifies",
+        "published": "20260328T131500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 271.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.wfaa.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source": "https://www.wfaa.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source_domain": "www.wfaa.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Middle East intensifies",
+        "published": "20260328T143000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 270.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.kvue.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source": "https://www.kvue.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source_domain": "www.kvue.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Middle East intensifies",
+        "published": "20260328T130000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 272.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.wltx.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source": "https://www.wltx.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source_domain": "www.wltx.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Middle East intensifies",
+        "published": "20260328T151500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 269.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.kare11.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source": "https://www.kare11.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source_domain": "www.kare11.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Middle East intensifies",
+        "published": "20260328T130000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 272.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.cbs8.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source": "https://www.cbs8.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source_domain": "www.cbs8.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Middle East intensifies",
+        "published": "20260328T131500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 271.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.krem.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source": "https://www.krem.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source_domain": "www.krem.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Middle East intensifies",
+        "published": "20260328T124500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 272.49,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.wusa9.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source": "https://www.wusa9.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source_domain": "www.wusa9.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Middle East intensifies",
+        "published": "20260328T143000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 270.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.fox43.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source": "https://www.fox43.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source_domain": "www.fox43.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Middle East intensifies",
+        "published": "20260328T130000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 272.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.fox61.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source": "https://www.fox61.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source_domain": "www.fox61.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Middle East intensifies",
+        "published": "20260328T130000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 272.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.wzzm13.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source": "https://www.wzzm13.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source_domain": "www.wzzm13.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Middle East intensifies",
+        "published": "20260328T154500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 269.49,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.thv11.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source": "https://www.thv11.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source_domain": "www.thv11.com"
+      },
+      {
+        "title": "Article : Gulf States may join the U . S .- Israeli war on Iran",
+        "published": "20260328T170000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 268.24,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.opednews.com/populum/page.php?f=Gulf-States-may-join-the-U-Arab_Iran-Nuclear-Deal_Iran-Revolutionary-Guard-Corps_Iran-Versus-Israel-260328-868.html",
+        "source": "https://www.opednews.com/populum/page.php?f=Gulf-States-may-join-the-U-Arab_Iran-Nuclear-Deal_Iran-Revolutionary-Guard-Corps_Iran-Versus-Israel-260328-868.html",
+        "source_domain": "www.opednews.com"
+      },
+      {
+        "title": "The Latest : Iranian - backed Houthi rebels claim responsibility for missile attacks on Israel",
+        "published": "20260329T000000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 261.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.news-gazette.com/news/nation-world/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attacks-on-israel/article_abd866df-1449-50a6-8885-d0028fc1c92a.html",
+        "source": "https://www.news-gazette.com/news/nation-world/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attacks-on-israel/article_abd866df-1449-50a6-8885-d0028fc1c92a.html",
+        "source_domain": "www.news-gazette.com"
+      },
+      {
+        "title": "Xinhua Headlines : One month into U . S .- Israeli war with Iran , havoc with no end in sight",
+        "published": "20260328T154500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 269.49,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "http://www.israelherald.com/news/278949829/xinhua-headlines-one-month-into-us-israeli-war-with-iran-havoc-with-no-end-in-sight",
+        "source": "http://www.israelherald.com/news/278949829/xinhua-headlines-one-month-into-us-israeli-war-with-iran-havoc-with-no-end-in-sight",
+        "source_domain": "www.israelherald.com"
+      },
+      {
+        "title": "Xinhua Headlines : One month into U . S .- Israeli war with Iran , havoc with no end in sight",
+        "published": "20260328T154500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 269.49,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "http://www.heraldglobe.com/news/278949829/xinhua-headlines-one-month-into-us-israeli-war-with-iran-havoc-with-no-end-in-sight",
+        "source": "http://www.heraldglobe.com/news/278949829/xinhua-headlines-one-month-into-us-israeli-war-with-iran-havoc-with-no-end-in-sight",
+        "source_domain": "www.heraldglobe.com"
+      },
+      {
+        "title": "Xinhua Headlines : One month into U . S .- Israeli war with Iran , havoc with no end in sight",
+        "published": "20260328T141500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 270.99,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "http://www.asiabulletin.com/news/278949829/xinhua-headlines-one-month-into-us-israeli-war-with-iran-havoc-with-no-end-in-sight",
+        "source": "http://www.asiabulletin.com/news/278949829/xinhua-headlines-one-month-into-us-israeli-war-with-iran-havoc-with-no-end-in-sight",
+        "source_domain": "www.asiabulletin.com"
+      },
+      {
+        "title": "Xinhua Headlines : One month into U . S .- Israeli war with Iran , havoc with no end in sight",
+        "published": "20260328T154500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 269.49,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "http://www.batonrougepost.com/news/278949829/xinhua-headlines-one-month-into-us-israeli-war-with-iran-havoc-with-no-end-in-sight",
+        "source": "http://www.batonrougepost.com/news/278949829/xinhua-headlines-one-month-into-us-israeli-war-with-iran-havoc-with-no-end-in-sight",
+        "source_domain": "www.batonrougepost.com"
+      },
+      {
+        "title": "Xinhua Headlines : One month into U . S .- Israeli war with Iran , havoc with no end in sight",
+        "published": "20260328T180000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 267.24,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "http://www.kenyastar.com/news/278949829/xinhua-headlines-one-month-into-us-israeli-war-with-iran-havoc-with-no-end-in-sight",
+        "source": "http://www.kenyastar.com/news/278949829/xinhua-headlines-one-month-into-us-israeli-war-with-iran-havoc-with-no-end-in-sight",
+        "source_domain": "www.kenyastar.com"
+      },
+      {
+        "title": "Xinhua Headlines : One month into U . S .- Israeli war with Iran , havoc with no end in sight",
+        "published": "20260328T183000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 266.74,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "http://www.russiaherald.com/news/278949829/xinhua-headlines-one-month-into-us-israeli-war-with-iran-havoc-with-no-end-in-sight",
+        "source": "http://www.russiaherald.com/news/278949829/xinhua-headlines-one-month-into-us-israeli-war-with-iran-havoc-with-no-end-in-sight",
+        "source_domain": "www.russiaherald.com"
+      },
+      {
+        "title": "The Latest : Iranian - backed Houthi rebels claim responsibility for missile attack on Israel",
+        "published": "20260328T180000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 267.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.news4jax.com/news/world/2026/03/28/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attack-on-israel/",
+        "source": "https://www.news4jax.com/news/world/2026/03/28/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attack-on-israel/",
+        "source_domain": "www.news4jax.com"
+      },
+      {
+        "title": "Houthis claim first missile attack on Israel since start of Iran war",
+        "published": "20260328T170000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 268.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.washingtonexaminer.com/news/world/4508404/houthis-first-missile-attack-israel-iran-war/",
+        "source": "https://www.washingtonexaminer.com/news/world/4508404/houthis-first-missile-attack-israel-iran-war/",
+        "source_domain": "www.washingtonexaminer.com"
+      },
+      {
+        "title": "The Latest : Iranian - backed Houthi rebels claim responsibility for missile attack on Israel",
+        "published": "20260328T131500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 271.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.sun-sentinel.com/2026/03/28/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attack-on-israel/",
+        "source": "https://www.sun-sentinel.com/2026/03/28/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attack-on-israel/",
+        "source_domain": "www.sun-sentinel.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim missile launch on Israel as war in Middle East intensifies",
+        "published": "20260328T130000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 272.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.theglobeandmail.com/business/article-iran-war-houthis-israel-us/",
+        "source": "https://www.theglobeandmail.com/business/article-iran-war-houthis-israel-us/",
+        "source_domain": "www.theglobeandmail.com"
+      },
+      {
+        "title": "The Latest : Iranian - backed Houthi rebels claim responsibility for missile attack on Israel",
+        "published": "20260328T143000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 270.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.independent.co.uk/news/world/europe/israel-saudi-arabia-middle-east-hezbollah-donald-trump-b2947592.html",
+        "source": "https://www.independent.co.uk/news/world/europe/israel-saudi-arabia-middle-east-hezbollah-donald-trump-b2947592.html",
+        "source_domain": "www.independent.co.uk"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Mideast intensifies",
+        "published": "20260328T131500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 271.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.azfamily.com/2026/03/28/iran-backed-houthis-claim-first-missile-launch-israel-war-mideast-intensifies/",
+        "source": "https://www.azfamily.com/2026/03/28/iran-backed-houthis-claim-first-missile-launch-israel-war-mideast-intensifies/",
+        "source_domain": "www.azfamily.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Mideast intensifies",
+        "published": "20260328T110000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 274.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.clickorlando.com/news/world/2026/03/28/israel-says-it-intercepted-first-incoming-missile-from-yemen-as-war-in-middle-east-intensifies/",
+        "source": "https://www.clickorlando.com/news/world/2026/03/28/israel-says-it-intercepted-first-incoming-missile-from-yemen-as-war-in-middle-east-intensifies/",
+        "source_domain": "www.clickorlando.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Mideast intensifies",
+        "published": "20260328T124500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 272.49,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.wdbj7.com/2026/03/28/iran-backed-houthis-claim-first-missile-launch-israel-war-mideast-intensifies/",
+        "source": "https://www.wdbj7.com/2026/03/28/iran-backed-houthis-claim-first-missile-launch-israel-war-mideast-intensifies/",
+        "source_domain": "www.wdbj7.com"
+      },
+      {
+        "title": "War spreads across Middle East as Iran , Houthis target Israel and US forces",
+        "published": "20260328T154500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 269.49,
+        "confidence": 0.675,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.wtvr.com/us-news/iran-war/war-spreads-across-middle-east-as-iran-houthis-target-israel-and-us-forces",
+        "source": "https://www.wtvr.com/us-news/iran-war/war-spreads-across-middle-east-as-iran-houthis-target-israel-and-us-forces",
+        "source_domain": "www.wtvr.com"
+      },
+      {
+        "title": "War spreads across Middle East as Iran , Houthis target Israel and US forces",
+        "published": "20260328T131500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 271.99,
+        "confidence": 0.675,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.10news.com/us-news/iran-war/war-spreads-across-middle-east-as-iran-houthis-target-israel-and-us-forces",
+        "source": "https://www.10news.com/us-news/iran-war/war-spreads-across-middle-east-as-iran-houthis-target-israel-and-us-forces",
+        "source_domain": "www.10news.com"
+      },
+      {
+        "title": "Houthi Entry Into Iran - Israel War Stokes Fresh Alarm Over Red Sea Trade Routes and Global Oil Prices",
+        "published": "20260328T211500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 263.99,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.ibtimes.co.uk/houthi-entry-iran-israel-war-stokes-fresh-alarm-over-red-sea-trade-routes-global-oil-prices-1788978",
+        "source": "https://www.ibtimes.co.uk/houthi-entry-iran-israel-war-stokes-fresh-alarm-over-red-sea-trade-routes-global-oil-prices-1788978",
+        "source_domain": "www.ibtimes.co.uk"
+      },
+      {
+        "title": "The Latest : Iranian - backed Houthi rebels claim responsibility for missile attacks on Israel",
+        "published": "20260329T000000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 261.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.yakimaherald.com/news/nation_and_world/nation/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attacks-on-israel/article_d6b0fbe5-5689-567e-b6ca-bdd55ce52e5f.html",
+        "source": "https://www.yakimaherald.com/news/nation_and_world/nation/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attacks-on-israel/article_d6b0fbe5-5689-567e-b6ca-bdd55ce52e5f.html",
+        "source_domain": "www.yakimaherald.com"
+      },
+      {
+        "title": "Iran - Israel War Day 29 Updates : Trump says Iran  decimated , Tehran steps up attacks on Gulf as West Asia conflict rages",
+        "published": "20260328T061500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 278.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://economictimes.indiatimes.com/news/defence/iran-israel-war-news-day-29-middle-east-conflict-strait-of-hormuz-crude-oil-latest-news/articleshow/129859281.cms",
+        "source": "https://economictimes.indiatimes.com/news/defence/iran-israel-war-news-day-29-middle-east-conflict-strait-of-hormuz-crude-oil-latest-news/articleshow/129859281.cms",
+        "source_domain": "economictimes.indiatimes.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Mideast intensifies",
+        "published": "20260328T130000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 272.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.ksat.com/news/world/2026/03/28/iran-backed-houthis-claim-first-missile-launch-on-israel-as-war-in-the-mideast-intensifies/",
+        "source": "https://www.ksat.com/news/world/2026/03/28/iran-backed-houthis-claim-first-missile-launch-on-israel-as-war-in-the-mideast-intensifies/",
+        "source_domain": "www.ksat.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Mideast intensifies",
+        "published": "20260328T130000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 272.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.local10.com/news/2026/03/28/iran-backed-houthis-claim-first-missile-launch-on-israel-as-war-in-the-mideast-intensifies/",
+        "source": "https://www.local10.com/news/2026/03/28/iran-backed-houthis-claim-first-missile-launch-on-israel-as-war-in-the-mideast-intensifies/",
+        "source_domain": "www.local10.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Mideast intensifies",
+        "published": "20260328T111500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 273.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.wral.com/news/ap/0f919-israel-says-it-intercepted-first-incoming-missile-from-yemen-as-war-in-middle-east-intensifies/",
+        "source": "https://www.wral.com/news/ap/0f919-israel-says-it-intercepted-first-incoming-missile-from-yemen-as-war-in-middle-east-intensifies/",
+        "source_domain": "www.wral.com"
+      },
+      {
+        "title": "Iran - Backed Houthis Claim First Missile Launch on Israel as War in the Mideast Intensifies",
+        "published": "20260328T163000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 268.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.military.com/daily-news/2026/03/28/iran-backed-houthis-claim-first-missile-launch-israel-war-mideast-intensifies.html",
+        "source": "https://www.military.com/daily-news/2026/03/28/iran-backed-houthis-claim-first-missile-launch-israel-war-mideast-intensifies.html",
+        "source_domain": "www.military.com"
+      },
+      {
+        "title": "Iran War : Truth behind Yemen attack on Israel that could deepen global economic crisis",
+        "published": "20260328T180000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 267.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.mirror.co.uk/news/world-news/iran-war-truth-behind-yemens-36938069",
+        "source": "https://www.mirror.co.uk/news/world-news/iran-war-truth-behind-yemens-36938069",
+        "source_domain": "www.mirror.co.uk"
+      },
+      {
+        "title": "Iranian missile attack leaves  at least 10  US troops injured as planes damaged",
+        "published": "20260328T000000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 285.24,
+        "confidence": 0.955,
+        "signal_total": 1.4,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.5,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.mirror.co.uk/news/us-news/iranian-missile-attack-leaves-at-36936326",
+        "source": "https://www.mirror.co.uk/news/us-news/iranian-missile-attack-leaves-at-36936326",
+        "source_domain": "www.mirror.co.uk"
+      },
+      {
+        "title": "Iran war Israel strikes : Live updates",
+        "published": "20260328T070000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 278.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.bostonglobe.com/2026/03/28/nation/trump-administration-iran-attacks-updates/",
+        "source": "https://www.bostonglobe.com/2026/03/28/nation/trump-administration-iran-attacks-updates/",
+        "source_domain": "www.bostonglobe.com"
+      },
+      {
+        "title": "Missile fired from Yemen as Israel and U . S . target Iran",
+        "published": "20260328T064500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 278.49,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.thehindu.com/news/international/missile-fired-from-yemen-as-israel-and-us-target-iran/article70795541.ece",
+        "source": "https://www.thehindu.com/news/international/missile-fired-from-yemen-as-israel-and-us-target-iran/article70795541.ece",
+        "source_domain": "www.thehindu.com"
+      },
+      {
+        "title": "Yemen Houthis launch Israel strike , the first of the Iran war",
+        "published": "20260328T130000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 272.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.cnbc.com/2026/03/28/yemens-houthis-launch-israel-strike-the-first-of-the-iran-war.html",
+        "source": "https://www.cnbc.com/2026/03/28/yemens-houthis-launch-israel-strike-the-first-of-the-iran-war.html",
+        "source_domain": "www.cnbc.com"
+      },
+      {
+        "title": "Houthis warn  fingers on the trigger  as US - Israel war on Iran continues | US - Israel war on Iran News",
+        "published": "20260328T004500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.9,
+        "age_hours": 284.49,
+        "confidence": 0.68,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.aljazeera.com/news/2026/3/27/houthis-warn-fingers-on-the-trigger-as-us-israeli-war-on-iran-continues",
+        "source": "https://www.aljazeera.com/news/2026/3/27/houthis-warn-fingers-on-the-trigger-as-us-israeli-war-on-iran-continues",
+        "source_domain": "www.aljazeera.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Mideast intensifies | News , Sports , Jobs",
+        "published": "20260328T141500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 270.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.mauinews.com/wire/?category=5187&ID=391717",
+        "source": "https://www.mauinews.com/wire/?category=5187&ID=391717",
+        "source_domain": "www.mauinews.com"
+      },
+      {
+        "title": "The Latest : Iranian - backed Houthi rebels claim responsibility for missile attack on Israel",
+        "published": "20260328T093000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 275.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.wfmz.com/news/ap/ap-national/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attack-on-israel/article_9beacd70-49eb-5f5a-841b-daf16fdf6c05.html",
+        "source": "https://www.wfmz.com/news/ap/ap-national/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attack-on-israel/article_9beacd70-49eb-5f5a-841b-daf16fdf6c05.html",
+        "source_domain": "www.wfmz.com"
+      },
+      {
+        "title": "The Latest : Iranian - backed Houthi rebels claim responsibility for missile attack on Israel",
+        "published": "20260328T103000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 274.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.woonsocketcall.com/news/national_and_world_news/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attack-on-israel/article_d1aacc05-8fd8-5354-955d-29bc8941f94c.html",
+        "source": "https://www.woonsocketcall.com/news/national_and_world_news/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attack-on-israel/article_d1aacc05-8fd8-5354-955d-29bc8941f94c.html",
+        "source_domain": "www.woonsocketcall.com"
+      },
+      {
+        "title": "US Israel Iran War LIVE : PM Modi speaks Saudi Arabia Crown Prince , condemns attack on energy infrastructure",
+        "published": "20260328T131500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 271.99,
+        "confidence": 0.895,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.indiatvnews.com/news/world/iran-war-live-houthis-enter-in-the-conflict-launch-strikes-at-israel-drone-attack-at-kuwait-airport-1035426",
+        "source": "https://www.indiatvnews.com/news/world/iran-war-live-houthis-enter-in-the-conflict-launch-strikes-at-israel-drone-attack-at-kuwait-airport-1035426",
+        "source_domain": "www.indiatvnews.com"
+      },
+      {
+        "title": "The Latest : Iranian missile attack wounds several US troops at Saudi air base , AP sources say",
+        "published": "20260328T040000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 281.24,
+        "confidence": 0.955,
+        "signal_total": 1.4,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.5,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.idahopress.com/ap_news/us/the-latest-iranian-missile-attack-wounds-several-us-troops-at-saudi-air-base-ap-sources/article_fa9541ea-d15b-576e-862f-748422f189b7.html",
+        "source": "https://www.idahopress.com/ap_news/us/the-latest-iranian-missile-attack-wounds-several-us-troops-at-saudi-air-base-ap-sources/article_fa9541ea-d15b-576e-862f-748422f189b7.html",
+        "source_domain": "www.idahopress.com"
+      },
+      {
+        "title": "At least 10 US troops injured in Iranian missile attack as aircraft damaged",
+        "published": "20260328T011500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 283.99,
+        "confidence": 0.955,
+        "signal_total": 1.4,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.5,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.dailyrecord.co.uk/news/uk-world-news/least-10-troops-injured-iranian-36936355",
+        "source": "https://www.dailyrecord.co.uk/news/uk-world-news/least-10-troops-injured-iranian-36936355",
+        "source_domain": "www.dailyrecord.co.uk"
+      },
+      {
+        "title": "Iran missile attack leaves  at least 10  US troops injured as planes damaged",
+        "published": "20260328T021500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 282.99,
+        "confidence": 0.955,
+        "signal_total": 1.4,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.5,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.irishmirror.ie/news/world-news/iran-missile-attack-leaves-at-36936352",
+        "source": "https://www.irishmirror.ie/news/world-news/iran-missile-attack-leaves-at-36936352",
+        "source_domain": "www.irishmirror.ie"
+      },
+      {
+        "title": "Iranian missile and drone strike on Saudi base leaves at least 10 US troops injured",
+        "published": "20260328T011500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 283.99,
+        "confidence": 0.955,
+        "signal_total": 1.4,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.5,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.manchestereveningnews.co.uk/news/world-news/iranian-missile-drone-strike-saudi-33676393",
+        "source": "https://www.manchestereveningnews.co.uk/news/world-news/iranian-missile-drone-strike-saudi-33676393",
+        "source_domain": "www.manchestereveningnews.co.uk"
+      },
+      {
+        "title": "The Latest : Iranian missile attack wounds several US troops at Saudi air base , AP sources say",
+        "published": "20260328T000000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 285.24,
+        "confidence": 0.955,
+        "signal_total": 1.4,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.5,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.smdailyjournal.com/business/the-latest-iranian-missile-attack-wounds-several-us-troops-at-saudi-air-base-ap-sources/article_4d0d4b7a-ca5f-5e6b-8b21-2a8d20f6ffdc.html",
+        "source": "https://www.smdailyjournal.com/business/the-latest-iranian-missile-attack-wounds-several-us-troops-at-saudi-air-base-ap-sources/article_4d0d4b7a-ca5f-5e6b-8b21-2a8d20f6ffdc.html",
+        "source_domain": "www.smdailyjournal.com"
+      },
+      {
+        "title": "The Latest : Iranian missile attack wounds several US troops at Saudi air base , AP sources say",
+        "published": "20260328T021500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 282.99,
+        "confidence": 0.955,
+        "signal_total": 1.4,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.5,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.santafenewmexican.com/ap/business/the-latest-iranian-missile-attack-wounds-several-us-troops-at-saudi-air-base-ap-sources/article_e8230690-c32f-5b60-9e7a-18bf22375c06.html",
+        "source": "https://www.santafenewmexican.com/ap/business/the-latest-iranian-missile-attack-wounds-several-us-troops-at-saudi-air-base-ap-sources/article_e8230690-c32f-5b60-9e7a-18bf22375c06.html",
+        "source_domain": "www.santafenewmexican.com"
+      },
+      {
+        "title": "Iran - backed Houthis claim first missile launch on Israel as war in the Middle East intensifies",
+        "published": "20260328T141500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 270.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.wqad.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source": "https://www.wqad.com/article/news/nation-world/attack-on-iran/houthi-rebels-iran-attack-missile-launch-israel-middle-east-war/507-a7e3dae6-569f-4900-91d4-b02269ac1782",
+        "source_domain": "www.wqad.com"
+      }
+    ]
   },
   {
     "ts": "2026-03-29 00:00:00 UTC",
     "probability": 11.52,
-    "uncertainty": 18.0,
+    "uncertainty": 10.0,
     "state": {
-      "us_russia": 3.2000000000000006,
+      "us_russia": 3.2,
       "us_china": 3.0,
       "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000025,
+      "india_pakistan": 4.5,
       "china_india": 2.8,
-      "iran_us": 3.499999999999975,
-      "iran_israel": 4.500000000000005,
-      "nk_us": 3.0,
+      "iran_us": 3.4999999376128508,
+      "iran_israel": 4.50000962447917,
+      "nk_us": 3.0000048289678576,
       "nk_sk": 2.8,
       "nk_japan": 2.6,
       "russia_ukraine": 5.0
     },
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
+      "no_actor": 74,
+      "no_signal": 32,
+      "invalid_pair": 29,
       "low_confidence": 0,
       "classifier_error": 0
     },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
+    "event_count": 180,
+    "classified_count": 45,
+    "paired_count": 45,
+    "drivers": [
+      {
+        "title": "Mass exodus shock as Israelis flee abroad amid war , Iran missile strikes shatter image of invincible Israel",
+        "published": "20260329T144500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 246.49,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.bankingnews.gr/diethni/articles/865284/mass-exodus-shock-as-israelis-flee-abroad-amid-war-iran-missile-strikes-shatter-image-of-invincible-israel",
+        "source": "https://www.bankingnews.gr/diethni/articles/865284/mass-exodus-shock-as-israelis-flee-abroad-amid-war-iran-missile-strikes-shatter-image-of-invincible-israel",
+        "source_domain": "www.bankingnews.gr"
+      },
+      {
+        "title": "Gulf States May Join U . S .- Israeli War on Iran",
+        "published": "20260329T103000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 250.74,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://article.wn.com/view/2026/03/29/Gulf_States_May_Join_USIsraeli_War_on_Iran/",
+        "source": "https://article.wn.com/view/2026/03/29/Gulf_States_May_Join_USIsraeli_War_on_Iran/",
+        "source_domain": "article.wn.com"
+      },
+      {
+        "title": "Yemen Houthis enter Iran war with attack on Israel , while Marines arrive in region",
+        "published": "20260329T010000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 260.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.ksl.com:443/article/51474444/yemens-houthis-enter-iran-war-with-attack-on-israel-while-marines-arrive-in-region",
+        "source": "https://www.ksl.com:443/article/51474444/yemens-houthis-enter-iran-war-with-attack-on-israel-while-marines-arrive-in-region",
+        "source_domain": "www.ksl.com:443"
+      },
+      {
+        "title": "Houthis enter Iran war while US Marines arrive in region",
+        "published": "20260329T053000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 255.74,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.rte.ie/news/world/2026/0329/1565732-iran-wrap-sunday/",
+        "source": "https://www.rte.ie/news/world/2026/0329/1565732-iran-wrap-sunday/",
+        "source_domain": "www.rte.ie"
+      },
+      {
+        "title": "Pakistan prepares to host peace talks as Iran accuses US of ground assault plans",
+        "published": "20260329T221500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.0,
+        "raw_impact": -0.0,
+        "source_weight": 0.85,
+        "age_hours": 238.99,
+        "confidence": 0.795,
+        "signal_total": -0.8,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://asia.nikkei.com/spotlight/iran-tensions/pakistan-prepares-to-host-peace-talks-as-iran-accuses-us-of-ground-assault-plans",
+        "source": "https://asia.nikkei.com/spotlight/iran-tensions/pakistan-prepares-to-host-peace-talks-as-iran-accuses-us-of-ground-assault-plans",
+        "source_domain": "asia.nikkei.com"
+      },
+      {
+        "title": "Pentagon  prepares for major escalation in Iran War with ground operations set to last for WEEK ... as US Marines arrive in the Middle East",
+        "published": "20260329T041500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 256.99,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.dailymail.co.uk/news/article-15688435/pentagon-iran-war-escalation-marines-arrive-middle-east.html",
+        "source": "https://www.dailymail.co.uk/news/article-15688435/pentagon-iran-war-escalation-marines-arrive-middle-east.html",
+        "source_domain": "www.dailymail.co.uk"
+      },
+      {
+        "title": "Pakistan prepares to host peace talks as Iran accuses US of ground assault plans",
+        "published": "20260329T224500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.0,
+        "raw_impact": -0.0,
+        "source_weight": 0.85,
+        "age_hours": 238.49,
+        "confidence": 0.795,
+        "signal_total": -0.8,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.straitstimes.com/asia/south-asia/pakistan-prepares-to-host-peace-talks-as-iran-accuses-us-of-ground-assault-plans",
+        "source": "https://www.straitstimes.com/asia/south-asia/pakistan-prepares-to-host-peace-talks-as-iran-accuses-us-of-ground-assault-plans",
+        "source_domain": "www.straitstimes.com"
+      },
+      {
+        "title": "North Korea conducts engine test for missile capable of striking US mainland",
+        "published": "20260329T091500Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 251.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://news.sky.com/story/north-korea-conducts-engine-test-for-missile-capable-of-striking-us-mainland-13525716",
+        "source": "https://news.sky.com/story/north-korea-conducts-engine-test-for-missile-capable-of-striking-us-mainland-13525716",
+        "source_domain": "news.sky.com"
+      },
+      {
+        "title": "US  prepares ground invasion  as Iran vows to set US troops  on fire  ",
+        "published": "20260329T121500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "movement",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 248.99,
+        "confidence": 0.725,
+        "signal_total": 0.5,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.5,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.lbc.co.uk/article/us-prepares-ground-invasion-iran-vows-set-troops-on-fire-5HjdX2S_2/",
+        "source": "https://www.lbc.co.uk/article/us-prepares-ground-invasion-iran-vows-set-troops-on-fire-5HjdX2S_2/",
+        "source_domain": "www.lbc.co.uk"
+      },
+      {
+        "title": "The Latest : Iranian - backed Houthi rebels claim responsibility for missile attacks on Israel",
+        "published": "20260329T000000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 261.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.news-gazette.com/news/nation-world/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attacks-on-israel/article_abd866df-1449-50a6-8885-d0028fc1c92a.html",
+        "source": "https://www.news-gazette.com/news/nation-world/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attacks-on-israel/article_abd866df-1449-50a6-8885-d0028fc1c92a.html",
+        "source_domain": "www.news-gazette.com"
+      },
+      {
+        "title": "Pakistan prepares to host peace talks as Iran accuses US of ground assault plans",
+        "published": "20260329T210000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.0,
+        "raw_impact": -0.0,
+        "source_weight": 0.85,
+        "age_hours": 240.24,
+        "confidence": 0.795,
+        "signal_total": -0.8,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.marketscreener.com/news/pakistan-prepares-to-host-peace-talks-as-iran-accuses-us-of-ground-assault-plans-ce7e51d8df81f623",
+        "source": "https://www.marketscreener.com/news/pakistan-prepares-to-host-peace-talks-as-iran-accuses-us-of-ground-assault-plans-ce7e51d8df81f623",
+        "source_domain": "www.marketscreener.com"
+      },
+      {
+        "title": "Yemen Houthis Enter Iran War with Attacks on Israel , While US Marines Arrive in Region",
+        "published": "20260329T084500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 252.49,
+        "confidence": 0.895,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://english.aawsat.com/world/5256401-yemens-houthis-enter-iran-war-attacks-israel-while-us-marines-arrive-region",
+        "source": "https://english.aawsat.com/world/5256401-yemens-houthis-enter-iran-war-attacks-israel-while-us-marines-arrive-region",
+        "source_domain": "english.aawsat.com"
+      },
+      {
+        "title": "North Korea tests powerful missile engine as Kim Jong Un ramps up US strike capability",
+        "published": "20260329T131500Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 247.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.independent.co.uk/asia/east-asia/north-korea-kim-jong-un-missile-us-mainland-b2947800.html",
+        "source": "https://www.independent.co.uk/asia/east-asia/north-korea-kim-jong-un-missile-us-mainland-b2947800.html",
+        "source_domain": "www.independent.co.uk"
+      },
+      {
+        "title": "Yemen Houthis enter Iran war with attacks on Israel , while US Marines arrive in region",
+        "published": "20260329T001500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 260.99,
+        "confidence": 0.895,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.al-monitor.com/originals/2026/03/yemens-houthis-enter-iran-war-attacks-israel-while-us-marines-arrive-region",
+        "source": "https://www.al-monitor.com/originals/2026/03/yemens-houthis-enter-iran-war-attacks-israel-while-us-marines-arrive-region",
+        "source_domain": "www.al-monitor.com"
+      },
+      {
+        "title": "Pakistan prepares to host peace talks as Iran accuses US of ground assault plans",
+        "published": "20260329T224500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.0,
+        "raw_impact": -0.0,
+        "source_weight": 0.85,
+        "age_hours": 238.49,
+        "confidence": 0.795,
+        "signal_total": -0.8,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.al-monitor.com/originals/2026/03/pakistan-prepares-host-peace-talks-iran-accuses-us-ground-assault-plans",
+        "source": "https://www.al-monitor.com/originals/2026/03/pakistan-prepares-host-peace-talks-iran-accuses-us-ground-assault-plans",
+        "source_domain": "www.al-monitor.com"
+      },
+      {
+        "title": "Yemen Houthis enter Iran war with attacks on Israel , while US Marines arrive in region",
+        "published": "20260329T013000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 259.74,
+        "confidence": 0.895,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.yahoo.com/news/articles/yemens-houthis-enter-iran-war-231411434.html",
+        "source": "https://www.yahoo.com/news/articles/yemens-houthis-enter-iran-war-231411434.html",
+        "source_domain": "www.yahoo.com"
+      },
+      {
+        "title": "North Korea tests new missile capable of targeting US mainland , state media reports",
+        "published": "20260329T093000Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 251.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.king5.com/article/news/nation-world/north-korea-new-missile-test/507-3183d3fc-3f35-4d89-b450-6229e0e04692",
+        "source": "https://www.king5.com/article/news/nation-world/north-korea-new-missile-test/507-3183d3fc-3f35-4d89-b450-6229e0e04692",
+        "source_domain": "www.king5.com"
+      },
+      {
+        "title": "North Korea conducts high - thrust engine test for missile capable of targeting US mainland",
+        "published": "20260329T053000Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 255.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.hindustantimes.com/world-news/north-korea-conducts-high-thrust-engine-test-for-missile-capable-of-targeting-us-mainland-101774750675910.html",
+        "source": "https://www.hindustantimes.com/world-news/north-korea-conducts-high-thrust-engine-test-for-missile-capable-of-targeting-us-mainland-101774750675910.html",
+        "source_domain": "www.hindustantimes.com"
+      },
+      {
+        "title": "North Korea tests new missile capable of targeting US mainland , state media reports",
+        "published": "20260329T221500Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 238.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.ktvb.com/article/news/nation-world/north-korea-new-missile-test/507-3183d3fc-3f35-4d89-b450-6229e0e04692",
+        "source": "https://www.ktvb.com/article/news/nation-world/north-korea-new-missile-test/507-3183d3fc-3f35-4d89-b450-6229e0e04692",
+        "source_domain": "www.ktvb.com"
+      },
+      {
+        "title": "North Korea Conducts Engine Test for Missile Capable of Targeting US Mainland",
+        "published": "20260329T111500Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 249.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://english.aawsat.com/world/5256435-north-korea-conducts-engine-test-missile-capable-targeting-us-mainland",
+        "source": "https://english.aawsat.com/world/5256435-north-korea-conducts-engine-test-missile-capable-targeting-us-mainland",
+        "source_domain": "english.aawsat.com"
+      },
+      {
+        "title": "North Korea conducts engine test for missile capable of targeting US mainland",
+        "published": "20260329T073000Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 253.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.ksat.com/news/world/2026/03/29/north-korea-conducts-engine-test-for-missile-capable-of-targeting-us-mainland/",
+        "source": "https://www.ksat.com/news/world/2026/03/29/north-korea-conducts-engine-test-for-missile-capable-of-targeting-us-mainland/",
+        "source_domain": "www.ksat.com"
+      },
+      {
+        "title": "Iran Accuses US of Ground Assault Plans as Pakistan Hosts Regional Talks",
+        "published": "20260329T204500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 240.49,
+        "confidence": 0.675,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.algemeiner.com/2026/03/29/iran-accuses-us-of-ground-assault-plans-as-pakistan-hosts-regional-talks/",
+        "source": "https://www.algemeiner.com/2026/03/29/iran-accuses-us-of-ground-assault-plans-as-pakistan-hosts-regional-talks/",
+        "source_domain": "www.algemeiner.com"
+      },
+      {
+        "title": "North Korea tests new missile capable of targeting US mainland , state media reports",
+        "published": "20260329T061500Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 254.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.12news.com/article/news/nation-world/north-korea-new-missile-test/507-3183d3fc-3f35-4d89-b450-6229e0e04692",
+        "source": "https://www.12news.com/article/news/nation-world/north-korea-new-missile-test/507-3183d3fc-3f35-4d89-b450-6229e0e04692",
+        "source_domain": "www.12news.com"
+      },
+      {
+        "title": "North Korea conducts engine test for missile capable of targeting US mainland",
+        "published": "20260329T023000Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 258.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.clickorlando.com/news/world/2026/03/29/north-korea-conducts-engine-test-for-missile-capable-of-targeting-us-mainland/",
+        "source": "https://www.clickorlando.com/news/world/2026/03/29/north-korea-conducts-engine-test-for-missile-capable-of-targeting-us-mainland/",
+        "source_domain": "www.clickorlando.com"
+      },
+      {
+        "title": "The Latest : Iranian - backed Houthi rebels claim responsibility for missile attacks on Israel",
+        "published": "20260329T000000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 261.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.yakimaherald.com/news/nation_and_world/nation/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attacks-on-israel/article_d6b0fbe5-5689-567e-b6ca-bdd55ce52e5f.html",
+        "source": "https://www.yakimaherald.com/news/nation_and_world/nation/the-latest-iranian-backed-houthi-rebels-claim-responsibility-for-missile-attacks-on-israel/article_d6b0fbe5-5689-567e-b6ca-bdd55ce52e5f.html",
+        "source_domain": "www.yakimaherald.com"
+      },
+      {
+        "title": "North Korea conducts engine test for missile capable of targeting US mainland",
+        "published": "20260329T024500Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 258.49,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://isp.netscape.com:443/news/world/story/0001/20260328/bdc130f08bed4fd569bdd041ce2c67aa",
+        "source": "https://isp.netscape.com:443/news/world/story/0001/20260328/bdc130f08bed4fd569bdd041ce2c67aa",
+        "source_domain": "isp.netscape.com:443"
+      },
+      {
+        "title": "Iran accuses US of ground assault plans as Pakistan hosts regional talks",
+        "published": "20260329T174500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 243.49,
+        "confidence": 0.675,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.straitstimes.com/world/middle-east/iran-warns-us-over-ground-attack-as-regional-powers-meet-in-pakistan",
+        "source": "https://www.straitstimes.com/world/middle-east/iran-warns-us-over-ground-attack-as-regional-powers-meet-in-pakistan",
+        "source_domain": "www.straitstimes.com"
+      },
+      {
+        "title": "North Korea conducts engine test for missile capable of targeting US mainland \u2013 29 March 2026",
+        "published": "20260329T121500Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 248.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.heraldgoa.in/globe-nation/north-korea-conducts-engine-test-for-missile-capable-of-targeting-us-mainland/469707/",
+        "source": "https://www.heraldgoa.in/globe-nation/north-korea-conducts-engine-test-for-missile-capable-of-targeting-us-mainland/469707/",
+        "source_domain": "www.heraldgoa.in"
+      },
+      {
+        "title": "North Korea conducts engine test for missile capable of targeting US mainland",
+        "published": "20260329T053000Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 255.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://abcnews.com/International/wireStory/north-korea-conducts-engine-test-missile-capable-targeting-131514446",
+        "source": "https://abcnews.com/International/wireStory/north-korea-conducts-engine-test-missile-capable-targeting-131514446",
+        "source_domain": "abcnews.com"
+      },
+      {
+        "title": "North Korea conducts engine test for missile capable of targeting US mainland",
+        "published": "20260329T053000Z",
+        "actors": [
+          "nk",
+          "us"
+        ],
+        "state_key": "nk_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 255.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.wboc.com/news/international/north-korea-conducts-engine-test-for-missile-capable-of-targeting-us-mainland/article_935571bc-3ad6-597e-b13f-c8a49a6f56ec.html",
+        "source": "https://www.wboc.com/news/international/north-korea-conducts-engine-test-for-missile-capable-of-targeting-us-mainland/article_935571bc-3ad6-597e-b13f-c8a49a6f56ec.html",
+        "source_domain": "www.wboc.com"
+      },
+      {
+        "title": "Iranian - backed Houthi rebels claim missile launches towards Israel",
+        "published": "20260329T091500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 251.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.bournemouthecho.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source": "https://www.bournemouthecho.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source_domain": "www.bournemouthecho.co.uk"
+      },
+      {
+        "title": "Iranian - backed Houthi rebels claim missile launches towards Israel",
+        "published": "20260329T083000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 252.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.echo-news.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source": "https://www.echo-news.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source_domain": "www.echo-news.co.uk"
+      },
+      {
+        "title": "Iranian - backed Houthi rebels claim missile launches towards Israel",
+        "published": "20260329T091500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 251.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.salisburyjournal.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source": "https://www.salisburyjournal.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source_domain": "www.salisburyjournal.co.uk"
+      },
+      {
+        "title": "Iranian - backed Houthi rebels claim missile launches towards Israel",
+        "published": "20260329T081500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 252.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.lancashiretelegraph.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source": "https://www.lancashiretelegraph.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source_domain": "www.lancashiretelegraph.co.uk"
+      },
+      {
+        "title": "Iranian - backed Houthi rebels claim missile launches towards Israel",
+        "published": "20260329T083000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 252.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.eadt.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source": "https://www.eadt.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source_domain": "www.eadt.co.uk"
+      },
+      {
+        "title": "Iranian - backed Houthi rebels claim missile launches towards Israel",
+        "published": "20260329T074500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 253.49,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.ipswichstar.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source": "https://www.ipswichstar.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source_domain": "www.ipswichstar.co.uk"
+      },
+      {
+        "title": "Iranian - backed Houthi rebels claim missile launches towards Israel",
+        "published": "20260329T081500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 252.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.yorkpress.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source": "https://www.yorkpress.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source_domain": "www.yorkpress.co.uk"
+      },
+      {
+        "title": "Iranian - backed Houthi rebels claim missile launches towards Israel",
+        "published": "20260329T083000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 252.74,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.theboltonnews.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source": "https://www.theboltonnews.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source_domain": "www.theboltonnews.co.uk"
+      },
+      {
+        "title": "Iranian - backed Houthi rebels claim missile launches towards Israel",
+        "published": "20260329T061500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 254.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.thenorthernecho.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source": "https://www.thenorthernecho.co.uk/news/national/25977427.iranian-backed-houthi-rebels-claim-missile-launches-towards-israel/",
+        "source_domain": "www.thenorthernecho.co.uk"
+      },
+      {
+        "title": "Live updates : Iran warns against US ground invasion as war enters fifth week",
+        "published": "20260329T221500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 238.99,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.fox29.com/news/iran-war-updates-middle-east",
+        "source": "https://www.fox29.com/news/iran-war-updates-middle-east",
+        "source_domain": "www.fox29.com"
+      },
+      {
+        "title": "Live updates : Iran warns against US ground invasion as war enters fifth week",
+        "published": "20260329T144500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 246.49,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.fox2detroit.com/news/iran-war-updates-middle-east",
+        "source": "https://www.fox2detroit.com/news/iran-war-updates-middle-east",
+        "source_domain": "www.fox2detroit.com"
+      },
+      {
+        "title": "E3 Sentry : Tehran strikes military base in Saudi Arabia after Israel hits Iranian nuclear facilities",
+        "published": "20260329T083000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "strategic",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 252.74,
+        "confidence": 0.955,
+        "signal_total": 2.1,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 1.2,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.el-balad.com/16895742",
+        "source": "https://www.el-balad.com/16895742",
+        "source_domain": "www.el-balad.com"
+      },
+      {
+        "title": "Yemen Houthis enter Iran war with drone and missile attacks on Israel",
+        "published": "20260329T001500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 260.99,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.longwarjournal.org/archives/2026/03/yemens-houthis-enter-iran-war-with-drone-and-missile-attacks-on-israel.php",
+        "source": "https://www.longwarjournal.org/archives/2026/03/yemens-houthis-enter-iran-war-with-drone-and-missile-attacks-on-israel.php",
+        "source_domain": "www.longwarjournal.org"
+      },
+      {
+        "title": "Live updates : Iran warns against US ground invasion as war enters fifth week",
+        "published": "20260329T164500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 244.49,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.fox32chicago.com/news/iran-war-updates-middle-east",
+        "source": "https://www.fox32chicago.com/news/iran-war-updates-middle-east",
+        "source_domain": "www.fox32chicago.com"
+      },
+      {
+        "title": "Live updates : Iran warns against US ground invasion as war enters fifth week",
+        "published": "20260329T143000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 246.74,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.fox7austin.com/news/iran-war-updates-middle-east",
+        "source": "https://www.fox7austin.com/news/iran-war-updates-middle-east",
+        "source_domain": "www.fox7austin.com"
+      }
+    ]
   },
   {
     "ts": "2026-03-30 00:00:00 UTC",
     "probability": 11.52,
     "uncertainty": 18.0,
     "state": {
-      "us_russia": 3.2000000000000006,
+      "us_russia": 3.2,
       "us_china": 3.0,
       "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000016,
+      "india_pakistan": 4.5,
       "china_india": 2.8,
-      "iran_us": 3.4999999999999845,
-      "iran_israel": 4.5000000000000036,
-      "nk_us": 3.0,
+      "iran_us": 3.4999999610080317,
+      "iran_israel": 4.500006015299482,
+      "nk_us": 3.000003018104911,
       "nk_sk": 2.8,
       "nk_japan": 2.6,
       "russia_ukraine": 5.0
@@ -606,21 +2800,22 @@
     },
     "event_count": 0,
     "classified_count": 0,
-    "paired_count": 0
+    "paired_count": 0,
+    "drivers": []
   },
   {
     "ts": "2026-03-31 00:00:00 UTC",
     "probability": 11.52,
     "uncertainty": 18.0,
     "state": {
-      "us_russia": 3.2000000000000006,
+      "us_russia": 3.2,
       "us_china": 3.0,
       "china_taiwan": 4.0,
-      "india_pakistan": 4.50000000000001,
+      "india_pakistan": 4.5,
       "china_india": 2.8,
-      "iran_us": 3.4999999999999902,
-      "iran_israel": 4.500000000000002,
-      "nk_us": 3.0,
+      "iran_us": 3.4999999756300197,
+      "iran_israel": 4.500003759562176,
+      "nk_us": 3.0000018863155695,
       "nk_sk": 2.8,
       "nk_japan": 2.6,
       "russia_ukraine": 5.0
@@ -635,21 +2830,22 @@
     },
     "event_count": 0,
     "classified_count": 0,
-    "paired_count": 0
+    "paired_count": 0,
+    "drivers": []
   },
   {
     "ts": "2026-04-01 00:00:00 UTC",
     "probability": 11.52,
     "uncertainty": 18.0,
     "state": {
-      "us_russia": 3.2000000000000006,
+      "us_russia": 3.2,
       "us_china": 3.0,
       "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000006,
+      "india_pakistan": 4.5,
       "china_india": 2.8,
-      "iran_us": 3.499999999999994,
-      "iran_israel": 4.500000000000001,
-      "nk_us": 3.0,
+      "iran_us": 3.4999999847687624,
+      "iran_israel": 4.50000234972636,
+      "nk_us": 3.000001178947231,
       "nk_sk": 2.8,
       "nk_japan": 2.6,
       "russia_ukraine": 5.0
@@ -664,82 +2860,1803 @@
     },
     "event_count": 0,
     "classified_count": 0,
-    "paired_count": 0
+    "paired_count": 0,
+    "drivers": []
   },
   {
     "ts": "2026-04-02 00:00:00 UTC",
     "probability": 11.52,
     "uncertainty": 10.0,
     "state": {
-      "us_russia": 3.2000000000000006,
+      "us_russia": 3.2,
       "us_china": 3.0,
       "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000005,
+      "india_pakistan": 4.5,
       "china_india": 2.8,
-      "iran_us": 3.5000547275577603,
-      "iran_israel": 4.500010945511554,
-      "nk_us": 3.0,
+      "iran_us": 3.5002319125973416,
+      "iran_israel": 4.5004216283267295,
+      "nk_us": 3.0000010021051464,
       "nk_sk": 2.8,
       "nk_japan": 2.6,
       "russia_ukraine": 5.0
     },
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 58,
-      "no_signal": 10,
-      "invalid_pair": 9,
+      "no_actor": 114,
+      "no_signal": 39,
+      "invalid_pair": 15,
       "low_confidence": 0,
       "classifier_error": 0
     },
-    "event_count": 80,
-    "classified_count": 3,
-    "paired_count": 3
+    "event_count": 180,
+    "classified_count": 12,
+    "paired_count": 12,
+    "drivers": [
+      {
+        "title": "Donald Trump Address To The Nation :  Iran Has Been Essentially Decimated , Says US President In Speech As War Tensions Persist",
+        "published": "20260402T021500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 162.99,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.freepressjournal.in/world/donald-trumps-address-to-the-nation-iran-has-been-essentially-decimated-says-us-president-in-speech-as-war-tensions-persist",
+        "source": "https://www.freepressjournal.in/world/donald-trumps-address-to-the-nation-iran-has-been-essentially-decimated-says-us-president-in-speech-as-war-tensions-persist",
+        "source_domain": "www.freepressjournal.in"
+      },
+      {
+        "title": "Trump Says US Near  Finishing the Job  in Iran , But Vows  2 - 3 Week Of More War",
+        "published": "20260402T043000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 160.74,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.rferl.org/a/trump-iran-war-address-ceasefire-hormuz/33722964.html",
+        "source": "https://www.rferl.org/a/trump-iran-war-address-ceasefire-hormuz/33722964.html",
+        "source_domain": "www.rferl.org"
+      },
+      {
+        "title": "US stock futures fall after Trump touts Iran war escalation in next 2 - 3 weeks | Hellenic Shipping News Worldwide",
+        "published": "20260402T121500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 152.99,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.hellenicshippingnews.com/us-stock-futures-fall-after-trump-touts-iran-war-escalation-in-next-2-3-weeks/",
+        "source": "https://www.hellenicshippingnews.com/us-stock-futures-fall-after-trump-touts-iran-war-escalation-in-next-2-3-weeks/",
+        "source_domain": "www.hellenicshippingnews.com"
+      },
+      {
+        "title": "Iran war : What is happening on day 34 of US - Israel attacks ? ",
+        "published": "20260402T100000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.9,
+        "age_hours": 155.24,
+        "confidence": 0.9,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.aljazeera.com/news/2026/4/2/iran-war-what-is-happening-on-day-34-of-us-israel-attacks",
+        "source": "https://www.aljazeera.com/news/2026/4/2/iran-war-what-is-happening-on-day-34-of-us-israel-attacks",
+        "source_domain": "www.aljazeera.com"
+      },
+      {
+        "title": "Iran says war will continue till  enemy surrender , warns US - Israel of  more destructive  actions",
+        "published": "20260402T061500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 158.99,
+        "confidence": 0.675,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://economictimes.indiatimes.com/news/international/world-news/iran-vows-war-to-continue-till-enemys-surrender-warns-us-israel-of-more-destructive-actions/articleshow/129968702.cms",
+        "source": "https://economictimes.indiatimes.com/news/international/world-news/iran-vows-war-to-continue-till-enemys-surrender-warns-us-israel-of-more-destructive-actions/articleshow/129968702.cms",
+        "source_domain": "economictimes.indiatimes.com"
+      },
+      {
+        "title": "Trump addresses the Iran war as Tehran pushes back on US narrative",
+        "published": "20260402T013000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 163.74,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.wkbw.com/us-news/iran-war/trump-to-speak-on-iran-war-as-tehran-pushes-back-on-us-narrative",
+        "source": "https://www.wkbw.com/us-news/iran-war/trump-to-speak-on-iran-war-as-tehran-pushes-back-on-us-narrative",
+        "source_domain": "www.wkbw.com"
+      },
+      {
+        "title": "Donald Trump claims US is nearing end of its military campaign in Iran",
+        "published": "20260402T041500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 160.99,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.thenews.com.pk/latest/1397443-donald-trump-claims-us-is-nearing-end-of-its-military-campaign-in-iran",
+        "source": "https://www.thenews.com.pk/latest/1397443-donald-trump-claims-us-is-nearing-end-of-its-military-campaign-in-iran",
+        "source_domain": "www.thenews.com.pk"
+      },
+      {
+        "title": "Iran fires fresh missile barrage at Israel as Trump claims war nearing end",
+        "published": "20260402T064500Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 158.49,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.jagonews24.com/en/international/news/91404",
+        "source": "https://www.jagonews24.com/en/international/news/91404",
+        "source_domain": "www.jagonews24.com"
+      },
+      {
+        "title": "Iran launches fresh missile wave at Israel and Gulf states after Trump addresses nation",
+        "published": "20260402T170000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 148.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://cnycentral.com/news/nation-world/iran-launches-fresh-missile-wave-at-israel-and-gulf-states-after-trump-addresses-nation-middle-east-strait-of-hormuz-dubai-navy-us-military-action-g7-britain-oil-shipments-tehran-brent-crude-oil",
+        "source": "https://cnycentral.com/news/nation-world/iran-launches-fresh-missile-wave-at-israel-and-gulf-states-after-trump-addresses-nation-middle-east-strait-of-hormuz-dubai-navy-us-military-action-g7-britain-oil-shipments-tehran-brent-crude-oil",
+        "source_domain": "cnycentral.com"
+      },
+      {
+        "title": "Trump leaves key Iran war questions unanswered : US media",
+        "published": "20260402T034500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 161.49,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.prokerala.com/news/articles/a1746189.html",
+        "source": "https://www.prokerala.com/news/articles/a1746189.html",
+        "source_domain": "www.prokerala.com"
+      },
+      {
+        "title": "Iran launches fresh missile wave at Israel and Gulf states after Trump addresses nation",
+        "published": "20260402T170000Z",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 148.24,
+        "confidence": 0.885,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://bakersfieldnow.com/news/nation-world/iran-launches-fresh-missile-wave-at-israel-and-gulf-states-after-trump-addresses-nation-middle-east-strait-of-hormuz-dubai-navy-us-military-action-g7-britain-oil-shipments-tehran-brent-crude-oil",
+        "source": "https://bakersfieldnow.com/news/nation-world/iran-launches-fresh-missile-wave-at-israel-and-gulf-states-after-trump-addresses-nation-middle-east-strait-of-hormuz-dubai-navy-us-military-action-g7-britain-oil-shipments-tehran-brent-crude-oil",
+        "source_domain": "bakersfieldnow.com"
+      },
+      {
+        "title": "Trump to speak on Iran war as Tehran pushes back on US narrative",
+        "published": "20260402T010000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 164.24,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.turnto23.com/us-news/iran-war/trump-to-speak-on-iran-war-as-tehran-pushes-back-on-us-narrative",
+        "source": "https://www.turnto23.com/us-news/iran-war/trump-to-speak-on-iran-war-as-tehran-pushes-back-on-us-narrative",
+        "source_domain": "www.turnto23.com"
+      }
+    ]
   },
   {
     "ts": "2026-04-03 00:00:00 UTC",
-    "probability": 11.52,
-    "uncertainty": 18.0,
+    "probability": 11.53,
+    "uncertainty": 10.0,
     "state": {
-      "us_russia": 3.2000000000000006,
+      "us_russia": 3.20030410266817,
       "us_china": 3.0,
       "china_taiwan": 4.0,
-      "india_pakistan": 4.5000000000000036,
+      "india_pakistan": 4.5,
       "china_india": 2.8,
-      "iran_us": 3.5000342047236,
-      "iran_israel": 4.500006840944721,
-      "nk_us": 3.0,
+      "iran_us": 3.5009740547445714,
+      "iran_israel": 4.500513769885086,
+      "nk_us": 3.0000008517893746,
       "nk_sk": 2.8,
       "nk_japan": 2.6,
-      "russia_ukraine": 5.0
+      "russia_ukraine": 5.003041026681697
     },
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
+      "no_actor": 48,
+      "no_signal": 59,
+      "invalid_pair": 19,
       "low_confidence": 0,
       "classifier_error": 0
     },
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0
+    "event_count": 180,
+    "classified_count": 54,
+    "paired_count": 54,
+    "drivers": [
+      {
+        "title": "US \u2013 Israel \u2013 Iran war , Day 35 : Trump warns of next phase , says Iran leadership  knows what to do  ",
+        "published": "20260403T044500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 136.49,
+        "confidence": 0.675,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.siasat.com/us-israel-iran-war-day-35-trump-warns-of-next-phase-says-iran-leadership-knows-what-to-do-3445574/",
+        "source": "https://www.siasat.com/us-israel-iran-war-day-35-trump-warns-of-next-phase-says-iran-leadership-knows-what-to-do-3445574/",
+        "source_domain": "www.siasat.com"
+      },
+      {
+        "title": "Day 34 of US - Israel war on Iran sees escalation - Pakistan Today",
+        "published": "20260403T010000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 140.24,
+        "confidence": 0.675,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.pakistantoday.com.pk/2026/04/03/trump-speech-followed-by-wider-strikes-and-retaliation-on-day-34-of-us-israel-war-on-iran",
+        "source": "https://www.pakistantoday.com.pk/2026/04/03/trump-speech-followed-by-wider-strikes-and-retaliation-on-day-34-of-us-israel-war-on-iran",
+        "source_domain": "www.pakistantoday.com.pk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T163000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.74,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.edp24.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.edp24.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.edp24.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T164500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.theargus.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.theargus.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.theargus.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T171500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.99,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.yorkpress.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.yorkpress.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.yorkpress.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T181500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 122.99,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.bucksfreepress.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.bucksfreepress.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.bucksfreepress.co.uk"
+      },
+      {
+        "title": "Iran fires on targets across Mideast while Israel and US hit Tehran as war shows no signs of slowing",
+        "published": "20260403T140000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 127.24,
+        "confidence": 0.675,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.13newsnow.com/article/syndication/associatedpress/iran-fires-on-targets-across-mideast-while-israel-and-us-hit-tehran-as-war-shows-no-signs-of-slowing/616-c9d458c5-a862-4cfc-a87b-a8f27c27699b",
+        "source": "https://www.13newsnow.com/article/syndication/associatedpress/iran-fires-on-targets-across-mideast-while-israel-and-us-hit-tehran-as-war-shows-no-signs-of-slowing/616-c9d458c5-a862-4cfc-a87b-a8f27c27699b",
+        "source_domain": "www.13newsnow.com"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine holds door open for Easter truce",
+        "published": "20260403T121500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 128.99,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.clickondetroit.com/news/world/2026/04/03/russia-strikes-targets-in-kyiv-region-as-ukraine-holds-door-open-for-easter-truce/",
+        "source": "https://www.clickondetroit.com/news/world/2026/04/03/russia-strikes-targets-in-kyiv-region-as-ukraine-holds-door-open-for-easter-truce/",
+        "source_domain": "www.clickondetroit.com"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine holds door open for Easter truce",
+        "published": "20260403T121500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 128.99,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.clickorlando.com/news/world/2026/04/03/russia-strikes-targets-in-kyiv-region-as-ukraine-holds-door-open-for-easter-truce/",
+        "source": "https://www.clickorlando.com/news/world/2026/04/03/russia-strikes-targets-in-kyiv-region-as-ukraine-holds-door-open-for-easter-truce/",
+        "source_domain": "www.clickorlando.com"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine holds door open for Easter truce",
+        "published": "20260403T120000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 129.24,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.news-gazette.com/news/nation-world/russia-strikes-targets-in-kyiv-region-as-ukraine-holds-door-open-for-easter-truce/article_764803cf-7213-5f78-a234-45ea325e1762.html",
+        "source": "https://www.news-gazette.com/news/nation-world/russia-strikes-targets-in-kyiv-region-as-ukraine-holds-door-open-for-easter-truce/article_764803cf-7213-5f78-a234-45ea325e1762.html",
+        "source_domain": "www.news-gazette.com"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T173000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.74,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.yourlocalguardian.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.yourlocalguardian.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.yourlocalguardian.co.uk"
+      },
+      {
+        "title": "Russian strikes on Ukraine kill 8 as Kyiv holds door open for Easter truce",
+        "published": "20260403T180000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.24,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.newsday.com/news/nation/russia-ukraine-war-strikes-drone-attack-easter-v03902",
+        "source": "https://www.newsday.com/news/nation/russia-ukraine-war-strikes-drone-attack-easter-v03902",
+        "source_domain": "www.newsday.com"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine holds door open for Easter truce",
+        "published": "20260403T113000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 129.74,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.stcatharinesstandard.ca/news/world/russia-strikes-targets-in-kyiv-region-as-ukraine-holds-door-open-for-easter-truce/article_cee45882-f149-5902-84a3-1163177582c7.html",
+        "source": "https://www.stcatharinesstandard.ca/news/world/russia-strikes-targets-in-kyiv-region-as-ukraine-holds-door-open-for-easter-truce/article_cee45882-f149-5902-84a3-1163177582c7.html",
+        "source_domain": "www.stcatharinesstandard.ca"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T164500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.southwalesargus.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.southwalesargus.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.southwalesargus.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T164500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.northwichguardian.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.northwichguardian.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.northwichguardian.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T164500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.thetottenhamindependent.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.thetottenhamindependent.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.thetottenhamindependent.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T161500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.99,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.gazetteherald.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.gazetteherald.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.gazetteherald.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T184500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 122.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.greenocktelegraph.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.greenocktelegraph.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.greenocktelegraph.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T184500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 122.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.brentwoodlive.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.brentwoodlive.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.brentwoodlive.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T184500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 122.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.guardian-series.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.guardian-series.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.guardian-series.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T163000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.74,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.clactonandfrintongazette.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.clactonandfrintongazette.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.clactonandfrintongazette.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T163000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.74,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.stourbridgenews.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.stourbridgenews.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.stourbridgenews.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T163000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.74,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.chesterstandard.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.chesterstandard.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.chesterstandard.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T163000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.74,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.milfordmercury.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.milfordmercury.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.milfordmercury.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T163000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.74,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.dumbartonreporter.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.dumbartonreporter.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.dumbartonreporter.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T174500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.heraldseries.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.heraldseries.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.heraldseries.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T174500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.ludlowadvertiser.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.ludlowadvertiser.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.ludlowadvertiser.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T174500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.keighleynews.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.keighleynews.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.keighleynews.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T174500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.hamhigh.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.hamhigh.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.hamhigh.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T174500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.burnhamandhighbridgeweeklynews.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.burnhamandhighbridgeweeklynews.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.burnhamandhighbridgeweeklynews.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T174500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.thewestmorlandgazette.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.thewestmorlandgazette.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.thewestmorlandgazette.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T171500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.99,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.kidderminstershuttle.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.kidderminstershuttle.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.kidderminstershuttle.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T171500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.99,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.sloughobserver.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.sloughobserver.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.sloughobserver.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T180000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.24,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.bridportnews.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.bridportnews.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.bridportnews.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T180000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.24,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.witneygazette.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.witneygazette.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.witneygazette.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T180000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.24,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.tivysideadvertiser.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.tivysideadvertiser.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.tivysideadvertiser.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T180000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.24,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.kilburntimes.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.kilburntimes.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.kilburntimes.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T180000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.24,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.glasgowtimes.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.glasgowtimes.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.glasgowtimes.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T173000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.74,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.newsshopper.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.newsshopper.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.newsshopper.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T173000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 123.74,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.northwalespioneer.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.northwalespioneer.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.northwalespioneer.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T164500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.countytimes.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.countytimes.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.countytimes.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T164500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.thewestonmercury.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.thewestonmercury.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.thewestonmercury.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T181500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 122.99,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.braintreeandwithamtimes.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.braintreeandwithamtimes.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.braintreeandwithamtimes.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T181500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 122.99,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.bicesteradvertiser.net/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.bicesteradvertiser.net/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.bicesteradvertiser.net"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T154500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 125.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.redditchadvertiser.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.redditchadvertiser.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.redditchadvertiser.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T154500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 125.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.timesandstar.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.timesandstar.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.timesandstar.co.uk"
+      },
+      {
+        "title": "Russia strikes targets in Kyiv region as Ukraine hopes for Easter truce",
+        "published": "20260403T184500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 122.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.gazette-news.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source": "https://www.gazette-news.co.uk/news/national/25994803.russia-strikes-targets-kyiv-region-ukraine-hopes-easter-truce/",
+        "source_domain": "www.gazette-news.co.uk"
+      },
+      {
+        "title": "Iran fires on targets across Mideast while Israel and US hit Tehran as war nears 5th week",
+        "published": "20260403T164500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.49,
+        "confidence": 0.675,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.kltv.com/2026/04/03/iran-fires-targets-across-mideast-while-israel-us-hit-tehran-conflict-shows-no-signs-slowing/",
+        "source": "https://www.kltv.com/2026/04/03/iran-fires-targets-across-mideast-while-israel-us-hit-tehran-conflict-shows-no-signs-slowing/",
+        "source_domain": "www.kltv.com"
+      },
+      {
+        "title": "Iran fires on targets across Mideast while Israel and US hit Tehran as war nears 5th week",
+        "published": "20260403T184500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 122.49,
+        "confidence": 0.675,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.wctv.tv/2026/04/03/iran-fires-targets-across-mideast-while-israel-us-hit-tehran-conflict-shows-no-signs-slowing/",
+        "source": "https://www.wctv.tv/2026/04/03/iran-fires-targets-across-mideast-while-israel-us-hit-tehran-conflict-shows-no-signs-slowing/",
+        "source_domain": "www.wctv.tv"
+      },
+      {
+        "title": "  Havent even started ...: Trump issues fresh warning to Tehran as US - Iran war escalates",
+        "published": "20260403T061500Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 134.99,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.indiatvnews.com/news/world/trump-issues-fresh-warning-to-tehran-as-us-iran-war-escalates-says-havent-even-started-destroying-bridges-electric-plants-latest-updates-2026-04-03-1036133",
+        "source": "https://www.indiatvnews.com/news/world/trump-issues-fresh-warning-to-tehran-as-us-iran-war-escalates-says-havent-even-started-destroying-bridges-electric-plants-latest-updates-2026-04-03-1036133",
+        "source_domain": "www.indiatvnews.com"
+      },
+      {
+        "title": "Russian strikes on Ukraine kill 8 as Kyiv holds door open for Easter truce \u2013 Winnipeg Free Press",
+        "published": "20260403T234500Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 117.49,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.winnipegfreepress.com/breakingnews/2026/04/03/russia-strikes-targets-in-kyiv-region-as-ukraine-holds-door-open-for-easter-truce",
+        "source": "https://www.winnipegfreepress.com/breakingnews/2026/04/03/russia-strikes-targets-in-kyiv-region-as-ukraine-holds-door-open-for-easter-truce",
+        "source_domain": "www.winnipegfreepress.com"
+      },
+      {
+        "title": "Key takeaways from Trump primetime speech on Iran war as Tehran cut warning give US",
+        "published": "20260403T093000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 131.74,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://pidgin.informationng.com/?p=34337",
+        "source": "https://pidgin.informationng.com/?p=34337",
+        "source_domain": "pidgin.informationng.com"
+      },
+      {
+        "title": "Russian strikes on Ukraine kill 8 as Kyiv holds door open for Easter truce",
+        "published": "20260403T223000Z",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 118.74,
+        "confidence": 0.575,
+        "signal_total": 0.1,
+        "signal_components": {
+          "deescalation": -0.8,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0
+        },
+        "link": "https://www.adn.com/nation-world/2026/04/03/russian-strikes-on-ukraine-kill-8-as-kyiv-holds-door-open-for-easter-truce/",
+        "source": "https://www.adn.com/nation-world/2026/04/03/russian-strikes-on-ukraine-kill-8-as-kyiv-holds-door-open-for-easter-truce/",
+        "source_domain": "www.adn.com"
+      },
+      {
+        "title": "Iran fires on targets across Mideast while Israel and US hit Tehran as war nears 5th week",
+        "published": "20260403T163000Z",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.85,
+        "age_hours": 124.74,
+        "confidence": 0.675,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2
+        },
+        "link": "https://www.13abc.com/2026/04/03/iran-fires-targets-across-mideast-while-israel-us-hit-tehran-conflict-shows-no-signs-slowing/",
+        "source": "https://www.13abc.com/2026/04/03/iran-fires-targets-across-mideast-while-israel-us-hit-tehran-conflict-shows-no-signs-slowing/",
+        "source_domain": "www.13abc.com"
+      }
+    ]
   },
   {
     "ts": "2026-04-04 00:00:00 UTC",
     "probability": 11.52,
     "uncertainty": 18.0,
     "state": {
-      "us_russia": 3.2000000000000006,
+      "us_russia": 3.2001900641676064,
       "us_china": 3.0,
       "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000002,
+      "india_pakistan": 4.5,
       "china_india": 2.8,
-      "iran_us": 3.50002137795225,
-      "iran_israel": 4.500004275590451,
-      "nk_us": 3.0,
+      "iran_us": 3.5006087842153573,
+      "iran_israel": 4.500321106178179,
+      "nk_us": 3.000000532368359,
       "nk_sk": 2.8,
       "nk_japan": 2.6,
-      "russia_ukraine": 5.0
+      "russia_ukraine": 5.001900641676061
     },
     "drop_reasons": {
       "missing_title": 0,
@@ -751,82 +4668,85 @@
     },
     "event_count": 0,
     "classified_count": 0,
-    "paired_count": 0
+    "paired_count": 0,
+    "drivers": []
   },
   {
     "ts": "2026-04-05 00:00:00 UTC",
-    "probability": 11.54,
-    "uncertainty": 10.0,
+    "probability": 11.52,
+    "uncertainty": 18.0,
     "state": {
-      "us_russia": 3.2000000000000006,
+      "us_russia": 3.200118790104754,
       "us_china": 3.0,
       "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000002,
+      "india_pakistan": 4.5,
       "china_india": 2.8,
-      "iran_us": 3.5153437203388465,
-      "iran_israel": 4.5235298074850405,
-      "nk_us": 3.0,
+      "iran_us": 3.5003804901345985,
+      "iran_israel": 4.5002006913613615,
+      "nk_us": 3.0000003327302247,
       "nk_sk": 2.8,
       "nk_japan": 2.6,
-      "russia_ukraine": 5.0
+      "russia_ukraine": 5.001187901047538
     },
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 47,
-      "no_signal": 22,
-      "invalid_pair": 8,
+      "no_actor": 0,
+      "no_signal": 0,
+      "invalid_pair": 0,
       "low_confidence": 0,
       "classifier_error": 0
     },
-    "event_count": 80,
-    "classified_count": 3,
-    "paired_count": 3
+    "event_count": 0,
+    "classified_count": 0,
+    "paired_count": 0,
+    "drivers": []
   },
   {
     "ts": "2026-04-06 00:00:00 UTC",
-    "probability": 11.36,
-    "uncertainty": 10.0,
+    "probability": 11.52,
+    "uncertainty": 18.0,
     "state": {
-      "us_russia": 3.2000000000000006,
+      "us_russia": 3.2000742438154712,
       "us_china": 3.0,
       "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000002,
+      "india_pakistan": 4.5,
       "china_india": 2.8,
-      "iran_us": 3.176438910634248,
-      "iran_israel": 4.532372433428634,
-      "nk_us": 3.0,
+      "iran_us": 3.500237806334124,
+      "iran_israel": 4.500125432100851,
+      "nk_us": 3.0000002079563903,
       "nk_sk": 2.8,
       "nk_japan": 2.6,
-      "russia_ukraine": 5.0
+      "russia_ukraine": 5.000742438154711
     },
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 34,
-      "no_signal": 13,
-      "invalid_pair": 13,
+      "no_actor": 0,
+      "no_signal": 0,
+      "invalid_pair": 0,
       "low_confidence": 0,
       "classifier_error": 0
     },
-    "event_count": 80,
-    "classified_count": 20,
-    "paired_count": 20
+    "event_count": 0,
+    "classified_count": 0,
+    "paired_count": 0,
+    "drivers": []
   },
   {
     "ts": "2026-04-07 00:00:00 UTC",
-    "probability": 11.42,
+    "probability": 11.52,
     "uncertainty": 18.0,
     "state": {
-      "us_russia": 3.2000000000000006,
+      "us_russia": 3.2000464023846695,
       "us_china": 3.0,
       "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000001,
+      "india_pakistan": 4.5,
       "china_india": 2.8,
-      "iran_us": 3.297774319146405,
-      "iran_israel": 4.520232770892896,
-      "nk_us": 3.0,
+      "iran_us": 3.5001486289588275,
+      "iran_israel": 4.500078395063031,
+      "nk_us": 3.000000129972744,
       "nk_sk": 2.8,
       "nk_japan": 2.6,
-      "russia_ukraine": 5.0
+      "russia_ukraine": 5.000464023846694
     },
     "drop_reasons": {
       "missing_title": 0,
@@ -838,24 +4758,25 @@
     },
     "event_count": 0,
     "classified_count": 0,
-    "paired_count": 0
+    "paired_count": 0,
+    "drivers": []
   },
   {
     "ts": "2026-04-08 00:00:00 UTC",
-    "probability": 11.46,
+    "probability": 11.52,
     "uncertainty": 18.0,
     "state": {
-      "us_russia": 3.2000000000000006,
+      "us_russia": 3.2000290014904187,
       "us_china": 3.0,
       "china_taiwan": 4.0,
-      "india_pakistan": 4.500000000000001,
+      "india_pakistan": 4.5,
       "china_india": 2.8,
-      "iran_us": 3.373608949466503,
-      "iran_israel": 4.51264548180806,
-      "nk_us": 3.0,
+      "iran_us": 3.500092893099267,
+      "iran_israel": 4.500048996914394,
+      "nk_us": 3.0000000812329652,
       "nk_sk": 2.8,
       "nk_japan": 2.6,
-      "russia_ukraine": 5.0
+      "russia_ukraine": 5.000290014904184
     },
     "drop_reasons": {
       "missing_title": 0,
@@ -867,24 +4788,25 @@
     },
     "event_count": 0,
     "classified_count": 0,
-    "paired_count": 0
+    "paired_count": 0,
+    "drivers": []
   },
   {
-    "ts": "2026-04-08 21:07:24 UTC",
-    "probability": 11.45,
+    "ts": "2026-04-08 21:14:59 UTC",
+    "probability": 11.44,
     "uncertainty": 18.0,
     "state": {
-      "us_russia": 3.268643138823287,
-      "us_china": 3.1425322125043045,
-      "china_taiwan": 4.02850644545272,
-      "india_pakistan": 4.500000004354879,
-      "china_india": 2.8000000024677645,
-      "iran_us": 2.5574730599210067,
-      "iran_israel": 3.6828416611595043,
-      "nk_us": 3.000000005080692,
-      "nk_sk": 2.800000004645204,
-      "nk_japan": 2.600000004209716,
-      "russia_ukraine": 5.686142721859077
+      "us_russia": 3.2805176759044827,
+      "us_china": 3.1835962530858324,
+      "china_taiwan": 4.03671925113785,
+      "india_pakistan": 4.500000000768164,
+      "china_india": 2.800000000435293,
+      "iran_us": 2.376714913523664,
+      "iran_israel": 3.5034745309334334,
+      "nk_us": 3.0000000008961916,
+      "nk_sk": 2.800000000819375,
+      "nk_japan": 2.6000000007425585,
+      "russia_ukraine": 5.8046958253735195
     },
     "drop_reasons": {
       "missing_title": 0,
@@ -896,117 +4818,5 @@
     },
     "event_count": 0,
     "classified_count": 0
-  },
-  {
-    "ts": "2026-04-08 21:07:51 UTC",
-    "probability": 11.48,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.2429019617645545,
-      "us_china": 3.0890826328151904,
-      "china_taiwan": 4.01781652840795,
-      "india_pakistan": 4.5000000027218,
-      "china_india": 2.8000000015423527,
-      "iran_us": 2.910920662450629,
-      "iran_israel": 3.9892760382246903,
-      "nk_us": 3.0000000031754324,
-      "nk_sk": 2.8000000029032526,
-      "nk_japan": 2.600000002631073,
-      "russia_ukraine": 5.428839201161923
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0
-  },
-  {
-    "ts": "2026-04-08 21:08:18 UTC",
-    "probability": 11.38,
-    "uncertainty": 6.07,
-    "state": {
-      "us_russia": 3.3081117134318285,
-      "us_china": 3.2416691496927696,
-      "china_taiwan": 4.048333831506729,
-      "india_pakistan": 4.50000000231353,
-      "china_india": 2.800000001311,
-      "iran_us": 1.9992825630830344,
-      "iran_israel": 3.065884632490987,
-      "nk_us": 3.0000000026991174,
-      "nk_sk": 2.8000000024677645,
-      "nk_japan": 2.600000002236412,
-      "russia_ukraine": 6.080513427315465
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 92,
-      "no_signal": 48,
-      "invalid_pair": 42,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 236,
-    "classified_count": 54
-  },
-  {
-    "ts": "2026-04-08 21:11:29 UTC",
-    "probability": 11.43,
-    "uncertainty": 18.0,
-    "state": {
-      "us_russia": 3.267569820894893,
-      "us_china": 3.151043218557981,
-      "china_taiwan": 4.030208644691705,
-      "india_pakistan": 4.500000001445956,
-      "china_india": 2.800000000819375,
-      "iran_us": 2.5620516019268966,
-      "iran_israel": 3.603677895306867,
-      "nk_us": 3.0000000016869484,
-      "nk_sk": 2.8000000015423527,
-      "nk_japan": 2.6000000013977576,
-      "russia_ukraine": 5.675320892072166
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 0,
-    "classified_count": 0
-  },
-  {
-    "ts": "2026-04-08 21:11:57 UTC",
-    "probability": 11.4,
-    "uncertainty": 6.14,
-    "state": {
-      "us_russia": 3.3288282814471724,
-      "us_china": 3.2937540049373317,
-      "china_taiwan": 4.058750801820559,
-      "india_pakistan": 4.500000001229063,
-      "china_india": 2.800000000696469,
-      "iran_us": 1.7027438616378623,
-      "iran_israel": 2.9055592494934936,
-      "nk_us": 3.0000000014339063,
-      "nk_sk": 2.800000001311,
-      "nk_japan": 2.6000000011880937,
-      "russia_ukraine": 6.287513320597631
-    },
-    "drop_reasons": {
-      "missing_title": 0,
-      "no_actor": 93,
-      "no_signal": 47,
-      "invalid_pair": 44,
-      "low_confidence": 0,
-      "classifier_error": 0
-    },
-    "event_count": 236,
-    "classified_count": 52
   }
 ]
