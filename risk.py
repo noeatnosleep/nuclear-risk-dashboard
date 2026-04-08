@@ -149,7 +149,7 @@ def save_state(probability, state, top_drivers, debug, signal_sources):
         "state": state,
         "top_drivers": sorted_drivers[:12],
         "signal_sources": signal_sources,
-        "driver_sort_default": "severity",
+        "driver_sort_default": "chronological",
         "available_driver_sort": ["severity", "chronological", "confidence", "source_weight"],
         "debug": debug,
     }

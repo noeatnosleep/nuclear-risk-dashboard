@@ -8,66 +8,27 @@ import feedparser
 from config import load_config
 
 FEEDS = [
-    {
-        "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
-        "name": "bbc_world",
-        "default_weight": 1.0,
-    },
-    {
-        "url": "http://rss.cnn.com/rss/edition_world.rss",
-        "name": "cnn_world",
-        "default_weight": 0.95,
-    },
-    {
-        "url": "https://www.aljazeera.com/xml/rss/all.xml",
-        "name": "aljazeera_all",
-        "default_weight": 0.95,
-    },
-    {
-        "url": "https://www.reuters.com/world/rss",
-        "name": "reuters_world",
-        "default_weight": 1.0,
-    },
-    {
-        "url": "https://www.theguardian.com/world/rss",
-        "name": "guardian_world",
-        "default_weight": 0.9,
-    },
-    {
-        "url": "https://feeds.npr.org/1004/rss.xml",
-        "name": "npr_world",
-        "default_weight": 0.85,
-    },
-    {
-        "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-        "name": "un_news",
-        "default_weight": 1.05,
-    },
-    {
-        "url": "https://www.iaea.org/newscenter/rss",
-        "name": "iaea_news",
-        "default_weight": 1.1,
-    },
-    {
-        "url": "https://www.state.gov/feeds/press-releases.xml",
-        "name": "us_state_press",
-        "default_weight": 1.05,
-    },
-    {
-        "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-        "name": "us_defense_news",
-        "default_weight": 1.05,
-    },
-    {
-        "url": "https://www.whitehouse.gov/briefing-room/feed/",
-        "name": "whitehouse_briefing",
-        "default_weight": 1.0,
-    },
-    {
-        "url": "https://www.nato.int/cps/en/natohq/news.htm?displayMode=rss",
-        "name": "nato_news",
-        "default_weight": 1.0,
-    },
+    {"url": "http://feeds.bbci.co.uk/news/world/rss.xml", "name": "bbc_world", "default_weight": 1.0},
+    {"url": "http://rss.cnn.com/rss/edition_world.rss", "name": "cnn_world", "default_weight": 0.95},
+    {"url": "https://www.aljazeera.com/xml/rss/all.xml", "name": "aljazeera_all", "default_weight": 0.95},
+    {"url": "https://www.reuters.com/world/rss", "name": "reuters_world", "default_weight": 1.0},
+    {"url": "https://www.theguardian.com/world/rss", "name": "guardian_world", "default_weight": 0.9},
+    {"url": "https://feeds.npr.org/1004/rss.xml", "name": "npr_world", "default_weight": 0.85},
+    {"url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "name": "nyt_world", "default_weight": 0.95},
+    {"url": "https://feeds.washingtonpost.com/rss/world", "name": "wapo_world", "default_weight": 0.9},
+    {"url": "https://www.france24.com/en/rss", "name": "france24_world", "default_weight": 0.9},
+    {"url": "https://www.dw.com/en/top-stories/s-9097?maca=en-rss-en-top-1022-rdf", "name": "dw_top", "default_weight": 0.9},
+    {"url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml", "name": "un_news", "default_weight": 1.05},
+    {"url": "https://www.iaea.org/newscenter/rss", "name": "iaea_news", "default_weight": 1.1},
+    {"url": "https://www.state.gov/feeds/press-releases.xml", "name": "us_state_press", "default_weight": 1.05},
+    {"url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20", "name": "us_defense_news", "default_weight": 1.05},
+    {"url": "https://www.whitehouse.gov/briefing-room/feed/", "name": "whitehouse_briefing", "default_weight": 1.0},
+    {"url": "https://www.nato.int/cps/en/natohq/news.htm?displayMode=rss", "name": "nato_news", "default_weight": 1.0},
+    {"url": "https://www.oecd.org/newsroom/index.xml", "name": "oecd_news", "default_weight": 0.85},
+    {"url": "https://www.csis.org/analysis/rss.xml", "name": "csis_analysis", "default_weight": 0.8},
+    {"url": "https://carnegieendowment.org/rss/all.xml", "name": "carnegie_all", "default_weight": 0.8},
+    {"url": "https://www.crisisgroup.org/rss", "name": "crisisgroup", "default_weight": 0.9},
+    {"url": "https://www.armscontrol.org/feeds/all", "name": "armscontrol", "default_weight": 0.95},
 ]
 
 MAX_ENTRIES_PER_FEED = 20

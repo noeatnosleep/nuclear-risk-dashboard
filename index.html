@@ -64,8 +64,13 @@ h1 { margin: 0; font-size: 2.6rem; line-height: 1.1; text-align: center; }
 .card { background: var(--card); border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; border: 1px solid var(--border); }
 .card a { color: var(--link); text-decoration: none; }
 .meta { font-size: 0.84rem; color: var(--muted); margin-top: 7px; }
+.impact-pos { color: var(--high); font-weight: 600; }
+.impact-neg { color: var(--low); font-weight: 600; }
+.details-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; }
+.details-card summary { cursor: pointer; font-weight: 600; color: var(--text); }
+.details-body { margin-top: 10px; }
 .sources-list { display: grid; grid-template-columns: 1fr; gap: 8px; }
-.source-item { font-size: 0.88rem; color: var(--muted); }
+.source-item { font-size: 0.88rem; color: var(--muted); word-break: break-all; }
 .source-item a { color: var(--link); text-decoration: none; }
 .footer { margin-top: 42px; text-align: center; font-size: 0.9rem; color: var(--muted); }
 .build { margin-top: 10px; font-size: 0.8rem; }
@@ -108,18 +113,36 @@ canvas { width: 100% !important; height: 100% !important; }
     <div class="driver-controls">
       sort by:
       <select id="driverSort">
+        <option value="chronological" selected>chronological</option>
         <option value="severity">severity</option>
-        <option value="chronological">chronological</option>
         <option value="confidence">confidence</option>
         <option value="source_weight">source weight</option>
+      </select>
+      &nbsp;|&nbsp; show:
+      <select id="driverLimit">
+        <option value="16" selected>16</option>
+        <option value="32">32</option>
+        <option value="64">64</option>
+        <option value="128">128</option>
       </select>
     </div>
     <div id="drivers"></div>
   </div>
 
   <div class="section">
-    <h2>Signal Sources</h2>
-    <div id="sources" class="sources-list"></div>
+    <details class="details-card" open>
+      <summary>Signal Sources (click to expand)</summary>
+      <div class="details-body">
+        <div id="sources" class="sources-list"></div>
+      </div>
+    </details>
+  </div>
+
+  <div class="section">
+    <details class="details-card">
+      <summary>Nerdy Details: weighting + policy back-history</summary>
+      <div class="details-body" id="nerdyDetails"></div>
+    </details>
   </div>
 
   <div class="footer">
@@ -135,6 +158,8 @@ window.__stateChart = null;
 window.__riskPayload = null;
 window.__historyRows = [];
 window.__diagnosticsRows = [];
+window.__modelConfig = null;
+window.__backhistoryPolicy = null;
 window.__timeMode = "days";
 const THEME_KEY = "nuclear-risk-theme";
 
@@ -284,7 +309,26 @@ function pickTopStates(latestState) {
 }
 
 function renderStateChart() {
-  const rows = Array.isArray(window.__diagnosticsRows) ? window.__diagnosticsRows : [];
+  let rows = Array.isArray(window.__diagnosticsRows) ? window.__diagnosticsRows : [];
+
+  if (!rows.length || rows.length < 6) {
+    const historyRows = Array.isArray(window.__historyRows) ? window.__historyRows : [];
+    const risk = window.__riskPayload || {};
+    const currentState = risk.state || {};
+    const currentProb = Number(risk.probability || 1) || 1;
+    if (historyRows.length && Object.keys(currentState).length) {
+      rows = historyRows.map(row => {
+        const prob = Number(row.probability ?? row.p ?? currentProb);
+        const ratio = currentProb ? prob / currentProb : 1;
+        const state = {};
+        Object.keys(currentState).forEach(key => {
+          state[key] = Number(currentState[key] || 0) * ratio;
+        });
+        return { ts: row.ts || row.t, state };
+      });
+    }
+  }
+
   if (!rows.length) return;
 
   const latestState = rows[rows.length - 1].state || {};
@@ -374,25 +418,24 @@ function renderDriverCard(container, driver) {
     link.rel = "noopener noreferrer";
   }
 
-  const metaA = document.createElement("div");
-  metaA.className = "meta";
-  metaA.textContent = `source: ${asText(driver.source_domain)} | state: ${asText(driver.state_key)} | class: ${asText(driver.class)}`;
-
-  const metaB = document.createElement("div");
-  metaB.className = "meta";
-  metaB.textContent = `impact: ${asText(driver.impact)} | source_weight: ${asText(driver.source_weight)} | confidence: ${asText(driver.confidence)} | age_hours: ${asText(driver.age_hours)}`;
+  const meta = document.createElement("div");
+  meta.className = "meta";
+  const impact = Number(driver.impact || 0);
+  const impactClass = impact >= 0 ? "impact-pos" : "impact-neg";
+  const impactSign = impact >= 0 ? "+" : "";
+  meta.innerHTML = `state: ${asText(driver.state_key)} | class: ${asText(driver.class)} | impact: <span class="${impactClass}">${impactSign}${impact.toFixed(3)}</span> | source_weight: ${asText(driver.source_weight)} | confidence: ${asText(driver.confidence)} | age_hours: ${asText(driver.age_hours)} | source: ${asText(driver.source_domain)}`;
 
   card.appendChild(link);
-  card.appendChild(metaA);
-  card.appendChild(metaB);
+  card.appendChild(meta);
   container.appendChild(card);
 }
 
 function renderDrivers() {
   const payload = window.__riskPayload || {};
   const sortSelect = document.getElementById("driverSort");
+  const limitSelect = document.getElementById("driverLimit");
   const drivers = Array.isArray(payload.top_drivers) ? payload.top_drivers : [];
-  const sorted = sortDrivers(drivers, sortSelect.value);
+  const sorted = sortDrivers(drivers, sortSelect.value).slice(0, Number(limitSelect.value || 16));
 
   const container = document.getElementById("drivers");
   container.replaceChildren();
@@ -428,31 +471,38 @@ function renderSources() {
   }
 
   sourceRows.forEach(row => {
+    const href = safeExternalUrl(row.url);
+    if (!href) return;
     const wrap = document.createElement("div");
     wrap.className = "source-item";
-
-    const label = asText(row.name || row.domain, "unknown source");
-    const href = safeExternalUrl(row.url);
-
-    if (href) {
-      const link = document.createElement("a");
-      link.href = href;
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
-      link.textContent = label;
-      wrap.appendChild(link);
-    } else {
-      wrap.textContent = label;
-    }
-
-    if (row.domain && row.domain !== label) {
-      const suffix = document.createElement("span");
-      suffix.textContent = ` (${row.domain})`;
-      wrap.appendChild(suffix);
-    }
-
+    const link = document.createElement("a");
+    link.href = href;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = href;
+    wrap.appendChild(link);
     container.appendChild(wrap);
   });
+}
+
+function renderNerdyDetails() {
+  const container = document.getElementById("nerdyDetails");
+  const config = window.__modelConfig || {};
+  const policy = window.__backhistoryPolicy || {};
+  const sourceWeights = config.source_weights || {};
+  const anchors = policy.anchors || [];
+  const bands = policy.volatility_bands || [];
+
+  const lines = [];
+  lines.push(`<div class="meta"><strong>Calibration:</strong> center=${asText(config.probability_center)} | steepness=${asText(config.probability_steepness)}</div>`);
+  lines.push(`<div class="meta"><strong>Source weights (${Object.keys(sourceWeights).length}):</strong></div>`);
+  Object.entries(sourceWeights).sort((a,b)=>b[1]-a[1]).forEach(([k,v]) => {
+    lines.push(`<div class="meta">${k}: ${v}</div>`);
+  });
+  lines.push(`<div class="meta"><strong>Back-history policy:</strong> days=${asText(policy.days)} | floor=${asText(policy.floor)} | ceiling=${asText(policy.ceiling)}</div>`);
+  lines.push(`<div class="meta"><strong>Anchors:</strong> ${anchors.map(a => `${a.date}:${a.probability}`).join(' | ') || 'n/a'}</div>`);
+  lines.push(`<div class="meta"><strong>Volatility bands:</strong> ${bands.map(b => `${b.start_date}→${b.end_date} amp=${b.amplitude}`).join(' | ') || 'none'}</div>`);
+  container.innerHTML = lines.join('');
 }
 
 function refreshChartsAndDrivers() {
@@ -460,6 +510,7 @@ function refreshChartsAndDrivers() {
   renderStateChart();
   renderDrivers();
   renderSources();
+  renderNerdyDetails();
   document.querySelectorAll("#timeModeSwitch button").forEach(btn => {
     btn.classList.toggle("active", btn.dataset.mode === window.__timeMode);
   });
@@ -479,10 +530,14 @@ async function load() {
     const hist = await fetch(`history_log.json${bust}`).then(r => r.json());
     const build = await fetch(`build_info.json${bust}`).then(r => r.json()).catch(() => null);
     const diag = await fetch(`diagnostics_log.json${bust}`).then(r => r.json()).catch(() => []);
+    const modelConfig = await fetch(`model_config.json${bust}`).then(r => r.json()).catch(() => ({}));
+    const backhistoryPolicy = await fetch(`data/backhistory_policy.json${bust}`).then(r => r.json()).catch(() => ({}));
 
     window.__riskPayload = risk;
     window.__historyRows = getHistoryRows(hist);
     window.__diagnosticsRows = Array.isArray(diag) ? diag : [];
+    window.__modelConfig = modelConfig;
+    window.__backhistoryPolicy = backhistoryPolicy;
 
     const probability = Number(risk.probability || 0);
     const uncertainty = Number(risk.uncertainty || 0);
@@ -513,6 +568,7 @@ document.querySelectorAll("#timeModeSwitch button").forEach(btn => {
 });
 
 document.getElementById("driverSort").addEventListener("change", renderDrivers);
+document.getElementById("driverLimit").addEventListener("change", renderDrivers);
 
 document.getElementById("themeToggle").addEventListener("click", () => {
   const current = document.documentElement.getAttribute("data-theme") || "dark";
