@@ -226,6 +226,7 @@ def apply_event_impacts(state, events):
         "invalid_pair": 0,
         "low_confidence": 0,
         "classifier_error": 0,
+        "non_positive_source_weight": 0,
     }
 
     classified_count = 0
@@ -252,6 +253,9 @@ def apply_event_impacts(state, events):
 
         paired_count += 1
         source_weight = float(event.get("source_weight", 1.0))
+        if source_weight <= 0:
+            debug_drops["non_positive_source_weight"] += 1
+            continue
         impact = classified["impact"] * source_weight
         updates[state_key] += impact
 
