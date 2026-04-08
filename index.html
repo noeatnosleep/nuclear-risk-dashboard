@@ -169,6 +169,7 @@ window.__historyRows = [];
 window.__diagnosticsRows = [];
 window.__modelConfig = null;
 window.__backhistoryPolicy = null;
+window.__nerdyDetails = null;
 window.__timeMode = "days";
 const THEME_KEY = "nuclear-risk-theme";
 
@@ -510,6 +511,7 @@ function renderNerdyDetails() {
   const container = document.getElementById("nerdyDetails");
   const config = window.__modelConfig || {};
   const policy = window.__backhistoryPolicy || {};
+  const nerdy = window.__nerdyDetails || {};
   const sourceWeights = config.source_weights || {};
   const anchors = policy.anchors || [];
   const bands = policy.volatility_bands || [];
@@ -517,6 +519,12 @@ function renderNerdyDetails() {
   const topWeights = Object.entries(sourceWeights).sort((a,b)=>b[1]-a[1]).slice(0, 12).map(([k,v]) => `<div class="meta">${k}: ${v}</div>`).join('');
   const anchorRows = anchors.map(a => `<div class="meta">${a.date}: ${a.probability}</div>`).join('') || '<div class="meta">n/a</div>';
   const bandRows = bands.map(b => `<div class="meta">${b.start_date} → ${b.end_date} (amp ${b.amplitude})</div>`).join('') || '<div class="meta">none</div>';
+
+  const listBlock = (title, rows) => `
+    <div class="nerdy-block">
+      <div class="nerdy-title">${title}</div>
+      ${(rows && rows.length ? rows : ["n/a"]).map(row => `<div class="meta">${row}</div>`).join("")}
+    </div>`;
 
   container.innerHTML = `
     <div class="nerdy-grid">
@@ -537,6 +545,15 @@ function renderNerdyDetails() {
         ${anchorRows}
         <div class="meta" style="margin-top:6px;font-weight:600;">Volatility Bands</div>
         ${bandRows}
+      </div>
+      ${listBlock('Plain English', nerdy.plain_english)}
+      ${listBlock('Model Mechanics', nerdy.model_mechanics)}
+      ${listBlock('Transparency', nerdy.transparency)}
+      ${listBlock('Limitations', nerdy.limitations)}
+      ${listBlock('Example Scenarios', nerdy.example_scenarios)}
+      <div class="nerdy-block">
+        <div class="nerdy-title">Audit</div>
+        <div class="meta">See full repository audit in <code>docs/system_audit.md</code>.</div>
       </div>
     </div>
   `;
@@ -569,12 +586,14 @@ async function load() {
     const diag = await fetch(`diagnostics_log.json${bust}`).then(r => r.json()).catch(() => []);
     const modelConfig = await fetch(`model_config.json${bust}`).then(r => r.json()).catch(() => ({}));
     const backhistoryPolicy = await fetch(`data/backhistory_policy.json${bust}`).then(r => r.json()).catch(() => ({}));
+    const nerdyDetails = await fetch(`data/nerdy_details.json${bust}`).then(r => r.json()).catch(() => ({}));
 
     window.__riskPayload = risk;
     window.__historyRows = getHistoryRows(hist);
     window.__diagnosticsRows = Array.isArray(diag) ? diag : [];
     window.__modelConfig = modelConfig;
     window.__backhistoryPolicy = backhistoryPolicy;
+    window.__nerdyDetails = nerdyDetails;
 
     const probability = Number(risk.probability || 0);
     const uncertainty = Number(risk.uncertainty || 0);
