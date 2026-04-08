@@ -130,8 +130,8 @@ canvas { width: 100% !important; height: 100% !important; }
   </div>
 
   <div class="section">
-    <details class="details-card" open>
-      <summary>Signal Sources (click to expand)</summary>
+    <details class="details-card">
+      <summary>Signal Sources</summary>
       <div class="details-body">
         <div id="sources" class="sources-list"></div>
       </div>
@@ -309,27 +309,22 @@ function pickTopStates(latestState) {
 }
 
 function renderStateChart() {
-  let rows = Array.isArray(window.__diagnosticsRows) ? window.__diagnosticsRows : [];
+  const historyRows = Array.isArray(window.__historyRows) ? window.__historyRows : [];
+  const risk = window.__riskPayload || {};
+  const currentState = risk.state || {};
+  const currentProb = Number(risk.probability || 1) || 1;
 
-  if (!rows.length || rows.length < 6) {
-    const historyRows = Array.isArray(window.__historyRows) ? window.__historyRows : [];
-    const risk = window.__riskPayload || {};
-    const currentState = risk.state || {};
-    const currentProb = Number(risk.probability || 1) || 1;
-    if (historyRows.length && Object.keys(currentState).length) {
-      rows = historyRows.map(row => {
-        const prob = Number(row.probability ?? row.p ?? currentProb);
-        const ratio = currentProb ? prob / currentProb : 1;
-        const state = {};
-        Object.keys(currentState).forEach(key => {
-          state[key] = Number(currentState[key] || 0) * ratio;
-        });
-        return { ts: row.ts || row.t, state };
-      });
-    }
-  }
+  if (!historyRows.length || !Object.keys(currentState).length) return;
 
-  if (!rows.length) return;
+  const rows = historyRows.map(row => {
+    const prob = Number(row.probability ?? row.p ?? currentProb);
+    const ratio = currentProb ? prob / currentProb : 1;
+    const state = {};
+    Object.keys(currentState).forEach(key => {
+      state[key] = Number(currentState[key] || 0) * ratio;
+    });
+    return { ts: row.ts || row.t, state };
+  });
 
   const latestState = rows[rows.length - 1].state || {};
   const keys = pickTopStates(latestState);
@@ -423,7 +418,7 @@ function renderDriverCard(container, driver) {
   const impact = Number(driver.impact || 0);
   const impactClass = impact >= 0 ? "impact-pos" : "impact-neg";
   const impactSign = impact >= 0 ? "+" : "";
-  meta.innerHTML = `state: ${asText(driver.state_key)} | class: ${asText(driver.class)} | impact: <span class="${impactClass}">${impactSign}${impact.toFixed(3)}</span> | source_weight: ${asText(driver.source_weight)} | confidence: ${asText(driver.confidence)} | age_hours: ${asText(driver.age_hours)} | source: ${asText(driver.source_domain)}`;
+  meta.innerHTML = `source: ${asText(driver.source_domain)} | impact: <span class="${impactClass}">${impactSign}${impact.toFixed(3)}</span> | state: ${asText(driver.state_key)} | class: ${asText(driver.class)} | confidence: ${asText(driver.confidence)} | source_weight: ${asText(driver.source_weight)} | age_hours: ${asText(driver.age_hours)}`;
 
   card.appendChild(link);
   card.appendChild(meta);
@@ -457,12 +452,15 @@ function renderDrivers() {
 
 function renderSources() {
   const payload = window.__riskPayload || {};
+  const cfg = window.__modelConfig || {};
   const container = document.getElementById("sources");
   container.replaceChildren();
 
-  const sourceRows = Array.isArray(payload.signal_sources) ? payload.signal_sources : [];
+  const configured = Array.isArray(cfg.source_urls) ? cfg.source_urls : [];
+  const signalRows = Array.isArray(payload.signal_sources) ? payload.signal_sources.map(r => r.url) : [];
+  const allUrls = [...new Set([...configured, ...signalRows].map(safeExternalUrl).filter(Boolean))];
 
-  if (!sourceRows.length) {
+  if (!allUrls.length) {
     const empty = document.createElement("div");
     empty.className = "source-item";
     empty.textContent = "No sources available in current run.";
@@ -470,9 +468,7 @@ function renderSources() {
     return;
   }
 
-  sourceRows.forEach(row => {
-    const href = safeExternalUrl(row.url);
-    if (!href) return;
+  allUrls.forEach(href => {
     const wrap = document.createElement("div");
     wrap.className = "source-item";
     const link = document.createElement("a");

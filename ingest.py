@@ -29,6 +29,16 @@ FEEDS = [
     {"url": "https://carnegieendowment.org/rss/all.xml", "name": "carnegie_all", "default_weight": 0.8},
     {"url": "https://www.crisisgroup.org/rss", "name": "crisisgroup", "default_weight": 0.9},
     {"url": "https://www.armscontrol.org/feeds/all", "name": "armscontrol", "default_weight": 0.95},
+    {"url": "https://www.economist.com/international/rss.xml", "name": "economist_world", "default_weight": 0.85},
+    {"url": "https://apnews.com/hub/world-news?output=rss", "name": "ap_world", "default_weight": 0.95},
+    {"url": "https://www.ft.com/world?format=rss", "name": "ft_world", "default_weight": 0.9},
+    {"url": "https://www.euronews.com/rss?format=mrss", "name": "euronews_world", "default_weight": 0.85},
+    {"url": "https://interfax.com/newsroom/top-stories/rss", "name": "interfax_world", "default_weight": 0.75},
+    {"url": "https://www.un.org/disarmament/feed/", "name": "un_oda", "default_weight": 1.05},
+    {"url": "https://www.icrc.org/en/whats-new/rss", "name": "icrc_news", "default_weight": 0.9},
+    {"url": "https://www.sipri.org/media/pressreleases/rss.xml", "name": "sipri_news", "default_weight": 0.95},
+    {"url": "https://www.iss.europa.eu/rss.xml", "name": "iss_europe", "default_weight": 0.85},
+    {"url": "https://rusi.org/rss.xml", "name": "rusi_news", "default_weight": 0.85}
 ]
 
 MAX_ENTRIES_PER_FEED = 20
@@ -57,10 +67,7 @@ def get_source_weight(feed_name, default_weight, config):
 
 def fetch_events():
     config = load_config()
-
-    events = []
-    seen = set()
-    seen_titles = []
+    events, seen, seen_titles = [], set(), []
 
     for feed_info in FEEDS:
         url = feed_info["url"]
