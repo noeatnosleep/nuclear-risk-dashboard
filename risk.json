@@ -1,22 +1,461 @@
 {
-  "last_updated": "2026-04-08 21:07:24 UTC",
-  "probability": 11.45,
-  "uncertainty": 18.0,
+  "last_updated": "2026-04-08 21:08:18 UTC",
+  "probability": 11.38,
+  "uncertainty": 6.07,
   "state": {
-    "us_russia": 3.268643138823287,
-    "us_china": 3.1425322125043045,
-    "china_taiwan": 4.02850644545272,
-    "india_pakistan": 4.500000004354879,
-    "china_india": 2.8000000024677645,
-    "iran_us": 2.5574730599210067,
-    "iran_israel": 3.6828416611595043,
-    "nk_us": 3.000000005080692,
-    "nk_sk": 2.800000004645204,
-    "nk_japan": 2.600000004209716,
-    "russia_ukraine": 5.686142721859077
+    "us_russia": 3.3081117134318285,
+    "us_china": 3.2416691496927696,
+    "china_taiwan": 4.048333831506729,
+    "india_pakistan": 4.50000000231353,
+    "china_india": 2.800000001311,
+    "iran_us": 1.9992825630830344,
+    "iran_israel": 3.065884632490987,
+    "nk_us": 3.0000000026991174,
+    "nk_sk": 2.8000000024677645,
+    "nk_japan": 2.600000002236412,
+    "russia_ukraine": 6.080513427315465
   },
-  "top_drivers": [],
-  "signal_sources": [],
+  "top_drivers": [
+    {
+      "title": "Has Trump Met His War Goals in Iran?",
+      "published": "Wed, 08 Apr 2026 20:59:03 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.847,
+      "raw_impact": 0.892,
+      "source_weight": 0.95,
+      "age_hours": 0.15,
+      "confidence": 0.895,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/08/us/politics/trump-war-goals.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com"
+    },
+    {
+      "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
+      "published": "Wed, 08 Apr 2026 20:15:35 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.76,
+      "raw_impact": -0.76,
+      "source_weight": 1.0,
+      "age_hours": 0.88,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
+    },
+    {
+      "title": "Trump administration's claims of victory in Iran 'really quite hollow', analyst says",
+      "published": "Wed, 08 Apr 2026 19:37:57 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.743,
+      "raw_impact": 0.825,
+      "source_weight": 0.9,
+      "age_hours": 1.51,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.france24.com/en/trump-administration-s-claims-of-victory-in-iran-really-quite-hollow-analyst-says",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com"
+    },
+    {
+      "title": "Stocks leap as Iran ceasefire sparks global \u2018relief rally\u2019",
+      "published": "Wed, 08 Apr 2026 20:29:26 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.694,
+      "raw_impact": -0.771,
+      "source_weight": 0.9,
+      "age_hours": 0.65,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.ft.com/content/0666acf3-2d74-4b44-b0aa-55afb628aa48",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com"
+    },
+    {
+      "title": "Netanyahu: A \u2018ceasefire with Iran will not include Hezbollah\u2019",
+      "published": "Wed, 08 Apr 2026 20:24:36 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.69,
+      "raw_impact": -0.767,
+      "source_weight": 0.9,
+      "age_hours": 0.73,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/netanyahu-a-ceasefire-with-iran-will-not-include?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com"
+    },
+    {
+      "title": "Iran accuses U.S. and Israel of ceasefire violations, threatening truce",
+      "published": "Wed, 08 Apr 2026 20:24:15 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.69,
+      "raw_impact": -0.767,
+      "source_weight": 0.9,
+      "age_hours": 0.73,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/08/trump-iran-war-ceasefire-israel/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com"
+    },
+    {
+      "title": "US-Iran truce: \u2018Sensitive behind-the-scenes conversations\u2019 paved way for Pakistan-brokered ceasefire",
+      "published": "Wed, 08 Apr 2026 19:58:10 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.673,
+      "raw_impact": -0.748,
+      "source_weight": 0.9,
+      "age_hours": 1.17,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/spotlight/20260408-us-iran-truce-sensitive-behind-the-scenes-conversations-paved-way-for-pakistan-brokered-ceasefire",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com"
+    },
+    {
+      "title": "Can ceasefire hold? US-Iran truce tested before talks start",
+      "published": "Wed, 08 Apr 2026 19:48:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.666,
+      "raw_impact": -0.74,
+      "source_weight": 0.9,
+      "age_hours": 1.34,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/the-debate/20260408-can-ceasefire-hold-us-iran-truce-tested-before-talks-start",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com"
+    },
+    {
+      "title": "White House pushed Pakistan to broker temporary Iran ceasefire",
+      "published": "Wed, 08 Apr 2026 19:19:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.648,
+      "raw_impact": -0.72,
+      "source_weight": 0.9,
+      "age_hours": 1.82,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.ft.com/content/249b9255-c448-492b-88bf-098d97de4159",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com"
+    },
+    {
+      "title": "\u2018Unhinged, insane\u2019: US lawmakers call for Trump\u2019s removal via 25th Amendment",
+      "published": "Wed, 08 Apr 2026 19:17:41 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.647,
+      "raw_impact": -0.719,
+      "source_weight": 0.9,
+      "age_hours": 1.84,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/truth-or-fake/20260408-unhinged-insane-us-politicians-call-for-trump-s-removal-via-25th-amendment",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com"
+    },
+    {
+      "title": "Iran Strait of Hormuz warning adds to shipping uncertainty",
+      "published": "Wed, 08 Apr 2026 17:21:31 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.643,
+      "raw_impact": -0.643,
+      "source_weight": 1.0,
+      "age_hours": 3.78,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c3w39lg84w2o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk"
+    },
+    {
+      "title": "Israel vows to continue war on Hizbollah despite Iran ceasefire",
+      "published": "Wed, 08 Apr 2026 19:11:28 GMT",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "deescalation",
+      "impact": -0.643,
+      "raw_impact": -0.715,
+      "source_weight": 0.9,
+      "age_hours": 1.95,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.ft.com/content/b3b4dd3f-45e6-4a25-85cd-84b2ec9c62b1",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com"
+    }
+  ],
+  "signal_sources": [
+    {
+      "name": "aljazeera_all",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "domain": "www.aljazeera.com"
+    },
+    {
+      "name": "bbc_world",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "domain": "feeds.bbci.co.uk"
+    },
+    {
+      "name": "cnn_world",
+      "url": "http://rss.cnn.com/rss/edition_world.rss",
+      "domain": "rss.cnn.com"
+    },
+    {
+      "name": "economist_world",
+      "url": "https://www.economist.com/international/rss.xml",
+      "domain": "www.economist.com"
+    },
+    {
+      "name": "feeds.bbci.co.uk",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "domain": "feeds.bbci.co.uk"
+    },
+    {
+      "name": "feeds.npr.org",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "domain": "feeds.npr.org"
+    },
+    {
+      "name": "feeds.washingtonpost.com",
+      "url": "https://feeds.washingtonpost.com/rss/world",
+      "domain": "feeds.washingtonpost.com"
+    },
+    {
+      "name": "france24_world",
+      "url": "https://www.france24.com/en/rss",
+      "domain": "www.france24.com"
+    },
+    {
+      "name": "ft_world",
+      "url": "https://www.ft.com/world?format=rss",
+      "domain": "www.ft.com"
+    },
+    {
+      "name": "guardian_world",
+      "url": "https://www.theguardian.com/world/rss",
+      "domain": "www.theguardian.com"
+    },
+    {
+      "name": "iss_europe",
+      "url": "https://www.iss.europa.eu/rss.xml",
+      "domain": "www.iss.europa.eu"
+    },
+    {
+      "name": "news.un.org",
+      "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "domain": "news.un.org"
+    },
+    {
+      "name": "npr_world",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "domain": "feeds.npr.org"
+    },
+    {
+      "name": "nyt_world",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "domain": "rss.nytimes.com"
+    },
+    {
+      "name": "rss.nytimes.com",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "domain": "rss.nytimes.com"
+    },
+    {
+      "name": "un_news",
+      "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "domain": "news.un.org"
+    },
+    {
+      "name": "us_defense_news",
+      "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "domain": "www.defense.gov"
+    },
+    {
+      "name": "wapo_world",
+      "url": "https://feeds.washingtonpost.com/rss/world",
+      "domain": "feeds.washingtonpost.com"
+    },
+    {
+      "name": "www.aljazeera.com",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "domain": "www.aljazeera.com"
+    },
+    {
+      "name": "www.defense.gov",
+      "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "domain": "www.defense.gov"
+    },
+    {
+      "name": "www.economist.com",
+      "url": "https://www.economist.com/international/rss.xml",
+      "domain": "www.economist.com"
+    },
+    {
+      "name": "www.france24.com",
+      "url": "https://www.france24.com/en/rss",
+      "domain": "www.france24.com"
+    },
+    {
+      "name": "www.ft.com",
+      "url": "https://www.ft.com/world?format=rss",
+      "domain": "www.ft.com"
+    },
+    {
+      "name": "www.iss.europa.eu",
+      "url": "https://www.iss.europa.eu/rss.xml",
+      "domain": "www.iss.europa.eu"
+    },
+    {
+      "name": "www.theguardian.com",
+      "url": "https://www.theguardian.com/world/rss",
+      "domain": "www.theguardian.com"
+    }
+  ],
   "driver_sort_default": "chronological",
   "available_driver_sort": [
     "severity",
@@ -25,17 +464,17 @@
     "source_weight"
   ],
   "debug": {
-    "event_count": 0,
-    "classified_count": 0,
-    "paired_count": 0,
-    "valid_pair_updates": 0,
-    "top_driver_count": 0,
-    "total_signal": 0.0,
+    "event_count": 236,
+    "classified_count": 54,
+    "paired_count": 54,
+    "valid_pair_updates": 6,
+    "top_driver_count": 54,
+    "total_signal": 9.3073,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 0,
-      "no_signal": 0,
-      "invalid_pair": 0,
+      "no_actor": 92,
+      "no_signal": 48,
+      "invalid_pair": 42,
       "low_confidence": 0,
       "classifier_error": 0
     }
