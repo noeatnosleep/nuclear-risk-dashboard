@@ -1,31 +1,32 @@
 {
   "plain_english": [
-    "Score rises when fresh, concrete escalation signals outweigh stabilization signals.",
-    "Score falls when verified de-escalation signals and natural decay dominate.",
-    "Confidence rises with higher-quality sources, clearer signals, and less contradiction.",
-    "Sparse-data days can flatten movement; this is shown as a limitation, not hidden."
+    "Score rises when concrete, corroborated escalation events dominate.",
+    "Score falls only when stabilizing signals include verifiable operational follow-through.",
+    "Source reputation improves confidence, but cannot turn weak commentary into high impact.",
+    "Uncertainty is higher when signals conflict or corroboration is shallow."
   ],
   "model_mechanics": [
-    "Pipeline: ingest -> classify -> dedupe -> state update -> coupling -> clamp -> probability mapping.",
-    "Signal classes are weighted and then decay-adjusted.",
-    "State variables are clamped to [0,10] and probability is bounded by logistic mapping.",
-    "Ambiguity penalty reduces confidence when escalation and stabilization signals conflict."
+    "Pipeline: ingest -> normalize -> classify -> event-cluster -> bounded state update -> bounded probability.",
+    "Event clusters are grouped by actor pair, signal class, time bucket, and normalized title tokens.",
+    "Signal hierarchy suppresses rhetoric relative to operational events (action/movement/strategic).",
+    "De-escalation is discounted unless verification language is present (inspection/implemented/stand-down/rollback)."
   ],
   "transparency": [
-    "Source weights are config-driven and shown in descending order.",
-    "Back-history policy and anchors are displayed directly.",
-    "Build metadata and last update timestamp are shown on page.",
-    "Driver list is ranked and limited to avoid duplicate overload."
+    "Per-driver source weight, corroboration count, and confidence are surfaced.",
+    "Nerdy Details documents hierarchy and de-escalation eligibility rules.",
+    "Back-history metadata reports replay mode and days covered.",
+    "Build metadata and update timestamp are shown on page."
   ],
   "limitations": [
-    "Top-line percentage is not a validated real-world probability forecast.",
-    "Historical replay quality depends on external data availability and query coverage.",
-    "Cross-source event clustering is partial and still under active improvement.",
-    "Confidence should be read as model confidence, not truth confidence."
+    "Semantic clustering is token/time based and can still miss nuanced same-event links.",
+    "Archive/replay coverage quality varies by date and external API completeness.",
+    "Model confidence is not real-world truth confidence.",
+    "Backtesting is present but still lightweight and should be expanded."
   ],
   "example_scenarios": [
-    "Escalation example: missile test + troop movement + sanctions pressure -> score up.",
-    "Mixed day example: ceasefire talks + fresh shelling -> contradiction penalty, muted movement.",
-    "Stabilization example: verified talks + inspection progress + hotline restoration -> score down."
+    "One missile test from one source -> medium event impact with higher uncertainty.",
+    "Same operational event corroborated by many outlets -> stronger confidence, bounded impact increase.",
+    "Many articles about one speech -> clustered and strongly down-weighted vs operational actions.",
+    "Ceasefire headline without verification -> weak stabilization contribution."
   ]
 }

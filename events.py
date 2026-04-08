@@ -47,6 +47,10 @@ DEESCALATION_PATTERN = re.compile(
     r"(ceasefire|truce|peace talks|negotiation|diplomatic talks|de-escalat|withdraw|withdrawal)",
     re.IGNORECASE,
 )
+VERIFIED_DEESCALATION_PATTERN = re.compile(
+    r"(verified|monitor(ed|ing)|inspection|observer|implemented|held for|withdrew|stand-?down|rollback)",
+    re.IGNORECASE,
+)
 
 
 def parse_published_datetime(published):
@@ -110,8 +114,12 @@ def matrix_penalty(components):
 
 
 def score_signals(text):
+    has_deescalation = bool(DEESCALATION_PATTERN.search(text))
+    deescalation_verified = bool(VERIFIED_DEESCALATION_PATTERN.search(text))
+    deescalation_weight = SIGNAL_WEIGHTS["deescalation"] if deescalation_verified else SIGNAL_WEIGHTS["deescalation"] * 0.25
+
     components = {
-        "deescalation": SIGNAL_WEIGHTS["deescalation"] if DEESCALATION_PATTERN.search(text) else 0.0,
+        "deescalation": deescalation_weight if has_deescalation else 0.0,
         "action": SIGNAL_WEIGHTS["action"] if ACTION_PATTERN.search(text) else 0.0,
         "movement": SIGNAL_WEIGHTS["movement"] if MOVEMENT_PATTERN.search(text) else 0.0,
         "strategic": SIGNAL_WEIGHTS["strategic"] if STRATEGIC_PATTERN.search(text) else 0.0,
@@ -129,6 +137,7 @@ def score_signals(text):
         total += contradiction_adjustment
         components["contradiction_adjustment"] = contradiction_adjustment
 
+    components["deescalation_verified"] = 1.0 if deescalation_verified else 0.0
     dominant_class = max(
         ["deescalation", "action", "movement", "strategic", "rhetoric"],
         key=lambda key: abs(components.get(key, 0.0)),
@@ -183,6 +192,9 @@ def compute_confidence(actors, signal_total, source_weight, text, signal_compone
     return max(0.0, min(1.0, confidence))
 
 
+SIGNAL_TIERS = {"action": 1, "movement": 1, "strategic": 1, "deescalation": 2, "rhetoric": 3}
+
+
 def classify_event(event):
     title = event.get("title", "")
     if not title:
@@ -224,4 +236,5 @@ def classify_event(event):
         "confidence": round(confidence, 3),
         "signal_total": round(signal_total, 3),
         "signal_components": signal_components,
+        "signal_tier": SIGNAL_TIERS.get(event_class, 4),
     }

@@ -23,6 +23,7 @@ PROBABILITY_CENTER = float(CONFIG.get("probability_center", 4.8))
 PROBABILITY_STEEPNESS = float(CONFIG.get("probability_steepness", 0.9))
 CLUSTER_CORROBORATION_BONUS = float(CONFIG.get("cluster_corroboration_bonus", 0.08))
 MAX_DRIVER_COUNT = int(CONFIG.get("max_driver_count", 256))
+CLASS_WEIGHTS = {"action": 1.0, "movement": 0.85, "strategic": 0.8, "deescalation": 0.9, "rhetoric": 0.25}
 
 
 def clamp(value, low, high):
@@ -45,7 +46,17 @@ def normalize_title(title):
 def cluster_key_for_driver(driver):
     tokens = normalize_title(driver.get("title", "")).split()
     short = " ".join(tokens[:8]) if tokens else "untitled"
-    return f"{driver.get('state_key','unknown')}::{short}"
+    bucket = event_time_bucket(driver.get("published", ""))
+    return f"{driver.get('state_key','unknown')}::{driver.get('class','unknown')}::{bucket}::{short}"
+
+
+def event_time_bucket(published):
+    raw = str(published or "").replace(" UTC", "Z").replace(" ", "T")
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except Exception:
+        return "unknown"
+    return dt.strftime("%Y-%m-%dT%H")
 
 
 def load_previous_state():
@@ -158,9 +169,10 @@ def merge_driver_clusters(top_drivers):
 
         mean_impact = sum(float(r.get("impact", 0.0)) for r in rows) / corroboration_count
         mean_conf = sum(float(r.get("confidence", 0.0)) for r in rows) / corroboration_count
-        boost = 1.0 + (corroboration_count - 1) * CLUSTER_CORROBORATION_BONUS
+        boost = 1.0 + min(0.35, (corroboration_count - 1) * CLUSTER_CORROBORATION_BONUS)
+        class_weight = CLASS_WEIGHTS.get(seed.get("class"), 0.4)
 
-        seed["impact"] = round(clamp(mean_impact * boost, -2.0, 2.0), 3)
+        seed["impact"] = round(clamp(mean_impact * boost * class_weight, -2.0, 2.0), 3)
         seed["confidence"] = round(clamp(mean_conf + min(0.18, (corroboration_count - 1) * 0.03), 0.0, 1.0), 3)
         seed["corroboration_count"] = corroboration_count
         seed["cluster_sources"] = domains
