@@ -16,6 +16,8 @@
   --low: #16a34a;
   --medium: #d97706;
   --high: #dc2626;
+  --switch-bg: #dbe5f4;
+  --switch-thumb: #ffffff;
 }
 html[data-theme="dark"] {
   --bg: #0b1220;
@@ -27,12 +29,37 @@ html[data-theme="dark"] {
   --low: #22c55e;
   --medium: #f59e0b;
   --high: #ef4444;
+  --switch-bg: #30435f;
+  --switch-thumb: #dce7fa;
 }
-body { font-family: system-ui; background: var(--bg); color: var(--text); margin: 0; transition: background .2s ease, color .2s ease; }
+body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--text); margin: 0; transition: background .2s ease, color .2s ease; }
 .container { max-width: 980px; margin: auto; padding: 24px; }
 .header-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
-h1 { margin: 0; }
-.toggle-btn { background: transparent; color: var(--muted); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; cursor: pointer; }
+h1 { margin: 0; font-size: 1.6rem; }
+.theme-toggle { border: 0; background: transparent; cursor: pointer; padding: 0; }
+.theme-toggle-track {
+  width: 58px;
+  height: 32px;
+  background: var(--switch-bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  position: relative;
+  transition: background .2s ease;
+}
+.theme-toggle-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--switch-thumb);
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  transition: left .2s ease;
+}
+html[data-theme="light"] .theme-toggle-thumb { left: 29px; }
 .risk { text-align: center; font-size: 4.2rem; font-weight: 700; margin: 14px 0 10px; }
 .low { color: var(--low); }
 .medium { color: var(--medium); }
@@ -42,7 +69,7 @@ h1 { margin: 0; }
 .section { margin-top: 38px; }
 .chart-container { background: var(--card); border-radius: 12px; padding: 16px; height: 280px; border: 1px solid var(--border); }
 .mode-switch { text-align: center; margin-top: 9px; font-size: 0.82rem; color: var(--muted); }
-.mode-switch button { background: transparent; color: var(--muted); border: none; margin: 0 8px; cursor: pointer; }
+.mode-switch button { background: transparent; color: var(--muted); border: none; margin: 0 8px; cursor: pointer; text-transform: lowercase; }
 .mode-switch button.active { color: var(--text); text-decoration: underline; }
 .driver-controls { margin-bottom: 10px; font-size: 0.88rem; color: var(--muted); }
 .driver-controls select { background: var(--card); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 3px 7px; }
@@ -55,14 +82,19 @@ canvas { width: 100% !important; height: 100% !important; }
 @media (max-width: 640px) {
   .risk { font-size: 3.2rem; }
   .container { padding: 16px; }
+  h1 { font-size: 1.3rem; }
 }
 </style>
 </head>
 <body>
 <div class="container">
   <div class="header-row">
-    <h1>Global Nuclear Risk</h1>
-    <button id="themeToggle" class="toggle-btn" type="button">Switch to light mode</button>
+    <h1>Global Nuclear Strike Risk</h1>
+    <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+      <span class="theme-toggle-track" aria-hidden="true">
+        <span id="themeThumb" class="theme-toggle-thumb">🌙</span>
+      </span>
+    </button>
   </div>
 
   <div id="risk" class="risk">--%</div>
@@ -123,49 +155,99 @@ function getHistoryRows(payload) {
 
 function parseUtc(ts) {
   if (!ts) return null;
-  const iso = ts.replace(" UTC", "Z").replace(" ", "T");
+  const iso = String(ts).replace(" UTC", "Z").replace(" ", "T");
   const d = new Date(iso);
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
-function formatBucket(d, mode) {
-  const y = d.getUTCFullYear();
-  const m = String(d.getUTCMonth() + 1).padStart(2, "0");
-  const day = String(d.getUTCDate()).padStart(2, "0");
-  const hh = String(d.getUTCHours()).padStart(2, "0");
+function bucketStart(dt, mode) {
+  const d = new Date(dt.getTime());
+  if (mode === "years") {
+    d.setUTCDate(1);
+    d.setUTCHours(0, 0, 0, 0);
+    return d;
+  }
+  if (mode === "days") {
+    d.setUTCHours(0, 0, 0, 0);
+    return d;
+  }
+  d.setUTCMinutes(0, 0, 0);
+  return d;
+}
+
+function formatBucketLabel(dt, mode) {
+  const y = dt.getUTCFullYear();
+  const m = String(dt.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(dt.getUTCDate()).padStart(2, "0");
+  const hh = String(dt.getUTCHours()).padStart(2, "0");
   if (mode === "years") return `${y}-${m}`;
-  if (mode === "hours") return `${y}-${m}-${day} ${hh}:00`;
-  return `${y}-${m}-${day}`;
+  if (mode === "days") return `${m}-${day}`;
+  return `${m}-${day} ${hh}:00`;
 }
 
-function bucketKey(ts, mode) {
-  const d = parseUtc(ts);
-  if (!d) return "";
-  return formatBucket(d, mode);
+function bucketStepMs(mode) {
+  if (mode === "years") return 30 * 24 * 3600 * 1000;
+  if (mode === "days") return 24 * 3600 * 1000;
+  return 3600 * 1000;
 }
 
-function bucketRows(rows, mode, valueGetter) {
-  const buckets = new Map();
+function addBucket(dt, mode) {
+  const d = new Date(dt.getTime());
+  if (mode === "years") {
+    d.setUTCMonth(d.getUTCMonth() + 1, 1);
+    return d;
+  }
+  if (mode === "days") {
+    d.setUTCDate(d.getUTCDate() + 1);
+    return d;
+  }
+  d.setUTCHours(d.getUTCHours() + 1);
+  return d;
+}
+
+function rangeForMode(mode, maxDate) {
+  const end = bucketStart(maxDate, mode);
+  const start = new Date(end.getTime());
+  if (mode === "years") start.setUTCMonth(start.getUTCMonth() - 23, 1);
+  else if (mode === "days") start.setUTCDate(start.getUTCDate() - 29);
+  else start.setUTCHours(start.getUTCHours() - 71);
+  return { start, end };
+}
+
+function buildTimeline(rows, mode) {
+  const dates = rows
+    .map(row => parseUtc(row.ts || row.t || ""))
+    .filter(Boolean)
+    .sort((a, b) => a.getTime() - b.getTime());
+
+  const maxDate = dates.length ? dates[dates.length - 1] : new Date();
+  const { start, end } = rangeForMode(mode, maxDate);
+
+  const timeline = [];
+  for (let cursor = new Date(start.getTime()); cursor <= end; cursor = addBucket(cursor, mode)) {
+    timeline.push(new Date(cursor.getTime()));
+  }
+  return timeline;
+}
+
+function aggregateRows(rows, mode, valueGetter, field = "ts") {
+  const bucketValues = new Map();
   rows.forEach(row => {
-    const ts = row.ts || row.t || "";
-    const dt = parseUtc(ts);
+    const dt = parseUtc(row[field] || "");
     if (!dt) return;
-    const key = formatBucket(dt, mode);
-    const value = valueGetter(row);
-    if (value === null || Number.isNaN(value)) return;
-
-    if (!buckets.has(key)) {
-      buckets.set(key, { key, t: dt.getTime(), values: [] });
-    }
-    buckets.get(key).values.push(Number(value));
+    const value = Number(valueGetter(row));
+    if (Number.isNaN(value)) return;
+    const bucket = bucketStart(dt, mode).getTime();
+    if (!bucketValues.has(bucket)) bucketValues.set(bucket, []);
+    bucketValues.get(bucket).push(value);
   });
 
-  return [...buckets.values()]
-    .sort((a, b) => a.t - b.t)
-    .map(bucket => ({
-      key: bucket.key,
-      value: bucket.values.reduce((a, b) => a + b, 0) / bucket.values.length
-    }));
+  const averaged = new Map();
+  bucketValues.forEach((values, key) => {
+    const mean = values.reduce((a, b) => a + b, 0) / values.length;
+    averaged.set(key, mean);
+  });
+  return averaged;
 }
 
 function fixedBand(probability) {
@@ -175,19 +257,42 @@ function fixedBand(probability) {
 }
 
 function renderRiskChart() {
-  const points = bucketRows(window.__historyRows, window.__timeMode, x => Number(x.probability ?? x.p ?? NaN));
-  const labels = points.map(x => x.key);
-  const values = points.map(x => x.value);
+  const timeline = buildTimeline(window.__historyRows, window.__timeMode);
+  const aggregates = aggregateRows(
+    window.__historyRows,
+    window.__timeMode,
+    row => Number(row.probability ?? row.p ?? NaN),
+    "ts"
+  );
+
+  const labels = timeline.map(dt => formatBucketLabel(dt, window.__timeMode));
+  const values = timeline.map(dt => {
+    const key = bucketStart(dt, window.__timeMode).getTime();
+    return aggregates.has(key) ? aggregates.get(key) : null;
+  });
 
   const canvas = document.getElementById("riskChart");
   if (window.__riskChart) window.__riskChart.destroy();
   window.__riskChart = new Chart(canvas, {
     type: "line",
-    data: { labels, datasets: [{ data: values, borderWidth: 2, tension: 0.35 }] },
+    data: {
+      labels,
+      datasets: [{
+        data: values,
+        borderWidth: 2,
+        tension: 0.3,
+        spanGaps: false,
+        pointRadius: values.map(v => (v === null ? 0 : 2)),
+        pointHoverRadius: values.map(v => (v === null ? 0 : 4))
+      }]
+    },
     options: {
       maintainAspectRatio: false,
       plugins: { legend: { display: false } },
-      scales: { y: { beginAtZero: true, max: 100 } }
+      scales: {
+        y: { beginAtZero: true, max: 100 },
+        x: { ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 12 } }
+      }
     }
   });
 }
@@ -195,20 +300,7 @@ function renderRiskChart() {
 function pickTopStates(latestState) {
   const rows = Object.entries(latestState || {});
   rows.sort((a, b) => b[1] - a[1]);
-  return rows.slice(0, 5).map(([k]) => k);
-}
-
-function buildStateSeries(rows, key, mode) {
-  const buckets = new Map();
-  rows.forEach(row => {
-    const bucket = bucketKey(row.ts || "", mode);
-    if (!bucket) return;
-    const value = Number((row.state || {})[key]);
-    if (Number.isNaN(value)) return;
-    if (!buckets.has(bucket)) buckets.set(bucket, []);
-    buckets.get(bucket).push(value);
-  });
-  return buckets;
+  return rows.slice(0, 5).map(([key]) => key);
 }
 
 function renderStateChart() {
@@ -217,45 +309,50 @@ function renderStateChart() {
 
   const latestState = rows[rows.length - 1].state || {};
   const keys = pickTopStates(latestState);
+  const timeline = buildTimeline(rows.map(r => ({ ts: r.ts })), window.__timeMode);
+  const labels = timeline.map(dt => formatBucketLabel(dt, window.__timeMode));
 
-  const labels = [];
-  const labelSet = new Set();
-  rows.forEach(r => {
-    const k = bucketKey(r.ts || "", window.__timeMode);
-    if (k && !labelSet.has(k)) {
-      labelSet.add(k);
-      labels.push(k);
-    }
-  });
-
-  const sortedLabels = [...labels].sort((a, b) => a.localeCompare(b));
-
-  const datasets = keys.map(key => {
-    const seriesByBucket = buildStateSeries(rows, key, window.__timeMode);
-    const data = sortedLabels.map(label => {
-      const values = seriesByBucket.get(label) || [];
-      if (!values.length) return null;
-      return values.reduce((a, b) => a + b, 0) / values.length;
+  const datasets = keys.map((key, idx) => {
+    const aggregates = aggregateRows(
+      rows,
+      window.__timeMode,
+      row => Number((row.state || {})[key]),
+      "ts"
+    );
+    const data = timeline.map(dt => {
+      const bucket = bucketStart(dt, window.__timeMode).getTime();
+      return aggregates.has(bucket) ? aggregates.get(bucket) : null;
     });
-    return { label: key, data, borderWidth: 2, tension: 0.25, spanGaps: false };
+
+    return {
+      label: key,
+      data,
+      borderWidth: 2,
+      tension: 0.25,
+      spanGaps: false,
+      pointRadius: data.map(v => (v === null ? 0 : 2)),
+      pointHoverRadius: data.map(v => (v === null ? 0 : 4))
+    };
   });
 
   const canvas = document.getElementById("stateChart");
   if (window.__stateChart) window.__stateChart.destroy();
   window.__stateChart = new Chart(canvas, {
     type: "line",
-    data: { labels: sortedLabels, datasets },
+    data: { labels, datasets },
     options: {
       maintainAspectRatio: false,
       plugins: { legend: { display: true } },
-      scales: { y: { beginAtZero: true, max: 10 } }
+      scales: {
+        y: { beginAtZero: true, max: 10 },
+        x: { ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 12 } }
+      }
     }
   });
 }
 
 function sortDrivers(drivers, mode) {
   const rows = [...drivers];
-
   if (mode === "chronological") {
     rows.sort((a, b) => {
       const ta = parseUtc(a.published || "")?.getTime() || 0;
@@ -264,17 +361,14 @@ function sortDrivers(drivers, mode) {
     });
     return rows;
   }
-
   if (mode === "confidence") {
     rows.sort((a, b) => (b.confidence ?? 0) - (a.confidence ?? 0));
     return rows;
   }
-
   if (mode === "source_weight") {
     rows.sort((a, b) => (b.source_weight ?? 0) - (a.source_weight ?? 0));
     return rows;
   }
-
   rows.sort((a, b) => Math.abs(b.impact ?? 0) - Math.abs(a.impact ?? 0));
   return rows;
 }
@@ -283,9 +377,7 @@ function safeExternalUrl(url) {
   if (!url) return "";
   try {
     const parsed = new URL(url);
-    if (parsed.protocol === "http:" || parsed.protocol === "https:") {
-      return parsed.toString();
-    }
+    if (parsed.protocol === "http:" || parsed.protocol === "https:") return parsed.toString();
     return "";
   } catch (_) {
     return "";
@@ -305,12 +397,10 @@ function renderDriverCard(container, driver) {
   const link = document.createElement("a");
   const href = safeExternalUrl(driver.link);
   link.href = href || "#";
-  link.target = "_blank";
-  link.rel = "noopener noreferrer";
   link.textContent = asText(driver.title, "Untitled event");
-  if (!href) {
-    link.removeAttribute("target");
-    link.removeAttribute("rel");
+  if (href) {
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
   }
 
   const metaA = document.createElement("div");
@@ -330,7 +420,6 @@ function renderDriverCard(container, driver) {
 function renderDrivers() {
   const payload = window.__riskPayload || {};
   const sortSelect = document.getElementById("driverSort");
-
   const drivers = Array.isArray(payload.top_drivers) ? payload.top_drivers : [];
   const sorted = sortDrivers(drivers, sortSelect.value);
 
@@ -340,7 +429,10 @@ function renderDrivers() {
   if (!sorted.length) {
     const empty = document.createElement("div");
     empty.className = "card";
-    empty.innerHTML = '<div class="meta">No top drivers found in current run.</div>';
+    const meta = document.createElement("div");
+    meta.className = "meta";
+    meta.textContent = "No top drivers found in current run.";
+    empty.appendChild(meta);
     container.appendChild(empty);
     return;
   }
@@ -352,21 +444,16 @@ function refreshChartsAndDrivers() {
   renderRiskChart();
   renderStateChart();
   renderDrivers();
-
   document.querySelectorAll("#timeModeSwitch button").forEach(btn => {
     btn.classList.toggle("active", btn.dataset.mode === window.__timeMode);
   });
 }
 
-function updateThemeButton(theme) {
-  const btn = document.getElementById("themeToggle");
-  btn.textContent = theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
-}
-
 function applyTheme(theme) {
-  document.documentElement.setAttribute("data-theme", theme);
-  localStorage.setItem(THEME_KEY, theme);
-  updateThemeButton(theme);
+  const normalized = theme === "light" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", normalized);
+  localStorage.setItem(THEME_KEY, normalized);
+  document.getElementById("themeThumb").textContent = normalized === "dark" ? "🌙" : "☀️";
 }
 
 async function load() {
@@ -414,6 +501,7 @@ document.getElementById("driverSort").addEventListener("change", renderDrivers);
 document.getElementById("themeToggle").addEventListener("click", () => {
   const current = document.documentElement.getAttribute("data-theme") || "dark";
   applyTheme(current === "dark" ? "light" : "dark");
+  refreshChartsAndDrivers();
 });
 
 applyTheme(localStorage.getItem(THEME_KEY) || "dark");
