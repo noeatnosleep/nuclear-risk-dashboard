@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-08 22:57:28 UTC",
-  "probability": 15.12,
-  "uncertainty": 6.34,
+  "last_updated": "2026-04-08 22:58:38 UTC",
+  "probability": 15.39,
+  "uncertainty": 6.25,
   "state": {
-    "us_russia": 3.324340316989272,
-    "us_china": 3.1054391141912525,
-    "china_taiwan": 4.0210878228382505,
+    "us_russia": 3.3299803608461143,
+    "us_china": 3.1973854446922263,
+    "china_taiwan": 4.039477088938446,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6293002871179905,
-    "iran_israel": 6.629305843369262,
+    "iran_us": 5.631190777531432,
+    "iran_israel": 6.631193729289921,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.242458815550106
+    "russia_ukraine": 6.2988612308322125
   },
   "top_drivers": [
+    {
+      "title": "Iran War Live Updates: Cease-Fire Tested by Confusion Over Strait and Strikes on Lebanon",
+      "published": "Wed, 08 Apr 2026 22:42:18 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.797,
+      "raw_impact": 0.886,
+      "source_weight": 0.9,
+      "age_hours": 0.27,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/08/world/iran-war-trump-news",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/08/world/iran-war-trump-news"
+      ]
+    },
     {
       "title": "Trump administration's claims of victory in Iran 'really quite hollow', analyst says",
       "published": "Wed, 08 Apr 2026 19:37:57 GMT",
@@ -26,9 +60,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.668,
-      "raw_impact": 0.743,
+      "raw_impact": 0.742,
       "source_weight": 0.9,
-      "age_hours": 3.33,
+      "age_hours": 3.34,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,53 +85,18 @@
       ]
     },
     {
-      "title": "At least 182 killed across Lebanon in large wave of Israeli strikes",
-      "published": "Wed, 08 Apr 2026 20:54:59 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.578,
-      "raw_impact": 0.578,
-      "source_weight": 1.0,
-      "age_hours": 2.04,
-      "confidence": 0.708,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Australia news live: shadow defence minister claims Trump threatened to \u2018escalate in order to de-escalate\u2019 in Middle East",
-      "published": "Wed, 08 Apr 2026 22:22:59 GMT",
+      "published": "Wed, 08 Apr 2026 22:49:51 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.566,
-      "raw_impact": 0.629,
+      "impact": 0.58,
+      "raw_impact": 0.645,
       "source_weight": 0.9,
-      "age_hours": 0.57,
+      "age_hours": 0.15,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -121,6 +120,41 @@
       ]
     },
     {
+      "title": "At least 182 killed across Lebanon in large wave of Israeli strikes",
+      "published": "Wed, 08 Apr 2026 20:54:59 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.577,
+      "raw_impact": 0.577,
+      "source_weight": 1.0,
+      "age_hours": 2.06,
+      "confidence": 0.708,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "What we know about the two-week ceasefire between the US and Iran",
       "published": "Wed, 08 Apr 2026 20:25:49 GMT",
       "actors": [
@@ -129,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.562,
-      "raw_impact": 0.562,
+      "impact": 0.561,
+      "raw_impact": 0.561,
       "source_weight": 1.0,
-      "age_hours": 2.53,
+      "age_hours": 2.55,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -164,10 +198,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.559,
-      "raw_impact": 0.621,
+      "impact": 0.558,
+      "raw_impact": 0.62,
       "source_weight": 0.9,
-      "age_hours": 0.8,
+      "age_hours": 0.82,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -200,9 +234,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.546,
-      "raw_impact": 0.607,
+      "raw_impact": 0.606,
       "source_weight": 0.9,
-      "age_hours": 1.19,
+      "age_hours": 1.2,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -235,9 +269,9 @@
       "state_key": "iran_us",
       "class": "strategic",
       "impact": 0.538,
-      "raw_impact": 0.748,
+      "raw_impact": 0.747,
       "source_weight": 0.9,
-      "age_hours": 3.95,
+      "age_hours": 3.97,
       "confidence": 0.756,
       "signal_total": 0.94,
       "signal_components": {
@@ -269,10 +303,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.536,
+      "impact": 0.535,
       "raw_impact": 0.595,
       "source_weight": 0.9,
-      "age_hours": 1.53,
+      "age_hours": 1.54,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -304,10 +338,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.533,
-      "raw_impact": 0.592,
+      "impact": 0.532,
+      "raw_impact": 0.591,
       "source_weight": 0.9,
-      "age_hours": 1.62,
+      "age_hours": 1.64,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -342,7 +376,7 @@
       "impact": 0.51,
       "raw_impact": 0.51,
       "source_weight": 1.0,
-      "age_hours": 9.83,
+      "age_hours": 9.84,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -374,9 +408,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.487,
-      "raw_impact": 0.542,
+      "raw_impact": 0.541,
       "source_weight": 0.9,
-      "age_hours": 3.16,
+      "age_hours": 3.18,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -409,9 +443,9 @@
       "state_key": "iran_israel",
       "class": "action",
       "impact": 0.482,
-      "raw_impact": 0.536,
+      "raw_impact": 0.535,
       "source_weight": 0.9,
-      "age_hours": 3.35,
+      "age_hours": 3.37,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -444,9 +478,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.481,
-      "raw_impact": 0.535,
+      "raw_impact": 0.534,
       "source_weight": 0.9,
-      "age_hours": 3.38,
+      "age_hours": 3.4,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -479,9 +513,9 @@
       "state_key": "iran_israel",
       "class": "action",
       "impact": 0.452,
-      "raw_impact": 0.503,
+      "raw_impact": 0.502,
       "source_weight": 0.9,
-      "age_hours": 4.45,
+      "age_hours": 4.47,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -516,7 +550,7 @@
       "impact": 0.438,
       "raw_impact": 0.487,
       "source_weight": 0.9,
-      "age_hours": 4.99,
+      "age_hours": 5.01,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -549,9 +583,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.388,
-      "raw_impact": 0.432,
+      "raw_impact": 0.431,
       "source_weight": 0.9,
-      "age_hours": 7.09,
+      "age_hours": 7.11,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -583,10 +617,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.38,
+      "impact": 0.379,
       "raw_impact": 0.345,
       "source_weight": 1.1,
-      "age_hours": 10.96,
+      "age_hours": 10.98,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -621,7 +655,7 @@
       "impact": 0.377,
       "raw_impact": 0.419,
       "source_weight": 0.9,
-      "age_hours": 7.6,
+      "age_hours": 7.62,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -653,10 +687,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.377,
+      "impact": 0.376,
       "raw_impact": 0.418,
       "source_weight": 0.9,
-      "age_hours": 7.62,
+      "age_hours": 7.64,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -688,10 +722,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.302,
-      "raw_impact": 0.323,
+      "impact": 0.301,
+      "raw_impact": 0.322,
       "source_weight": 1.1,
-      "age_hours": 7.59,
+      "age_hours": 7.61,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -722,10 +756,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.256,
+      "impact": 0.255,
       "raw_impact": 0.284,
       "source_weight": 0.9,
-      "age_hours": 14.33,
+      "age_hours": 14.35,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -757,10 +791,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.232,
-      "raw_impact": 0.273,
+      "impact": 0.231,
+      "raw_impact": 0.272,
       "source_weight": 0.85,
-      "age_hours": 15.04,
+      "age_hours": 15.06,
       "confidence": 0.693,
       "signal_total": 0.65,
       "signal_components": {
@@ -792,10 +826,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.187,
+      "impact": 0.186,
       "raw_impact": 0.244,
       "source_weight": 0.9,
-      "age_hours": 1.11,
+      "age_hours": 1.12,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -830,7 +864,7 @@
       "impact": -0.161,
       "raw_impact": -0.199,
       "source_weight": 0.9,
-      "age_hours": 0.05,
+      "age_hours": 0.07,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -862,9 +896,9 @@
       "state_key": "iran_us",
       "class": "movement",
       "impact": 0.157,
-      "raw_impact": 0.206,
+      "raw_impact": 0.205,
       "source_weight": 0.9,
-      "age_hours": 4.06,
+      "age_hours": 4.08,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -899,7 +933,7 @@
       "impact": -0.154,
       "raw_impact": -0.171,
       "source_weight": 1.0,
-      "age_hours": 2.7,
+      "age_hours": 2.72,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -931,9 +965,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.152,
-      "raw_impact": -0.188,
+      "raw_impact": -0.187,
       "source_weight": 0.9,
-      "age_hours": 1.11,
+      "age_hours": 1.13,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -967,7 +1001,7 @@
       "impact": -0.151,
       "raw_impact": -0.187,
       "source_weight": 0.9,
-      "age_hours": 1.17,
+      "age_hours": 1.19,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -1001,7 +1035,7 @@
       "impact": -0.15,
       "raw_impact": -0.185,
       "source_weight": 0.9,
-      "age_hours": 1.3,
+      "age_hours": 1.32,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -1033,9 +1067,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.143,
-      "raw_impact": -0.177,
+      "raw_impact": -0.176,
       "source_weight": 0.9,
-      "age_hours": 2.16,
+      "age_hours": 2.18,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1067,9 +1101,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.14,
-      "raw_impact": -0.173,
+      "raw_impact": -0.172,
       "source_weight": 0.9,
-      "age_hours": 2.55,
+      "age_hours": 2.57,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -1103,7 +1137,7 @@
       "impact": -0.14,
       "raw_impact": -0.173,
       "source_weight": 0.9,
-      "age_hours": 2.47,
+      "age_hours": 2.49,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -1137,7 +1171,7 @@
       "impact": -0.136,
       "raw_impact": -0.168,
       "source_weight": 0.9,
-      "age_hours": 2.99,
+      "age_hours": 3.01,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1169,9 +1203,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.135,
-      "raw_impact": -0.167,
+      "raw_impact": -0.166,
       "source_weight": 0.9,
-      "age_hours": 3.16,
+      "age_hours": 3.18,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -1205,7 +1239,7 @@
       "impact": -0.131,
       "raw_impact": -0.145,
       "source_weight": 1.0,
-      "age_hours": 5.6,
+      "age_hours": 5.62,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1239,7 +1273,7 @@
       "impact": -0.131,
       "raw_impact": -0.162,
       "source_weight": 0.9,
-      "age_hours": 3.66,
+      "age_hours": 3.68,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -1273,7 +1307,7 @@
       "impact": -0.131,
       "raw_impact": -0.162,
       "source_weight": 0.9,
-      "age_hours": 3.64,
+      "age_hours": 3.66,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1307,7 +1341,7 @@
       "impact": -0.131,
       "raw_impact": -0.161,
       "source_weight": 0.9,
-      "age_hours": 3.77,
+      "age_hours": 3.79,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -1341,7 +1375,7 @@
       "impact": -0.125,
       "raw_impact": -0.155,
       "source_weight": 0.9,
-      "age_hours": 4.45,
+      "age_hours": 4.47,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1364,6 +1398,74 @@
       ]
     },
     {
+      "title": "Iran ceasefire raises hopes for reopening key Strait of Hormuz",
+      "published": "Wed, 08 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.105,
+      "raw_impact": -0.106,
+      "source_weight": 1.1,
+      "age_hours": 10.98,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167270",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167270"
+      ]
+    },
+    {
+      "title": "Ukraine Ramps Up Attacks on Russian Oil, Aiming to Curb Iran War Windfall",
+      "published": "Tue, 07 Apr 2026 09:04:31 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.091,
+      "raw_impact": 0.101,
+      "source_weight": 0.9,
+      "age_hours": 37.9,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/07/world/europe/ukraine-attacks-russian-oil-exports.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/07/world/europe/ukraine-attacks-russian-oil-exports.html"
+      ]
+    },
+    {
       "title": "Oil prices plunge and stocks soar after U.S. and Iran agree on a ceasefire",
       "published": "Wed, 08 Apr 2026 09:33:28 -0400",
       "actors": [
@@ -1375,7 +1477,7 @@
       "impact": -0.089,
       "raw_impact": -0.116,
       "source_weight": 0.85,
-      "age_hours": 9.4,
+      "age_hours": 9.42,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -1409,7 +1511,7 @@
       "impact": -0.081,
       "raw_impact": -0.106,
       "source_weight": 0.85,
-      "age_hours": 11.03,
+      "age_hours": 11.05,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -1443,7 +1545,7 @@
       "impact": -0.059,
       "raw_impact": -0.065,
       "source_weight": 1.0,
-      "age_hours": 19.44,
+      "age_hours": 19.46,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1474,10 +1576,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
+      "impact": 0.044,
       "raw_impact": 0.198,
       "source_weight": 0.9,
-      "age_hours": 0.14,
+      "age_hours": 0.16,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1511,7 +1613,7 @@
       "impact": -0.043,
       "raw_impact": -0.054,
       "source_weight": 0.9,
-      "age_hours": 22.79,
+      "age_hours": 22.81,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -1542,10 +1644,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.043,
+      "impact": 0.042,
       "raw_impact": 0.047,
       "source_weight": 0.9,
-      "age_hours": 45.39,
+      "age_hours": 45.41,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -1580,7 +1682,7 @@
       "impact": 0.041,
       "raw_impact": 0.181,
       "source_weight": 0.9,
-      "age_hours": 1.69,
+      "age_hours": 1.71,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1603,6 +1705,40 @@
       ]
     },
     {
+      "title": "China Pressed Iran Toward Cease-Fire, Iranian Officials Say",
+      "published": "Wed, 08 Apr 2026 18:47:41 +0000",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.035,
+      "raw_impact": 0.157,
+      "source_weight": 0.9,
+      "age_hours": 4.18,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/08/world/asia/china-iran-cease-fire.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/08/world/asia/china-iran-cease-fire.html"
+      ]
+    },
+    {
       "title": "Trump threats against civilian targets put military in legal, moral quandary",
       "published": "Wed, 08 Apr 2026 00:34:45 +0000",
       "actors": [
@@ -1614,7 +1750,7 @@
       "impact": 0.012,
       "raw_impact": 0.055,
       "source_weight": 0.9,
-      "age_hours": 22.38,
+      "age_hours": 22.4,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1648,7 +1784,7 @@
       "impact": 0.009,
       "raw_impact": 0.045,
       "source_weight": 0.85,
-      "age_hours": 25.72,
+      "age_hours": 25.74,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1682,7 +1818,7 @@
       "impact": 0.008,
       "raw_impact": 0.035,
       "source_weight": 0.9,
-      "age_hours": 30.38,
+      "age_hours": 30.4,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1716,7 +1852,7 @@
       "impact": 0.003,
       "raw_impact": 0.011,
       "source_weight": 1.1,
-      "age_hours": 49.94,
+      "age_hours": 49.96,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1750,7 +1886,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 163.51,
+      "age_hours": 163.53,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1784,7 +1920,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 864.21,
+      "age_hours": 864.23,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1818,7 +1954,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 182.45,
+      "age_hours": 182.47,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1853,7 +1989,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 223.43,
+      "age_hours": 223.45,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1888,7 +2024,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 228.08,
+      "age_hours": 228.09,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1922,7 +2058,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 343.64,
+      "age_hours": 343.66,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -2013,6 +2149,16 @@
       "domain": "feeds.npr.org"
     },
     {
+      "name": "nyt_world",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "domain": "rss.nytimes.com"
+    },
+    {
+      "name": "rss.nytimes.com",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "domain": "rss.nytimes.com"
+    },
+    {
       "name": "un_news",
       "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
       "domain": "news.un.org"
@@ -2072,17 +2218,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 216,
-    "classified_count": 56,
-    "paired_count": 56,
+    "event_count": 236,
+    "classified_count": 60,
+    "paired_count": 60,
     "valid_pair_updates": 6,
-    "top_driver_count": 56,
-    "total_signal": 10.1857,
+    "top_driver_count": 60,
+    "total_signal": 11.2783,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 85,
-      "no_signal": 36,
-      "invalid_pair": 39,
+      "no_actor": 91,
+      "no_signal": 41,
+      "invalid_pair": 44,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
