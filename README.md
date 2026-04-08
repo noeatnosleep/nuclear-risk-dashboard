@@ -2,6 +2,8 @@
 
 A static dashboard that estimates global nuclear escalation risk from recent news headlines.
 
+[Live github pages instance here](https://noeatnosleep.github.io/nuclear-risk-dashboard/)
+
 ## What this does
 
 - The system reads recent world-news headlines.
