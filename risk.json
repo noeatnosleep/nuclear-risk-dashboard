@@ -1,20 +1,62 @@
 {
-  "last_updated": "2026-04-08 11:26:04 UTC",
-  "probability": 86.5,
+  "last_updated": "2026-04-08 12:27:10 UTC",
+  "probability": 84.99,
   "state": {
     "us_russia": 6.5,
     "us_china": 5.5,
-    "china_taiwan": 6.623138570559082,
+    "china_taiwan": 6.667167784975219,
     "india_pakistan": 7.5,
     "china_india": 4.5,
-    "iran_us": 8.598393262613229,
+    "iran_us": 8.896134273221245,
     "iran_israel": 10,
     "nk_us": 6.5,
     "nk_sk": 6.0,
     "nk_japan": 5.5,
-    "russia_ukraine": 8.210942854552844
+    "russia_ukraine": 8.179301426369918
   },
   "top_drivers": [
+    {
+      "title": "Israel strikes southern Lebanon after US-Iran ceasefire",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "class": "action",
+      "impact": 0.25,
+      "matches": [
+        "action"
+      ],
+      "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "UAE, Kuwait, Bahrain report attacks despite Iran-US ceasefire",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "class": "action",
+      "impact": 0.25,
+      "matches": [
+        "action"
+      ],
+      "link": "https://www.aljazeera.com/news/2026/4/8/uae-kuwait-bahrain-report-attacks-despite-iran-us-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "title": "Lebanon excluded from ceasefire as Israeli strikes continue",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "class": "action",
+      "impact": 0.25,
+      "matches": [
+        "action"
+      ],
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/lebanon-excluded-from-ceasefire-as-israeli-strikes-continue?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
     {
       "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
       "actors": [
@@ -23,6 +65,9 @@
       ],
       "class": "rhetoric",
       "impact": 0.062,
+      "matches": [
+        "rhetoric"
+      ],
       "link": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss",
       "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
     },
@@ -34,18 +79,10 @@
       ],
       "class": "rhetoric",
       "impact": 0.062,
-      "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
-    },
-    {
-      "title": "Israel strikes southern Lebanon after US-Iran ceasefire",
-      "actors": [
-        "iran",
-        "israel"
+      "matches": [
+        "rhetoric"
       ],
-      "class": "action",
-      "impact": 0.25,
-      "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
       "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
     },
     {
@@ -56,19 +93,47 @@
       ],
       "class": "rhetoric",
       "impact": 0.062,
+      "matches": [
+        "rhetoric"
+      ],
       "link": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
       "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
     },
     {
-      "title": "UAE, Kuwait, Bahrain report attacks despite Iran-US ceasefire",
+      "title": "Madagascar declares state of emergency over severe fuel shortages linked to Iran war",
       "actors": [
         "iran",
         "us"
       ],
-      "class": "action",
-      "impact": 0.25,
-      "link": "https://www.aljazeera.com/news/2026/4/8/uae-kuwait-bahrain-report-attacks-despite-iran-us-ceasefire?traffic_source=rss",
+      "class": "rhetoric",
+      "impact": 0.062,
+      "matches": [
+        "rhetoric"
+      ],
+      "link": "https://www.bbc.com/news/articles/cgj0dzwgzq5o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "China probes \u2018malicious\u2019 cyberbullying of teen diving champion Quan",
+      "actors": [
+        "china",
+        "taiwan"
+      ],
+      "class": "rhetoric",
+      "impact": 0.062,
+      "matches": [
+        "rhetoric"
+      ],
+      "link": "https://www.aljazeera.com/sports/2026/4/8/china-probes-malicious-cyberbullying-of-teen-diving-champion-quan?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml"
     }
-  ]
+  ],
+  "debug": {
+    "event_count": 30,
+    "classified_count": 11,
+    "paired_count": 11,
+    "valid_pair_updates": 3,
+    "top_driver_count": 11,
+    "total_signal": 1.4563
+  }
 }
