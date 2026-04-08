@@ -4986,5 +4986,61 @@
     },
     "event_count": 0,
     "classified_count": 0
+  },
+  {
+    "ts": "2026-04-08 21:39:13 UTC",
+    "probability": 11.46,
+    "uncertainty": 18.0,
+    "state": {
+      "us_russia": 3.241768403239365,
+      "us_china": 3.092763417009917,
+      "china_taiwan": 4.018552683437861,
+      "india_pakistan": 4.500000000052928,
+      "china_india": 2.8000000000299927,
+      "iran_us": 2.902277615072331,
+      "iran_israel": 3.962569351674608,
+      "nk_us": 3.00000000006175,
+      "nk_sk": 2.8000000000564573,
+      "nk_japan": 2.6000000000511645,
+      "russia_ukraine": 5.41744840320202
+    },
+    "drop_reasons": {
+      "missing_title": 0,
+      "no_actor": 0,
+      "no_signal": 0,
+      "invalid_pair": 0,
+      "low_confidence": 0,
+      "classifier_error": 0
+    },
+    "event_count": 0,
+    "classified_count": 0
+  },
+  {
+    "ts": "2026-04-08 21:39:42 UTC",
+    "probability": 11.43,
+    "uncertainty": 6.02,
+    "state": {
+      "us_russia": 3.3044663287107676,
+      "us_china": 3.2313828174053287,
+      "china_taiwan": 4.046276563511562,
+      "india_pakistan": 4.500000000044989,
+      "china_india": 2.8000000000254937,
+      "iran_us": 1.9919359728114814,
+      "iran_israel": 3.318778983101738,
+      "nk_us": 3.000000000052488,
+      "nk_sk": 2.8000000000479885,
+      "nk_japan": 2.6000000000434897,
+      "russia_ukraine": 6.044077462170188
+    },
+    "drop_reasons": {
+      "missing_title": 0,
+      "no_actor": 92,
+      "no_signal": 46,
+      "invalid_pair": 47,
+      "low_confidence": 0,
+      "classifier_error": 0
+    },
+    "event_count": 236,
+    "classified_count": 51
   }
 ]
