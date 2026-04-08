@@ -11,17 +11,20 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
         run: pip install feedparser
 
-      - name: Run script
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
+
+      - name: Run risk pipeline
         run: python risk.py
 
       - name: Write build info
@@ -29,14 +32,16 @@ jobs:
           python - <<'PY'
           import json
           from datetime import datetime, timezone
+
           payload = {
             "built_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
             "run_id": "${{ github.run_id }}",
             "run_number": "${{ github.run_number }}",
             "sha": "${{ github.sha }}"
           }
-          with open("build_info.json", "w") as f:
-            json.dump(payload, f, indent=2)
+
+          with open("build_info.json", "w", encoding="utf-8") as file_obj:
+            json.dump(payload, file_obj, indent=2)
           PY
 
       - name: Commit and push
@@ -44,7 +49,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add risk.json history.json history_log.json build_info.json
-
+          git add risk.json history_log.json build_info.json
           git commit -m "update risk" || exit 0
           git push
