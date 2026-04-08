@@ -1,0 +1,38 @@
+{
+  "total": 3,
+  "dropped": 0,
+  "pair_accuracy": 1.0,
+  "direction_accuracy": 0.667,
+  "rows": [
+    {
+      "title": "US and China hold emergency military hotline talks after naval standoff",
+      "ok": true,
+      "pred_state_key": "us_china",
+      "expected_state_key": "us_china",
+      "pred_direction": "down",
+      "expected_direction": "down_or_flat",
+      "pair_ok": true,
+      "direction_ok": false
+    },
+    {
+      "title": "Russia launches missile strike in Ukraine",
+      "ok": true,
+      "pred_state_key": "russia_ukraine",
+      "expected_state_key": "russia_ukraine",
+      "pred_direction": "up",
+      "expected_direction": "up",
+      "pair_ok": true,
+      "direction_ok": true
+    },
+    {
+      "title": "Iran and Israel agree to temporary ceasefire",
+      "ok": true,
+      "pred_state_key": "iran_israel",
+      "expected_state_key": "iran_israel",
+      "pred_direction": "down",
+      "expected_direction": "down",
+      "pair_ok": true,
+      "direction_ok": true
+    }
+  ]
+}

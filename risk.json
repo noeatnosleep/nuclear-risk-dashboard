@@ -1,88 +1,43 @@
 {
-  "last_updated": "2026-04-08 12:27:10 UTC",
-  "probability": 84.99,
+  "last_updated": "2026-04-08 14:24:41 UTC",
+  "probability": 79.65,
+  "uncertainty": 6.06,
   "state": {
-    "us_russia": 6.5,
-    "us_china": 5.5,
-    "china_taiwan": 6.667167784975219,
+    "us_russia": 6.72491223392608,
+    "us_china": 5.711715077738988,
+    "china_taiwan": 6.575827257396399,
     "india_pakistan": 7.5,
     "china_india": 4.5,
-    "iran_us": 8.896134273221245,
-    "iran_israel": 10,
+    "iran_us": 4.27061218588477,
+    "iran_israel": 5.46715642645246,
     "nk_us": 6.5,
     "nk_sk": 6.0,
     "nk_japan": 5.5,
-    "russia_ukraine": 8.179301426369918
+    "russia_ukraine": 9.12641350027546
   },
   "top_drivers": [
     {
-      "title": "Israel strikes southern Lebanon after US-Iran ceasefire",
+      "title": "Cameroon 'military contractors' killed in Russia-Ukraine war - BBC confirms leaked message",
       "actors": [
-        "iran",
-        "israel"
+        "russia",
+        "ukraine"
       ],
+      "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.25,
-      "matches": [
-        "action"
-      ],
-      "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
-    },
-    {
-      "title": "UAE, Kuwait, Bahrain report attacks despite Iran-US ceasefire",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "class": "action",
-      "impact": 0.25,
-      "matches": [
-        "action"
-      ],
-      "link": "https://www.aljazeera.com/news/2026/4/8/uae-kuwait-bahrain-report-attacks-despite-iran-us-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
-    },
-    {
-      "title": "Lebanon excluded from ceasefire as Israeli strikes continue",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "class": "action",
-      "impact": 0.25,
-      "matches": [
-        "action"
-      ],
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/lebanon-excluded-from-ceasefire-as-israeli-strikes-continue?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
-    },
-    {
-      "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "class": "rhetoric",
-      "impact": 0.062,
-      "matches": [
-        "rhetoric"
-      ],
-      "link": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
-    },
-    {
-      "title": "What we know about the two-week ceasefire between the US and Iran",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "class": "rhetoric",
-      "impact": 0.062,
-      "matches": [
-        "rhetoric"
-      ],
-      "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
+      "impact": 0.929,
+      "raw_impact": 0.929,
+      "source_weight": 1.0,
+      "age_hours": 1.28,
+      "confidence": 0.84,
+      "signal_total": 1.0,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 1.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cvg0v5gy01go?at_medium=RSS&at_campaign=rss",
       "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
     },
     {
@@ -91,49 +46,183 @@
         "iran",
         "us"
       ],
-      "class": "rhetoric",
-      "impact": 0.062,
-      "matches": [
-        "rhetoric"
-      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.793,
+      "raw_impact": -0.793,
+      "source_weight": 1.0,
+      "age_hours": 0.14,
+      "confidence": 0.88,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
       "link": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
       "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
     },
     {
-      "title": "Madagascar declares state of emergency over severe fuel shortages linked to Iran war",
+      "title": "\u2018Stone Age\u2019 to \u2018Golden Age\u2019: How the final hours before the truce unfolded",
       "actors": [
         "iran",
         "us"
       ],
-      "class": "rhetoric",
-      "impact": 0.062,
-      "matches": [
-        "rhetoric"
-      ],
-      "link": "https://www.bbc.com/news/articles/cgj0dzwgzq5o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.736,
+      "raw_impact": -0.775,
+      "source_weight": 0.95,
+      "age_hours": 0.56,
+      "confidence": 0.875,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/stone-age-to-golden-age-how-the-final-hours-before-the-truce-unfolded?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
     },
     {
-      "title": "China probes \u2018malicious\u2019 cyberbullying of teen diving champion Quan",
+      "title": "Defeat from the jaws of victory: Israel reacts to Trump\u2019s Iran ceasefire",
       "actors": [
-        "china",
-        "taiwan"
+        "iran",
+        "israel"
       ],
-      "class": "rhetoric",
-      "impact": 0.062,
-      "matches": [
-        "rhetoric"
+      "state_key": "iran_israel",
+      "class": "deescalation",
+      "impact": -0.724,
+      "raw_impact": -0.762,
+      "source_weight": 0.95,
+      "age_hours": 0.83,
+      "confidence": 0.875,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/defeat-from-the-jaws-of-victory-israel-reacts-to-trumps-iran-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "title": "US-Iran ceasefire deal: What are the terms, and what\u2019s next?",
+      "actors": [
+        "iran",
+        "us"
       ],
-      "link": "https://www.aljazeera.com/sports/2026/4/8/china-probes-malicious-cyberbullying-of-teen-diving-champion-quan?traffic_source=rss",
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.567,
+      "raw_impact": -0.597,
+      "source_weight": 0.95,
+      "age_hours": 5.07,
+      "confidence": 0.875,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "title": "GCC, other Middle East nations react to Iran-US ceasefire announcement",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.537,
+      "raw_impact": -0.566,
+      "source_weight": 0.95,
+      "age_hours": 6.0,
+      "confidence": 0.875,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/gulf-arab-nations-react-to-iran-us-ceasefire-announcement?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "title": "Tehran celebrates as Iran, US agree to two-week ceasefire",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.536,
+      "raw_impact": -0.564,
+      "source_weight": 0.95,
+      "age_hours": 6.06,
+      "confidence": 0.875,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/gallery/2026/4/8/tehran-celebrates-as-iran-us-agree-to-two-week-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+    },
+    {
+      "title": "US-Israeli war on Iran: What is happening on day 40?",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.497,
+      "raw_impact": -0.523,
+      "source_weight": 0.95,
+      "age_hours": 7.36,
+      "confidence": 0.805,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/iran-war-what-is-happening-on-day-40-of-us-israeli-attacks?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml"
     }
   ],
   "debug": {
-    "event_count": 30,
-    "classified_count": 11,
-    "paired_count": 11,
-    "valid_pair_updates": 3,
-    "top_driver_count": 11,
-    "total_signal": 1.4563
+    "event_count": 60,
+    "classified_count": 15,
+    "paired_count": 15,
+    "valid_pair_updates": 6,
+    "top_driver_count": 15,
+    "total_signal": 6.2154,
+    "drop_reasons": {
+      "missing_title": 0,
+      "no_actor": 26,
+      "no_signal": 14,
+      "invalid_pair": 5,
+      "low_confidence": 0,
+      "classifier_error": 0
+    }
   }
 }
