@@ -262,7 +262,7 @@ function renderRiskChart() {
       maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: {
-        y: { beginAtZero: true, max: 100 },
+        y: { beginAtZero: true, max: 100, ticks: { callback: (value) => `${value}%` } },
         x: { ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 12 } }
       }
     }
@@ -311,7 +311,7 @@ function renderStateChart() {
       maintainAspectRatio: false,
       plugins: { legend: { display: true } },
       scales: {
-        y: { beginAtZero: true, max: 10 },
+        y: { beginAtZero: true, max: 10, ticks: { callback: (value) => `${value}%` } },
         x: { ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 12 } }
       }
     }
@@ -439,7 +439,7 @@ async function load() {
     riskEl.className = `risk ${fixedBand(probability)}`;
 
     document.getElementById("updated").innerText = risk.last_updated || "n/a";
-    document.getElementById("submeta").innerText = `Uncertainty: ±${uncertainty.toFixed(2)} | Driver sort: configurable below`;
+    document.getElementById("submeta").innerText = `Uncertainty: ±${uncertainty.toFixed(2)}%`;
 
     document.getElementById("build").innerText = build
       ? `Build: ${build.built_at_utc || "n/a"} | run #${build.run_number || "n/a"} | sha ${String(build.sha || "").slice(0, 7)}`
