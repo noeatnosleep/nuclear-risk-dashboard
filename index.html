@@ -46,6 +46,16 @@ h1 { text-align: center; }
     height: 260px;
     position: relative;
 }
+.controls {
+    background: #111827;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 8px;
+}
+.controls label {
+    font-size: 0.85rem;
+    color: #cbd5e1;
+}
 canvas {
     width: 100% !important;
     height: 100% !important;
@@ -84,6 +94,16 @@ canvas {
 <div id="risk" class="risk">--%</div>
 <div id="updated" class="updated"></div>
 <div id="submeta" class="submeta"></div>
+
+<div class="controls">
+  <label for="bandMode">Risk color mode: </label>
+  <select id="bandMode">
+    <option value="relative">Relative to recent history (default)</option>
+    <option value="absolute">Fixed thresholds (low/medium/high)</option>
+  </select>
+  <button id="resetPrefs" type="button">Reset preferences</button>
+</div>
+
 <div class="section">
     <h2>Trend</h2>
     <div class="chart-container">
@@ -105,6 +125,9 @@ canvas {
 </div>
 </div>
 <script>
+window.__riskChart = null;
+const STORAGE_KEY = "nuclear-risk-dashboard:band-mode";
+
 function getHistoryRows(historyPayload) {
     if (Array.isArray(historyPayload)) return historyPayload;
     if (historyPayload && Array.isArray(historyPayload.entries)) return historyPayload.entries;
@@ -118,11 +141,11 @@ function percentile(sortedValues, p) {
     return sortedValues[idx];
 }
 
-function getRiskBand(probability, values) {
-    if (values.length < 5) {
-        if (probability < 40) return { band: "low", label: "absolute threshold" };
-        if (probability < 70) return { band: "medium", label: "absolute threshold" };
-        return { band: "high", label: "absolute threshold" };
+function getRiskBand(probability, values, mode) {
+    if (mode === "absolute" || values.length < 5) {
+        if (probability < 40) return { band: "low", label: "fixed thresholds" };
+        if (probability < 70) return { band: "medium", label: "fixed thresholds" };
+        return { band: "high", label: "fixed thresholds" };
     }
 
     const sorted = [...values].sort((a, b) => a - b);
@@ -132,6 +155,42 @@ function getRiskBand(probability, values) {
     if (probability <= p33) return { band: "low", label: "relative to recent history" };
     if (probability <= p66) return { band: "medium", label: "relative to recent history" };
     return { band: "high", label: "relative to recent history" };
+}
+
+function getBandMode() {
+    return localStorage.getItem(STORAGE_KEY) || "relative";
+}
+
+function setBandMode(mode) {
+    localStorage.setItem(STORAGE_KEY, mode);
+}
+
+function resetPreferences() {
+    localStorage.removeItem(STORAGE_KEY);
+}
+
+function renderChart(labels, values) {
+    const chartCanvas = document.getElementById("chart");
+    if (window.__riskChart) {
+        window.__riskChart.destroy();
+    }
+
+    window.__riskChart = new Chart(chartCanvas, {
+        type: "line",
+        data: {
+            labels,
+            datasets: [{
+                data: values,
+                borderWidth: 2,
+                tension: 0.35,
+            }],
+        },
+        options: {
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: { y: { beginAtZero: true, max: 100 } },
+        },
+    });
 }
 
 async function load() {
@@ -144,15 +203,18 @@ async function load() {
         const rows = getHistoryRows(historyPayload);
         const values = rows.map(x => Number(x.probability ?? x.p ?? 0));
 
+        const mode = getBandMode();
+        document.getElementById("bandMode").value = mode;
+
         const probability = Number(risk.probability || 0);
-        const band = getRiskBand(probability, values);
+        const band = getRiskBand(probability, values, mode);
 
         const riskEl = document.getElementById("risk");
         riskEl.innerText = probability.toFixed(2) + "%";
         riskEl.className = "risk " + band.band;
 
         document.getElementById("updated").innerText = risk.last_updated || "n/a";
-        document.getElementById("submeta").innerText = `Banding: ${band.label} | Trend points: ${rows.length}`;
+        document.getElementById("submeta").innerText = `Color mode: ${band.label} | Trend points: ${rows.length}`;
 
         const driversEl = document.getElementById("drivers");
         driversEl.innerHTML = "";
@@ -166,31 +228,17 @@ async function load() {
                     <div class="card">
                         <a href="${driver.link}" target="_blank" rel="noopener noreferrer">${driver.title}</a>
                         <div class="meta">
-                            ${driver.source || "n/a"} | actors: [${(driver.actors || []).join(", ")}] | class: ${driver.class} | impact: ${driver.impact}
+                            ${driver.source || "n/a"} | actors: [${(driver.actors || []).join(", ")}] | class: ${driver.class} | impact: ${driver.impact} | confidence: ${driver.confidence ?? "n/a"}
                         </div>
                     </div>`;
             });
         }
 
         const labels = rows.map(x => (x.ts || x.t || "").slice(11, 16));
-        new Chart(document.getElementById("chart"), {
-            type: "line",
-            data: {
-                labels,
-                datasets: [{
-                    data: values,
-                    borderWidth: 2,
-                    tension: 0.35,
-                }],
-            },
-            options: {
-                maintainAspectRatio: false,
-                plugins: { legend: { display: false } },
-                scales: { y: { beginAtZero: true, max: 100 } },
-            },
-        });
+        renderChart(labels, values);
 
         const debug = risk.debug || {};
+        const drops = debug.drop_reasons || {};
         document.getElementById("debug").innerHTML = `
             <div class="meta">event_count: ${debug.event_count ?? "n/a"}</div>
             <div class="meta">classified_count: ${debug.classified_count ?? "n/a"}</div>
@@ -198,6 +246,12 @@ async function load() {
             <div class="meta">valid_pair_updates: ${debug.valid_pair_updates ?? "n/a"}</div>
             <div class="meta">top_driver_count: ${debug.top_driver_count ?? "n/a"}</div>
             <div class="meta">total_signal: ${debug.total_signal ?? "n/a"}</div>
+            <div class="meta">drop_missing_title: ${drops.missing_title ?? 0}</div>
+            <div class="meta">drop_no_actor: ${drops.no_actor ?? 0}</div>
+            <div class="meta">drop_no_signal: ${drops.no_signal ?? 0}</div>
+            <div class="meta">drop_invalid_pair: ${drops.invalid_pair ?? 0}</div>
+            <div class="meta">drop_low_confidence: ${drops.low_confidence ?? 0}</div>
+            <div class="meta">drop_classifier_error: ${drops.classifier_error ?? 0}</div>
         `;
 
         document.getElementById("build").innerText = build
@@ -213,6 +267,16 @@ async function load() {
         document.getElementById("build").innerText = "Build: load failed";
     }
 }
+
+document.getElementById("bandMode").addEventListener("change", (event) => {
+    setBandMode(event.target.value);
+    load();
+});
+
+document.getElementById("resetPrefs").addEventListener("click", () => {
+    resetPreferences();
+    load();
+});
 
 load();
 </script>

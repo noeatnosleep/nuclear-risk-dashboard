@@ -42,13 +42,7 @@ def load_history():
         return data["entries"]
 
     if isinstance(data, dict) and isinstance(data.get("data"), list):
-        return [
-            {
-                "ts": point.get("t", ""),
-                "probability": point.get("p", 0),
-            }
-            for point in data["data"]
-        ]
+        return [{"ts": point.get("t", ""), "probability": point.get("p", 0)} for point in data["data"]]
 
     if isinstance(data, list):
         return data
@@ -94,6 +88,15 @@ def decay_toward_baseline(current, baseline, multiplier=1.0):
 def apply_event_impacts(state, events):
     updates = {key: 0.0 for key in state}
     top_drivers = []
+    debug_drops = {
+        "missing_title": 0,
+        "no_actor": 0,
+        "no_signal": 0,
+        "invalid_pair": 0,
+        "low_confidence": 0,
+        "classifier_error": 0,
+    }
+
     classified_count = 0
     paired_count = 0
 
@@ -101,38 +104,45 @@ def apply_event_impacts(state, events):
         try:
             classified = classify_event(event)
         except Exception:
+            debug_drops["classifier_error"] += 1
             continue
 
-        if not classified:
+        if not classified.get("ok"):
+            reason = classified.get("reason", "classifier_error")
+            debug_drops[reason] = debug_drops.get(reason, 0) + 1
             continue
 
         classified_count += 1
-        actors = classified["actors"]
-        pair = "_".join(sorted(actors))
+        state_key = classified["state_key"]
 
-        if pair not in updates:
+        if state_key not in updates:
+            debug_drops["invalid_pair"] += 1
             continue
 
         paired_count += 1
         source_weight = float(event.get("source_weight", 1.0))
         impact = classified["impact"] * source_weight
-        updates[pair] += impact
+        updates[state_key] += impact
 
         top_drivers.append(
             {
                 "title": event.get("title"),
-                "actors": actors,
+                "actors": classified["actors"],
+                "state_key": state_key,
                 "class": classified["class"],
                 "impact": round(impact, 3),
                 "raw_impact": round(classified["impact"], 3),
                 "source_weight": source_weight,
                 "age_hours": classified.get("age_hours"),
+                "confidence": classified.get("confidence"),
+                "signal_total": classified.get("signal_total"),
+                "signal_components": classified.get("signal_components"),
                 "link": event.get("link"),
                 "source": event.get("source"),
             }
         )
 
-    return updates, top_drivers, classified_count, paired_count
+    return updates, top_drivers, classified_count, paired_count, debug_drops
 
 
 COUPLING_RULES = {
@@ -172,7 +182,7 @@ def compute_probability(state):
 def run(events):
     previous_state = load_previous_state()
 
-    updates, top_drivers, classified_count, paired_count = apply_event_impacts(previous_state, events)
+    updates, top_drivers, classified_count, paired_count, debug_drops = apply_event_impacts(previous_state, events)
     coupled_updates = apply_cross_state_coupling(updates)
 
     total_signal = sum(abs(value) for value in coupled_updates.values())
@@ -193,6 +203,7 @@ def run(events):
         "valid_pair_updates": non_zero_updates,
         "top_driver_count": len(top_drivers),
         "total_signal": round(total_signal, 4),
+        "drop_reasons": debug_drops,
     }
 
     save_state(probability, state, top_drivers, debug)

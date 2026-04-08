@@ -1,18 +1,18 @@
 {
-  "last_updated": "2026-04-08 13:34:44 UTC",
-  "probability": 79.48,
+  "last_updated": "2026-04-08 13:46:59 UTC",
+  "probability": 77.92,
   "state": {
     "us_russia": 6.5,
-    "us_china": 5.5,
-    "china_taiwan": 6.555504928605052,
+    "us_china": 5.603353820785037,
+    "china_taiwan": 6.551838802476774,
     "india_pakistan": 7.5,
     "china_india": 4.5,
-    "iran_us": 5.711607082905491,
-    "iran_israel": 6.74609375,
+    "iran_us": 4.004545358359069,
+    "iran_israel": 6.787344437922276,
     "nk_us": 6.5,
     "nk_sk": 6.0,
     "nk_japan": 5.5,
-    "russia_ukraine": 8.059533676724387
+    "russia_ukraine": 8.01680198493491
   },
   "top_drivers": [
     {
@@ -21,41 +21,23 @@
         "iran",
         "us"
       ],
+      "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.756,
-      "raw_impact": -0.756,
+      "impact": -0.747,
+      "raw_impact": -0.747,
       "source_weight": 1.0,
-      "age_hours": 0.98,
+      "age_hours": 1.18,
+      "confidence": 0.9,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
       "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
       "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
-    },
-    {
-      "title": "UAE, Kuwait, Bahrain report attacks despite Iran-US ceasefire",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "class": "deescalation",
-      "impact": -0.644,
-      "raw_impact": -0.678,
-      "source_weight": 0.95,
-      "age_hours": 2.85,
-      "link": "https://www.aljazeera.com/news/2026/4/8/uae-kuwait-bahrain-report-attacks-despite-iran-us-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
-    },
-    {
-      "title": "Lebanon excluded from ceasefire as Israeli strikes continue",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "class": "deescalation",
-      "impact": -0.6,
-      "raw_impact": -0.632,
-      "source_weight": 0.95,
-      "age_hours": 4.09,
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/lebanon-excluded-from-ceasefire-as-israeli-strikes-continue?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
     },
     {
       "title": "US-Iran ceasefire deal: What are the terms, and what\u2019s next?",
@@ -63,11 +45,21 @@
         "iran",
         "us"
       ],
+      "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.595,
-      "raw_impact": -0.626,
+      "impact": -0.588,
+      "raw_impact": -0.619,
       "source_weight": 0.95,
-      "age_hours": 4.24,
+      "age_hours": 4.44,
+      "confidence": 0.895,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
       "link": "https://www.aljazeera.com/news/2026/4/8/us-iran-ceasefire-deal-what-are-the-terms-and-whats-next?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml"
     },
@@ -77,11 +69,21 @@
         "iran",
         "us"
       ],
+      "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.588,
-      "raw_impact": -0.588,
+      "impact": -0.581,
+      "raw_impact": -0.581,
       "source_weight": 1.0,
-      "age_hours": 5.32,
+      "age_hours": 5.52,
+      "confidence": 0.9,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
       "link": "https://www.bbc.com/news/articles/c8r40y3rv75o?at_medium=RSS&at_campaign=rss",
       "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
     },
@@ -91,11 +93,21 @@
         "iran",
         "us"
       ],
+      "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.564,
-      "raw_impact": -0.593,
+      "impact": -0.557,
+      "raw_impact": -0.586,
       "source_weight": 0.95,
-      "age_hours": 5.17,
+      "age_hours": 5.37,
+      "confidence": 0.895,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
       "link": "https://www.aljazeera.com/news/2026/4/8/gulf-arab-nations-react-to-iran-us-ceasefire-announcement?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml"
     },
@@ -105,35 +117,111 @@
         "iran",
         "us"
       ],
+      "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.562,
-      "raw_impact": -0.591,
+      "impact": -0.555,
+      "raw_impact": -0.585,
       "source_weight": 0.95,
-      "age_hours": 5.23,
+      "age_hours": 5.43,
+      "confidence": 0.895,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
       "link": "https://www.aljazeera.com/gallery/2026/4/8/tehran-celebrates-as-iran-us-agree-to-two-week-ceasefire?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml"
     },
     {
-      "title": "Iran war live: Israel\u2019s biggest Lebanon attack, despite US-Iran ceasefire",
+      "title": "How Pakistan helped secure a fragile ceasefire between the US and Iran",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.483,
+      "raw_impact": -0.483,
+      "source_weight": 1.0,
+      "age_hours": 8.72,
+      "confidence": 0.9,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cj401qvgg19o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.442,
+      "raw_impact": -0.442,
+      "source_weight": 1.0,
+      "age_hours": 10.27,
+      "confidence": 0.6,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "WHO suspends Gaza medical evacuations after contractor killed by Israeli troops",
       "actors": [
         "iran",
         "israel"
       ],
-      "class": "deescalation",
-      "impact": -0.52,
-      "raw_impact": -0.547,
-      "source_weight": 0.95,
-      "age_hours": 6.58,
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/8/iran-war-live-trump-announces-truce-tehran-agrees-safe-transit-in-hormuz?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml"
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.403,
+      "raw_impact": 0.403,
+      "source_weight": 1.0,
+      "age_hours": 23.86,
+      "confidence": 0.7,
+      "signal_total": 1.6,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 1.0,
+        "movement": 0.6,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c4g8pzpw2g2o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml"
     }
   ],
   "debug": {
     "event_count": 60,
-    "classified_count": 17,
-    "paired_count": 17,
-    "valid_pair_updates": 2,
-    "top_driver_count": 17,
-    "total_signal": 6.4326
+    "classified_count": 16,
+    "paired_count": 16,
+    "valid_pair_updates": 4,
+    "top_driver_count": 16,
+    "total_signal": 3.3098,
+    "drop_reasons": {
+      "missing_title": 0,
+      "no_actor": 33,
+      "no_signal": 11,
+      "invalid_pair": 0,
+      "low_confidence": 0,
+      "classifier_error": 0
+    }
   }
 }
