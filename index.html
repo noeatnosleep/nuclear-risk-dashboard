@@ -1,87 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <title>Nuclear Risk Dashboard</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <style>
-body { font-family: system-ui; background: #0b1220; color: #e5e7eb; margin: 0; }
+:root {
+  --bg: #f4f7fb;
+  --text: #0f172a;
+  --muted: #475569;
+  --card: #ffffff;
+  --border: #d7dfeb;
+  --link: #2563eb;
+  --low: #16a34a;
+  --medium: #d97706;
+  --high: #dc2626;
+}
+html[data-theme="dark"] {
+  --bg: #0b1220;
+  --text: #e5e7eb;
+  --muted: #a5b4c7;
+  --card: #162033;
+  --border: #2a3950;
+  --link: #60a5fa;
+  --low: #22c55e;
+  --medium: #f59e0b;
+  --high: #ef4444;
+}
+body { font-family: system-ui; background: var(--bg); color: var(--text); margin: 0; transition: background .2s ease, color .2s ease; }
 .container { max-width: 980px; margin: auto; padding: 24px; }
-h1 { text-align: center; }
-.risk { text-align: center; font-size: 4.5rem; font-weight: 700; margin: 10px 0; }
-.low { color: #22c55e; }
-.medium { color: #f59e0b; }
-.high { color: #ef4444; }
-.updated, .submeta { text-align: center; color: #94a3b8; }
-.submeta { font-size: 0.9rem; margin-bottom: 18px; }
-.section { margin-top: 34px; }
-.chart-container { background: #111827; border-radius: 12px; padding: 14px; height: 270px; position: relative; }
-.mode-switch {
-  text-align: center;
-  margin-top: 8px;
-  font-size: 0.8rem;
-  color: #94a3b8;
-}
-.mode-switch button {
-  background: transparent;
-  color: #94a3b8;
-  border: none;
-  margin: 0 8px;
-  cursor: pointer;
-}
-.mode-switch button.active { color: #e5e7eb; text-decoration: underline; }
-.driver-controls { margin-bottom: 10px; font-size: 0.85rem; color: #94a3b8; }
-.driver-controls select { background: #0f172a; color: #e5e7eb; border: 1px solid #243247; border-radius: 6px; padding: 3px 6px; }
-.card { background: #162033; border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; border: 1px solid #243247; }
-.card a { color: #60a5fa; text-decoration: none; }
-.meta { font-size: 0.8rem; color: #94a3b8; margin-top: 6px; }
-.footer { margin-top: 40px; text-align: center; font-size: 0.85rem; color: #64748b; }
-.build { margin-top: 12px; font-size: 0.75rem; color: #64748b; }
+.header-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+h1 { margin: 0; }
+.toggle-btn { background: transparent; color: var(--muted); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; cursor: pointer; }
+.risk { text-align: center; font-size: 4.2rem; font-weight: 700; margin: 14px 0 10px; }
+.low { color: var(--low); }
+.medium { color: var(--medium); }
+.high { color: var(--high); }
+.updated, .submeta { text-align: center; color: var(--muted); }
+.submeta { font-size: 0.95rem; margin-bottom: 18px; }
+.section { margin-top: 38px; }
+.chart-container { background: var(--card); border-radius: 12px; padding: 16px; height: 280px; border: 1px solid var(--border); }
+.mode-switch { text-align: center; margin-top: 9px; font-size: 0.82rem; color: var(--muted); }
+.mode-switch button { background: transparent; color: var(--muted); border: none; margin: 0 8px; cursor: pointer; }
+.mode-switch button.active { color: var(--text); text-decoration: underline; }
+.driver-controls { margin-bottom: 10px; font-size: 0.88rem; color: var(--muted); }
+.driver-controls select { background: var(--card); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 3px 7px; }
+.card { background: var(--card); border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; border: 1px solid var(--border); }
+.card a { color: var(--link); text-decoration: none; }
+.meta { font-size: 0.84rem; color: var(--muted); margin-top: 7px; }
+.footer { margin-top: 42px; text-align: center; font-size: 0.9rem; color: var(--muted); }
+.build { margin-top: 10px; font-size: 0.8rem; }
 canvas { width: 100% !important; height: 100% !important; }
+@media (max-width: 640px) {
+  .risk { font-size: 3.2rem; }
+  .container { padding: 16px; }
+}
 </style>
 </head>
 <body>
 <div class="container">
-<h1>Global Nuclear Risk</h1>
-<div id="risk" class="risk">--%</div>
-<div id="updated" class="updated"></div>
-<div id="submeta" class="submeta"></div>
-
-<div class="section">
-  <h2>Risk Trend</h2>
-  <div class="chart-container"><canvas id="riskChart"></canvas></div>
-  <div class="mode-switch" id="timeModeSwitch">
-    <button data-mode="years">years</button> |
-    <button data-mode="days" class="active">days</button> |
-    <button data-mode="hours">hours</button>
+  <div class="header-row">
+    <h1>Global Nuclear Risk</h1>
+    <button id="themeToggle" class="toggle-btn" type="button">Toggle light/dark</button>
   </div>
-</div>
 
-<div class="section">
-  <h2>Risk Vectors (State Levels Over Time)</h2>
-  <div class="chart-container"><canvas id="stateChart"></canvas></div>
-</div>
+  <div id="risk" class="risk">--%</div>
+  <div id="updated" class="updated"></div>
+  <div id="submeta" class="submeta"></div>
 
-<div class="section">
-  <h2>Top Drivers</h2>
-  <div class="driver-controls">
-    sort by:
-    <select id="driverSort">
-      <option value="severity">severity</option>
-      <option value="chronological">chronological</option>
-      <option value="confidence">confidence</option>
-      <option value="source_weight">source weight</option>
-    </select>
+  <div class="section">
+    <h2>Risk Trend</h2>
+    <div class="chart-container"><canvas id="riskChart"></canvas></div>
+    <div class="mode-switch" id="timeModeSwitch">
+      <button data-mode="years">years</button> |
+      <button data-mode="days" class="active">days</button> |
+      <button data-mode="hours">hours</button>
+    </div>
   </div>
-  <div id="drivers"></div>
-</div>
 
-<div class="footer">
-  Signal-based model using global news inputs. Not predictive financial/safety advice.<br><br>
-  Contact: <a href="mailto:noeatnosleep@pm.me" style="color:#60a5fa;">noeatnosleep@pm.me</a>
-  <div id="build" class="build">Build: loading...</div>
-</div>
+  <div class="section">
+    <h2>Risk Vectors (State Levels Over Time)</h2>
+    <div class="chart-container"><canvas id="stateChart"></canvas></div>
+  </div>
+
+  <div class="section">
+    <h2>Top Drivers</h2>
+    <div class="driver-controls">
+      sort by:
+      <select id="driverSort">
+        <option value="severity">severity</option>
+        <option value="chronological">chronological</option>
+        <option value="confidence">confidence</option>
+        <option value="source_weight">source weight</option>
+      </select>
+    </div>
+    <div id="drivers"></div>
+  </div>
+
+  <div class="footer">
+    Signal-based model using global news inputs. Not predictive financial/safety advice.<br><br>
+    Contact: <a href="mailto:noeatnosleep@pm.me" style="color:var(--link);">noeatnosleep@pm.me</a>
+    <div id="build" class="build">Build: loading...</div>
+  </div>
 </div>
 
 <script>
@@ -91,6 +112,7 @@ window.__riskPayload = null;
 window.__historyRows = [];
 window.__diagnosticsRows = [];
 window.__timeMode = "days";
+const THEME_KEY = "nuclear-risk-theme";
 
 function getHistoryRows(payload) {
   if (Array.isArray(payload)) return payload;
@@ -106,7 +128,7 @@ function parseUtc(ts) {
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
-function formatLabel(ts, mode) {
+function bucketKey(ts, mode) {
   const d = parseUtc(ts);
   if (!d) return "";
   const y = d.getUTCFullYear();
@@ -115,8 +137,26 @@ function formatLabel(ts, mode) {
   const hh = String(d.getUTCHours()).padStart(2, "0");
 
   if (mode === "years") return `${y}-${m}`;
-  if (mode === "hours") return `${m}-${day} ${hh}:00`;
-  return `${m}-${day}`;
+  if (mode === "hours") return `${y}-${m}-${day} ${hh}:00`;
+  return `${y}-${m}-${day}`;
+}
+
+function bucketRows(rows, mode, valueGetter) {
+  const map = new Map();
+  rows.forEach(row => {
+    const ts = row.ts || row.t || "";
+    const key = bucketKey(ts, mode);
+    if (!key) return;
+    const value = valueGetter(row);
+    if (value === null || Number.isNaN(value)) return;
+    if (!map.has(key)) map.set(key, []);
+    map.get(key).push(value);
+  });
+
+  return [...map.entries()].map(([key, vals]) => ({
+    key,
+    value: vals.reduce((a, b) => a + b, 0) / vals.length
+  }));
 }
 
 function fixedBand(probability) {
@@ -126,8 +166,9 @@ function fixedBand(probability) {
 }
 
 function renderRiskChart() {
-  const labels = window.__historyRows.map(x => formatLabel(x.ts || x.t || "", window.__timeMode));
-  const values = window.__historyRows.map(x => Number(x.probability ?? x.p ?? 0));
+  const points = bucketRows(window.__historyRows, window.__timeMode, x => Number(x.probability ?? x.p ?? NaN));
+  const labels = points.map(x => x.key);
+  const values = points.map(x => x.value);
 
   const canvas = document.getElementById("riskChart");
   if (window.__riskChart) window.__riskChart.destroy();
@@ -152,23 +193,36 @@ function renderStateChart() {
   const rows = Array.isArray(window.__diagnosticsRows) ? window.__diagnosticsRows : [];
   if (!rows.length) return;
 
-  const labels = rows.map(x => formatLabel(x.ts || "", window.__timeMode));
   const latestState = rows[rows.length - 1].state || {};
   const keys = pickTopStates(latestState);
 
-  const datasets = keys.map((key, idx) => ({
-    label: key,
-    data: rows.map(r => Number((r.state || {})[key] ?? null)),
-    borderWidth: 2,
-    tension: 0.25,
-    hidden: false
-  }));
+  const labelSet = [];
+  const labelIndex = new Map();
+  rows.forEach(r => {
+    const k = bucketKey(r.ts || "", window.__timeMode);
+    if (k && !labelIndex.has(k)) {
+      labelIndex.set(k, labelSet.length);
+      labelSet.push(k);
+    }
+  });
+
+  const datasets = keys.map(key => {
+    const data = new Array(labelSet.length).fill(null);
+    rows.forEach(r => {
+      const bucket = bucketKey(r.ts || "", window.__timeMode);
+      if (!labelIndex.has(bucket)) return;
+      const idx = labelIndex.get(bucket);
+      const v = Number((r.state || {})[key]);
+      if (!Number.isNaN(v)) data[idx] = v;
+    });
+    return { label: key, data, borderWidth: 2, tension: 0.25, spanGaps: false };
+  });
 
   const canvas = document.getElementById("stateChart");
   if (window.__stateChart) window.__stateChart.destroy();
   window.__stateChart = new Chart(canvas, {
     type: "line",
-    data: { labels, datasets },
+    data: { labels: labelSet, datasets },
     options: {
       maintainAspectRatio: false,
       plugins: { legend: { display: true } },
@@ -205,13 +259,7 @@ function sortDrivers(drivers, mode) {
 
 function renderDrivers() {
   const payload = window.__riskPayload || {};
-  const defaultSort = payload.driver_sort_default || "severity";
-  const available = payload.available_driver_sort || ["severity", "chronological", "confidence", "source_weight"];
-
   const sortSelect = document.getElementById("driverSort");
-  if (!available.includes(sortSelect.value)) {
-    sortSelect.value = defaultSort;
-  }
 
   const drivers = Array.isArray(payload.top_drivers) ? payload.top_drivers : [];
   const sorted = sortDrivers(drivers, sortSelect.value);
@@ -241,6 +289,11 @@ function refreshChartsAndDrivers() {
   document.querySelectorAll('#timeModeSwitch button').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.mode === window.__timeMode);
   });
+}
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem(THEME_KEY, theme);
 }
 
 async function load() {
@@ -285,6 +338,12 @@ document.querySelectorAll('#timeModeSwitch button').forEach(btn => {
 
 document.getElementById('driverSort').addEventListener('change', renderDrivers);
 
+document.getElementById('themeToggle').addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme') || 'dark';
+  applyTheme(current === 'dark' ? 'light' : 'dark');
+});
+
+applyTheme(localStorage.getItem(THEME_KEY) || 'dark');
 load();
 </script>
 </body>
