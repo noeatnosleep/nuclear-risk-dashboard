@@ -1,87 +1,21 @@
 {
-  "last_updated": "2026-04-08 22:17:07 UTC",
-  "probability": 10.92,
-  "uncertainty": 6.22,
+  "last_updated": "2026-04-08 22:23:39 UTC",
+  "probability": 10.69,
+  "uncertainty": 6.35,
   "state": {
-    "us_russia": 3.3273973184997754,
-    "us_china": 3.200286761407608,
-    "china_taiwan": 4.040057352282026,
-    "india_pakistan": 4.500000000000743,
-    "china_india": 2.8000000000004213,
-    "iran_us": 1.4618809215555455,
-    "iran_israel": 2.4825773600886265,
-    "nk_us": 3.0000000000008673,
-    "nk_sk": 2.8000000000007934,
-    "nk_japan": 2.6000000000007186,
-    "russia_ukraine": 6.273286105358771
+    "us_russia": 3.324399449921166,
+    "us_china": 3.1064072861858913,
+    "china_taiwan": 4.021281457237445,
+    "india_pakistan": 4.500000000000395,
+    "china_india": 2.8000000000002236,
+    "iran_us": 1.4172492395763836,
+    "iran_israel": 2.428244222547083,
+    "nk_us": 3.000000000000461,
+    "nk_sk": 2.8000000000004213,
+    "nk_japan": 2.6000000000003816,
+    "russia_ukraine": 6.243296876172545
   },
   "top_drivers": [
-    {
-      "title": "Iran War Live Updates: Cease-Fire Tested by Confusion Over Strait and Strikes on Lebanon",
-      "published": "Wed, 08 Apr 2026 22:11:14 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.805,
-      "raw_impact": 0.895,
-      "source_weight": 0.9,
-      "age_hours": 0.1,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/08/world/iran-war-trump-news",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/08/world/iran-war-trump-news"
-      ]
-    },
-    {
-      "title": "Has Trump Met His War Goals in Iran?",
-      "published": "Wed, 08 Apr 2026 20:59:03 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.751,
-      "raw_impact": 0.835,
-      "source_weight": 0.9,
-      "age_hours": 1.3,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/08/us/politics/trump-war-goals.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/08/us/politics/trump-war-goals.html"
-      ]
-    },
     {
       "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
       "published": "Wed, 08 Apr 2026 20:15:35 GMT",
@@ -91,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.712,
-      "raw_impact": -0.712,
+      "impact": -0.707,
+      "raw_impact": -0.707,
       "source_weight": 1.0,
-      "age_hours": 2.03,
+      "age_hours": 2.13,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -116,6 +50,72 @@
       ]
     },
     {
+      "title": "JD Vance says Iran would be \u2018dumb\u2019 to let talks collapse over Lebanon",
+      "published": "Wed, 08 Apr 2026 21:50:36 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.697,
+      "raw_impact": -0.775,
+      "source_weight": 0.9,
+      "age_hours": 0.55,
+      "confidence": 0.87,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/jd-vance-says-iran-would-be-dumb-to-let-talks-collapse-over-lebanon?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/8/jd-vance-says-iran-would-be-dumb-to-let-talks-collapse-over-lebanon?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Trump administration signals it is mulling NATO withdrawal after Iran war",
+      "published": "Wed, 08 Apr 2026 21:47:23 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.695,
+      "raw_impact": -0.773,
+      "source_weight": 0.9,
+      "age_hours": 0.6,
+      "confidence": 0.79,
+      "signal_total": -0.8,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/8/trump-administration-says-it-is-mulling-nato-withdrawal-after-iran-war?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/8/trump-administration-says-it-is-mulling-nato-withdrawal-after-iran-war?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Trump administration's claims of victory in Iran 'really quite hollow', analyst says",
       "published": "Wed, 08 Apr 2026 19:37:57 GMT",
       "actors": [
@@ -124,10 +124,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.695,
-      "raw_impact": 0.772,
+      "impact": 0.691,
+      "raw_impact": 0.767,
       "source_weight": 0.9,
-      "age_hours": 2.65,
+      "age_hours": 2.76,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -157,10 +157,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.694,
-      "raw_impact": -0.771,
+      "impact": -0.69,
+      "raw_impact": -0.767,
       "source_weight": 0.9,
-      "age_hours": 0.63,
+      "age_hours": 0.74,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -190,10 +190,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.661,
-      "raw_impact": -0.734,
+      "impact": -0.656,
+      "raw_impact": -0.729,
       "source_weight": 0.9,
-      "age_hours": 1.49,
+      "age_hours": 1.6,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -223,10 +223,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.649,
-      "raw_impact": -0.721,
+      "impact": -0.645,
+      "raw_impact": -0.717,
       "source_weight": 0.9,
-      "age_hours": 1.79,
+      "age_hours": 1.9,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -256,10 +256,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.646,
-      "raw_impact": -0.718,
+      "impact": -0.642,
+      "raw_impact": -0.713,
       "source_weight": 0.9,
-      "age_hours": 1.88,
+      "age_hours": 1.98,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -289,10 +289,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.646,
-      "raw_impact": -0.718,
+      "impact": -0.642,
+      "raw_impact": -0.713,
       "source_weight": 0.9,
-      "age_hours": 1.88,
+      "age_hours": 1.99,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -322,10 +322,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.63,
-      "raw_impact": -0.7,
+      "impact": -0.626,
+      "raw_impact": -0.695,
       "source_weight": 0.9,
-      "age_hours": 2.32,
+      "age_hours": 2.42,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -355,10 +355,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.624,
-      "raw_impact": -0.693,
+      "impact": -0.62,
+      "raw_impact": -0.689,
       "source_weight": 0.9,
-      "age_hours": 2.49,
+      "age_hours": 2.59,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -388,10 +388,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.607,
-      "raw_impact": -0.674,
+      "impact": -0.603,
+      "raw_impact": -0.67,
       "source_weight": 0.9,
-      "age_hours": 2.97,
+      "age_hours": 3.08,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -421,10 +421,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.606,
-      "raw_impact": -0.673,
+      "impact": -0.602,
+      "raw_impact": -0.669,
       "source_weight": 0.9,
-      "age_hours": 2.99,
+      "age_hours": 3.1,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -454,10 +454,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.602,
-      "raw_impact": -0.602,
+      "impact": -0.598,
+      "raw_impact": -0.598,
       "source_weight": 1.0,
-      "age_hours": 4.93,
+      "age_hours": 5.04,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -487,10 +487,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.602,
-      "raw_impact": -0.669,
+      "impact": -0.598,
+      "raw_impact": -0.665,
       "source_weight": 0.9,
-      "age_hours": 3.09,
+      "age_hours": 3.2,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -520,10 +520,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.579,
-      "raw_impact": -0.643,
+      "impact": -0.575,
+      "raw_impact": -0.639,
       "source_weight": 0.9,
-      "age_hours": 3.77,
+      "age_hours": 3.88,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -545,39 +545,6 @@
       ]
     },
     {
-      "title": "\u2018A lot of work to do\u2019 to reopen Strait of Hormuz after US-Iran ceasefire",
-      "published": "Wed, 08 Apr 2026 18:08:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.566,
-      "raw_impact": -0.629,
-      "source_weight": 0.9,
-      "age_hours": 4.15,
-      "confidence": 0.87,
-      "signal_total": -0.8,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/starmer-a-lot-of-work-to-do-to-reopen-strait-of-hormuz-after-us-iran-cea?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/8/starmer-a-lot-of-work-to-do-to-reopen-strait-of-hormuz-after-us-iran-cea?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Cameroon 'military contractors' killed in Russia-Ukraine war - BBC confirms leaked message",
       "published": "Wed, 08 Apr 2026 13:07:57 GMT",
       "actors": [
@@ -586,10 +553,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.53,
-      "raw_impact": 0.53,
+      "impact": 0.527,
+      "raw_impact": 0.527,
       "source_weight": 1.0,
-      "age_hours": 9.15,
+      "age_hours": 9.26,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -619,10 +586,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.411,
-      "raw_impact": -0.483,
+      "impact": -0.408,
+      "raw_impact": -0.48,
       "source_weight": 0.85,
-      "age_hours": 8.73,
+      "age_hours": 8.84,
       "confidence": 0.865,
       "signal_total": -0.8,
       "signal_components": {
@@ -652,10 +619,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.374,
-      "raw_impact": -0.44,
+      "impact": -0.371,
+      "raw_impact": -0.437,
       "source_weight": 0.85,
-      "age_hours": 10.36,
+      "age_hours": 10.47,
       "confidence": 0.865,
       "signal_total": -0.8,
       "signal_components": {
@@ -685,10 +652,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.369,
-      "raw_impact": 0.335,
+      "impact": 0.366,
+      "raw_impact": 0.333,
       "source_weight": 1.1,
-      "age_hours": 6.92,
+      "age_hours": 7.03,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -710,7 +677,7 @@
       ]
     },
     {
-      "title": "Trump meets NATO\u2019s Rutte as US weighs exit after allies reject Iran war",
+      "title": "Trump meets NATO\u2019s Rutte as US weighs exit over lack of Iran war support",
       "published": "Wed, 08 Apr 2026 21:51:10 GMT",
       "actors": [
         "iran",
@@ -718,10 +685,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.298,
-      "raw_impact": -0.332,
+      "impact": -0.297,
+      "raw_impact": -0.33,
       "source_weight": 0.9,
-      "age_hours": 0.43,
+      "age_hours": 0.54,
       "confidence": 0.546,
       "signal_total": -0.34,
       "signal_components": {
@@ -752,10 +719,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.271,
-      "raw_impact": -0.271,
+      "impact": -0.269,
+      "raw_impact": -0.269,
       "source_weight": 1.0,
-      "age_hours": 18.77,
+      "age_hours": 18.88,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -785,10 +752,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.253,
-      "raw_impact": 0.281,
+      "impact": 0.252,
+      "raw_impact": 0.28,
       "source_weight": 0.9,
-      "age_hours": 3.28,
+      "age_hours": 3.39,
       "confidence": 0.636,
       "signal_total": 0.34,
       "signal_components": {
@@ -819,10 +786,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.252,
-      "raw_impact": -0.28,
+      "impact": -0.25,
+      "raw_impact": -0.278,
       "source_weight": 0.9,
-      "age_hours": 3.39,
+      "age_hours": 3.5,
       "confidence": 0.626,
       "signal_total": -0.34,
       "signal_components": {
@@ -853,10 +820,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.201,
-      "raw_impact": -0.223,
+      "impact": -0.199,
+      "raw_impact": -0.222,
       "source_weight": 0.9,
-      "age_hours": 22.12,
+      "age_hours": 22.23,
       "confidence": 0.87,
       "signal_total": -0.8,
       "signal_components": {
@@ -886,10 +853,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.17,
-      "raw_impact": 0.189,
+      "impact": 0.169,
+      "raw_impact": 0.187,
       "source_weight": 0.9,
-      "age_hours": 1.02,
+      "age_hours": 1.13,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -911,105 +878,6 @@
       ]
     },
     {
-      "title": "What has the U.S. war with Iran accomplished?",
-      "published": "Wed, 08 Apr 2026 16:49:18 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.156,
-      "raw_impact": 0.184,
-      "source_weight": 0.85,
-      "age_hours": 1.46,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2
-      },
-      "link": "https://www.npr.org/2026/04/08/nx-s1-5771492/iran-war-goals-unmet-ceasefire-strait-hormuz-trump",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/08/nx-s1-5771492/iran-war-goals-unmet-ceasefire-strait-hormuz-trump"
-      ]
-    },
-    {
-      "title": "China Pressed Iran Toward Cease-Fire, Iranian Officials Say",
-      "published": "Wed, 08 Apr 2026 18:47:41 +0000",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "rhetoric",
-      "impact": 0.147,
-      "raw_impact": 0.163,
-      "source_weight": 0.9,
-      "age_hours": 3.49,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2
-      },
-      "link": "https://www.nytimes.com/2026/04/08/world/asia/china-iran-cease-fire.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/08/world/asia/china-iran-cease-fire.html"
-      ]
-    },
-    {
-      "title": "Ukraine Ramps Up Attacks on Russian Oil, Aiming to Curb Iran War Windfall",
-      "published": "Tue, 07 Apr 2026 09:04:31 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.094,
-      "raw_impact": 0.105,
-      "source_weight": 0.9,
-      "age_hours": 37.21,
-      "confidence": 0.9,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/07/world/europe/ukraine-attacks-russian-oil-exports.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/07/world/europe/ukraine-attacks-russian-oil-exports.html"
-      ]
-    },
-    {
       "title": "Trump threats against civilian targets put military in legal, moral quandary",
       "published": "Wed, 08 Apr 2026 00:34:45 +0000",
       "actors": [
@@ -1021,7 +889,7 @@
       "impact": 0.051,
       "raw_impact": 0.057,
       "source_weight": 0.9,
-      "age_hours": 21.71,
+      "age_hours": 21.82,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1054,7 +922,7 @@
       "impact": 0.046,
       "raw_impact": 0.046,
       "source_weight": 1.0,
-      "age_hours": 1.37,
+      "age_hours": 1.48,
       "confidence": 0.588,
       "signal_total": 0.05,
       "signal_components": {
@@ -1088,7 +956,7 @@
       "impact": 0.045,
       "raw_impact": 0.045,
       "source_weight": 1.0,
-      "age_hours": 1.85,
+      "age_hours": 1.96,
       "confidence": 0.588,
       "signal_total": 0.05,
       "signal_components": {
@@ -1112,17 +980,17 @@
     },
     {
       "title": "Australia news live: \u2018deeply concerned\u2019 Penny Wong says Lebanon should be included in ceasefire and calls for aid workers to be protected",
-      "published": "Wed, 08 Apr 2026 21:58:39 GMT",
+      "published": "Wed, 08 Apr 2026 22:16:48 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.044,
-      "raw_impact": 0.049,
+      "impact": 0.045,
+      "raw_impact": 0.05,
       "source_weight": 0.9,
-      "age_hours": 0.31,
+      "age_hours": 0.11,
       "confidence": 0.578,
       "signal_total": 0.05,
       "signal_components": {
@@ -1145,8 +1013,8 @@
       ]
     },
     {
-      "title": "At least 182 killed as Israel strikes central Beirut after saying Iran truce doesn't apply there",
-      "published": "Wed, 08 Apr 2026 21:46:21 GMT",
+      "title": "\u2018Deeply concerned\u2019 Australia says Lebanon should be included in Middle East ceasefire",
+      "published": "Wed, 08 Apr 2026 22:09:43 GMT",
       "actors": [
         "iran",
         "us"
@@ -1156,7 +1024,7 @@
       "impact": 0.044,
       "raw_impact": 0.049,
       "source_weight": 0.9,
-      "age_hours": 0.51,
+      "age_hours": 0.23,
       "confidence": 0.578,
       "signal_total": 0.05,
       "signal_components": {
@@ -1167,15 +1035,15 @@
         "rhetoric": 0.0,
         "contradiction_adjustment": -0.05
       },
-      "link": "https://www.france24.com/en/tv-shows/a-propos/20260408-at-least-182-killed-as-israel-strikes-central-beirut-after-saying-iran-truce-doesn-t-apply-there",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.theguardian.com/australia-news/2026/apr/09/penny-wong-joint-statement-aid-workers-lebanon-ceasefire",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "www.theguardian.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/tv-shows/a-propos/20260408-at-least-182-killed-as-israel-strikes-central-beirut-after-saying-iran-truce-doesn-t-apply-there"
+        "https://www.theguardian.com/australia-news/2026/apr/09/penny-wong-joint-statement-aid-workers-lebanon-ceasefire"
       ]
     },
     {
@@ -1188,9 +1056,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.043,
-      "raw_impact": 0.048,
+      "raw_impact": 0.047,
       "source_weight": 0.9,
-      "age_hours": 0.85,
+      "age_hours": 0.96,
       "confidence": 0.578,
       "signal_total": 0.05,
       "signal_components": {
@@ -1213,6 +1081,40 @@
       ]
     },
     {
+      "title": "At least 182 killed as Israel strikes central Beirut after saying Iran truce doesn't apply there",
+      "published": "Wed, 08 Apr 2026 21:46:21 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.043,
+      "raw_impact": 0.048,
+      "source_weight": 0.9,
+      "age_hours": 0.62,
+      "confidence": 0.578,
+      "signal_total": 0.05,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05
+      },
+      "link": "https://www.france24.com/en/tv-shows/a-propos/20260408-at-least-182-killed-as-israel-strikes-central-beirut-after-saying-iran-truce-doesn-t-apply-there",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/a-propos/20260408-at-least-182-killed-as-israel-strikes-central-beirut-after-saying-iran-truce-doesn-t-apply-there"
+      ]
+    },
+    {
       "title": "What to know about Israel\u2019s strikes on Lebanon amid US-Iran ceasefire",
       "published": "Wed, 08 Apr 2026 21:20:03 +0000",
       "actors": [
@@ -1221,10 +1123,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.043,
+      "impact": 0.042,
       "raw_impact": 0.047,
       "source_weight": 0.9,
-      "age_hours": 0.95,
+      "age_hours": 1.06,
       "confidence": 0.578,
       "signal_total": 0.05,
       "signal_components": {
@@ -1258,7 +1160,7 @@
       "impact": 0.04,
       "raw_impact": 0.047,
       "source_weight": 0.85,
-      "age_hours": 25.05,
+      "age_hours": 25.16,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1291,7 +1193,7 @@
       "impact": 0.039,
       "raw_impact": 0.043,
       "source_weight": 0.9,
-      "age_hours": 2.49,
+      "age_hours": 2.6,
       "confidence": 0.578,
       "signal_total": 0.05,
       "signal_components": {
@@ -1314,40 +1216,6 @@
       ]
     },
     {
-      "title": "Middle East ceasefire under pressure over Israeli strikes on Lebanon",
-      "published": "Wed, 08 Apr 2026 19:36:44 GMT",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.039,
-      "raw_impact": 0.043,
-      "source_weight": 0.9,
-      "age_hours": 2.67,
-      "confidence": 0.568,
-      "signal_total": 0.05,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05
-      },
-      "link": "https://www.ft.com/content/d43ae1d7-4df4-465c-afe1-418b168e3ae8",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/d43ae1d7-4df4-465c-afe1-418b168e3ae8"
-      ]
-    },
-    {
       "title": "Netanyahu says Israel ready to 'return to battle at any moment' against Iran",
       "published": "Wed, 08 Apr 2026 19:34:28 GMT",
       "actors": [
@@ -1357,9 +1225,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.038,
-      "raw_impact": 0.043,
+      "raw_impact": 0.042,
       "source_weight": 0.9,
-      "age_hours": 2.71,
+      "age_hours": 2.82,
       "confidence": 0.578,
       "signal_total": 0.05,
       "signal_components": {
@@ -1382,6 +1250,40 @@
       ]
     },
     {
+      "title": "Middle East ceasefire under pressure over Israeli strikes on Lebanon",
+      "published": "Wed, 08 Apr 2026 19:36:44 GMT",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.038,
+      "raw_impact": 0.043,
+      "source_weight": 0.9,
+      "age_hours": 2.78,
+      "confidence": 0.568,
+      "signal_total": 0.05,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05
+      },
+      "link": "https://www.ft.com/content/d43ae1d7-4df4-465c-afe1-418b168e3ae8",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/d43ae1d7-4df4-465c-afe1-418b168e3ae8"
+      ]
+    },
+    {
       "title": "Trump backs Israel, says Lebanon a \u2018separate skirmish\u2019 after ceasefire",
       "published": "Wed, 08 Apr 2026 18:30:33 +0000",
       "actors": [
@@ -1393,7 +1295,7 @@
       "impact": 0.036,
       "raw_impact": 0.04,
       "source_weight": 0.9,
-      "age_hours": 3.78,
+      "age_hours": 3.89,
       "confidence": 0.568,
       "signal_total": 0.05,
       "signal_components": {
@@ -1427,7 +1329,7 @@
       "impact": 0.035,
       "raw_impact": 0.039,
       "source_weight": 0.9,
-      "age_hours": 4.32,
+      "age_hours": 4.43,
       "confidence": 0.578,
       "signal_total": 0.05,
       "signal_components": {
@@ -1461,7 +1363,7 @@
       "impact": 0.032,
       "raw_impact": 0.036,
       "source_weight": 0.9,
-      "age_hours": 29.71,
+      "age_hours": 29.82,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1492,9 +1394,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.031,
-      "raw_impact": 0.035,
+      "raw_impact": 0.034,
       "source_weight": 0.9,
-      "age_hours": 6.42,
+      "age_hours": 6.53,
       "confidence": 0.578,
       "signal_total": 0.05,
       "signal_components": {
@@ -1526,9 +1428,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.03,
-      "raw_impact": 0.034,
+      "raw_impact": 0.033,
       "source_weight": 0.9,
-      "age_hours": 6.92,
+      "age_hours": 7.03,
       "confidence": 0.568,
       "signal_total": 0.05,
       "signal_components": {
@@ -1562,7 +1464,7 @@
       "impact": 0.03,
       "raw_impact": 0.033,
       "source_weight": 0.9,
-      "age_hours": 6.95,
+      "age_hours": 7.06,
       "confidence": 0.578,
       "signal_total": 0.05,
       "signal_components": {
@@ -1594,9 +1496,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.03,
-      "raw_impact": 0.028,
+      "raw_impact": 0.027,
       "source_weight": 1.1,
-      "age_hours": 10.29,
+      "age_hours": 10.39,
       "confidence": 0.598,
       "signal_total": 0.05,
       "signal_components": {
@@ -1630,7 +1532,7 @@
       "impact": 0.02,
       "raw_impact": 0.023,
       "source_weight": 0.9,
-      "age_hours": 13.65,
+      "age_hours": 13.76,
       "confidence": 0.568,
       "signal_total": 0.05,
       "signal_components": {
@@ -1661,10 +1563,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.019,
+      "impact": 0.018,
       "raw_impact": 0.022,
       "source_weight": 0.85,
-      "age_hours": 14.37,
+      "age_hours": 14.48,
       "confidence": 0.573,
       "signal_total": 0.05,
       "signal_components": {
@@ -1698,7 +1600,7 @@
       "impact": 0.013,
       "raw_impact": 0.012,
       "source_weight": 1.1,
-      "age_hours": 49.27,
+      "age_hours": 49.38,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1731,7 +1633,7 @@
       "impact": 0.003,
       "raw_impact": 0.004,
       "source_weight": 0.9,
-      "age_hours": 44.72,
+      "age_hours": 44.83,
       "confidence": 0.568,
       "signal_total": 0.05,
       "signal_components": {
@@ -1765,7 +1667,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 162.84,
+      "age_hours": 162.94,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1798,7 +1700,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 863.54,
+      "age_hours": 863.65,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1831,7 +1733,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 181.77,
+      "age_hours": 181.88,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1865,7 +1767,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 222.76,
+      "age_hours": 222.87,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1899,7 +1801,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 227.4,
+      "age_hours": 227.51,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1932,7 +1834,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 342.96,
+      "age_hours": 343.07,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -2022,16 +1924,6 @@
       "domain": "feeds.npr.org"
     },
     {
-      "name": "nyt_world",
-      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "domain": "rss.nytimes.com"
-    },
-    {
-      "name": "rss.nytimes.com",
-      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "domain": "rss.nytimes.com"
-    },
-    {
       "name": "un_news",
       "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
       "domain": "news.un.org"
@@ -2091,17 +1983,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 236,
-    "classified_count": 58,
-    "paired_count": 58,
+    "event_count": 216,
+    "classified_count": 55,
+    "paired_count": 55,
     "valid_pair_updates": 6,
-    "top_driver_count": 58,
-    "total_signal": 9.0169,
+    "top_driver_count": 55,
+    "total_signal": 11.5165,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 91,
-      "no_signal": 43,
-      "invalid_pair": 44,
+      "no_actor": 84,
+      "no_signal": 38,
+      "invalid_pair": 39,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
