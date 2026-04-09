@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-09 21:48:27 UTC",
-  "probability": 21.2,
-  "uncertainty": 6.3,
+  "last_updated": "2026-04-09 22:43:35 UTC",
+  "probability": 21.09,
+  "uncertainty": 6.24,
   "state": {
-    "us_russia": 5.2123028699881715,
-    "us_china": 3.6560346449768404,
-    "china_taiwan": 4.131206928995368,
+    "us_russia": 5.197527421715461,
+    "us_china": 3.61917532905141,
+    "china_taiwan": 4.123835065810282,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.628257801142873,
-    "iran_israel": 6.62825780114376,
+    "iran_us": 5.630636956857152,
+    "iran_israel": 6.630636956857622,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.182231257690746
+    "russia_ukraine": 5.233015643659634
   },
   "top_drivers": [
+    {
+      "title": "Australia news live: Greens repeat call for \u2018complete, two-way arms freeze on Israel\u2019; Queensland MP Jimmy Sullivan found dead",
+      "published": "Thu, 09 Apr 2026 22:29:10 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.799,
+      "raw_impact": 0.888,
+      "source_weight": 0.9,
+      "age_hours": 0.24,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/australia-news/live/2026/apr/10/anthony-albanese-singapore-visit-fuel-crisis-petrol-prices-labor-coalition-political-reactions-us-israel-war-iran-lebanon-ntwnfb",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/australia-news/live/2026/apr/10/anthony-albanese-singapore-visit-fuel-crisis-petrol-prices-labor-coalition-political-reactions-us-israel-war-iran-lebanon-ntwnfb"
+      ]
+    },
     {
       "title": "Assessing the damage: What the Iran war really means for Europe\u2019s defence",
       "published": "Thu, 09 Apr 2026 12:21:35 +0000",
@@ -25,10 +59,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.75,
-      "raw_impact": 1.25,
+      "impact": 0.732,
+      "raw_impact": 1.22,
       "source_weight": 0.75,
-      "age_hours": 9.45,
+      "age_hours": 10.37,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -60,10 +94,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.712,
-      "raw_impact": 0.791,
+      "impact": 0.675,
+      "raw_impact": 0.75,
       "source_weight": 0.9,
-      "age_hours": 2.23,
+      "age_hours": 3.15,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -94,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.665,
-      "raw_impact": 0.739,
+      "impact": 0.631,
+      "raw_impact": 0.701,
       "source_weight": 0.9,
-      "age_hours": 3.41,
+      "age_hours": 4.33,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -128,10 +162,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.506,
-      "raw_impact": 0.562,
+      "impact": 0.48,
+      "raw_impact": 0.533,
       "source_weight": 0.9,
-      "age_hours": 2.51,
+      "age_hours": 3.43,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -163,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.493,
-      "raw_impact": -0.609,
+      "impact": -0.468,
+      "raw_impact": -0.577,
       "source_weight": 0.9,
-      "age_hours": 4.73,
+      "age_hours": 5.65,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -197,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.406,
-      "raw_impact": 0.369,
+      "impact": 0.385,
+      "raw_impact": 0.35,
       "source_weight": 1.1,
-      "age_hours": 9.81,
+      "age_hours": 10.73,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -232,10 +266,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.406,
-      "raw_impact": 0.369,
+      "impact": 0.385,
+      "raw_impact": 0.35,
       "source_weight": 1.1,
-      "age_hours": 9.81,
+      "age_hours": 10.73,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -267,10 +301,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.379,
-      "raw_impact": 0.421,
+      "impact": 0.359,
+      "raw_impact": 0.399,
       "source_weight": 0.9,
-      "age_hours": 7.52,
+      "age_hours": 8.44,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -302,10 +336,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.378,
-      "raw_impact": 0.42,
+      "impact": 0.358,
+      "raw_impact": 0.398,
       "source_weight": 0.9,
-      "age_hours": 7.57,
+      "age_hours": 8.49,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -337,10 +371,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.314,
-      "raw_impact": 0.37,
+      "impact": 0.298,
+      "raw_impact": 0.35,
       "source_weight": 0.85,
-      "age_hours": 9.77,
+      "age_hours": 10.69,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -372,10 +406,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.285,
-      "raw_impact": 0.317,
+      "impact": 0.271,
+      "raw_impact": 0.301,
       "source_weight": 0.9,
-      "age_hours": 12.42,
+      "age_hours": 13.34,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -407,10 +441,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.269,
-      "raw_impact": 0.316,
+      "impact": 0.255,
+      "raw_impact": 0.3,
       "source_weight": 0.85,
-      "age_hours": 12.47,
+      "age_hours": 13.39,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -442,10 +476,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.26,
-      "raw_impact": 0.306,
+      "impact": 0.247,
+      "raw_impact": 0.291,
       "source_weight": 0.85,
-      "age_hours": 13.02,
+      "age_hours": 13.94,
       "confidence": 0.693,
       "signal_total": 0.65,
       "signal_components": {
@@ -469,52 +503,18 @@
       ]
     },
     {
-      "title": "Putin Calls Brief Easter Truce, but Ukraine Is Skeptical",
-      "published": "Thu, 09 Apr 2026 21:46:33 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "deescalation",
-      "impact": -0.162,
-      "raw_impact": -0.2,
-      "source_weight": 0.9,
-      "age_hours": 0.03,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/09/world/europe/russia-ukraine-cease-fire.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/09/world/europe/russia-ukraine-cease-fire.html"
-      ]
-    },
-    {
       "title": "Iran War Live Updates: Israel Agrees to Talks With Lebanon but Keeps Striking Hezbollah",
-      "published": "Thu, 09 Apr 2026 21:27:24 +0000",
+      "published": "Thu, 09 Apr 2026 22:29:18 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.196,
+      "impact": -0.16,
+      "raw_impact": -0.197,
       "source_weight": 0.9,
-      "age_hours": 0.35,
+      "age_hours": 0.24,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -545,10 +545,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.158,
-      "raw_impact": 0.176,
+      "impact": 0.15,
+      "raw_impact": 0.167,
       "source_weight": 0.9,
-      "age_hours": 22.65,
+      "age_hours": 23.57,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -580,10 +580,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.157,
-      "raw_impact": -0.193,
+      "impact": -0.149,
+      "raw_impact": -0.183,
       "source_weight": 0.9,
-      "age_hours": 0.58,
+      "age_hours": 1.5,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -614,10 +614,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.156,
-      "raw_impact": 0.173,
+      "impact": 0.148,
+      "raw_impact": 0.164,
       "source_weight": 0.9,
-      "age_hours": 22.9,
+      "age_hours": 23.82,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -649,10 +649,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.155,
-      "raw_impact": -0.191,
+      "impact": -0.147,
+      "raw_impact": -0.181,
       "source_weight": 0.9,
-      "age_hours": 0.83,
+      "age_hours": 1.75,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -683,10 +683,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.154,
-      "raw_impact": -0.19,
+      "impact": -0.146,
+      "raw_impact": -0.18,
       "source_weight": 0.9,
-      "age_hours": 0.89,
+      "age_hours": 1.81,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -709,40 +709,6 @@
       ]
     },
     {
-      "title": "North Sea oil prices hit record high as Iran keeps hold over Hormuz",
-      "published": "Thu, 09 Apr 2026 20:18:16 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.183,
-      "source_weight": 0.9,
-      "age_hours": 1.5,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/f04ad855-81e3-49c5-827e-d3c4acb901c9",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/f04ad855-81e3-49c5-827e-d3c4acb901c9"
-      ]
-    },
-    {
       "title": "A fragile ceasefire and emboldened Iran",
       "published": "Thu, 09 Apr 2026 17:14:03 -0400",
       "actors": [
@@ -751,10 +717,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.148,
-      "raw_impact": -0.193,
+      "impact": -0.14,
+      "raw_impact": -0.183,
       "source_weight": 0.85,
-      "age_hours": 0.57,
+      "age_hours": 1.49,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -777,6 +743,40 @@
       ]
     },
     {
+      "title": "North Sea oil prices hit record high as Iran keeps hold over Hormuz",
+      "published": "Thu, 09 Apr 2026 20:18:16 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.14,
+      "raw_impact": -0.174,
+      "source_weight": 0.9,
+      "age_hours": 2.42,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/f04ad855-81e3-49c5-827e-d3c4acb901c9",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/f04ad855-81e3-49c5-827e-d3c4acb901c9"
+      ]
+    },
+    {
       "title": "High fuel prices spur interest in EVs",
       "published": "Thu, 09 Apr 2026 20:02:44 GMT",
       "actors": [
@@ -785,10 +785,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.147,
-      "raw_impact": -0.181,
+      "impact": -0.139,
+      "raw_impact": -0.171,
       "source_weight": 0.9,
-      "age_hours": 1.76,
+      "age_hours": 2.68,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -819,10 +819,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.144,
-      "raw_impact": -0.188,
+      "impact": -0.136,
+      "raw_impact": -0.178,
       "source_weight": 0.85,
-      "age_hours": 1.1,
+      "age_hours": 2.02,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -853,10 +853,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.174,
+      "impact": -0.133,
+      "raw_impact": -0.165,
       "source_weight": 0.9,
-      "age_hours": 2.44,
+      "age_hours": 3.36,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -887,10 +887,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.136,
-      "raw_impact": 0.136,
+      "impact": 0.129,
+      "raw_impact": 0.129,
       "source_weight": 1.0,
-      "age_hours": 32.68,
+      "age_hours": 33.59,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -921,10 +921,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.133,
-      "raw_impact": -0.165,
+      "impact": -0.127,
+      "raw_impact": -0.156,
       "source_weight": 0.9,
-      "age_hours": 3.35,
+      "age_hours": 4.27,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -955,10 +955,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.162,
+      "impact": -0.125,
+      "raw_impact": -0.154,
       "source_weight": 0.9,
-      "age_hours": 3.6,
+      "age_hours": 4.52,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -989,10 +989,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.114,
-      "raw_impact": -0.127,
+      "impact": -0.109,
+      "raw_impact": -0.121,
       "source_weight": 1.0,
-      "age_hours": 7.83,
+      "age_hours": 8.75,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1023,10 +1023,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.101,
-      "raw_impact": 0.092,
+      "impact": 0.096,
+      "raw_impact": 0.087,
       "source_weight": 1.1,
-      "age_hours": 33.81,
+      "age_hours": 34.73,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1058,10 +1058,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.093,
-      "raw_impact": -0.114,
+      "impact": -0.087,
+      "raw_impact": -0.108,
       "source_weight": 0.9,
-      "age_hours": 9.71,
+      "age_hours": 10.63,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -1092,10 +1092,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.081,
-      "raw_impact": 0.086,
+      "impact": 0.076,
+      "raw_impact": 0.082,
       "source_weight": 1.1,
-      "age_hours": 30.44,
+      "age_hours": 31.36,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1126,10 +1126,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.068,
-      "raw_impact": 0.076,
+      "impact": 0.065,
+      "raw_impact": 0.072,
       "source_weight": 0.9,
-      "age_hours": 37.18,
+      "age_hours": 38.1,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -1153,8 +1153,8 @@
       ]
     },
     {
-      "title": "Australia news live: Albanese touches down for Singapore talks; search for missing fisher suspended in NSW",
-      "published": "Thu, 09 Apr 2026 21:29:03 GMT",
+      "title": "Amid Trump\u2019s Threats, NATO Labors to Survive the Iran War",
+      "published": "Thu, 09 Apr 2026 22:29:16 +0000",
       "actors": [
         "iran",
         "us"
@@ -1162,10 +1162,10 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.044,
-      "raw_impact": 0.196,
+      "raw_impact": 0.197,
       "source_weight": 0.9,
-      "age_hours": 0.32,
-      "confidence": 0.68,
+      "age_hours": 0.24,
+      "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -1175,15 +1175,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.theguardian.com/australia-news/live/2026/apr/10/anthony-albanese-singapore-visit-fuel-crisis-petrol-prices-labor-coalition-political-reactions-us-israel-war-iran-lebanon-ntwnfb",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
+      "link": "https://www.nytimes.com/2026/04/09/us/politics/trump-iran-nato-rutte.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.theguardian.com"
+        "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.theguardian.com/australia-news/live/2026/apr/10/anthony-albanese-singapore-visit-fuel-crisis-petrol-prices-labor-coalition-political-reactions-us-israel-war-iran-lebanon-ntwnfb"
+        "https://www.nytimes.com/2026/04/09/us/politics/trump-iran-nato-rutte.html"
       ]
     },
     {
@@ -1195,10 +1195,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.183,
+      "impact": 0.039,
+      "raw_impact": 0.174,
       "source_weight": 0.9,
-      "age_hours": 1.53,
+      "age_hours": 2.45,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1229,10 +1229,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.182,
+      "impact": 0.039,
+      "raw_impact": 0.172,
       "source_weight": 0.9,
-      "age_hours": 1.65,
+      "age_hours": 2.57,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1263,10 +1263,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.135,
+      "impact": 0.029,
+      "raw_impact": 0.128,
       "source_weight": 0.9,
-      "age_hours": 6.79,
+      "age_hours": 7.71,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1297,10 +1297,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.135,
+      "impact": 0.029,
+      "raw_impact": 0.128,
       "source_weight": 0.9,
-      "age_hours": 6.79,
+      "age_hours": 7.71,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1331,10 +1331,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.133,
+      "impact": 0.029,
+      "raw_impact": 0.127,
       "source_weight": 0.9,
-      "age_hours": 7.01,
+      "age_hours": 7.93,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1365,10 +1365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.132,
+      "impact": 0.028,
+      "raw_impact": 0.125,
       "source_weight": 0.9,
-      "age_hours": 7.23,
+      "age_hours": 8.15,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1399,10 +1399,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.028,
-      "raw_impact": -0.028,
+      "impact": -0.027,
+      "raw_impact": -0.027,
       "source_weight": 1.1,
-      "age_hours": 33.81,
+      "age_hours": 34.73,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1425,40 +1425,6 @@
       ]
     },
     {
-      "title": "Track current petrol and diesel prices, service station outages and shipments \u2013 Australia's fuel crisis\u00a0in charts",
-      "published": "Thu, 09 Apr 2026 12:06:38 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.114,
-      "source_weight": 0.9,
-      "age_hours": 9.7,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/australia-news/2026/apr/09/australia-fuel-crisis-petrol-prices-tracker-shortage-diesel-reserves",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/australia-news/2026/apr/09/australia-fuel-crisis-petrol-prices-tracker-shortage-diesel-reserves"
-      ]
-    },
-    {
       "title": "Iran\u2019s Battered Leaders Emerge From War Confident \u2014 and With New Cards",
       "published": "Thu, 09 Apr 2026 12:15:56 +0000",
       "actors": [
@@ -1467,10 +1433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.115,
+      "impact": 0.025,
+      "raw_impact": 0.109,
       "source_weight": 0.9,
-      "age_hours": 9.54,
+      "age_hours": 10.46,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1493,6 +1459,40 @@
       ]
     },
     {
+      "title": "Track current petrol and diesel prices, service station outages and shipments \u2013 Australia's fuel crisis\u00a0in charts",
+      "published": "Thu, 09 Apr 2026 12:06:38 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.024,
+      "raw_impact": 0.108,
+      "source_weight": 0.9,
+      "age_hours": 10.62,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/australia-news/2026/apr/09/australia-fuel-crisis-petrol-prices-tracker-shortage-diesel-reserves",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/australia-news/2026/apr/09/australia-fuel-crisis-petrol-prices-tracker-shortage-diesel-reserves"
+      ]
+    },
+    {
       "title": "Iran expert discusses whether the war has made the Iranian regime stronger",
       "published": "Thu, 09 Apr 2026 04:46:28 -0400",
       "actors": [
@@ -1501,10 +1501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.094,
+      "impact": 0.019,
+      "raw_impact": 0.089,
       "source_weight": 0.85,
-      "age_hours": 13.03,
+      "age_hours": 13.95,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1535,10 +1535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.064,
+      "impact": 0.015,
+      "raw_impact": 0.06,
       "source_weight": 1.0,
-      "age_hours": 19.81,
+      "age_hours": 20.73,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1570,9 +1570,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.013,
-      "raw_impact": 0.06,
+      "raw_impact": 0.057,
       "source_weight": 0.9,
-      "age_hours": 20.83,
+      "age_hours": 21.75,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1604,9 +1604,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.015,
+      "raw_impact": 0.014,
       "source_weight": 0.9,
-      "age_hours": 45.23,
+      "age_hours": 46.15,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1640,7 +1640,7 @@
       "impact": 0.001,
       "raw_impact": 0.003,
       "source_weight": 1.1,
-      "age_hours": 72.79,
+      "age_hours": 73.71,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1674,7 +1674,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 186.36,
+      "age_hours": 187.28,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1708,7 +1708,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 887.06,
+      "age_hours": 887.98,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1742,7 +1742,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 205.3,
+      "age_hours": 206.22,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1777,7 +1777,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 246.28,
+      "age_hours": 247.2,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1812,7 +1812,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 250.92,
+      "age_hours": 251.84,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1846,7 +1846,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 366.49,
+      "age_hours": 367.41,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -2006,17 +2006,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 236,
+    "event_count": 235,
     "classified_count": 54,
     "paired_count": 54,
     "valid_pair_updates": 6,
     "top_driver_count": 54,
-    "total_signal": 5.4042,
+    "total_signal": 6.228,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 95,
-      "no_signal": 50,
-      "invalid_pair": 37,
+      "no_actor": 93,
+      "no_signal": 52,
+      "invalid_pair": 36,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
