@@ -38,19 +38,23 @@ h1 { margin:0; font-size:2.6rem; line-height:1.1; text-align:center; }
 .details-body { margin-top:10px; }
 .sources-list { display:grid; grid-template-columns:1fr 1fr; gap:8px 14px; }
 .source-item { font-size:.88rem; color:var(--muted); word-break:break-word; }
-.nerdy-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(290px, 1fr)); gap:12px; align-items:start; }
-.nerdy-card { border:1px solid var(--border); border-radius:8px; padding:10px; background:var(--card); }
-.nerdy-title { font-size:.85rem; font-weight:700; color:var(--text); margin-bottom:8px; }
-.nerdy-list { list-style:none; padding:0; margin:0; display:grid; gap:6px; }
-.nerdy-item { font-size:.82rem; color:var(--muted); line-height:1.35; padding-bottom:6px; border-bottom:1px dashed var(--border); }
+.nerdy-grid { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:12px; align-items:stretch; }
+.nerdy-card { border:1px solid var(--border); border-radius:8px; padding:12px; background:var(--card); display:flex; flex-direction:column; min-height:100%; }
+.nerdy-title { font-size:.9rem; font-weight:700; color:var(--text); margin-bottom:8px; }
+.nerdy-list { list-style:none; padding:0; margin:0; display:grid; gap:0; }
+.nerdy-item { font-size:.9rem; color:var(--muted); line-height:1.35; padding:9px 0; border-bottom:1px dashed var(--border); }
+.nerdy-item:first-child { padding-top:2px; }
 .nerdy-item:last-child { border-bottom:none; padding-bottom:0; }
-.nerdy-kv { display:grid; grid-template-columns:1fr auto; gap:8px; align-items:start; }
+.nerdy-kv { display:grid; grid-template-columns:minmax(110px, 44%) 1fr; gap:10px; align-items:start; }
 .nerdy-kv .key { color:var(--text); font-weight:600; }
-.nerdy-kv .value { color:var(--muted); text-align:right; white-space:nowrap; }
+.nerdy-kv .value { color:var(--muted); text-align:left; white-space:normal; word-break:break-word; }
+.nerdy-tags { display:flex; flex-wrap:wrap; gap:6px; }
+.nerdy-tag { display:inline-flex; align-items:center; border:1px solid var(--border); border-radius:999px; padding:2px 8px; font-size:.78rem; color:var(--muted); background:color-mix(in srgb, var(--card) 88%, var(--border)); }
 .source-item a { color:var(--link); text-decoration:none; }
 .footer { margin-top:42px; text-align:center; font-size:.9rem; color:var(--muted); }
 .build { margin-top:10px; font-size:.8rem; }
 canvas { width:100% !important; height:100% !important; }
+@media (max-width:1000px) { .nerdy-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); } }
 @media (max-width:800px) { .sources-list { grid-template-columns:1fr; } .nerdy-grid { grid-template-columns:1fr; } }
 @media (max-width:640px) { h1 { font-size:1.9rem; } .risk { font-size:3.2rem; } .container { padding:16px; } .nerdy-kv { grid-template-columns:1fr; } .nerdy-kv .value { text-align:left; white-space:normal; } }
 </style>
@@ -153,8 +157,8 @@ function nerdyModelNumbers(config, policy){
     ["ambiguity penalty", asText(config.ambiguity_penalty)],
     ["history mode", asText(policy.mode,"replay")]
   ];
-  const weightRows=sortedWeights.map(([k,v])=>`${k}: ${v}`);
-  return `<div class="nerdy-card"><div class="nerdy-title">Model Numbers</div><div class="nerdy-list">${rows.map(([k,v])=>`<div class="nerdy-item"><div class="nerdy-kv"><span class="key">${k}</span><span class="value">${v}</span></div></div>`).join("")}${weightRows.length?`<div class="nerdy-item"><div class="nerdy-kv"><span class="key">top source weights</span><span class="value">${weightRows.join(" | ")}</span></div></div>`:""}</div></div>`;
+  const weightTags=sortedWeights.map(([k,v])=>`<span class="nerdy-tag">${k}: ${v}</span>`).join("");
+  return `<div class="nerdy-card"><div class="nerdy-title">Model Numbers</div><div class="nerdy-list">${rows.map(([k,v])=>`<div class="nerdy-item"><div class="nerdy-kv"><span class="key">${k}</span><span class="value">${v}</span></div></div>`).join("")}${weightTags?`<div class="nerdy-item"><div class="nerdy-kv"><span class="key">top source weights</span><span class="value"><span class="nerdy-tags">${weightTags}</span></span></div></div>`:""}</div></div>`;
 }
 function renderNerdyDetails(){
   const container=document.getElementById("nerdyDetails");
