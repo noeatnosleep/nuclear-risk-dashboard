@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-09 07:01:02 UTC",
-  "probability": 15.07,
-  "uncertainty": 6.26,
+  "last_updated": "2026-04-09 08:51:38 UTC",
+  "probability": 14.93,
+  "uncertainty": 6.13,
   "state": {
-    "us_russia": 3.2931500521320447,
-    "us_china": 3.2106945940806786,
-    "china_taiwan": 4.042138918816135,
+    "us_russia": 3.2834331638920324,
+    "us_china": 3.1918097660369082,
+    "china_taiwan": 4.038361953207381,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633326111912921,
-    "iran_israel": 6.633326121861734,
+    "iran_us": 5.633329496953739,
+    "iran_israel": 6.633329502239046,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.930830089715302
+    "russia_ukraine": 5.833726471104086
   },
   "top_drivers": [
     {
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 1.17,
+      "age_hours": 3.01,
       "confidence": 0.816,
       "signal_total": 1.79,
       "signal_components": {
@@ -52,18 +52,191 @@
       ]
     },
     {
-      "title": "Australia news live: diesel surges 20 cents a litre in two days to record high; toll traffic falls as fuel price bites",
-      "published": "Thu, 09 Apr 2026 06:44:53 GMT",
+      "title": "Iran War Live Updates: Israeli Strikes in Lebanon Threaten Shaky U.S.-Iran Cease-Fire",
+      "published": "Thu, 09 Apr 2026 08:36:32 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.576,
-      "raw_impact": 0.64,
+      "impact": 0.798,
+      "raw_impact": 0.887,
       "source_weight": 0.9,
-      "age_hours": 0.27,
+      "age_hours": 0.25,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/09/world/iran-ceasefire-trump-lebanon",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/09/world/iran-ceasefire-trump-lebanon"
+      ]
+    },
+    {
+      "title": "Iran war day 41: What\u2019s happening in Lebanon, Middle East and beyond?",
+      "published": "Thu, 09 Apr 2026 06:32:44 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.709,
+      "raw_impact": 0.787,
+      "source_weight": 0.9,
+      "age_hours": 2.32,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/9/iran-war-day-41-whats-happening-in-lebanon-middle-east-and-beyond?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/9/iran-war-day-41-whats-happening-in-lebanon-middle-east-and-beyond?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Morning news brief",
+      "published": "Thu, 09 Apr 2026 04:47:12 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.55,
+      "raw_impact": 0.647,
+      "source_weight": 0.85,
+      "age_hours": 0.07,
+      "confidence": 0.693,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/09/nx-s1-5777387/morning-news-brief",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/09/nx-s1-5777387/morning-news-brief"
+      ]
+    },
+    {
+      "title": "Oil price rises as markets question durability of Middle East ceasefire",
+      "published": "Thu, 09 Apr 2026 07:44:26 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.548,
+      "raw_impact": 0.609,
+      "source_weight": 0.9,
+      "age_hours": 1.12,
+      "confidence": 0.698,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/business/2026/apr/09/oil-price-rises-as-markets-question-durability-of-middle-east-ceasefire-iran",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/business/2026/apr/09/oil-price-rises-as-markets-question-durability-of-middle-east-ceasefire-iran"
+      ]
+    },
+    {
+      "title": "Trump says US forces to stay near Iran, ready for \u2018next conquest\u2019",
+      "published": "Thu, 09 Apr 2026 07:38:16 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.545,
+      "raw_impact": 0.606,
+      "source_weight": 0.9,
+      "age_hours": 1.22,
+      "confidence": 0.698,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/9/trump-says-us-forces-to-stay-near-iran-ready-for-next-conquest?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/9/trump-says-us-forces-to-stay-near-iran-ready-for-next-conquest?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Diesel surges 20 cents a litre in two days to record high \u2013\u00a0as it happened",
+      "published": "Thu, 09 Apr 2026 07:35:45 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.544,
+      "raw_impact": 0.604,
+      "source_weight": 0.9,
+      "age_hours": 1.26,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -95,10 +268,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.531,
-      "raw_impact": 0.59,
+      "impact": 0.478,
+      "raw_impact": 0.531,
       "source_weight": 0.9,
-      "age_hours": 1.67,
+      "age_hours": 3.51,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -130,10 +303,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.453,
-      "raw_impact": 0.666,
+      "impact": 0.407,
+      "raw_impact": 0.599,
       "source_weight": 0.85,
-      "age_hours": 10.2,
+      "age_hours": 12.04,
       "confidence": 0.945,
       "signal_total": 1.2,
       "signal_components": {
@@ -164,10 +337,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.445,
-      "raw_impact": 0.494,
+      "impact": 0.4,
+      "raw_impact": 0.444,
       "source_weight": 0.9,
-      "age_hours": 4.75,
+      "age_hours": 6.59,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -199,10 +372,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.42,
-      "raw_impact": 0.466,
+      "impact": 0.377,
+      "raw_impact": 0.419,
       "source_weight": 0.9,
-      "age_hours": 11.38,
+      "age_hours": 13.23,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -233,10 +406,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.397,
-      "raw_impact": 0.441,
+      "impact": 0.357,
+      "raw_impact": 0.397,
       "source_weight": 0.9,
-      "age_hours": 6.71,
+      "age_hours": 8.55,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -268,10 +441,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.39,
-      "raw_impact": 0.433,
+      "impact": 0.351,
+      "raw_impact": 0.39,
       "source_weight": 0.9,
-      "age_hours": 7.02,
+      "age_hours": 8.86,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -303,10 +476,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.372,
-      "raw_impact": 0.413,
+      "impact": 0.334,
+      "raw_impact": 0.371,
       "source_weight": 0.9,
-      "age_hours": 7.86,
+      "age_hours": 9.7,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -338,10 +511,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.366,
-      "raw_impact": 0.407,
+      "impact": 0.329,
+      "raw_impact": 0.366,
       "source_weight": 0.9,
-      "age_hours": 8.11,
+      "age_hours": 9.95,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -373,10 +546,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.363,
-      "raw_impact": 0.363,
+      "impact": 0.326,
+      "raw_impact": 0.326,
       "source_weight": 1.0,
-      "age_hours": 10.1,
+      "age_hours": 11.94,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -408,10 +581,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.353,
-      "raw_impact": 0.353,
+      "impact": 0.317,
+      "raw_impact": 0.317,
       "source_weight": 1.0,
-      "age_hours": 10.59,
+      "age_hours": 12.43,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -435,7 +608,7 @@
       ]
     },
     {
-      "title": "At least 182 killed as Israel strikes central Beirut after saying Iran truce doesn't apply there",
+      "title": "\u2018Collective punishment\u2019: At least 182 killed in Israeli strikes on Lebanon",
       "published": "Wed, 08 Apr 2026 21:46:21 GMT",
       "actors": [
         "iran",
@@ -443,10 +616,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.343,
-      "raw_impact": 0.381,
+      "impact": 0.308,
+      "raw_impact": 0.343,
       "source_weight": 0.9,
-      "age_hours": 9.24,
+      "age_hours": 11.09,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -470,76 +643,6 @@
       ]
     },
     {
-      "title": "Devastation in Beirut after Israeli strikes reduce homes to rubble",
-      "published": "Wed, 08 Apr 2026 21:25:57 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.336,
-      "raw_impact": 0.374,
-      "source_weight": 0.9,
-      "age_hours": 9.58,
-      "confidence": 0.698,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/devastation-in-beirut-after-israeli-strikes-reduce-homes-to-rubble?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/8/devastation-in-beirut-after-israeli-strikes-reduce-homes-to-rubble?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "What to know about Israel\u2019s strikes on Lebanon amid US-Iran ceasefire",
-      "published": "Wed, 08 Apr 2026 21:20:03 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.334,
-      "raw_impact": 0.372,
-      "source_weight": 0.9,
-      "age_hours": 9.68,
-      "confidence": 0.698,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/what-to-know-about-israels-strikes-on-lebanon-amid-us-iran-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/8/what-to-know-about-israels-strikes-on-lebanon-amid-us-iran-ceasefire?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Cameroon 'military contractors' killed in Russia-Ukraine war - BBC confirms leaked message",
       "published": "Wed, 08 Apr 2026 13:07:57 GMT",
       "actors": [
@@ -548,10 +651,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.32,
-      "raw_impact": 0.32,
+      "impact": 0.288,
+      "raw_impact": 0.288,
       "source_weight": 1.0,
-      "age_hours": 17.88,
+      "age_hours": 19.73,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -582,10 +685,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.302,
-      "raw_impact": 0.336,
+      "impact": 0.272,
+      "raw_impact": 0.302,
       "source_weight": 0.9,
-      "age_hours": 11.44,
+      "age_hours": 13.29,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -617,10 +720,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.238,
-      "raw_impact": 0.217,
+      "impact": 0.214,
+      "raw_impact": 0.195,
       "source_weight": 1.1,
-      "age_hours": 19.02,
+      "age_hours": 20.86,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -652,10 +755,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.19,
-      "raw_impact": 0.202,
+      "impact": 0.17,
+      "raw_impact": 0.182,
       "source_weight": 1.1,
-      "age_hours": 15.65,
+      "age_hours": 17.49,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -678,6 +781,40 @@
       ]
     },
     {
+      "title": "Iran clashes with Israel and US over whether Lebanon is included in ceasefire",
+      "published": "Thu, 09 Apr 2026 04:46:11 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.152,
+      "raw_impact": -0.199,
+      "source_weight": 0.85,
+      "age_hours": 0.09,
+      "confidence": 0.755,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/09/nx-s1-5777817/iran-clashes-with-israel-and-us-over-whether-lebanon-is-included-in-ceasefire",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/09/nx-s1-5777817/iran-clashes-with-israel-and-us-over-whether-lebanon-is-included-in-ceasefire"
+      ]
+    },
+    {
       "title": "Trump agrees to suspend attacks for two weeks if Iran opens Strait of Hormuz",
       "published": "Wed, 08 Apr 2026 08:37:51 +0000",
       "actors": [
@@ -686,10 +823,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.161,
-      "raw_impact": 0.178,
+      "impact": 0.144,
+      "raw_impact": 0.16,
       "source_weight": 0.9,
-      "age_hours": 22.39,
+      "age_hours": 24.23,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -721,10 +858,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.155,
-      "raw_impact": -0.191,
+      "impact": -0.139,
+      "raw_impact": -0.172,
       "source_weight": 0.9,
-      "age_hours": 0.81,
+      "age_hours": 2.65,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -747,7 +884,7 @@
       ]
     },
     {
-      "title": "For Gulf states, Hormuz uncertainty casts shadow over fragile US-Iran truce",
+      "title": "For Gulf states, Hormuz uncertainty casts shadow over US-Iran ceasefire",
       "published": "Thu, 09 Apr 2026 05:58:36 +0000",
       "actors": [
         "iran",
@@ -755,11 +892,11 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.152,
-      "raw_impact": -0.188,
+      "impact": -0.137,
+      "raw_impact": -0.169,
       "source_weight": 0.9,
-      "age_hours": 1.04,
-      "confidence": 0.67,
+      "age_hours": 2.88,
+      "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -781,41 +918,6 @@
       ]
     },
     {
-      "title": "A fragile U.S.-Iran ceasefire shows cracks as attacks continue across the region",
-      "published": "Wed, 08 Apr 2026 03:55:01 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.145,
-      "raw_impact": 0.171,
-      "source_weight": 0.85,
-      "age_hours": 23.1,
-      "confidence": 0.693,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/08/nx-s1-5777291/iran-war-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/08/nx-s1-5777291/iran-war-updates"
-      ]
-    },
-    {
       "title": "FirstFT: US-Iran truce shows signs of strain",
       "published": "Thu, 09 Apr 2026 04:31:37 GMT",
       "actors": [
@@ -824,10 +926,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.173,
+      "impact": -0.126,
+      "raw_impact": -0.156,
       "source_weight": 0.9,
-      "age_hours": 2.49,
+      "age_hours": 4.33,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -850,7 +952,7 @@
       ]
     },
     {
-      "title": "Shipping stalls as Tehran dictates terms in Hormuz",
+      "title": "Shipping stalls as Tehran dictates terms in Strait of Hormuz",
       "published": "Thu, 09 Apr 2026 04:00:26 GMT",
       "actors": [
         "iran",
@@ -858,10 +960,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.136,
-      "raw_impact": -0.168,
+      "impact": -0.122,
+      "raw_impact": -0.151,
       "source_weight": 0.9,
-      "age_hours": 3.01,
+      "age_hours": 4.85,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -892,10 +994,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.117,
-      "raw_impact": 0.153,
+      "impact": 0.105,
+      "raw_impact": 0.138,
       "source_weight": 0.9,
-      "age_hours": 9.16,
+      "age_hours": 11.01,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -927,10 +1029,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.112,
-      "raw_impact": -0.138,
+      "impact": -0.101,
+      "raw_impact": -0.124,
       "source_weight": 0.9,
-      "age_hours": 6.4,
+      "age_hours": 8.25,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -961,10 +1063,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.106,
-      "raw_impact": -0.131,
+      "impact": -0.095,
+      "raw_impact": -0.118,
       "source_weight": 0.9,
-      "age_hours": 7.35,
+      "age_hours": 9.2,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -987,108 +1089,6 @@
       ]
     },
     {
-      "title": "JD Vance says Iran would be \u2018dumb\u2019 to let talks collapse over Lebanon",
-      "published": "Wed, 08 Apr 2026 21:50:36 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.118,
-      "source_weight": 0.9,
-      "age_hours": 9.17,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/8/jd-vance-says-iran-would-be-dumb-to-let-talks-collapse-over-lebanon?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/8/jd-vance-says-iran-would-be-dumb-to-let-talks-collapse-over-lebanon?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Trump administration signals it is mulling NATO withdrawal after Iran war",
-      "published": "Wed, 08 Apr 2026 21:47:23 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.117,
-      "source_weight": 0.9,
-      "age_hours": 9.23,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/8/trump-administration-says-it-is-mulling-nato-withdrawal-after-iran-war?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/8/trump-administration-says-it-is-mulling-nato-withdrawal-after-iran-war?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Macron welcomes US-Iran ceasefire and urges Lebanon\u2019s inclusion",
-      "published": "Wed, 08 Apr 2026 21:39:14 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.116,
-      "source_weight": 0.9,
-      "age_hours": 9.36,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/8/macron-welcomes-us-iran-ceasefire-and-urges-lebanons-inclusion?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/8/macron-welcomes-us-iran-ceasefire-and-urges-lebanons-inclusion?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Energy crisis not over despite relief rally",
       "published": "Wed, 08 Apr 2026 20:47:40 GMT",
       "actors": [
@@ -1097,10 +1097,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.09,
-      "raw_impact": -0.111,
+      "impact": -0.081,
+      "raw_impact": -0.1,
       "source_weight": 0.9,
-      "age_hours": 10.22,
+      "age_hours": 12.07,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1131,10 +1131,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.086,
-      "raw_impact": -0.106,
+      "impact": -0.077,
+      "raw_impact": -0.095,
       "source_weight": 0.9,
-      "age_hours": 11.05,
+      "age_hours": 12.89,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1157,7 +1157,7 @@
       ]
     },
     {
-      "title": "Can ceasefire hold? US-Iran truce tested before talks start",
+      "title": "Can the ceasefire hold? Fragile US\u2013Iran truce tested ahead of talks",
       "published": "Wed, 08 Apr 2026 19:48:00 GMT",
       "actors": [
         "iran",
@@ -1165,10 +1165,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.085,
-      "raw_impact": -0.105,
+      "impact": -0.077,
+      "raw_impact": -0.094,
       "source_weight": 0.9,
-      "age_hours": 11.22,
+      "age_hours": 13.06,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -1199,10 +1199,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.082,
-      "raw_impact": -0.091,
+      "impact": -0.074,
+      "raw_impact": -0.082,
       "source_weight": 1.0,
-      "age_hours": 13.66,
+      "age_hours": 15.5,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1225,40 +1225,6 @@
       ]
     },
     {
-      "title": "\u2018Unhinged, insane\u2019: US lawmakers call for Trump\u2019s removal via 25th Amendment",
-      "published": "Wed, 08 Apr 2026 19:17:41 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.082,
-      "raw_impact": -0.102,
-      "source_weight": 0.9,
-      "age_hours": 11.72,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/tv-shows/truth-or-fake/20260408-unhinged-insane-us-politicians-call-for-trump-s-removal-via-25th-amendment",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/tv-shows/truth-or-fake/20260408-unhinged-insane-us-politicians-call-for-trump-s-removal-via-25th-amendment"
-      ]
-    },
-    {
       "title": "Iran ceasefire raises hopes for reopening key Strait of Hormuz",
       "published": "Wed, 08 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -1267,10 +1233,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.066,
-      "raw_impact": -0.067,
+      "impact": -0.059,
+      "raw_impact": -0.06,
       "source_weight": 1.1,
-      "age_hours": 19.02,
+      "age_hours": 20.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1301,10 +1267,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.057,
-      "raw_impact": 0.063,
+      "impact": 0.051,
+      "raw_impact": 0.057,
       "source_weight": 0.9,
-      "age_hours": 45.94,
+      "age_hours": 47.79,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -1335,10 +1301,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.056,
-      "raw_impact": -0.073,
+      "impact": -0.05,
+      "raw_impact": -0.066,
       "source_weight": 0.85,
-      "age_hours": 17.46,
+      "age_hours": 19.3,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -1361,40 +1327,6 @@
       ]
     },
     {
-      "title": "U.S., Iran agree to 2-week ceasefire. And, Trump-backed Clay Fuller wins House race",
-      "published": "Wed, 08 Apr 2026 07:55:39 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.05,
-      "raw_impact": -0.066,
-      "source_weight": 0.85,
-      "age_hours": 19.09,
-      "confidence": 0.745,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/08/g-s1-116752/up-first-newsletter-iran-trump-israel-ceasefire-clay-fuller-ice-spyware-telehealth-abortions",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/08/g-s1-116752/up-first-newsletter-iran-trump-israel-ceasefire-clay-fuller-ice-spyware-telehealth-abortions"
-      ]
-    },
-    {
       "title": "Trump slams NATO over Iran after meeting Rutte, renews Greenland threat",
       "published": "Thu, 09 Apr 2026 04:46:54 +0000",
       "actors": [
@@ -1403,10 +1335,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.176,
+      "impact": 0.035,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 2.24,
+      "age_hours": 4.08,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1429,6 +1361,40 @@
       ]
     },
     {
+      "title": "Trump criticises Nato as alliance chief describes meeting as 'very frank'",
+      "published": "Thu, 09 Apr 2026 01:59:34 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.034,
+      "raw_impact": 0.135,
+      "source_weight": 1.0,
+      "age_hours": 6.87,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "UK becomes top destination for US jet fuel after Gulf flow squeeze",
       "published": "Thu, 09 Apr 2026 04:00:16 GMT",
       "actors": [
@@ -1437,10 +1403,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.168,
+      "impact": 0.034,
+      "raw_impact": 0.151,
       "source_weight": 0.9,
-      "age_hours": 3.01,
+      "age_hours": 4.86,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1471,10 +1437,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.168,
+      "impact": 0.034,
+      "raw_impact": 0.151,
       "source_weight": 0.9,
-      "age_hours": 3.01,
+      "age_hours": 4.86,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1497,40 +1463,6 @@
       ]
     },
     {
-      "title": "Trump criticises Nato as alliance chief describes meeting as 'very frank'",
-      "published": "Thu, 09 Apr 2026 01:59:34 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.15,
-      "source_weight": 1.0,
-      "age_hours": 5.02,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Iran ceasefire deal gives Trump a way out of war - but at a high cost",
       "published": "Wed, 08 Apr 2026 03:30:55 GMT",
       "actors": [
@@ -1539,10 +1471,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.037,
-      "raw_impact": -0.041,
+      "impact": -0.033,
+      "raw_impact": -0.037,
       "source_weight": 1.0,
-      "age_hours": 27.5,
+      "age_hours": 29.35,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1573,10 +1505,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.141,
+      "impact": 0.029,
+      "raw_impact": 0.127,
       "source_weight": 0.9,
-      "age_hours": 6.04,
+      "age_hours": 7.88,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1607,10 +1539,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.114,
+      "impact": 0.023,
+      "raw_impact": 0.102,
       "source_weight": 0.9,
-      "age_hours": 9.75,
+      "age_hours": 11.6,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1641,10 +1573,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.099,
+      "impact": 0.02,
+      "raw_impact": 0.089,
       "source_weight": 0.9,
-      "age_hours": 12.22,
+      "age_hours": 14.07,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1675,10 +1607,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.034,
+      "impact": 0.007,
+      "raw_impact": 0.031,
       "source_weight": 0.9,
-      "age_hours": 30.44,
+      "age_hours": 32.28,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1709,10 +1641,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.005,
-      "raw_impact": 0.022,
+      "impact": 0.004,
+      "raw_impact": 0.02,
       "source_weight": 0.9,
-      "age_hours": 38.44,
+      "age_hours": 40.29,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1744,9 +1676,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.002,
-      "raw_impact": 0.007,
+      "raw_impact": 0.006,
       "source_weight": 1.1,
-      "age_hours": 58.0,
+      "age_hours": 59.84,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1780,7 +1712,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 171.57,
+      "age_hours": 173.41,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1814,7 +1746,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 872.27,
+      "age_hours": 874.11,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1848,7 +1780,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 190.51,
+      "age_hours": 192.35,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1883,7 +1815,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 231.49,
+      "age_hours": 233.34,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1918,7 +1850,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 236.13,
+      "age_hours": 237.98,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1952,7 +1884,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 351.7,
+      "age_hours": 353.54,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -2113,14 +2045,14 @@
   ],
   "debug": {
     "event_count": 235,
-    "classified_count": 57,
-    "paired_count": 57,
+    "classified_count": 55,
+    "paired_count": 55,
     "valid_pair_updates": 6,
-    "top_driver_count": 57,
-    "total_signal": 8.9445,
+    "top_driver_count": 55,
+    "total_signal": 11.2649,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 98,
+      "no_actor": 100,
       "no_signal": 45,
       "invalid_pair": 35,
       "low_confidence": 0,
