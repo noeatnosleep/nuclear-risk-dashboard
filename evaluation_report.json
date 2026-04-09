@@ -9,10 +9,10 @@
       "ok": true,
       "pred_state_key": "us_china",
       "expected_state_key": "us_china",
-      "pred_direction": "down",
+      "pred_direction": "down_or_flat",
       "expected_direction": "down_or_flat",
       "pair_ok": true,
-      "direction_ok": false
+      "direction_ok": true
     },
     {
       "title": "Russia launches missile strike in Ukraine",
@@ -29,10 +29,10 @@
       "ok": true,
       "pred_state_key": "iran_israel",
       "expected_state_key": "iran_israel",
-      "pred_direction": "down",
+      "pred_direction": "down_or_flat",
       "expected_direction": "down",
       "pair_ok": true,
-      "direction_ok": true
+      "direction_ok": false
     }
   ]
 }
