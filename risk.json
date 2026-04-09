@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-04-09 18:00:56 UTC",
-  "probability": 22.09,
-  "uncertainty": 6.35,
+  "last_updated": "2026-04-09 19:48:23 UTC",
+  "probability": 21.8,
+  "uncertainty": 6.27,
   "state": {
-    "us_russia": 5.225094211872453,
-    "us_china": 3.8041753549747104,
-    "china_taiwan": 4.160835070994942,
+    "us_russia": 5.227832534780176,
+    "us_china": 3.7475987603569525,
+    "china_taiwan": 4.149519752071391,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.599481300193295,
-    "iran_israel": 6.599481300199209,
+    "iran_us": 5.615349440727688,
+    "iran_israel": 6.615349440730831,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.647277534078264
+    "russia_ukraine": 5.488746220535565
   },
   "top_drivers": [
     {
-      "title": "Iran War Live Updates: Israel Agrees to Talks With Lebanon, Where Its Strikes Imperil Cease-Fire",
-      "published": "Thu, 09 Apr 2026 17:55:34 +0000",
+      "title": "Netanyahu Says He Ordered Israel to Hold Talks With Lebanon About Disarming Hezbollah",
+      "published": "Thu, 09 Apr 2026 19:34:32 +0000",
       "actors": [
         "iran",
-        "us"
+        "israel"
       ],
-      "state_key": "iran_us",
+      "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.806,
-      "raw_impact": 0.895,
+      "impact": 0.799,
+      "raw_impact": 0.888,
       "source_weight": 0.9,
-      "age_hours": 0.09,
-      "confidence": 0.9,
+      "age_hours": 0.23,
+      "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
         "deescalation": 0.0,
@@ -39,7 +39,7 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/09/world/iran-ceasefire-trump-lebanon",
+      "link": "https://www.nytimes.com/2026/04/09/world/middleeast/israel-lebanon-talks-hezbollah-disarm.html",
       "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
@@ -47,7 +47,7 @@
         "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/09/world/iran-ceasefire-trump-lebanon"
+        "https://www.nytimes.com/2026/04/09/world/middleeast/israel-lebanon-talks-hezbollah-disarm.html"
       ]
     },
     {
@@ -62,7 +62,7 @@
       "impact": 0.75,
       "raw_impact": 1.25,
       "source_weight": 0.75,
-      "age_hours": 5.66,
+      "age_hours": 7.45,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -86,6 +86,40 @@
       ]
     },
     {
+      "title": "Iranians rally nationwide to honour late leader Ali Khamenei",
+      "published": "Thu, 09 Apr 2026 18:23:47 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.747,
+      "raw_impact": 0.83,
+      "source_weight": 0.9,
+      "age_hours": 1.41,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/gallery/2026/4/9/iranians-rally-nationwide-to-honor-late-leader-ali-khamenei?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/gallery/2026/4/9/iranians-rally-nationwide-to-honor-late-leader-ali-khamenei?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Israel bombed Gaza on 36 of the past 40 days while the war raged in Iran",
       "published": "Thu, 09 Apr 2026 15:53:33 +0000",
       "actors": [
@@ -94,10 +128,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.717,
-      "raw_impact": 0.796,
+      "impact": 0.646,
+      "raw_impact": 0.718,
       "source_weight": 0.9,
-      "age_hours": 2.12,
+      "age_hours": 3.91,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -120,6 +154,76 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: Israel Agrees to Talks With Lebanon but Will Still Strike Hezbollah",
+      "published": "Thu, 09 Apr 2026 19:34:34 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.577,
+      "raw_impact": 0.641,
+      "source_weight": 0.9,
+      "age_hours": 0.23,
+      "confidence": 0.698,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/09/world/iran-ceasefire-trump-lebanon",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/09/world/iran-ceasefire-trump-lebanon"
+      ]
+    },
+    {
+      "title": "Why is Hezbollah a sticking point in the Iran ceasefire?",
+      "published": "Thu, 09 Apr 2026 19:17:44 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.568,
+      "raw_impact": 0.631,
+      "source_weight": 0.9,
+      "age_hours": 0.51,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/inside-story/2026/4/9/why-is-hezbollah-a-sticking-point-in-the-iran-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/inside-story/2026/4/9/why-is-hezbollah-a-sticking-point-in-the-iran-ceasefire?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC",
       "published": "Thu, 09 Apr 2026 17:11:59 GMT",
       "actors": [
@@ -128,10 +232,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.62,
-      "raw_impact": 0.62,
+      "impact": 0.559,
+      "raw_impact": 0.559,
       "source_weight": 1.0,
-      "age_hours": 0.82,
+      "age_hours": 2.61,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -163,10 +267,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.614,
-      "raw_impact": -0.758,
+      "impact": -0.553,
+      "raw_impact": -0.683,
       "source_weight": 0.9,
-      "age_hours": 0.93,
+      "age_hours": 2.73,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -197,10 +301,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.572,
-      "raw_impact": 0.636,
+      "impact": 0.516,
+      "raw_impact": 0.574,
       "source_weight": 0.9,
-      "age_hours": 0.38,
+      "age_hours": 2.17,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -232,10 +336,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.572,
-      "raw_impact": 0.635,
+      "impact": 0.516,
+      "raw_impact": 0.573,
       "source_weight": 0.9,
-      "age_hours": 0.39,
+      "age_hours": 2.19,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -267,10 +371,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.569,
-      "raw_impact": 0.632,
+      "impact": 0.513,
+      "raw_impact": 0.57,
       "source_weight": 0.9,
-      "age_hours": 0.49,
+      "age_hours": 2.29,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -294,6 +398,41 @@
       ]
     },
     {
+      "title": "Lebanon: Health system overwhelmed following a \u2018horrific\u2019 day of Israeli strikes",
+      "published": "Thu, 09 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.455,
+      "raw_impact": 0.414,
+      "source_weight": 1.1,
+      "age_hours": 7.81,
+      "confidence": 0.718,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167276",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167276"
+      ]
+    },
+    {
       "title": "MIDDLE EAST LIVE 9 April: UN condemns massive strikes in Lebanon, as concerns grow over ceasefire",
       "published": "Thu, 09 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -302,10 +441,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.505,
-      "raw_impact": 0.459,
+      "impact": 0.455,
+      "raw_impact": 0.414,
       "source_weight": 1.1,
-      "age_hours": 6.02,
+      "age_hours": 7.81,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -337,10 +476,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.495,
-      "raw_impact": 0.55,
+      "impact": 0.446,
+      "raw_impact": 0.496,
       "source_weight": 0.9,
-      "age_hours": 2.9,
+      "age_hours": 4.69,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -372,10 +511,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.472,
-      "raw_impact": 0.524,
+      "impact": 0.425,
+      "raw_impact": 0.473,
       "source_weight": 0.9,
-      "age_hours": 3.73,
+      "age_hours": 5.52,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -407,10 +546,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.47,
-      "raw_impact": 0.522,
+      "impact": 0.424,
+      "raw_impact": 0.471,
       "source_weight": 0.9,
-      "age_hours": 3.78,
+      "age_hours": 5.57,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -434,41 +573,6 @@
       ]
     },
     {
-      "title": "What to Know About Israel\u2019s Strikes on Lebanon",
-      "published": "Thu, 09 Apr 2026 11:42:28 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.406,
-      "raw_impact": 0.452,
-      "source_weight": 0.9,
-      "age_hours": 6.31,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/09/world/middleeast/what-to-know-israel-strikes-lebanon.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/09/world/middleeast/what-to-know-israel-strikes-lebanon.html"
-      ]
-    },
-    {
       "title": "Iran-U.S. ceasefire off to a shaky start. And, Bill Gates to testify in Epstein probe",
       "published": "Thu, 09 Apr 2026 08:02:03 -0400",
       "actors": [
@@ -477,10 +581,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.391,
-      "raw_impact": 0.46,
+      "impact": 0.353,
+      "raw_impact": 0.415,
       "source_weight": 0.85,
-      "age_hours": 5.98,
+      "age_hours": 7.77,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -512,10 +616,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.355,
-      "raw_impact": 0.395,
+      "impact": 0.32,
+      "raw_impact": 0.356,
       "source_weight": 0.9,
-      "age_hours": 8.63,
+      "age_hours": 10.42,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -547,10 +651,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.324,
-      "raw_impact": 0.381,
+      "impact": 0.292,
+      "raw_impact": 0.344,
       "source_weight": 0.85,
-      "age_hours": 9.23,
+      "age_hours": 11.02,
       "confidence": 0.693,
       "signal_total": 0.65,
       "signal_components": {
@@ -582,10 +686,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.197,
-      "raw_impact": 0.219,
+      "impact": 0.177,
+      "raw_impact": 0.197,
       "source_weight": 0.9,
-      "age_hours": 18.86,
+      "age_hours": 20.65,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -617,10 +721,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.194,
-      "raw_impact": 0.216,
+      "impact": 0.175,
+      "raw_impact": 0.194,
       "source_weight": 0.9,
-      "age_hours": 19.11,
+      "age_hours": 20.9,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -652,10 +756,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.192,
-      "raw_impact": 0.192,
+      "impact": 0.173,
+      "raw_impact": 0.173,
       "source_weight": 1.0,
-      "age_hours": 21.1,
+      "age_hours": 22.89,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -679,6 +783,74 @@
       ]
     },
     {
+      "title": "Israel Says It Will Talk With Lebanon but Gives No Sign of a Cease-Fire There",
+      "published": "Thu, 09 Apr 2026 19:27:21 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.158,
+      "raw_impact": -0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.35,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/09/world/middleeast/israel-lebanon-talks-hezbollah.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/09/world/middleeast/israel-lebanon-talks-hezbollah.html"
+      ]
+    },
+    {
+      "title": "Putin announces Orthodox Easter ceasefire in Ukraine after Kyiv proposes same",
+      "published": "Thu, 09 Apr 2026 19:22:04 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "deescalation",
+      "impact": -0.158,
+      "raw_impact": -0.195,
+      "source_weight": 0.9,
+      "age_hours": 0.44,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/europe/20260409-putin-announces-orthodox-easter-ceasefire-in-ukraine",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/europe/20260409-putin-announces-orthodox-easter-ceasefire-in-ukraine"
+      ]
+    },
+    {
       "title": "Cameroon 'military contractors' killed in Russia-Ukraine war - BBC confirms leaked message",
       "published": "Wed, 08 Apr 2026 13:07:57 GMT",
       "actors": [
@@ -687,10 +859,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.17,
-      "raw_impact": 0.17,
+      "impact": 0.153,
+      "raw_impact": 0.153,
       "source_weight": 1.0,
-      "age_hours": 28.88,
+      "age_hours": 30.67,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -713,6 +885,74 @@
       ]
     },
     {
+      "title": "Sidelined by Trump\u2019s truce with Iran, Israel pummels Lebanon \u2013 then agrees to talks",
+      "published": "Thu, 09 Apr 2026 18:27:32 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.15,
+      "raw_impact": -0.185,
+      "source_weight": 0.9,
+      "age_hours": 1.35,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260409-sidelined-trump-ceasefire-iran-israel-pummels-lebanon-agrees-talks-netanyahu",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260409-sidelined-trump-ceasefire-iran-israel-pummels-lebanon-agrees-talks-netanyahu"
+      ]
+    },
+    {
+      "title": "Who profits off Iran war? Strait of Hormuz toll talk fuels outrage",
+      "published": "Thu, 09 Apr 2026 18:12:38 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.148,
+      "raw_impact": -0.182,
+      "source_weight": 0.9,
+      "age_hours": 1.6,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/the-debate/20260409-who-profits-off-iran-war-strait-of-hormuz-toll-talk-fuels-outrage",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/the-debate/20260409-who-profits-off-iran-war-strait-of-hormuz-toll-talk-fuels-outrage"
+      ]
+    },
+    {
       "title": "Ships remain cautious approaching Strait of Hormuz amid fragile ceasefire",
       "published": "Thu, 09 Apr 2026 13:58:43 GMT",
       "actors": [
@@ -721,10 +961,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.142,
-      "raw_impact": -0.158,
+      "impact": -0.129,
+      "raw_impact": -0.143,
       "source_weight": 1.0,
-      "age_hours": 4.04,
+      "age_hours": 5.83,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -747,40 +987,6 @@
       ]
     },
     {
-      "title": "Taking stock of Iran war after 40 days of conflict",
-      "published": "Thu, 09 Apr 2026 14:13:21 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.161,
-      "source_weight": 0.9,
-      "age_hours": 3.79,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260409-taking-stock-of-iran-war-after-40-days-of-conflict",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260409-taking-stock-of-iran-war-after-40-days-of-conflict"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 8 April: US-Iran ceasefire announced; strikes continue in Lebanon",
       "published": "Wed, 08 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -789,10 +995,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.126,
-      "raw_impact": 0.115,
+      "impact": 0.114,
+      "raw_impact": 0.104,
       "source_weight": 1.1,
-      "age_hours": 30.02,
+      "age_hours": 31.81,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -824,10 +1030,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.115,
-      "raw_impact": -0.142,
+      "impact": -0.104,
+      "raw_impact": -0.128,
       "source_weight": 0.9,
-      "age_hours": 5.92,
+      "age_hours": 7.71,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -858,10 +1064,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.1,
-      "raw_impact": 0.107,
+      "impact": 0.09,
+      "raw_impact": 0.097,
       "source_weight": 1.1,
-      "age_hours": 26.65,
+      "age_hours": 28.44,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -892,10 +1098,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.085,
-      "raw_impact": 0.094,
+      "impact": 0.077,
+      "raw_impact": 0.085,
       "source_weight": 0.9,
-      "age_hours": 33.38,
+      "age_hours": 35.18,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -919,6 +1125,40 @@
       ]
     },
     {
+      "title": "North Korea Tests New Weapons, Drawing Lessons from Iran War",
+      "published": "Thu, 09 Apr 2026 18:32:43 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.186,
+      "source_weight": 0.9,
+      "age_hours": 1.26,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/09/world/asia/north-korea-weapons-iran.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/09/world/asia/north-korea-weapons-iran.html"
+      ]
+    },
+    {
       "title": "IMF warns of looming inflation crisis on back of US-Israel war on Iran",
       "published": "Thu, 09 Apr 2026 17:23:22 +0000",
       "actors": [
@@ -927,10 +1167,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.193,
+      "impact": 0.039,
+      "raw_impact": 0.174,
       "source_weight": 0.9,
-      "age_hours": 0.63,
+      "age_hours": 2.42,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -953,40 +1193,6 @@
       ]
     },
     {
-      "title": "Trump Again Hits Out at NATO Over Iran War",
-      "published": "Thu, 09 Apr 2026 15:30:52 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
-      "source_weight": 0.9,
-      "age_hours": 2.5,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/09/world/middleeast/trump-nato-rutte-iran-war.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/09/world/middleeast/trump-nato-rutte-iran-war.html"
-      ]
-    },
-    {
       "title": "Trump sending US VP Vance to Pakistan for Iran talks",
       "published": "Thu, 09 Apr 2026 14:47:52 GMT",
       "actors": [
@@ -995,10 +1201,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.166,
+      "impact": 0.034,
+      "raw_impact": 0.15,
       "source_weight": 0.9,
-      "age_hours": 3.22,
+      "age_hours": 5.01,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1029,10 +1235,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.164,
+      "impact": 0.033,
+      "raw_impact": 0.148,
       "source_weight": 0.9,
-      "age_hours": 3.44,
+      "age_hours": 5.23,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1055,40 +1261,6 @@
       ]
     },
     {
-      "title": "The economic cost of US-Israel war on Iran",
-      "published": "Thu, 09 Apr 2026 13:23:11 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.153,
-      "source_weight": 0.9,
-      "age_hours": 4.63,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/money-works/2026/4/9/the-economic-cost-of-us-israel-war-on-iran?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/money-works/2026/4/9/the-economic-cost-of-us-israel-war-on-iran?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Iran ceasefire raises hopes for reopening key Strait of Hormuz",
       "published": "Wed, 08 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -1097,10 +1269,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.035,
-      "raw_impact": -0.035,
+      "impact": -0.032,
+      "raw_impact": -0.032,
       "source_weight": 1.1,
-      "age_hours": 30.02,
+      "age_hours": 31.81,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1131,10 +1303,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.142,
+      "impact": 0.029,
+      "raw_impact": 0.128,
       "source_weight": 0.9,
-      "age_hours": 5.91,
+      "age_hours": 7.7,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1165,10 +1337,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.143,
+      "impact": 0.029,
+      "raw_impact": 0.129,
       "source_weight": 0.9,
-      "age_hours": 5.75,
+      "age_hours": 7.54,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1191,40 +1363,6 @@
       ]
     },
     {
-      "title": "North Korea Tests New Weapons, Drawing Lessons from Iran War",
-      "published": "Thu, 09 Apr 2026 10:25:26 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.129,
-      "source_weight": 0.9,
-      "age_hours": 7.59,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/09/world/asia/north-korea-weapons-iran.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/09/world/asia/north-korea-weapons-iran.html"
-      ]
-    },
-    {
       "title": "Iran expert discusses whether the war has made the Iranian regime stronger",
       "published": "Thu, 09 Apr 2026 04:46:28 -0400",
       "actors": [
@@ -1233,10 +1371,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.117,
+      "impact": 0.022,
+      "raw_impact": 0.106,
       "source_weight": 0.85,
-      "age_hours": 9.24,
+      "age_hours": 11.03,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1267,10 +1405,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.079,
+      "impact": 0.018,
+      "raw_impact": 0.071,
       "source_weight": 1.0,
-      "age_hours": 16.02,
+      "age_hours": 17.81,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1301,10 +1439,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.075,
+      "impact": 0.015,
+      "raw_impact": 0.067,
       "source_weight": 0.9,
-      "age_hours": 17.03,
+      "age_hours": 18.83,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1336,9 +1474,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.018,
+      "raw_impact": 0.016,
       "source_weight": 0.9,
-      "age_hours": 41.44,
+      "age_hours": 43.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1370,9 +1508,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.001,
-      "raw_impact": 0.004,
+      "raw_impact": 0.003,
       "source_weight": 1.1,
-      "age_hours": 69.0,
+      "age_hours": 70.79,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1406,7 +1544,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 182.57,
+      "age_hours": 184.36,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1440,7 +1578,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 883.27,
+      "age_hours": 885.06,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1474,7 +1612,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 201.5,
+      "age_hours": 203.3,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1509,7 +1647,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 242.49,
+      "age_hours": 244.28,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1544,7 +1682,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 247.13,
+      "age_hours": 248.92,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1578,7 +1716,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 362.69,
+      "age_hours": 364.49,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1733,17 +1871,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 234,
-    "classified_count": 46,
-    "paired_count": 46,
+    "event_count": 236,
+    "classified_count": 50,
+    "paired_count": 50,
     "valid_pair_updates": 6,
-    "top_driver_count": 46,
-    "total_signal": 10.8829,
+    "top_driver_count": 50,
+    "total_signal": 11.2758,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 101,
-      "no_signal": 45,
-      "invalid_pair": 42,
+      "no_actor": 97,
+      "no_signal": 52,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
