@@ -5,6 +5,7 @@
 <title>Nuclear Risk Dashboard</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="traffic.js"></script>
 <style>
 :root { --bg:#f4f7fb; --text:#0f172a; --muted:#475569; --card:#ffffff; --border:#d7dfeb; --link:#2563eb; --low:#16a34a; --medium:#d97706; --high:#dc2626; }
 html[data-theme="dark"] { --bg:#0b1220; --text:#e5e7eb; --muted:#a5b4c7; --card:#162033; --border:#2a3950; --link:#60a5fa; --low:#22c55e; --medium:#f59e0b; --high:#ef4444; }
@@ -114,7 +115,7 @@ canvas { width:100% !important; height:100% !important; }
 
   <div class="section"><details id="signalSourcesDetails" class="details-card"><summary>Signal Sources</summary><div class="details-body"><div id="sources" class="sources-list"></div></div></details></div>
   <div class="section"><details id="nerdyDetailsPanel" class="details-card"><summary>Nerdy Details</summary><div class="details-body" id="nerdyDetails"></div></details></div>
-  <div class="footer">Signal-based model using global news inputs. Not predictive financial/safety advice.<br><br>Contact: <a href="mailto:noeatnosleep@pm.me" style="color:var(--link);">noeatnosleep@pm.me</a> | Repo: <a href="https://github.com/noeatnosleep/nuclear-risk-dashboard" target="_blank" rel="noopener noreferrer" style="color:var(--link);">github.com/noeatnosleep/nuclear-risk-dashboard</a><div id="build" class="build">Build: loading...</div></div>
+  <div class="footer">Signal-based model using global news inputs. Not predictive financial/safety advice.<br><br>Contact: <a href="mailto:noeatnosleep@pm.me" style="color:var(--link);">noeatnosleep@pm.me</a> | Repo: <a href="https://github.com/noeatnosleep/nuclear-risk-dashboard" target="_blank" rel="noopener noreferrer" style="color:var(--link);">github.com/noeatnosleep/nuclear-risk-dashboard</a> | <a href="/dash" style="color:var(--link);">dash</a><div id="build" class="build">Build: loading...</div></div>
 </div>
 
 <script>
@@ -185,6 +186,7 @@ document.getElementById("resetFilter").addEventListener("click",()=>{ window.__s
 document.getElementById("themeToggle").addEventListener("click",()=>{ const current=document.documentElement.getAttribute("data-theme")||"dark"; applyTheme(current==="dark"?"light":"dark"); });
 document.getElementById("signalSourcesDetails").addEventListener("toggle",(e)=>{ if(e.target.open) e.target.scrollIntoView({behavior:"smooth", block:"start"}); });
 document.getElementById("nerdyDetailsPanel").addEventListener("toggle",(e)=>{ if(e.target.open) e.target.scrollIntoView({behavior:"smooth", block:"start"}); });
+if (window.NRDTraffic && typeof window.NRDTraffic.trackPage === "function") { window.NRDTraffic.trackPage(); }
 applyTheme(localStorage.getItem(THEME_KEY)||"dark"); load();
 </script>
 </body>
