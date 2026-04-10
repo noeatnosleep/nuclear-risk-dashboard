@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-10 12:07:21 UTC",
-  "probability": 15.75,
-  "uncertainty": 6.2,
+  "last_updated": "2026-04-10 13:57:55 UTC",
+  "probability": 16.23,
+  "uncertainty": 6.27,
   "state": {
-    "us_russia": 4.130772817799844,
-    "us_china": 3.007845837404137,
-    "china_taiwan": 4.001569167480827,
+    "us_russia": 4.127872128841419,
+    "us_china": 2.9812885292399107,
+    "china_taiwan": 3.9962577058479822,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6333162264035,
-    "iran_israel": 6.632245068933003,
+    "iran_us": 5.633324245276859,
+    "iran_israel": 6.632755192870658,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 4.557605288411457
+    "russia_ukraine": 5.305136869617185
   },
   "top_drivers": [
+    {
+      "title": "Russia suffers \u2018record\u2019 soldier casualties as Ukraine ups drone production",
+      "published": "Fri, 10 Apr 2026 13:19:33 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.781,
+      "raw_impact": 0.867,
+      "source_weight": 0.9,
+      "age_hours": 0.64,
+      "confidence": 0.81,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/10/ukraine-says-russia-suffers-record-losses-of-soldiers?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/10/ukraine-says-russia-suffers-record-losses-of-soldiers?traffic_source=rss"
+      ]
+    },
     {
       "title": "Trump \u2018reaping bitter fruit\u2019 of thinking Iran intervention as easy as Venezuela, says former diplomat",
       "published": "Fri, 10 Apr 2026 10:00:16 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.717,
-      "raw_impact": 0.796,
+      "impact": 0.644,
+      "raw_impact": 0.716,
       "source_weight": 0.9,
-      "age_hours": 2.12,
+      "age_hours": 3.96,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,6 +85,41 @@
       ]
     },
     {
+      "title": "Trump fumes as Iran retains choke hold on Strait of Hormuz ahead of peace talks",
+      "published": "Fri, 10 Apr 2026 13:32:35 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.571,
+      "raw_impact": 0.634,
+      "source_weight": 0.9,
+      "age_hours": 0.42,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/10/iran-us-war-ceasefire-trump/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/10/iran-us-war-ceasefire-trump/"
+      ]
+    },
+    {
       "title": "Australian War Memorial updates Ben Roberts-Smith museum display \u2013 as it happened",
       "published": "Fri, 10 Apr 2026 07:02:52 GMT",
       "actors": [
@@ -59,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.604,
-      "raw_impact": 0.671,
+      "impact": 0.543,
+      "raw_impact": 0.604,
       "source_weight": 0.9,
-      "age_hours": 5.07,
+      "age_hours": 6.92,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,19 +154,19 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Israel Strikes Hezbollah as Lebanon Impasse Threatens Cease-Fire",
-      "published": "Fri, 10 Apr 2026 11:58:51 +0000",
+      "title": "Overlooked IRGC institution holds key to Iran's Hormuz approach, expert warns",
+      "published": "Fri, 10 Apr 2026 15:06:51 +0200",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.58,
-      "raw_impact": 0.645,
-      "source_weight": 0.9,
-      "age_hours": 0.14,
-      "confidence": 0.698,
+      "impact": 0.526,
+      "raw_impact": 0.619,
+      "source_weight": 0.85,
+      "age_hours": 0.85,
+      "confidence": 0.693,
       "signal_total": 0.65,
       "signal_components": {
         "deescalation": -0.2,
@@ -108,15 +177,15 @@
         "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/10/world/iran-war-trump-israel-lebanon",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "http://www.euronews.com/2026/04/10/overlooked-irgc-institution-holds-key-to-irans-hormuz-approach-expert-warns",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "www.euronews.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/10/world/iran-war-trump-israel-lebanon"
+        "http://www.euronews.com/2026/04/10/overlooked-irgc-institution-holds-key-to-irans-hormuz-approach-expert-warns"
       ]
     },
     {
@@ -128,10 +197,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.522,
-      "raw_impact": 0.614,
+      "impact": 0.469,
+      "raw_impact": 0.552,
       "source_weight": 0.85,
-      "age_hours": 1.0,
+      "age_hours": 2.84,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -155,76 +224,6 @@
       ]
     },
     {
-      "title": "Israel presses ahead with Lebanon strikes as talks loom",
-      "published": "Fri, 10 Apr 2026 08:37:55 GMT",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.478,
-      "raw_impact": 0.531,
-      "source_weight": 0.9,
-      "age_hours": 3.49,
-      "confidence": 0.698,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/ffef195c-8b3c-48fc-bddd-64036880dc6f",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/ffef195c-8b3c-48fc-bddd-64036880dc6f"
-      ]
-    },
-    {
-      "title": "Iran war: What is happening on day 42 of US-Israeli attacks?",
-      "published": "Fri, 10 Apr 2026 06:14:38 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.417,
-      "raw_impact": 0.463,
-      "source_weight": 0.9,
-      "age_hours": 5.88,
-      "confidence": 0.698,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/10/iran-war-what-is-happening-on-day-42-of-us-israeli-attacks?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/10/iran-war-what-is-happening-on-day-42-of-us-israeli-attacks?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Assessing the damage: What the Iran war really means for Europe\u2019s defence",
       "published": "Thu, 09 Apr 2026 12:21:35 +0000",
       "actors": [
@@ -233,10 +232,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.338,
-      "raw_impact": 0.563,
+      "impact": 0.303,
+      "raw_impact": 0.506,
       "source_weight": 0.75,
-      "age_hours": 23.76,
+      "age_hours": 25.61,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -260,41 +259,6 @@
       ]
     },
     {
-      "title": "Middle East live: Vance heads to Pakistan for Iran talks as Israeli assault on Lebanon tests truce",
-      "published": "Fri, 10 Apr 2026 02:35:18 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.337,
-      "raw_impact": 0.375,
-      "source_weight": 0.9,
-      "age_hours": 9.53,
-      "confidence": 0.698,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260410-middle-east-live-khamenei-says-iran-does-not-want-war-but-will-defend-its-rights",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260410-middle-east-live-khamenei-says-iran-does-not-want-war-but-will-defend-its-rights"
-      ]
-    },
-    {
       "title": "Netanyahu greenlights Israel-Lebanon talks in Washington amid ceasefire tensions",
       "published": "Fri, 10 Apr 2026 02:14:55 GMT",
       "actors": [
@@ -303,10 +267,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.331,
-      "raw_impact": 0.367,
+      "impact": 0.297,
+      "raw_impact": 0.33,
       "source_weight": 0.9,
-      "age_hours": 9.87,
+      "age_hours": 11.72,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -330,37 +294,38 @@
       ]
     },
     {
-      "title": "Macron meets Pope Leo amid calls for peace in Middle East",
-      "published": "Thu, 09 Apr 2026 17:37:12 GMT",
+      "title": "Here\u2019s What Happened in the War in the Middle East on Thursday",
+      "published": "Fri, 10 Apr 2026 00:15:43 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.278,
-      "raw_impact": 0.309,
+      "impact": 0.265,
+      "raw_impact": 0.295,
       "source_weight": 0.9,
-      "age_hours": 18.5,
-      "confidence": 0.9,
-      "signal_total": 0.9,
+      "age_hours": 13.7,
+      "confidence": 0.698,
+      "signal_total": 0.65,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.9,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/europe/20260409-france-s-macron-in-rome-for-first-meeting-with-pope-leo",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.nytimes.com/2026/04/09/world/middleeast/iran-war-middle-east-recap-thursday.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/europe/20260409-france-s-macron-in-rome-for-first-meeting-with-pope-leo"
+        "https://www.nytimes.com/2026/04/09/world/middleeast/iran-war-middle-east-recap-thursday.html"
       ]
     },
     {
@@ -372,10 +337,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.255,
-      "raw_impact": 0.319,
+      "impact": 0.23,
+      "raw_impact": 0.287,
       "source_weight": 1.0,
-      "age_hours": 22.94,
+      "age_hours": 24.78,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -406,10 +371,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.178,
-      "raw_impact": -0.198,
+      "impact": -0.16,
+      "raw_impact": -0.178,
       "source_weight": 1.0,
-      "age_hours": 0.19,
+      "age_hours": 2.03,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -440,10 +405,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.177,
-      "raw_impact": 0.161,
+      "impact": 0.16,
+      "raw_impact": 0.145,
       "source_weight": 1.1,
-      "age_hours": 24.12,
+      "age_hours": 25.97,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -475,10 +440,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.177,
-      "raw_impact": 0.161,
+      "impact": 0.16,
+      "raw_impact": 0.145,
       "source_weight": 1.1,
-      "age_hours": 24.12,
+      "age_hours": 25.97,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -502,6 +467,40 @@
       ]
     },
     {
+      "title": "Under the fog of ceasefire: Competing narratives over the peace talks",
+      "published": "Fri, 10 Apr 2026 13:13:35 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.155,
+      "raw_impact": -0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.74,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/scoop/20260410-under-the-fog-of-ceasefire-competing-narratives-over-the-peace-talks",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/scoop/20260410-under-the-fog-of-ceasefire-competing-narratives-over-the-peace-talks"
+      ]
+    },
+    {
       "title": "Strait of Hormuz not open, Abu Dhabi\u2019s oil chief says as crude prices rise",
       "published": "Thu, 09 Apr 2026 14:14:06 GMT",
       "actors": [
@@ -510,10 +509,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.165,
-      "raw_impact": 0.184,
+      "impact": 0.149,
+      "raw_impact": 0.165,
       "source_weight": 0.9,
-      "age_hours": 21.89,
+      "age_hours": 23.73,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -537,19 +536,19 @@
       ]
     },
     {
-      "title": "What to Know About the U.S.-Iran Cease-Fire",
-      "published": "Fri, 10 Apr 2026 09:56:55 +0000",
+      "title": "VP Vance to lead U.S. team in Iran peace talks. And, Artemis II to return to Earth",
+      "published": "Fri, 10 Apr 2026 08:02:23 -0400",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.143,
-      "raw_impact": -0.176,
-      "source_weight": 0.9,
-      "age_hours": 2.17,
-      "confidence": 0.68,
+      "impact": -0.137,
+      "raw_impact": -0.179,
+      "source_weight": 0.85,
+      "age_hours": 1.93,
+      "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -559,15 +558,15 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/2026/04/08/world/middleeast/iran-ceasefire-us-explainer.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.npr.org/2026/04/10/g-s1-117023/up-first-newsletter-iran-us-israel-jd-vance-artemis-two-melania-trump-fema-funds",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "feeds.npr.org"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/04/08/world/middleeast/iran-ceasefire-us-explainer.html"
+        "https://www.npr.org/2026/04/10/g-s1-117023/up-first-newsletter-iran-us-israel-jd-vance-artemis-two-melania-trump-fema-funds"
       ]
     },
     {
@@ -579,10 +578,10 @@
       ],
       "state_key": "us_china",
       "class": "deescalation",
-      "impact": -0.135,
-      "raw_impact": -0.167,
+      "impact": -0.122,
+      "raw_impact": -0.15,
       "source_weight": 0.9,
-      "age_hours": 3.12,
+      "age_hours": 4.97,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -613,10 +612,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.162,
+      "impact": -0.118,
+      "raw_impact": -0.146,
       "source_weight": 0.9,
-      "age_hours": 3.66,
+      "age_hours": 5.5,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -647,10 +646,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.127,
-      "raw_impact": -0.157,
+      "impact": -0.114,
+      "raw_impact": -0.141,
       "source_weight": 0.9,
-      "age_hours": 4.22,
+      "age_hours": 6.06,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -681,10 +680,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.125,
-      "raw_impact": 0.139,
+      "impact": 0.112,
+      "raw_impact": 0.125,
       "source_weight": 0.9,
-      "age_hours": 26.74,
+      "age_hours": 28.58,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -716,10 +715,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.105,
-      "raw_impact": -0.13,
+      "impact": -0.095,
+      "raw_impact": -0.117,
       "source_weight": 0.9,
-      "age_hours": 7.5,
+      "age_hours": 9.34,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -750,10 +749,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.102,
-      "raw_impact": -0.113,
+      "impact": -0.091,
+      "raw_impact": -0.101,
       "source_weight": 1.0,
-      "age_hours": 9.94,
+      "age_hours": 11.79,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -776,74 +775,6 @@
       ]
     },
     {
-      "title": "UK PM Keir Starmer visits Gulf to shore up \u2018fragile\u2019 US-Iran ceasefire",
-      "published": "Fri, 10 Apr 2026 03:13:44 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.097,
-      "raw_impact": -0.12,
-      "source_weight": 0.9,
-      "age_hours": 8.89,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/10/uk-pm-keir-starmer-visits-gulf-to-shore-up-fragile-us-iran-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/10/uk-pm-keir-starmer-visits-gulf-to-shore-up-fragile-us-iran-ceasefire?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Shipping in Strait of Hormuz at a standstill despite US-Iran ceasefire",
-      "published": "Fri, 10 Apr 2026 02:47:13 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.117,
-      "source_weight": 0.9,
-      "age_hours": 9.34,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/economy/2026/4/10/shipping-in-strait-of-hormuz-at-a-trickle-despite-us-iran-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/economy/2026/4/10/shipping-in-strait-of-hormuz-at-a-trickle-despite-us-iran-ceasefire?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Israel kills scores in Beirut as U.S. says Lebanon is not part of Iran truce",
       "published": "Wed, 08 Apr 2026 23:09:33 +0000",
       "actors": [
@@ -852,10 +783,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.069,
-      "raw_impact": 0.077,
+      "impact": 0.062,
+      "raw_impact": 0.069,
       "source_weight": 0.9,
-      "age_hours": 36.96,
+      "age_hours": 38.81,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -887,10 +818,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.068,
-      "raw_impact": 0.076,
+      "impact": 0.061,
+      "raw_impact": 0.068,
       "source_weight": 0.9,
-      "age_hours": 37.22,
+      "age_hours": 39.06,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -922,10 +853,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.066,
-      "raw_impact": 0.066,
+      "impact": 0.059,
+      "raw_impact": 0.059,
       "source_weight": 1.0,
-      "age_hours": 39.69,
+      "age_hours": 41.54,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -957,10 +888,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.065,
-      "raw_impact": -0.085,
+      "impact": -0.059,
+      "raw_impact": -0.076,
       "source_weight": 0.85,
-      "age_hours": 14.89,
+      "age_hours": 16.73,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -991,10 +922,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.064,
-      "raw_impact": -0.079,
+      "impact": -0.058,
+      "raw_impact": -0.071,
       "source_weight": 0.9,
-      "age_hours": 16.08,
+      "age_hours": 17.92,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -1017,40 +948,6 @@
       ]
     },
     {
-      "title": "Putin announces Orthodox Easter ceasefire in Ukraine after Kyiv proposes same",
-      "published": "Thu, 09 Apr 2026 19:22:04 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "deescalation",
-      "impact": -0.061,
-      "raw_impact": -0.076,
-      "source_weight": 0.9,
-      "age_hours": 16.75,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/europe/20260409-putin-announces-orthodox-easter-ceasefire-in-ukraine",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/europe/20260409-putin-announces-orthodox-easter-ceasefire-in-ukraine"
-      ]
-    },
-    {
       "title": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz",
       "published": "Thu, 09 Apr 2026 17:16:08 GMT",
       "actors": [
@@ -1059,10 +956,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.06,
-      "raw_impact": -0.067,
+      "impact": -0.055,
+      "raw_impact": -0.061,
       "source_weight": 1.0,
-      "age_hours": 18.85,
+      "age_hours": 20.7,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1085,6 +982,40 @@
       ]
     },
     {
+      "title": "Putin announces Orthodox Easter ceasefire in Ukraine after Kyiv proposes same",
+      "published": "Thu, 09 Apr 2026 19:22:04 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "deescalation",
+      "impact": -0.055,
+      "raw_impact": -0.068,
+      "source_weight": 0.9,
+      "age_hours": 18.6,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/europe/20260409-putin-announces-orthodox-easter-ceasefire-in-ukraine",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/europe/20260409-putin-announces-orthodox-easter-ceasefire-in-ukraine"
+      ]
+    },
+    {
       "title": "Sidelined by Trump\u2019s truce with Iran, Israel pummels Lebanon \u2013 then agrees to talks",
       "published": "Thu, 09 Apr 2026 18:27:32 GMT",
       "actors": [
@@ -1093,10 +1024,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.059,
-      "raw_impact": -0.072,
+      "impact": -0.052,
+      "raw_impact": -0.065,
       "source_weight": 0.9,
-      "age_hours": 17.66,
+      "age_hours": 19.51,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1127,10 +1058,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.058,
-      "raw_impact": -0.071,
+      "impact": -0.052,
+      "raw_impact": -0.064,
       "source_weight": 0.9,
-      "age_hours": 17.91,
+      "age_hours": 19.75,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -1153,6 +1084,74 @@
       ]
     },
     {
+      "title": "Is this America\u2019s Suez moment?",
+      "published": "Fri, 10 Apr 2026 13:00:02 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.189,
+      "source_weight": 0.9,
+      "age_hours": 0.96,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/0cbce778-a16a-40f9-bfb0-660b91f45325",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/0cbce778-a16a-40f9-bfb0-660b91f45325"
+      ]
+    },
+    {
+      "title": "US inflation surges to 3.3% as Iran war fuels energy price shock",
+      "published": "Fri, 10 Apr 2026 15:06:30 +0200",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.19,
+      "source_weight": 0.85,
+      "age_hours": 0.86,
+      "confidence": 0.665,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/business/2026/04/10/us-inflation-surges-to-33-as-iran-war-fuels-energy-price-shock",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/business/2026/04/10/us-inflation-surges-to-33-as-iran-war-fuels-energy-price-shock"
+      ]
+    },
+    {
       "title": "\u2018Closer to a break than ever\u2019: Can NATO survive if Trump pulls the US out?",
       "published": "Fri, 10 Apr 2026 11:44:10 +0000",
       "actors": [
@@ -1161,10 +1160,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.196,
+      "impact": 0.04,
+      "raw_impact": 0.176,
       "source_weight": 0.9,
-      "age_hours": 0.39,
+      "age_hours": 2.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1195,10 +1194,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.044,
-      "raw_impact": 0.04,
+      "impact": 0.04,
+      "raw_impact": 0.036,
       "source_weight": 1.1,
-      "age_hours": 48.12,
+      "age_hours": 49.97,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1222,6 +1221,40 @@
       ]
     },
     {
+      "title": "Pentagon denies threatening Vatican over pope's remarks on US intervention in Iran",
+      "published": "Fri, 10 Apr 2026 13:28:47 +0200",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.037,
+      "raw_impact": 0.173,
+      "source_weight": 0.85,
+      "age_hours": 2.49,
+      "confidence": 0.665,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/2026/04/10/pentagon-denies-threatening-vatican-over-popes-remarks-on-us-intervention-in-iran",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/2026/04/10/pentagon-denies-threatening-vatican-over-popes-remarks-on-us-intervention-in-iran"
+      ]
+    },
+    {
       "title": "FirstFT: Iran war to \u2018scar\u2019 markets, Wall Street warns",
       "published": "Fri, 10 Apr 2026 09:34:17 GMT",
       "actors": [
@@ -1230,10 +1263,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
+      "impact": 0.035,
+      "raw_impact": 0.155,
       "source_weight": 0.9,
-      "age_hours": 2.55,
+      "age_hours": 4.39,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1264,10 +1297,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.168,
+      "impact": 0.034,
+      "raw_impact": 0.151,
       "source_weight": 0.9,
-      "age_hours": 2.97,
+      "age_hours": 4.82,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1298,10 +1331,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.165,
+      "impact": 0.032,
+      "raw_impact": 0.148,
       "source_weight": 0.85,
-      "age_hours": 3.38,
+      "age_hours": 5.22,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1332,10 +1365,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.035,
-      "raw_impact": 0.038,
+      "impact": 0.031,
+      "raw_impact": 0.034,
       "source_weight": 1.1,
-      "age_hours": 44.76,
+      "age_hours": 46.6,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1366,10 +1399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.125,
+      "impact": 0.025,
+      "raw_impact": 0.112,
       "source_weight": 0.9,
-      "age_hours": 8.14,
+      "age_hours": 9.98,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1392,40 +1425,6 @@
       ]
     },
     {
-      "title": "Nato split over US access to European bases in Iran war",
-      "published": "Fri, 10 Apr 2026 04:00:32 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.125,
-      "source_weight": 0.9,
-      "age_hours": 8.11,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/e2347e81-19b2-4cd5-aea4-ff6bacf0e71b",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/e2347e81-19b2-4cd5-aea4-ff6bacf0e71b"
-      ]
-    },
-    {
       "title": "Iran\u2019s Battered Leaders Emerge From War Confident \u2014 and With New Cards",
       "published": "Fri, 10 Apr 2026 00:20:57 +0000",
       "actors": [
@@ -1434,10 +1433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.101,
+      "impact": 0.021,
+      "raw_impact": 0.091,
       "source_weight": 0.9,
-      "age_hours": 11.77,
+      "age_hours": 13.62,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1468,10 +1467,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.012,
+      "impact": -0.011,
+      "raw_impact": -0.011,
       "source_weight": 1.1,
-      "age_hours": 48.12,
+      "age_hours": 49.97,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1502,10 +1501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.007,
-      "raw_impact": 0.028,
+      "impact": 0.006,
+      "raw_impact": 0.025,
       "source_weight": 1.0,
-      "age_hours": 34.13,
+      "age_hours": 35.97,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1536,10 +1535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.026,
+      "impact": 0.005,
+      "raw_impact": 0.024,
       "source_weight": 0.9,
-      "age_hours": 35.14,
+      "age_hours": 36.98,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1573,7 +1572,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 87.11,
+      "age_hours": 88.95,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1607,7 +1606,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 200.67,
+      "age_hours": 202.52,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1641,7 +1640,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 901.37,
+      "age_hours": 903.22,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1675,7 +1674,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 219.61,
+      "age_hours": 221.45,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1710,7 +1709,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 260.6,
+      "age_hours": 262.44,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1745,7 +1744,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 265.24,
+      "age_hours": 267.08,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1788,6 +1787,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "euronews_world",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1875,6 +1879,11 @@
       "domain": "www.economist.com"
     },
     {
+      "name": "www.euronews.com",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
+    },
+    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -1904,17 +1913,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 231,
+    "event_count": 251,
     "classified_count": 51,
     "paired_count": 51,
     "valid_pair_updates": 6,
     "top_driver_count": 51,
-    "total_signal": 6.6667,
+    "total_signal": 6.1871,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 88,
-      "no_signal": 54,
-      "invalid_pair": 38,
+      "no_actor": 104,
+      "no_signal": 55,
+      "invalid_pair": 41,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
