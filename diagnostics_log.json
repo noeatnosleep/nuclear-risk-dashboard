@@ -108628,5 +108628,1644 @@
         ]
       }
     ]
+  },
+  {
+    "ts": "2026-04-10 15:56:27 UTC",
+    "probability": 13.77,
+    "uncertainty": 18.0,
+    "state": {
+      "us_russia": 3.6123671817158898,
+      "us_china": 2.9801502272069573,
+      "china_taiwan": 3.9960300454413913,
+      "india_pakistan": 4.500000000000001,
+      "china_india": 2.8000000000000003,
+      "iran_us": 4.47951219988648,
+      "iran_israel": 5.47949136989246,
+      "nk_us": 3.0000000000000004,
+      "nk_sk": 2.8000000000000003,
+      "nk_japan": 2.6000000000000005,
+      "russia_ukraine": 5.617330778011957
+    },
+    "drop_reasons": {
+      "missing_title": 0,
+      "no_actor": 0,
+      "no_signal": 0,
+      "invalid_pair": 0,
+      "low_confidence": 0,
+      "classifier_error": 0,
+      "non_positive_source_weight": 0
+    },
+    "event_count": 0,
+    "classified_count": 0,
+    "drivers": []
+  },
+  {
+    "ts": "2026-04-10 15:56:54 UTC",
+    "probability": 15.99,
+    "uncertainty": 6.31,
+    "state": {
+      "us_russia": 3.9537986070753597,
+      "us_china": 2.962724255096088,
+      "china_taiwan": 3.9925448510192174,
+      "india_pakistan": 4.500000000000001,
+      "china_india": 2.8000000000000003,
+      "iran_us": 5.332585369903509,
+      "iran_israel": 6.332567664408591,
+      "nk_us": 3.0000000000000004,
+      "nk_sk": 2.8000000000000003,
+      "nk_japan": 2.6000000000000005,
+      "russia_ukraine": 6.174350534990319
+    },
+    "drop_reasons": {
+      "missing_title": 0,
+      "no_actor": 89,
+      "no_signal": 56,
+      "invalid_pair": 41,
+      "low_confidence": 0,
+      "classifier_error": 0,
+      "non_positive_source_weight": 0
+    },
+    "event_count": 232,
+    "classified_count": 46,
+    "drivers": [
+      {
+        "title": "Russia suffers \u2018record\u2019 soldier casualties as Ukraine ups drone production",
+        "published": "Fri, 10 Apr 2026 13:19:33 +0000",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "action",
+        "impact": 0.696,
+        "raw_impact": 0.773,
+        "source_weight": 0.9,
+        "age_hours": 2.62,
+        "confidence": 0.81,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.aljazeera.com/news/2026/4/10/ukraine-says-russia-suffers-record-losses-of-soldiers?traffic_source=rss",
+        "source": "https://www.aljazeera.com/xml/rss/all.xml",
+        "source_domain": "www.aljazeera.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.aljazeera.com"
+        ],
+        "cluster_links": [
+          "https://www.aljazeera.com/news/2026/4/10/ukraine-says-russia-suffers-record-losses-of-soldiers?traffic_source=rss"
+        ]
+      },
+      {
+        "title": "Trump \u2018reaping bitter fruit\u2019 of thinking Iran intervention as easy as Venezuela, says former diplomat",
+        "published": "Fri, 10 Apr 2026 10:00:16 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.575,
+        "raw_impact": 0.638,
+        "source_weight": 0.9,
+        "age_hours": 5.94,
+        "confidence": 0.89,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.theguardian.com/world/2026/apr/10/trump-iran-intervention-easy-as-venezuela-maduro-capture-john-feeley",
+        "source": "https://www.theguardian.com/world/rss",
+        "source_domain": "www.theguardian.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.theguardian.com"
+        ],
+        "cluster_links": [
+          "https://www.theguardian.com/world/2026/apr/10/trump-iran-intervention-easy-as-venezuela-maduro-capture-john-feeley"
+        ]
+      },
+      {
+        "title": "Cloud of uncertainty over US-Iran talks in Pakistan as sides trade accusations",
+        "published": "Fri, 10 Apr 2026 15:37:03 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.574,
+        "raw_impact": 0.638,
+        "source_weight": 0.9,
+        "age_hours": 0.33,
+        "confidence": 0.698,
+        "signal_total": 0.65,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.05,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.france24.com/en/video/20260410-cloud-of-uncertainty-over-us-iran-talks-in-pakistan-as-sides-trade-accusations",
+        "source": "https://www.france24.com/en/rss",
+        "source_domain": "www.france24.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.france24.com"
+        ],
+        "cluster_links": [
+          "https://www.france24.com/en/video/20260410-cloud-of-uncertainty-over-us-iran-talks-in-pakistan-as-sides-trade-accusations"
+        ]
+      },
+      {
+        "title": "Trump fumes as Iran retains choke hold on Strait of Hormuz ahead of peace talks",
+        "published": "Fri, 10 Apr 2026 13:32:35 +0000",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.509,
+        "raw_impact": 0.566,
+        "source_weight": 0.9,
+        "age_hours": 2.41,
+        "confidence": 0.688,
+        "signal_total": 0.65,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.05,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.washingtonpost.com/world/2026/04/10/iran-us-war-ceasefire-trump/",
+        "source": "https://feeds.washingtonpost.com/rss/world",
+        "source_domain": "feeds.washingtonpost.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.washingtonpost.com"
+        ],
+        "cluster_links": [
+          "https://www.washingtonpost.com/world/2026/04/10/iran-us-war-ceasefire-trump/"
+        ]
+      },
+      {
+        "title": "Australian War Memorial updates Ben Roberts-Smith museum display \u2013 as it happened",
+        "published": "Fri, 10 Apr 2026 07:02:52 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.484,
+        "raw_impact": 0.538,
+        "source_weight": 0.9,
+        "age_hours": 8.9,
+        "confidence": 0.9,
+        "signal_total": 0.9,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.theguardian.com/australia-news/live/2026/apr/10/anthony-albanese-singapore-visit-fuel-crisis-petrol-prices-labor-coalition-political-reactions-us-israel-war-iran-lebanon-ntwnfb",
+        "source": "https://www.theguardian.com/world/rss",
+        "source_domain": "www.theguardian.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.theguardian.com"
+        ],
+        "cluster_links": [
+          "https://www.theguardian.com/australia-news/live/2026/apr/10/anthony-albanese-singapore-visit-fuel-crisis-petrol-prices-labor-coalition-political-reactions-us-israel-war-iran-lebanon-ntwnfb"
+        ]
+      },
+      {
+        "title": "Trump says Iran 'doing a very poor job' in reopening the Strait of Hormuz",
+        "published": "Fri, 10 Apr 2026 07:07:34 -0400",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "action",
+        "impact": 0.418,
+        "raw_impact": 0.492,
+        "source_weight": 0.85,
+        "age_hours": 4.82,
+        "confidence": 0.683,
+        "signal_total": 0.65,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.05,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.npr.org/2026/04/10/g-s1-117013/trump-iran-strait-of-hormuz",
+        "source": "https://feeds.npr.org/1004/rss.xml",
+        "source_domain": "feeds.npr.org",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.npr.org"
+        ],
+        "cluster_links": [
+          "https://www.npr.org/2026/04/10/g-s1-117013/trump-iran-strait-of-hormuz"
+        ]
+      },
+      {
+        "title": "Assessing the damage: What the Iran war really means for Europe\u2019s defence",
+        "published": "Thu, 09 Apr 2026 12:21:35 +0000",
+        "actors": [
+          "us",
+          "russia"
+        ],
+        "state_key": "us_russia",
+        "class": "strategic",
+        "impact": 0.27,
+        "raw_impact": 0.451,
+        "source_weight": 0.75,
+        "age_hours": 27.59,
+        "confidence": 0.798,
+        "signal_total": 2.22,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.5,
+          "strategic": 1.2,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.18,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.iss.europa.eu/publications/commentary/assessing-damage-what-iran-war-really-means-europes-defence",
+        "source": "https://www.iss.europa.eu/rss.xml",
+        "source_domain": "www.iss.europa.eu",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.iss.europa.eu"
+        ],
+        "cluster_links": [
+          "https://www.iss.europa.eu/publications/commentary/assessing-damage-what-iran-war-really-means-europes-defence"
+        ]
+      },
+      {
+        "title": "Has US achieved its war objectives in Iran?",
+        "published": "Thu, 09 Apr 2026 13:11:03 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "strategic",
+        "impact": 0.205,
+        "raw_impact": 0.256,
+        "source_weight": 1.0,
+        "age_hours": 26.76,
+        "confidence": 0.96,
+        "signal_total": 1.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 1.2,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.bbc.com/news/articles/c1krpjr91v2o?at_medium=RSS&at_campaign=rss",
+        "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "source_domain": "feeds.bbci.co.uk",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.bbci.co.uk"
+        ],
+        "cluster_links": [
+          "https://www.bbc.com/news/articles/c1krpjr91v2o?at_medium=RSS&at_campaign=rss"
+        ]
+      },
+      {
+        "title": "Iran War Live Updates: Iranian Official Raises New Doubts as Vance Heads to Peace Talks",
+        "published": "Fri, 10 Apr 2026 15:51:56 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.161,
+        "raw_impact": -0.199,
+        "source_weight": 0.9,
+        "age_hours": 0.08,
+        "confidence": 0.67,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.nytimes.com/live/2026/04/10/world/iran-war-trump-israel-lebanon",
+        "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "source_domain": "rss.nytimes.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "rss.nytimes.com"
+        ],
+        "cluster_links": [
+          "https://www.nytimes.com/live/2026/04/10/world/iran-war-trump-israel-lebanon"
+        ]
+      },
+      {
+        "title": "US and Iran prepare for ceasefire talks as Netanyahu authorises negotiations with Lebanon",
+        "published": "Fri, 10 Apr 2026 15:40:03 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.159,
+        "raw_impact": -0.197,
+        "source_weight": 0.9,
+        "age_hours": 0.28,
+        "confidence": 0.76,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.france24.com/en/video/20260410-us-and-iran-prepare-for-ceasefire-talks-as-netanyahu-authorises-negotiations-with-lebanon",
+        "source": "https://www.france24.com/en/rss",
+        "source_domain": "www.france24.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.france24.com"
+        ],
+        "cluster_links": [
+          "https://www.france24.com/en/video/20260410-us-and-iran-prepare-for-ceasefire-talks-as-netanyahu-authorises-negotiations-with-lebanon"
+        ]
+      },
+      {
+        "title": "MIDDLE EAST LIVE 10 April: Fear and uncertainty grow in Lebanon as conflict grinds on",
+        "published": "Fri, 10 Apr 2026 12:00:00 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.158,
+        "raw_impact": -0.159,
+        "source_weight": 1.1,
+        "age_hours": 3.95,
+        "confidence": 0.78,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://news.un.org/feed/view/en/story/2026/04/1167279",
+        "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "source_domain": "news.un.org",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "news.un.org"
+        ],
+        "cluster_links": [
+          "https://news.un.org/feed/view/en/story/2026/04/1167279"
+        ]
+      },
+      {
+        "title": "Inflation rises in US amid Iran war, Hormuz blockade",
+        "published": "Fri, 10 Apr 2026 15:20:38 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.157,
+        "raw_impact": -0.193,
+        "source_weight": 0.9,
+        "age_hours": 0.6,
+        "confidence": 0.67,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.aljazeera.com/news/2026/4/10/inflation-rises-in-us-amid-iran-war-hormuz-blockade?traffic_source=rss",
+        "source": "https://www.aljazeera.com/xml/rss/all.xml",
+        "source_domain": "www.aljazeera.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.aljazeera.com"
+        ],
+        "cluster_links": [
+          "https://www.aljazeera.com/news/2026/4/10/inflation-rises-in-us-amid-iran-war-hormuz-blockade?traffic_source=rss"
+        ]
+      },
+      {
+        "title": "Vance expects \u2018positive\u2019 Iran talks as he heads to Islamabad",
+        "published": "Fri, 10 Apr 2026 14:07:19 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.146,
+        "raw_impact": -0.18,
+        "source_weight": 0.9,
+        "age_hours": 1.83,
+        "confidence": 0.68,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/10/vance-expects-positive-iran-talks-as-he-heads-to-islamabad?traffic_source=rss",
+        "source": "https://www.aljazeera.com/xml/rss/all.xml",
+        "source_domain": "www.aljazeera.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.aljazeera.com"
+        ],
+        "cluster_links": [
+          "https://www.aljazeera.com/video/newsfeed/2026/4/10/vance-expects-positive-iran-talks-as-he-heads-to-islamabad?traffic_source=rss"
+        ]
+      },
+      {
+        "title": "Russia and Ukraine agree to Orthodox Easter truce",
+        "published": "Fri, 10 Apr 2026 11:56:12 GMT",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "deescalation",
+        "impact": -0.143,
+        "raw_impact": -0.159,
+        "source_weight": 1.0,
+        "age_hours": 4.01,
+        "confidence": 0.68,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.bbc.com/news/articles/cn0wkkwev2vo?at_medium=RSS&at_campaign=rss",
+        "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "source_domain": "feeds.bbci.co.uk",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.bbci.co.uk"
+        ],
+        "cluster_links": [
+          "https://www.bbc.com/news/articles/cn0wkkwev2vo?at_medium=RSS&at_campaign=rss"
+        ]
+      },
+      {
+        "title": "Lebanon: Health system overwhelmed following a \u2018horrific\u2019 day of Israeli strikes",
+        "published": "Thu, 09 Apr 2026 12:00:00 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.142,
+        "raw_impact": 0.129,
+        "source_weight": 1.1,
+        "age_hours": 27.95,
+        "confidence": 0.718,
+        "signal_total": 0.65,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.05,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://news.un.org/feed/view/en/story/2026/04/1167276",
+        "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "source_domain": "news.un.org",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "news.un.org"
+        ],
+        "cluster_links": [
+          "https://news.un.org/feed/view/en/story/2026/04/1167276"
+        ]
+      },
+      {
+        "title": "MIDDLE EAST LIVE 9 April: UN condemns massive strikes in Lebanon, as concerns grow over ceasefire",
+        "published": "Thu, 09 Apr 2026 12:00:00 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.142,
+        "raw_impact": 0.129,
+        "source_weight": 1.1,
+        "age_hours": 27.95,
+        "confidence": 0.708,
+        "signal_total": 0.65,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.05,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://news.un.org/feed/view/en/story/2026/04/1167271",
+        "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "source_domain": "news.un.org",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "news.un.org"
+        ],
+        "cluster_links": [
+          "https://news.un.org/feed/view/en/story/2026/04/1167271"
+        ]
+      },
+      {
+        "title": "Under the fog of ceasefire: Competing narratives over the peace talks",
+        "published": "Fri, 10 Apr 2026 13:13:35 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.139,
+        "raw_impact": -0.171,
+        "source_weight": 0.9,
+        "age_hours": 2.72,
+        "confidence": 0.76,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.france24.com/en/tv-shows/scoop/20260410-under-the-fog-of-ceasefire-competing-narratives-over-the-peace-talks",
+        "source": "https://www.france24.com/en/rss",
+        "source_domain": "www.france24.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.france24.com"
+        ],
+        "cluster_links": [
+          "https://www.france24.com/en/tv-shows/scoop/20260410-under-the-fog-of-ceasefire-competing-narratives-over-the-peace-talks"
+        ]
+      },
+      {
+        "title": "Strait of Hormuz not open, Abu Dhabi\u2019s oil chief says as crude prices rise",
+        "published": "Thu, 09 Apr 2026 14:14:06 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.132,
+        "raw_impact": 0.147,
+        "source_weight": 0.9,
+        "age_hours": 25.71,
+        "confidence": 0.698,
+        "signal_total": 0.65,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.05,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.theguardian.com/business/2026/apr/09/oil-price-rises-as-markets-question-durability-of-middle-east-ceasefire-iran",
+        "source": "https://www.theguardian.com/world/rss",
+        "source_domain": "www.theguardian.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.theguardian.com"
+        ],
+        "cluster_links": [
+          "https://www.theguardian.com/business/2026/apr/09/oil-price-rises-as-markets-question-durability-of-middle-east-ceasefire-iran"
+        ]
+      },
+      {
+        "title": "VP Vance to lead U.S. team in Iran peace talks. And, Artemis II to return to Earth",
+        "published": "Fri, 10 Apr 2026 08:02:23 -0400",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.122,
+        "raw_impact": -0.16,
+        "source_weight": 0.85,
+        "age_hours": 3.91,
+        "confidence": 0.675,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.npr.org/2026/04/10/g-s1-117023/up-first-newsletter-iran-us-israel-jd-vance-artemis-two-melania-trump-fema-funds",
+        "source": "https://feeds.npr.org/1004/rss.xml",
+        "source_domain": "feeds.npr.org",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.npr.org"
+        ],
+        "cluster_links": [
+          "https://www.npr.org/2026/04/10/g-s1-117023/up-first-newsletter-iran-us-israel-jd-vance-artemis-two-melania-trump-fema-funds"
+        ]
+      },
+      {
+        "title": "China helped broker Iran truce, but it\u2019s wary of deeper involvement",
+        "published": "Fri, 10 Apr 2026 09:00:00 +0000",
+        "actors": [
+          "us",
+          "china"
+        ],
+        "state_key": "us_china",
+        "class": "deescalation",
+        "impact": -0.108,
+        "raw_impact": -0.134,
+        "source_weight": 0.9,
+        "age_hours": 6.95,
+        "confidence": 0.76,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.washingtonpost.com/national-security/2026/04/10/china-us-iran-ceasefire-hormuz-oil/",
+        "source": "https://feeds.washingtonpost.com/rss/world",
+        "source_domain": "feeds.washingtonpost.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.washingtonpost.com"
+        ],
+        "cluster_links": [
+          "https://www.washingtonpost.com/national-security/2026/04/10/china-us-iran-ceasefire-hormuz-oil/"
+        ]
+      },
+      {
+        "title": "Who can claim victory if Iran ceasefire holds? An early winner is China",
+        "published": "Thu, 09 Apr 2026 09:22:58 GMT",
+        "actors": [
+          "us",
+          "china"
+        ],
+        "state_key": "us_china",
+        "class": "action",
+        "impact": 0.1,
+        "raw_impact": 0.111,
+        "source_weight": 0.9,
+        "age_hours": 30.57,
+        "confidence": 0.698,
+        "signal_total": 0.65,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.05,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.theguardian.com/world/2026/apr/09/who-can-claim-victory-iran-ceasefire-china",
+        "source": "https://www.theguardian.com/world/rss",
+        "source_domain": "www.theguardian.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.theguardian.com"
+        ],
+        "cluster_links": [
+          "https://www.theguardian.com/world/2026/apr/09/who-can-claim-victory-iran-ceasefire-china"
+        ]
+      },
+      {
+        "title": "North Sea oil prices hit record high as Iran keeps hold over Hormuz",
+        "published": "Fri, 10 Apr 2026 04:37:39 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.085,
+        "raw_impact": -0.104,
+        "source_weight": 0.9,
+        "age_hours": 11.32,
+        "confidence": 0.75,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.ft.com/content/f04ad855-81e3-49c5-827e-d3c4acb901c9",
+        "source": "https://www.ft.com/world?format=rss",
+        "source_domain": "www.ft.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.ft.com"
+        ],
+        "cluster_links": [
+          "https://www.ft.com/content/f04ad855-81e3-49c5-827e-d3c4acb901c9"
+        ]
+      },
+      {
+        "title": "Trump says Iran's handling of Strait of Hormuz is 'not the agreement we have'",
+        "published": "Fri, 10 Apr 2026 02:10:44 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.081,
+        "raw_impact": -0.09,
+        "source_weight": 1.0,
+        "age_hours": 13.77,
+        "confidence": 0.69,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss",
+        "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "source_domain": "feeds.bbci.co.uk",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.bbci.co.uk"
+        ],
+        "cluster_links": [
+          "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss"
+        ]
+      },
+      {
+        "title": "Israel kills scores in Beirut as U.S. says Lebanon is not part of Iran truce",
+        "published": "Wed, 08 Apr 2026 23:09:33 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.055,
+        "raw_impact": 0.062,
+        "source_weight": 0.9,
+        "age_hours": 40.79,
+        "confidence": 0.698,
+        "signal_total": 0.65,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.05,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.washingtonpost.com/world/2026/04/08/israel-strikes-beirut-lebanon-iran-ceasefire/",
+        "source": "https://feeds.washingtonpost.com/rss/world",
+        "source_domain": "feeds.washingtonpost.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.washingtonpost.com"
+        ],
+        "cluster_links": [
+          "https://www.washingtonpost.com/world/2026/04/08/israel-strikes-beirut-lebanon-iran-ceasefire/"
+        ]
+      },
+      {
+        "title": "Airstrikes, turmoil in Strait of Hormuz imperil ceasefire with Iran",
+        "published": "Wed, 08 Apr 2026 22:54:21 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.055,
+        "raw_impact": 0.061,
+        "source_weight": 0.9,
+        "age_hours": 41.04,
+        "confidence": 0.698,
+        "signal_total": 0.65,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.05,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.washingtonpost.com/world/2026/04/08/trump-iran-war-ceasefire-israel/",
+        "source": "https://feeds.washingtonpost.com/rss/world",
+        "source_domain": "feeds.washingtonpost.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.washingtonpost.com"
+        ],
+        "cluster_links": [
+          "https://www.washingtonpost.com/world/2026/04/08/trump-iran-war-ceasefire-israel/"
+        ]
+      },
+      {
+        "title": "What we know about the two-week ceasefire between the US and Iran",
+        "published": "Wed, 08 Apr 2026 20:25:49 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.053,
+        "raw_impact": 0.053,
+        "source_weight": 1.0,
+        "age_hours": 43.52,
+        "confidence": 0.708,
+        "signal_total": 0.65,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.05,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss",
+        "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "source_domain": "feeds.bbci.co.uk",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.bbci.co.uk"
+        ],
+        "cluster_links": [
+          "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss"
+        ]
+      },
+      {
+        "title": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz",
+        "published": "Thu, 09 Apr 2026 17:16:08 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.049,
+        "raw_impact": -0.054,
+        "source_weight": 1.0,
+        "age_hours": 22.68,
+        "confidence": 0.77,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&at_campaign=rss",
+        "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "source_domain": "feeds.bbci.co.uk",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.bbci.co.uk"
+        ],
+        "cluster_links": [
+          "https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&at_campaign=rss"
+        ]
+      },
+      {
+        "title": "Inside the Iran war decision making: NYT describes how Trump chose to go to war",
+        "published": "Fri, 10 Apr 2026 15:38:52 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.044,
+        "raw_impact": 0.197,
+        "source_weight": 0.9,
+        "age_hours": 0.3,
+        "confidence": 0.67,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.france24.com/en/video/20260410-inside-the-iran-war-decision-making-nyt-describes-how-trump-chose-to-go-to-war",
+        "source": "https://www.france24.com/en/rss",
+        "source_domain": "www.france24.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.france24.com"
+        ],
+        "cluster_links": [
+          "https://www.france24.com/en/video/20260410-inside-the-iran-war-decision-making-nyt-describes-how-trump-chose-to-go-to-war"
+        ]
+      },
+      {
+        "title": "Pakistan sets modest goal for US-Iran summit: A deal to keep talks going",
+        "published": "Fri, 10 Apr 2026 14:26:44 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.041,
+        "raw_impact": 0.183,
+        "source_weight": 0.9,
+        "age_hours": 1.5,
+        "confidence": 0.68,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.aljazeera.com/news/2026/4/10/pakistan-sets-modest-goal-for-us-iran-summit-a-deal-to-keep-talks-going?traffic_source=rss",
+        "source": "https://www.aljazeera.com/xml/rss/all.xml",
+        "source_domain": "www.aljazeera.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.aljazeera.com"
+        ],
+        "cluster_links": [
+          "https://www.aljazeera.com/news/2026/4/10/pakistan-sets-modest-goal-for-us-iran-summit-a-deal-to-keep-talks-going?traffic_source=rss"
+        ]
+      },
+      {
+        "title": "U.S. negotiators to ask Iran to release detained Americans",
+        "published": "Fri, 10 Apr 2026 13:52:35 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.04,
+        "raw_impact": 0.177,
+        "source_weight": 0.9,
+        "age_hours": 2.07,
+        "confidence": 0.67,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.washingtonpost.com/national-security/2026/04/10/trump-iran-detained-americans/",
+        "source": "https://feeds.washingtonpost.com/rss/world",
+        "source_domain": "feeds.washingtonpost.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.washingtonpost.com"
+        ],
+        "cluster_links": [
+          "https://www.washingtonpost.com/national-security/2026/04/10/trump-iran-detained-americans/"
+        ]
+      },
+      {
+        "title": "Is this America\u2019s Suez moment?",
+        "published": "Fri, 10 Apr 2026 13:00:02 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.038,
+        "raw_impact": 0.169,
+        "source_weight": 0.9,
+        "age_hours": 2.95,
+        "confidence": 0.67,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.ft.com/content/0cbce778-a16a-40f9-bfb0-660b91f45325",
+        "source": "https://www.ft.com/world?format=rss",
+        "source_domain": "www.ft.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.ft.com"
+        ],
+        "cluster_links": [
+          "https://www.ft.com/content/0cbce778-a16a-40f9-bfb0-660b91f45325"
+        ]
+      },
+      {
+        "title": "MIDDLE EAST LIVE 8 April: US-Iran ceasefire announced; strikes continue in Lebanon",
+        "published": "Wed, 08 Apr 2026 12:00:00 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "action",
+        "impact": 0.036,
+        "raw_impact": 0.032,
+        "source_weight": 1.1,
+        "age_hours": 51.95,
+        "confidence": 0.718,
+        "signal_total": 0.65,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.05,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://news.un.org/feed/view/en/story/2026/04/1167264",
+        "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "source_domain": "news.un.org",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "news.un.org"
+        ],
+        "cluster_links": [
+          "https://news.un.org/feed/view/en/story/2026/04/1167264"
+        ]
+      },
+      {
+        "title": "\u2018Closer to a break than ever\u2019: Can NATO survive if Trump pulls the US out?",
+        "published": "Fri, 10 Apr 2026 11:44:10 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.035,
+        "raw_impact": 0.157,
+        "source_weight": 0.9,
+        "age_hours": 4.21,
+        "confidence": 0.67,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.aljazeera.com/news/2026/4/10/closer-to-a-break-than-ever-can-nato-survive-if-trump-pulls-the-us-out?traffic_source=rss",
+        "source": "https://www.aljazeera.com/xml/rss/all.xml",
+        "source_domain": "www.aljazeera.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.aljazeera.com"
+        ],
+        "cluster_links": [
+          "https://www.aljazeera.com/news/2026/4/10/closer-to-a-break-than-ever-can-nato-survive-if-trump-pulls-the-us-out?traffic_source=rss"
+        ]
+      },
+      {
+        "title": "Vance heads to Pakistan for talks to end the war between Iran, the US and Israel",
+        "published": "Fri, 10 Apr 2026 06:54:30 -0400",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.032,
+        "raw_impact": 0.149,
+        "source_weight": 0.85,
+        "age_hours": 5.04,
+        "confidence": 0.675,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.npr.org/2026/04/10/nx-s1-5779608/vance-heads-to-pakistan-for-talks-to-end-the-war-between-iran-the-us-and-israel",
+        "source": "https://feeds.npr.org/1004/rss.xml",
+        "source_domain": "feeds.npr.org",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.npr.org"
+        ],
+        "cluster_links": [
+          "https://www.npr.org/2026/04/10/nx-s1-5779608/vance-heads-to-pakistan-for-talks-to-end-the-war-between-iran-the-us-and-israel"
+        ]
+      },
+      {
+        "title": "FirstFT: Iran war to \u2018scar\u2019 markets, Wall Street warns",
+        "published": "Fri, 10 Apr 2026 09:34:17 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.031,
+        "raw_impact": 0.138,
+        "source_weight": 0.9,
+        "age_hours": 6.38,
+        "confidence": 0.68,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.ft.com/content/88a8cc1d-40ba-404e-8808-68d34f62ae88",
+        "source": "https://www.ft.com/world?format=rss",
+        "source_domain": "www.ft.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.ft.com"
+        ],
+        "cluster_links": [
+          "https://www.ft.com/content/88a8cc1d-40ba-404e-8808-68d34f62ae88"
+        ]
+      },
+      {
+        "title": "Hungary's ruling party accuses Ukraine of sabotage as it readies for crucial election",
+        "published": "Fri, 10 Apr 2026 04:44:30 -0400",
+        "actors": [
+          "russia",
+          "ukraine"
+        ],
+        "state_key": "russia_ukraine",
+        "class": "rhetoric",
+        "impact": 0.028,
+        "raw_impact": 0.132,
+        "source_weight": 0.85,
+        "age_hours": 7.21,
+        "confidence": 0.665,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.npr.org/2026/04/10/nx-s1-5776589/hungarys-ruling-party-accuses-ukraine-of-sabotage-as-it-readies-for-crucial-election",
+        "source": "https://feeds.npr.org/1004/rss.xml",
+        "source_domain": "feeds.npr.org",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.npr.org"
+        ],
+        "cluster_links": [
+          "https://www.npr.org/2026/04/10/nx-s1-5776589/hungarys-ruling-party-accuses-ukraine-of-sabotage-as-it-readies-for-crucial-election"
+        ]
+      },
+      {
+        "title": "Leaders Praise Troops Who Rescued Downed Airmen in Iran",
+        "published": "Wed, 08 Apr 2026 15:22:00 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "movement",
+        "impact": 0.028,
+        "raw_impact": 0.03,
+        "source_weight": 1.1,
+        "age_hours": 48.58,
+        "confidence": 0.75,
+        "signal_total": 0.5,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.5,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.war.gov/News/News-Stories/Article/Article/4454212/leaders-praise-troops-who-rescued-downed-airmen-in-iran/",
+        "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+        "source_domain": "www.defense.gov",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.defense.gov"
+        ],
+        "cluster_links": [
+          "https://www.war.gov/News/News-Stories/Article/Article/4454212/leaders-praise-troops-who-rescued-downed-airmen-in-iran/"
+        ]
+      },
+      {
+        "title": "Iran\u2019s Battered Leaders Emerge From War Confident \u2014 and With New Cards",
+        "published": "Fri, 10 Apr 2026 00:20:57 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.018,
+        "raw_impact": 0.081,
+        "source_weight": 0.9,
+        "age_hours": 15.6,
+        "confidence": 0.68,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.nytimes.com/2026/04/09/world/middleeast/iran-war-leadership.html",
+        "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "source_domain": "rss.nytimes.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "rss.nytimes.com"
+        ],
+        "cluster_links": [
+          "https://www.nytimes.com/2026/04/09/world/middleeast/iran-war-leadership.html"
+        ]
+      },
+      {
+        "title": "Iran ceasefire raises hopes for reopening key Strait of Hormuz",
+        "published": "Wed, 08 Apr 2026 12:00:00 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "deescalation",
+        "impact": -0.01,
+        "raw_impact": -0.01,
+        "source_weight": 1.1,
+        "age_hours": 51.95,
+        "confidence": 0.77,
+        "signal_total": -0.2,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://news.un.org/feed/view/en/story/2026/04/1167270",
+        "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "source_domain": "news.un.org",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "news.un.org"
+        ],
+        "cluster_links": [
+          "https://news.un.org/feed/view/en/story/2026/04/1167270"
+        ]
+      },
+      {
+        "title": "Trump criticises Nato as alliance chief describes meeting as 'very frank'",
+        "published": "Thu, 09 Apr 2026 01:59:34 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.005,
+        "raw_impact": 0.022,
+        "source_weight": 1.0,
+        "age_hours": 37.96,
+        "confidence": 0.68,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss",
+        "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "source_domain": "feeds.bbci.co.uk",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.bbci.co.uk"
+        ],
+        "cluster_links": [
+          "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss"
+        ]
+      },
+      {
+        "title": "Trump vents at NATO but avoids rupture after meeting with alliance\u2019s leader",
+        "published": "Thu, 09 Apr 2026 00:58:51 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.005,
+        "raw_impact": 0.021,
+        "source_weight": 0.9,
+        "age_hours": 38.97,
+        "confidence": 0.68,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.washingtonpost.com/politics/2026/04/08/trump-nato-withdrawal-rutte/",
+        "source": "https://feeds.washingtonpost.com/rss/world",
+        "source_domain": "feeds.washingtonpost.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "feeds.washingtonpost.com"
+        ],
+        "cluster_links": [
+          "https://www.washingtonpost.com/politics/2026/04/08/trump-nato-withdrawal-rutte/"
+        ]
+      },
+      {
+        "title": "Trump, Hegseth, Caine Laud Successful Rescue of Downed Airmen in Iran",
+        "published": "Mon, 06 Apr 2026 21:01:00 GMT",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.001,
+        "source_weight": 1.1,
+        "age_hours": 90.93,
+        "confidence": 0.69,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.war.gov/News/News-Stories/Article/Article/4452653/trump-hegseth-caine-laud-successful-rescue-of-downed-airmen-in-iran/",
+        "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+        "source_domain": "www.defense.gov",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.defense.gov"
+        ],
+        "cluster_links": [
+          "https://www.war.gov/News/News-Stories/Article/Article/4452653/trump-hegseth-caine-laud-successful-rescue-of-downed-airmen-in-iran/"
+        ]
+      },
+      {
+        "title": "Binyamin Netanyahu is the big winner from the Iran war, for now",
+        "published": "Tue, 03 Mar 2026 22:44:57 +0000",
+        "actors": [
+          "iran",
+          "israel"
+        ],
+        "state_key": "iran_israel",
+        "class": "rhetoric",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.75,
+        "age_hours": 905.2,
+        "confidence": 0.655,
+        "signal_total": 0.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 0.0,
+          "rhetoric": 0.2,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.economist.com/international/2026/03/03/binyamin-netanyahu-is-the-big-winner-from-the-iran-war-for-now",
+        "source": "https://www.economist.com/international/rss.xml",
+        "source_domain": "www.economist.com",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.economist.com"
+        ],
+        "cluster_links": [
+          "https://www.economist.com/international/2026/03/03/binyamin-netanyahu-is-the-big-winner-from-the-iran-war-for-now"
+        ]
+      },
+      {
+        "title": "Contestation, crisis and choice: The EU\u2019s opportunity on energy",
+        "published": "Wed, 01 Apr 2026 08:30:39 +0000",
+        "actors": [
+          "us",
+          "russia"
+        ],
+        "state_key": "us_russia",
+        "class": "strategic",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.75,
+        "age_hours": 223.44,
+        "confidence": 0.798,
+        "signal_total": 2.22,
+        "signal_components": {
+          "deescalation": -0.2,
+          "action": 0.9,
+          "movement": 0.5,
+          "strategic": 1.2,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.18,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.iss.europa.eu/publications/commentary/contestation-crisis-and-choice-eus-opportunity-energy",
+        "source": "https://www.iss.europa.eu/rss.xml",
+        "source_domain": "www.iss.europa.eu",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.iss.europa.eu"
+        ],
+        "cluster_links": [
+          "https://www.iss.europa.eu/publications/commentary/contestation-crisis-and-choice-eus-opportunity-energy"
+        ]
+      },
+      {
+        "title": "Africa's power choice: The renewables market and its implications for the EU",
+        "published": "Mon, 30 Mar 2026 15:31:25 +0000",
+        "actors": [
+          "us",
+          "china"
+        ],
+        "state_key": "us_china",
+        "class": "strategic",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.75,
+        "age_hours": 264.42,
+        "confidence": 0.954,
+        "signal_total": 2.57,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.9,
+          "movement": 0.5,
+          "strategic": 1.2,
+          "rhetoric": 0.0,
+          "contradiction_adjustment": -0.03,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.iss.europa.eu/publications/briefs/africas-power-choice-renewables-market-and-its-implications-eu",
+        "source": "https://www.iss.europa.eu/rss.xml",
+        "source_domain": "www.iss.europa.eu",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.iss.europa.eu"
+        ],
+        "cluster_links": [
+          "https://www.iss.europa.eu/publications/briefs/africas-power-choice-renewables-market-and-its-implications-eu"
+        ]
+      },
+      {
+        "title": "\"The big problem regarding the war in Iran, is the impact on the US ability to support European deterrence and Ukraine.\"",
+        "published": "Mon, 30 Mar 2026 10:52:58 +0000",
+        "actors": [
+          "iran",
+          "us"
+        ],
+        "state_key": "iran_us",
+        "class": "strategic",
+        "impact": 0.0,
+        "raw_impact": 0.0,
+        "source_weight": 0.75,
+        "age_hours": 269.07,
+        "confidence": 0.865,
+        "signal_total": 1.2,
+        "signal_components": {
+          "deescalation": 0.0,
+          "action": 0.0,
+          "movement": 0.0,
+          "strategic": 1.2,
+          "rhetoric": 0.0,
+          "deescalation_verified": 0.0
+        },
+        "link": "https://www.iss.europa.eu/press/big-problem-regarding-war-iran-impact-us-ability-support-european-deterrence-and-ukraine",
+        "source": "https://www.iss.europa.eu/rss.xml",
+        "source_domain": "www.iss.europa.eu",
+        "corroboration_count": 1,
+        "cluster_sources": [
+          "www.iss.europa.eu"
+        ],
+        "cluster_links": [
+          "https://www.iss.europa.eu/press/big-problem-regarding-war-iran-impact-us-ability-support-european-deterrence-and-ukraine"
+        ]
+      }
+    ]
   }
 ]
