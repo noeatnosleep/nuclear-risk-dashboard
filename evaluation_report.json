@@ -2,7 +2,7 @@
   "total": 3,
   "dropped": 0,
   "pair_accuracy": 1.0,
-  "direction_accuracy": 0.667,
+  "direction_accuracy": 0.333,
   "rows": [
     {
       "title": "US and China hold emergency military hotline talks after naval standoff",
@@ -19,10 +19,10 @@
       "ok": true,
       "pred_state_key": "russia_ukraine",
       "expected_state_key": "russia_ukraine",
-      "pred_direction": "up",
+      "pred_direction": "down_or_flat",
       "expected_direction": "up",
       "pair_ok": true,
-      "direction_ok": true
+      "direction_ok": false
     },
     {
       "title": "Iran and Israel agree to temporary ceasefire",
