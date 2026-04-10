@@ -1,24 +1,59 @@
 {
-  "last_updated": "2026-04-10 02:45:47 UTC",
-  "probability": 19.58,
-  "uncertainty": 6.4,
+  "last_updated": "2026-04-10 05:28:09 UTC",
+  "probability": 18.74,
+  "uncertainty": 6.38,
   "state": {
-    "us_russia": 4.924119665672351,
-    "us_china": 3.5253589832368126,
-    "china_taiwan": 4.105071796647363,
+    "us_russia": 4.722731735781149,
+    "us_china": 3.4624432594568013,
+    "china_taiwan": 4.09248865189136,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.632572344269255,
-    "iran_israel": 6.632572344269388,
+    "iran_us": 5.632929057893041,
+    "iran_israel": 6.607773778898326,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 4.81809177113081
+    "russia_ukraine": 4.77384561629096
   },
   "top_drivers": [
     {
-      "title": "Australia news live: former children\u2019s commissioner delivers scathing indictment of spit hoods still being used on 10-year-olds in NT",
-      "published": "Fri, 10 Apr 2026 02:29:50 GMT",
+      "title": "Greens say Australia should step up pressure on Israel over \u2018disastrous, illegal, immoral war\u2019 on Lebanon",
+      "published": "Fri, 10 Apr 2026 02:43:40 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.83,
+      "raw_impact": 0.922,
+      "source_weight": 0.9,
+      "age_hours": 2.74,
+      "confidence": 0.781,
+      "signal_total": 1.08,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.12,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/world/2026/apr/10/australia-pressure-israel-war-lebanon-greens",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/world/2026/apr/10/australia-pressure-israel-war-lebanon-greens"
+      ]
+    },
+    {
+      "title": "Australia news live: Dutton given key board appointment by Queensland government; Victorian teachers to hold rolling half-day strikes",
+      "published": "Fri, 10 Apr 2026 05:13:00 GMT",
       "actors": [
         "iran",
         "us"
@@ -26,9 +61,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.798,
-      "raw_impact": 0.886,
+      "raw_impact": 0.887,
       "source_weight": 0.9,
-      "age_hours": 0.27,
+      "age_hours": 0.25,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +94,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.58,
-      "raw_impact": 0.966,
+      "impact": 0.496,
+      "raw_impact": 0.826,
       "source_weight": 0.75,
-      "age_hours": 14.4,
+      "age_hours": 17.11,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -94,10 +129,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.568,
-      "raw_impact": 0.631,
+      "impact": 0.486,
+      "raw_impact": 0.54,
       "source_weight": 0.9,
-      "age_hours": 0.51,
+      "age_hours": 3.22,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -129,10 +164,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.506,
-      "raw_impact": 0.563,
+      "impact": 0.433,
+      "raw_impact": 0.481,
       "source_weight": 0.9,
-      "age_hours": 2.5,
+      "age_hours": 5.21,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -164,10 +199,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.499,
-      "raw_impact": 0.554,
+      "impact": 0.427,
+      "raw_impact": 0.474,
       "source_weight": 0.9,
-      "age_hours": 2.76,
+      "age_hours": 5.47,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -199,10 +234,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.465,
-      "raw_impact": 0.517,
+      "impact": 0.398,
+      "raw_impact": 0.442,
       "source_weight": 0.9,
-      "age_hours": 3.96,
+      "age_hours": 6.66,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -226,7 +261,7 @@
       ]
     },
     {
-      "title": "'Trump abandoned us': ceasefire sparks anger, fear, division among Iranians",
+      "title": "'Trump abandoned us': Ceasefire sparks anger, fear, division among Iranians",
       "published": "Thu, 09 Apr 2026 17:04:53 GMT",
       "actors": [
         "iran",
@@ -234,10 +269,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.371,
-      "raw_impact": -0.457,
+      "impact": -0.317,
+      "raw_impact": -0.391,
       "source_weight": 0.9,
-      "age_hours": 9.68,
+      "age_hours": 12.39,
       "confidence": 0.88,
       "signal_total": -0.8,
       "signal_components": {
@@ -268,10 +303,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.305,
-      "raw_impact": 0.277,
+      "impact": 0.261,
+      "raw_impact": 0.237,
       "source_weight": 1.1,
-      "age_hours": 14.76,
+      "age_hours": 17.47,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -303,10 +338,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.305,
-      "raw_impact": 0.277,
+      "impact": 0.261,
+      "raw_impact": 0.237,
       "source_weight": 1.1,
-      "age_hours": 14.76,
+      "age_hours": 17.47,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -338,10 +373,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.284,
-      "raw_impact": 0.315,
+      "impact": 0.243,
+      "raw_impact": 0.27,
       "source_weight": 0.9,
-      "age_hours": 12.53,
+      "age_hours": 15.23,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -373,10 +408,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.236,
-      "raw_impact": 0.278,
+      "impact": 0.202,
+      "raw_impact": 0.237,
       "source_weight": 0.85,
-      "age_hours": 14.73,
+      "age_hours": 17.44,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -408,10 +443,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.214,
-      "raw_impact": 0.238,
+      "impact": 0.183,
+      "raw_impact": 0.204,
       "source_weight": 0.9,
-      "age_hours": 17.38,
+      "age_hours": 20.09,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -443,10 +478,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.202,
-      "raw_impact": 0.238,
+      "impact": 0.173,
+      "raw_impact": 0.203,
       "source_weight": 0.85,
-      "age_hours": 17.42,
+      "age_hours": 20.13,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -478,10 +513,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.196,
-      "raw_impact": 0.23,
+      "impact": 0.167,
+      "raw_impact": 0.197,
       "source_weight": 0.85,
-      "age_hours": 17.98,
+      "age_hours": 20.68,
       "confidence": 0.693,
       "signal_total": 0.65,
       "signal_components": {
@@ -505,6 +540,40 @@
       ]
     },
     {
+      "title": "North Sea oil prices hit record high as Iran keeps hold over Hormuz",
+      "published": "Fri, 10 Apr 2026 04:37:39 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.154,
+      "raw_impact": -0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.84,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/f04ad855-81e3-49c5-827e-d3c4acb901c9",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/f04ad855-81e3-49c5-827e-d3c4acb901c9"
+      ]
+    },
+    {
       "title": "Trump says Iran's handling of Strait of Hormuz is 'not the agreement we have'",
       "published": "Fri, 10 Apr 2026 02:10:44 GMT",
       "actors": [
@@ -513,10 +582,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.174,
-      "raw_impact": -0.193,
+      "impact": -0.149,
+      "raw_impact": -0.165,
       "source_weight": 1.0,
-      "age_hours": 0.58,
+      "age_hours": 3.29,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -539,6 +608,108 @@
       ]
     },
     {
+      "title": "Iran ceasefire undercuts Benjamin Netanyahu\u2019s election pitch",
+      "published": "Fri, 10 Apr 2026 04:00:20 GMT",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "deescalation",
+      "impact": -0.149,
+      "raw_impact": -0.184,
+      "source_weight": 0.9,
+      "age_hours": 1.46,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/1f1532b2-a150-4123-8e91-512a0e5e8187",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/1f1532b2-a150-4123-8e91-512a0e5e8187"
+      ]
+    },
+    {
+      "title": "UK PM Keir Starmer visits Gulf to shore up \u2018fragile\u2019 US-Iran ceasefire",
+      "published": "Fri, 10 Apr 2026 03:13:44 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.142,
+      "raw_impact": -0.176,
+      "source_weight": 0.9,
+      "age_hours": 2.24,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/10/uk-pm-keir-starmer-visits-gulf-to-shore-up-fragile-us-iran-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/10/uk-pm-keir-starmer-visits-gulf-to-shore-up-fragile-us-iran-ceasefire?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Shipping in Strait of Hormuz at a standstill despite US-Iran ceasefire",
+      "published": "Fri, 10 Apr 2026 02:47:13 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.139,
+      "raw_impact": -0.171,
+      "source_weight": 0.9,
+      "age_hours": 2.68,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/economy/2026/4/10/shipping-in-strait-of-hormuz-at-a-trickle-despite-us-iran-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/economy/2026/4/10/shipping-in-strait-of-hormuz-at-a-trickle-despite-us-iran-ceasefire?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Iran War Live Updates: Israel Agrees to Talks With Lebanon but Keeps Striking Hezbollah",
       "published": "Fri, 10 Apr 2026 02:40:06 +0000",
       "actors": [
@@ -547,10 +718,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.161,
-      "raw_impact": -0.199,
+      "impact": -0.138,
+      "raw_impact": -0.17,
       "source_weight": 0.9,
-      "age_hours": 0.09,
+      "age_hours": 2.8,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -581,10 +752,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.141,
-      "raw_impact": -0.157,
+      "impact": -0.121,
+      "raw_impact": -0.134,
       "source_weight": 1.0,
-      "age_hours": 4.2,
+      "age_hours": 6.91,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -607,40 +778,6 @@
       ]
     },
     {
-      "title": "North Sea oil prices hit record high as Iran keeps hold over Hormuz",
-      "published": "Thu, 09 Apr 2026 22:57:25 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.13,
-      "raw_impact": -0.161,
-      "source_weight": 0.9,
-      "age_hours": 3.81,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/f04ad855-81e3-49c5-827e-d3c4acb901c9",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/f04ad855-81e3-49c5-827e-d3c4acb901c9"
-      ]
-    },
-    {
       "title": "Israel kills scores in Beirut as U.S. says Lebanon is not part of Iran truce",
       "published": "Wed, 08 Apr 2026 23:09:33 +0000",
       "actors": [
@@ -649,10 +786,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.119,
-      "raw_impact": 0.132,
+      "impact": 0.102,
+      "raw_impact": 0.113,
       "source_weight": 0.9,
-      "age_hours": 27.6,
+      "age_hours": 30.31,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -684,10 +821,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.117,
-      "raw_impact": 0.13,
+      "impact": 0.1,
+      "raw_impact": 0.111,
       "source_weight": 0.9,
-      "age_hours": 27.86,
+      "age_hours": 30.56,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -711,74 +848,6 @@
       ]
     },
     {
-      "title": "Middle East war day 41 as it happened: S&P 500 posts longest winning streak since October on ceasefire optimism",
-      "published": "Thu, 09 Apr 2026 20:58:30 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.116,
-      "raw_impact": -0.143,
-      "source_weight": 0.9,
-      "age_hours": 5.79,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/5fa84873-0c45-462d-9f8b-3adbc9f0a164",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/5fa84873-0c45-462d-9f8b-3adbc9f0a164"
-      ]
-    },
-    {
-      "title": "Netanyahu authorises Israeli talks with Lebanon after Trump intervention",
-      "published": "Thu, 09 Apr 2026 20:55:08 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.115,
-      "raw_impact": -0.143,
-      "source_weight": 0.9,
-      "age_hours": 5.84,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/b4f42304-ed42-4747-bfbe-ba2861338b25",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/b4f42304-ed42-4747-bfbe-ba2861338b25"
-      ]
-    },
-    {
       "title": "A fragile ceasefire and emboldened Iran",
       "published": "Thu, 09 Apr 2026 17:14:03 -0400",
       "actors": [
@@ -787,10 +856,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.112,
-      "raw_impact": -0.145,
+      "impact": -0.095,
+      "raw_impact": -0.124,
       "source_weight": 0.85,
-      "age_hours": 5.53,
+      "age_hours": 8.24,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -821,10 +890,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.11,
-      "raw_impact": -0.136,
+      "impact": -0.094,
+      "raw_impact": -0.116,
       "source_weight": 0.9,
-      "age_hours": 6.72,
+      "age_hours": 9.42,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -855,10 +924,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.108,
-      "raw_impact": -0.141,
+      "impact": -0.092,
+      "raw_impact": -0.121,
       "source_weight": 0.85,
-      "age_hours": 6.06,
+      "age_hours": 8.76,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -889,10 +958,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.105,
-      "raw_impact": -0.13,
+      "impact": -0.09,
+      "raw_impact": -0.112,
       "source_weight": 0.9,
-      "age_hours": 7.4,
+      "age_hours": 10.1,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -923,10 +992,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.1,
-      "raw_impact": -0.124,
+      "impact": -0.086,
+      "raw_impact": -0.106,
       "source_weight": 0.9,
-      "age_hours": 8.3,
+      "age_hours": 11.01,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -957,10 +1026,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.099,
-      "raw_impact": -0.122,
+      "impact": -0.085,
+      "raw_impact": -0.104,
       "source_weight": 0.9,
-      "age_hours": 8.55,
+      "age_hours": 11.26,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -991,10 +1060,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.076,
-      "raw_impact": 0.069,
+      "impact": 0.065,
+      "raw_impact": 0.059,
       "source_weight": 1.1,
-      "age_hours": 38.76,
+      "age_hours": 41.47,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1026,10 +1095,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.069,
-      "raw_impact": -0.086,
+      "impact": -0.059,
+      "raw_impact": -0.073,
       "source_weight": 0.9,
-      "age_hours": 14.67,
+      "age_hours": 17.37,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -1060,10 +1129,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.06,
-      "raw_impact": 0.065,
+      "impact": 0.052,
+      "raw_impact": 0.055,
       "source_weight": 1.1,
-      "age_hours": 35.4,
+      "age_hours": 38.1,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1094,10 +1163,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.051,
-      "raw_impact": 0.057,
+      "impact": 0.044,
+      "raw_impact": 0.049,
       "source_weight": 0.9,
-      "age_hours": 42.13,
+      "age_hours": 44.84,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -1121,6 +1190,142 @@
       ]
     },
     {
+      "title": "FirstFT: Nato split over US access to European bases in Iran war",
+      "published": "Fri, 10 Apr 2026 04:37:06 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.19,
+      "source_weight": 0.9,
+      "age_hours": 0.85,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/88a8cc1d-40ba-404e-8808-68d34f62ae88",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/88a8cc1d-40ba-404e-8808-68d34f62ae88"
+      ]
+    },
+    {
+      "title": "Man who allegedly claimed partner died in \u2018crash with kangaroo\u2019 in NT charged with murder",
+      "published": "Fri, 10 Apr 2026 03:58:56 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.184,
+      "source_weight": 0.9,
+      "age_hours": 1.49,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/australia-news/2026/apr/10/tennant-creek-murder-charge-northern-territory-ntwnfb",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/australia-news/2026/apr/10/tennant-creek-murder-charge-northern-territory-ntwnfb"
+      ]
+    },
+    {
+      "title": "Nato split over US access to European bases in Iran war",
+      "published": "Fri, 10 Apr 2026 04:00:32 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.184,
+      "source_weight": 0.9,
+      "age_hours": 1.46,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/e2347e81-19b2-4cd5-aea4-ff6bacf0e71b",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/e2347e81-19b2-4cd5-aea4-ff6bacf0e71b"
+      ]
+    },
+    {
+      "title": "Middle East war live: Khamenei says Iran does not want war but will defend its rights",
+      "published": "Fri, 10 Apr 2026 02:35:18 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.038,
+      "raw_impact": 0.169,
+      "source_weight": 0.9,
+      "age_hours": 2.88,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260410-middle-east-live-khamenei-says-iran-does-not-want-war-but-will-defend-its-rights",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260410-middle-east-live-khamenei-says-iran-does-not-want-war-but-will-defend-its-rights"
+      ]
+    },
+    {
       "title": "Thousands of electric vehicles recalled in Australia due to battery fire risk",
       "published": "Fri, 10 Apr 2026 01:57:57 GMT",
       "actors": [
@@ -1129,10 +1334,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.191,
+      "impact": 0.037,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 0.8,
+      "age_hours": 3.5,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1163,10 +1368,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
+      "impact": 0.034,
+      "raw_impact": 0.149,
       "source_weight": 0.9,
-      "age_hours": 2.42,
+      "age_hours": 5.13,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1197,10 +1402,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
+      "impact": 0.034,
+      "raw_impact": 0.149,
       "source_weight": 0.9,
-      "age_hours": 2.41,
+      "age_hours": 5.12,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1223,40 +1428,6 @@
       ]
     },
     {
-      "title": "Grace Tame\u2019s foundation announces closure over funding difficulties",
-      "published": "Thu, 09 Apr 2026 23:54:26 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
-      "source_weight": 0.9,
-      "age_hours": 2.86,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/australia-news/2026/apr/10/grace-tame-foundation-closes-funding-ntwnfb",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/australia-news/2026/apr/10/grace-tame-foundation-closes-funding-ntwnfb"
-      ]
-    },
-    {
       "title": "What We Know About the U.S.-Iran Cease-Fire Talks in Pakistan",
       "published": "Thu, 09 Apr 2026 23:29:56 +0000",
       "actors": [
@@ -1265,10 +1436,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.166,
+      "impact": 0.032,
+      "raw_impact": 0.142,
       "source_weight": 0.9,
-      "age_hours": 3.26,
+      "age_hours": 5.97,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1299,10 +1470,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.163,
+      "impact": 0.031,
+      "raw_impact": 0.139,
       "source_weight": 0.9,
-      "age_hours": 3.58,
+      "age_hours": 6.29,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1325,40 +1496,6 @@
       ]
     },
     {
-      "title": "Khamenei says Tehran \u2018astonished the world\u2019 during US-Israeli war on Iran",
-      "published": "Thu, 09 Apr 2026 20:16:45 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.138,
-      "source_weight": 0.9,
-      "age_hours": 6.48,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/9/khamenei-says-tehran-astonished-the-world-during-us-israeli-war-on-iran?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/9/khamenei-says-tehran-astonished-the-world-during-us-israeli-war-on-iran?traffic_source=rss"
-      ]
-    },
-    {
       "title": "North Korea Tests New Weapons, Drawing Lessons from Iran War",
       "published": "Thu, 09 Apr 2026 20:09:32 +0000",
       "actors": [
@@ -1367,10 +1504,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.137,
+      "impact": 0.026,
+      "raw_impact": 0.117,
       "source_weight": 0.9,
-      "age_hours": 6.6,
+      "age_hours": 9.31,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1393,40 +1530,6 @@
       ]
     },
     {
-      "title": "Traffic falls on major Sydney and Melbourne roads as fuel crisis sees Australians cut back on driving",
-      "published": "Thu, 09 Apr 2026 15:00:53 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.101,
-      "source_weight": 0.9,
-      "age_hours": 11.75,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/australia-news/2026/apr/09/traffic-sydney-melbourne-roads-fuel-crisis-petrol-prices-australia",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/australia-news/2026/apr/09/traffic-sydney-melbourne-roads-fuel-crisis-petrol-prices-australia"
-      ]
-    },
-    {
       "title": "Trump sending US VP Vance to Pakistan for Iran talks",
       "published": "Thu, 09 Apr 2026 14:47:52 GMT",
       "actors": [
@@ -1435,10 +1538,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.1,
+      "impact": 0.019,
+      "raw_impact": 0.086,
       "source_weight": 0.9,
-      "age_hours": 11.97,
+      "age_hours": 14.67,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1469,10 +1572,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.021,
-      "raw_impact": -0.021,
+      "impact": -0.018,
+      "raw_impact": -0.018,
       "source_weight": 1.1,
-      "age_hours": 38.76,
+      "age_hours": 41.47,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1503,10 +1606,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.071,
+      "impact": 0.013,
+      "raw_impact": 0.061,
       "source_weight": 0.85,
-      "age_hours": 17.99,
+      "age_hours": 20.69,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1537,10 +1640,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.048,
+      "impact": 0.01,
+      "raw_impact": 0.041,
       "source_weight": 1.0,
-      "age_hours": 24.77,
+      "age_hours": 27.48,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1571,10 +1674,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.045,
+      "impact": 0.009,
+      "raw_impact": 0.039,
       "source_weight": 0.9,
-      "age_hours": 25.78,
+      "age_hours": 28.49,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1608,7 +1711,7 @@
       "impact": 0.001,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 77.75,
+      "age_hours": 80.45,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1642,7 +1745,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 191.31,
+      "age_hours": 194.02,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1676,7 +1779,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 892.01,
+      "age_hours": 894.72,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1710,7 +1813,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 210.25,
+      "age_hours": 212.96,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1745,7 +1848,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 251.24,
+      "age_hours": 253.95,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1780,7 +1883,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 255.88,
+      "age_hours": 258.59,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1814,7 +1917,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 371.44,
+      "age_hours": 374.15,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1975,16 +2078,16 @@
   ],
   "debug": {
     "event_count": 233,
-    "classified_count": 53,
-    "paired_count": 53,
+    "classified_count": 56,
+    "paired_count": 56,
     "valid_pair_updates": 6,
-    "top_driver_count": 53,
-    "total_signal": 6.2438,
+    "top_driver_count": 56,
+    "total_signal": 6.5494,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 92,
       "no_signal": 55,
-      "invalid_pair": 33,
+      "invalid_pair": 30,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
