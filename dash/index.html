@@ -8,18 +8,19 @@
 <style>
 :root { --bg:#0b1220; --text:#e5e7eb; --muted:#a5b4c7; --card:#162033; --border:#2a3950; --link:#60a5fa; }
 body { font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); margin:0; }
-.container { max-width:1020px; margin:auto; padding:24px; }
+.container { max-width:1080px; margin:auto; padding:24px; }
 .header { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; }
 .grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-top:16px; }
 .card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:12px; }
 .k { color:var(--muted); font-size:.82rem; }
-.v { font-size:1.4rem; font-weight:700; margin-top:4px; }
+.v { font-size:1.3rem; font-weight:700; margin-top:4px; }
 .table { width:100%; border-collapse:collapse; font-size:.9rem; }
 .table th,.table td { border-bottom:1px solid var(--border); text-align:left; padding:8px 6px; }
 .section { margin-top:16px; }
 button,a.btn { background:transparent; color:var(--text); border:1px solid var(--border); border-radius:8px; padding:6px 10px; text-decoration:none; cursor:pointer; }
 .muted{ color:var(--muted); }
-@media (max-width:900px){ .grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+.split{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+@media (max-width:900px){ .grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } .split{ grid-template-columns:1fr; } }
 @media (max-width:600px){ .grid{ grid-template-columns:1fr; } }
 </style>
 </head>
@@ -29,25 +30,34 @@ button,a.btn { background:transparent; color:var(--text); border:1px solid var(-
     <h1 style="margin:0;">Traffic Dash</h1>
     <div style="display:flex; gap:8px;">
       <a class="btn" href="/">Back</a>
-      <button id="reset" type="button">Reset local stats</button>
+      <button id="refresh" type="button">Refresh global</button>
+      <button id="reset" type="button">Reset local</button>
     </div>
   </div>
-  <div class="muted">Local analytics only (browser-local storage). No server-side tracking.</div>
-
-  <div id="cards" class="grid"></div>
+  <div class="muted">Global counts are aggregated across all visitors via CountAPI. Local section is this browser only.</div>
 
   <div class="section card">
-    <h3 style="margin-top:0;">Path breakdown</h3>
-    <div id="paths"></div>
+    <h3 style="margin-top:0;">Global (all visitors)</h3>
+    <div id="globalCards" class="grid"></div>
+  </div>
+
+  <div class="split section">
+    <div class="card"><h3 style="margin-top:0;">Global path counts</h3><div id="globalPaths"></div></div>
+    <div class="card"><h3 style="margin-top:0;">Global channel counts</h3><div id="globalChannels"></div></div>
   </div>
 
   <div class="section card">
-    <h3 style="margin-top:0;">Referrers</h3>
-    <div id="refs"></div>
+    <h3 style="margin-top:0;">Local (this browser)</h3>
+    <div id="localCards" class="grid"></div>
+  </div>
+
+  <div class="split section">
+    <div class="card"><h3 style="margin-top:0;">Local path breakdown</h3><div id="paths"></div></div>
+    <div class="card"><h3 style="margin-top:0;">Local referrers</h3><div id="refs"></div></div>
   </div>
 
   <div class="section card">
-    <h3 style="margin-top:0;">Recent visits</h3>
+    <h3 style="margin-top:0;">Recent local visits</h3>
     <div id="visits"></div>
   </div>
 </div>
@@ -57,43 +67,77 @@ if (window.NRDTraffic && typeof window.NRDTraffic.trackPage === "function") {
   window.NRDTraffic.trackPage();
 }
 
-function fmtMs(ms){
-  const s=Math.round((Number(ms)||0)/1000);
-  if(s<60) return `${s}s`;
-  const m=Math.floor(s/60); const r=s%60;
-  return `${m}m ${r}s`;
-}
+function fmtMs(ms){ const s=Math.round((Number(ms)||0)/1000); if(s<60) return `${s}s`; const m=Math.floor(s/60); return `${m}m ${s%60}s`; }
 function avg(a,b){ return b?Math.round(a/b):0; }
 function esc(t){ return String(t||"").replace(/[&<>\"]/g, (c)=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c])); }
+function table(headers, rows){ if(!rows.length) return '<div class="muted">No data yet.</div>'; return `<table class="table"><thead><tr>${headers.map(h=>`<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table>`; }
 
-function table(headers, rows){
-  if(!rows.length) return '<div class="muted">No data yet.</div>';
-  return `<table class="table"><thead><tr>${headers.map(h=>`<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+async function renderGlobal(){
+  if(!window.NRDTraffic || !window.NRDTraffic.globalGet){
+    document.getElementById('globalCards').innerHTML='<div class="muted">Global metrics unavailable.</div>';
+    return;
+  }
+  const keys=[
+    ["Total views","views_total"],
+    ["Sessions closed","sessions_closed"],
+    ["Total dwell","dwell_total_seconds"],
+    ["Home views","path_home"],
+    ["Dash views","path_dash"],
+    ["Mobile","device_mobile"],
+    ["Desktop","device_desktop"],
+    ["Direct","ref_direct"]
+  ];
+  const vals={};
+  await Promise.all(keys.map(async ([,k])=>{ vals[k]=await window.NRDTraffic.globalGet(k); }));
+  const avgDwell = avg((vals["dwell_total_seconds"]||0)*1000, vals["sessions_closed"]||0);
+
+  const cards=[
+    ["Global views", vals["views_total"]||0],
+    ["Global sessions", vals["sessions_closed"]||0],
+    ["Avg dwell / session", fmtMs(avgDwell)],
+    ["Global total dwell", fmtMs((vals["dwell_total_seconds"]||0)*1000)],
+    ["Home views", vals["path_home"]||0],
+    ["Dash views", vals["path_dash"]||0],
+    ["Mobile", vals["device_mobile"]||0],
+    ["Desktop", vals["device_desktop"]||0]
+  ];
+  document.getElementById('globalCards').innerHTML = cards.map(([k,v])=>`<div class="card"><div class="k">${esc(k)}</div><div class="v">${esc(v)}</div></div>`).join('');
+
+  const globalPathRows=[
+    ["/", vals["path_home"]||0, vals["session_path_home"]||0, fmtMs((vals["dwell_path_home_seconds"]||0)*1000)],
+    ["/dash", vals["path_dash"]||0, vals["session_path_dash"]||0, fmtMs((vals["dwell_path_dash_seconds"]||0)*1000)]
+  ];
+  const pathExtraKeys=["session_path_home","session_path_dash","dwell_path_home_seconds","dwell_path_dash_seconds"];
+  await Promise.all(pathExtraKeys.map(async (k)=>{ if(vals[k]===undefined) vals[k]=await window.NRDTraffic.globalGet(k); }));
+  globalPathRows[0][2]=vals["session_path_home"]||0; globalPathRows[1][2]=vals["session_path_dash"]||0;
+  globalPathRows[0][3]=fmtMs((vals["dwell_path_home_seconds"]||0)*1000); globalPathRows[1][3]=fmtMs((vals["dwell_path_dash_seconds"]||0)*1000);
+  document.getElementById('globalPaths').innerHTML = table(["Path","Views","Sessions","Total dwell"], globalPathRows.map(r=>r.map(esc)));
+
+  const channelKeys=[["direct","ref_direct"],["google","ref_google_com"],["github","ref_github_com"],["twitter/x","ref_x_com"],["reddit","ref_reddit_com"],["reload","nav_reload"],["navigate","nav_navigate"]];
+  await Promise.all(channelKeys.map(async ([,k])=>{ vals[k]=await window.NRDTraffic.globalGet(k); }));
+  const channelRows=channelKeys.map(([n,k])=>[n, vals[k]||0]).map(r=>r.map(esc));
+  document.getElementById('globalChannels').innerHTML = table(["Channel","Count"], channelRows);
 }
 
-function render(){
+function renderLocal(){
   const d=(window.NRDTraffic&&window.NRDTraffic.read)?window.NRDTraffic.read():null;
   if(!d){ return; }
   const t=d.totals||{};
   const avgDwell=avg(t.total_dwell_ms||0, t.sessions||0);
   const cards=[
-    ["Total views", t.views||0],
-    ["Total sessions", t.sessions||0],
-    ["Avg dwell / session", fmtMs(avgDwell)],
-    ["Total dwell", fmtMs(t.total_dwell_ms||0)],
-    ["First seen", esc(d.first_seen||"n/a")],
-    ["Last seen", esc(d.last_seen||"n/a")],
-    ["Mobile hits", (d.devices&&d.devices.mobile)||0],
-    ["Desktop hits", (d.devices&&d.devices.desktop)||0]
+    ["Local views", t.views||0],
+    ["Local sessions", t.sessions||0],
+    ["Local avg dwell", fmtMs(avgDwell)],
+    ["Local total dwell", fmtMs(t.total_dwell_ms||0)],
+    ["First seen", d.first_seen||"n/a"],
+    ["Last seen", d.last_seen||"n/a"],
+    ["Mobile", (d.devices&&d.devices.mobile)||0],
+    ["Desktop", (d.devices&&d.devices.desktop)||0]
   ];
-  document.getElementById('cards').innerHTML=cards.map(([k,v])=>`<div class="card"><div class="k">${esc(k)}</div><div class="v">${esc(v)}</div></div>`).join('');
+  document.getElementById('localCards').innerHTML=cards.map(([k,v])=>`<div class="card"><div class="k">${esc(k)}</div><div class="v">${esc(v)}</div></div>`).join('');
 
   const pathRows=Object.entries(d.paths||{}).sort((a,b)=>(b[1].views||0)-(a[1].views||0)).map(([p,s])=>[
-    esc(p),
-    esc(s.views||0),
-    esc(s.sessions||0),
-    esc(fmtMs(s.total_dwell_ms||0)),
-    esc(fmtMs(avg(s.total_dwell_ms||0,s.sessions||0)))
+    esc(p), esc(s.views||0), esc(s.sessions||0), esc(fmtMs(s.total_dwell_ms||0)), esc(fmtMs(avg(s.total_dwell_ms||0,s.sessions||0)))
   ]);
   document.getElementById('paths').innerHTML=table(['Path','Views','Sessions','Total dwell','Avg dwell'], pathRows);
 
@@ -104,13 +148,11 @@ function render(){
   document.getElementById('visits').innerHTML=table(['Timestamp','Path','Referrer','Device','Nav type'], visits);
 }
 
-document.getElementById('reset').addEventListener('click', ()=>{
-  if (!window.NRDTraffic) return;
-  window.NRDTraffic.clearAll();
-  render();
-});
+document.getElementById('reset').addEventListener('click', ()=>{ if(window.NRDTraffic){ window.NRDTraffic.clearAll(); renderLocal(); } });
+document.getElementById('refresh').addEventListener('click', ()=>{ renderGlobal(); });
 
-render();
+renderLocal();
+renderGlobal();
 </script>
 </body>
 </html>
