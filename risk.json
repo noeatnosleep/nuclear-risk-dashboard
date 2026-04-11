@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-11 15:03:40 UTC",
-  "probability": 15.75,
-  "uncertainty": 6.21,
+  "last_updated": "2026-04-11 15:57:09 UTC",
+  "probability": 15.93,
+  "uncertainty": 6.2,
   "state": {
-    "us_russia": 3.7379922367425635,
-    "us_china": 2.9271421549852037,
-    "china_taiwan": 3.985428430997041,
+    "us_russia": 3.6834115945369863,
+    "us_china": 2.9311782444936756,
+    "china_taiwan": 3.9862356488987354,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633331518308325,
-    "iran_israel": 6.633331518201473,
+    "iran_us": 5.633332369101298,
+    "iran_israel": 6.633332369044533,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.2168161434378995
+    "russia_ukraine": 6.646433576201384
   },
   "top_drivers": [
     {
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 6.02,
+      "age_hours": 6.91,
       "confidence": 0.97,
       "signal_total": 2.1,
       "signal_components": {
@@ -51,6 +51,111 @@
       ]
     },
     {
+      "title": "U.S.-Iran Talks Timeline: Key Moments Between Two Adversaries",
+      "published": "Sat, 11 Apr 2026 15:33:21 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.662,
+      "raw_impact": 0.919,
+      "source_weight": 0.9,
+      "age_hours": 0.4,
+      "confidence": 0.746,
+      "signal_total": 0.94,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.06,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/11/world/middleeast/us-iran-talks-timeline-key-moments.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/11/world/middleeast/us-iran-talks-timeline-key-moments.html"
+      ]
+    },
+    {
+      "title": "Russia and Ukraine trade strikes before temporary ceasefire",
+      "published": "Sat, 11 Apr 2026 15:43:16 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.577,
+      "raw_impact": 0.641,
+      "source_weight": 0.9,
+      "age_hours": 0.23,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/russia-and-ukraine-trade-strikes-before-temporary-ceasefire",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/russia-and-ukraine-trade-strikes-before-temporary-ceasefire"
+      ]
+    },
+    {
+      "title": "Israel army says hit over 200 Hezbollah targets in last 24 hours",
+      "published": "Sat, 11 Apr 2026 15:32:15 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.571,
+      "raw_impact": 0.635,
+      "source_weight": 0.9,
+      "age_hours": 0.42,
+      "confidence": 0.698,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/israel-army-says-hit-over-200-hezbollah-targets-in-last-24-hours",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/israel-army-says-hit-over-200-hezbollah-targets-in-last-24-hours"
+      ]
+    },
+    {
       "title": "In New War With Israel, Hezbollah Defies Notion That It Was Crippled",
       "published": "Sat, 11 Apr 2026 09:45:13 +0000",
       "actors": [
@@ -59,10 +164,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.596,
-      "raw_impact": 0.662,
+      "impact": 0.566,
+      "raw_impact": 0.629,
       "source_weight": 0.9,
-      "age_hours": 5.31,
+      "age_hours": 6.2,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,6 +190,41 @@
       ]
     },
     {
+      "title": "Iran, US top officials meet face-to-face",
+      "published": "Sat, 11 Apr 2026 15:20:41 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.565,
+      "raw_impact": 0.628,
+      "source_weight": 0.9,
+      "age_hours": 0.61,
+      "confidence": 0.698,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/iran-us-top-officials-meet-face-to-face",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/iran-us-top-officials-meet-face-to-face"
+      ]
+    },
+    {
       "title": "Russia, Ukraine to begin Orthodox Easter truce",
       "published": "Sat, 11 Apr 2026 09:49:22 GMT",
       "actors": [
@@ -93,10 +233,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.432,
-      "raw_impact": 0.48,
+      "impact": 0.411,
+      "raw_impact": 0.456,
       "source_weight": 0.9,
-      "age_hours": 5.24,
+      "age_hours": 6.13,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -128,10 +268,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.426,
-      "raw_impact": 0.473,
+      "impact": 0.405,
+      "raw_impact": 0.45,
       "source_weight": 0.9,
-      "age_hours": 5.49,
+      "age_hours": 6.38,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -163,10 +303,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.403,
-      "raw_impact": 0.448,
+      "impact": 0.383,
+      "raw_impact": 0.425,
       "source_weight": 0.9,
-      "age_hours": 6.45,
+      "age_hours": 7.34,
       "confidence": 0.618,
       "signal_total": 0.65,
       "signal_components": {
@@ -190,41 +330,6 @@
       ]
     },
     {
-      "title": "'Iran has put up a demand that Lebanon should be included in the ceasefire'",
-      "published": "Sat, 11 Apr 2026 07:39:04 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.381,
-      "raw_impact": 0.424,
-      "source_weight": 0.9,
-      "age_hours": 7.41,
-      "confidence": 0.698,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/iran-has-put-up-a-demand-that-lebanon-should-be-included-in-the-ceasefire",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/iran-has-put-up-a-demand-that-lebanon-should-be-included-in-the-ceasefire"
-      ]
-    },
-    {
       "title": "What will it take for U.S. and Iran to end war? Here\u2019s what we know.",
       "published": "Fri, 10 Apr 2026 18:21:54 +0000",
       "actors": [
@@ -233,10 +338,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.262,
-      "raw_impact": 0.363,
+      "impact": 0.248,
+      "raw_impact": 0.345,
       "source_weight": 0.9,
-      "age_hours": 20.7,
+      "age_hours": 21.59,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -260,7 +365,7 @@
     },
     {
       "title": "Iran War Live Updates: U.S. and Iran Hold Historic High-Level Peace Talks",
-      "published": "Sat, 11 Apr 2026 14:58:21 +0000",
+      "published": "Sat, 11 Apr 2026 15:51:29 +0000",
       "actors": [
         "iran",
         "us"
@@ -293,52 +398,18 @@
       ]
     },
     {
-      "title": "Trump \u2018reaping bitter fruit\u2019 of thinking Iran intervention as easy as Venezuela, says former diplomat",
-      "published": "Fri, 10 Apr 2026 10:00:16 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.151,
-      "raw_impact": 0.168,
-      "source_weight": 0.9,
-      "age_hours": 29.06,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/world/2026/apr/10/trump-iran-intervention-easy-as-venezuela-maduro-capture-john-feeley",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/world/2026/apr/10/trump-iran-intervention-easy-as-venezuela-maduro-capture-john-feeley"
-      ]
-    },
-    {
-      "title": "Talks begin in Islamabad as U.S. and Iran seek path to end war",
-      "published": "Sat, 11 Apr 2026 13:23:08 +0000",
+      "title": "Direct talks begin in Islamabad as U.S. and Iran seek path to end war",
+      "published": "Sat, 11 Apr 2026 15:34:14 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.147,
-      "raw_impact": -0.182,
+      "impact": -0.158,
+      "raw_impact": -0.196,
       "source_weight": 0.9,
-      "age_hours": 1.68,
+      "age_hours": 0.38,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -361,6 +432,74 @@
       ]
     },
     {
+      "title": "US-Iran ceasefire: Can pressure, incentives, and risks deliver a final deal",
+      "published": "Sat, 11 Apr 2026 14:39:38 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.15,
+      "raw_impact": -0.186,
+      "source_weight": 0.9,
+      "age_hours": 1.29,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/this-is-america/2026/4/11/us-iran-ceasefire-can-pressure-incentives-and-risks-deliver-a-final-deal?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/this-is-america/2026/4/11/us-iran-ceasefire-can-pressure-incentives-and-risks-deliver-a-final-deal?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Trump \u2018reaping bitter fruit\u2019 of thinking Iran intervention as easy as Venezuela, says former diplomat",
+      "published": "Fri, 10 Apr 2026 10:00:16 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.144,
+      "raw_impact": 0.16,
+      "source_weight": 0.9,
+      "age_hours": 29.95,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/world/2026/apr/10/trump-iran-intervention-easy-as-venezuela-maduro-capture-john-feeley",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/world/2026/apr/10/trump-iran-intervention-easy-as-venezuela-maduro-capture-john-feeley"
+      ]
+    },
+    {
       "title": "Trump fumes as Iran retains choke hold on Strait of Hormuz ahead of peace talks",
       "published": "Fri, 10 Apr 2026 13:32:35 +0000",
       "actors": [
@@ -369,10 +508,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.134,
-      "raw_impact": 0.149,
+      "impact": 0.127,
+      "raw_impact": 0.141,
       "source_weight": 0.9,
-      "age_hours": 25.52,
+      "age_hours": 26.41,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -404,10 +543,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.127,
-      "raw_impact": 0.142,
+      "impact": 0.121,
+      "raw_impact": 0.135,
       "source_weight": 0.9,
-      "age_hours": 32.01,
+      "age_hours": 32.9,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -438,10 +577,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.127,
-      "raw_impact": -0.156,
+      "impact": -0.121,
+      "raw_impact": -0.149,
       "source_weight": 0.9,
-      "age_hours": 4.25,
+      "age_hours": 5.14,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -472,10 +611,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.125,
-      "raw_impact": -0.155,
+      "impact": -0.119,
+      "raw_impact": -0.147,
       "source_weight": 0.9,
-      "age_hours": 4.44,
+      "age_hours": 5.34,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -506,10 +645,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.11,
-      "raw_impact": 0.129,
+      "impact": 0.105,
+      "raw_impact": 0.123,
       "source_weight": 0.85,
-      "age_hours": 27.94,
+      "age_hours": 28.83,
       "confidence": 0.693,
       "signal_total": 0.65,
       "signal_components": {
@@ -541,10 +680,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.104,
-      "raw_impact": -0.129,
+      "impact": -0.099,
+      "raw_impact": -0.122,
       "source_weight": 0.9,
-      "age_hours": 7.62,
+      "age_hours": 8.52,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -567,41 +706,7 @@
       ]
     },
     {
-      "title": "Ceasefire &\u00a0Peacetalks, Hungary\u00a0'False Flags' & Final Rallies",
-      "published": "Sat, 11 Apr 2026 07:02:24 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.102,
-      "raw_impact": -0.126,
-      "source_weight": 0.9,
-      "age_hours": 8.02,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/tv-shows/the-world-this-week/20260411-ceasefire-peacetalks-hungary-false-flags-final-rallies",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/tv-shows/the-world-this-week/20260411-ceasefire-peacetalks-hungary-false-flags-final-rallies"
-      ]
-    },
-    {
-      "title": "U.S.-Iran peace talks begin in Islamabad after weeks of frantic diplomacy",
+      "title": "U.S.-Iran peace talks underway in Islamabad after weeks of frantic diplomacy",
       "published": "Sat, 11 Apr 2026 03:04:41 -0400",
       "actors": [
         "iran",
@@ -609,10 +714,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.096,
-      "raw_impact": -0.126,
+      "impact": -0.092,
+      "raw_impact": -0.12,
       "source_weight": 0.85,
-      "age_hours": 7.98,
+      "age_hours": 8.87,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -635,74 +740,6 @@
       ]
     },
     {
-      "title": "Middle East war live: Iranian media say peace talks with the US have begun in Islamabad",
-      "published": "Sat, 11 Apr 2026 05:33:12 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.094,
-      "raw_impact": -0.115,
-      "source_weight": 0.9,
-      "age_hours": 9.51,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260411-live-vance-in-pakistan-for-peace-talks-with-iranian-officials",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260411-live-vance-in-pakistan-for-peace-talks-with-iranian-officials"
-      ]
-    },
-    {
-      "title": "JD Vance takes on a perilous mission - could it backfire?",
-      "published": "Sat, 11 Apr 2026 00:54:23 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.079,
-      "raw_impact": -0.088,
-      "source_weight": 1.0,
-      "age_hours": 14.15,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/c1d9z1q2997o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/c1d9z1q2997o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
       "published": "Fri, 10 Apr 2026 21:43:00 GMT",
       "actors": [
@@ -711,10 +748,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.073,
-      "raw_impact": -0.073,
+      "impact": -0.069,
+      "raw_impact": -0.07,
       "source_weight": 1.1,
-      "age_hours": 17.34,
+      "age_hours": 18.24,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -745,10 +782,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.071,
-      "raw_impact": 0.119,
+      "impact": 0.068,
+      "raw_impact": 0.113,
       "source_weight": 0.75,
-      "age_hours": 50.7,
+      "age_hours": 51.59,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -780,10 +817,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.068,
-      "raw_impact": -0.085,
+      "impact": -0.066,
+      "raw_impact": -0.081,
       "source_weight": 0.9,
-      "age_hours": 14.83,
+      "age_hours": 15.73,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -814,10 +851,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.054,
-      "raw_impact": -0.06,
+      "impact": -0.051,
+      "raw_impact": -0.057,
       "source_weight": 1.0,
-      "age_hours": 20.84,
+      "age_hours": 21.73,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -840,8 +877,8 @@
       ]
     },
     {
-      "title": "Irish police push back fuel protesters at oil refinery",
-      "published": "Sat, 11 Apr 2026 14:41:18 GMT",
+      "title": "Fuel tankers regain access to Irish oil refinery",
+      "published": "Sat, 11 Apr 2026 15:25:09 GMT",
       "actors": [
         "iran",
         "us"
@@ -849,9 +886,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.049,
-      "raw_impact": 0.196,
+      "raw_impact": 0.194,
       "source_weight": 1.0,
-      "age_hours": 0.37,
+      "age_hours": 0.53,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -874,18 +911,18 @@
       ]
     },
     {
-      "title": "US-Iran talks begin in Pakistan, White House official says",
-      "published": "Sat, 11 Apr 2026 14:54:20 GMT",
+      "title": "Lebanese prime minister postpones Washington visit amid Hizbollah criticism",
+      "published": "Sat, 11 Apr 2026 15:13:57 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.198,
+      "impact": 0.043,
+      "raw_impact": 0.192,
       "source_weight": 0.9,
-      "age_hours": 0.16,
+      "age_hours": 0.72,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -908,6 +945,40 @@
       ]
     },
     {
+      "title": "US and Iran begin highest-level talks in five decades",
+      "published": "Sat, 11 Apr 2026 15:11:23 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.76,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/7f9e1e4b-b3d4-4fcb-9053-2d6ae2f33d53",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/7f9e1e4b-b3d4-4fcb-9053-2d6ae2f33d53"
+      ]
+    },
+    {
       "title": "Mexico seeks to curb reliance on US gas",
       "published": "Sat, 11 Apr 2026 13:54:14 GMT",
       "actors": [
@@ -916,10 +987,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.04,
+      "raw_impact": 0.178,
       "source_weight": 0.9,
-      "age_hours": 1.16,
+      "age_hours": 2.05,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -942,7 +1013,41 @@
       ]
     },
     {
-      "title": "US-Iran talks on ending war begin in Pakistan",
+      "title": "MIDDLE EAST LIVE 10 April: Fear and uncertainty grow in Lebanon as conflict grinds on",
+      "published": "Fri, 10 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.04,
+      "raw_impact": -0.04,
+      "source_weight": 1.1,
+      "age_hours": 27.95,
+      "confidence": 0.78,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167279",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167279"
+      ]
+    },
+    {
+      "title": "US-Iran direct talks on ending war under way in Pakistan",
       "published": "Sat, 11 Apr 2026 13:26:53 +0000",
       "actors": [
         "iran",
@@ -950,10 +1055,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.182,
+      "impact": 0.039,
+      "raw_impact": 0.173,
       "source_weight": 0.9,
-      "age_hours": 1.61,
+      "age_hours": 2.5,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -984,10 +1089,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.181,
+      "impact": 0.039,
+      "raw_impact": 0.172,
       "source_weight": 0.9,
-      "age_hours": 1.7,
+      "age_hours": 2.59,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1010,40 +1115,6 @@
       ]
     },
     {
-      "title": "MIDDLE EAST LIVE 10 April: Fear and uncertainty grow in Lebanon as conflict grinds on",
-      "published": "Fri, 10 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.042,
-      "source_weight": 1.1,
-      "age_hours": 27.06,
-      "confidence": 0.78,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167279",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167279"
-      ]
-    },
-    {
       "title": "Video: JD Vance meets with Pakistani PM ahead of Iran talks",
       "published": "Sat, 11 Apr 2026 12:38:48 +0000",
       "actors": [
@@ -1052,10 +1123,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
+      "impact": 0.037,
+      "raw_impact": 0.165,
       "source_weight": 0.9,
-      "age_hours": 2.41,
+      "age_hours": 3.31,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1086,10 +1157,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.167,
+      "impact": 0.036,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 3.14,
+      "age_hours": 4.03,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1120,10 +1191,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.037,
-      "raw_impact": 0.034,
+      "impact": 0.036,
+      "raw_impact": 0.032,
       "source_weight": 1.1,
-      "age_hours": 51.06,
+      "age_hours": 51.95,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1155,10 +1226,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.037,
-      "raw_impact": 0.034,
+      "impact": 0.036,
+      "raw_impact": 0.032,
       "source_weight": 1.1,
-      "age_hours": 51.06,
+      "age_hours": 51.95,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -1190,10 +1261,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.153,
+      "impact": 0.033,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 4.66,
+      "age_hours": 5.55,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1224,10 +1295,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.032,
-      "raw_impact": -0.042,
+      "impact": -0.031,
+      "raw_impact": -0.04,
       "source_weight": 0.85,
-      "age_hours": 27.02,
+      "age_hours": 27.91,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -1250,40 +1321,6 @@
       ]
     },
     {
-      "title": "Video: Vance arrives in Pakistan for talks with Iran",
-      "published": "Sat, 11 Apr 2026 07:34:16 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.13,
-      "source_weight": 0.9,
-      "age_hours": 7.49,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/11/video-vance-arrives-in-pakistan-for-talks-with-iran?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/11/video-vance-arrives-in-pakistan-for-talks-with-iran?traffic_source=rss"
-      ]
-    },
-    {
       "title": "China helped broker Iran truce, but it\u2019s wary of deeper involvement",
       "published": "Fri, 10 Apr 2026 09:00:00 +0000",
       "actors": [
@@ -1292,10 +1329,10 @@
       ],
       "state_key": "us_china",
       "class": "deescalation",
-      "impact": -0.029,
-      "raw_impact": -0.035,
+      "impact": -0.027,
+      "raw_impact": -0.033,
       "source_weight": 0.9,
-      "age_hours": 30.06,
+      "age_hours": 30.95,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1326,10 +1363,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.106,
+      "impact": 0.022,
+      "raw_impact": 0.1,
       "source_weight": 0.9,
-      "age_hours": 11.05,
+      "age_hours": 11.94,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1360,10 +1397,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.047,
+      "impact": 0.01,
+      "raw_impact": 0.044,
       "source_weight": 0.9,
-      "age_hours": 25.18,
+      "age_hours": 26.08,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1395,9 +1432,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.009,
-      "raw_impact": 0.009,
+      "raw_impact": 0.008,
       "source_weight": 1.1,
-      "age_hours": 75.06,
+      "age_hours": 75.95,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1430,9 +1467,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.008,
-      "raw_impact": 0.039,
+      "raw_impact": 0.037,
       "source_weight": 0.85,
-      "age_hours": 28.15,
+      "age_hours": 29.04,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1463,10 +1500,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.008,
+      "impact": 0.007,
       "raw_impact": 0.008,
       "source_weight": 1.1,
-      "age_hours": 71.69,
+      "age_hours": 72.59,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1498,9 +1535,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.003,
-      "raw_impact": -0.003,
+      "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 75.06,
+      "age_hours": 75.95,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1534,7 +1571,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 114.04,
+      "age_hours": 114.94,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1568,7 +1605,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 928.31,
+      "age_hours": 929.2,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1602,7 +1639,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 246.55,
+      "age_hours": 247.44,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1637,7 +1674,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 287.54,
+      "age_hours": 288.43,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1672,7 +1709,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 292.18,
+      "age_hours": 293.07,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1832,16 +1869,16 @@
   ],
   "debug": {
     "event_count": 228,
-    "classified_count": 49,
-    "paired_count": 49,
+    "classified_count": 50,
+    "paired_count": 50,
     "valid_pair_updates": 6,
-    "top_driver_count": 49,
-    "total_signal": 5.2685,
+    "top_driver_count": 50,
+    "total_signal": 7.8266,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 106,
-      "no_signal": 50,
-      "invalid_pair": 23,
+      "no_actor": 107,
+      "no_signal": 51,
+      "invalid_pair": 20,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
