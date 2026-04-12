@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-12 02:49:50 UTC",
-  "probability": 14.62,
-  "uncertainty": 6.22,
+  "last_updated": "2026-04-12 05:26:46 UTC",
+  "probability": 14.57,
+  "uncertainty": 6.23,
   "state": {
-    "us_russia": 3.32992044268408,
-    "us_china": 2.960440389357583,
-    "china_taiwan": 3.992088077871516,
+    "us_russia": 3.340823661052396,
+    "us_china": 2.965170605912037,
+    "china_taiwan": 3.993034121182407,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333330083418,
-    "iran_israel": 6.633333330083226,
+    "iran_us": 5.633333331606816,
+    "iran_israel": 6.633333331606714,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.970069379310834
+    "russia_ukraine": 5.845528946605995
   },
   "top_drivers": [
+    {
+      "title": "US and Iran fail to reach deal after marathon talks",
+      "published": "Sun, 12 Apr 2026 02:50:32 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.743,
+      "raw_impact": 1.032,
+      "source_weight": 0.9,
+      "age_hours": 2.6,
+      "confidence": 0.95,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/9ba4f9b7-8c8a-440c-87bf-f4de8b785f9f",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/9ba4f9b7-8c8a-440c-87bf-f4de8b785f9f"
+      ]
+    },
     {
       "title": "Iran Tries to Grasp Economic Devastation of War, and Find a Way Past It",
       "published": "Sat, 11 Apr 2026 09:02:25 +0000",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.541,
-      "raw_impact": 0.752,
+      "impact": 0.466,
+      "raw_impact": 0.646,
       "source_weight": 0.9,
-      "age_hours": 17.79,
+      "age_hours": 20.41,
       "confidence": 0.97,
       "signal_total": 2.1,
       "signal_components": {
@@ -51,40 +85,6 @@
       ]
     },
     {
-      "title": "Iranian rabbi describes Israel\u2019s destruction of a Tehran synagogue",
-      "published": "Sat, 11 Apr 2026 18:36:39 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.504,
-      "raw_impact": 0.56,
-      "source_weight": 0.9,
-      "age_hours": 8.22,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/11/iranian-rabbi-describes-israels-destruction-of-a-tehran-synagogue?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/11/iranian-rabbi-describes-israels-destruction-of-a-tehran-synagogue?traffic_source=rss"
-      ]
-    },
-    {
       "title": "U.S.-Iran Talks Timeline: Key Moments Between Two Adversaries",
       "published": "Sat, 11 Apr 2026 15:33:21 +0000",
       "actors": [
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.353,
-      "raw_impact": 0.49,
+      "impact": 0.303,
+      "raw_impact": 0.421,
       "source_weight": 0.9,
-      "age_hours": 11.27,
+      "age_hours": 13.89,
       "confidence": 0.746,
       "signal_total": 0.94,
       "signal_components": {
@@ -128,10 +128,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.308,
-      "raw_impact": 0.342,
+      "impact": 0.265,
+      "raw_impact": 0.294,
       "source_weight": 0.9,
-      "age_hours": 11.11,
+      "age_hours": 13.73,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -163,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.305,
-      "raw_impact": 0.339,
+      "impact": 0.262,
+      "raw_impact": 0.291,
       "source_weight": 0.9,
-      "age_hours": 11.29,
+      "age_hours": 13.91,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -198,10 +198,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.302,
-      "raw_impact": 0.336,
+      "impact": 0.26,
+      "raw_impact": 0.289,
       "source_weight": 0.9,
-      "age_hours": 17.08,
+      "age_hours": 19.69,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -232,10 +232,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.301,
-      "raw_impact": 0.335,
+      "impact": 0.259,
+      "raw_impact": 0.288,
       "source_weight": 0.9,
-      "age_hours": 11.49,
+      "age_hours": 14.1,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -267,10 +267,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.249,
-      "raw_impact": 0.325,
+      "impact": 0.214,
+      "raw_impact": 0.28,
       "source_weight": 0.9,
-      "age_hours": 7.44,
+      "age_hours": 10.05,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -293,19 +293,19 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: U.S. and Iran Fail to Reach Agreement After Marathon Peace Talks, Vance Says",
-      "published": "Sun, 12 Apr 2026 02:39:42 +0000",
+      "title": "Oil tankers exit Strait of Hormuz amid fragile US-Iran ceasefire",
+      "published": "Sun, 12 Apr 2026 05:00:33 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.16,
-      "raw_impact": -0.198,
+      "impact": -0.158,
+      "raw_impact": -0.195,
       "source_weight": 0.9,
-      "age_hours": 0.17,
-      "confidence": 0.68,
+      "age_hours": 0.44,
+      "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -315,30 +315,64 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/11/world/iran-war-trump-talks-pakistan",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.aljazeera.com/economy/2026/4/12/oil-tankers-exit-strait-of-hormuz-amid-fragile-us-iran-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/11/world/iran-war-trump-talks-pakistan"
+        "https://www.aljazeera.com/economy/2026/4/12/oil-tankers-exit-strait-of-hormuz-amid-fragile-us-iran-ceasefire?traffic_source=rss"
       ]
     },
     {
-      "title": "Direct U.S.-Iran talks fail to reach resolution after lengthy negotiation",
-      "published": "Sun, 12 Apr 2026 02:03:19 +0000",
+      "title": "Australia news live: Wong says it\u2019s \u2018disappointing\u2019 peace talks between US and Iran failed; Chalmers warns of \u2018more polarising politics\u2019",
+      "published": "Sun, 12 Apr 2026 05:01:50 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.155,
-      "raw_impact": -0.191,
+      "impact": -0.158,
+      "raw_impact": -0.195,
       "source_weight": 0.9,
-      "age_hours": 0.78,
+      "age_hours": 0.42,
+      "confidence": 0.67,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/australia-news/live/2026/apr/12/petrol-prices-save-fuel-government-ad-campaign-anthony-albanese-singapore-labor-coalition-ntwnfb",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/australia-news/live/2026/apr/12/petrol-prices-save-fuel-government-ad-campaign-anthony-albanese-singapore-labor-coalition-ntwnfb"
+      ]
+    },
+    {
+      "title": "Direct U.S.-Iran talks fail to reach resolution after lengthy negotiation",
+      "published": "Sun, 12 Apr 2026 04:05:19 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.149,
+      "raw_impact": -0.185,
+      "source_weight": 0.9,
+      "age_hours": 1.36,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -369,10 +403,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.151,
-      "raw_impact": -0.186,
+      "impact": -0.13,
+      "raw_impact": -0.16,
       "source_weight": 0.9,
-      "age_hours": 1.24,
+      "age_hours": 3.86,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -403,10 +437,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.134,
-      "raw_impact": -0.166,
+      "impact": -0.115,
+      "raw_impact": -0.143,
       "source_weight": 0.9,
-      "age_hours": 3.24,
+      "age_hours": 5.86,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -437,10 +471,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.133,
-      "raw_impact": 0.184,
+      "impact": 0.114,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 32.47,
+      "age_hours": 35.08,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -463,41 +497,6 @@
       ]
     },
     {
-      "title": "Pakistan sends fighter jets to Saudi Arabia amid fragile US-Iran ceasefire",
-      "published": "Sat, 11 Apr 2026 19:35:54 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.131,
-      "raw_impact": 0.171,
-      "source_weight": 0.9,
-      "age_hours": 7.23,
-      "confidence": 0.62,
-      "signal_total": 0.26,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.04,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/11/pakistan-sends-fighter-jets-to-saudi-arabia-amid-fragile-us-iran-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/11/pakistan-sends-fighter-jets-to-saudi-arabia-amid-fragile-us-iran-ceasefire?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Iran-US negotiations underway in Pakistan, US says Strait of Hormuz being 'cleared'",
       "published": "Sat, 11 Apr 2026 20:48:29 GMT",
       "actors": [
@@ -506,10 +505,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.114,
-      "raw_impact": -0.141,
+      "impact": -0.098,
+      "raw_impact": -0.121,
       "source_weight": 0.9,
-      "age_hours": 6.02,
+      "age_hours": 8.64,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -540,10 +539,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.108,
-      "raw_impact": -0.133,
+      "impact": -0.093,
+      "raw_impact": -0.114,
       "source_weight": 0.9,
-      "age_hours": 7.05,
+      "age_hours": 9.67,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -574,10 +573,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.077,
-      "raw_impact": 0.085,
+      "impact": 0.066,
+      "raw_impact": 0.073,
       "source_weight": 0.9,
-      "age_hours": 40.83,
+      "age_hours": 43.44,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -608,10 +607,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.068,
-      "raw_impact": 0.075,
+      "impact": 0.058,
+      "raw_impact": 0.065,
       "source_weight": 0.9,
-      "age_hours": 37.29,
+      "age_hours": 39.9,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -643,10 +642,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.064,
-      "raw_impact": -0.079,
+      "impact": -0.055,
+      "raw_impact": -0.068,
       "source_weight": 0.9,
-      "age_hours": 16.02,
+      "age_hours": 18.63,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -677,10 +676,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.064,
-      "raw_impact": -0.078,
+      "impact": -0.055,
+      "raw_impact": -0.067,
       "source_weight": 0.9,
-      "age_hours": 16.21,
+      "age_hours": 18.83,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -711,10 +710,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.053,
-      "raw_impact": -0.065,
+      "impact": -0.045,
+      "raw_impact": -0.056,
       "source_weight": 0.9,
-      "age_hours": 19.39,
+      "age_hours": 22.01,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -737,7 +736,75 @@
       ]
     },
     {
-      "title": "U.S.-Iran peace talks underway in Islamabad after weeks of frantic diplomacy",
+      "title": "Why did US-Iran talks end without an agreement in Pakistan?",
+      "published": "Sun, 12 Apr 2026 04:47:32 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.193,
+      "source_weight": 0.9,
+      "age_hours": 0.65,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/12/why-did-us-iran-talks-end-without-an-agreement-in-pakistan?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/12/why-did-us-iran-talks-end-without-an-agreement-in-pakistan?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Iran War Live Updates: U.S. And Iran Fail to Agree on Peace Deal After 21 Hours of Talks, Vance Says",
+      "published": "Sun, 12 Apr 2026 04:46:20 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.67,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/11/world/iran-war-trump-talks-pakistan",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/11/world/iran-war-trump-talks-pakistan"
+      ]
+    },
+    {
+      "title": "No Deal: U.S.-Iran peace talks in Islamabad fall through",
       "published": "Sat, 11 Apr 2026 03:04:41 -0400",
       "actors": [
         "iran",
@@ -745,10 +812,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.049,
-      "raw_impact": -0.064,
+      "impact": -0.042,
+      "raw_impact": -0.055,
       "source_weight": 0.85,
-      "age_hours": 19.75,
+      "age_hours": 22.37,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -759,7 +826,7 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.npr.org/2026/04/11/nx-s1-5781760/pakistan-hosts-peace-talks-us-iran",
+      "link": "https://www.npr.org/2026/04/11/nx-s1-5781760/pakistan-peace-talks-us-iran",
       "source": "https://feeds.npr.org/1004/rss.xml",
       "source_domain": "feeds.npr.org",
       "corroboration_count": 1,
@@ -767,7 +834,75 @@
         "feeds.npr.org"
       ],
       "cluster_links": [
-        "https://www.npr.org/2026/04/11/nx-s1-5781760/pakistan-hosts-peace-talks-us-iran"
+        "https://www.npr.org/2026/04/11/nx-s1-5781760/pakistan-peace-talks-us-iran"
+      ]
+    },
+    {
+      "title": "Wall Street banks set to report $40bn trading haul as Iran war rekindles volatility",
+      "published": "Sun, 12 Apr 2026 04:00:12 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.184,
+      "source_weight": 0.9,
+      "age_hours": 1.44,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/7dfb2398-f414-4c82-927c-5db4d34cb5da",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/7dfb2398-f414-4c82-927c-5db4d34cb5da"
+      ]
+    },
+    {
+      "title": "Watch JD Vance\u2019s full remarks after US-Iran talks end without deal",
+      "published": "Sun, 12 Apr 2026 03:32:04 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.179,
+      "source_weight": 0.9,
+      "age_hours": 1.91,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/12/watch-jd-vances-full-remarks-after-us-iran-talks-end-without-deal?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/12/watch-jd-vances-full-remarks-after-us-iran-talks-end-without-deal?traffic_source=rss"
       ]
     },
     {
@@ -779,10 +914,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.188,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 1.1,
+      "age_hours": 3.71,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -805,41 +940,7 @@
       ]
     },
     {
-      "title": "JD Vance takes on a perilous mission - could it backfire?",
-      "published": "Sat, 11 Apr 2026 00:54:23 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.045,
-      "source_weight": 1.0,
-      "age_hours": 25.92,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/c1d9z1q2997o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/c1d9z1q2997o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "title": "Iran war live: Vance says no deal yet, US sent \u2018our best and final offer\u2019",
+      "title": "Iran war live: Vance says no deal reached, US has made \u2018best, final offer\u2019",
       "published": "Sun, 12 Apr 2026 00:00:00 +0000",
       "actors": [
         "iran",
@@ -847,11 +948,11 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
+      "impact": 0.033,
+      "raw_impact": 0.146,
       "source_weight": 0.9,
-      "age_hours": 2.83,
-      "confidence": 0.68,
+      "age_hours": 5.45,
+      "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -881,10 +982,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.037,
-      "raw_impact": -0.037,
+      "impact": -0.032,
+      "raw_impact": -0.032,
       "source_weight": 1.1,
-      "age_hours": 29.11,
+      "age_hours": 31.73,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -915,10 +1016,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.036,
-      "raw_impact": 0.06,
+      "impact": 0.031,
+      "raw_impact": 0.052,
       "source_weight": 0.75,
-      "age_hours": 62.47,
+      "age_hours": 65.09,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -950,10 +1051,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.035,
-      "raw_impact": -0.043,
+      "impact": -0.03,
+      "raw_impact": -0.037,
       "source_weight": 0.9,
-      "age_hours": 26.6,
+      "age_hours": 29.22,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -984,10 +1085,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.153,
+      "impact": 0.029,
+      "raw_impact": 0.131,
       "source_weight": 0.9,
-      "age_hours": 4.67,
+      "age_hours": 7.28,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1018,10 +1119,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.142,
+      "impact": 0.028,
+      "raw_impact": 0.122,
       "source_weight": 0.9,
-      "age_hours": 5.91,
+      "age_hours": 8.53,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1052,10 +1153,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.14,
+      "impact": 0.027,
+      "raw_impact": 0.121,
       "source_weight": 0.9,
-      "age_hours": 6.15,
+      "age_hours": 8.76,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1086,10 +1187,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.143,
+      "impact": 0.026,
+      "raw_impact": 0.123,
       "source_weight": 0.85,
-      "age_hours": 5.75,
+      "age_hours": 8.37,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1120,10 +1221,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.122,
+      "impact": 0.022,
+      "raw_impact": 0.105,
       "source_weight": 0.85,
-      "age_hours": 8.56,
+      "age_hours": 11.18,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1154,10 +1255,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.095,
+      "impact": 0.018,
+      "raw_impact": 0.081,
       "source_weight": 0.9,
-      "age_hours": 12.93,
+      "age_hours": 15.54,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1188,10 +1289,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.021,
-      "raw_impact": -0.021,
+      "impact": -0.018,
+      "raw_impact": -0.018,
       "source_weight": 1.1,
-      "age_hours": 38.83,
+      "age_hours": 41.45,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1222,10 +1323,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.085,
+      "impact": 0.016,
+      "raw_impact": 0.073,
       "source_weight": 0.9,
-      "age_hours": 14.91,
+      "age_hours": 17.52,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1256,10 +1357,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.019,
-      "raw_impact": 0.017,
+      "impact": 0.016,
+      "raw_impact": 0.015,
       "source_weight": 1.1,
-      "age_hours": 62.83,
+      "age_hours": 65.45,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1291,10 +1392,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.019,
-      "raw_impact": 0.017,
+      "impact": 0.016,
+      "raw_impact": 0.015,
       "source_weight": 1.1,
-      "age_hours": 62.83,
+      "age_hours": 65.45,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -1326,10 +1427,10 @@
       ],
       "state_key": "us_china",
       "class": "deescalation",
-      "impact": -0.014,
-      "raw_impact": -0.018,
+      "impact": -0.013,
+      "raw_impact": -0.015,
       "source_weight": 0.9,
-      "age_hours": 41.83,
+      "age_hours": 44.45,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1360,10 +1461,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.054,
+      "impact": 0.01,
+      "raw_impact": 0.046,
       "source_weight": 0.9,
-      "age_hours": 22.82,
+      "age_hours": 25.43,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1394,10 +1495,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.005,
-      "raw_impact": 0.024,
+      "impact": 0.004,
+      "raw_impact": 0.02,
       "source_weight": 0.9,
-      "age_hours": 36.95,
+      "age_hours": 39.57,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1428,10 +1529,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.005,
+      "impact": 0.004,
       "raw_impact": 0.004,
       "source_weight": 1.1,
-      "age_hours": 86.83,
+      "age_hours": 89.45,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1464,9 +1565,9 @@
       "state_key": "iran_us",
       "class": "movement",
       "impact": 0.003,
-      "raw_impact": 0.004,
+      "raw_impact": 0.003,
       "source_weight": 1.1,
-      "age_hours": 83.46,
+      "age_hours": 86.08,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1500,7 +1601,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 86.83,
+      "age_hours": 89.45,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1534,7 +1635,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 125.81,
+      "age_hours": 128.43,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1568,7 +1669,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 940.08,
+      "age_hours": 942.7,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1602,7 +1703,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 258.32,
+      "age_hours": 260.94,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1637,7 +1738,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 299.31,
+      "age_hours": 301.92,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1672,7 +1773,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 303.95,
+      "age_hours": 306.56,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1715,11 +1816,6 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
-    },
-    {
-      "name": "feeds.bbci.co.uk",
-      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "domain": "feeds.bbci.co.uk"
     },
     {
       "name": "feeds.npr.org",
@@ -1832,16 +1928,16 @@
   ],
   "debug": {
     "event_count": 226,
-    "classified_count": 49,
-    "paired_count": 49,
+    "classified_count": 52,
+    "paired_count": 52,
     "valid_pair_updates": 6,
-    "top_driver_count": 49,
-    "total_signal": 4.0179,
+    "top_driver_count": 52,
+    "total_signal": 4.5717,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 104,
-      "no_signal": 52,
-      "invalid_pair": 21,
+      "no_actor": 96,
+      "no_signal": 56,
+      "invalid_pair": 22,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
