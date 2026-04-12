@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-12 18:02:13 UTC",
-  "probability": 20.04,
-  "uncertainty": 5.92,
+  "last_updated": "2026-04-12 19:22:21 UTC",
+  "probability": 19.75,
+  "uncertainty": 6.07,
   "state": {
-    "us_russia": 5.246144384350544,
-    "us_china": 2.9999491323252827,
-    "china_taiwan": 3.9999898264650566,
+    "us_russia": 5.287014204186227,
+    "us_china": 2.9999729995442093,
+    "china_taiwan": 3.9999945999088418,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333333332461,
-    "iran_israel": 6.308678921460371,
+    "iran_us": 5.633333333332869,
+    "iran_israel": 5.980905019635847,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.153954086002392
+    "russia_ukraine": 5.910815436848202
   },
   "top_drivers": [
+    {
+      "title": "The Escalating Global A.I. Arms Race",
+      "published": "Sun, 12 Apr 2026 18:24:25 +0000",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "strategic",
+      "impact": 0.817,
+      "raw_impact": 1.135,
+      "source_weight": 0.9,
+      "age_hours": 0.97,
+      "confidence": 0.96,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/12/technology/china-russia-us-ai-weapons.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/12/technology/china-russia-us-ai-weapons.html"
+      ]
+    },
     {
       "title": "Global economic outlook darkens as policymakers count cost of Iran war",
       "published": "Sun, 12 Apr 2026 17:00:05 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.814,
-      "raw_impact": 1.13,
+      "impact": 0.754,
+      "raw_impact": 1.046,
       "source_weight": 0.9,
-      "age_hours": 1.04,
+      "age_hours": 2.37,
       "confidence": 0.87,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.793,
-      "raw_impact": 0.881,
+      "impact": 0.734,
+      "raw_impact": 0.815,
       "source_weight": 0.9,
-      "age_hours": 0.37,
+      "age_hours": 1.71,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,40 +119,6 @@
       ]
     },
     {
-      "title": "The Escalating Global A.I. Arms Race",
-      "published": "Sun, 12 Apr 2026 16:00:00 +0000",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "strategic",
-      "impact": 0.768,
-      "raw_impact": 1.067,
-      "source_weight": 0.9,
-      "age_hours": 2.04,
-      "confidence": 0.96,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/12/technology/china-russia-us-ai-weapons.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/12/technology/china-russia-us-ai-weapons.html"
-      ]
-    },
-    {
       "title": "In Pakistan Talks, Iran Saw a U.S. Trying to Dictate, Not Negotiate",
       "published": "Sun, 12 Apr 2026 16:36:37 +0000",
       "actors": [
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.746,
-      "raw_impact": 0.829,
+      "impact": 0.691,
+      "raw_impact": 0.767,
       "source_weight": 0.9,
-      "age_hours": 1.43,
+      "age_hours": 2.76,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.682,
-      "raw_impact": 0.947,
+      "impact": 0.631,
+      "raw_impact": 0.877,
       "source_weight": 0.9,
-      "age_hours": 4.1,
+      "age_hours": 5.43,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -187,40 +187,6 @@
       ]
     },
     {
-      "title": "Who is running US foreign policy? Varsha Gandikota and Jeremy Scahill",
-      "published": "Sun, 12 Apr 2026 12:02:30 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.611,
-      "raw_impact": 0.849,
-      "source_weight": 0.9,
-      "age_hours": 6.0,
-      "confidence": 0.88,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/reframe/2026/4/12/who-is-running-us-foreign-policy-varsha-gandikota-and-jeremy-scahill?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/reframe/2026/4/12/who-is-running-us-foreign-policy-varsha-gandikota-and-jeremy-scahill?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Ukraine and Russia accuse each other of hundreds of ceasefire violations",
       "published": "Sun, 12 Apr 2026 11:53:37 GMT",
       "actors": [
@@ -229,10 +195,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.456,
-      "raw_impact": 0.456,
+      "impact": 0.422,
+      "raw_impact": 0.422,
       "source_weight": 1.0,
-      "age_hours": 6.14,
+      "age_hours": 7.48,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -256,6 +222,74 @@
       ]
     },
     {
+      "title": "Iran\u2019s Top Negotiator Says Talks Failed Because U.S. Failed to Win Trust",
+      "published": "Sun, 12 Apr 2026 18:50:19 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.158,
+      "raw_impact": -0.194,
+      "source_weight": 0.9,
+      "age_hours": 0.53,
+      "confidence": 0.67,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/12/world/middleeast/us-iran-negotiations.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/12/world/middleeast/us-iran-negotiations.html"
+      ]
+    },
+    {
+      "title": "Lebanese govt politically present, operationally absent': PM accuses Israel of violating int'l law'",
+      "published": "Sun, 12 Apr 2026 18:27:20 GMT",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "deescalation",
+      "impact": -0.154,
+      "raw_impact": -0.19,
+      "source_weight": 0.9,
+      "age_hours": 0.92,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/lebanese-govt-politically-present-operationally-absent-pm-accuses-israel-of-violating-int-l-law",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/lebanese-govt-politically-present-operationally-absent-pm-accuses-israel-of-violating-int-l-law"
+      ]
+    },
+    {
       "title": "The \u2018Islamabad Peace Talks\u2019 Are Over. What Now for Pakistan?",
       "published": "Sun, 12 Apr 2026 17:01:52 +0000",
       "actors": [
@@ -264,10 +298,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.153,
-      "raw_impact": -0.189,
+      "impact": -0.141,
+      "raw_impact": -0.175,
       "source_weight": 0.9,
-      "age_hours": 1.01,
+      "age_hours": 2.34,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -298,10 +332,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.185,
+      "impact": -0.139,
+      "raw_impact": -0.171,
       "source_weight": 0.9,
-      "age_hours": 1.35,
+      "age_hours": 2.69,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -324,41 +358,7 @@
       ]
     },
     {
-      "title": "The Strait of Hormuz and Iran\u2019s Uranium Stockpiles Were Sticking Points in U.S.-Iran Peace Talks",
-      "published": "Sun, 12 Apr 2026 16:17:31 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.147,
-      "raw_impact": -0.181,
-      "source_weight": 0.9,
-      "age_hours": 1.75,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/11/world/middleeast/iran-strait-of-hormuz-uranium-stockpile-sticking-points.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/11/world/middleeast/iran-strait-of-hormuz-uranium-stockpile-sticking-points.html"
-      ]
-    },
-    {
-      "title": "Trump announces Strait of Hormuz blockade after US-Iran peace talks end",
+      "title": "\u2018Blown to hell\u2019: Trump orders Hormuz blockade after US-Iran peace talks end",
       "published": "Sun, 12 Apr 2026 15:47:23 +0000",
       "actors": [
         "iran",
@@ -366,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.142,
-      "raw_impact": -0.176,
+      "impact": -0.131,
+      "raw_impact": -0.163,
       "source_weight": 0.9,
-      "age_hours": 2.25,
+      "age_hours": 3.58,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -400,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.122,
-      "raw_impact": -0.15,
+      "impact": -0.113,
+      "raw_impact": -0.138,
       "source_weight": 0.9,
-      "age_hours": 5.03,
+      "age_hours": 6.36,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -434,10 +434,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.121,
-      "raw_impact": -0.149,
+      "impact": -0.112,
+      "raw_impact": -0.138,
       "source_weight": 0.9,
-      "age_hours": 5.09,
+      "age_hours": 6.42,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -468,10 +468,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.12,
-      "raw_impact": -0.148,
+      "impact": -0.111,
+      "raw_impact": -0.137,
       "source_weight": 0.9,
-      "age_hours": 5.25,
+      "age_hours": 6.58,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -502,10 +502,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.108,
-      "raw_impact": -0.133,
+      "impact": -0.1,
+      "raw_impact": -0.123,
       "source_weight": 0.9,
-      "age_hours": 7.08,
+      "age_hours": 8.41,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -536,10 +536,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.123,
+      "impact": -0.087,
+      "raw_impact": -0.114,
       "source_weight": 0.85,
-      "age_hours": 8.36,
+      "age_hours": 9.7,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -570,10 +570,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.079,
-      "raw_impact": -0.097,
+      "impact": -0.073,
+      "raw_impact": -0.09,
       "source_weight": 0.9,
-      "age_hours": 12.44,
+      "age_hours": 13.78,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -604,10 +604,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.077,
-      "raw_impact": -0.094,
+      "impact": -0.071,
+      "raw_impact": -0.087,
       "source_weight": 0.9,
-      "age_hours": 13.01,
+      "age_hours": 14.34,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -638,10 +638,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.072,
-      "raw_impact": -0.089,
+      "impact": -0.067,
+      "raw_impact": -0.083,
       "source_weight": 0.9,
-      "age_hours": 13.95,
+      "age_hours": 15.28,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -672,10 +672,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.063,
-      "raw_impact": -0.077,
+      "impact": -0.058,
+      "raw_impact": -0.072,
       "source_weight": 0.9,
-      "age_hours": 16.45,
+      "age_hours": 17.79,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -698,42 +698,8 @@
       ]
     },
     {
-      "title": "What will it take for U.S. and Iran to end war? Here\u2019s what we know.",
-      "published": "Fri, 10 Apr 2026 18:21:54 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.055,
-      "raw_impact": 0.076,
-      "source_weight": 0.9,
-      "age_hours": 47.67,
-      "confidence": 0.96,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/10/iran-united-states-war-peace-talks/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/10/iran-united-states-war-peace-talks/"
-      ]
-    },
-    {
       "title": "Iran War Live Updates: Trump Says U.S. Will \u2018Blockade\u2019 Strait of Hormuz After No Peace Deal Reached",
-      "published": "Sun, 12 Apr 2026 17:43:39 +0000",
+      "published": "Sun, 12 Apr 2026 18:50:20 +0000",
       "actors": [
         "iran",
         "us"
@@ -741,9 +707,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.044,
-      "raw_impact": 0.196,
+      "raw_impact": 0.194,
       "source_weight": 0.9,
-      "age_hours": 0.31,
+      "age_hours": 0.53,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -766,6 +732,40 @@
       ]
     },
     {
+      "title": "Cuba\u2019s President Projects Defiance in Standoff With the U.S.",
+      "published": "Sun, 12 Apr 2026 19:06:36 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.197,
+      "source_weight": 0.9,
+      "age_hours": 0.26,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/12/world/americas/cuba-president-meet-the-press.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/12/world/americas/cuba-president-meet-the-press.html"
+      ]
+    },
+    {
       "title": "Iranian authorities remain defiant, urge supporters to stay in streets",
       "published": "Sun, 12 Apr 2026 16:51:29 +0000",
       "actors": [
@@ -774,10 +774,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.039,
+      "raw_impact": 0.173,
       "source_weight": 0.9,
-      "age_hours": 1.18,
+      "age_hours": 2.51,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -808,10 +808,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.171,
+      "impact": 0.035,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 2.75,
+      "age_hours": 4.08,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -842,10 +842,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.148,
+      "impact": 0.034,
+      "raw_impact": 0.137,
       "source_weight": 1.0,
-      "age_hours": 5.24,
+      "age_hours": 6.57,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -876,10 +876,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.032,
-      "raw_impact": 0.035,
+      "impact": 0.029,
+      "raw_impact": 0.033,
       "source_weight": 0.9,
-      "age_hours": 56.03,
+      "age_hours": 57.37,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -910,10 +910,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.141,
+      "impact": 0.029,
+      "raw_impact": 0.131,
       "source_weight": 0.9,
-      "age_hours": 6.01,
+      "age_hours": 7.34,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -944,10 +944,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.142,
+      "impact": 0.028,
+      "raw_impact": 0.132,
       "source_weight": 0.85,
-      "age_hours": 5.87,
+      "age_hours": 7.21,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -978,10 +978,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.133,
+      "impact": 0.028,
+      "raw_impact": 0.123,
       "source_weight": 0.9,
-      "age_hours": 7.04,
+      "age_hours": 8.37,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1012,10 +1012,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.022,
-      "raw_impact": -0.027,
+      "impact": -0.021,
+      "raw_impact": -0.025,
       "source_weight": 0.9,
-      "age_hours": 34.6,
+      "age_hours": 35.94,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1046,10 +1046,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.015,
-      "raw_impact": -0.015,
+      "impact": -0.014,
+      "raw_impact": -0.014,
       "source_weight": 1.1,
-      "age_hours": 44.32,
+      "age_hours": 45.66,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1080,10 +1080,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.015,
-      "raw_impact": 0.025,
+      "impact": 0.014,
+      "raw_impact": 0.023,
       "source_weight": 0.75,
-      "age_hours": 77.68,
+      "age_hours": 79.01,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1115,10 +1115,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.06,
+      "impact": 0.012,
+      "raw_impact": 0.055,
       "source_weight": 0.85,
-      "age_hours": 20.96,
+      "age_hours": 22.29,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1149,10 +1149,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.051,
+      "impact": 0.01,
+      "raw_impact": 0.047,
       "source_weight": 0.85,
-      "age_hours": 23.77,
+      "age_hours": 25.1,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1183,10 +1183,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.009,
-      "raw_impact": -0.009,
+      "impact": -0.008,
+      "raw_impact": -0.008,
       "source_weight": 1.1,
-      "age_hours": 54.04,
+      "age_hours": 55.37,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1217,10 +1217,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.008,
+      "impact": 0.007,
       "raw_impact": 0.007,
       "source_weight": 1.1,
-      "age_hours": 78.04,
+      "age_hours": 79.37,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1252,10 +1252,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.008,
+      "impact": 0.007,
       "raw_impact": 0.007,
       "source_weight": 1.1,
-      "age_hours": 78.04,
+      "age_hours": 79.37,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -1290,7 +1290,7 @@
       "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 102.04,
+      "age_hours": 103.37,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1325,7 +1325,7 @@
       "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 98.67,
+      "age_hours": 100.01,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1359,7 +1359,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 102.04,
+      "age_hours": 103.37,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1393,7 +1393,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 141.02,
+      "age_hours": 142.36,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1427,7 +1427,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 955.29,
+      "age_hours": 956.62,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1461,7 +1461,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 273.53,
+      "age_hours": 274.86,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1496,7 +1496,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 314.51,
+      "age_hours": 315.85,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1531,7 +1531,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 319.15,
+      "age_hours": 320.49,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1690,17 +1690,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 228,
+    "event_count": 227,
     "classified_count": 45,
     "paired_count": 45,
     "valid_pair_updates": 6,
     "top_driver_count": 45,
-    "total_signal": 5.9598,
+    "total_signal": 4.7513,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 111,
-      "no_signal": 50,
-      "invalid_pair": 22,
+      "no_actor": 110,
+      "no_signal": 48,
+      "invalid_pair": 24,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
