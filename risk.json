@@ -1,34 +1,68 @@
 {
-  "last_updated": "2026-04-12 14:09:50 UTC",
+  "last_updated": "2026-04-12 15:06:16 UTC",
   "probability": 20.03,
-  "uncertainty": 6.1,
+  "uncertainty": 5.96,
   "state": {
-    "us_russia": 5.152039013870229,
-    "us_china": 2.9993607336118915,
-    "china_taiwan": 3.999872146722378,
+    "us_russia": 5.097420822184694,
+    "us_china": 2.9996604191567626,
+    "china_taiwan": 3.9999320838313523,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.63333333332238,
-    "iran_israel": 6.081712925567589,
+    "iran_us": 5.633333333327514,
+    "iran_israel": 6.3222291563830515,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.640767265183455
+    "russia_ukraine": 6.658915915848186
   },
   "top_drivers": [
     {
+      "title": "Iran nuclear stand-off hardens after two decades of failed deals",
+      "published": "Sun, 12 Apr 2026 13:56:21 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.808,
+      "raw_impact": 1.122,
+      "source_weight": 0.9,
+      "age_hours": 1.17,
+      "confidence": 0.95,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/ac5af73f-82a6-42a0-81e1-2a657df66e99",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/ac5af73f-82a6-42a0-81e1-2a657df66e99"
+      ]
+    },
+    {
       "title": "In Pakistan Talks, Iran Saw a U.S. Trying to Dictate, Not Negotiate",
-      "published": "Sun, 12 Apr 2026 13:31:08 +0000",
+      "published": "Sun, 12 Apr 2026 14:13:31 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.78,
-      "raw_impact": 0.867,
+      "impact": 0.77,
+      "raw_impact": 0.855,
       "source_weight": 0.9,
-      "age_hours": 0.65,
+      "age_hours": 0.88,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.764,
-      "raw_impact": 1.062,
+      "impact": 0.724,
+      "raw_impact": 1.005,
       "source_weight": 0.9,
-      "age_hours": 2.12,
+      "age_hours": 3.06,
       "confidence": 0.88,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.706,
-      "raw_impact": 0.785,
+      "impact": 0.669,
+      "raw_impact": 0.743,
       "source_weight": 0.9,
-      "age_hours": 2.38,
+      "age_hours": 3.32,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +161,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.642,
-      "raw_impact": 0.891,
+      "impact": 0.607,
+      "raw_impact": 0.844,
       "source_weight": 0.9,
-      "age_hours": 5.15,
+      "age_hours": 6.1,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -161,10 +195,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.57,
-      "raw_impact": 0.57,
+      "impact": 0.54,
+      "raw_impact": 0.54,
       "source_weight": 1.0,
-      "age_hours": 2.27,
+      "age_hours": 3.21,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -196,10 +230,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.513,
-      "raw_impact": 0.712,
+      "impact": 0.486,
+      "raw_impact": 0.674,
       "source_weight": 0.9,
-      "age_hours": 4.82,
+      "age_hours": 5.76,
       "confidence": 0.746,
       "signal_total": 0.94,
       "signal_components": {
@@ -231,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.494,
-      "raw_impact": 0.685,
+      "impact": 0.467,
+      "raw_impact": 0.649,
       "source_weight": 0.9,
-      "age_hours": 5.48,
+      "age_hours": 6.42,
       "confidence": 0.756,
       "signal_total": 0.94,
       "signal_components": {
@@ -266,10 +300,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.429,
-      "raw_impact": 0.477,
+      "impact": 0.406,
+      "raw_impact": 0.451,
       "source_weight": 0.9,
-      "age_hours": 5.37,
+      "age_hours": 6.31,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -293,40 +327,6 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Trump Says U.S. Will \u2018Blockade\u2019 Strait of Hormuz After Peace Talks Fail",
-      "published": "Sun, 12 Apr 2026 14:02:09 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.161,
-      "raw_impact": -0.199,
-      "source_weight": 0.9,
-      "age_hours": 0.13,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/12/world/iran-war-trump-talks-pakistan",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/12/world/iran-war-trump-talks-pakistan"
-      ]
-    },
-    {
       "title": "Trump announces naval blockade of Iran after Islamabad talks yield no deal",
       "published": "Sun, 12 Apr 2026 13:44:29 +0000",
       "actors": [
@@ -335,10 +335,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.195,
+      "impact": -0.149,
+      "raw_impact": -0.185,
       "source_weight": 0.9,
-      "age_hours": 0.42,
+      "age_hours": 1.36,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -369,10 +369,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.151,
-      "raw_impact": -0.186,
+      "impact": -0.143,
+      "raw_impact": -0.177,
       "source_weight": 0.9,
-      "age_hours": 1.21,
+      "age_hours": 2.15,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -403,10 +403,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.151,
-      "raw_impact": -0.187,
+      "impact": -0.143,
+      "raw_impact": -0.177,
       "source_weight": 0.9,
-      "age_hours": 1.15,
+      "age_hours": 2.09,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -437,10 +437,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.185,
+      "impact": -0.141,
+      "raw_impact": -0.175,
       "source_weight": 0.9,
-      "age_hours": 1.37,
+      "age_hours": 2.32,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -463,6 +463,40 @@
       ]
     },
     {
+      "title": "The Strait of Hormuz and Iran\u2019s Uranium Stockpiles Were Sticking Points in U.S.-Iran Peace Talks",
+      "published": "Sun, 12 Apr 2026 12:27:21 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.139,
+      "raw_impact": -0.172,
+      "source_weight": 0.9,
+      "age_hours": 2.65,
+      "confidence": 0.67,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/11/world/middleeast/iran-strait-of-hormuz-uranium-stockpile-sticking-points.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/11/world/middleeast/iran-strait-of-hormuz-uranium-stockpile-sticking-points.html"
+      ]
+    },
+    {
       "title": "The \u2018Islamabad Peace Talks\u2019 Are Over. What Now for Pakistan?",
       "published": "Sun, 12 Apr 2026 11:50:40 +0000",
       "actors": [
@@ -471,10 +505,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.141,
-      "raw_impact": -0.175,
+      "impact": -0.134,
+      "raw_impact": -0.166,
       "source_weight": 0.9,
-      "age_hours": 2.32,
+      "age_hours": 3.26,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -505,10 +539,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.135,
-      "raw_impact": -0.166,
+      "impact": -0.128,
+      "raw_impact": -0.157,
       "source_weight": 0.9,
-      "age_hours": 3.2,
+      "age_hours": 4.14,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -531,7 +565,7 @@
       ]
     },
     {
-      "title": "Trump claims U.S. will close strait of Hormuz after Iran peace talks collapse",
+      "title": "Trump claims U.S. will close Strait of Hormuz after Iran peace talks collapse",
       "published": "Sun, 12 Apr 2026 05:40:24 -0400",
       "actors": [
         "iran",
@@ -539,10 +573,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.118,
-      "raw_impact": -0.154,
+      "impact": -0.112,
+      "raw_impact": -0.146,
       "source_weight": 0.85,
-      "age_hours": 4.49,
+      "age_hours": 5.43,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -565,74 +599,6 @@
       ]
     },
     {
-      "title": "Iran-US: Talks ended after 21 hours without reaching agreement",
-      "published": "Sun, 12 Apr 2026 08:38:10 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.118,
-      "raw_impact": -0.145,
-      "source_weight": 0.9,
-      "age_hours": 5.53,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/iran-us-talks-ended-after-21-hours-without-reaching-agreement",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/iran-us-talks-ended-after-21-hours-without-reaching-agreement"
-      ]
-    },
-    {
-      "title": "Russia refuses to extend Easter truce unless Zelensky 'accepts its terms'",
-      "published": "Sun, 12 Apr 2026 07:41:11 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "deescalation",
-      "impact": -0.112,
-      "raw_impact": -0.138,
-      "source_weight": 0.9,
-      "age_hours": 6.48,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/europe/20260412-ukraine-and-russia-trade-orthodox-easter-truce-breach-barbs",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/europe/20260412-ukraine-and-russia-trade-orthodox-easter-truce-breach-barbs"
-      ]
-    },
-    {
       "title": "Penny Wong calls failed peace talks between US and Iran \u2018disappointing\u2019 and urges resumption",
       "published": "Sun, 12 Apr 2026 05:35:39 GMT",
       "actors": [
@@ -641,10 +607,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.099,
-      "raw_impact": -0.122,
+      "impact": -0.094,
+      "raw_impact": -0.115,
       "source_weight": 0.9,
-      "age_hours": 8.57,
+      "age_hours": 9.51,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -675,10 +641,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.118,
+      "impact": -0.091,
+      "raw_impact": -0.112,
       "source_weight": 0.9,
-      "age_hours": 9.13,
+      "age_hours": 10.07,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -709,10 +675,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.091,
-      "raw_impact": -0.112,
+      "impact": -0.086,
+      "raw_impact": -0.106,
       "source_weight": 0.9,
-      "age_hours": 10.08,
+      "age_hours": 11.02,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -743,10 +709,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.078,
-      "raw_impact": -0.097,
+      "impact": -0.074,
+      "raw_impact": -0.092,
       "source_weight": 0.9,
-      "age_hours": 12.58,
+      "age_hours": 13.52,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -769,40 +735,6 @@
       ]
     },
     {
-      "title": "US and Iran locked in marathon talks to end war",
-      "published": "Sat, 11 Apr 2026 23:35:20 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.07,
-      "raw_impact": -0.086,
-      "source_weight": 0.9,
-      "age_hours": 14.58,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/7f9e1e4b-b3d4-4fcb-9053-2d6ae2f33d53",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/7f9e1e4b-b3d4-4fcb-9053-2d6ae2f33d53"
-      ]
-    },
-    {
       "title": "What will it take for U.S. and Iran to end war? Here\u2019s what we know.",
       "published": "Fri, 10 Apr 2026 18:21:54 +0000",
       "actors": [
@@ -811,10 +743,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.069,
-      "raw_impact": 0.096,
+      "impact": 0.065,
+      "raw_impact": 0.091,
       "source_weight": 0.9,
-      "age_hours": 43.8,
+      "age_hours": 44.74,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -837,6 +769,40 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: Trump Says U.S. Will \u2018Blockade\u2019 Strait of Hormuz After No Peace Deal Reached",
+      "published": "Sun, 12 Apr 2026 15:04:11 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.045,
+      "raw_impact": 0.2,
+      "source_weight": 0.9,
+      "age_hours": 0.03,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/12/world/iran-war-trump-talks-pakistan",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/12/world/iran-war-trump-talks-pakistan"
+      ]
+    },
+    {
       "title": "After Iran talks falter, the big question is 'what happens next?'",
       "published": "Sun, 12 Apr 2026 12:48:01 GMT",
       "actors": [
@@ -845,10 +811,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.046,
-      "raw_impact": 0.185,
+      "impact": 0.044,
+      "raw_impact": 0.175,
       "source_weight": 1.0,
-      "age_hours": 1.36,
+      "age_hours": 2.3,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -871,40 +837,6 @@
       ]
     },
     {
-      "title": "Trump says US will launch naval blockade of Hormuz Strait",
-      "published": "Sun, 12 Apr 2026 13:17:16 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.19,
-      "source_weight": 0.9,
-      "age_hours": 0.88,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/55e4467b-19c3-433e-851c-2966f60c9f84",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/55e4467b-19c3-433e-851c-2966f60c9f84"
-      ]
-    },
-    {
       "title": "Trump \u2018reaping bitter fruit\u2019 of thinking Iran intervention as easy as Venezuela, says former diplomat",
       "published": "Fri, 10 Apr 2026 10:00:16 GMT",
       "actors": [
@@ -913,10 +845,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.04,
-      "raw_impact": 0.044,
+      "impact": 0.038,
+      "raw_impact": 0.042,
       "source_weight": 0.9,
-      "age_hours": 52.16,
+      "age_hours": 53.1,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -947,10 +879,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.177,
+      "impact": 0.038,
+      "raw_impact": 0.167,
       "source_weight": 0.9,
-      "age_hours": 2.13,
+      "age_hours": 3.08,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -981,10 +913,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.178,
+      "impact": 0.036,
+      "raw_impact": 0.169,
       "source_weight": 0.85,
-      "age_hours": 2.0,
+      "age_hours": 2.94,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1015,10 +947,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.167,
+      "impact": 0.035,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 3.16,
+      "age_hours": 4.1,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1049,10 +981,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.141,
+      "impact": 0.03,
+      "raw_impact": 0.134,
       "source_weight": 0.9,
-      "age_hours": 6.04,
+      "age_hours": 6.98,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1083,10 +1015,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.028,
-      "raw_impact": -0.034,
+      "impact": -0.026,
+      "raw_impact": -0.032,
       "source_weight": 0.9,
-      "age_hours": 30.73,
+      "age_hours": 31.67,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1117,10 +1049,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.111,
+      "impact": 0.024,
+      "raw_impact": 0.105,
       "source_weight": 0.9,
-      "age_hours": 10.16,
+      "age_hours": 11.1,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1151,10 +1083,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.019,
-      "raw_impact": -0.019,
+      "impact": -0.018,
+      "raw_impact": -0.018,
       "source_weight": 1.1,
-      "age_hours": 40.45,
+      "age_hours": 41.39,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1186,9 +1118,9 @@
       "state_key": "us_russia",
       "class": "strategic",
       "impact": 0.018,
-      "raw_impact": 0.031,
+      "raw_impact": 0.03,
       "source_weight": 0.75,
-      "age_hours": 73.8,
+      "age_hours": 74.74,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1220,10 +1152,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.075,
+      "impact": 0.015,
+      "raw_impact": 0.071,
       "source_weight": 0.85,
-      "age_hours": 17.08,
+      "age_hours": 18.02,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1255,9 +1187,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.013,
-      "raw_impact": 0.063,
+      "raw_impact": 0.06,
       "source_weight": 0.85,
-      "age_hours": 19.89,
+      "age_hours": 20.83,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1288,10 +1220,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.011,
-      "raw_impact": -0.011,
+      "impact": -0.01,
+      "raw_impact": -0.01,
       "source_weight": 1.1,
-      "age_hours": 50.16,
+      "age_hours": 51.1,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1322,10 +1254,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.01,
-      "raw_impact": 0.009,
+      "impact": 0.009,
+      "raw_impact": 0.008,
       "source_weight": 1.1,
-      "age_hours": 74.16,
+      "age_hours": 75.1,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1357,10 +1289,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.01,
-      "raw_impact": 0.009,
+      "impact": 0.009,
+      "raw_impact": 0.008,
       "source_weight": 1.1,
-      "age_hours": 74.16,
+      "age_hours": 75.1,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -1395,7 +1327,7 @@
       "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 98.16,
+      "age_hours": 99.1,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1430,7 +1362,7 @@
       "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 94.8,
+      "age_hours": 95.74,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1464,7 +1396,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 98.16,
+      "age_hours": 99.1,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1498,7 +1430,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 137.15,
+      "age_hours": 138.09,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1532,7 +1464,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 951.41,
+      "age_hours": 952.36,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1566,7 +1498,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 269.65,
+      "age_hours": 270.59,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1601,7 +1533,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 310.64,
+      "age_hours": 311.58,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1636,7 +1568,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 315.28,
+      "age_hours": 316.22,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1796,14 +1728,14 @@
   ],
   "debug": {
     "event_count": 228,
-    "classified_count": 48,
-    "paired_count": 48,
+    "classified_count": 46,
+    "paired_count": 46,
     "valid_pair_updates": 6,
-    "top_driver_count": 48,
-    "total_signal": 5.4193,
+    "top_driver_count": 46,
+    "total_signal": 6.7858,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 110,
+      "no_actor": 112,
       "no_signal": 48,
       "invalid_pair": 22,
       "low_confidence": 0,
