@@ -1,102 +1,34 @@
 {
-  "last_updated": "2026-04-12 19:22:21 UTC",
-  "probability": 19.75,
-  "uncertainty": 6.07,
+  "last_updated": "2026-04-12 19:59:54 UTC",
+  "probability": 16.84,
+  "uncertainty": 6.09,
   "state": {
-    "us_russia": 5.287014204186227,
-    "us_china": 2.9999729995442093,
-    "china_taiwan": 3.9999945999088418,
+    "us_russia": 4.3661608057788825,
+    "us_china": 2.9999856781876177,
+    "china_taiwan": 3.9999971356375235,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333333332869,
-    "iran_israel": 5.980905019635847,
+    "iran_us": 5.633333333333087,
+    "iran_israel": 5.647103850694637,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.910815436848202
+    "russia_ukraine": 5.890870638517379
   },
   "top_drivers": [
     {
-      "title": "The Escalating Global A.I. Arms Race",
-      "published": "Sun, 12 Apr 2026 18:24:25 +0000",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "strategic",
-      "impact": 0.817,
-      "raw_impact": 1.135,
-      "source_weight": 0.9,
-      "age_hours": 0.97,
-      "confidence": 0.96,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/12/technology/china-russia-us-ai-weapons.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/12/technology/china-russia-us-ai-weapons.html"
-      ]
-    },
-    {
-      "title": "Global economic outlook darkens as policymakers count cost of Iran war",
-      "published": "Sun, 12 Apr 2026 17:00:05 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.754,
-      "raw_impact": 1.046,
-      "source_weight": 0.9,
-      "age_hours": 2.37,
-      "confidence": 0.87,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/3050d862-7e94-47e3-8a17-42896c1a4383",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/3050d862-7e94-47e3-8a17-42896c1a4383"
-      ]
-    },
-    {
       "title": "Israel Launches New Attacks in Lebanon, Days Ahead of Rare Direct Talks",
-      "published": "Sun, 12 Apr 2026 17:39:44 +0000",
+      "published": "Sun, 12 Apr 2026 19:43:08 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.734,
-      "raw_impact": 0.815,
+      "impact": 0.797,
+      "raw_impact": 0.886,
       "source_weight": 0.9,
-      "age_hours": 1.71,
+      "age_hours": 0.28,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -119,6 +51,40 @@
       ]
     },
     {
+      "title": "Global economic outlook darkens as policymakers count cost of Iran war",
+      "published": "Sun, 12 Apr 2026 17:00:05 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.726,
+      "raw_impact": 1.009,
+      "source_weight": 0.9,
+      "age_hours": 3.0,
+      "confidence": 0.87,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/3050d862-7e94-47e3-8a17-42896c1a4383",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/3050d862-7e94-47e3-8a17-42896c1a4383"
+      ]
+    },
+    {
       "title": "In Pakistan Talks, Iran Saw a U.S. Trying to Dictate, Not Negotiate",
       "published": "Sun, 12 Apr 2026 16:36:37 +0000",
       "actors": [
@@ -127,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.691,
-      "raw_impact": 0.767,
+      "impact": 0.666,
+      "raw_impact": 0.74,
       "source_weight": 0.9,
-      "age_hours": 2.76,
+      "age_hours": 3.39,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.631,
-      "raw_impact": 0.877,
+      "impact": 0.609,
+      "raw_impact": 0.846,
       "source_weight": 0.9,
-      "age_hours": 5.43,
+      "age_hours": 6.06,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -195,10 +161,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.422,
-      "raw_impact": 0.422,
+      "impact": 0.407,
+      "raw_impact": 0.407,
       "source_weight": 1.0,
-      "age_hours": 7.48,
+      "age_hours": 8.1,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -222,6 +188,40 @@
       ]
     },
     {
+      "title": "How shaky is the Iran-US ceasefire?",
+      "published": "Sun, 12 Apr 2026 19:46:27 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.16,
+      "raw_impact": -0.197,
+      "source_weight": 0.9,
+      "age_hours": 0.22,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/the-bottom-line/2026/4/12/how-shaky-is-the-iran-us-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/the-bottom-line/2026/4/12/how-shaky-is-the-iran-us-ceasefire?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Iran\u2019s Top Negotiator Says Talks Failed Because U.S. Failed to Win Trust",
       "published": "Sun, 12 Apr 2026 18:50:19 +0000",
       "actors": [
@@ -230,10 +230,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.194,
+      "impact": -0.151,
+      "raw_impact": -0.187,
       "source_weight": 0.9,
-      "age_hours": 0.53,
+      "age_hours": 1.16,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -264,10 +264,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.154,
-      "raw_impact": -0.19,
+      "impact": -0.149,
+      "raw_impact": -0.183,
       "source_weight": 0.9,
-      "age_hours": 0.92,
+      "age_hours": 1.54,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -298,10 +298,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.141,
-      "raw_impact": -0.175,
+      "impact": -0.137,
+      "raw_impact": -0.168,
       "source_weight": 0.9,
-      "age_hours": 2.34,
+      "age_hours": 2.97,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -332,10 +332,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.139,
-      "raw_impact": -0.171,
+      "impact": -0.134,
+      "raw_impact": -0.165,
       "source_weight": 0.9,
-      "age_hours": 2.69,
+      "age_hours": 3.32,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -366,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.163,
+      "impact": -0.127,
+      "raw_impact": -0.157,
       "source_weight": 0.9,
-      "age_hours": 3.58,
+      "age_hours": 4.21,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -400,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.113,
-      "raw_impact": -0.138,
+      "impact": -0.108,
+      "raw_impact": -0.134,
       "source_weight": 0.9,
-      "age_hours": 6.36,
+      "age_hours": 6.99,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -426,74 +426,6 @@
       ]
     },
     {
-      "title": "Ukraine and Russia accuse each other of breaching Easter ceasefire",
-      "published": "Sun, 12 Apr 2026 12:56:59 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "deescalation",
-      "impact": -0.112,
-      "raw_impact": -0.138,
-      "source_weight": 0.9,
-      "age_hours": 6.42,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/12/ukraine-and-russia-accuse-each-other-of-breaching-easter-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/12/ukraine-and-russia-accuse-each-other-of-breaching-easter-ceasefire?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "US-Iran ceasefire talks: What are the key sticking points?",
-      "published": "Sun, 12 Apr 2026 12:47:21 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.111,
-      "raw_impact": -0.137,
-      "source_weight": 0.9,
-      "age_hours": 6.58,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/12/us-iran-ceasefire-talks-what-are-the-key-sticking-points?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/12/us-iran-ceasefire-talks-what-are-the-key-sticking-points?traffic_source=rss"
-      ]
-    },
-    {
       "title": "US and Iran fail to reach a deal after peace talks in Islamabad",
       "published": "Sun, 12 Apr 2026 10:57:35 GMT",
       "actors": [
@@ -502,10 +434,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.1,
-      "raw_impact": -0.123,
+      "impact": -0.096,
+      "raw_impact": -0.119,
       "source_weight": 0.9,
-      "age_hours": 8.41,
+      "age_hours": 9.04,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -528,7 +460,7 @@
       ]
     },
     {
-      "title": "Trump claims U.S. will close Strait of Hormuz after Iran peace talks collapse",
+      "title": "Trump claims U.S. will close Strait of Hormuz as Iran peace talks collapse",
       "published": "Sun, 12 Apr 2026 05:40:24 -0400",
       "actors": [
         "iran",
@@ -536,10 +468,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.087,
-      "raw_impact": -0.114,
+      "impact": -0.085,
+      "raw_impact": -0.11,
       "source_weight": 0.85,
-      "age_hours": 9.7,
+      "age_hours": 10.33,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -570,10 +502,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.073,
-      "raw_impact": -0.09,
+      "impact": -0.07,
+      "raw_impact": -0.087,
       "source_weight": 0.9,
-      "age_hours": 13.78,
+      "age_hours": 14.4,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -604,10 +536,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.071,
-      "raw_impact": -0.087,
+      "impact": -0.068,
+      "raw_impact": -0.084,
       "source_weight": 0.9,
-      "age_hours": 14.34,
+      "age_hours": 14.97,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -638,10 +570,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.067,
-      "raw_impact": -0.083,
+      "impact": -0.065,
+      "raw_impact": -0.08,
       "source_weight": 0.9,
-      "age_hours": 15.28,
+      "age_hours": 15.91,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -672,10 +604,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.058,
-      "raw_impact": -0.072,
+      "impact": -0.056,
+      "raw_impact": -0.069,
       "source_weight": 0.9,
-      "age_hours": 17.79,
+      "age_hours": 18.41,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -698,52 +630,18 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Trump Says U.S. Will \u2018Blockade\u2019 Strait of Hormuz After No Peace Deal Reached",
-      "published": "Sun, 12 Apr 2026 18:50:20 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.194,
-      "source_weight": 0.9,
-      "age_hours": 0.53,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/12/world/iran-war-trump-talks-pakistan",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/12/world/iran-war-trump-talks-pakistan"
-      ]
-    },
-    {
       "title": "Cuba\u2019s President Projects Defiance in Standoff With the U.S.",
-      "published": "Sun, 12 Apr 2026 19:06:36 +0000",
+      "published": "Sun, 12 Apr 2026 19:06:37 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.197,
+      "impact": 0.043,
+      "raw_impact": 0.19,
       "source_weight": 0.9,
-      "age_hours": 0.26,
+      "age_hours": 0.89,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -774,10 +672,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
+      "impact": 0.037,
+      "raw_impact": 0.167,
       "source_weight": 0.9,
-      "age_hours": 2.51,
+      "age_hours": 3.14,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -808,10 +706,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.158,
+      "impact": 0.034,
+      "raw_impact": 0.152,
       "source_weight": 0.9,
-      "age_hours": 4.08,
+      "age_hours": 4.71,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -842,10 +740,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.137,
+      "impact": 0.033,
+      "raw_impact": 0.132,
       "source_weight": 1.0,
-      "age_hours": 6.57,
+      "age_hours": 7.2,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -876,10 +774,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.029,
-      "raw_impact": 0.033,
+      "impact": 0.028,
+      "raw_impact": 0.032,
       "source_weight": 0.9,
-      "age_hours": 57.37,
+      "age_hours": 57.99,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -902,40 +800,6 @@
       ]
     },
     {
-      "title": "Netanyahu Says War With Iran Is \u2018Not Yet Over\u2019",
-      "published": "Sun, 12 Apr 2026 12:01:45 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.131,
-      "source_weight": 0.9,
-      "age_hours": 7.34,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/12/world/middleeast/netanyahu-israel-iran-war.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/12/world/middleeast/netanyahu-israel-iran-war.html"
-      ]
-    },
-    {
       "title": "U.S. and Iran fail to reach agreement during high-level talks in Islamabad",
       "published": "Sun, 12 Apr 2026 08:09:57 -0400",
       "actors": [
@@ -944,10 +808,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.132,
+      "impact": 0.027,
+      "raw_impact": 0.127,
       "source_weight": 0.85,
-      "age_hours": 7.21,
+      "age_hours": 7.83,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -978,10 +842,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.123,
+      "impact": 0.027,
+      "raw_impact": 0.119,
       "source_weight": 0.9,
-      "age_hours": 8.37,
+      "age_hours": 9.0,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1012,10 +876,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.021,
-      "raw_impact": -0.025,
+      "impact": -0.02,
+      "raw_impact": -0.024,
       "source_weight": 0.9,
-      "age_hours": 35.94,
+      "age_hours": 36.56,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1038,40 +902,6 @@
       ]
     },
     {
-      "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
-      "published": "Fri, 10 Apr 2026 21:43:00 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.014,
-      "raw_impact": -0.014,
-      "source_weight": 1.1,
-      "age_hours": 45.66,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.war.gov/News/News-Stories/Article/Article/4456466/this-week-in-dow-iran-ceasefire-daring-rescue-honoring-gold-star-spouses/",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "source_domain": "www.defense.gov",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.defense.gov"
-      ],
-      "cluster_links": [
-        "https://www.war.gov/News/News-Stories/Article/Article/4456466/this-week-in-dow-iran-ceasefire-daring-rescue-honoring-gold-star-spouses/"
-      ]
-    },
-    {
       "title": "Assessing the damage: What the Iran war really means for Europe\u2019s defence",
       "published": "Thu, 09 Apr 2026 12:21:35 +0000",
       "actors": [
@@ -1081,9 +911,9 @@
       "state_key": "us_russia",
       "class": "strategic",
       "impact": 0.014,
-      "raw_impact": 0.023,
+      "raw_impact": 0.022,
       "source_weight": 0.75,
-      "age_hours": 79.01,
+      "age_hours": 79.64,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1107,6 +937,40 @@
       ]
     },
     {
+      "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
+      "published": "Fri, 10 Apr 2026 21:43:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.013,
+      "raw_impact": -0.014,
+      "source_weight": 1.1,
+      "age_hours": 46.28,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.war.gov/News/News-Stories/Article/Article/4456466/this-week-in-dow-iran-ceasefire-daring-rescue-honoring-gold-star-spouses/",
+      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "source_domain": "www.defense.gov",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.defense.gov"
+      ],
+      "cluster_links": [
+        "https://www.war.gov/News/News-Stories/Article/Article/4456466/this-week-in-dow-iran-ceasefire-daring-rescue-honoring-gold-star-spouses/"
+      ]
+    },
+    {
       "title": "Pakistan hosts historic face-to-face talks between the US and Iran",
       "published": "Sat, 11 Apr 2026 17:04:49 -0400",
       "actors": [
@@ -1115,10 +979,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.055,
+      "impact": 0.011,
+      "raw_impact": 0.053,
       "source_weight": 0.85,
-      "age_hours": 22.29,
+      "age_hours": 22.92,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1149,10 +1013,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.047,
+      "impact": 0.009,
+      "raw_impact": 0.045,
       "source_weight": 0.85,
-      "age_hours": 25.1,
+      "age_hours": 25.73,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1186,7 +1050,7 @@
       "impact": -0.008,
       "raw_impact": -0.008,
       "source_weight": 1.1,
-      "age_hours": 55.37,
+      "age_hours": 56.0,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1218,9 +1082,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.007,
-      "raw_impact": 0.007,
+      "raw_impact": 0.006,
       "source_weight": 1.1,
-      "age_hours": 79.37,
+      "age_hours": 80.0,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1253,9 +1117,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.007,
-      "raw_impact": 0.007,
+      "raw_impact": 0.006,
       "source_weight": 1.1,
-      "age_hours": 79.37,
+      "age_hours": 80.0,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -1290,7 +1154,7 @@
       "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 103.37,
+      "age_hours": 104.0,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1323,9 +1187,9 @@
       "state_key": "iran_us",
       "class": "movement",
       "impact": 0.002,
-      "raw_impact": 0.002,
+      "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 100.01,
+      "age_hours": 100.63,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1357,9 +1221,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.001,
-      "raw_impact": -0.001,
+      "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 103.37,
+      "age_hours": 104.0,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1393,7 +1257,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 142.36,
+      "age_hours": 142.98,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1427,7 +1291,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 956.62,
+      "age_hours": 957.25,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1461,7 +1325,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 274.86,
+      "age_hours": 275.49,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1496,7 +1360,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 315.85,
+      "age_hours": 316.47,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1531,7 +1395,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 320.49,
+      "age_hours": 321.12,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1691,15 +1555,15 @@
   ],
   "debug": {
     "event_count": 227,
-    "classified_count": 45,
-    "paired_count": 45,
+    "classified_count": 41,
+    "paired_count": 41,
     "valid_pair_updates": 6,
-    "top_driver_count": 45,
-    "total_signal": 4.7513,
+    "top_driver_count": 41,
+    "total_signal": 3.4499,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 110,
-      "no_signal": 48,
+      "no_actor": 115,
+      "no_signal": 47,
       "invalid_pair": 24,
       "low_confidence": 0,
       "classifier_error": 0,
