@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-12 19:59:54 UTC",
-  "probability": 16.84,
-  "uncertainty": 6.09,
+  "last_updated": "2026-04-12 20:49:20 UTC",
+  "probability": 15.49,
+  "uncertainty": 6.15,
   "state": {
-    "us_russia": 4.3661608057788825,
-    "us_china": 2.9999856781876177,
-    "china_taiwan": 3.9999971356375235,
+    "us_russia": 3.87428803187716,
+    "us_china": 2.999992412686068,
+    "china_taiwan": 3.9999984825372135,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333333333087,
-    "iran_israel": 5.647103850694637,
+    "iran_us": 5.633333333333202,
+    "iran_israel": 5.6210032585245635,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.890870638517379
+    "russia_ukraine": 5.8613586795970445
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.797,
-      "raw_impact": 0.886,
+      "impact": 0.76,
+      "raw_impact": 0.844,
       "source_weight": 0.9,
-      "age_hours": 0.28,
+      "age_hours": 1.1,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.726,
-      "raw_impact": 1.009,
+      "impact": 0.693,
+      "raw_impact": 0.962,
       "source_weight": 0.9,
-      "age_hours": 3.0,
+      "age_hours": 3.82,
       "confidence": 0.87,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.666,
-      "raw_impact": 0.74,
+      "impact": 0.635,
+      "raw_impact": 0.706,
       "source_weight": 0.9,
-      "age_hours": 3.39,
+      "age_hours": 4.21,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.609,
-      "raw_impact": 0.846,
+      "impact": 0.581,
+      "raw_impact": 0.806,
       "source_weight": 0.9,
-      "age_hours": 6.06,
+      "age_hours": 6.88,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.407,
-      "raw_impact": 0.407,
+      "impact": 0.388,
+      "raw_impact": 0.388,
       "source_weight": 1.0,
-      "age_hours": 8.1,
+      "age_hours": 8.93,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -188,52 +188,18 @@
       ]
     },
     {
-      "title": "How shaky is the Iran-US ceasefire?",
-      "published": "Sun, 12 Apr 2026 19:46:27 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.16,
-      "raw_impact": -0.197,
-      "source_weight": 0.9,
-      "age_hours": 0.22,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/the-bottom-line/2026/4/12/how-shaky-is-the-iran-us-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/the-bottom-line/2026/4/12/how-shaky-is-the-iran-us-ceasefire?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Iran\u2019s Top Negotiator Says Talks Failed Because U.S. Failed to Win Trust",
-      "published": "Sun, 12 Apr 2026 18:50:19 +0000",
+      "published": "Sun, 12 Apr 2026 20:12:36 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.151,
-      "raw_impact": -0.187,
+      "impact": -0.157,
+      "raw_impact": -0.193,
       "source_weight": 0.9,
-      "age_hours": 1.16,
+      "age_hours": 0.61,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -256,6 +222,40 @@
       ]
     },
     {
+      "title": "How shaky is the Iran-US ceasefire?",
+      "published": "Sun, 12 Apr 2026 19:46:27 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.152,
+      "raw_impact": -0.188,
+      "source_weight": 0.9,
+      "age_hours": 1.05,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/the-bottom-line/2026/4/12/how-shaky-is-the-iran-us-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/the-bottom-line/2026/4/12/how-shaky-is-the-iran-us-ceasefire?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Lebanese govt politically present, operationally absent': PM accuses Israel of violating int'l law'",
       "published": "Sun, 12 Apr 2026 18:27:20 GMT",
       "actors": [
@@ -264,10 +264,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.183,
+      "impact": -0.141,
+      "raw_impact": -0.174,
       "source_weight": 0.9,
-      "age_hours": 1.54,
+      "age_hours": 2.37,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -298,10 +298,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.137,
-      "raw_impact": -0.168,
+      "impact": -0.131,
+      "raw_impact": -0.161,
       "source_weight": 0.9,
-      "age_hours": 2.97,
+      "age_hours": 3.79,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -332,10 +332,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.134,
-      "raw_impact": -0.165,
+      "impact": -0.128,
+      "raw_impact": -0.157,
       "source_weight": 0.9,
-      "age_hours": 3.32,
+      "age_hours": 4.14,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -366,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.127,
-      "raw_impact": -0.157,
+      "impact": -0.122,
+      "raw_impact": -0.15,
       "source_weight": 0.9,
-      "age_hours": 4.21,
+      "age_hours": 5.03,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -400,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.108,
-      "raw_impact": -0.134,
+      "impact": -0.104,
+      "raw_impact": -0.127,
       "source_weight": 0.9,
-      "age_hours": 6.99,
+      "age_hours": 7.81,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -434,10 +434,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.096,
-      "raw_impact": -0.119,
+      "impact": -0.092,
+      "raw_impact": -0.113,
       "source_weight": 0.9,
-      "age_hours": 9.04,
+      "age_hours": 9.86,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -468,10 +468,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.085,
-      "raw_impact": -0.11,
+      "impact": -0.08,
+      "raw_impact": -0.105,
       "source_weight": 0.85,
-      "age_hours": 10.33,
+      "age_hours": 11.15,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -502,10 +502,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.07,
-      "raw_impact": -0.087,
+      "impact": -0.068,
+      "raw_impact": -0.083,
       "source_weight": 0.9,
-      "age_hours": 14.4,
+      "age_hours": 15.23,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -536,10 +536,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.068,
-      "raw_impact": -0.084,
+      "impact": -0.065,
+      "raw_impact": -0.08,
       "source_weight": 0.9,
-      "age_hours": 14.97,
+      "age_hours": 15.79,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -570,10 +570,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.065,
-      "raw_impact": -0.08,
+      "impact": -0.061,
+      "raw_impact": -0.076,
       "source_weight": 0.9,
-      "age_hours": 15.91,
+      "age_hours": 16.73,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -604,10 +604,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.056,
-      "raw_impact": -0.069,
+      "impact": -0.053,
+      "raw_impact": -0.066,
       "source_weight": 0.9,
-      "age_hours": 18.41,
+      "age_hours": 19.24,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -630,6 +630,74 @@
       ]
     },
     {
+      "title": "What\u2019s next for the US-Iran peace process after talks end without a deal?",
+      "published": "Sun, 12 Apr 2026 20:19:05 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.194,
+      "source_weight": 0.9,
+      "age_hours": 0.5,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/12/whats-next-for-the-us-iran-peace-process-after-talks-end-without-a-deal?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/12/whats-next-for-the-us-iran-peace-process-after-talks-end-without-a-deal?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "\u201cThe initiative is in the hands of Tehran, not Washington\u201d",
+      "published": "Sun, 12 Apr 2026 20:10:35 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.193,
+      "source_weight": 0.9,
+      "age_hours": 0.65,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/quotable/2026/4/12/the-initiative-is-in-the-hands-of-tehran-not?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/quotable/2026/4/12/the-initiative-is-in-the-hands-of-tehran-not?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Cuba\u2019s President Projects Defiance in Standoff With the U.S.",
       "published": "Sun, 12 Apr 2026 19:06:37 +0000",
       "actors": [
@@ -638,10 +706,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.19,
+      "impact": 0.041,
+      "raw_impact": 0.181,
       "source_weight": 0.9,
-      "age_hours": 0.89,
+      "age_hours": 1.71,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -672,10 +740,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.167,
+      "impact": 0.036,
+      "raw_impact": 0.159,
       "source_weight": 0.9,
-      "age_hours": 3.14,
+      "age_hours": 3.96,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -706,10 +774,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.152,
+      "impact": 0.033,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 4.71,
+      "age_hours": 5.53,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -740,10 +808,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.132,
+      "impact": 0.032,
+      "raw_impact": 0.126,
       "source_weight": 1.0,
-      "age_hours": 7.2,
+      "age_hours": 8.02,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -774,10 +842,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.028,
-      "raw_impact": 0.032,
+      "impact": 0.027,
+      "raw_impact": 0.03,
       "source_weight": 0.9,
-      "age_hours": 57.99,
+      "age_hours": 58.82,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -800,6 +868,40 @@
       ]
     },
     {
+      "title": "Netanyahu Says War With Iran Is \u2018Not Yet Over\u2019",
+      "published": "Sun, 12 Apr 2026 12:01:45 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "rhetoric",
+      "impact": 0.027,
+      "raw_impact": 0.12,
+      "source_weight": 0.9,
+      "age_hours": 8.79,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/12/world/middleeast/netanyahu-israel-iran-war.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/12/world/middleeast/netanyahu-israel-iran-war.html"
+      ]
+    },
+    {
       "title": "U.S. and Iran fail to reach agreement during high-level talks in Islamabad",
       "published": "Sun, 12 Apr 2026 08:09:57 -0400",
       "actors": [
@@ -808,10 +910,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.127,
+      "impact": 0.026,
+      "raw_impact": 0.121,
       "source_weight": 0.85,
-      "age_hours": 7.83,
+      "age_hours": 8.66,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -842,10 +944,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.119,
+      "impact": 0.025,
+      "raw_impact": 0.113,
       "source_weight": 0.9,
-      "age_hours": 9.0,
+      "age_hours": 9.82,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -876,10 +978,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.02,
-      "raw_impact": -0.024,
+      "impact": -0.019,
+      "raw_impact": -0.023,
       "source_weight": 0.9,
-      "age_hours": 36.56,
+      "age_hours": 37.39,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -902,6 +1004,40 @@
       ]
     },
     {
+      "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
+      "published": "Fri, 10 Apr 2026 21:43:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.013,
+      "raw_impact": -0.013,
+      "source_weight": 1.1,
+      "age_hours": 47.11,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.war.gov/News/News-Stories/Article/Article/4456466/this-week-in-dow-iran-ceasefire-daring-rescue-honoring-gold-star-spouses/",
+      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "source_domain": "www.defense.gov",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.defense.gov"
+      ],
+      "cluster_links": [
+        "https://www.war.gov/News/News-Stories/Article/Article/4456466/this-week-in-dow-iran-ceasefire-daring-rescue-honoring-gold-star-spouses/"
+      ]
+    },
+    {
       "title": "Assessing the damage: What the Iran war really means for Europe\u2019s defence",
       "published": "Thu, 09 Apr 2026 12:21:35 +0000",
       "actors": [
@@ -910,10 +1046,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.014,
-      "raw_impact": 0.022,
+      "impact": 0.013,
+      "raw_impact": 0.021,
       "source_weight": 0.75,
-      "age_hours": 79.64,
+      "age_hours": 80.46,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -937,40 +1073,6 @@
       ]
     },
     {
-      "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
-      "published": "Fri, 10 Apr 2026 21:43:00 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.014,
-      "source_weight": 1.1,
-      "age_hours": 46.28,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.war.gov/News/News-Stories/Article/Article/4456466/this-week-in-dow-iran-ceasefire-daring-rescue-honoring-gold-star-spouses/",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "source_domain": "www.defense.gov",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.defense.gov"
-      ],
-      "cluster_links": [
-        "https://www.war.gov/News/News-Stories/Article/Article/4456466/this-week-in-dow-iran-ceasefire-daring-rescue-honoring-gold-star-spouses/"
-      ]
-    },
-    {
       "title": "Pakistan hosts historic face-to-face talks between the US and Iran",
       "published": "Sat, 11 Apr 2026 17:04:49 -0400",
       "actors": [
@@ -980,9 +1082,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.011,
-      "raw_impact": 0.053,
+      "raw_impact": 0.051,
       "source_weight": 0.85,
-      "age_hours": 22.92,
+      "age_hours": 23.74,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1005,40 +1107,6 @@
       ]
     },
     {
-      "title": "Pope Leo says 'delusion of omnipotence' is fueling U.S.-Israeli war in Iran",
-      "published": "Sat, 11 Apr 2026 14:16:11 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.045,
-      "source_weight": 0.85,
-      "age_hours": 25.73,
-      "confidence": 0.675,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/11/g-s1-117150/pope-leo-us-iran-war-israel-denounce",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/11/g-s1-117150/pope-leo-us-iran-war-israel-denounce"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 10 April: Fear and uncertainty grow in Lebanon as conflict grinds on",
       "published": "Fri, 10 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -1047,10 +1115,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.008,
+      "impact": -0.007,
       "raw_impact": -0.008,
       "source_weight": 1.1,
-      "age_hours": 56.0,
+      "age_hours": 56.82,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1084,7 +1152,7 @@
       "impact": 0.007,
       "raw_impact": 0.006,
       "source_weight": 1.1,
-      "age_hours": 80.0,
+      "age_hours": 80.82,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1119,7 +1187,7 @@
       "impact": 0.007,
       "raw_impact": 0.006,
       "source_weight": 1.1,
-      "age_hours": 80.0,
+      "age_hours": 80.82,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -1154,7 +1222,7 @@
       "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 104.0,
+      "age_hours": 104.82,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1189,7 +1257,7 @@
       "impact": 0.002,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 100.63,
+      "age_hours": 101.46,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1223,7 +1291,7 @@
       "impact": -0.001,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 104.0,
+      "age_hours": 104.82,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1257,7 +1325,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 142.98,
+      "age_hours": 143.81,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1291,7 +1359,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 957.25,
+      "age_hours": 958.07,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1325,7 +1393,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 275.49,
+      "age_hours": 276.31,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1360,7 +1428,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 316.47,
+      "age_hours": 317.3,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1395,7 +1463,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 321.12,
+      "age_hours": 321.94,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1555,16 +1623,16 @@
   ],
   "debug": {
     "event_count": 227,
-    "classified_count": 41,
-    "paired_count": 41,
+    "classified_count": 43,
+    "paired_count": 43,
     "valid_pair_updates": 6,
-    "top_driver_count": 41,
-    "total_signal": 3.4499,
+    "top_driver_count": 43,
+    "total_signal": 3.7559,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 115,
+      "no_actor": 114,
       "no_signal": 47,
-      "invalid_pair": 24,
+      "invalid_pair": 23,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
