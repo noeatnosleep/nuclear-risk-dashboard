@@ -1,23 +1,23 @@
 {
-  "last_updated": "2026-04-13 11:51:41 UTC",
-  "probability": 15.19,
-  "uncertainty": 6.54,
+  "last_updated": "2026-04-13 13:45:09 UTC",
+  "probability": 15.15,
+  "uncertainty": 6.27,
   "state": {
-    "us_russia": 3.2829990987321875,
-    "us_china": 3.424078139862666,
-    "china_taiwan": 4.084815627972533,
+    "us_russia": 3.250094432433493,
+    "us_china": 3.523172714404566,
+    "china_taiwan": 4.104634542880913,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 6.364552906913813,
+    "iran_israel": 6.414367111069236,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.629303209607819
+    "russia_ukraine": 5.334317330104154
   },
   "top_drivers": [
     {
-      "title": "With U.S set to impose naval blockade, Iran warns it will strike back",
+      "title": "Iran threatens to strike back against U.S. naval blockade",
       "published": "Mon, 13 Apr 2026 10:47:14 +0000",
       "actors": [
         "iran",
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 1.07,
+      "age_hours": 2.97,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -52,6 +52,40 @@
       ]
     },
     {
+      "title": "MIDDLE EAST LIVE 13 April: US-Iran talks falter; Strait of Hormuz uncertainty deepens",
+      "published": "Mon, 13 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.895,
+      "raw_impact": 0.813,
+      "source_weight": 1.1,
+      "age_hours": 1.75,
+      "confidence": 0.92,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167285",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167285"
+      ]
+    },
+    {
       "title": "Trump orders blockade of Hormuz strait after Iran talks fail",
       "published": "Mon, 13 Apr 2026 09:33:54 GMT",
       "actors": [
@@ -60,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.593,
-      "raw_impact": 0.823,
+      "impact": 0.531,
+      "raw_impact": 0.738,
       "source_weight": 0.9,
-      "age_hours": 2.3,
+      "age_hours": 4.19,
       "confidence": 0.756,
       "signal_total": 0.94,
       "signal_components": {
@@ -87,40 +121,6 @@
       ]
     },
     {
-      "title": "In Pakistan Talks, Iran Saw a U.S. Trying to Dictate, Not Negotiate",
-      "published": "Sun, 12 Apr 2026 23:43:14 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.402,
-      "raw_impact": 0.446,
-      "source_weight": 0.9,
-      "age_hours": 12.14,
-      "confidence": 0.82,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/12/world/middleeast/iran-united-states-negotiations.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/12/world/middleeast/iran-united-states-negotiations.html"
-      ]
-    },
-    {
       "title": "Netanyahu\u00a0in southern\u00a0Lebanon: A first since the start of the war",
       "published": "Mon, 13 Apr 2026 09:50:47 GMT",
       "actors": [
@@ -129,10 +129,10 @@
       ],
       "state_key": "iran_israel",
       "class": "movement",
-      "impact": 0.341,
-      "raw_impact": 0.445,
+      "impact": 0.305,
+      "raw_impact": 0.399,
       "source_weight": 0.9,
-      "age_hours": 2.02,
+      "age_hours": 3.91,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -155,54 +155,19 @@
       ]
     },
     {
-      "title": "Defence chief says Australian ships \u2018ready, capable\u2019 as Albanese calls on US and Iran to reopen strait of Hormuz",
-      "published": "Mon, 13 Apr 2026 07:48:08 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.157,
-      "raw_impact": 0.206,
-      "source_weight": 0.9,
-      "age_hours": 4.06,
-      "confidence": 0.54,
-      "signal_total": 0.26,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.04,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/world/2026/apr/13/australia-pm-albanese-us-iran-peace-talks-reopen-strait-of-hormuz",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/world/2026/apr/13/australia-pm-albanese-us-iran-peace-talks-reopen-strait-of-hormuz"
-      ]
-    },
-    {
-      "title": "Oil surge as Trump says to blockade Hormuz after Iran talks fail",
-      "published": "Mon, 13 Apr 2026 10:08:03 GMT",
+      "title": "Trump says U.S. will blockade Iranian ports. And, Orb\u00e1n loses Hungarian election",
+      "published": "Mon, 13 Apr 2026 07:56:36 -0400",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.147,
-      "raw_impact": -0.181,
-      "source_weight": 0.9,
-      "age_hours": 1.73,
-      "confidence": 0.75,
+      "impact": -0.144,
+      "raw_impact": -0.18,
+      "source_weight": 0.85,
+      "age_hours": 1.81,
+      "confidence": 0.695,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -212,19 +177,20 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/video/20260413-oil-surge-as-trump-says-to-blockade-hormuz-after-iran-talks-fail",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
+      "link": "https://www.npr.org/2026/04/13/g-s1-117236/trump-says-u-s-will-blockade-iranian-ports-and-orban-loses-hungarian-election",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 2,
       "cluster_sources": [
-        "www.france24.com"
+        "feeds.npr.org"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/video/20260413-oil-surge-as-trump-says-to-blockade-hormuz-after-iran-talks-fail"
+        "https://www.npr.org/2026/04/13/g-s1-117236/trump-says-u-s-will-blockade-iranian-ports-and-orban-loses-hungarian-election",
+        "https://www.npr.org/2026/04/13/nx-s1-5782654/trump-says-us-will-blockade-iranian-ports-after-peace-talks-fail"
       ]
     },
     {
-      "title": "U.S. military to block ships from Iran's ports after peace talks fail",
+      "title": "The U.S. military is about to block ships from Iran's ports after talks failed",
       "published": "Mon, 13 Apr 2026 07:03:13 -0400",
       "actors": [
         "iran",
@@ -232,10 +198,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.146,
-      "raw_impact": -0.191,
+      "impact": -0.131,
+      "raw_impact": -0.171,
       "source_weight": 0.85,
-      "age_hours": 0.81,
+      "age_hours": 2.7,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -258,6 +224,108 @@
       ]
     },
     {
+      "title": "Oil surge as Trump says to blockade Hormuz after Iran talks fail",
+      "published": "Mon, 13 Apr 2026 10:08:03 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.131,
+      "raw_impact": -0.162,
+      "source_weight": 0.9,
+      "age_hours": 3.62,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260413-oil-surge-as-trump-says-to-blockade-hormuz-after-iran-talks-fail",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260413-oil-surge-as-trump-says-to-blockade-hormuz-after-iran-talks-fail"
+      ]
+    },
+    {
+      "title": "Oil prices surge after U.S.-Iran peace talks break down",
+      "published": "Mon, 13 Apr 2026 04:45:21 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.114,
+      "raw_impact": -0.15,
+      "source_weight": 0.85,
+      "age_hours": 5.0,
+      "confidence": 0.665,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5781260/oil-prices-surge-after-us-iran-peace-talks-break-down",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/13/nx-s1-5781260/oil-prices-surge-after-us-iran-peace-talks-break-down"
+      ]
+    },
+    {
+      "title": "Former U.S. special envoy on where U.S. and Iran stand after failed negotiations",
+      "published": "Mon, 13 Apr 2026 04:45:18 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.114,
+      "raw_impact": -0.15,
+      "source_weight": 0.85,
+      "age_hours": 5.0,
+      "confidence": 0.665,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5780993/former-us-special-envoy-on-where-us-and-iran-stand-after-failed-negotiations",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/13/nx-s1-5780993/former-us-special-envoy-on-where-us-and-iran-stand-after-failed-negotiations"
+      ]
+    },
+    {
       "title": "Trump announces naval blockade of Iran after Islamabad talks yield no deal",
       "published": "Sun, 12 Apr 2026 22:38:11 +0000",
       "actors": [
@@ -266,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.076,
-      "raw_impact": -0.093,
+      "impact": -0.068,
+      "raw_impact": -0.084,
       "source_weight": 0.9,
-      "age_hours": 13.23,
+      "age_hours": 15.12,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -292,86 +360,18 @@
       ]
     },
     {
-      "title": "After failed peace talks, President Trump threatens to blockade the Strait of Hormuz",
-      "published": "Sun, 12 Apr 2026 17:37:21 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.068,
-      "raw_impact": -0.088,
-      "source_weight": 0.85,
-      "age_hours": 14.24,
-      "confidence": 0.665,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/12/nx-s1-5782653/after-failed-peace-talks-president-trump-threatens-to-blockade-the-strait-of-hormuz",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/12/nx-s1-5782653/after-failed-peace-talks-president-trump-threatens-to-blockade-the-strait-of-hormuz"
-      ]
-    },
-    {
-      "title": "The \u2018Islamabad Peace Talks\u2019 Are Over. What Now for Pakistan?",
-      "published": "Sun, 12 Apr 2026 17:01:52 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.055,
-      "raw_impact": -0.067,
-      "source_weight": 0.9,
-      "age_hours": 18.83,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/12/world/asia/iran-peace-talks-pakistan.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/12/world/asia/iran-peace-talks-pakistan.html"
-      ]
-    },
-    {
       "title": "Iran War Live Updates: Oil Climbs Back Above $100 as U.S. Plans Hormuz Blockade",
-      "published": "Mon, 13 Apr 2026 11:47:41 +0000",
+      "published": "Mon, 13 Apr 2026 13:35:09 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.199,
+      "impact": 0.044,
+      "raw_impact": 0.198,
       "source_weight": 0.9,
-      "age_hours": 0.07,
+      "age_hours": 0.17,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -394,6 +394,40 @@
       ]
     },
     {
+      "title": "Trump Said Other Countries Would Help Blockade Iran. So Far, There Are No Takers.",
+      "published": "Mon, 13 Apr 2026 13:01:57 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.72,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/13/world/middleeast/trump-iran-blockade-strait-of-hormuz.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/13/world/middleeast/trump-iran-blockade-strait-of-hormuz.html"
+      ]
+    },
+    {
       "title": "How the US-Iran talks in Islamabad unfolded",
       "published": "Mon, 13 Apr 2026 11:21:05 +0000",
       "actors": [
@@ -402,10 +436,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.194,
+      "impact": 0.039,
+      "raw_impact": 0.174,
       "source_weight": 0.9,
-      "age_hours": 0.51,
+      "age_hours": 2.4,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -436,10 +470,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.189,
+      "impact": 0.038,
+      "raw_impact": 0.169,
       "source_weight": 0.9,
-      "age_hours": 0.99,
+      "age_hours": 2.88,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -470,10 +504,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.188,
+      "impact": 0.038,
+      "raw_impact": 0.168,
       "source_weight": 0.9,
-      "age_hours": 1.08,
+      "age_hours": 2.97,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -504,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.186,
+      "impact": 0.037,
+      "raw_impact": 0.167,
       "source_weight": 0.9,
-      "age_hours": 1.21,
+      "age_hours": 3.1,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -530,40 +564,6 @@
       ]
     },
     {
-      "title": "Trump Said Other Countries Would Help Blockade Iran. So Far, There Are No Takers.",
-      "published": "Mon, 13 Apr 2026 10:14:54 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.182,
-      "source_weight": 0.9,
-      "age_hours": 1.61,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/13/world/middleeast/trump-iran-blockade-strait-of-hormuz.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/13/world/middleeast/trump-iran-blockade-strait-of-hormuz.html"
-      ]
-    },
-    {
       "title": "US blockade of Iran would worsen global energy crisis, analysts say",
       "published": "Mon, 13 Apr 2026 09:52:16 +0000",
       "actors": [
@@ -572,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
+      "impact": 0.036,
+      "raw_impact": 0.16,
       "source_weight": 0.9,
-      "age_hours": 1.99,
+      "age_hours": 3.88,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -606,10 +606,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.175,
+      "impact": 0.035,
+      "raw_impact": 0.157,
       "source_weight": 0.9,
-      "age_hours": 2.31,
+      "age_hours": 4.2,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
+      "impact": 0.034,
+      "raw_impact": 0.151,
       "source_weight": 0.9,
-      "age_hours": 2.96,
+      "age_hours": 4.85,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -666,108 +666,6 @@
       ]
     },
     {
-      "title": "Pope Leo XIV begins landmark Algeria visit with call for 'forgiveness'",
-      "published": "Mon, 13 Apr 2026 09:01:15 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
-      "source_weight": 0.9,
-      "age_hours": 2.84,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/africa/20260413-pope-leo-xiv-begins-landmark-algeria-visit-on-first-leg-of-africa-tour",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/africa/20260413-pope-leo-xiv-begins-landmark-algeria-visit-on-first-leg-of-africa-tour"
-      ]
-    },
-    {
-      "title": "Iran war: What is happening on day 45 of the US-Iran conflict?",
-      "published": "Mon, 13 Apr 2026 07:30:10 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.155,
-      "source_weight": 0.9,
-      "age_hours": 4.36,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/13/iran-war-what-is-happening-on-day-45-of-the-us-iran-conflict?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/13/iran-war-what-is-happening-on-day-45-of-the-us-iran-conflict?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Pope Leo says he does not fear Trump, as he pushes back in feud over Iran war",
-      "published": "Mon, 13 Apr 2026 00:11:53 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.128,
-      "source_weight": 0.85,
-      "age_hours": 7.66,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5783008/trump-pope-leo",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/13/nx-s1-5783008/trump-pope-leo"
-      ]
-    },
-    {
       "title": "Direct U.S.-Iran talks fail to reach resolution after lengthy negotiation",
       "published": "Sun, 12 Apr 2026 04:05:19 +0000",
       "actors": [
@@ -776,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.026,
-      "raw_impact": -0.032,
+      "impact": -0.023,
+      "raw_impact": -0.029,
       "source_weight": 0.9,
-      "age_hours": 31.77,
+      "age_hours": 33.66,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -802,71 +700,37 @@
       ]
     },
     {
-      "title": "Amid the Iran war, Ukraine makes gains against the Kremlin",
-      "published": "Sun, 12 Apr 2026 17:37:20 -0400",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.088,
-      "source_weight": 0.85,
-      "age_hours": 14.24,
-      "confidence": 0.675,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/12/nx-s1-5779257/amid-the-iran-war-ukraine-makes-gains-against-the-kremlin",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/12/nx-s1-5779257/amid-the-iran-war-ukraine-makes-gains-against-the-kremlin"
-      ]
-    },
-    {
-      "title": "Cuba\u2019s President Projects Defiance in Standoff With the U.S.",
-      "published": "Sun, 12 Apr 2026 19:06:37 +0000",
+      "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
+      "published": "Fri, 10 Apr 2026 21:43:00 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.076,
-      "source_weight": 0.9,
-      "age_hours": 16.75,
-      "confidence": 0.67,
-      "signal_total": 0.2,
+      "class": "deescalation",
+      "impact": -0.005,
+      "raw_impact": -0.005,
+      "source_weight": 1.1,
+      "age_hours": 64.04,
+      "confidence": 0.77,
+      "signal_total": -0.2,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.2,
+        "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/2026/04/12/world/americas/cuba-president-meet-the-press.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.war.gov/News/News-Stories/Article/Article/4456466/this-week-in-dow-iran-ceasefire-daring-rescue-honoring-gold-star-spouses/",
+      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "source_domain": "www.defense.gov",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "www.defense.gov"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/04/12/world/americas/cuba-president-meet-the-press.html"
+        "https://www.war.gov/News/News-Stories/Article/Article/4456466/this-week-in-dow-iran-ceasefire-daring-rescue-honoring-gold-star-spouses/"
       ]
     },
     {
@@ -878,10 +742,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.006,
-      "raw_impact": 0.009,
+      "impact": 0.005,
+      "raw_impact": 0.008,
       "source_weight": 0.75,
-      "age_hours": 95.5,
+      "age_hours": 97.39,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -905,40 +769,6 @@
       ]
     },
     {
-      "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
-      "published": "Fri, 10 Apr 2026 21:43:00 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.005,
-      "raw_impact": -0.006,
-      "source_weight": 1.1,
-      "age_hours": 62.14,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.war.gov/News/News-Stories/Article/Article/4456466/this-week-in-dow-iran-ceasefire-daring-rescue-honoring-gold-star-spouses/",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "source_domain": "www.defense.gov",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.defense.gov"
-      ],
-      "cluster_links": [
-        "https://www.war.gov/News/News-Stories/Article/Article/4456466/this-week-in-dow-iran-ceasefire-daring-rescue-honoring-gold-star-spouses/"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 10 April: Fear and uncertainty grow in Lebanon as conflict grinds on",
       "published": "Fri, 10 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -950,7 +780,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 71.86,
+      "age_hours": 73.75,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -982,9 +812,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.003,
-      "raw_impact": 0.003,
+      "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 95.86,
+      "age_hours": 97.75,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1017,9 +847,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.003,
-      "raw_impact": 0.003,
+      "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 95.86,
+      "age_hours": 97.75,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -1054,7 +884,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 119.86,
+      "age_hours": 121.75,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1089,7 +919,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 116.49,
+      "age_hours": 118.39,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1123,7 +953,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 119.86,
+      "age_hours": 121.75,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1157,7 +987,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 158.84,
+      "age_hours": 160.74,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1191,7 +1021,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 973.11,
+      "age_hours": 975.0,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1225,7 +1055,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 291.35,
+      "age_hours": 293.24,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1260,7 +1090,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 332.34,
+      "age_hours": 334.23,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1295,7 +1125,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 336.98,
+      "age_hours": 338.87,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1428,11 +1258,6 @@
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
-    },
-    {
-      "name": "www.theguardian.com",
-      "url": "https://www.theguardian.com/world/rss",
-      "domain": "www.theguardian.com"
     }
   ],
   "driver_sort_default": "chronological",
@@ -1444,17 +1269,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 226,
-    "classified_count": 38,
-    "paired_count": 38,
-    "valid_pair_updates": 6,
-    "top_driver_count": 38,
-    "total_signal": 5.0997,
+    "event_count": 227,
+    "classified_count": 34,
+    "paired_count": 34,
+    "valid_pair_updates": 5,
+    "top_driver_count": 33,
+    "total_signal": 4.1109,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 116,
-      "no_signal": 50,
-      "invalid_pair": 22,
+      "no_signal": 51,
+      "invalid_pair": 26,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
