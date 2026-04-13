@@ -1,24 +1,24 @@
 {
-  "last_updated": "2026-04-13 13:45:09 UTC",
-  "probability": 15.15,
-  "uncertainty": 6.27,
+  "last_updated": "2026-04-13 15:17:38 UTC",
+  "probability": 15.09,
+  "uncertainty": 6.31,
   "state": {
-    "us_russia": 3.250094432433493,
-    "us_china": 3.523172714404566,
-    "china_taiwan": 4.104634542880913,
+    "us_russia": 3.2321026831351003,
+    "us_china": 3.550444857043257,
+    "china_taiwan": 4.1100889714086515,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 6.414367111069236,
+    "iran_israel": 6.466656710483622,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.334317330104154
+    "russia_ukraine": 5.177606081617832
   },
   "top_drivers": [
     {
-      "title": "Iran threatens to strike back against U.S. naval blockade",
-      "published": "Mon, 13 Apr 2026 10:47:14 +0000",
+      "title": "U.S. naval blockade taking effect as Trump demands Iran end nuclear program",
+      "published": "Mon, 13 Apr 2026 14:00:36 +0000",
       "actors": [
         "iran",
         "us"
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 2.97,
+      "age_hours": 1.28,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -60,10 +60,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.895,
-      "raw_impact": 0.813,
+      "impact": 0.818,
+      "raw_impact": 0.744,
       "source_weight": 1.1,
-      "age_hours": 1.75,
+      "age_hours": 3.29,
       "confidence": 0.92,
       "signal_total": 0.9,
       "signal_components": {
@@ -94,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.531,
-      "raw_impact": 0.738,
+      "impact": 0.486,
+      "raw_impact": 0.675,
       "source_weight": 0.9,
-      "age_hours": 4.19,
+      "age_hours": 5.73,
       "confidence": 0.756,
       "signal_total": 0.94,
       "signal_components": {
@@ -121,6 +121,40 @@
       ]
     },
     {
+      "title": "Trump signals US naval blockade of Strait of Hormuz has begun",
+      "published": "Mon, 13 Apr 2026 14:41:09 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.369,
+      "raw_impact": 0.483,
+      "source_weight": 0.9,
+      "age_hours": 0.61,
+      "confidence": 0.73,
+      "signal_total": 0.5,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/232417a6-b351-493f-81f3-e7b3b94ebc08",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/232417a6-b351-493f-81f3-e7b3b94ebc08"
+      ]
+    },
+    {
       "title": "Netanyahu\u00a0in southern\u00a0Lebanon: A first since the start of the war",
       "published": "Mon, 13 Apr 2026 09:50:47 GMT",
       "actors": [
@@ -129,10 +163,10 @@
       ],
       "state_key": "iran_israel",
       "class": "movement",
-      "impact": 0.305,
-      "raw_impact": 0.399,
+      "impact": 0.28,
+      "raw_impact": 0.365,
       "source_weight": 0.9,
-      "age_hours": 3.91,
+      "age_hours": 5.45,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -155,6 +189,74 @@
       ]
     },
     {
+      "title": "Trump\u2019s threat to blockade Hormuz: Why it\u2019s the latest major escalation",
+      "published": "Mon, 13 Apr 2026 14:14:35 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.152,
+      "raw_impact": -0.188,
+      "source_weight": 0.9,
+      "age_hours": 1.05,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/13/trumps-threat-to-blockade-hormuz-why-its-wars-latest-major-escalation?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/13/trumps-threat-to-blockade-hormuz-why-its-wars-latest-major-escalation?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Pakistan eyes narrow window to resuscitate US-Iran talks after breakdown",
+      "published": "Mon, 13 Apr 2026 13:54:35 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.149,
+      "raw_impact": -0.185,
+      "source_weight": 0.9,
+      "age_hours": 1.38,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/13/pakistan-eyes-narrow-window-to-resuscitate-us-iran-talks-after-breakdown?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/13/pakistan-eyes-narrow-window-to-resuscitate-us-iran-talks-after-breakdown?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Trump says U.S. will blockade Iranian ports. And, Orb\u00e1n loses Hungarian election",
       "published": "Mon, 13 Apr 2026 07:56:36 -0400",
       "actors": [
@@ -163,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.144,
-      "raw_impact": -0.18,
+      "impact": -0.132,
+      "raw_impact": -0.165,
       "source_weight": 0.85,
-      "age_hours": 1.81,
+      "age_hours": 3.35,
       "confidence": 0.695,
       "signal_total": -0.2,
       "signal_components": {
@@ -190,40 +292,6 @@
       ]
     },
     {
-      "title": "The U.S. military is about to block ships from Iran's ports after talks failed",
-      "published": "Mon, 13 Apr 2026 07:03:13 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.171,
-      "source_weight": 0.85,
-      "age_hours": 2.7,
-      "confidence": 0.665,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
-      ]
-    },
-    {
       "title": "Oil surge as Trump says to blockade Hormuz after Iran talks fail",
       "published": "Mon, 13 Apr 2026 10:08:03 GMT",
       "actors": [
@@ -232,10 +300,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.162,
+      "impact": -0.121,
+      "raw_impact": -0.148,
       "source_weight": 0.9,
-      "age_hours": 3.62,
+      "age_hours": 5.16,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -258,6 +326,40 @@
       ]
     },
     {
+      "title": "The U.S. military is about to block ships from Iran's ports after talks failed",
+      "published": "Mon, 13 Apr 2026 07:03:13 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.12,
+      "raw_impact": -0.157,
+      "source_weight": 0.85,
+      "age_hours": 4.24,
+      "confidence": 0.665,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
+      ]
+    },
+    {
       "title": "Oil prices surge after U.S.-Iran peace talks break down",
       "published": "Mon, 13 Apr 2026 04:45:21 -0400",
       "actors": [
@@ -266,10 +368,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.114,
-      "raw_impact": -0.15,
+      "impact": -0.105,
+      "raw_impact": -0.137,
       "source_weight": 0.85,
-      "age_hours": 5.0,
+      "age_hours": 6.54,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -300,10 +402,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.114,
-      "raw_impact": -0.15,
+      "impact": -0.105,
+      "raw_impact": -0.137,
       "source_weight": 0.85,
-      "age_hours": 5.0,
+      "age_hours": 6.54,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -334,10 +436,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.068,
-      "raw_impact": -0.084,
+      "impact": -0.062,
+      "raw_impact": -0.076,
       "source_weight": 0.9,
-      "age_hours": 15.12,
+      "age_hours": 16.66,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -360,18 +462,18 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Oil Climbs Back Above $100 as U.S. Plans Hormuz Blockade",
-      "published": "Mon, 13 Apr 2026 13:35:09 +0000",
+      "title": "Iran War Live Updates: Deadline Passes for U.S. Blockade in Strait of Hormuz",
+      "published": "Mon, 13 Apr 2026 15:13:18 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.198,
+      "impact": 0.045,
+      "raw_impact": 0.199,
       "source_weight": 0.9,
-      "age_hours": 0.17,
+      "age_hours": 0.07,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -394,8 +496,8 @@
       ]
     },
     {
-      "title": "Trump Said Other Countries Would Help Blockade Iran. So Far, There Are No Takers.",
-      "published": "Mon, 13 Apr 2026 13:01:57 +0000",
+      "title": "Trump says Iranian ships will be \u2018eliminated\u2019 as US naval blockade begins",
+      "published": "Mon, 13 Apr 2026 14:36:46 +0000",
       "actors": [
         "iran",
         "us"
@@ -405,7 +507,41 @@
       "impact": 0.043,
       "raw_impact": 0.192,
       "source_weight": 0.9,
-      "age_hours": 0.72,
+      "age_hours": 0.68,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/13/trump-says-iranian-ships-will-be-eliminated-as-us-naval-blockade-begins?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/13/trump-says-iranian-ships-will-be-eliminated-as-us-naval-blockade-begins?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Trump Said Other Countries Would Help Blockade Iran. So Far, There Are No Takers.",
+      "published": "Mon, 13 Apr 2026 13:53:35 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.184,
+      "source_weight": 0.9,
+      "age_hours": 1.4,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -436,10 +572,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
+      "impact": 0.036,
+      "raw_impact": 0.159,
       "source_weight": 0.9,
-      "age_hours": 2.4,
+      "age_hours": 3.94,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -470,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
+      "impact": 0.035,
+      "raw_impact": 0.155,
       "source_weight": 0.9,
-      "age_hours": 2.88,
+      "age_hours": 4.42,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -504,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.168,
+      "impact": 0.035,
+      "raw_impact": 0.154,
       "source_weight": 0.9,
-      "age_hours": 2.97,
+      "age_hours": 4.52,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -538,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.167,
+      "impact": 0.035,
+      "raw_impact": 0.153,
       "source_weight": 0.9,
-      "age_hours": 3.1,
+      "age_hours": 4.64,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -572,10 +708,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.16,
+      "impact": 0.033,
+      "raw_impact": 0.146,
       "source_weight": 0.9,
-      "age_hours": 3.88,
+      "age_hours": 5.42,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -598,6 +734,40 @@
       ]
     },
     {
+      "title": "Pope Leo stands firm with Trump as Vatican\u2013Washington rift deepens over Iran war",
+      "published": "Mon, 13 Apr 2026 06:43:31 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.033,
+      "raw_impact": 0.154,
+      "source_weight": 0.85,
+      "age_hours": 4.57,
+      "confidence": 0.665,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5780996/pope-leo-begins-tour-across-africa-as-row-with-trump-over-iran-war-intensifies",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/13/nx-s1-5780996/pope-leo-begins-tour-across-africa-as-row-with-trump-over-iran-war-intensifies"
+      ]
+    },
+    {
       "title": "Trump move to blockade Hormuz risks complicating ties with China",
       "published": "Mon, 13 Apr 2026 09:32:56 GMT",
       "actors": [
@@ -606,10 +776,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.157,
+      "impact": 0.032,
+      "raw_impact": 0.144,
       "source_weight": 0.9,
-      "age_hours": 4.2,
+      "age_hours": 5.74,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,10 +810,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.151,
+      "impact": 0.031,
+      "raw_impact": 0.138,
       "source_weight": 0.9,
-      "age_hours": 4.85,
+      "age_hours": 6.39,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -674,10 +844,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.023,
-      "raw_impact": -0.029,
+      "impact": -0.022,
+      "raw_impact": -0.026,
       "source_weight": 0.9,
-      "age_hours": 33.66,
+      "age_hours": 35.21,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -711,7 +881,7 @@
       "impact": -0.005,
       "raw_impact": -0.005,
       "source_weight": 1.1,
-      "age_hours": 64.04,
+      "age_hours": 65.58,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -742,10 +912,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.005,
-      "raw_impact": 0.008,
+      "impact": 0.004,
+      "raw_impact": 0.007,
       "source_weight": 0.75,
-      "age_hours": 97.39,
+      "age_hours": 98.93,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -780,7 +950,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 73.75,
+      "age_hours": 75.29,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -811,10 +981,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.003,
+      "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 97.75,
+      "age_hours": 99.29,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -846,10 +1016,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.003,
+      "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 97.75,
+      "age_hours": 99.29,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -884,7 +1054,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 121.75,
+      "age_hours": 123.29,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -917,9 +1087,9 @@
       "state_key": "iran_us",
       "class": "movement",
       "impact": 0.001,
-      "raw_impact": 0.001,
+      "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 118.39,
+      "age_hours": 119.93,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -953,7 +1123,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 121.75,
+      "age_hours": 123.29,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -987,7 +1157,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 160.74,
+      "age_hours": 162.28,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1021,7 +1191,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 975.0,
+      "age_hours": 976.54,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1055,7 +1225,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 293.24,
+      "age_hours": 294.78,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1090,7 +1260,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 334.23,
+      "age_hours": 335.77,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1125,7 +1295,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 338.87,
+      "age_hours": 340.41,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1255,6 +1425,11 @@
       "domain": "www.france24.com"
     },
     {
+      "name": "www.ft.com",
+      "url": "https://www.ft.com/world?format=rss",
+      "domain": "www.ft.com"
+    },
+    {
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
@@ -1269,17 +1444,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 227,
-    "classified_count": 34,
-    "paired_count": 34,
+    "event_count": 228,
+    "classified_count": 39,
+    "paired_count": 39,
     "valid_pair_updates": 5,
-    "top_driver_count": 33,
-    "total_signal": 4.1109,
+    "top_driver_count": 38,
+    "total_signal": 4.3878,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 116,
+      "no_actor": 111,
       "no_signal": 51,
-      "invalid_pair": 26,
+      "invalid_pair": 27,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
