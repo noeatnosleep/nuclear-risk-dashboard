@@ -1,34 +1,102 @@
 {
-  "last_updated": "2026-04-13 05:45:42 UTC",
-  "probability": 14.53,
-  "uncertainty": 6.34,
+  "last_updated": "2026-04-13 08:09:03 UTC",
+  "probability": 14.71,
+  "uncertainty": 6.19,
   "state": {
-    "us_russia": 3.399750507120484,
-    "us_china": 2.999999709001014,
-    "china_taiwan": 3.9999999418002026,
+    "us_russia": 3.3810223274507836,
+    "us_china": 2.9999998563995134,
+    "china_taiwan": 3.9999999712799026,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6333333333333275,
-    "iran_israel": 5.1487645711812435,
+    "iran_us": 5.63333333333333,
+    "iran_israel": 5.680976389895311,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.521838543449274
+    "russia_ukraine": 6.474585868188322
   },
   "top_drivers": [
     {
-      "title": "Donald Trump lashes Pope Leo on social media for criticism of Iran war",
-      "published": "Mon, 13 Apr 2026 03:15:44 GMT",
+      "title": "Trump attacks Pope over criticism of Iran war",
+      "published": "Mon, 13 Apr 2026 07:40:14 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.748,
-      "raw_impact": 1.039,
+      "impact": 1.0,
+      "raw_impact": 1.25,
+      "source_weight": 1.0,
+      "age_hours": 0.48,
+      "confidence": 0.97,
+      "signal_total": 2.1,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cp841y07w5xo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cp841y07w5xo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "\u2018Terrible for foreign policy\u2019: Trump attacks Pope Leo after peace appeal",
+      "published": "Mon, 13 Apr 2026 05:42:51 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.9,
+      "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 2.5,
+      "age_hours": 2.44,
+      "confidence": 0.97,
+      "signal_total": 2.1,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/13/terrible-for-foreign-policy-trump-attacks-pope-leo-after-peace-appeal?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/13/terrible-for-foreign-policy-trump-attacks-pope-leo-after-peace-appeal?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Trump lashes out at Pope Leo for criticism of Iran war",
+      "published": "Mon, 13 Apr 2026 07:54:41 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.852,
+      "raw_impact": 1.184,
+      "source_weight": 0.9,
+      "age_hours": 0.24,
       "confidence": 0.87,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.571,
-      "raw_impact": 0.635,
+      "impact": 0.498,
+      "raw_impact": 0.553,
       "source_weight": 0.9,
-      "age_hours": 6.04,
+      "age_hours": 8.43,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +161,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.427,
-      "raw_impact": 0.474,
+      "impact": 0.372,
+      "raw_impact": 0.413,
       "source_weight": 0.9,
-      "age_hours": 5.46,
+      "age_hours": 7.84,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -128,10 +196,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.232,
-      "raw_impact": 0.232,
+      "impact": 0.202,
+      "raw_impact": 0.202,
       "source_weight": 1.0,
-      "age_hours": 17.87,
+      "age_hours": 20.26,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -155,18 +223,18 @@
       ]
     },
     {
-      "title": "Albanese calls on US and Iran to resume peace negotiations and reopen strait of Hormuz",
-      "published": "Mon, 13 Apr 2026 04:29:34 GMT",
+      "title": "Defence chief says Australian ships \u2018ready, capable\u2019 as Albanese calls on US and Iran to reopen strait of Hormuz",
+      "published": "Mon, 13 Apr 2026 07:48:08 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.184,
-      "raw_impact": 0.242,
+      "impact": 0.195,
+      "raw_impact": 0.255,
       "source_weight": 0.9,
-      "age_hours": 1.27,
+      "age_hours": 0.35,
       "confidence": 0.54,
       "signal_total": 0.26,
       "signal_components": {
@@ -198,10 +266,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.176,
-      "raw_impact": -0.196,
+      "impact": -0.154,
+      "raw_impact": -0.171,
       "source_weight": 1.0,
-      "age_hours": 0.35,
+      "age_hours": 2.74,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -224,7 +292,7 @@
       ]
     },
     {
-      "title": "Middle East war live: Trump announces blockade of Strait of Hormuz on Monday",
+      "title": "Middle East war live: Iran says US naval blockade of Hormuz 'illegal' and 'piracy'",
       "published": "Mon, 13 Apr 2026 02:11:43 GMT",
       "actors": [
         "iran",
@@ -232,11 +300,11 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.163,
+      "impact": -0.115,
+      "raw_impact": -0.142,
       "source_weight": 0.9,
-      "age_hours": 3.57,
-      "confidence": 0.76,
+      "age_hours": 5.96,
+      "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -266,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.11,
-      "raw_impact": -0.135,
+      "impact": -0.095,
+      "raw_impact": -0.118,
       "source_weight": 0.9,
-      "age_hours": 6.8,
+      "age_hours": 9.19,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -300,10 +368,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.107,
-      "raw_impact": -0.133,
+      "impact": -0.094,
+      "raw_impact": -0.115,
       "source_weight": 0.9,
-      "age_hours": 7.13,
+      "age_hours": 9.51,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -334,10 +402,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.125,
+      "impact": -0.084,
+      "raw_impact": -0.109,
       "source_weight": 0.85,
-      "age_hours": 8.14,
+      "age_hours": 10.53,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -360,40 +428,6 @@
       ]
     },
     {
-      "title": "How shaky is the Iran-US ceasefire?",
-      "published": "Sun, 12 Apr 2026 19:46:27 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.091,
-      "raw_impact": -0.112,
-      "source_weight": 0.9,
-      "age_hours": 9.99,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/the-bottom-line/2026/4/12/how-shaky-is-the-iran-us-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/the-bottom-line/2026/4/12/how-shaky-is-the-iran-us-ceasefire?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Lebanese govt politically present, operationally absent': PM accuses Israel of violating int'l law'",
       "published": "Sun, 12 Apr 2026 18:27:20 GMT",
       "actors": [
@@ -402,10 +436,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.085,
-      "raw_impact": -0.104,
+      "impact": -0.074,
+      "raw_impact": -0.091,
       "source_weight": 0.9,
-      "age_hours": 11.31,
+      "age_hours": 13.7,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -436,10 +470,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.077,
-      "raw_impact": -0.096,
+      "impact": -0.068,
+      "raw_impact": -0.084,
       "source_weight": 0.9,
-      "age_hours": 12.73,
+      "age_hours": 15.12,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -462,8 +496,8 @@
       ]
     },
     {
-      "title": "U.S. to Blockade Ships From Iranian Ports",
-      "published": "Mon, 13 Apr 2026 05:28:00 +0000",
+      "title": "Iran War Live Updates: Oil Climbs Back Above $100 as U.S. Plans Hormuz Blockade",
+      "published": "Mon, 13 Apr 2026 07:39:57 +0000",
       "actors": [
         "iran",
         "us"
@@ -471,9 +505,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.044,
-      "raw_impact": 0.197,
+      "raw_impact": 0.194,
       "source_weight": 0.9,
-      "age_hours": 0.3,
+      "age_hours": 0.49,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -484,7 +518,7 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/12/world/iran-war-trump-talks-pakistan",
+      "link": "https://www.nytimes.com/live/2026/04/13/world/iran-war-trump-news",
       "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
@@ -492,7 +526,75 @@
         "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/12/world/iran-war-trump-talks-pakistan"
+        "https://www.nytimes.com/live/2026/04/13/world/iran-war-trump-news"
+      ]
+    },
+    {
+      "title": "Iran war: What is happening on day 45 of the US-Iran conflict?",
+      "published": "Mon, 13 Apr 2026 07:30:10 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.193,
+      "source_weight": 0.9,
+      "age_hours": 0.65,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/13/iran-war-what-is-happening-on-day-45-of-the-us-iran-conflict?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/13/iran-war-what-is-happening-on-day-45-of-the-us-iran-conflict?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Iran executed 'at least 1,639 people' in 2025, highest number since 1989",
+      "published": "Mon, 13 Apr 2026 04:09:13 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.159,
+      "source_weight": 0.9,
+      "age_hours": 4.0,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260413-iran-executed-at-least-1-639-people-in-2025-highest-number-since-1989",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260413-iran-executed-at-least-1-639-people-in-2025-highest-number-since-1989"
       ]
     },
     {
@@ -504,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.183,
+      "impact": 0.034,
+      "raw_impact": 0.159,
       "source_weight": 0.85,
-      "age_hours": 1.56,
+      "age_hours": 3.95,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -538,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.037,
-      "raw_impact": -0.045,
+      "impact": -0.032,
+      "raw_impact": -0.04,
       "source_weight": 0.9,
-      "age_hours": 25.67,
+      "age_hours": 28.06,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -572,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.148,
+      "impact": 0.029,
+      "raw_impact": 0.129,
       "source_weight": 0.9,
-      "age_hours": 5.23,
+      "age_hours": 7.62,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -606,10 +708,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.143,
+      "impact": 0.028,
+      "raw_impact": 0.125,
       "source_weight": 0.9,
-      "age_hours": 5.76,
+      "age_hours": 8.15,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,10 +742,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.116,
+      "impact": 0.023,
+      "raw_impact": 0.101,
       "source_weight": 0.9,
-      "age_hours": 9.44,
+      "age_hours": 11.83,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -666,40 +768,6 @@
       ]
     },
     {
-      "title": "\u201cThe initiative is in the hands of Tehran, not Washington\u201d",
-      "published": "Sun, 12 Apr 2026 20:10:35 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.115,
-      "source_weight": 0.9,
-      "age_hours": 9.59,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/quotable/2026/4/12/the-initiative-is-in-the-hands-of-tehran-not?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/quotable/2026/4/12/the-initiative-is-in-the-hands-of-tehran-not?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Amid the Iran war, Ukraine makes gains against the Kremlin",
       "published": "Sun, 12 Apr 2026 17:37:20 -0400",
       "actors": [
@@ -708,10 +776,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.125,
+      "impact": 0.023,
+      "raw_impact": 0.109,
       "source_weight": 0.85,
-      "age_hours": 8.14,
+      "age_hours": 10.53,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -742,10 +810,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.125,
+      "impact": 0.023,
+      "raw_impact": 0.109,
       "source_weight": 0.85,
-      "age_hours": 8.14,
+      "age_hours": 10.53,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,10 +844,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.108,
+      "impact": 0.021,
+      "raw_impact": 0.094,
       "source_weight": 0.9,
-      "age_hours": 10.65,
+      "age_hours": 13.04,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -802,40 +870,6 @@
       ]
     },
     {
-      "title": "After Iran talks falter, the big question is what happens next?",
-      "published": "Sun, 12 Apr 2026 12:48:01 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.075,
-      "source_weight": 1.0,
-      "age_hours": 16.96,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/c5y943x2g8qo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/c5y943x2g8qo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Trump \u2018reaping bitter fruit\u2019 of thinking Iran intervention as easy as Venezuela, says former diplomat",
       "published": "Fri, 10 Apr 2026 10:00:16 GMT",
       "actors": [
@@ -844,10 +878,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.016,
-      "raw_impact": 0.018,
+      "impact": 0.014,
+      "raw_impact": 0.016,
       "source_weight": 0.9,
-      "age_hours": 67.76,
+      "age_hours": 70.15,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -870,40 +904,6 @@
       ]
     },
     {
-      "title": "U.S., Iran prepare for peace talks with a gulf separating the two sides",
-      "published": "Sat, 11 Apr 2026 07:26:12 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.011,
-      "raw_impact": -0.014,
-      "source_weight": 0.9,
-      "age_hours": 46.33,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/national-security/2026/04/10/us-iran-peace-talks-ceasefire-pakistan/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/national-security/2026/04/10/us-iran-peace-talks-ceasefire-pakistan/"
-      ]
-    },
-    {
       "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
       "published": "Fri, 10 Apr 2026 21:43:00 GMT",
       "actors": [
@@ -912,10 +912,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.008,
-      "raw_impact": -0.008,
+      "impact": -0.007,
+      "raw_impact": -0.007,
       "source_weight": 1.1,
-      "age_hours": 56.05,
+      "age_hours": 58.43,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -946,10 +946,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.008,
-      "raw_impact": 0.013,
+      "impact": 0.006,
+      "raw_impact": 0.011,
       "source_weight": 0.75,
-      "age_hours": 89.4,
+      "age_hours": 91.79,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -981,10 +981,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.005,
+      "impact": -0.004,
       "raw_impact": -0.004,
       "source_weight": 1.1,
-      "age_hours": 65.76,
+      "age_hours": 68.15,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1015,10 +1015,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.004,
-      "raw_impact": 0.004,
+      "impact": 0.003,
+      "raw_impact": 0.003,
       "source_weight": 1.1,
-      "age_hours": 89.76,
+      "age_hours": 92.15,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1050,10 +1050,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.004,
-      "raw_impact": 0.004,
+      "impact": 0.003,
+      "raw_impact": 0.003,
       "source_weight": 1.1,
-      "age_hours": 89.76,
+      "age_hours": 92.15,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -1088,7 +1088,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 113.76,
+      "age_hours": 116.15,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1123,7 +1123,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 110.4,
+      "age_hours": 112.78,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1157,7 +1157,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 113.76,
+      "age_hours": 116.15,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1191,7 +1191,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 152.75,
+      "age_hours": 155.13,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1225,7 +1225,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 967.01,
+      "age_hours": 969.4,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1259,7 +1259,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 285.25,
+      "age_hours": 287.64,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1294,7 +1294,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 326.24,
+      "age_hours": 328.63,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1329,7 +1329,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 330.88,
+      "age_hours": 333.27,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1488,17 +1488,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 227,
+    "event_count": 226,
     "classified_count": 39,
     "paired_count": 39,
     "valid_pair_updates": 6,
     "top_driver_count": 39,
-    "total_signal": 3.0209,
+    "total_signal": 6.167,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 126,
-      "no_signal": 42,
-      "invalid_pair": 20,
+      "no_actor": 125,
+      "no_signal": 40,
+      "invalid_pair": 22,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
