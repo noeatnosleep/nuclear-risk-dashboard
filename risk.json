@@ -1,55 +1,21 @@
 {
-  "last_updated": "2026-04-13 08:09:03 UTC",
-  "probability": 14.71,
-  "uncertainty": 6.19,
+  "last_updated": "2026-04-13 10:15:11 UTC",
+  "probability": 14.9,
+  "uncertainty": 6.22,
   "state": {
-    "us_russia": 3.3810223274507836,
-    "us_china": 2.9999998563995134,
-    "china_taiwan": 3.9999999712799026,
+    "us_russia": 3.329574715448328,
+    "us_china": 3.1728251947562,
+    "china_taiwan": 4.03456503895124,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.63333333333333,
-    "iran_israel": 5.680976389895311,
+    "iran_us": 5.633333333333332,
+    "iran_israel": 6.127393707131884,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.474585868188322
+    "russia_ukraine": 6.043983949646022
   },
   "top_drivers": [
-    {
-      "title": "Trump attacks Pope over criticism of Iran war",
-      "published": "Mon, 13 Apr 2026 07:40:14 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 1.0,
-      "raw_impact": 1.25,
-      "source_weight": 1.0,
-      "age_hours": 0.48,
-      "confidence": 0.97,
-      "signal_total": 2.1,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cp841y07w5xo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cp841y07w5xo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
     {
       "title": "\u2018Terrible for foreign policy\u2019: Trump attacks Pope Leo after peace appeal",
       "published": "Mon, 13 Apr 2026 05:42:51 +0000",
@@ -62,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 2.44,
+      "age_hours": 4.54,
       "confidence": 0.97,
       "signal_total": 2.1,
       "signal_components": {
@@ -85,6 +51,40 @@
       ]
     },
     {
+      "title": "Trump calls Pope Leo 'terrible' in public attack after pontiff's anti-war message",
+      "published": "Mon, 13 Apr 2026 06:33:11 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.9,
+      "raw_impact": 1.25,
+      "source_weight": 0.9,
+      "age_hours": 3.7,
+      "confidence": 0.97,
+      "signal_total": 2.1,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/americas/20260413-trump-calls-pope-leo-terrible-in-public-attack-after-pontiff-s-anti-war-message",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/americas/20260413-trump-calls-pope-leo-terrible-in-public-attack-after-pontiff-s-anti-war-message"
+      ]
+    },
+    {
       "title": "Trump lashes out at Pope Leo for criticism of Iran war",
       "published": "Mon, 13 Apr 2026 07:54:41 GMT",
       "actors": [
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.852,
-      "raw_impact": 1.184,
+      "impact": 0.754,
+      "raw_impact": 1.048,
       "source_weight": 0.9,
-      "age_hours": 0.24,
+      "age_hours": 2.34,
       "confidence": 0.87,
       "signal_total": 1.2,
       "signal_components": {
@@ -119,6 +119,41 @@
       ]
     },
     {
+      "title": "Trump orders blockade of Hormuz strait after Iran talks fail",
+      "published": "Mon, 13 Apr 2026 09:33:54 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.65,
+      "raw_impact": 0.903,
+      "source_weight": 0.9,
+      "age_hours": 0.69,
+      "confidence": 0.756,
+      "signal_total": 0.94,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.06,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260413-trump-orders-blockade-of-hormuz-strait-after-iran-talks-fail",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260413-trump-orders-blockade-of-hormuz-strait-after-iran-talks-fail"
+      ]
+    },
+    {
       "title": "In Pakistan Talks, Iran Saw a U.S. Trying to Dictate, Not Negotiate",
       "published": "Sun, 12 Apr 2026 23:43:14 +0000",
       "actors": [
@@ -127,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.498,
-      "raw_impact": 0.553,
+      "impact": 0.441,
+      "raw_impact": 0.49,
       "source_weight": 0.9,
-      "age_hours": 8.43,
+      "age_hours": 10.53,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -153,41 +188,6 @@
       ]
     },
     {
-      "title": "Russia\u2013Ukraine Easter truce expires amid mutual accusations of violations",
-      "published": "Mon, 13 Apr 2026 00:18:23 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.372,
-      "raw_impact": 0.413,
-      "source_weight": 0.9,
-      "age_hours": 7.84,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/europe/20260413-russia%E2%80%93ukraine-easter-truce-expires-amid-mutual-accusations-of-violations",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/europe/20260413-russia%E2%80%93ukraine-easter-truce-expires-amid-mutual-accusations-of-violations"
-      ]
-    },
-    {
       "title": "Ukraine and Russia accuse each other of hundreds of ceasefire violations",
       "published": "Sun, 12 Apr 2026 11:53:37 GMT",
       "actors": [
@@ -196,10 +196,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.202,
-      "raw_impact": 0.202,
+      "impact": 0.179,
+      "raw_impact": 0.179,
       "source_weight": 1.0,
-      "age_hours": 20.26,
+      "age_hours": 22.36,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -231,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.195,
-      "raw_impact": 0.255,
+      "impact": 0.173,
+      "raw_impact": 0.226,
       "source_weight": 0.9,
-      "age_hours": 0.35,
+      "age_hours": 2.45,
       "confidence": 0.54,
       "signal_total": 0.26,
       "signal_components": {
@@ -258,53 +258,19 @@
       ]
     },
     {
-      "title": "Oil back above $100 as US to blockade Iranian ports after peace talks fail",
-      "published": "Mon, 13 Apr 2026 05:24:51 GMT",
+      "title": "Oil surge as Trump says to blockade Hormuz after Iran talks fail",
+      "published": "Mon, 13 Apr 2026 10:08:03 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.154,
-      "raw_impact": -0.171,
-      "source_weight": 1.0,
-      "age_hours": 2.74,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cn781z4lgg4o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cn781z4lgg4o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "title": "Middle East war live: Iran says US naval blockade of Hormuz 'illegal' and 'piracy'",
-      "published": "Mon, 13 Apr 2026 02:11:43 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.115,
-      "raw_impact": -0.142,
+      "impact": -0.161,
+      "raw_impact": -0.199,
       "source_weight": 0.9,
-      "age_hours": 5.96,
-      "confidence": 0.68,
+      "age_hours": 0.12,
+      "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -314,7 +280,7 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/middle-east/20260413-middle-east-war-live-trump-announces-blockade-of-strait-of-hormuz-on-monday",
+      "link": "https://www.france24.com/en/video/20260413-oil-surge-as-trump-says-to-blockade-hormuz-after-iran-talks-fail",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -322,41 +288,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260413-middle-east-war-live-trump-announces-blockade-of-strait-of-hormuz-on-monday"
-      ]
-    },
-    {
-      "title": "Trump orders naval blockade of Strait of Hormuz after failed US-Iran talks",
-      "published": "Sun, 12 Apr 2026 22:57:39 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.118,
-      "source_weight": 0.9,
-      "age_hours": 9.19,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260412-trump-orders-naval-blockade-of-strait-of-hormuz",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260412-trump-orders-naval-blockade-of-strait-of-hormuz"
+        "https://www.france24.com/en/video/20260413-oil-surge-as-trump-says-to-blockade-hormuz-after-iran-talks-fail"
       ]
     },
     {
@@ -368,10 +300,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.094,
-      "raw_impact": -0.115,
+      "impact": -0.083,
+      "raw_impact": -0.102,
       "source_weight": 0.9,
-      "age_hours": 9.51,
+      "age_hours": 11.62,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -402,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.084,
-      "raw_impact": -0.109,
+      "impact": -0.074,
+      "raw_impact": -0.096,
       "source_weight": 0.85,
-      "age_hours": 10.53,
+      "age_hours": 12.63,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -428,40 +360,6 @@
       ]
     },
     {
-      "title": "Lebanese govt politically present, operationally absent': PM accuses Israel of violating int'l law'",
-      "published": "Sun, 12 Apr 2026 18:27:20 GMT",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "deescalation",
-      "impact": -0.074,
-      "raw_impact": -0.091,
-      "source_weight": 0.9,
-      "age_hours": 13.7,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/lebanese-govt-politically-present-operationally-absent-pm-accuses-israel-of-violating-int-l-law",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/lebanese-govt-politically-present-operationally-absent-pm-accuses-israel-of-violating-int-l-law"
-      ]
-    },
-    {
       "title": "The \u2018Islamabad Peace Talks\u2019 Are Over. What Now for Pakistan?",
       "published": "Sun, 12 Apr 2026 17:01:52 +0000",
       "actors": [
@@ -470,10 +368,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.068,
-      "raw_impact": -0.084,
+      "impact": -0.06,
+      "raw_impact": -0.074,
       "source_weight": 0.9,
-      "age_hours": 15.12,
+      "age_hours": 17.22,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -497,7 +395,7 @@
     },
     {
       "title": "Iran War Live Updates: Oil Climbs Back Above $100 as U.S. Plans Hormuz Blockade",
-      "published": "Mon, 13 Apr 2026 07:39:57 +0000",
+      "published": "Mon, 13 Apr 2026 10:06:03 +0000",
       "actors": [
         "iran",
         "us"
@@ -505,9 +403,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.044,
-      "raw_impact": 0.194,
+      "raw_impact": 0.198,
       "source_weight": 0.9,
-      "age_hours": 0.49,
+      "age_hours": 0.15,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -530,6 +428,108 @@
       ]
     },
     {
+      "title": "Trump move to blockade Hormuz risks complicating ties with China",
+      "published": "Mon, 13 Apr 2026 09:32:56 GMT",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.7,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260413-trump-move-to-blockade-hormuz-risks-complicating-ties-with-china",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260413-trump-move-to-blockade-hormuz-risks-complicating-ties-with-china"
+      ]
+    },
+    {
+      "title": "What Iran is saying about US plan to blockade ports",
+      "published": "Mon, 13 Apr 2026 08:54:22 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.185,
+      "source_weight": 0.9,
+      "age_hours": 1.35,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/13/what-iran-is-saying-about-us-plan-to-blockade-ports?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/13/what-iran-is-saying-about-us-plan-to-blockade-ports?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Live: Pope Leo XIV begins landmark Algeria visit on first leg of Africa tour",
+      "published": "Mon, 13 Apr 2026 09:01:15 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.186,
+      "source_weight": 0.9,
+      "age_hours": 1.23,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/africa/20260413-pope-leo-xiv-begins-landmark-algeria-visit-on-first-leg-of-africa-tour",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/africa/20260413-pope-leo-xiv-begins-landmark-algeria-visit-on-first-leg-of-africa-tour"
+      ]
+    },
+    {
       "title": "Iran war: What is happening on day 45 of the US-Iran conflict?",
       "published": "Mon, 13 Apr 2026 07:30:10 +0000",
       "actors": [
@@ -538,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.193,
+      "impact": 0.038,
+      "raw_impact": 0.171,
       "source_weight": 0.9,
-      "age_hours": 0.65,
+      "age_hours": 2.75,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -564,41 +564,7 @@
       ]
     },
     {
-      "title": "Iran executed 'at least 1,639 people' in 2025, highest number since 1989",
-      "published": "Mon, 13 Apr 2026 04:09:13 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.159,
-      "source_weight": 0.9,
-      "age_hours": 4.0,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260413-iran-executed-at-least-1-639-people-in-2025-highest-number-since-1989",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260413-iran-executed-at-least-1-639-people-in-2025-highest-number-since-1989"
-      ]
-    },
-    {
-      "title": "Trump lambasts Pope Leo XIV, extending feud over Iran war with American pontiff",
+      "title": "Pope Leo says he does not fear Trump, as he pushes back in feud over Iran war",
       "published": "Mon, 13 Apr 2026 00:11:53 -0400",
       "actors": [
         "iran",
@@ -606,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.159,
+      "impact": 0.03,
+      "raw_impact": 0.141,
       "source_weight": 0.85,
-      "age_hours": 3.95,
+      "age_hours": 6.06,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.032,
-      "raw_impact": -0.04,
+      "impact": -0.029,
+      "raw_impact": -0.035,
       "source_weight": 0.9,
-      "age_hours": 28.06,
+      "age_hours": 30.16,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -674,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.129,
+      "impact": 0.026,
+      "raw_impact": 0.114,
       "source_weight": 0.9,
-      "age_hours": 7.62,
+      "age_hours": 9.72,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -708,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.125,
+      "impact": 0.025,
+      "raw_impact": 0.111,
       "source_weight": 0.9,
-      "age_hours": 8.15,
+      "age_hours": 10.25,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -734,40 +700,6 @@
       ]
     },
     {
-      "title": "What\u2019s next for the US-Iran peace process after talks end without a deal?",
-      "published": "Sun, 12 Apr 2026 20:19:05 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.101,
-      "source_weight": 0.9,
-      "age_hours": 11.83,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/12/whats-next-for-the-us-iran-peace-process-after-talks-end-without-a-deal?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/12/whats-next-for-the-us-iran-peace-process-after-talks-end-without-a-deal?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Amid the Iran war, Ukraine makes gains against the Kremlin",
       "published": "Sun, 12 Apr 2026 17:37:20 -0400",
       "actors": [
@@ -776,10 +708,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.109,
+      "impact": 0.021,
+      "raw_impact": 0.096,
       "source_weight": 0.85,
-      "age_hours": 10.53,
+      "age_hours": 12.63,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,10 +742,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.109,
+      "impact": 0.021,
+      "raw_impact": 0.096,
       "source_weight": 0.85,
-      "age_hours": 10.53,
+      "age_hours": 12.63,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,10 +776,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.094,
+      "impact": 0.019,
+      "raw_impact": 0.083,
       "source_weight": 0.9,
-      "age_hours": 13.04,
+      "age_hours": 15.14,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -870,40 +802,6 @@
       ]
     },
     {
-      "title": "Trump \u2018reaping bitter fruit\u2019 of thinking Iran intervention as easy as Venezuela, says former diplomat",
-      "published": "Fri, 10 Apr 2026 10:00:16 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.014,
-      "raw_impact": 0.016,
-      "source_weight": 0.9,
-      "age_hours": 70.15,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/world/2026/apr/10/trump-iran-intervention-easy-as-venezuela-maduro-capture-john-feeley",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/world/2026/apr/10/trump-iran-intervention-easy-as-venezuela-maduro-capture-john-feeley"
-      ]
-    },
-    {
       "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
       "published": "Fri, 10 Apr 2026 21:43:00 GMT",
       "actors": [
@@ -912,10 +810,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.007,
-      "raw_impact": -0.007,
+      "impact": -0.006,
+      "raw_impact": -0.006,
       "source_weight": 1.1,
-      "age_hours": 58.43,
+      "age_hours": 60.54,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -947,9 +845,9 @@
       "state_key": "us_russia",
       "class": "strategic",
       "impact": 0.006,
-      "raw_impact": 0.011,
+      "raw_impact": 0.01,
       "source_weight": 0.75,
-      "age_hours": 91.79,
+      "age_hours": 93.89,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -982,9 +880,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.004,
-      "raw_impact": -0.004,
+      "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 68.15,
+      "age_hours": 70.25,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1018,7 +916,7 @@
       "impact": 0.003,
       "raw_impact": 0.003,
       "source_weight": 1.1,
-      "age_hours": 92.15,
+      "age_hours": 94.25,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1053,7 +951,7 @@
       "impact": 0.003,
       "raw_impact": 0.003,
       "source_weight": 1.1,
-      "age_hours": 92.15,
+      "age_hours": 94.25,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -1088,7 +986,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 116.15,
+      "age_hours": 118.25,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1123,7 +1021,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 112.78,
+      "age_hours": 114.89,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1157,7 +1055,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 116.15,
+      "age_hours": 118.25,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1191,7 +1089,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 155.13,
+      "age_hours": 157.24,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1225,7 +1123,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 969.4,
+      "age_hours": 971.5,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1259,7 +1157,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 287.64,
+      "age_hours": 289.74,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1294,7 +1192,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 328.63,
+      "age_hours": 330.73,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1329,7 +1227,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 333.27,
+      "age_hours": 335.37,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1488,17 +1386,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 226,
-    "classified_count": 39,
-    "paired_count": 39,
+    "event_count": 224,
+    "classified_count": 36,
+    "paired_count": 36,
     "valid_pair_updates": 6,
-    "top_driver_count": 39,
-    "total_signal": 6.167,
+    "top_driver_count": 36,
+    "total_signal": 6.9115,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 125,
-      "no_signal": 40,
-      "invalid_pair": 22,
+      "no_actor": 120,
+      "no_signal": 44,
+      "invalid_pair": 24,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
