@@ -1,56 +1,21 @@
 {
-  "last_updated": "2026-04-13 21:56:55 UTC",
-  "probability": 13.68,
-  "uncertainty": 6.24,
+  "last_updated": "2026-04-13 22:51:52 UTC",
+  "probability": 13.71,
+  "uncertainty": 6.2,
   "state": {
-    "us_russia": 3.2289493341408924,
-    "us_china": 3.05210509367354,
-    "china_taiwan": 4.010421018734709,
+    "us_russia": 3.2373773850064396,
+    "us_china": 3.0276808357130145,
+    "china_taiwan": 4.005536167142604,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 5.840694205324347,
+    "iran_israel": 5.839937077293218,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.2020674216060225
+    "russia_ukraine": 5.2918755103045685
   },
   "top_drivers": [
-    {
-      "title": "Australia news live: Labor to boost spending on military drones; suspected crocodile remains found on Adelaide roadside",
-      "published": "Mon, 13 Apr 2026 21:38:05 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.9,
-      "raw_impact": 1.25,
-      "source_weight": 0.9,
-      "age_hours": 0.31,
-      "confidence": 0.806,
-      "signal_total": 1.79,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.11,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/australia-news/live/2026/apr/14/australia-news-live-politics-asx-reactions-fuel-crisis-oil-prices-anthony-albanese-labor-angus-taylor-coalition-immigration-policy-ntwnfb",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/australia-news/live/2026/apr/14/australia-news-live-politics-asx-reactions-fuel-crisis-oil-prices-anthony-albanese-labor-angus-taylor-coalition-immigration-policy-ntwnfb"
-      ]
-    },
     {
       "title": "U.S. imposes naval blockade as Trump demands Iran end nuclear program",
       "published": "Mon, 13 Apr 2026 20:48:31 +0000",
@@ -63,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 1.14,
+      "age_hours": 2.06,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -87,6 +52,41 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: Iran Proposes Suspending Nuclear Activity for Up to 5 Years",
+      "published": "Mon, 13 Apr 2026 22:43:41 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.671,
+      "raw_impact": 0.933,
+      "source_weight": 0.9,
+      "age_hours": 0.14,
+      "confidence": 0.746,
+      "signal_total": 0.94,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.06,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/13/world/iran-war-trump-news",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/13/world/iran-war-trump-news"
+      ]
+    },
+    {
       "title": "MIDDLE EAST LIVE 13 April: US-Iran talks falter; Strait of Hormuz uncertainty deepens",
       "published": "Mon, 13 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -95,10 +95,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.557,
-      "raw_impact": 0.507,
+      "impact": 0.529,
+      "raw_impact": 0.481,
       "source_weight": 1.1,
-      "age_hours": 9.95,
+      "age_hours": 10.86,
       "confidence": 0.92,
       "signal_total": 0.9,
       "signal_components": {
@@ -129,10 +129,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.152,
-      "raw_impact": -0.188,
+      "impact": -0.144,
+      "raw_impact": -0.178,
       "source_weight": 0.9,
-      "age_hours": 1.07,
+      "age_hours": 1.99,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -163,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.112,
-      "raw_impact": -0.113,
+      "impact": -0.105,
+      "raw_impact": -0.107,
       "source_weight": 1.1,
-      "age_hours": 9.95,
+      "age_hours": 10.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -197,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.089,
-      "raw_impact": -0.112,
+      "impact": -0.085,
+      "raw_impact": -0.106,
       "source_weight": 0.85,
-      "age_hours": 10.01,
+      "age_hours": 10.92,
       "confidence": 0.695,
       "signal_total": -0.2,
       "signal_components": {
@@ -232,10 +232,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.071,
-      "raw_impact": -0.093,
+      "impact": -0.068,
+      "raw_impact": -0.089,
       "source_weight": 0.85,
-      "age_hours": 13.19,
+      "age_hours": 14.11,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -258,40 +258,6 @@
       ]
     },
     {
-      "title": "Former U.S. special envoy on where U.S. and Iran stand after failed negotiations",
-      "published": "Mon, 13 Apr 2026 04:45:18 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.071,
-      "raw_impact": -0.093,
-      "source_weight": 0.85,
-      "age_hours": 13.19,
-      "confidence": 0.665,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5780993/former-us-special-envoy-on-where-us-and-iran-stand-after-failed-negotiations",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/13/nx-s1-5780993/former-us-special-envoy-on-where-us-and-iran-stand-after-failed-negotiations"
-      ]
-    },
-    {
       "title": "Hungary's next PM would pick up if Putin calls and tell him to stop Ukraine war",
       "published": "Mon, 13 Apr 2026 21:28:14 GMT",
       "actors": [
@@ -300,10 +266,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.049,
-      "raw_impact": 0.195,
+      "impact": 0.046,
+      "raw_impact": 0.185,
       "source_weight": 1.0,
-      "age_hours": 0.48,
+      "age_hours": 1.39,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -326,19 +292,19 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Trump and Iran Trade Threats on First Day of Blockade",
-      "published": "Mon, 13 Apr 2026 21:48:24 +0000",
+      "title": "Energy prices rise despite Jones Act suspension by Trump",
+      "published": "Mon, 13 Apr 2026 22:17:07 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.198,
+      "impact": 0.043,
+      "raw_impact": 0.193,
       "source_weight": 0.9,
-      "age_hours": 0.14,
-      "confidence": 0.67,
+      "age_hours": 0.58,
+      "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -348,15 +314,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/13/world/iran-war-trump-news",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.aljazeera.com/economy/2026/4/13/energy-prices-rise-despite-jones-act-suspension-by-trump?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/13/world/iran-war-trump-news"
+        "https://www.aljazeera.com/economy/2026/4/13/energy-prices-rise-despite-jones-act-suspension-by-trump?traffic_source=rss"
       ]
     },
     {
@@ -368,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.196,
+      "impact": 0.042,
+      "raw_impact": 0.186,
       "source_weight": 0.9,
-      "age_hours": 0.31,
+      "age_hours": 1.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -402,10 +368,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.19,
+      "impact": 0.041,
+      "raw_impact": 0.18,
       "source_weight": 0.9,
-      "age_hours": 0.89,
+      "age_hours": 1.81,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -436,10 +402,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.042,
-      "raw_impact": -0.052,
+      "impact": -0.04,
+      "raw_impact": -0.049,
       "source_weight": 0.9,
-      "age_hours": 23.31,
+      "age_hours": 24.23,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -470,10 +436,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.19,
+      "impact": 0.038,
+      "raw_impact": 0.18,
       "source_weight": 0.85,
-      "age_hours": 0.93,
+      "age_hours": 1.84,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -504,10 +470,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.138,
+      "impact": 0.033,
+      "raw_impact": 0.13,
       "source_weight": 1.0,
-      "age_hours": 6.49,
+      "age_hours": 7.4,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -538,10 +504,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.153,
+      "impact": 0.033,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 4.69,
+      "age_hours": 5.6,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -572,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.139,
+      "impact": 0.03,
+      "raw_impact": 0.132,
       "source_weight": 0.9,
-      "age_hours": 6.25,
+      "age_hours": 7.17,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -606,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.134,
+      "impact": 0.029,
+      "raw_impact": 0.127,
       "source_weight": 0.9,
-      "age_hours": 6.93,
+      "age_hours": 7.85,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -632,40 +598,6 @@
       ]
     },
     {
-      "title": "US says to blockade Iran ports: What could be the consequences?",
-      "published": "Mon, 13 Apr 2026 14:56:48 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.133,
-      "source_weight": 0.9,
-      "age_hours": 7.0,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260413-us-says-to-blockade-iran-ports-what-could-be-the-consequences",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260413-us-says-to-blockade-iran-ports-what-could-be-the-consequences"
-      ]
-    },
-    {
       "title": "Pope Leo brushes off Trump criticism amid growing Vatican\u2013U.S. tensions over Iran war",
       "published": "Mon, 13 Apr 2026 06:43:31 -0400",
       "actors": [
@@ -674,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.105,
+      "impact": 0.021,
+      "raw_impact": 0.099,
       "source_weight": 0.85,
-      "age_hours": 11.22,
+      "age_hours": 12.14,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -708,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.014,
-      "raw_impact": -0.018,
+      "impact": -0.013,
+      "raw_impact": -0.017,
       "source_weight": 0.9,
-      "age_hours": 41.86,
+      "age_hours": 42.78,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -745,7 +677,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 72.23,
+      "age_hours": 73.15,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -779,7 +711,7 @@
       "impact": 0.003,
       "raw_impact": 0.005,
       "source_weight": 0.75,
-      "age_hours": 105.59,
+      "age_hours": 106.5,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -814,7 +746,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 81.95,
+      "age_hours": 82.86,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -845,10 +777,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.002,
+      "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 105.95,
+      "age_hours": 106.86,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -880,10 +812,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.002,
+      "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 105.95,
+      "age_hours": 106.86,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -918,7 +850,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 129.95,
+      "age_hours": 130.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -952,7 +884,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 126.58,
+      "age_hours": 127.5,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -986,7 +918,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 168.93,
+      "age_hours": 169.85,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1020,7 +952,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 983.2,
+      "age_hours": 984.12,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1054,7 +986,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 301.44,
+      "age_hours": 302.35,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1089,7 +1021,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 342.43,
+      "age_hours": 343.34,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1124,7 +1056,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 347.07,
+      "age_hours": 347.98,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1239,6 +1171,11 @@
       "domain": "feeds.washingtonpost.com"
     },
     {
+      "name": "www.aljazeera.com",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "domain": "www.aljazeera.com"
+    },
+    {
       "name": "www.defense.gov",
       "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
       "domain": "www.defense.gov"
@@ -1262,11 +1199,6 @@
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
-    },
-    {
-      "name": "www.theguardian.com",
-      "url": "https://www.theguardian.com/world/rss",
-      "domain": "www.theguardian.com"
     }
   ],
   "driver_sort_default": "chronological",
@@ -1278,17 +1210,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 228,
-    "classified_count": 34,
-    "paired_count": 34,
+    "event_count": 229,
+    "classified_count": 32,
+    "paired_count": 32,
     "valid_pair_updates": 5,
-    "top_driver_count": 33,
-    "total_signal": 4.4462,
+    "top_driver_count": 31,
+    "total_signal": 3.9727,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 116,
-      "no_signal": 52,
-      "invalid_pair": 26,
+      "no_actor": 121,
+      "no_signal": 51,
+      "invalid_pair": 25,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
