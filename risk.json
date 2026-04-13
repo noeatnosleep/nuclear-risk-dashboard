@@ -1,24 +1,24 @@
 {
-  "last_updated": "2026-04-13 15:17:38 UTC",
-  "probability": 15.09,
-  "uncertainty": 6.31,
+  "last_updated": "2026-04-13 16:43:17 UTC",
+  "probability": 14.63,
+  "uncertainty": 6.24,
   "state": {
-    "us_russia": 3.2321026831351003,
-    "us_china": 3.550444857043257,
-    "china_taiwan": 4.1100889714086515,
+    "us_russia": 3.2221099777117117,
+    "us_china": 3.4244184180051014,
+    "china_taiwan": 4.084883683601021,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 6.466656710483622,
+    "iran_israel": 6.289382403576237,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.177606081617832
+    "russia_ukraine": 5.094353230859474
   },
   "top_drivers": [
     {
       "title": "U.S. naval blockade taking effect as Trump demands Iran end nuclear program",
-      "published": "Mon, 13 Apr 2026 14:00:36 +0000",
+      "published": "Mon, 13 Apr 2026 16:27:41 +0000",
       "actors": [
         "iran",
         "us"
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 1.28,
+      "age_hours": 0.26,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -52,6 +52,41 @@
       ]
     },
     {
+      "title": "Israel presses assault on Lebanon border town ahead of US-hosted talks",
+      "published": "Mon, 13 Apr 2026 14:52:47 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.874,
+      "raw_impact": 0.971,
+      "source_weight": 0.9,
+      "age_hours": 1.84,
+      "confidence": 0.781,
+      "signal_total": 1.08,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.12,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260413-israel-presses-assault-on-lebanon-border-town-ahead-of-us-hosted-talks",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260413-israel-presses-assault-on-lebanon-border-town-ahead-of-us-hosted-talks"
+      ]
+    },
+    {
       "title": "MIDDLE EAST LIVE 13 April: US-Iran talks falter; Strait of Hormuz uncertainty deepens",
       "published": "Mon, 13 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -60,10 +95,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.818,
-      "raw_impact": 0.744,
+      "impact": 0.754,
+      "raw_impact": 0.685,
       "source_weight": 1.1,
-      "age_hours": 3.29,
+      "age_hours": 4.72,
       "confidence": 0.92,
       "signal_total": 0.9,
       "signal_components": {
@@ -86,41 +121,6 @@
       ]
     },
     {
-      "title": "Trump orders blockade of Hormuz strait after Iran talks fail",
-      "published": "Mon, 13 Apr 2026 09:33:54 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.486,
-      "raw_impact": 0.675,
-      "source_weight": 0.9,
-      "age_hours": 5.73,
-      "confidence": 0.756,
-      "signal_total": 0.94,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.06,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260413-trump-orders-blockade-of-hormuz-strait-after-iran-talks-fail",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260413-trump-orders-blockade-of-hormuz-strait-after-iran-talks-fail"
-      ]
-    },
-    {
       "title": "Trump signals US naval blockade of Strait of Hormuz has begun",
       "published": "Mon, 13 Apr 2026 14:41:09 GMT",
       "actors": [
@@ -129,10 +129,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.369,
-      "raw_impact": 0.483,
+      "impact": 0.34,
+      "raw_impact": 0.445,
       "source_weight": 0.9,
-      "age_hours": 0.61,
+      "age_hours": 2.04,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -155,40 +155,6 @@
       ]
     },
     {
-      "title": "Netanyahu\u00a0in southern\u00a0Lebanon: A first since the start of the war",
-      "published": "Mon, 13 Apr 2026 09:50:47 GMT",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "movement",
-      "impact": 0.28,
-      "raw_impact": 0.365,
-      "source_weight": 0.9,
-      "age_hours": 5.45,
-      "confidence": 0.73,
-      "signal_total": 0.5,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260413-prime-minister-netanyahu-in-south-lebanon-says-threat-of-invasion-removed",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260413-prime-minister-netanyahu-in-south-lebanon-says-threat-of-invasion-removed"
-      ]
-    },
-    {
       "title": "Trump\u2019s threat to blockade Hormuz: Why it\u2019s the latest major escalation",
       "published": "Mon, 13 Apr 2026 14:14:35 +0000",
       "actors": [
@@ -197,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.152,
-      "raw_impact": -0.188,
+      "impact": -0.14,
+      "raw_impact": -0.173,
       "source_weight": 0.9,
-      "age_hours": 1.05,
+      "age_hours": 2.48,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -231,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.185,
+      "impact": -0.138,
+      "raw_impact": -0.17,
       "source_weight": 0.9,
-      "age_hours": 1.38,
+      "age_hours": 2.81,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -265,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.132,
-      "raw_impact": -0.165,
+      "impact": -0.121,
+      "raw_impact": -0.152,
       "source_weight": 0.85,
-      "age_hours": 3.35,
+      "age_hours": 4.78,
       "confidence": 0.695,
       "signal_total": -0.2,
       "signal_components": {
@@ -292,74 +258,6 @@
       ]
     },
     {
-      "title": "Oil surge as Trump says to blockade Hormuz after Iran talks fail",
-      "published": "Mon, 13 Apr 2026 10:08:03 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.121,
-      "raw_impact": -0.148,
-      "source_weight": 0.9,
-      "age_hours": 5.16,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260413-oil-surge-as-trump-says-to-blockade-hormuz-after-iran-talks-fail",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260413-oil-surge-as-trump-says-to-blockade-hormuz-after-iran-talks-fail"
-      ]
-    },
-    {
-      "title": "The U.S. military is about to block ships from Iran's ports after talks failed",
-      "published": "Mon, 13 Apr 2026 07:03:13 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.12,
-      "raw_impact": -0.157,
-      "source_weight": 0.85,
-      "age_hours": 4.24,
-      "confidence": 0.665,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
-      ]
-    },
-    {
       "title": "Oil prices surge after U.S.-Iran peace talks break down",
       "published": "Mon, 13 Apr 2026 04:45:21 -0400",
       "actors": [
@@ -368,10 +266,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.105,
-      "raw_impact": -0.137,
+      "impact": -0.096,
+      "raw_impact": -0.126,
       "source_weight": 0.85,
-      "age_hours": 6.54,
+      "age_hours": 7.97,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -402,10 +300,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.105,
-      "raw_impact": -0.137,
+      "impact": -0.096,
+      "raw_impact": -0.126,
       "source_weight": 0.85,
-      "age_hours": 6.54,
+      "age_hours": 7.97,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -436,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.062,
-      "raw_impact": -0.076,
+      "impact": -0.057,
+      "raw_impact": -0.07,
       "source_weight": 0.9,
-      "age_hours": 16.66,
+      "age_hours": 18.09,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -462,8 +360,42 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Deadline Passes for U.S. Blockade in Strait of Hormuz",
-      "published": "Mon, 13 Apr 2026 15:13:18 +0000",
+      "title": "The US blockade of Iran is a gamble. Will it work?",
+      "published": "Mon, 13 Apr 2026 15:27:43 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.046,
+      "raw_impact": 0.186,
+      "source_weight": 1.0,
+      "age_hours": 1.26,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/ckgw8w7mzxgo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/ckgw8w7mzxgo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "Iran War Live Updates: U.S. Begins Blockade of Strait of Hormuz",
+      "published": "Mon, 13 Apr 2026 16:35:30 +0000",
       "actors": [
         "iran",
         "us"
@@ -473,7 +405,7 @@
       "impact": 0.045,
       "raw_impact": 0.199,
       "source_weight": 0.9,
-      "age_hours": 0.07,
+      "age_hours": 0.13,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -496,8 +428,8 @@
       ]
     },
     {
-      "title": "Trump says Iranian ships will be \u2018eliminated\u2019 as US naval blockade begins",
-      "published": "Mon, 13 Apr 2026 14:36:46 +0000",
+      "title": "Deadline passes for US blockade of Hormuz, Iran threatens to retaliate against Gulf neighbours",
+      "published": "Mon, 13 Apr 2026 15:41:44 GMT",
       "actors": [
         "iran",
         "us"
@@ -505,9 +437,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.043,
-      "raw_impact": 0.192,
+      "raw_impact": 0.188,
       "source_weight": 0.9,
-      "age_hours": 0.68,
+      "age_hours": 1.03,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -518,15 +450,117 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/2026/4/13/trump-says-iranian-ships-will-be-eliminated-as-us-naval-blockade-begins?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.france24.com/en/video/20260413-deadline-passes-for-us-blockade-of-hormuz-iran-threatens-to-retaliate-against-gulf-neighbours",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/13/trump-says-iranian-ships-will-be-eliminated-as-us-naval-blockade-begins?traffic_source=rss"
+        "https://www.france24.com/en/video/20260413-deadline-passes-for-us-blockade-of-hormuz-iran-threatens-to-retaliate-against-gulf-neighbours"
+      ]
+    },
+    {
+      "title": "Mediators pursue Iran-US deal in back-channel diplomacy",
+      "published": "Mon, 13 Apr 2026 15:37:58 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.188,
+      "source_weight": 0.9,
+      "age_hours": 1.09,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/be392d6d-3db3-4062-90ce-26f28fcf3f93",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/be392d6d-3db3-4062-90ce-26f28fcf3f93"
+      ]
+    },
+    {
+      "title": "US-Vatican feud over Iran: Pope Leo pushes back on Trump's criticism",
+      "published": "Mon, 13 Apr 2026 15:00:54 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.181,
+      "source_weight": 0.9,
+      "age_hours": 1.71,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260413-us-vatican-feud-over-iran-pope-leo-pushes-back-on-trump-s-criticism",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260413-us-vatican-feud-over-iran-pope-leo-pushes-back-on-trump-s-criticism"
+      ]
+    },
+    {
+      "title": "US says to blockade Iran ports: What could be the consequences?",
+      "published": "Mon, 13 Apr 2026 14:56:48 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.181,
+      "source_weight": 0.9,
+      "age_hours": 1.77,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260413-us-says-to-blockade-iran-ports-what-could-be-the-consequences",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260413-us-says-to-blockade-iran-ports-what-could-be-the-consequences"
       ]
     },
     {
@@ -538,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.184,
+      "impact": 0.038,
+      "raw_impact": 0.17,
       "source_weight": 0.9,
-      "age_hours": 1.4,
+      "age_hours": 2.83,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -572,10 +606,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.159,
+      "impact": 0.033,
+      "raw_impact": 0.147,
       "source_weight": 0.9,
-      "age_hours": 3.94,
+      "age_hours": 5.37,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -606,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.155,
+      "impact": 0.032,
+      "raw_impact": 0.143,
       "source_weight": 0.9,
-      "age_hours": 4.42,
+      "age_hours": 5.85,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -632,109 +666,7 @@
       ]
     },
     {
-      "title": "REPLAY: Pope Leo XIV delivers remarks as he opens trip in Algeria",
-      "published": "Mon, 13 Apr 2026 10:46:42 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.154,
-      "source_weight": 0.9,
-      "age_hours": 4.52,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260413-replay-pope-leo-xiv-delivers-remarks-as-he-opens-trip-in-algeria",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260413-replay-pope-leo-xiv-delivers-remarks-as-he-opens-trip-in-algeria"
-      ]
-    },
-    {
-      "title": "Pope Leo says has 'no intention to debate' with Trump",
-      "published": "Mon, 13 Apr 2026 10:39:02 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.153,
-      "source_weight": 0.9,
-      "age_hours": 4.64,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260413-pope-leo-says-has-no-intention-to-debate-with-trump",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260413-pope-leo-says-has-no-intention-to-debate-with-trump"
-      ]
-    },
-    {
-      "title": "US blockade of Iran would worsen global energy crisis, analysts say",
-      "published": "Mon, 13 Apr 2026 09:52:16 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.146,
-      "source_weight": 0.9,
-      "age_hours": 5.42,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/13/us-blockade-of-iran-would-worsen-global-energy-crisis-analysts-say?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/13/us-blockade-of-iran-would-worsen-global-energy-crisis-analysts-say?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Pope Leo stands firm with Trump as Vatican\u2013Washington rift deepens over Iran war",
+      "title": "Pope Leo brushes off Trump criticism amid growing Vatican\u2013U.S. tensions over Iran war",
       "published": "Mon, 13 Apr 2026 06:43:31 -0400",
       "actors": [
         "iran",
@@ -742,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.154,
+      "impact": 0.03,
+      "raw_impact": 0.141,
       "source_weight": 0.85,
-      "age_hours": 4.57,
+      "age_hours": 6.0,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -756,7 +688,7 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5780996/pope-leo-begins-tour-across-africa-as-row-with-trump-over-iran-war-intensifies",
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5780996/pope-leo-begins-tour-across-africa-row-with-trump-iran-war",
       "source": "https://feeds.npr.org/1004/rss.xml",
       "source_domain": "feeds.npr.org",
       "corroboration_count": 1,
@@ -764,75 +696,7 @@
         "feeds.npr.org"
       ],
       "cluster_links": [
-        "https://www.npr.org/2026/04/13/nx-s1-5780996/pope-leo-begins-tour-across-africa-as-row-with-trump-over-iran-war-intensifies"
-      ]
-    },
-    {
-      "title": "Trump move to blockade Hormuz risks complicating ties with China",
-      "published": "Mon, 13 Apr 2026 09:32:56 GMT",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.144,
-      "source_weight": 0.9,
-      "age_hours": 5.74,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260413-trump-move-to-blockade-hormuz-risks-complicating-ties-with-china",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260413-trump-move-to-blockade-hormuz-risks-complicating-ties-with-china"
-      ]
-    },
-    {
-      "title": "What Iran is saying about US plan to blockade ports",
-      "published": "Mon, 13 Apr 2026 08:54:22 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.138,
-      "source_weight": 0.9,
-      "age_hours": 6.39,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/13/what-iran-is-saying-about-us-plan-to-blockade-ports?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/13/what-iran-is-saying-about-us-plan-to-blockade-ports?traffic_source=rss"
+        "https://www.npr.org/2026/04/13/nx-s1-5780996/pope-leo-begins-tour-across-africa-row-with-trump-iran-war"
       ]
     },
     {
@@ -844,10 +708,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.022,
-      "raw_impact": -0.026,
+      "impact": -0.02,
+      "raw_impact": -0.024,
       "source_weight": 0.9,
-      "age_hours": 35.21,
+      "age_hours": 36.63,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -879,9 +743,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.005,
-      "raw_impact": -0.005,
+      "raw_impact": -0.004,
       "source_weight": 1.1,
-      "age_hours": 65.58,
+      "age_hours": 67.0,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -915,7 +779,7 @@
       "impact": 0.004,
       "raw_impact": 0.007,
       "source_weight": 0.75,
-      "age_hours": 98.93,
+      "age_hours": 100.36,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -948,9 +812,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.003,
-      "raw_impact": -0.003,
+      "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 75.29,
+      "age_hours": 76.72,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -984,7 +848,7 @@
       "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 99.29,
+      "age_hours": 100.72,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1019,7 +883,7 @@
       "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 99.29,
+      "age_hours": 100.72,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -1052,9 +916,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.001,
-      "raw_impact": 0.001,
+      "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 123.29,
+      "age_hours": 124.72,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1078,40 +942,6 @@
       ]
     },
     {
-      "title": "Leaders Praise Troops Who Rescued Downed Airmen in Iran",
-      "published": "Wed, 08 Apr 2026 15:22:00 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.001,
-      "raw_impact": 0.0,
-      "source_weight": 1.1,
-      "age_hours": 119.93,
-      "confidence": 0.75,
-      "signal_total": 0.5,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.war.gov/News/News-Stories/Article/Article/4454212/leaders-praise-troops-who-rescued-downed-airmen-in-iran/",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "source_domain": "www.defense.gov",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.defense.gov"
-      ],
-      "cluster_links": [
-        "https://www.war.gov/News/News-Stories/Article/Article/4454212/leaders-praise-troops-who-rescued-downed-airmen-in-iran/"
-      ]
-    },
-    {
       "title": "Iran ceasefire raises hopes for reopening key Strait of Hormuz",
       "published": "Wed, 08 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -1123,7 +953,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 123.29,
+      "age_hours": 124.72,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1146,6 +976,40 @@
       ]
     },
     {
+      "title": "Leaders Praise Troops Who Rescued Downed Airmen in Iran",
+      "published": "Wed, 08 Apr 2026 15:22:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.0,
+      "raw_impact": 0.0,
+      "source_weight": 1.1,
+      "age_hours": 121.35,
+      "confidence": 0.75,
+      "signal_total": 0.5,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.war.gov/News/News-Stories/Article/Article/4454212/leaders-praise-troops-who-rescued-downed-airmen-in-iran/",
+      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "source_domain": "www.defense.gov",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.defense.gov"
+      ],
+      "cluster_links": [
+        "https://www.war.gov/News/News-Stories/Article/Article/4454212/leaders-praise-troops-who-rescued-downed-airmen-in-iran/"
+      ]
+    },
+    {
       "title": "Trump, Hegseth, Caine Laud Successful Rescue of Downed Airmen in Iran",
       "published": "Mon, 06 Apr 2026 21:01:00 GMT",
       "actors": [
@@ -1157,7 +1021,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 162.28,
+      "age_hours": 163.7,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1191,7 +1055,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 976.54,
+      "age_hours": 977.97,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1225,7 +1089,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 294.78,
+      "age_hours": 296.21,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1260,7 +1124,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 335.77,
+      "age_hours": 337.2,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1295,7 +1159,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 340.41,
+      "age_hours": 341.84,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1338,6 +1202,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "feeds.bbci.co.uk",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "domain": "feeds.bbci.co.uk"
     },
     {
       "name": "feeds.npr.org",
@@ -1445,15 +1314,15 @@
   ],
   "debug": {
     "event_count": 228,
-    "classified_count": 39,
-    "paired_count": 39,
+    "classified_count": 35,
+    "paired_count": 35,
     "valid_pair_updates": 5,
-    "top_driver_count": 38,
-    "total_signal": 4.3878,
+    "top_driver_count": 34,
+    "total_signal": 4.631,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 111,
-      "no_signal": 51,
+      "no_actor": 119,
+      "no_signal": 47,
       "invalid_pair": 27,
       "low_confidence": 0,
       "classifier_error": 0,
