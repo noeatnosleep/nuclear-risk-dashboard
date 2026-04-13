@@ -1,24 +1,24 @@
 {
-  "last_updated": "2026-04-13 19:48:51 UTC",
-  "probability": 13.86,
-  "uncertainty": 6.17,
+  "last_updated": "2026-04-13 20:58:24 UTC",
+  "probability": 13.55,
+  "uncertainty": 6.16,
   "state": {
-    "us_russia": 3.212951763433522,
-    "us_china": 3.184621480959481,
-    "china_taiwan": 4.036924296191897,
+    "us_russia": 3.210835187409573,
+    "us_china": 3.0980801670010614,
+    "china_taiwan": 4.0196160334002125,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 5.938699557063052,
+    "iran_israel": 5.697098948682203,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.026628988006238
+    "russia_ukraine": 5.014146649878314
   },
   "top_drivers": [
     {
-      "title": "U.S. naval blockade taking effect as Trump demands Iran end nuclear program",
-      "published": "Mon, 13 Apr 2026 16:27:41 +0000",
+      "title": "U.S. imposes naval blockade as Trump demands Iran end nuclear program",
+      "published": "Mon, 13 Apr 2026 20:48:31 +0000",
       "actors": [
         "iran",
         "us"
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 3.35,
+      "age_hours": 0.16,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -52,41 +52,6 @@
       ]
     },
     {
-      "title": "Israel presses assault on Lebanon border town ahead of US-hosted talks",
-      "published": "Mon, 13 Apr 2026 14:52:47 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.731,
-      "raw_impact": 0.812,
-      "source_weight": 0.9,
-      "age_hours": 4.93,
-      "confidence": 0.781,
-      "signal_total": 1.08,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.12,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260413-israel-presses-assault-on-lebanon-border-town-ahead-of-us-hosted-talks",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260413-israel-presses-assault-on-lebanon-border-town-ahead-of-us-hosted-talks"
-      ]
-    },
-    {
       "title": "Israelis war-weary but most oppose Iran ceasefire, poll suggests",
       "published": "Mon, 13 Apr 2026 19:20:08 GMT",
       "actors": [
@@ -95,10 +60,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.632,
-      "raw_impact": 0.632,
+      "impact": 0.591,
+      "raw_impact": 0.591,
       "source_weight": 1.0,
-      "age_hours": 0.48,
+      "age_hours": 1.64,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -130,10 +95,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.63,
-      "raw_impact": 0.573,
+      "impact": 0.59,
+      "raw_impact": 0.536,
       "source_weight": 1.1,
-      "age_hours": 7.81,
+      "age_hours": 8.97,
       "confidence": 0.92,
       "signal_total": 0.9,
       "signal_components": {
@@ -156,8 +121,8 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: U.S. Begins Blockade of Strait of Hormuz",
-      "published": "Mon, 13 Apr 2026 19:45:12 +0000",
+      "title": "Trump vows US will 'eliminate' any Iranian ships defying blockade",
+      "published": "Mon, 13 Apr 2026 20:52:38 GMT",
       "actors": [
         "iran",
         "us"
@@ -167,7 +132,41 @@
       "impact": -0.161,
       "raw_impact": -0.199,
       "source_weight": 0.9,
-      "age_hours": 0.06,
+      "age_hours": 0.1,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260413-trump-vows-us-will-eliminate-any-iranian-ships-defying-blockade",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260413-trump-vows-us-will-eliminate-any-iranian-ships-defying-blockade"
+      ]
+    },
+    {
+      "title": "Iran War Live Updates: U.S. Begins Blockade of Strait of Hormuz",
+      "published": "Mon, 13 Apr 2026 20:14:57 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.156,
+      "raw_impact": -0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.72,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -190,6 +189,40 @@
       ]
     },
     {
+      "title": "US-Iran war: Guterres calls for continued talks, end to ceasefire violations",
+      "published": "Mon, 13 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.118,
+      "raw_impact": -0.119,
+      "source_weight": 1.1,
+      "age_hours": 8.97,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167292",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167292"
+      ]
+    },
+    {
       "title": "Trump says U.S. will blockade Iranian ports. And, Orb\u00e1n loses Hungarian election",
       "published": "Mon, 13 Apr 2026 07:56:36 -0400",
       "actors": [
@@ -198,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.102,
-      "raw_impact": -0.127,
+      "impact": -0.095,
+      "raw_impact": -0.119,
       "source_weight": 0.85,
-      "age_hours": 7.87,
+      "age_hours": 9.03,
       "confidence": 0.695,
       "signal_total": -0.2,
       "signal_components": {
@@ -233,10 +266,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.081,
-      "raw_impact": -0.106,
+      "impact": -0.076,
+      "raw_impact": -0.099,
       "source_weight": 0.85,
-      "age_hours": 11.06,
+      "age_hours": 12.22,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -267,10 +300,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.081,
-      "raw_impact": -0.106,
+      "impact": -0.076,
+      "raw_impact": -0.099,
       "source_weight": 0.85,
-      "age_hours": 11.06,
+      "age_hours": 12.22,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -301,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.048,
-      "raw_impact": -0.059,
+      "impact": -0.045,
+      "raw_impact": -0.055,
       "source_weight": 0.9,
-      "age_hours": 21.18,
+      "age_hours": 22.34,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -335,10 +368,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.156,
+      "impact": 0.036,
+      "raw_impact": 0.145,
       "source_weight": 1.0,
-      "age_hours": 4.35,
+      "age_hours": 5.51,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -369,10 +402,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 2.55,
+      "age_hours": 3.71,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -403,10 +436,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.158,
+      "impact": 0.033,
+      "raw_impact": 0.147,
       "source_weight": 0.9,
-      "age_hours": 4.12,
+      "age_hours": 5.28,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -437,10 +470,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.152,
+      "impact": 0.032,
+      "raw_impact": 0.142,
       "source_weight": 0.9,
-      "age_hours": 4.8,
+      "age_hours": 5.96,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -471,10 +504,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.151,
+      "impact": 0.032,
+      "raw_impact": 0.141,
       "source_weight": 0.9,
-      "age_hours": 4.87,
+      "age_hours": 6.03,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -505,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.118,
+      "impact": 0.024,
+      "raw_impact": 0.111,
       "source_weight": 0.85,
-      "age_hours": 9.09,
+      "age_hours": 10.25,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -539,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.016,
-      "raw_impact": -0.02,
+      "impact": -0.015,
+      "raw_impact": -0.019,
       "source_weight": 0.9,
-      "age_hours": 39.73,
+      "age_hours": 40.88,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -576,7 +609,7 @@
       "impact": -0.004,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 70.1,
+      "age_hours": 71.26,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -608,9 +641,9 @@
       "state_key": "us_russia",
       "class": "strategic",
       "impact": 0.003,
-      "raw_impact": 0.006,
+      "raw_impact": 0.005,
       "source_weight": 0.75,
-      "age_hours": 103.45,
+      "age_hours": 104.61,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -645,7 +678,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 79.81,
+      "age_hours": 80.97,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -679,7 +712,7 @@
       "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 103.81,
+      "age_hours": 104.97,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -714,7 +747,7 @@
       "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 103.81,
+      "age_hours": 104.97,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -749,7 +782,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 127.81,
+      "age_hours": 128.97,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -772,41 +805,6 @@
       ]
     },
     {
-      "title": "MIDDLE EAST LIVE 8 April: US-Iran ceasefire announced; strikes continue in Lebanon",
-      "published": "Wed, 08 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.0,
-      "raw_impact": 0.0,
-      "source_weight": 1.1,
-      "age_hours": 127.81,
-      "confidence": 0.718,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167264",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167264"
-      ]
-    },
-    {
       "title": "Leaders Praise Troops Who Rescued Downed Airmen in Iran",
       "published": "Wed, 08 Apr 2026 15:22:00 GMT",
       "actors": [
@@ -818,7 +816,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 124.45,
+      "age_hours": 125.61,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -852,7 +850,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 166.8,
+      "age_hours": 167.96,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -886,7 +884,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 981.07,
+      "age_hours": 982.22,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -920,7 +918,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 299.3,
+      "age_hours": 300.46,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -955,7 +953,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 340.29,
+      "age_hours": 341.45,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -990,7 +988,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 344.93,
+      "age_hours": 346.09,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1139,12 +1137,12 @@
     "paired_count": 30,
     "valid_pair_updates": 5,
     "top_driver_count": 29,
-    "total_signal": 3.969,
+    "total_signal": 2.6007,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 124,
-      "no_signal": 49,
-      "invalid_pair": 25,
+      "no_actor": 119,
+      "no_signal": 53,
+      "invalid_pair": 26,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
