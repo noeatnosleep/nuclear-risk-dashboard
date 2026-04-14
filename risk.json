@@ -1,21 +1,125 @@
 {
-  "last_updated": "2026-04-14 07:08:46 UTC",
-  "probability": 16.27,
-  "uncertainty": 5.93,
+  "last_updated": "2026-04-14 09:05:50 UTC",
+  "probability": 17.76,
+  "uncertainty": 5.94,
   "state": {
-    "us_russia": 3.232664296710765,
-    "us_china": 4.002204832720922,
-    "china_taiwan": 4.29434142913915,
+    "us_russia": 3.229534004894015,
+    "us_china": 4.53242131738299,
+    "china_taiwan": 4.491260277414692,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 6.241989509211867,
+    "iran_israel": 6.266848642840253,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.2722741518020335
+    "russia_ukraine": 5.2468248621858375
   },
   "top_drivers": [
+    {
+      "title": "US naval blockade begins as Trump vows will destroy Iran boats that approach",
+      "published": "Tue, 14 Apr 2026 08:50:33 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.798,
+      "raw_impact": 0.887,
+      "source_weight": 0.9,
+      "age_hours": 0.25,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260414-us-naval-blockade-begins-as-trump-vows-will-destroy-iran-boats-that-approach",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260414-us-naval-blockade-begins-as-trump-vows-will-destroy-iran-boats-that-approach"
+      ]
+    },
+    {
+      "title": "Europe should fill the diplomatic vacuum on Iran",
+      "published": "Tue, 14 Apr 2026 08:26:54 +0000",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "strategic",
+      "impact": 0.75,
+      "raw_impact": 1.25,
+      "source_weight": 0.75,
+      "age_hours": 0.65,
+      "confidence": 0.798,
+      "signal_total": 1.62,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.9,
+        "movement": 0.5,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.18,
+        "deescalation_verified": 1.0
+      },
+      "link": "https://www.iss.europa.eu/publications/commentary/europe-should-fill-diplomatic-vacuum-iran",
+      "source": "https://www.iss.europa.eu/rss.xml",
+      "source_domain": "www.iss.europa.eu",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.iss.europa.eu"
+      ],
+      "cluster_links": [
+        "https://www.iss.europa.eu/publications/commentary/europe-should-fill-diplomatic-vacuum-iran"
+      ]
+    },
+    {
+      "title": "Iran Proposes Suspending Nuclear Activity for Up to 5 Years",
+      "published": "Tue, 14 Apr 2026 08:19:10 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.647,
+      "raw_impact": 0.899,
+      "source_weight": 0.9,
+      "age_hours": 0.78,
+      "confidence": 0.746,
+      "signal_total": 0.94,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.06,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/13/world/iran-war-trump-news",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/13/world/iran-war-trump-news"
+      ]
+    },
     {
       "title": "JD Vance takes on \u2018poisoned chalice\u2019 of Trump\u2019s foreign policy missions",
       "published": "Tue, 14 Apr 2026 04:00:24 GMT",
@@ -25,10 +129,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.721,
-      "raw_impact": 1.001,
+      "impact": 0.644,
+      "raw_impact": 0.894,
       "source_weight": 0.9,
-      "age_hours": 3.14,
+      "age_hours": 5.09,
       "confidence": 0.87,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.71,
-      "raw_impact": 0.985,
+      "impact": 0.634,
+      "raw_impact": 0.88,
       "source_weight": 0.9,
-      "age_hours": 10.34,
+      "age_hours": 12.29,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -94,10 +198,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.696,
-      "raw_impact": 0.773,
+      "impact": 0.622,
+      "raw_impact": 0.691,
       "source_weight": 0.9,
-      "age_hours": 2.63,
+      "age_hours": 4.58,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -120,75 +224,6 @@
       ]
     },
     {
-      "title": "Middle East war live: US-sanctioned tanker passes Strait of Hormuz despite Trump's blockade",
-      "published": "Tue, 14 Apr 2026 01:22:08 GMT",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "strategic",
-      "impact": 0.619,
-      "raw_impact": 0.86,
-      "source_weight": 0.9,
-      "age_hours": 5.78,
-      "confidence": 0.96,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260414-middle-east-war-live-trump-says-us-military-has-blockaded-iranian-ports-to-pressure-tehran",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260414-middle-east-war-live-trump-says-us-military-has-blockaded-iranian-ports-to-pressure-tehran"
-      ]
-    },
-    {
-      "title": "Iran Proposes Suspending Nuclear Activity for Up to 5 Years",
-      "published": "Tue, 14 Apr 2026 04:48:11 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.591,
-      "raw_impact": 0.821,
-      "source_weight": 0.9,
-      "age_hours": 2.34,
-      "confidence": 0.746,
-      "signal_total": 0.94,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.06,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/13/world/iran-war-trump-news",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/13/world/iran-war-trump-news"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 13 April: US-Iran talks falter; Strait of Hormuz uncertainty deepens",
       "published": "Mon, 13 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -197,10 +232,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.328,
-      "raw_impact": 0.298,
+      "impact": 0.293,
+      "raw_impact": 0.266,
       "source_weight": 1.1,
-      "age_hours": 19.15,
+      "age_hours": 21.1,
       "confidence": 0.92,
       "signal_total": 0.9,
       "signal_components": {
@@ -231,10 +266,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.089,
-      "raw_impact": -0.111,
+      "impact": -0.08,
+      "raw_impact": -0.099,
       "source_weight": 0.9,
-      "age_hours": 10.27,
+      "age_hours": 12.22,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -265,10 +300,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.066,
-      "raw_impact": -0.066,
+      "impact": -0.059,
+      "raw_impact": -0.059,
       "source_weight": 1.1,
-      "age_hours": 19.15,
+      "age_hours": 21.1,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,11 +334,11 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.052,
-      "raw_impact": -0.066,
+      "impact": -0.045,
+      "raw_impact": -0.059,
       "source_weight": 0.85,
-      "age_hours": 19.2,
-      "confidence": 0.695,
+      "age_hours": 21.15,
+      "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -316,13 +351,46 @@
       "link": "https://www.npr.org/2026/04/13/g-s1-117236/trump-says-u-s-will-blockade-iranian-ports-and-orban-loses-hungarian-election",
       "source": "https://feeds.npr.org/1004/rss.xml",
       "source_domain": "feeds.npr.org",
-      "corroboration_count": 2,
+      "corroboration_count": 1,
       "cluster_sources": [
         "feeds.npr.org"
       ],
       "cluster_links": [
-        "https://www.npr.org/2026/04/13/g-s1-117236/trump-says-u-s-will-blockade-iranian-ports-and-orban-loses-hungarian-election",
-        "https://www.npr.org/2026/04/13/nx-s1-5782654/trump-says-us-will-blockade-iranian-ports-after-peace-talks-fail"
+        "https://www.npr.org/2026/04/13/g-s1-117236/trump-says-u-s-will-blockade-iranian-ports-and-orban-loses-hungarian-election"
+      ]
+    },
+    {
+      "title": "Iran war: What is happening on day 46 of the US-Iran conflict?",
+      "published": "Tue, 14 Apr 2026 06:58:20 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.177,
+      "source_weight": 0.9,
+      "age_hours": 2.13,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/14/iran-war-what-is-happening-on-day-46-of-the-us-iran-conflict?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/14/iran-war-what-is-happening-on-day-46-of-the-us-iran-conflict?traffic_source=rss"
       ]
     },
     {
@@ -334,10 +402,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.185,
+      "impact": 0.037,
+      "raw_impact": 0.165,
       "source_weight": 0.9,
-      "age_hours": 1.36,
+      "age_hours": 3.31,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -368,10 +436,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.172,
+      "impact": 0.035,
+      "raw_impact": 0.154,
       "source_weight": 0.9,
-      "age_hours": 2.6,
+      "age_hours": 4.55,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -402,10 +470,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.167,
+      "impact": 0.034,
+      "raw_impact": 0.149,
       "source_weight": 0.9,
-      "age_hours": 3.14,
+      "age_hours": 5.09,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -428,6 +496,40 @@
       ]
     },
     {
+      "title": "Middle East war live: China says US blockade of Iran ports 'dangerous and irresponsible'",
+      "published": "Tue, 14 Apr 2026 01:22:08 GMT",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.029,
+      "raw_impact": 0.128,
+      "source_weight": 0.9,
+      "age_hours": 7.73,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260414-middle-east-war-live-trump-says-us-military-has-blockaded-iranian-ports-to-pressure-tehran",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260414-middle-east-war-live-trump-says-us-military-has-blockaded-iranian-ports-to-pressure-tehran"
+      ]
+    },
+    {
       "title": "Iran war live: Trump says Tehran wants deal amid US blockade in Hormuz",
       "published": "Tue, 14 Apr 2026 00:00:00 +0000",
       "actors": [
@@ -436,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.132,
+      "impact": 0.026,
+      "raw_impact": 0.118,
       "source_weight": 0.9,
-      "age_hours": 7.15,
+      "age_hours": 9.1,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -470,10 +572,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.114,
+      "impact": 0.025,
+      "raw_impact": 0.102,
       "source_weight": 1.0,
-      "age_hours": 9.68,
+      "age_hours": 11.63,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -504,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.12,
+      "impact": 0.024,
+      "raw_impact": 0.107,
       "source_weight": 0.9,
-      "age_hours": 8.86,
+      "age_hours": 10.81,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -530,40 +632,6 @@
       ]
     },
     {
-      "title": "What the U.S. Blockade of Iran and the Strait of Hormuz Might Look Like",
-      "published": "Mon, 13 Apr 2026 21:38:13 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.115,
-      "source_weight": 0.9,
-      "age_hours": 9.51,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/13/us/politics/strait-of-hormuz-blockade-iran-trump.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/13/us/politics/strait-of-hormuz-blockade-iran-trump.html"
-      ]
-    },
-    {
       "title": "Trump announces naval blockade of Iran after Islamabad talks yield no deal",
       "published": "Sun, 12 Apr 2026 22:38:11 +0000",
       "actors": [
@@ -572,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.025,
-      "raw_impact": -0.031,
+      "impact": -0.023,
+      "raw_impact": -0.027,
       "source_weight": 0.9,
-      "age_hours": 32.51,
+      "age_hours": 34.46,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -606,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.111,
+      "impact": 0.021,
+      "raw_impact": 0.1,
       "source_weight": 0.85,
-      "age_hours": 10.12,
+      "age_hours": 12.07,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,10 +708,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.09,
+      "impact": 0.018,
+      "raw_impact": 0.08,
       "source_weight": 0.9,
-      "age_hours": 13.88,
+      "age_hours": 15.83,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -666,74 +734,6 @@
       ]
     },
     {
-      "title": "Deadline passes for US blockade of Hormuz, Iran threatens to retaliate against Gulf neighbours",
-      "published": "Mon, 13 Apr 2026 15:41:44 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.082,
-      "source_weight": 0.9,
-      "age_hours": 15.45,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260413-deadline-passes-for-us-blockade-of-hormuz-iran-threatens-to-retaliate-against-gulf-neighbours",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260413-deadline-passes-for-us-blockade-of-hormuz-iran-threatens-to-retaliate-against-gulf-neighbours"
-      ]
-    },
-    {
-      "title": "Pope Leo brushes off Trump criticism amid growing Vatican\u2013U.S. tensions over Iran war",
-      "published": "Mon, 13 Apr 2026 06:43:31 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.061,
-      "source_weight": 0.85,
-      "age_hours": 20.42,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5780996/pope-leo-begins-tour-across-africa-row-with-trump-iran-war",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/13/nx-s1-5780996/pope-leo-begins-tour-across-africa-row-with-trump-iran-war"
-      ]
-    },
-    {
       "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
       "published": "Fri, 10 Apr 2026 21:43:00 GMT",
       "actors": [
@@ -745,7 +745,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 81.43,
+      "age_hours": 83.38,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -779,7 +779,7 @@
       "impact": 0.002,
       "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 114.79,
+      "age_hours": 116.74,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -814,7 +814,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 91.15,
+      "age_hours": 93.1,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -848,7 +848,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 115.15,
+      "age_hours": 117.1,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -883,7 +883,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 115.15,
+      "age_hours": 117.1,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -918,7 +918,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 139.15,
+      "age_hours": 141.1,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -952,7 +952,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 135.78,
+      "age_hours": 137.73,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -986,7 +986,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 178.13,
+      "age_hours": 180.08,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1020,7 +1020,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 992.4,
+      "age_hours": 994.35,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1054,7 +1054,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 310.64,
+      "age_hours": 312.59,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1089,7 +1089,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 351.62,
+      "age_hours": 353.57,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1124,7 +1124,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 356.26,
+      "age_hours": 358.21,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1279,16 +1279,16 @@
   ],
   "debug": {
     "event_count": 229,
-    "classified_count": 34,
-    "paired_count": 34,
+    "classified_count": 33,
+    "paired_count": 33,
     "valid_pair_updates": 6,
     "top_driver_count": 33,
-    "total_signal": 6.2697,
+    "total_signal": 7.1722,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 117,
-      "no_signal": 49,
-      "invalid_pair": 29,
+      "no_actor": 116,
+      "no_signal": 45,
+      "invalid_pair": 35,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
