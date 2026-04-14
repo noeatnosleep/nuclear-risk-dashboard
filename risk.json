@@ -1,55 +1,21 @@
 {
-  "last_updated": "2026-04-14 05:29:03 UTC",
-  "probability": 13.92,
-  "uncertainty": 6.06,
+  "last_updated": "2026-04-14 07:08:46 UTC",
+  "probability": 16.27,
+  "uncertainty": 5.93,
   "state": {
-    "us_russia": 3.2358213310278763,
-    "us_china": 3.0041502733570304,
-    "china_taiwan": 4.000830054671406,
+    "us_russia": 3.232664296710765,
+    "us_china": 4.002204832720922,
+    "china_taiwan": 4.29434142913915,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 6.405456379546518,
+    "iran_israel": 6.241989509211867,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.297234235204701
+    "russia_ukraine": 5.2722741518020335
   },
   "top_drivers": [
-    {
-      "title": "NSW promises more fast chargers and electric trucks in revamped EV policy",
-      "published": "Tue, 14 Apr 2026 04:19:14 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.808,
-      "raw_impact": 1.122,
-      "source_weight": 0.9,
-      "age_hours": 1.16,
-      "confidence": 0.88,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/australia-news/2026/apr/14/minns-promises-more-fast-chargers-and-electric-trucks-in-revamped-ev-policy",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/australia-news/2026/apr/14/minns-promises-more-fast-chargers-and-electric-trucks-in-revamped-ev-policy"
-      ]
-    },
     {
       "title": "JD Vance takes on \u2018poisoned chalice\u2019 of Trump\u2019s foreign policy missions",
       "published": "Tue, 14 Apr 2026 04:00:24 GMT",
@@ -59,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.794,
-      "raw_impact": 1.102,
+      "impact": 0.721,
+      "raw_impact": 1.001,
       "source_weight": 0.9,
-      "age_hours": 1.48,
+      "age_hours": 3.14,
       "confidence": 0.87,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.781,
-      "raw_impact": 1.084,
+      "impact": 0.71,
+      "raw_impact": 0.985,
       "source_weight": 0.9,
-      "age_hours": 8.68,
+      "age_hours": 10.34,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -120,6 +86,74 @@
       ]
     },
     {
+      "title": "China\u2019s Xi warns Iran conflict leaves world \u2018beset by disarray\u2019",
+      "published": "Tue, 14 Apr 2026 04:31:08 GMT",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "action",
+      "impact": 0.696,
+      "raw_impact": 0.773,
+      "source_weight": 0.9,
+      "age_hours": 2.63,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/bb8bf4c4-2643-4935-9872-5949d3ac3eb1",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/bb8bf4c4-2643-4935-9872-5949d3ac3eb1"
+      ]
+    },
+    {
+      "title": "Middle East war live: US-sanctioned tanker passes Strait of Hormuz despite Trump's blockade",
+      "published": "Tue, 14 Apr 2026 01:22:08 GMT",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "strategic",
+      "impact": 0.619,
+      "raw_impact": 0.86,
+      "source_weight": 0.9,
+      "age_hours": 5.78,
+      "confidence": 0.96,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260414-middle-east-war-live-trump-says-us-military-has-blockaded-iranian-ports-to-pressure-tehran",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260414-middle-east-war-live-trump-says-us-military-has-blockaded-iranian-ports-to-pressure-tehran"
+      ]
+    },
+    {
       "title": "Iran Proposes Suspending Nuclear Activity for Up to 5 Years",
       "published": "Tue, 14 Apr 2026 04:48:11 +0000",
       "actors": [
@@ -128,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.65,
-      "raw_impact": 0.904,
+      "impact": 0.591,
+      "raw_impact": 0.821,
       "source_weight": 0.9,
-      "age_hours": 0.68,
+      "age_hours": 2.34,
       "confidence": 0.746,
       "signal_total": 0.94,
       "signal_components": {
@@ -163,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.361,
-      "raw_impact": 0.328,
+      "impact": 0.328,
+      "raw_impact": 0.298,
       "source_weight": 1.1,
-      "age_hours": 17.48,
+      "age_hours": 19.15,
       "confidence": 0.92,
       "signal_total": 0.9,
       "signal_components": {
@@ -189,108 +223,6 @@
       ]
     },
     {
-      "title": "Israel summons Italy's ambassador over comments on 'unacceptable attacks' on Lebanon",
-      "published": "Mon, 13 Apr 2026 18:21:06 +0200",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.358,
-      "raw_impact": 0.421,
-      "source_weight": 0.85,
-      "age_hours": 13.13,
-      "confidence": 0.895,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "http://www.euronews.com/2026/04/13/israel-summons-italys-ambassador-over-comments-on-unacceptable-attacks-on-lebanon",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.euronews.com"
-      ],
-      "cluster_links": [
-        "http://www.euronews.com/2026/04/13/israel-summons-italys-ambassador-over-comments-on-unacceptable-attacks-on-lebanon"
-      ]
-    },
-    {
-      "title": "US blockade of Iranian ports comes into effect as Trump threatens to destroy 'attack ships'",
-      "published": "Mon, 13 Apr 2026 17:27:28 +0200",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.34,
-      "raw_impact": 0.4,
-      "source_weight": 0.85,
-      "age_hours": 14.03,
-      "confidence": 0.885,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "http://www.euronews.com/2026/04/13/us-blockade-of-iranian-ports-come-into-effect-as-trump-threatens-to-destroy-attack-ships",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.euronews.com"
-      ],
-      "cluster_links": [
-        "http://www.euronews.com/2026/04/13/us-blockade-of-iranian-ports-come-into-effect-as-trump-threatens-to-destroy-attack-ships"
-      ]
-    },
-    {
-      "title": "Trump says the US military has begun its blockade of Iranian ports to ramp up pressure on Tehran",
-      "published": "Tue, 14 Apr 2026 05:33:52 +0200",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.137,
-      "raw_impact": -0.179,
-      "source_weight": 0.85,
-      "age_hours": 1.92,
-      "confidence": 0.745,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "http://www.euronews.com/2026/04/14/trump-says-the-us-military-has-begun-its-blockade-of-iranian-ports-to-ramp-up-pressure-on-",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.euronews.com"
-      ],
-      "cluster_links": [
-        "http://www.euronews.com/2026/04/14/trump-says-the-us-military-has-begun-its-blockade-of-iranian-ports-to-ramp-up-pressure-on-"
-      ]
-    },
-    {
       "title": "Trump vows US will 'eliminate' any Iranian ships defying blockade",
       "published": "Mon, 13 Apr 2026 20:52:38 GMT",
       "actors": [
@@ -299,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.098,
-      "raw_impact": -0.122,
+      "impact": -0.089,
+      "raw_impact": -0.111,
       "source_weight": 0.9,
-      "age_hours": 8.61,
+      "age_hours": 10.27,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -333,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.072,
-      "raw_impact": -0.073,
+      "impact": -0.066,
+      "raw_impact": -0.066,
       "source_weight": 1.1,
-      "age_hours": 17.48,
+      "age_hours": 19.15,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -367,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.058,
-      "raw_impact": -0.073,
+      "impact": -0.052,
+      "raw_impact": -0.066,
       "source_weight": 0.85,
-      "age_hours": 17.54,
+      "age_hours": 19.2,
       "confidence": 0.695,
       "signal_total": -0.2,
       "signal_components": {
@@ -394,37 +326,37 @@
       ]
     },
     {
-      "title": "Oil prices surge after U.S.-Iran peace talks break down",
-      "published": "Mon, 13 Apr 2026 04:45:21 -0400",
+      "title": "Asia\u2019s stock markets surge, oil falls on hopes for US-Iran talks",
+      "published": "Tue, 14 Apr 2026 05:47:01 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.046,
-      "raw_impact": -0.06,
-      "source_weight": 0.85,
-      "age_hours": 20.73,
-      "confidence": 0.665,
-      "signal_total": -0.2,
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.185,
+      "source_weight": 0.9,
+      "age_hours": 1.36,
+      "confidence": 0.67,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5781260/oil-prices-surge-after-us-iran-peace-talks-break-down",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
+      "link": "https://www.aljazeera.com/economy/2026/4/14/asias-stock-markets-surge-oil-falls-on-hopes-for-us-iran-talks?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.npr.org"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.npr.org/2026/04/13/nx-s1-5781260/oil-prices-surge-after-us-iran-peace-talks-break-down"
+        "https://www.aljazeera.com/economy/2026/4/14/asias-stock-markets-surge-oil-falls-on-hopes-for-us-iran-talks?traffic_source=rss"
       ]
     },
     {
@@ -436,10 +368,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.189,
+      "impact": 0.039,
+      "raw_impact": 0.172,
       "source_weight": 0.9,
-      "age_hours": 0.93,
+      "age_hours": 2.6,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -462,40 +394,6 @@
       ]
     },
     {
-      "title": "Oil price retreats amid reports of renewed Iran-US talks",
-      "published": "Tue, 14 Apr 2026 04:31:08 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.189,
-      "source_weight": 0.9,
-      "age_hours": 0.97,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/bb8bf4c4-2643-4935-9872-5949d3ac3eb1",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/bb8bf4c4-2643-4935-9872-5949d3ac3eb1"
-      ]
-    },
-    {
       "title": "Corporate America set to deliver bumper earnings despite Iran war",
       "published": "Tue, 14 Apr 2026 04:00:15 GMT",
       "actors": [
@@ -504,10 +402,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.184,
+      "impact": 0.037,
+      "raw_impact": 0.167,
       "source_weight": 0.9,
-      "age_hours": 1.48,
+      "age_hours": 3.14,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -538,10 +436,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.146,
+      "impact": 0.03,
+      "raw_impact": 0.132,
       "source_weight": 0.9,
-      "age_hours": 5.48,
+      "age_hours": 7.15,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -572,10 +470,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.126,
+      "impact": 0.029,
+      "raw_impact": 0.114,
       "source_weight": 1.0,
-      "age_hours": 8.01,
+      "age_hours": 9.68,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -606,10 +504,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.132,
+      "impact": 0.027,
+      "raw_impact": 0.12,
       "source_weight": 0.9,
-      "age_hours": 7.2,
+      "age_hours": 8.86,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.127,
+      "impact": 0.026,
+      "raw_impact": 0.115,
       "source_weight": 0.9,
-      "age_hours": 7.85,
+      "age_hours": 9.51,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -674,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.027,
-      "raw_impact": -0.034,
+      "impact": -0.025,
+      "raw_impact": -0.031,
       "source_weight": 0.9,
-      "age_hours": 30.85,
+      "age_hours": 32.51,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -708,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.123,
+      "impact": 0.024,
+      "raw_impact": 0.111,
       "source_weight": 0.85,
-      "age_hours": 8.46,
+      "age_hours": 10.12,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -734,40 +632,6 @@
       ]
     },
     {
-      "title": "Hezbollah official says group will not abide by any agreements from Lebanon-Israel talks",
-      "published": "Mon, 13 Apr 2026 21:18:21 +0200",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.111,
-      "source_weight": 0.85,
-      "age_hours": 10.18,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "http://www.euronews.com/2026/04/13/hezbollah-official-says-group-will-not-abide-by-any-agreements-from-lebanon-israel-talks",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.euronews.com"
-      ],
-      "cluster_links": [
-        "http://www.euronews.com/2026/04/13/hezbollah-official-says-group-will-not-abide-by-any-agreements-from-lebanon-israel-talks"
-      ]
-    },
-    {
       "title": "To Open the Strait of Hormuz, Trump Wants to Blockade Iran. Experts Are Skeptical.",
       "published": "Mon, 13 Apr 2026 17:15:47 +0000",
       "actors": [
@@ -776,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.099,
+      "impact": 0.02,
+      "raw_impact": 0.09,
       "source_weight": 0.9,
-      "age_hours": 12.22,
+      "age_hours": 13.88,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.09,
+      "impact": 0.018,
+      "raw_impact": 0.082,
       "source_weight": 0.9,
-      "age_hours": 13.79,
+      "age_hours": 15.45,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -836,74 +700,6 @@
       ]
     },
     {
-      "title": "Israel needs to stop encouraging settler violence, Palestinian FM says",
-      "published": "Mon, 13 Apr 2026 18:02:17 +0200",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.092,
-      "source_weight": 0.85,
-      "age_hours": 13.45,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "http://www.euronews.com/my-europe/2026/04/13/israel-needs-to-stop-encouraging-settler-violence-palestinian-fm-says",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.euronews.com"
-      ],
-      "cluster_links": [
-        "http://www.euronews.com/my-europe/2026/04/13/israel-needs-to-stop-encouraging-settler-violence-palestinian-fm-says"
-      ]
-    },
-    {
-      "title": "Pope Leo XIV says he has 'no fear' of Trump administration",
-      "published": "Mon, 13 Apr 2026 16:30:45 +0200",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.084,
-      "source_weight": 0.85,
-      "age_hours": 14.97,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "http://www.euronews.com/video/2026/04/13/pope-leo-says-has-no-fear-of-trump-administration",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.euronews.com"
-      ],
-      "cluster_links": [
-        "http://www.euronews.com/video/2026/04/13/pope-leo-says-has-no-fear-of-trump-administration"
-      ]
-    },
-    {
       "title": "Pope Leo brushes off Trump criticism amid growing Vatican\u2013U.S. tensions over Iran war",
       "published": "Mon, 13 Apr 2026 06:43:31 -0400",
       "actors": [
@@ -912,10 +708,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.068,
+      "impact": 0.013,
+      "raw_impact": 0.061,
       "source_weight": 0.85,
-      "age_hours": 18.76,
+      "age_hours": 20.42,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -949,7 +745,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 79.77,
+      "age_hours": 81.43,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -983,7 +779,7 @@
       "impact": 0.002,
       "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 113.12,
+      "age_hours": 114.79,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1018,7 +814,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 89.48,
+      "age_hours": 91.15,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1052,7 +848,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 113.48,
+      "age_hours": 115.15,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -1087,7 +883,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 113.48,
+      "age_hours": 115.15,
       "confidence": 0.708,
       "signal_total": 0.65,
       "signal_components": {
@@ -1122,7 +918,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 137.48,
+      "age_hours": 139.15,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1156,7 +952,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 134.12,
+      "age_hours": 135.78,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1190,7 +986,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 176.47,
+      "age_hours": 178.13,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1224,7 +1020,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 990.74,
+      "age_hours": 992.4,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1258,7 +1054,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 308.97,
+      "age_hours": 310.64,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1293,7 +1089,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 349.96,
+      "age_hours": 351.62,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1328,7 +1124,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 354.6,
+      "age_hours": 356.26,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1371,11 +1167,6 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
-    },
-    {
-      "name": "euronews_world",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1463,11 +1254,6 @@
       "domain": "www.economist.com"
     },
     {
-      "name": "www.euronews.com",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
-    },
-    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -1481,11 +1267,6 @@
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
-    },
-    {
-      "name": "www.theguardian.com",
-      "url": "https://www.theguardian.com/world/rss",
-      "domain": "www.theguardian.com"
     }
   ],
   "driver_sort_default": "chronological",
@@ -1497,17 +1278,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 249,
-    "classified_count": 40,
-    "paired_count": 40,
-    "valid_pair_updates": 5,
-    "top_driver_count": 39,
-    "total_signal": 7.0091,
+    "event_count": 229,
+    "classified_count": 34,
+    "paired_count": 34,
+    "valid_pair_updates": 6,
+    "top_driver_count": 33,
+    "total_signal": 6.2697,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 121,
-      "no_signal": 58,
-      "invalid_pair": 30,
+      "no_actor": 117,
+      "no_signal": 49,
+      "invalid_pair": 29,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
