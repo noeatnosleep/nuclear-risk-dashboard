@@ -1,34 +1,34 @@
 {
-  "last_updated": "2026-04-14 15:50:20 UTC",
-  "probability": 18.4,
-  "uncertainty": 5.89,
+  "last_updated": "2026-04-14 17:13:12 UTC",
+  "probability": 18.62,
+  "uncertainty": 5.87,
   "state": {
-    "us_russia": 3.2877049263909,
-    "us_china": 4.82749429939269,
-    "china_taiwan": 4.385785801809861,
+    "us_russia": 3.3314112338583035,
+    "us_china": 4.680925396630253,
+    "china_taiwan": 4.346962517227066,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 6.31569797658406,
+    "iran_israel": 6.113492322680857,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.167847418974156
+    "russia_ukraine": 5.925069095426789
   },
   "top_drivers": [
     {
       "title": "Iran War Live Updates: Israel and Lebanon Begin Direct Talks as Strikes Go On",
-      "published": "Tue, 14 Apr 2026 15:47:32 +0000",
+      "published": "Tue, 14 Apr 2026 16:58:51 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.808,
-      "raw_impact": 0.898,
+      "impact": 0.799,
+      "raw_impact": 0.888,
       "source_weight": 0.9,
-      "age_hours": 0.05,
+      "age_hours": 0.24,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,6 +51,40 @@
       ]
     },
     {
+      "title": "Ukraine strikes drone production, military support deal with Germany",
+      "published": "Tue, 14 Apr 2026 16:23:17 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.772,
+      "raw_impact": 0.858,
+      "source_weight": 0.9,
+      "age_hours": 0.83,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/14/ukraine-strikes-drone-production-deal-with-germany?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/14/ukraine-strikes-drone-production-deal-with-germany?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Dinner for few: Australians eating out less as fuel crisis deals biggest blow to consumer confidence since Covid",
       "published": "Tue, 14 Apr 2026 15:00:44 GMT",
       "actors": [
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.772,
-      "raw_impact": 0.858,
+      "impact": 0.713,
+      "raw_impact": 0.792,
       "source_weight": 0.9,
-      "age_hours": 0.83,
+      "age_hours": 2.21,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.634,
-      "raw_impact": 1.057,
+      "impact": 0.586,
+      "raw_impact": 0.976,
       "source_weight": 0.75,
-      "age_hours": 7.39,
+      "age_hours": 8.77,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -120,40 +154,6 @@
       ]
     },
     {
-      "title": "US pushing Iran to agree 20-year moratorium on nuclear activity",
-      "published": "Tue, 14 Apr 2026 10:07:27 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.621,
-      "raw_impact": 0.863,
-      "source_weight": 0.9,
-      "age_hours": 5.71,
-      "confidence": 0.95,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/f73745f8-0a14-4acb-ab2c-4465518a3c63",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/f73745f8-0a14-4acb-ab2c-4465518a3c63"
-      ]
-    },
-    {
       "title": "U.S. imposes naval blockade as Trump demands Iran end nuclear program",
       "published": "Mon, 13 Apr 2026 20:48:31 +0000",
       "actors": [
@@ -162,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.43,
-      "raw_impact": 0.596,
+      "impact": 0.397,
+      "raw_impact": 0.551,
       "source_weight": 0.9,
-      "age_hours": 19.03,
+      "age_hours": 20.41,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -197,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.198,
-      "raw_impact": 0.18,
+      "impact": 0.183,
+      "raw_impact": 0.166,
       "source_weight": 1.1,
-      "age_hours": 27.84,
+      "age_hours": 29.22,
       "confidence": 0.92,
       "signal_total": 0.9,
       "signal_components": {
@@ -231,10 +231,10 @@
       ],
       "state_key": "us_china",
       "class": "deescalation",
-      "impact": -0.165,
-      "raw_impact": -0.183,
+      "impact": -0.152,
+      "raw_impact": -0.169,
       "source_weight": 1.0,
-      "age_hours": 1.54,
+      "age_hours": 2.92,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -257,19 +257,19 @@
       ]
     },
     {
-      "title": "Who wants what from Israel-Lebanon talks?",
-      "published": "Tue, 14 Apr 2026 13:03:51 GMT",
+      "title": "MIDDLE EAST LIVE 14 April: UN chief says US-Iran ceasefire must continue, urges respect for international law",
+      "published": "Tue, 14 Apr 2026 12:00:00 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.138,
-      "raw_impact": -0.17,
-      "source_weight": 0.9,
-      "age_hours": 2.77,
-      "confidence": 0.68,
+      "impact": -0.147,
+      "raw_impact": -0.148,
+      "source_weight": 1.1,
+      "age_hours": 5.22,
+      "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -279,15 +279,49 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/video/20260414-who-wants-what-from-israel-lebanon-talks",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167294",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "news.un.org"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/video/20260414-who-wants-what-from-israel-lebanon-talks"
+        "https://news.un.org/feed/view/en/story/2026/04/1167294"
+      ]
+    },
+    {
+      "title": "Lebanon and Israel hold first direct talks in decades as fighting continues",
+      "published": "Tue, 14 Apr 2026 16:42:47 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.194,
+      "source_weight": 0.9,
+      "age_hours": 0.51,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/0e1c7785-0e3e-4b76-acb6-debaf658637b",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/0e1c7785-0e3e-4b76-acb6-debaf658637b"
       ]
     },
     {
@@ -299,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.197,
+      "impact": 0.041,
+      "raw_impact": 0.182,
       "source_weight": 0.9,
-      "age_hours": 0.25,
+      "age_hours": 1.63,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -325,6 +359,40 @@
       ]
     },
     {
+      "title": "Veteran diplomat offers insights into the war in Iran \u2014 and thoughts on what's next",
+      "published": "Tue, 14 Apr 2026 12:11:09 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.188,
+      "source_weight": 0.85,
+      "age_hours": 1.03,
+      "confidence": 0.665,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/14/nx-s1-5784072/veteran-diplomat-offers-insights-into-the-war-in-iran-and-thoughts-on-whats-next",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/14/nx-s1-5784072/veteran-diplomat-offers-insights-into-the-war-in-iran-and-thoughts-on-whats-next"
+      ]
+    },
+    {
       "title": "State of U.S. Blockade Is Unclear as Some Ships Transit Strait of Hormuz",
       "published": "Tue, 14 Apr 2026 14:54:13 +0000",
       "actors": [
@@ -333,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.189,
+      "impact": 0.039,
+      "raw_impact": 0.175,
       "source_weight": 0.9,
-      "age_hours": 0.94,
+      "age_hours": 2.32,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -367,10 +435,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.177,
+      "impact": 0.037,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 2.12,
+      "age_hours": 3.5,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -401,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.04,
-      "raw_impact": -0.04,
+      "impact": -0.037,
+      "raw_impact": -0.037,
       "source_weight": 1.1,
-      "age_hours": 27.84,
+      "age_hours": 29.22,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -435,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
+      "impact": 0.035,
+      "raw_impact": 0.157,
       "source_weight": 0.9,
-      "age_hours": 2.82,
+      "age_hours": 4.2,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -469,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.179,
+      "impact": 0.035,
+      "raw_impact": 0.166,
       "source_weight": 0.85,
-      "age_hours": 1.89,
+      "age_hours": 3.28,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -503,10 +571,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.171,
+      "impact": 0.035,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 2.68,
+      "age_hours": 4.06,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -537,10 +605,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
+      "impact": 0.035,
+      "raw_impact": 0.157,
       "source_weight": 0.9,
-      "age_hours": 2.84,
+      "age_hours": 4.22,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -563,40 +631,6 @@
       ]
     },
     {
-      "title": "JPMorgan and Citi post bumper profits as Iran war boosts traders",
-      "published": "Tue, 14 Apr 2026 09:35:59 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.139,
-      "source_weight": 0.9,
-      "age_hours": 6.24,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/ec4f0226-993b-42cb-b528-c5cde630adbe",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/ec4f0226-993b-42cb-b528-c5cde630adbe"
-      ]
-    },
-    {
       "title": "Hungary's next PM would pick up if Putin calls and tell him to stop Ukraine war",
       "published": "Mon, 13 Apr 2026 21:28:14 GMT",
       "actors": [
@@ -605,10 +639,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.069,
+      "impact": 0.016,
+      "raw_impact": 0.064,
       "source_weight": 1.0,
-      "age_hours": 18.37,
+      "age_hours": 19.75,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -631,40 +665,6 @@
       ]
     },
     {
-      "title": "Trump announces naval blockade of Iran after Islamabad talks yield no deal",
-      "published": "Sun, 12 Apr 2026 22:38:11 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.015,
-      "raw_impact": -0.019,
-      "source_weight": 0.9,
-      "age_hours": 41.2,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/12/iran-us-talks-ceasefire-vance/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/12/iran-us-talks-ceasefire-vance/"
-      ]
-    },
-    {
       "title": "A U.S. military blockade of Iran's ports takes effect. What does that mean?",
       "published": "Mon, 13 Apr 2026 17:01:25 -0400",
       "actors": [
@@ -673,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.067,
+      "impact": 0.013,
+      "raw_impact": 0.062,
       "source_weight": 0.85,
-      "age_hours": 18.82,
+      "age_hours": 20.2,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -699,6 +699,40 @@
       ]
     },
     {
+      "title": "Trump announces naval blockade of Iran after Islamabad talks yield no deal",
+      "published": "Sun, 12 Apr 2026 22:38:11 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.013,
+      "raw_impact": -0.017,
+      "source_weight": 0.9,
+      "age_hours": 42.58,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/12/iran-us-talks-ceasefire-vance/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/12/iran-us-talks-ceasefire-vance/"
+      ]
+    },
+    {
       "title": "MIDDLE EAST LIVE 10 April: Fear and uncertainty grow in Lebanon as conflict grinds on",
       "published": "Fri, 10 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -710,7 +744,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 99.84,
+      "age_hours": 101.22,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -733,76 +767,6 @@
       ]
     },
     {
-      "title": "Lebanon: Health system overwhelmed following a \u2018horrific\u2019 day of Israeli strikes",
-      "published": "Thu, 09 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.001,
-      "raw_impact": 0.001,
-      "source_weight": 1.1,
-      "age_hours": 123.84,
-      "confidence": 0.718,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167276",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167276"
-      ]
-    },
-    {
-      "title": "MIDDLE EAST LIVE 9 April: UN condemns massive strikes in Lebanon, as concerns grow over ceasefire",
-      "published": "Thu, 09 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.001,
-      "raw_impact": 0.001,
-      "source_weight": 1.1,
-      "age_hours": 123.84,
-      "confidence": 0.708,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167271",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167271"
-      ]
-    },
-    {
       "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
       "published": "Fri, 10 Apr 2026 21:43:00 GMT",
       "actors": [
@@ -814,7 +778,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 90.12,
+      "age_hours": 91.5,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -848,7 +812,7 @@
       "impact": 0.001,
       "raw_impact": 0.002,
       "source_weight": 0.75,
-      "age_hours": 123.48,
+      "age_hours": 124.86,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -883,7 +847,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 144.47,
+      "age_hours": 145.85,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -917,7 +881,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 186.82,
+      "age_hours": 188.2,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -951,7 +915,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1001.09,
+      "age_hours": 1002.47,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -985,7 +949,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 319.33,
+      "age_hours": 320.71,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1020,7 +984,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 360.32,
+      "age_hours": 361.7,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1055,7 +1019,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 364.96,
+      "age_hours": 366.34,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1170,6 +1134,11 @@
       "domain": "feeds.washingtonpost.com"
     },
     {
+      "name": "www.aljazeera.com",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "domain": "www.aljazeera.com"
+    },
+    {
       "name": "www.defense.gov",
       "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
       "domain": "www.defense.gov"
@@ -1210,15 +1179,15 @@
   ],
   "debug": {
     "event_count": 230,
-    "classified_count": 31,
-    "paired_count": 31,
+    "classified_count": 30,
+    "paired_count": 30,
     "valid_pair_updates": 6,
-    "top_driver_count": 31,
-    "total_signal": 5.8239,
+    "top_driver_count": 30,
+    "total_signal": 5.6662,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 108,
-      "no_signal": 53,
+      "no_actor": 110,
+      "no_signal": 52,
       "invalid_pair": 38,
       "low_confidence": 0,
       "classifier_error": 0,
