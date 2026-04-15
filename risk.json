@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-15 03:48:48 UTC",
-  "probability": 15.61,
-  "uncertainty": 6.45,
+  "last_updated": "2026-04-15 06:02:03 UTC",
+  "probability": 16.96,
+  "uncertainty": 6.24,
   "state": {
-    "us_russia": 3.239874053874553,
-    "us_china": 3.786131926544398,
-    "china_taiwan": 4.157355094076079,
+    "us_russia": 3.234360305420027,
+    "us_china": 4.40665659874384,
+    "china_taiwan": 4.281399696281343,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 6.081855067102488,
+    "iran_israel": 5.838975084047886,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.377768281009194
+    "russia_ukraine": 5.32660371953948
   },
   "top_drivers": [
+    {
+      "title": "Iran used Chinese spy satellite to target US bases",
+      "published": "Wed, 15 Apr 2026 04:00:20 GMT",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "action",
+      "impact": 0.72,
+      "raw_impact": 0.8,
+      "source_weight": 0.9,
+      "age_hours": 2.03,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/1fddd2cd-1294-4e9c-a17d-5ea06b399355",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/1fddd2cd-1294-4e9c-a17d-5ea06b399355"
+      ]
+    },
     {
       "title": "What will it take? Israel-Lebanon talks open as fighting continues",
       "published": "Tue, 14 Apr 2026 18:13:41 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.466,
-      "raw_impact": 0.517,
+      "impact": 0.41,
+      "raw_impact": 0.455,
       "source_weight": 0.9,
-      "age_hours": 9.59,
+      "age_hours": 11.81,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,37 +85,37 @@
       ]
     },
     {
-      "title": "Dinner for few: Australians eating out less as fuel crisis deals biggest blow to consumer confidence since Covid",
-      "published": "Tue, 14 Apr 2026 15:00:44 GMT",
+      "title": "US military says blockade of Iran ports \u2018completely\u2019 halts economic trade",
+      "published": "Wed, 15 Apr 2026 05:17:44 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.387,
-      "raw_impact": 0.43,
+      "class": "movement",
+      "impact": 0.366,
+      "raw_impact": 0.479,
       "source_weight": 0.9,
-      "age_hours": 12.8,
-      "confidence": 0.9,
-      "signal_total": 0.9,
+      "age_hours": 0.74,
+      "confidence": 0.73,
+      "signal_total": 0.5,
       "signal_components": {
         "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
         "strategic": 0.0,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.theguardian.com/australia-news/2026/apr/15/dinner-for-few-australians-eating-out-less-as-fuel-crisis-deals-biggest-blow-to-consumer-confidence-since-covid",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
+      "link": "https://www.aljazeera.com/economy/2026/4/15/us-military-says-blockade-of-iran-ports-completely-halts-economic-trade?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.theguardian.com"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.theguardian.com/australia-news/2026/apr/15/dinner-for-few-australians-eating-out-less-as-fuel-crisis-deals-biggest-blow-to-consumer-confidence-since-covid"
+        "https://www.aljazeera.com/economy/2026/4/15/us-military-says-blockade-of-iran-ports-completely-halts-economic-trade?traffic_source=rss"
       ]
     },
     {
@@ -93,10 +127,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.318,
-      "raw_impact": 0.529,
+      "impact": 0.279,
+      "raw_impact": 0.466,
       "source_weight": 0.75,
-      "age_hours": 19.37,
+      "age_hours": 21.59,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -128,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.215,
-      "raw_impact": 0.299,
+      "impact": 0.189,
+      "raw_impact": 0.263,
       "source_weight": 0.9,
-      "age_hours": 31.0,
+      "age_hours": 33.23,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -155,18 +189,18 @@
       ]
     },
     {
-      "title": "Trump hints Iran talks could resume this week as US port blockade continues",
-      "published": "Wed, 15 Apr 2026 02:58:25 GMT",
+      "title": "Iran War Live Updates: U.S. Says Israel and Lebanon Agree to More Peace Talks",
+      "published": "Wed, 15 Apr 2026 04:57:43 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.172,
-      "raw_impact": -0.191,
-      "source_weight": 1.0,
-      "age_hours": 0.84,
+      "impact": -0.152,
+      "raw_impact": -0.188,
+      "source_weight": 0.9,
+      "age_hours": 1.07,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -177,15 +211,15 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.bbc.com/news/articles/c20ddnz4w5lo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
+      "link": "https://www.nytimes.com/live/2026/04/14/world/iran-war-oil-hormuz",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.bbci.co.uk"
+        "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.bbc.com/news/articles/c20ddnz4w5lo?at_medium=RSS&at_campaign=rss"
+        "https://www.nytimes.com/live/2026/04/14/world/iran-war-oil-hormuz"
       ]
     },
     {
@@ -197,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.163,
-      "raw_impact": 0.214,
+      "impact": 0.144,
+      "raw_impact": 0.188,
       "source_weight": 0.9,
-      "age_hours": 3.4,
+      "age_hours": 5.62,
       "confidence": 0.54,
       "signal_total": 0.26,
       "signal_components": {
@@ -224,40 +258,6 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: U.S. Says Israel and Lebanon Agree to More Peace Talks",
-      "published": "Wed, 15 Apr 2026 03:12:04 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.157,
-      "raw_impact": -0.193,
-      "source_weight": 0.9,
-      "age_hours": 0.61,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/14/world/iran-war-oil-hormuz",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/14/world/iran-war-oil-hormuz"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 13 April: US-Iran talks falter; Strait of Hormuz uncertainty deepens",
       "published": "Mon, 13 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -266,10 +266,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.099,
-      "raw_impact": 0.09,
+      "impact": 0.087,
+      "raw_impact": 0.079,
       "source_weight": 1.1,
-      "age_hours": 39.81,
+      "age_hours": 42.03,
       "confidence": 0.92,
       "signal_total": 0.9,
       "signal_components": {
@@ -300,10 +300,10 @@
       ],
       "state_key": "us_china",
       "class": "deescalation",
-      "impact": -0.083,
-      "raw_impact": -0.092,
+      "impact": -0.073,
+      "raw_impact": -0.081,
       "source_weight": 1.0,
-      "age_hours": 13.51,
+      "age_hours": 15.73,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -334,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.079,
-      "raw_impact": -0.08,
+      "impact": -0.07,
+      "raw_impact": -0.071,
       "source_weight": 1.1,
-      "age_hours": 15.81,
+      "age_hours": 18.03,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -368,10 +368,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.079,
-      "raw_impact": -0.08,
+      "impact": -0.07,
+      "raw_impact": -0.071,
       "source_weight": 1.1,
-      "age_hours": 15.81,
+      "age_hours": 18.03,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -394,8 +394,42 @@
       ]
     },
     {
-      "title": "Australia news live: Gina Rinehart\u2019s iron ore empire forced to pay royalties to rivals after landmark WA supreme court ruling",
-      "published": "Wed, 15 Apr 2026 03:33:53 GMT",
+      "title": "Sydney judge overturns bail conditions limiting anti-Herzog protester from entering CBD",
+      "published": "Wed, 15 Apr 2026 05:54:21 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.045,
+      "raw_impact": 0.199,
+      "source_weight": 0.9,
+      "age_hours": 0.13,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/australia-news/2026/apr/15/sydney-anti-herzog-protester-nsw-police-bail-conditions-overturned-ntwnfb",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/australia-news/2026/apr/15/sydney-anti-herzog-protester-nsw-police-bail-conditions-overturned-ntwnfb"
+      ]
+    },
+    {
+      "title": "Australia news live: Albanese and Sultan of Brunei pledge cooperation on energy and food; Uber fuel surcharge kicks in for non-EV rides",
+      "published": "Wed, 15 Apr 2026 05:50:04 GMT",
       "actors": [
         "iran",
         "us"
@@ -403,9 +437,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.044,
-      "raw_impact": 0.197,
+      "raw_impact": 0.198,
       "source_weight": 0.9,
-      "age_hours": 0.25,
+      "age_hours": 0.2,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -428,8 +462,8 @@
       ]
     },
     {
-      "title": "Gina Rinehart\u2019s Hancock Prospecting to pay hundreds of millions\u2019 worth of royalties to rival family in \u2018half loss half win\u2019",
-      "published": "Wed, 15 Apr 2026 03:15:47 GMT",
+      "title": "Victoria left without limits on political donations after high court rules laws unconstitutional",
+      "published": "Wed, 15 Apr 2026 05:13:16 GMT",
       "actors": [
         "iran",
         "us"
@@ -437,43 +471,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.043,
-      "raw_impact": 0.194,
+      "raw_impact": 0.191,
       "source_weight": 0.9,
-      "age_hours": 0.55,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/business/2026/apr/15/gina-rinehart-hancock-prospecting-royalties-wright-family-heirs-supreme-court-ntwnfb",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/business/2026/apr/15/gina-rinehart-hancock-prospecting-royalties-wright-family-heirs-supreme-court-ntwnfb"
-      ]
-    },
-    {
-      "title": "High court scraps Victorian political donation laws that created loophole for Labor and Coalition",
-      "published": "Wed, 15 Apr 2026 02:50:34 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.189,
-      "source_weight": 0.9,
-      "age_hours": 0.97,
+      "age_hours": 0.81,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -497,17 +497,17 @@
     },
     {
       "title": "Orange earthquake: gold miners fled to underground refuge chambers when 4.5-magnitude quake hit central west NSW",
-      "published": "Wed, 15 Apr 2026 01:23:19 GMT",
+      "published": "Wed, 15 Apr 2026 04:15:01 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
+      "impact": 0.041,
+      "raw_impact": 0.18,
       "source_weight": 0.9,
-      "age_hours": 2.42,
+      "age_hours": 1.78,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -538,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
+      "impact": 0.034,
+      "raw_impact": 0.148,
       "source_weight": 0.9,
-      "age_hours": 2.94,
+      "age_hours": 5.16,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -564,74 +564,6 @@
       ]
     },
     {
-      "title": "Trump floats new US-Iran talks within days",
-      "published": "Wed, 15 Apr 2026 00:45:58 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.168,
-      "source_weight": 0.9,
-      "age_hours": 3.05,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/40218940-4f0f-4aee-9209-2fb713eea736",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/40218940-4f0f-4aee-9209-2fb713eea736"
-      ]
-    },
-    {
-      "title": "Trump Says 2nd Round of U.S.-Iran Talks Could Take Place This Week",
-      "published": "Wed, 15 Apr 2026 00:35:31 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.166,
-      "source_weight": 0.9,
-      "age_hours": 3.22,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/14/world/middleeast/us-iran-talks-trump.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/14/world/middleeast/us-iran-talks-trump.html"
-      ]
-    },
-    {
       "title": "Iran war live: Trump says war \u2018close to over\u2019 as Hormuz blockade continues",
       "published": "Wed, 15 Apr 2026 00:00:00 +0000",
       "actors": [
@@ -640,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.16,
+      "impact": 0.032,
+      "raw_impact": 0.141,
       "source_weight": 0.9,
-      "age_hours": 3.81,
+      "age_hours": 6.03,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -674,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.153,
+      "impact": 0.03,
+      "raw_impact": 0.134,
       "source_weight": 0.9,
-      "age_hours": 4.67,
+      "age_hours": 6.89,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -700,74 +632,6 @@
       ]
     },
     {
-      "title": "Lebanon and Israel hold first direct talks in decades as fighting continues",
-      "published": "Tue, 14 Apr 2026 20:41:16 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.133,
-      "source_weight": 0.9,
-      "age_hours": 7.13,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/0e1c7785-0e3e-4b76-acb6-debaf658637b",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/0e1c7785-0e3e-4b76-acb6-debaf658637b"
-      ]
-    },
-    {
-      "title": "How US blockade on Iran will worsen energy crisis",
-      "published": "Tue, 14 Apr 2026 20:10:34 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.129,
-      "source_weight": 0.9,
-      "age_hours": 7.64,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/14/how-us-blockade-on-iran-will-worsen-energy-crisis?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/14/how-us-blockade-on-iran-will-worsen-energy-crisis?traffic_source=rss"
-      ]
-    },
-    {
       "title": "YouTube bans viral pro-Iran AI-generated LEGO videos trolling Trump",
       "published": "Tue, 14 Apr 2026 20:01:59 GMT",
       "actors": [
@@ -776,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.128,
+      "impact": 0.025,
+      "raw_impact": 0.112,
       "source_weight": 0.9,
-      "age_hours": 7.78,
+      "age_hours": 10.0,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -802,40 +666,6 @@
       ]
     },
     {
-      "title": "Why are global views of the US getting worse?",
-      "published": "Tue, 14 Apr 2026 19:30:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.124,
-      "source_weight": 0.9,
-      "age_hours": 8.31,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/the-stream/2026/4/14/why-are-global-views-of-the-us-getting-worse?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/the-stream/2026/4/14/why-are-global-views-of-the-us-getting-worse?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Russian Oil Revenues Nearly Doubled in March",
       "published": "Tue, 14 Apr 2026 19:02:52 +0000",
       "actors": [
@@ -844,10 +674,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.121,
+      "impact": 0.024,
+      "raw_impact": 0.106,
       "source_weight": 0.9,
-      "age_hours": 8.77,
+      "age_hours": 10.99,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -878,10 +708,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.119,
+      "impact": 0.024,
+      "raw_impact": 0.104,
       "source_weight": 0.9,
-      "age_hours": 9.02,
+      "age_hours": 11.24,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -912,10 +742,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.117,
+      "impact": 0.023,
+      "raw_impact": 0.103,
       "source_weight": 0.9,
-      "age_hours": 9.22,
+      "age_hours": 11.44,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -938,74 +768,6 @@
       ]
     },
     {
-      "title": "Strait of Hormuz tankers stop or turn around amid US blockade",
-      "published": "Tue, 14 Apr 2026 18:34:15 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.117,
-      "source_weight": 0.9,
-      "age_hours": 9.24,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/c61897ff-3ed2-4c19-ad31-41440f802f9f",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/c61897ff-3ed2-4c19-ad31-41440f802f9f"
-      ]
-    },
-    {
-      "title": "US stocks\u00a0close higher after Trump floats new US-Iran talks within days",
-      "published": "Tue, 14 Apr 2026 17:27:42 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.11,
-      "source_weight": 0.9,
-      "age_hours": 10.35,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/bb8bf4c4-2643-4935-9872-5949d3ac3eb1",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/bb8bf4c4-2643-4935-9872-5949d3ac3eb1"
-      ]
-    },
-    {
       "title": "Veteran diplomat offers insights into the war in Iran \u2014 and thoughts on what's next",
       "published": "Tue, 14 Apr 2026 12:11:09 -0400",
       "actors": [
@@ -1014,10 +776,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.102,
+      "impact": 0.019,
+      "raw_impact": 0.09,
       "source_weight": 0.85,
-      "age_hours": 11.63,
+      "age_hours": 13.85,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1040,40 +802,6 @@
       ]
     },
     {
-      "title": "US-Iran war: Guterres calls for continued talks, end to ceasefire violations",
-      "published": "Mon, 13 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.02,
-      "raw_impact": -0.02,
-      "source_weight": 1.1,
-      "age_hours": 39.81,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167292",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167292"
-      ]
-    },
-    {
       "title": "Fuel protests have Ireland's government facing possible no-confidence vote",
       "published": "Tue, 14 Apr 2026 09:56:41 -0400",
       "actors": [
@@ -1082,10 +810,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.09,
+      "impact": 0.017,
+      "raw_impact": 0.079,
       "source_weight": 0.85,
-      "age_hours": 13.87,
+      "age_hours": 16.09,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -1108,6 +836,40 @@
       ]
     },
     {
+      "title": "US-Iran war: Guterres calls for continued talks, end to ceasefire violations",
+      "published": "Mon, 13 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.017,
+      "raw_impact": -0.018,
+      "source_weight": 1.1,
+      "age_hours": 42.03,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167292",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167292"
+      ]
+    },
+    {
       "title": "Hungary's next PM would pick up if Putin calls and tell him to stop Ukraine war",
       "published": "Mon, 13 Apr 2026 21:28:14 GMT",
       "actors": [
@@ -1116,10 +878,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.035,
+      "impact": 0.007,
+      "raw_impact": 0.03,
       "source_weight": 1.0,
-      "age_hours": 30.34,
+      "age_hours": 32.56,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1142,40 +904,6 @@
       ]
     },
     {
-      "title": "A U.S. military blockade of Iran's ports takes effect. What does that mean?",
-      "published": "Mon, 13 Apr 2026 17:01:25 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.007,
-      "raw_impact": 0.034,
-      "source_weight": 0.85,
-      "age_hours": 30.79,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5783804/a-u-s-military-blockade-of-irans-ports-takes-effect-what-does-that-mean",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/13/nx-s1-5783804/a-u-s-military-blockade-of-irans-ports-takes-effect-what-does-that-mean"
-      ]
-    },
-    {
       "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
       "published": "Fri, 10 Apr 2026 21:43:00 GMT",
       "actors": [
@@ -1185,9 +913,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.001,
-      "raw_impact": -0.001,
+      "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 102.1,
+      "age_hours": 104.32,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1221,7 +949,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 135.45,
+      "age_hours": 137.67,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1256,7 +984,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 156.45,
+      "age_hours": 158.67,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1290,7 +1018,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 198.8,
+      "age_hours": 201.02,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1324,7 +1052,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1013.06,
+      "age_hours": 1015.29,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1358,7 +1086,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 331.3,
+      "age_hours": 333.52,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1393,7 +1121,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 372.29,
+      "age_hours": 374.51,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1428,7 +1156,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 376.93,
+      "age_hours": 379.15,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1588,16 +1316,16 @@
   ],
   "debug": {
     "event_count": 229,
-    "classified_count": 42,
-    "paired_count": 42,
+    "classified_count": 34,
+    "paired_count": 34,
     "valid_pair_updates": 6,
-    "top_driver_count": 42,
-    "total_signal": 4.5231,
+    "top_driver_count": 34,
+    "total_signal": 4.3176,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 110,
-      "no_signal": 41,
-      "invalid_pair": 36,
+      "no_actor": 109,
+      "no_signal": 49,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
