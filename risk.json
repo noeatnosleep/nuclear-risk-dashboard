@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-15 08:13:33 UTC",
-  "probability": 17.42,
-  "uncertainty": 6.13,
+  "last_updated": "2026-04-15 09:57:13 UTC",
+  "probability": 16.88,
+  "uncertainty": 6.02,
   "state": {
-    "us_russia": 3.2298643523312656,
-    "us_china": 4.618715117639913,
-    "china_taiwan": 4.3237793485609135,
+    "us_russia": 3.0496131688536443,
+    "us_china": 4.6485981640667475,
+    "china_taiwan": 4.329738930487094,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 5.7795169774735395,
+    "iran_israel": 5.654547165998628,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.2844513006925276
+    "russia_ukraine": 5.227207868989739
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.732,
-      "raw_impact": 0.813,
+      "impact": 0.663,
+      "raw_impact": 0.736,
       "source_weight": 0.9,
-      "age_hours": 1.75,
+      "age_hours": 3.48,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.635,
-      "raw_impact": 0.705,
+      "impact": 0.574,
+      "raw_impact": 0.638,
       "source_weight": 0.9,
-      "age_hours": 4.22,
+      "age_hours": 5.95,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,37 +85,37 @@
       ]
     },
     {
-      "title": "What will it take? Israel-Lebanon talks open as fighting continues",
-      "published": "Tue, 14 Apr 2026 18:13:41 GMT",
+      "title": "U.S. sends thousands more troops to Mideast as Trump seeks to squeeze Iran",
+      "published": "Wed, 15 Apr 2026 09:00:00 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.361,
-      "raw_impact": 0.401,
+      "class": "movement",
+      "impact": 0.362,
+      "raw_impact": 0.473,
       "source_weight": 0.9,
-      "age_hours": 14.0,
-      "confidence": 0.9,
-      "signal_total": 0.9,
+      "age_hours": 0.95,
+      "confidence": 0.73,
+      "signal_total": 0.5,
       "signal_components": {
         "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
         "strategic": 0.0,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/tv-shows/the-debate/20260414-what-will-it-take-israel-lebanon-talks-open-as-fighting-continuesisrael-lebanon-talks-open-as-fighting-continues",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.washingtonpost.com/national-security/2026/04/15/us-troops-iran-blockade/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "feeds.washingtonpost.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/tv-shows/the-debate/20260414-what-will-it-take-israel-lebanon-talks-open-as-fighting-continuesisrael-lebanon-talks-open-as-fighting-continues"
+        "https://www.washingtonpost.com/national-security/2026/04/15/us-troops-iran-blockade/"
       ]
     },
     {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.323,
-      "raw_impact": 0.422,
+      "impact": 0.292,
+      "raw_impact": 0.382,
       "source_weight": 0.9,
-      "age_hours": 2.93,
+      "age_hours": 4.66,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.246,
-      "raw_impact": 0.41,
+      "impact": 0.222,
+      "raw_impact": 0.371,
       "source_weight": 0.75,
-      "age_hours": 23.78,
+      "age_hours": 25.51,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -188,6 +188,74 @@
       ]
     },
     {
+      "title": "US urges IMF, World Bank to abandon climate finance goals",
+      "published": "Wed, 15 Apr 2026 09:23:58 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "deescalation",
+      "impact": -0.157,
+      "raw_impact": -0.194,
+      "source_weight": 0.9,
+      "age_hours": 0.55,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/business/20260415-us-urges-imf-world-bank-to-abandon-climate-finance-goals",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/business/20260415-us-urges-imf-world-bank-to-abandon-climate-finance-goals"
+      ]
+    },
+    {
+      "title": "U.S. Says Israel and Lebanon Agree to More Peace Talks",
+      "published": "Wed, 15 Apr 2026 09:13:48 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.156,
+      "raw_impact": -0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.72,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/14/world/iran-war-oil-hormuz",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/14/world/iran-war-oil-hormuz"
+      ]
+    },
+    {
       "title": "U.S. imposes naval blockade as Trump demands Iran end nuclear program",
       "published": "Mon, 13 Apr 2026 20:48:31 +0000",
       "actors": [
@@ -196,10 +264,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.166,
-      "raw_impact": 0.231,
+      "impact": 0.15,
+      "raw_impact": 0.209,
       "source_weight": 0.9,
-      "age_hours": 35.42,
+      "age_hours": 37.15,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -223,75 +291,6 @@
       ]
     },
     {
-      "title": "U.S. Says Israel and Lebanon Agree to More Peace Talks",
-      "published": "Wed, 15 Apr 2026 07:32:21 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.156,
-      "raw_impact": -0.192,
-      "source_weight": 0.9,
-      "age_hours": 0.69,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/14/world/iran-war-oil-hormuz",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/14/world/iran-war-oil-hormuz"
-      ]
-    },
-    {
-      "title": "Middle East live: Trump says Iran talks may resume as Israel, Lebanon open direct track",
-      "published": "Wed, 15 Apr 2026 00:24:47 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.127,
-      "raw_impact": 0.166,
-      "source_weight": 0.9,
-      "age_hours": 7.81,
-      "confidence": 0.54,
-      "signal_total": 0.26,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.04,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260415-middle-east-live-trump-says-iran-talks-may-resume-as-israel-lebanon-open-direct-track",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260415-middle-east-live-trump-says-iran-talks-may-resume-as-israel-lebanon-open-direct-track"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 13 April: US-Iran talks falter; Strait of Hormuz uncertainty deepens",
       "published": "Mon, 13 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -300,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.077,
-      "raw_impact": 0.07,
+      "impact": 0.07,
+      "raw_impact": 0.063,
       "source_weight": 1.1,
-      "age_hours": 44.23,
+      "age_hours": 45.95,
       "confidence": 0.92,
       "signal_total": 0.9,
       "signal_components": {
@@ -334,10 +333,10 @@
       ],
       "state_key": "us_china",
       "class": "deescalation",
-      "impact": -0.064,
-      "raw_impact": -0.071,
+      "impact": -0.058,
+      "raw_impact": -0.064,
       "source_weight": 1.0,
-      "age_hours": 17.92,
+      "age_hours": 19.65,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -368,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.061,
-      "raw_impact": -0.062,
+      "impact": -0.056,
+      "raw_impact": -0.056,
       "source_weight": 1.1,
-      "age_hours": 20.23,
+      "age_hours": 21.95,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -402,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.061,
-      "raw_impact": -0.062,
+      "impact": -0.056,
+      "raw_impact": -0.056,
       "source_weight": 1.1,
-      "age_hours": 20.23,
+      "age_hours": 21.95,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -428,6 +427,108 @@
       ]
     },
     {
+      "title": "Victoria left without limits on political donations after high court rules laws unconstitutional",
+      "published": "Wed, 15 Apr 2026 09:54:33 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.045,
+      "raw_impact": 0.199,
+      "source_weight": 0.9,
+      "age_hours": 0.04,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/australia-news/2026/apr/15/victoria-political-donation-laws-unconstitutional",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/australia-news/2026/apr/15/victoria-political-donation-laws-unconstitutional"
+      ]
+    },
+    {
+      "title": "Iranian sea trade blocked as six ships forced to turn back, U.S. military says",
+      "published": "Wed, 15 Apr 2026 08:24:02 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.183,
+      "source_weight": 0.9,
+      "age_hours": 1.55,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/national-security/2026/04/14/us-blockade-hormuz/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/national-security/2026/04/14/us-blockade-hormuz/"
+      ]
+    },
+    {
+      "title": "Iran war: What is happening on day 47 of the US-Iran conflict?",
+      "published": "Wed, 15 Apr 2026 07:41:44 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.176,
+      "source_weight": 0.9,
+      "age_hours": 2.26,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/15/iran-war-what-is-happening-on-day-47-of-the-us-iran-conflict?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/15/iran-war-what-is-happening-on-day-47-of-the-us-iran-conflict?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Trump turns on Meloni, saying she lacks \u2018courage\u2019 over US-Israel war on Iran",
       "published": "Wed, 15 Apr 2026 07:05:19 +0000",
       "actors": [
@@ -436,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.038,
+      "raw_impact": 0.169,
       "source_weight": 0.9,
-      "age_hours": 1.14,
+      "age_hours": 2.87,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -470,10 +571,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.038,
+      "raw_impact": 0.17,
       "source_weight": 0.9,
-      "age_hours": 1.12,
+      "age_hours": 2.85,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -496,176 +597,6 @@
       ]
     },
     {
-      "title": "Queensland ebike laws could cripple Uber Eats, DoorDash and shared e-vehicle schemes, industry warns",
-      "published": "Wed, 15 Apr 2026 06:42:57 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.183,
-      "source_weight": 0.9,
-      "age_hours": 1.51,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/australia-news/2026/apr/15/queensland-ebike-laws-age-limit-licence-speed-limit-food-delivery",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/australia-news/2026/apr/15/queensland-ebike-laws-age-limit-licence-speed-limit-food-delivery"
-      ]
-    },
-    {
-      "title": "Victoria left without limits on political donations after high court rules laws unconstitutional",
-      "published": "Wed, 15 Apr 2026 06:12:28 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
-      "source_weight": 0.9,
-      "age_hours": 2.02,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/australia-news/2026/apr/15/victoria-political-donation-laws-unconstitutional",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/australia-news/2026/apr/15/victoria-political-donation-laws-unconstitutional"
-      ]
-    },
-    {
-      "title": "Iran war live: Trump says war \u2018close to over\u2019 as Hormuz blockade continues",
-      "published": "Wed, 15 Apr 2026 00:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.124,
-      "source_weight": 0.9,
-      "age_hours": 8.23,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/15/iran-war-live-trump-hints-at-second-round-of-talks-israel-pounds-lebanon?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/4/15/iran-war-live-trump-hints-at-second-round-of-talks-israel-pounds-lebanon?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Israel and Lebanon hold rare talks in Washington, DC, amid Iran war",
-      "published": "Tue, 14 Apr 2026 23:08:43 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.118,
-      "source_weight": 0.9,
-      "age_hours": 9.08,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/14/israel-and-lebanon-hold-rare-talks-in-washington-dc-amid-iran-war?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/14/israel-and-lebanon-hold-rare-talks-in-washington-dc-amid-iran-war?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "YouTube bans viral pro-Iran AI-generated LEGO videos trolling Trump",
-      "published": "Tue, 14 Apr 2026 20:01:59 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.099,
-      "source_weight": 0.9,
-      "age_hours": 12.19,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/youtube-bans-viral-ai-generated-lego-videos-trolling-trump",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/youtube-bans-viral-ai-generated-lego-videos-trolling-trump"
-      ]
-    },
-    {
       "title": "Russian Oil Revenues Nearly Doubled in March",
       "published": "Tue, 14 Apr 2026 19:02:52 +0000",
       "actors": [
@@ -674,10 +605,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.093,
+      "impact": 0.019,
+      "raw_impact": 0.085,
       "source_weight": 0.9,
-      "age_hours": 13.18,
+      "age_hours": 14.91,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -708,10 +639,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.091,
+      "impact": 0.018,
+      "raw_impact": 0.082,
       "source_weight": 0.9,
-      "age_hours": 13.63,
+      "age_hours": 15.36,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -734,40 +665,6 @@
       ]
     },
     {
-      "title": "Italian PM says suspends renewal of defence agreement with Israel",
-      "published": "Tue, 14 Apr 2026 18:47:45 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.092,
-      "source_weight": 0.9,
-      "age_hours": 13.43,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260414-italian-pm-says-suspends-defence-agreement-with-israel",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260414-italian-pm-says-suspends-defence-agreement-with-israel"
-      ]
-    },
-    {
       "title": "Veteran diplomat offers insights into the war in Iran \u2014 and thoughts on what's next",
       "published": "Tue, 14 Apr 2026 12:11:09 -0400",
       "actors": [
@@ -776,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.079,
+      "impact": 0.015,
+      "raw_impact": 0.072,
       "source_weight": 0.85,
-      "age_hours": 16.04,
+      "age_hours": 17.77,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,10 +707,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.07,
+      "impact": 0.013,
+      "raw_impact": 0.063,
       "source_weight": 0.85,
-      "age_hours": 18.28,
+      "age_hours": 20.01,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,10 +741,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.015,
-      "raw_impact": -0.016,
+      "impact": -0.013,
+      "raw_impact": -0.014,
       "source_weight": 1.1,
-      "age_hours": 44.23,
+      "age_hours": 45.95,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -870,75 +767,6 @@
       ]
     },
     {
-      "title": "Hungary's next PM would pick up if Putin calls and tell him to stop Ukraine war",
-      "published": "Mon, 13 Apr 2026 21:28:14 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.007,
-      "raw_impact": 0.027,
-      "source_weight": 1.0,
-      "age_hours": 34.76,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cd6lzezp4zvo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cd6lzezp4zvo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "title": "Assessing the damage: What the Iran war really means for Europe\u2019s defence",
-      "published": "Thu, 09 Apr 2026 12:21:35 +0000",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "strategic",
-      "impact": 0.001,
-      "raw_impact": 0.001,
-      "source_weight": 0.75,
-      "age_hours": 139.87,
-      "confidence": 0.798,
-      "signal_total": 2.22,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.5,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.18,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.iss.europa.eu/publications/commentary/assessing-damage-what-iran-war-really-means-europes-defence",
-      "source": "https://www.iss.europa.eu/rss.xml",
-      "source_domain": "www.iss.europa.eu",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.iss.europa.eu"
-      ],
-      "cluster_links": [
-        "https://www.iss.europa.eu/publications/commentary/assessing-damage-what-iran-war-really-means-europes-defence"
-      ]
-    },
-    {
       "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
       "published": "Fri, 10 Apr 2026 21:43:00 GMT",
       "actors": [
@@ -950,7 +778,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 106.51,
+      "age_hours": 108.24,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -984,7 +812,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 160.86,
+      "age_hours": 162.59,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1018,7 +846,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 203.21,
+      "age_hours": 204.94,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1052,7 +880,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1017.48,
+      "age_hours": 1019.2,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1075,6 +903,41 @@
       ]
     },
     {
+      "title": "Assessing the damage: What the Iran war really means for Europe\u2019s defence",
+      "published": "Thu, 09 Apr 2026 12:21:35 +0000",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "strategic",
+      "impact": 0.0,
+      "raw_impact": 0.001,
+      "source_weight": 0.75,
+      "age_hours": 141.59,
+      "confidence": 0.798,
+      "signal_total": 2.22,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.5,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.18,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.iss.europa.eu/publications/commentary/assessing-damage-what-iran-war-really-means-europes-defence",
+      "source": "https://www.iss.europa.eu/rss.xml",
+      "source_domain": "www.iss.europa.eu",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.iss.europa.eu"
+      ],
+      "cluster_links": [
+        "https://www.iss.europa.eu/publications/commentary/assessing-damage-what-iran-war-really-means-europes-defence"
+      ]
+    },
+    {
       "title": "Contestation, crisis and choice: The EU\u2019s opportunity on energy",
       "published": "Wed, 01 Apr 2026 08:30:39 +0000",
       "actors": [
@@ -1086,7 +949,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 335.72,
+      "age_hours": 337.44,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1121,7 +984,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 376.7,
+      "age_hours": 378.43,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1156,7 +1019,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 381.34,
+      "age_hours": 383.07,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1315,17 +1178,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 229,
-    "classified_count": 34,
-    "paired_count": 34,
+    "event_count": 230,
+    "classified_count": 30,
+    "paired_count": 30,
     "valid_pair_updates": 6,
-    "top_driver_count": 34,
-    "total_signal": 4.5774,
+    "top_driver_count": 30,
+    "total_signal": 4.0376,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 109,
-      "no_signal": 47,
-      "invalid_pair": 39,
+      "no_actor": 115,
+      "no_signal": 39,
+      "invalid_pair": 46,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
