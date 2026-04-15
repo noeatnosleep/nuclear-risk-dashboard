@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-15 14:11:21 UTC",
-  "probability": 18.84,
-  "uncertainty": 5.75,
+  "last_updated": "2026-04-15 15:48:23 UTC",
+  "probability": 18.37,
+  "uncertainty": 5.83,
   "state": {
-    "us_russia": 3.3318251823472016,
-    "us_china": 4.937406371056505,
-    "china_taiwan": 4.41739105038052,
+    "us_russia": 3.270365241367276,
+    "us_china": 4.83277437984588,
+    "china_taiwan": 4.382444444559073,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 6.4077671886390295,
+    "iran_israel": 6.513501318964484,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.089644989271097
+    "russia_ukraine": 5.04762390055027
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.872,
-      "raw_impact": 0.793,
+      "impact": 0.795,
+      "raw_impact": 0.722,
       "source_weight": 1.1,
-      "age_hours": 2.19,
+      "age_hours": 3.81,
       "confidence": 0.84,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.851,
-      "raw_impact": 1.182,
+      "impact": 0.775,
+      "raw_impact": 1.077,
       "source_weight": 0.9,
-      "age_hours": 0.26,
+      "age_hours": 1.88,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.759,
-      "raw_impact": 0.843,
+      "impact": 0.691,
+      "raw_impact": 0.768,
       "source_weight": 0.9,
-      "age_hours": 1.13,
+      "age_hours": 2.74,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_israel",
       "class": "strategic",
-      "impact": 0.747,
-      "raw_impact": 1.038,
+      "impact": 0.681,
+      "raw_impact": 0.945,
       "source_weight": 0.9,
-      "age_hours": 2.51,
+      "age_hours": 4.13,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.707,
-      "raw_impact": 0.707,
+      "impact": 0.644,
+      "raw_impact": 0.644,
       "source_weight": 1.0,
-      "age_hours": 4.18,
+      "age_hours": 5.8,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -195,10 +195,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.664,
-      "raw_impact": 0.738,
+      "impact": 0.605,
+      "raw_impact": 0.672,
       "source_weight": 0.9,
-      "age_hours": 3.44,
+      "age_hours": 5.05,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -229,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.332,
-      "raw_impact": 0.433,
+      "impact": 0.302,
+      "raw_impact": 0.394,
       "source_weight": 0.9,
-      "age_hours": 2.5,
+      "age_hours": 4.12,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -255,6 +255,75 @@
       ]
     },
     {
+      "title": "US sending 10,000 more troops to Middle East despite Iran ceasefire",
+      "published": "Wed, 15 Apr 2026 15:27:37 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.195,
+      "raw_impact": 0.255,
+      "source_weight": 0.9,
+      "age_hours": 0.35,
+      "confidence": 0.61,
+      "signal_total": 0.26,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.04,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/15/us-sending-10000-more-troops-to-middle-east-despite-iran-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/15/us-sending-10000-more-troops-to-middle-east-despite-iran-ceasefire?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Iran warns US naval blockade threatens ceasefire",
+      "published": "Wed, 15 Apr 2026 15:29:38 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.159,
+      "raw_impact": -0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.31,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/15/iran-warns-us-naval-blockade-threatens-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/15/iran-warns-us-naval-blockade-threatens-ceasefire?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Europe should fill the diplomatic vacuum on Iran",
       "published": "Tue, 14 Apr 2026 08:26:54 +0000",
       "actors": [
@@ -263,10 +332,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.174,
-      "raw_impact": 0.291,
+      "impact": 0.159,
+      "raw_impact": 0.265,
       "source_weight": 0.75,
-      "age_hours": 29.74,
+      "age_hours": 31.36,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -298,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.151,
-      "raw_impact": -0.187,
+      "impact": -0.138,
+      "raw_impact": -0.17,
       "source_weight": 0.9,
-      "age_hours": 1.19,
+      "age_hours": 2.8,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -332,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.15,
-      "raw_impact": -0.186,
+      "impact": -0.137,
+      "raw_impact": -0.169,
       "source_weight": 0.9,
-      "age_hours": 1.29,
+      "age_hours": 2.91,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -358,7 +427,7 @@
       ]
     },
     {
-      "title": "Trump says peace talks could resume in days as U.S. military blocks Iranian ports",
+      "title": "Trump says Iran talks could resume in days as U.S. military blocks Iranian ports",
       "published": "Wed, 15 Apr 2026 07:03:22 -0400",
       "actors": [
         "iran",
@@ -366,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.128,
-      "raw_impact": -0.167,
+      "impact": -0.116,
+      "raw_impact": -0.152,
       "source_weight": 0.85,
-      "age_hours": 3.13,
+      "age_hours": 4.75,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -400,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.118,
-      "raw_impact": 0.164,
+      "impact": 0.107,
+      "raw_impact": 0.149,
       "source_weight": 0.9,
-      "age_hours": 41.38,
+      "age_hours": 43.0,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -435,10 +504,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.055,
-      "raw_impact": 0.05,
+      "impact": 0.05,
+      "raw_impact": 0.045,
       "source_weight": 1.1,
-      "age_hours": 50.19,
+      "age_hours": 51.81,
       "confidence": 0.92,
       "signal_total": 0.9,
       "signal_components": {
@@ -461,18 +530,18 @@
       ]
     },
     {
-      "title": "Starmer 'not going to yield' to pressure from Trump on Iran war",
-      "published": "Wed, 15 Apr 2026 13:25:06 GMT",
+      "title": "Starmer says he's 'not going to yield' to pressure from Trump on Iran war",
+      "published": "Wed, 15 Apr 2026 15:27:22 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.048,
-      "raw_impact": 0.191,
+      "impact": 0.049,
+      "raw_impact": 0.196,
       "source_weight": 1.0,
-      "age_hours": 0.77,
+      "age_hours": 0.35,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -496,17 +565,17 @@
     },
     {
       "title": "Iran War Live Updates: Iran Threatens Retaliation Over U.S. Blockade",
-      "published": "Wed, 15 Apr 2026 14:06:33 +0000",
+      "published": "Wed, 15 Apr 2026 15:32:51 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.199,
+      "impact": 0.044,
+      "raw_impact": 0.197,
       "source_weight": 0.9,
-      "age_hours": 0.08,
+      "age_hours": 0.26,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -529,8 +598,8 @@
       ]
     },
     {
-      "title": "What are Iran\u2019s $100bn in frozen assets and where are they held?",
-      "published": "Wed, 15 Apr 2026 13:40:53 +0000",
+      "title": "Trump warns he could rip up trade deal with UK",
+      "published": "Wed, 15 Apr 2026 15:27:58 GMT",
       "actors": [
         "iran",
         "us"
@@ -538,9 +607,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.044,
-      "raw_impact": 0.194,
+      "raw_impact": 0.196,
       "source_weight": 0.9,
-      "age_hours": 0.51,
+      "age_hours": 0.34,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -551,15 +620,49 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/2026/4/15/what-are-irans-100bn-in-frozen-assets-and-where-are-they-held?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.ft.com/content/2cbe9668-d858-468c-86cc-08fd3dc725f3",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "www.ft.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/15/what-are-irans-100bn-in-frozen-assets-and-where-are-they-held?traffic_source=rss"
+        "https://www.ft.com/content/2cbe9668-d858-468c-86cc-08fd3dc725f3"
+      ]
+    },
+    {
+      "title": "'If we don't divide the land we're heading to apartheid': Ex-head of Israel's Shin Bet",
+      "published": "Wed, 15 Apr 2026 14:55:13 GMT",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.19,
+      "source_weight": 0.9,
+      "age_hours": 0.89,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260415-if-we-don-t-divide-the-land-we-re-heading-to-apartheid-ex-head-of-israel-s-shin-bet",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260415-if-we-don-t-divide-the-land-we-re-heading-to-apartheid-ex-head-of-israel-s-shin-bet"
       ]
     },
     {
@@ -571,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.198,
+      "impact": 0.041,
+      "raw_impact": 0.18,
       "source_weight": 0.9,
-      "age_hours": 0.21,
+      "age_hours": 1.83,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -597,6 +700,40 @@
       ]
     },
     {
+      "title": "What are Iran\u2019s $100bn in frozen assets and where are they held?",
+      "published": "Wed, 15 Apr 2026 13:40:53 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.177,
+      "source_weight": 0.9,
+      "age_hours": 2.13,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/15/what-are-irans-100bn-in-frozen-assets-and-where-are-they-held?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/15/what-are-irans-100bn-in-frozen-assets-and-where-are-they-held?traffic_source=rss"
+      ]
+    },
+    {
       "title": "\u2018Time for diplomacy over escalation\u2019 in Middle East war: Guterres",
       "published": "Tue, 14 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -605,10 +742,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.043,
-      "raw_impact": -0.044,
+      "impact": -0.04,
+      "raw_impact": -0.04,
       "source_weight": 1.1,
-      "age_hours": 26.19,
+      "age_hours": 27.81,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -639,10 +776,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.043,
-      "raw_impact": -0.044,
+      "impact": -0.04,
+      "raw_impact": -0.04,
       "source_weight": 1.1,
-      "age_hours": 26.19,
+      "age_hours": 27.81,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -665,40 +802,6 @@
       ]
     },
     {
-      "title": "Trump warns he could rip up trade deal with UK",
-      "published": "Wed, 15 Apr 2026 13:33:26 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.193,
-      "source_weight": 0.9,
-      "age_hours": 0.63,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/2cbe9668-d858-468c-86cc-08fd3dc725f3",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/2cbe9668-d858-468c-86cc-08fd3dc725f3"
-      ]
-    },
-    {
       "title": "Gina Rinehart\u2019s Hancock Prospecting to pay hundreds of millions\u2019 worth of royalties to rival family in \u2018half loss half win\u2019",
       "published": "Wed, 15 Apr 2026 10:54:57 GMT",
       "actors": [
@@ -707,10 +810,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.166,
+      "impact": 0.034,
+      "raw_impact": 0.151,
       "source_weight": 0.9,
-      "age_hours": 3.27,
+      "age_hours": 4.89,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -741,10 +844,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.164,
+      "impact": 0.034,
+      "raw_impact": 0.149,
       "source_weight": 0.9,
-      "age_hours": 3.48,
+      "age_hours": 5.1,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -767,40 +870,6 @@
       ]
     },
     {
-      "title": "Italian papers united as PM Meloni faces off with Trump",
-      "published": "Wed, 15 Apr 2026 10:08:43 GMT",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.158,
-      "source_weight": 0.9,
-      "age_hours": 4.04,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/tv-shows/press-review/20260415-italian-papers-united-as-pm-meloni-faces-off-with-trump",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/tv-shows/press-review/20260415-italian-papers-united-as-pm-meloni-faces-off-with-trump"
-      ]
-    },
-    {
       "title": "Iranian sea trade blocked as six ships forced to turn back, U.S. military says",
       "published": "Wed, 15 Apr 2026 08:24:02 +0000",
       "actors": [
@@ -809,10 +878,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.143,
+      "impact": 0.029,
+      "raw_impact": 0.13,
       "source_weight": 0.9,
-      "age_hours": 5.79,
+      "age_hours": 7.41,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -843,10 +912,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.064,
+      "impact": 0.013,
+      "raw_impact": 0.059,
       "source_weight": 0.9,
-      "age_hours": 19.6,
+      "age_hours": 21.21,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -877,10 +946,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.011,
-      "raw_impact": -0.011,
+      "impact": -0.01,
+      "raw_impact": -0.01,
       "source_weight": 1.1,
-      "age_hours": 50.19,
+      "age_hours": 51.81,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -914,7 +983,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 112.47,
+      "age_hours": 114.09,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -948,7 +1017,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 166.82,
+      "age_hours": 168.44,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -982,7 +1051,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 209.17,
+      "age_hours": 210.79,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1016,7 +1085,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1023.44,
+      "age_hours": 1025.06,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1050,7 +1119,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 145.83,
+      "age_hours": 147.45,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1085,7 +1154,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 341.68,
+      "age_hours": 343.3,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1120,7 +1189,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 382.67,
+      "age_hours": 384.28,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1155,7 +1224,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 387.31,
+      "age_hours": 388.92,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1315,16 +1384,16 @@
   ],
   "debug": {
     "event_count": 230,
-    "classified_count": 34,
-    "paired_count": 34,
+    "classified_count": 36,
+    "paired_count": 36,
     "valid_pair_updates": 5,
-    "top_driver_count": 34,
-    "total_signal": 7.7285,
+    "top_driver_count": 36,
+    "total_signal": 7.2087,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 110,
-      "no_signal": 46,
-      "invalid_pair": 40,
+      "no_actor": 108,
+      "no_signal": 50,
+      "invalid_pair": 36,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
