@@ -1,21 +1,89 @@
 {
-  "last_updated": "2026-04-15 09:57:13 UTC",
-  "probability": 16.88,
-  "uncertainty": 6.02,
+  "last_updated": "2026-04-15 11:07:30 UTC",
+  "probability": 17.97,
+  "uncertainty": 5.95,
   "state": {
-    "us_russia": 3.0496131688536443,
-    "us_china": 4.6485981640667475,
-    "china_taiwan": 4.329738930487094,
+    "us_russia": 3.1348271962823704,
+    "us_china": 4.87581777466046,
+    "china_taiwan": 4.4811414469642,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 5.654547165998628,
+    "iran_israel": 5.834095505765974,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.227207868989739
+    "russia_ukraine": 5.191818378268399
   },
   "top_drivers": [
+    {
+      "title": "More than 200 Iranian sailors stranded after US torpedo attack return home",
+      "published": "Wed, 15 Apr 2026 10:00:41 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.844,
+      "raw_impact": 0.844,
+      "source_weight": 1.0,
+      "age_hours": 1.11,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c9qdd318qd9o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/c9qdd318qd9o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "Short-term gains for China from US-Iran war may turn to longer-term pain",
+      "published": "Wed, 15 Apr 2026 10:45:12 GMT",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "action",
+      "impact": 0.793,
+      "raw_impact": 0.881,
+      "source_weight": 0.9,
+      "age_hours": 0.37,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/world/2026/apr/15/china-us-iran-war-risks-energy-economy",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/world/2026/apr/15/china-us-iran-war-risks-energy-economy"
+      ]
+    },
     {
       "title": "Iran says $270bn war loss must be compensated, as fresh talks with US loom",
       "published": "Wed, 15 Apr 2026 06:28:34 +0000",
@@ -25,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.663,
-      "raw_impact": 0.736,
+      "impact": 0.619,
+      "raw_impact": 0.688,
       "source_weight": 0.9,
-      "age_hours": 3.48,
+      "age_hours": 4.65,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +127,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.574,
-      "raw_impact": 0.638,
+      "impact": 0.537,
+      "raw_impact": 0.597,
       "source_weight": 0.9,
-      "age_hours": 5.95,
+      "age_hours": 7.12,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.362,
-      "raw_impact": 0.473,
+      "impact": 0.338,
+      "raw_impact": 0.442,
       "source_weight": 0.9,
-      "age_hours": 0.95,
+      "age_hours": 2.13,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -127,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.292,
-      "raw_impact": 0.382,
+      "impact": 0.273,
+      "raw_impact": 0.357,
       "source_weight": 0.9,
-      "age_hours": 4.66,
+      "age_hours": 5.83,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -161,10 +229,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.222,
-      "raw_impact": 0.371,
+      "impact": 0.208,
+      "raw_impact": 0.347,
       "source_weight": 0.75,
-      "age_hours": 25.51,
+      "age_hours": 26.68,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -196,10 +264,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.157,
-      "raw_impact": -0.194,
+      "impact": -0.147,
+      "raw_impact": -0.181,
       "source_weight": 0.9,
-      "age_hours": 0.55,
+      "age_hours": 1.73,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -222,40 +290,6 @@
       ]
     },
     {
-      "title": "U.S. Says Israel and Lebanon Agree to More Peace Talks",
-      "published": "Wed, 15 Apr 2026 09:13:48 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.156,
-      "raw_impact": -0.192,
-      "source_weight": 0.9,
-      "age_hours": 0.72,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/14/world/iran-war-oil-hormuz",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/14/world/iran-war-oil-hormuz"
-      ]
-    },
-    {
       "title": "U.S. imposes naval blockade as Trump demands Iran end nuclear program",
       "published": "Mon, 13 Apr 2026 20:48:31 +0000",
       "actors": [
@@ -264,10 +298,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.15,
-      "raw_impact": 0.209,
+      "impact": 0.141,
+      "raw_impact": 0.196,
       "source_weight": 0.9,
-      "age_hours": 37.15,
+      "age_hours": 38.32,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -299,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.07,
-      "raw_impact": 0.063,
+      "impact": 0.065,
+      "raw_impact": 0.059,
       "source_weight": 1.1,
-      "age_hours": 45.95,
+      "age_hours": 47.13,
       "confidence": 0.92,
       "signal_total": 0.9,
       "signal_components": {
@@ -333,10 +367,10 @@
       ],
       "state_key": "us_china",
       "class": "deescalation",
-      "impact": -0.058,
-      "raw_impact": -0.064,
+      "impact": -0.054,
+      "raw_impact": -0.06,
       "source_weight": 1.0,
-      "age_hours": 19.65,
+      "age_hours": 20.82,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -367,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.056,
-      "raw_impact": -0.056,
+      "impact": -0.052,
+      "raw_impact": -0.053,
       "source_weight": 1.1,
-      "age_hours": 21.95,
+      "age_hours": 23.13,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -401,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.056,
-      "raw_impact": -0.056,
+      "impact": -0.052,
+      "raw_impact": -0.053,
       "source_weight": 1.1,
-      "age_hours": 21.95,
+      "age_hours": 23.13,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -428,17 +462,17 @@
     },
     {
       "title": "Victoria left without limits on political donations after high court rules laws unconstitutional",
-      "published": "Wed, 15 Apr 2026 09:54:33 GMT",
+      "published": "Wed, 15 Apr 2026 10:42:38 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.199,
+      "impact": 0.044,
+      "raw_impact": 0.195,
       "source_weight": 0.9,
-      "age_hours": 0.04,
+      "age_hours": 0.41,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -461,6 +495,74 @@
       ]
     },
     {
+      "title": "Trump warns he could rip up trade deal with UK",
+      "published": "Wed, 15 Apr 2026 10:45:16 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.37,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/2cbe9668-d858-468c-86cc-08fd3dc725f3",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/2cbe9668-d858-468c-86cc-08fd3dc725f3"
+      ]
+    },
+    {
+      "title": "Italian papers united as PM Meloni faces off with Trump",
+      "published": "Wed, 15 Apr 2026 10:08:43 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.189,
+      "source_weight": 0.9,
+      "age_hours": 0.98,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/press-review/20260415-italian-papers-united-as-pm-meloni-faces-off-with-trump",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/press-review/20260415-italian-papers-united-as-pm-meloni-faces-off-with-trump"
+      ]
+    },
+    {
       "title": "Iranian sea trade blocked as six ships forced to turn back, U.S. military says",
       "published": "Wed, 15 Apr 2026 08:24:02 +0000",
       "actors": [
@@ -469,10 +571,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.183,
+      "impact": 0.038,
+      "raw_impact": 0.171,
       "source_weight": 0.9,
-      "age_hours": 1.55,
+      "age_hours": 2.72,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -503,10 +605,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.176,
+      "impact": 0.037,
+      "raw_impact": 0.164,
       "source_weight": 0.9,
-      "age_hours": 2.26,
+      "age_hours": 3.43,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -537,10 +639,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
+      "impact": 0.036,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 2.87,
+      "age_hours": 4.04,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -571,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
+      "impact": 0.036,
+      "raw_impact": 0.159,
       "source_weight": 0.9,
-      "age_hours": 2.85,
+      "age_hours": 4.02,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -597,6 +699,74 @@
       ]
     },
     {
+      "title": "Viral post comparing Portugal's Hormuz conquest to US Iran operation mixes facts with exaggeration",
+      "published": "Wed, 15 Apr 2026 10:29:54 +0200",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.172,
+      "source_weight": 0.85,
+      "age_hours": 2.63,
+      "confidence": 0.665,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/2026/04/15/viral-post-comparing-portugals-hormuz-conquest-to-us-iran-operation-mixes-facts-with-exagg",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/2026/04/15/viral-post-comparing-portugals-hormuz-conquest-to-us-iran-operation-mixes-facts-with-exagg"
+      ]
+    },
+    {
+      "title": "Rubio Hosts Israel and Lebanon for Rare Meeting Shadowed by U.S.-Iran War",
+      "published": "Wed, 15 Apr 2026 00:52:41 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.025,
+      "raw_impact": 0.111,
+      "source_weight": 0.9,
+      "age_hours": 10.25,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/14/us/politics/israel-lebanon-talks.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/14/us/politics/israel-lebanon-talks.html"
+      ]
+    },
+    {
       "title": "Russian Oil Revenues Nearly Doubled in March",
       "published": "Tue, 14 Apr 2026 19:02:52 +0000",
       "actors": [
@@ -605,10 +775,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.085,
+      "impact": 0.018,
+      "raw_impact": 0.079,
       "source_weight": 0.9,
-      "age_hours": 14.91,
+      "age_hours": 16.08,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -639,10 +809,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.082,
+      "impact": 0.017,
+      "raw_impact": 0.077,
       "source_weight": 0.9,
-      "age_hours": 15.36,
+      "age_hours": 16.53,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -673,10 +843,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.072,
+      "impact": 0.014,
+      "raw_impact": 0.067,
       "source_weight": 0.85,
-      "age_hours": 17.77,
+      "age_hours": 18.94,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -699,40 +869,6 @@
       ]
     },
     {
-      "title": "Fuel protests have Ireland's government facing possible no-confidence vote",
-      "published": "Tue, 14 Apr 2026 09:56:41 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.063,
-      "source_weight": 0.85,
-      "age_hours": 20.01,
-      "confidence": 0.675,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/14/g-s1-117383/fuel-protests-have-irelands-government-facing-possible-no-confidence-vote",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/14/g-s1-117383/fuel-protests-have-irelands-government-facing-possible-no-confidence-vote"
-      ]
-    },
-    {
       "title": "US-Iran war: Guterres calls for continued talks, end to ceasefire violations",
       "published": "Mon, 13 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -742,9 +878,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.013,
-      "raw_impact": -0.014,
+      "raw_impact": -0.013,
       "source_weight": 1.1,
-      "age_hours": 45.95,
+      "age_hours": 47.13,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -778,7 +914,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 108.24,
+      "age_hours": 109.41,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -812,7 +948,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 162.59,
+      "age_hours": 163.76,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -846,7 +982,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 204.94,
+      "age_hours": 206.11,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -880,7 +1016,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1019.2,
+      "age_hours": 1020.38,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -914,7 +1050,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 141.59,
+      "age_hours": 142.77,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -949,7 +1085,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 337.44,
+      "age_hours": 338.61,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -984,7 +1120,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 378.43,
+      "age_hours": 379.6,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1019,7 +1155,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 383.07,
+      "age_hours": 384.24,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1062,6 +1198,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "euronews_world",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1149,6 +1290,11 @@
       "domain": "www.economist.com"
     },
     {
+      "name": "www.euronews.com",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
+    },
+    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -1178,17 +1324,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 230,
-    "classified_count": 30,
-    "paired_count": 30,
+    "event_count": 250,
+    "classified_count": 34,
+    "paired_count": 34,
     "valid_pair_updates": 6,
-    "top_driver_count": 30,
-    "total_signal": 4.0376,
+    "top_driver_count": 34,
+    "total_signal": 6.2461,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 115,
-      "no_signal": 39,
-      "invalid_pair": 46,
+      "no_actor": 124,
+      "no_signal": 48,
+      "invalid_pair": 44,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
