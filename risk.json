@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-16 11:09:34 UTC",
-  "probability": 18.82,
-  "uncertainty": 5.94,
+  "last_updated": "2026-04-16 12:43:29 UTC",
+  "probability": 19.32,
+  "uncertainty": 5.85,
   "state": {
-    "us_russia": 3.7778780020308638,
-    "us_china": 4.151768041916348,
-    "china_taiwan": 4.230361638085174,
+    "us_russia": 3.9170810111357097,
+    "us_china": 4.107982656820018,
+    "china_taiwan": 4.2216007971431395,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.344001188574611,
-    "iran_israel": 5.545109545499658,
+    "iran_us": 5.479625631430261,
+    "iran_israel": 5.617347375984363,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.026195586210927
+    "russia_ukraine": 7.076416405174555
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.99,
-      "raw_impact": 0.9,
+      "impact": 0.949,
+      "raw_impact": 0.863,
       "source_weight": 1.1,
-      "age_hours": 0.0,
+      "age_hours": 0.72,
       "confidence": 0.92,
       "signal_total": 0.9,
       "signal_components": {
@@ -52,17 +52,17 @@
     },
     {
       "title": "Russian Strikes Kill at Least 15 in Ukraine in Biggest Attack in Months",
-      "published": "Thu, 16 Apr 2026 10:55:01 +0000",
+      "published": "Thu, 16 Apr 2026 12:37:55 +0000",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.799,
-      "raw_impact": 0.887,
+      "impact": 0.806,
+      "raw_impact": 0.895,
       "source_weight": 0.9,
-      "age_hours": 0.24,
+      "age_hours": 0.09,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,6 +85,40 @@
       ]
     },
     {
+      "title": "Russia hits Ukraine with largest air attack this year",
+      "published": "Thu, 16 Apr 2026 11:35:49 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.759,
+      "raw_impact": 0.843,
+      "source_weight": 0.9,
+      "age_hours": 1.13,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/d47abaa2-8cfc-48eb-a996-909580b8c816",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/d47abaa2-8cfc-48eb-a996-909580b8c816"
+      ]
+    },
+    {
       "title": "\u2018Sent to be killed\u2019: How Russia forces migrants to fight in Ukraine",
       "published": "Thu, 16 Apr 2026 10:45:39 +0000",
       "actors": [
@@ -93,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.792,
-      "raw_impact": 0.88,
+      "impact": 0.723,
+      "raw_impact": 0.803,
       "source_weight": 0.9,
-      "age_hours": 0.4,
+      "age_hours": 1.96,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +161,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.784,
-      "raw_impact": 0.871,
+      "impact": 0.716,
+      "raw_impact": 0.796,
       "source_weight": 0.9,
-      "age_hours": 0.57,
+      "age_hours": 2.13,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.756,
-      "raw_impact": 0.839,
+      "impact": 0.69,
+      "raw_impact": 0.767,
       "source_weight": 0.9,
-      "age_hours": 1.21,
+      "age_hours": 2.77,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -195,10 +229,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.655,
-      "raw_impact": 0.77,
+      "impact": 0.598,
+      "raw_impact": 0.704,
       "source_weight": 0.85,
-      "age_hours": 2.7,
+      "age_hours": 4.26,
       "confidence": 0.885,
       "signal_total": 0.9,
       "signal_components": {
@@ -229,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.567,
-      "raw_impact": 0.63,
+      "impact": 0.518,
+      "raw_impact": 0.576,
       "source_weight": 0.9,
-      "age_hours": 0.54,
+      "age_hours": 2.1,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -264,10 +298,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.545,
-      "raw_impact": 0.606,
+      "impact": 0.498,
+      "raw_impact": 0.553,
       "source_weight": 0.9,
-      "age_hours": 1.22,
+      "age_hours": 2.79,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -299,10 +333,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.198,
-      "raw_impact": 0.22,
+      "impact": 0.181,
+      "raw_impact": 0.201,
       "source_weight": 0.9,
-      "age_hours": 24.41,
+      "age_hours": 25.97,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -325,7 +359,75 @@
       ]
     },
     {
-      "title": "Trump says Israeli, Lebanese leaders will meet amid push to extend ceasefire",
+      "title": "Ceasefire in Lebanon \u2018as important\u2019 as in Iran, says Ghalibaf",
+      "published": "Thu, 16 Apr 2026 11:44:25 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.153,
+      "raw_impact": -0.189,
+      "source_weight": 0.9,
+      "age_hours": 0.98,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/16/ceasefire-in-lebanon-as-important-as-in-iran-says-ghalibaf?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/16/ceasefire-in-lebanon-as-important-as-in-iran-says-ghalibaf?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Mediators push to extend U.S.-Iran ceasefire",
+      "published": "Thu, 16 Apr 2026 07:45:30 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.145,
+      "raw_impact": -0.189,
+      "source_weight": 0.85,
+      "age_hours": 0.97,
+      "confidence": 0.755,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5787392/iran-middle-east-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/16/nx-s1-5787392/iran-middle-east-updates"
+      ]
+    },
+    {
+      "title": "Trump says Israeli, Lebanese leaders will speak amid push to extend ceasefire",
       "published": "Thu, 16 Apr 2026 09:34:08 +0000",
       "actors": [
         "iran",
@@ -333,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.148,
-      "raw_impact": -0.182,
+      "impact": -0.135,
+      "raw_impact": -0.167,
       "source_weight": 0.9,
-      "age_hours": 1.59,
+      "age_hours": 3.16,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -367,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.173,
+      "impact": -0.128,
+      "raw_impact": -0.158,
       "source_weight": 0.9,
-      "age_hours": 2.54,
+      "age_hours": 4.11,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -401,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.089,
-      "raw_impact": 0.117,
+      "impact": 0.082,
+      "raw_impact": 0.106,
       "source_weight": 0.9,
-      "age_hours": 13.89,
+      "age_hours": 15.45,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -436,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.08,
-      "raw_impact": -0.089,
+      "impact": -0.073,
+      "raw_impact": -0.081,
       "source_weight": 1.0,
-      "age_hours": 13.99,
+      "age_hours": 15.55,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -470,10 +572,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.052,
-      "raw_impact": 0.087,
+      "impact": 0.047,
+      "raw_impact": 0.079,
       "source_weight": 0.75,
-      "age_hours": 50.71,
+      "age_hours": 52.28,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -497,18 +599,18 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Pakistan\u2019s Shuttle Diplomacy Unfolds in Tehran",
-      "published": "Thu, 16 Apr 2026 10:28:47 +0000",
+      "title": "Iran War Live Updates: Pentagon Officials Give an Update on the War",
+      "published": "Thu, 16 Apr 2026 12:39:50 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.192,
+      "impact": 0.045,
+      "raw_impact": 0.199,
       "source_weight": 0.9,
-      "age_hours": 0.68,
+      "age_hours": 0.06,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -531,6 +633,40 @@
       ]
     },
     {
+      "title": "The pope versus the president: how Leo became Trump\u2019s fearless foe",
+      "published": "Thu, 16 Apr 2026 12:04:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.193,
+      "source_weight": 0.9,
+      "age_hours": 0.66,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/4f67aa87-9210-402d-bfef-b71b294d65cb",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/4f67aa87-9210-402d-bfef-b71b294d65cb"
+      ]
+    },
+    {
       "title": "Pakistan Looks to Play Peacemaker Between U.S. and Iran, Again",
       "published": "Thu, 16 Apr 2026 10:26:04 +0000",
       "actors": [
@@ -539,10 +675,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.192,
+      "impact": 0.04,
+      "raw_impact": 0.175,
       "source_weight": 0.9,
-      "age_hours": 0.73,
+      "age_hours": 2.29,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -573,10 +709,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.038,
+      "raw_impact": 0.171,
       "source_weight": 0.9,
-      "age_hours": 1.17,
+      "age_hours": 2.74,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -607,10 +743,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.038,
+      "raw_impact": 0.171,
       "source_weight": 0.9,
-      "age_hours": 1.16,
+      "age_hours": 2.72,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -641,10 +777,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
+      "impact": 0.037,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 1.99,
+      "age_hours": 3.55,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -667,74 +803,6 @@
       ]
     },
     {
-      "title": "Trump says Iran talks could resume in days as U.S. military blocks Iranian ports",
-      "published": "Wed, 15 Apr 2026 07:03:22 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.038,
-      "raw_impact": -0.05,
-      "source_weight": 0.85,
-      "age_hours": 24.1,
-      "confidence": 0.675,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/15/nx-s1-5786034/iran-middle-east-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/15/nx-s1-5786034/iran-middle-east-updates"
-      ]
-    },
-    {
-      "title": "Iran war: What is happening on day 48 of the US-Iran conflict?",
-      "published": "Thu, 16 Apr 2026 06:13:28 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.15,
-      "source_weight": 0.9,
-      "age_hours": 4.94,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/16/iran-war-what-is-happening-on-day-48-of-the-us-iran-conflict?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/16/iran-war-what-is-happening-on-day-48-of-the-us-iran-conflict?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Former US Marine pilot loses appeal against extradition from Australia",
       "published": "Thu, 16 Apr 2026 02:17:38 GMT",
       "actors": [
@@ -743,10 +811,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.12,
+      "impact": 0.027,
+      "raw_impact": 0.109,
       "source_weight": 1.0,
-      "age_hours": 8.87,
+      "age_hours": 10.43,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -777,10 +845,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.087,
+      "impact": 0.018,
+      "raw_impact": 0.079,
       "source_weight": 0.9,
-      "age_hours": 14.49,
+      "age_hours": 16.06,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -811,10 +879,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.081,
+      "impact": 0.017,
+      "raw_impact": 0.074,
       "source_weight": 0.9,
-      "age_hours": 15.67,
+      "age_hours": 17.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -845,10 +913,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.013,
+      "impact": -0.012,
+      "raw_impact": -0.012,
       "source_weight": 1.1,
-      "age_hours": 47.16,
+      "age_hours": 48.72,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -879,10 +947,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.013,
+      "impact": -0.012,
+      "raw_impact": -0.012,
       "source_weight": 1.1,
-      "age_hours": 47.16,
+      "age_hours": 48.72,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -914,9 +982,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.009,
-      "raw_impact": 0.043,
+      "raw_impact": 0.039,
       "source_weight": 0.9,
-      "age_hours": 26.76,
+      "age_hours": 28.32,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -948,9 +1016,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.019,
+      "raw_impact": 0.018,
       "source_weight": 0.9,
-      "age_hours": 40.57,
+      "age_hours": 42.13,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -981,10 +1049,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.004,
+      "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 71.16,
+      "age_hours": 72.72,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1018,7 +1086,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 133.44,
+      "age_hours": 135.01,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1052,7 +1120,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 187.79,
+      "age_hours": 189.36,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -1086,7 +1154,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 230.14,
+      "age_hours": 231.71,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1120,7 +1188,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1044.41,
+      "age_hours": 1045.98,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1154,7 +1222,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 166.8,
+      "age_hours": 168.37,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1189,7 +1257,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 362.65,
+      "age_hours": 364.21,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1224,7 +1292,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 403.64,
+      "age_hours": 405.2,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1259,7 +1327,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 408.28,
+      "age_hours": 409.84,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1419,15 +1487,15 @@
   ],
   "debug": {
     "event_count": 230,
-    "classified_count": 37,
-    "paired_count": 37,
+    "classified_count": 39,
+    "paired_count": 39,
     "valid_pair_updates": 6,
-    "top_driver_count": 37,
-    "total_signal": 8.117,
+    "top_driver_count": 39,
+    "total_signal": 8.1221,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 103,
-      "no_signal": 53,
+      "no_signal": 51,
       "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
