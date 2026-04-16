@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-15 23:11:27 UTC",
-  "probability": 16.33,
-  "uncertainty": 6.08,
+  "last_updated": "2026-04-16 00:07:28 UTC",
+  "probability": 16.18,
+  "uncertainty": 5.94,
   "state": {
-    "us_russia": 3.2020639699801348,
-    "us_china": 4.2042762343222115,
-    "china_taiwan": 4.24121244218798,
+    "us_russia": 3.201302511442853,
+    "us_china": 4.136745747643871,
+    "china_taiwan": 4.227538909544404,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
     "iran_us": 5.633333333333332,
-    "iran_israel": 6.250078743532938,
+    "iran_israel": 6.279199805025612,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.001070578755421
+    "russia_ukraine": 5.000568744963817
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.697,
-      "raw_impact": 0.967,
+      "impact": 0.66,
+      "raw_impact": 0.917,
       "source_weight": 0.9,
-      "age_hours": 3.73,
+      "age_hours": 4.67,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -51,6 +51,40 @@
       ]
     },
     {
+      "title": "'Discussions are being had' on second round of Iran talks in Pakistan, White House says",
+      "published": "Wed, 15 Apr 2026 21:31:23 +0200",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.626,
+      "raw_impact": 0.92,
+      "source_weight": 0.85,
+      "age_hours": 4.6,
+      "confidence": 0.955,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/2026/04/15/discussions-are-being-had-on-second-round-of-iran-talks-in-pakistan-white-house-says",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/2026/04/15/discussions-are-being-had-on-second-round-of-iran-talks-in-pakistan-white-house-says"
+      ]
+    },
+    {
       "title": "Pope Leo visits Cameroon with message of peace amid attacks from Trump",
       "published": "Wed, 15 Apr 2026 18:57:57 +0000",
       "actors": [
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.635,
-      "raw_impact": 0.705,
+      "impact": 0.601,
+      "raw_impact": 0.668,
       "source_weight": 0.9,
-      "age_hours": 4.23,
+      "age_hours": 5.16,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.42,
-      "raw_impact": 0.42,
+      "impact": 0.398,
+      "raw_impact": 0.398,
       "source_weight": 1.0,
-      "age_hours": 13.18,
+      "age_hours": 14.11,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +161,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.395,
-      "raw_impact": 0.439,
+      "impact": 0.374,
+      "raw_impact": 0.416,
       "source_weight": 0.9,
-      "age_hours": 12.44,
+      "age_hours": 13.37,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.245,
-      "raw_impact": 0.32,
+      "impact": 0.232,
+      "raw_impact": 0.303,
       "source_weight": 0.9,
-      "age_hours": 7.74,
+      "age_hours": 8.68,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.178,
-      "raw_impact": 0.233,
+      "impact": 0.168,
+      "raw_impact": 0.22,
       "source_weight": 0.9,
-      "age_hours": 1.92,
+      "age_hours": 2.85,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -222,42 +256,8 @@
       ]
     },
     {
-      "title": "Lyse Doucet: Under fragile ceasefire, Iranians wonder if US deal can be done",
-      "published": "Wed, 15 Apr 2026 21:10:14 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.16,
-      "raw_impact": -0.178,
-      "source_weight": 1.0,
-      "age_hours": 2.02,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/c4g44gj7rgno?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/c4g44gj7rgno?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Iran War Live Updates: Pakistani Mediators Arrive in Iran to Keep Peace Talks Alive",
-      "published": "Wed, 15 Apr 2026 23:01:13 +0000",
+      "published": "Wed, 15 Apr 2026 23:57:53 +0000",
       "actors": [
         "iran",
         "us"
@@ -267,7 +267,7 @@
       "impact": -0.16,
       "raw_impact": -0.198,
       "source_weight": 0.9,
-      "age_hours": 0.17,
+      "age_hours": 0.16,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -290,6 +290,40 @@
       ]
     },
     {
+      "title": "Lyse Doucet: Under fragile ceasefire, Iranians wonder if US deal can be done",
+      "published": "Wed, 15 Apr 2026 21:10:14 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.152,
+      "raw_impact": -0.169,
+      "source_weight": 1.0,
+      "age_hours": 2.95,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c4g44gj7rgno?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/c4g44gj7rgno?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Ceasefire between Israel and Hizbollah expected \u2018soon\u2019, say Lebanese officials",
       "published": "Wed, 15 Apr 2026 21:29:38 GMT",
       "actors": [
@@ -298,10 +332,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.147,
-      "raw_impact": -0.181,
+      "impact": -0.14,
+      "raw_impact": -0.172,
       "source_weight": 0.9,
-      "age_hours": 1.7,
+      "age_hours": 2.63,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -332,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.161,
+      "impact": -0.124,
+      "raw_impact": -0.153,
       "source_weight": 0.9,
-      "age_hours": 3.7,
+      "age_hours": 4.64,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -366,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.104,
-      "raw_impact": -0.128,
+      "impact": -0.098,
+      "raw_impact": -0.121,
       "source_weight": 0.9,
-      "age_hours": 7.76,
+      "age_hours": 8.69,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -400,10 +434,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.104,
-      "raw_impact": 0.173,
+      "impact": 0.098,
+      "raw_impact": 0.164,
       "source_weight": 0.75,
-      "age_hours": 38.74,
+      "age_hours": 39.68,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -435,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.076,
-      "raw_impact": -0.099,
+      "impact": -0.072,
+      "raw_impact": -0.094,
       "source_weight": 0.85,
-      "age_hours": 12.13,
+      "age_hours": 13.07,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -469,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.192,
+      "impact": 0.041,
+      "raw_impact": 0.182,
       "source_weight": 0.9,
-      "age_hours": 0.74,
+      "age_hours": 1.68,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -503,10 +537,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
+      "impact": 0.037,
+      "raw_impact": 0.164,
       "source_weight": 0.9,
-      "age_hours": 2.53,
+      "age_hours": 3.46,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -537,10 +571,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.165,
+      "impact": 0.035,
+      "raw_impact": 0.157,
       "source_weight": 0.9,
-      "age_hours": 3.29,
+      "age_hours": 4.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -571,10 +605,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.162,
+      "impact": 0.035,
+      "raw_impact": 0.153,
       "source_weight": 0.9,
-      "age_hours": 3.7,
+      "age_hours": 4.63,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -605,10 +639,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.147,
+      "impact": 0.031,
+      "raw_impact": 0.139,
       "source_weight": 0.9,
-      "age_hours": 5.35,
+      "age_hours": 6.28,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -639,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.128,
+      "impact": 0.03,
+      "raw_impact": 0.121,
       "source_weight": 1.0,
-      "age_hours": 7.73,
+      "age_hours": 8.67,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -673,10 +707,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.124,
+      "impact": 0.026,
+      "raw_impact": 0.118,
       "source_weight": 0.9,
-      "age_hours": 8.27,
+      "age_hours": 9.2,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -707,10 +741,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.026,
-      "raw_impact": -0.026,
+      "impact": -0.024,
+      "raw_impact": -0.025,
       "source_weight": 1.1,
-      "age_hours": 35.19,
+      "age_hours": 36.12,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -741,10 +775,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.026,
-      "raw_impact": -0.026,
+      "impact": -0.024,
+      "raw_impact": -0.025,
       "source_weight": 1.1,
-      "age_hours": 35.19,
+      "age_hours": 36.12,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -767,40 +801,6 @@
       ]
     },
     {
-      "title": "Gina Rinehart\u2019s Hancock Prospecting to pay hundreds of millions\u2019 worth of royalties to rival family in \u2018half loss half win\u2019",
-      "published": "Wed, 15 Apr 2026 10:54:57 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.098,
-      "source_weight": 0.9,
-      "age_hours": 12.28,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/business/2026/apr/15/gina-rinehart-hancock-prospecting-royalties-wright-family-heirs-supreme-court-ntwnfb",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/business/2026/apr/15/gina-rinehart-hancock-prospecting-royalties-wright-family-heirs-supreme-court-ntwnfb"
-      ]
-    },
-    {
       "title": "Iranian sea trade blocked as six ships forced to turn back, U.S. military says",
       "published": "Wed, 15 Apr 2026 08:24:02 +0000",
       "actors": [
@@ -809,10 +809,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.085,
+      "impact": 0.018,
+      "raw_impact": 0.081,
       "source_weight": 0.9,
-      "age_hours": 14.79,
+      "age_hours": 15.72,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -843,10 +843,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.038,
+      "impact": 0.008,
+      "raw_impact": 0.036,
       "source_weight": 0.9,
-      "age_hours": 28.6,
+      "age_hours": 29.53,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -878,9 +878,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.006,
-      "raw_impact": -0.007,
+      "raw_impact": -0.006,
       "source_weight": 1.1,
-      "age_hours": 59.19,
+      "age_hours": 60.12,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -914,7 +914,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 121.47,
+      "age_hours": 122.41,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -948,7 +948,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 175.82,
+      "age_hours": 176.76,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -982,7 +982,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 218.17,
+      "age_hours": 219.11,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1016,7 +1016,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1032.44,
+      "age_hours": 1033.38,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1050,7 +1050,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 154.83,
+      "age_hours": 155.76,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1085,7 +1085,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 350.68,
+      "age_hours": 351.61,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1120,7 +1120,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 391.67,
+      "age_hours": 392.6,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1155,7 +1155,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 396.31,
+      "age_hours": 397.24,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1198,6 +1198,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "euronews_world",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1285,6 +1290,11 @@
       "domain": "www.economist.com"
     },
     {
+      "name": "www.euronews.com",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
+    },
+    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -1314,17 +1324,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 228,
+    "event_count": 248,
     "classified_count": 34,
     "paired_count": 34,
     "valid_pair_updates": 5,
     "top_driver_count": 34,
-    "total_signal": 3.8009,
+    "total_signal": 4.4276,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 106,
+      "no_actor": 120,
       "no_signal": 55,
-      "invalid_pair": 33,
+      "invalid_pair": 39,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
