@@ -1,21 +1,89 @@
 {
-  "last_updated": "2026-04-16 08:14:06 UTC",
-  "probability": 17.73,
-  "uncertainty": 5.85,
+  "last_updated": "2026-04-16 09:56:36 UTC",
+  "probability": 17.85,
+  "uncertainty": 5.87,
   "state": {
-    "us_russia": 3.483847521087878,
-    "us_china": 4.060238502882337,
-    "china_taiwan": 4.212076151838576,
+    "us_russia": 3.614834445451603,
+    "us_china": 4.14582394197777,
+    "china_taiwan": 4.22917990312855,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333333333332,
-    "iran_israel": 5.557258291743271,
+    "iran_us": 5.088708119669854,
+    "iran_israel": 5.236337006575372,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.75371723280273
+    "russia_ukraine": 6.93166227992645
   },
   "top_drivers": [
+    {
+      "title": "Russian Strikes Kill at Least 15 in Ukraine in Biggest Attack in Months",
+      "published": "Thu, 16 Apr 2026 08:55:07 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.763,
+      "raw_impact": 0.848,
+      "source_weight": 0.9,
+      "age_hours": 1.02,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/16/world/europe/russia-ukraine-missile-drone-attacks.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/16/world/europe/russia-ukraine-missile-drone-attacks.html"
+      ]
+    },
+    {
+      "title": "Russian missiles and drones bombard Ukraine in hourslong attack",
+      "published": "Thu, 16 Apr 2026 04:27:40 -0400",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.702,
+      "raw_impact": 0.826,
+      "source_weight": 0.85,
+      "age_hours": 1.48,
+      "confidence": 0.885,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/16/g-s1-117623/russian-missiles-drones-bombard-ukraine",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/16/g-s1-117623/russian-missiles-drones-bombard-ukraine"
+      ]
+    },
     {
       "title": "More than a dozen killed in Russian attacks on Kyiv, other Ukrainian cities",
       "published": "Thu, 16 Apr 2026 05:14:18 GMT",
@@ -25,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.681,
-      "raw_impact": 0.757,
+      "impact": 0.617,
+      "raw_impact": 0.686,
       "source_weight": 0.9,
-      "age_hours": 3.0,
+      "age_hours": 4.71,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.662,
-      "raw_impact": 0.919,
+      "impact": 0.6,
+      "raw_impact": 0.833,
       "source_weight": 0.9,
-      "age_hours": 4.61,
+      "age_hours": 6.32,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +161,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.614,
-      "raw_impact": 0.682,
+      "impact": 0.556,
+      "raw_impact": 0.618,
       "source_weight": 0.9,
-      "age_hours": 4.8,
+      "age_hours": 6.5,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -119,109 +187,6 @@
       ]
     },
     {
-      "title": "Russian attacks on Ukraine kill 14, including a child, authorities say",
-      "published": "Thu, 16 Apr 2026 01:06:01 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.536,
-      "raw_impact": 0.596,
-      "source_weight": 0.9,
-      "age_hours": 7.13,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/16/russian-attack-on-ukraines-kyiv-kills-12-year-old-child-wounds-10?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/16/russian-attack-on-ukraines-kyiv-kills-12-year-old-child-wounds-10?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Iran war live: Pakistan in push for new round of US-Iran peace negotiations",
-      "published": "Thu, 16 Apr 2026 00:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.364,
-      "raw_impact": 0.404,
-      "source_weight": 0.9,
-      "age_hours": 8.24,
-      "confidence": 0.698,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/16/iran-war-live-pakistan-in-push-for-new-round-of-us-iran-peace-negotiations?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/4/16/iran-war-live-pakistan-in-push-for-new-round-of-us-iran-peace-negotiations?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Sri Lanka repatriates 238 Iranian sailors stranded after US torpedo attack",
-      "published": "Wed, 15 Apr 2026 10:00:41 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.249,
-      "raw_impact": 0.249,
-      "source_weight": 1.0,
-      "age_hours": 22.22,
-      "confidence": 0.9,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/c9qdd318qd9o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/c9qdd318qd9o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Short-term gains for China from US-Iran war may turn to longer-term pain",
       "published": "Wed, 15 Apr 2026 10:45:12 GMT",
       "actors": [
@@ -230,10 +195,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.234,
-      "raw_impact": 0.26,
+      "impact": 0.212,
+      "raw_impact": 0.236,
       "source_weight": 0.9,
-      "age_hours": 21.48,
+      "age_hours": 23.19,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -256,18 +221,18 @@
       ]
     },
     {
-      "title": "Pakistani Mediators Arrive in Iran to Keep Peace Talks Alive",
-      "published": "Thu, 16 Apr 2026 07:42:08 +0000",
+      "title": "Iran War Live Updates: Pakistan\u2019s Shuttle Diplomacy Unfolds in Tehran",
+      "published": "Thu, 16 Apr 2026 09:52:14 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.194,
+      "impact": -0.161,
+      "raw_impact": -0.199,
       "source_weight": 0.9,
-      "age_hours": 0.53,
+      "age_hours": 0.07,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -278,7 +243,7 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/15/world/iran-war-trump-us-israel",
+      "link": "https://www.nytimes.com/live/2026/04/16/world/iran-war-trump-lebanon-news",
       "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
@@ -286,22 +251,56 @@
         "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/15/world/iran-war-trump-us-israel"
+        "https://www.nytimes.com/live/2026/04/16/world/iran-war-trump-lebanon-news"
       ]
     },
     {
-      "title": "Ceasefire with Israel expected \u2018soon\u2019, say Lebanese officials",
-      "published": "Thu, 16 Apr 2026 06:24:45 GMT",
+      "title": "Trump says Israeli, Lebanese leaders will meet amid push to extend ceasefire",
+      "published": "Thu, 16 Apr 2026 09:34:08 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.146,
-      "raw_impact": -0.18,
+      "impact": -0.158,
+      "raw_impact": -0.196,
       "source_weight": 0.9,
-      "age_hours": 1.82,
+      "age_hours": 0.37,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/16/trump-iran-israel-lebanon-ceasefire-talks/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/16/trump-iran-israel-lebanon-ceasefire-talks/"
+      ]
+    },
+    {
+      "title": "Ceasefire with Israel expected \u2018soon\u2019, say Lebanese officials",
+      "published": "Thu, 16 Apr 2026 08:37:11 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.15,
+      "raw_impact": -0.185,
+      "source_weight": 0.9,
+      "age_hours": 1.32,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -332,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.114,
-      "raw_impact": -0.142,
+      "impact": -0.104,
+      "raw_impact": -0.128,
       "source_weight": 0.9,
-      "age_hours": 5.98,
+      "age_hours": 7.69,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -366,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.105,
-      "raw_impact": 0.138,
+      "impact": 0.096,
+      "raw_impact": 0.125,
       "source_weight": 0.9,
-      "age_hours": 10.96,
+      "age_hours": 12.67,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -401,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.106,
+      "impact": -0.086,
+      "raw_impact": -0.096,
       "source_weight": 1.0,
-      "age_hours": 11.06,
+      "age_hours": 12.77,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -435,10 +434,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.062,
-      "raw_impact": 0.103,
+      "impact": 0.056,
+      "raw_impact": 0.093,
       "source_weight": 0.75,
-      "age_hours": 47.79,
+      "age_hours": 49.5,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -462,6 +461,40 @@
       ]
     },
     {
+      "title": "US jury rules Live Nation is illegal monopoly",
+      "published": "Thu, 16 Apr 2026 09:10:17 GMT",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.77,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/business/20260416-us-jury-rules-live-nation-is-illegal-monopoly",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/business/20260416-us-jury-rules-live-nation-is-illegal-monopoly"
+      ]
+    },
+    {
       "title": "Trump says Iran talks could resume in days as U.S. military blocks Iranian ports",
       "published": "Wed, 15 Apr 2026 07:03:22 -0400",
       "actors": [
@@ -470,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.045,
-      "raw_impact": -0.059,
+      "impact": -0.041,
+      "raw_impact": -0.053,
       "source_weight": 0.85,
-      "age_hours": 21.18,
+      "age_hours": 22.89,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -504,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 2.01,
+      "age_hours": 3.72,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -538,10 +571,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.142,
+      "impact": 0.032,
+      "raw_impact": 0.129,
       "source_weight": 1.0,
-      "age_hours": 5.94,
+      "age_hours": 7.65,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -572,10 +605,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.152,
+      "impact": 0.031,
+      "raw_impact": 0.137,
       "source_weight": 0.9,
-      "age_hours": 4.8,
+      "age_hours": 6.51,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -606,10 +639,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.103,
+      "impact": 0.021,
+      "raw_impact": 0.093,
       "source_weight": 0.9,
-      "age_hours": 11.57,
+      "age_hours": 13.28,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.096,
+      "impact": 0.019,
+      "raw_impact": 0.087,
       "source_weight": 0.9,
-      "age_hours": 12.74,
+      "age_hours": 14.45,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -674,10 +707,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.015,
-      "raw_impact": -0.016,
+      "impact": -0.013,
+      "raw_impact": -0.014,
       "source_weight": 1.1,
-      "age_hours": 44.24,
+      "age_hours": 45.94,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -708,10 +741,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.015,
-      "raw_impact": -0.016,
+      "impact": -0.013,
+      "raw_impact": -0.014,
       "source_weight": 1.1,
-      "age_hours": 44.24,
+      "age_hours": 45.94,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -742,10 +775,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.05,
+      "impact": 0.01,
+      "raw_impact": 0.046,
       "source_weight": 0.9,
-      "age_hours": 23.83,
+      "age_hours": 25.54,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -777,9 +810,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.005,
-      "raw_impact": 0.023,
+      "raw_impact": 0.021,
       "source_weight": 0.9,
-      "age_hours": 37.64,
+      "age_hours": 39.35,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -813,7 +846,7 @@
       "impact": -0.004,
       "raw_impact": -0.004,
       "source_weight": 1.1,
-      "age_hours": 68.24,
+      "age_hours": 69.94,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -847,7 +880,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 130.52,
+      "age_hours": 132.23,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -881,7 +914,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 184.87,
+      "age_hours": 186.58,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -915,7 +948,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 227.22,
+      "age_hours": 228.93,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -949,7 +982,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1041.49,
+      "age_hours": 1043.19,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -983,7 +1016,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 163.88,
+      "age_hours": 165.58,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1018,7 +1051,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 359.72,
+      "age_hours": 361.43,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1053,7 +1086,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 400.71,
+      "age_hours": 402.42,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1088,7 +1121,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 405.35,
+      "age_hours": 407.06,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1247,17 +1280,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 228,
-    "classified_count": 32,
-    "paired_count": 32,
+    "event_count": 230,
+    "classified_count": 33,
+    "paired_count": 33,
     "valid_pair_updates": 6,
-    "top_driver_count": 32,
-    "total_signal": 4.2771,
+    "top_driver_count": 33,
+    "total_signal": 4.2324,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 107,
-      "no_signal": 50,
-      "invalid_pair": 39,
+      "no_actor": 101,
+      "no_signal": 55,
+      "invalid_pair": 41,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
