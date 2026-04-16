@@ -1,34 +1,68 @@
 {
-  "last_updated": "2026-04-16 09:56:36 UTC",
-  "probability": 17.85,
-  "uncertainty": 5.87,
+  "last_updated": "2026-04-16 11:09:34 UTC",
+  "probability": 18.82,
+  "uncertainty": 5.94,
   "state": {
-    "us_russia": 3.614834445451603,
-    "us_china": 4.14582394197777,
-    "china_taiwan": 4.22917990312855,
+    "us_russia": 3.7778780020308638,
+    "us_china": 4.151768041916348,
+    "china_taiwan": 4.230361638085174,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.088708119669854,
-    "iran_israel": 5.236337006575372,
+    "iran_us": 5.344001188574611,
+    "iran_israel": 5.545109545499658,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.93166227992645
+    "russia_ukraine": 7.026195586210927
   },
   "top_drivers": [
     {
+      "title": "MIDDLE EAST LIVE 16 April: All eyes on mooted Israel-Lebanon talks",
+      "published": "Thu, 16 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.99,
+      "raw_impact": 0.9,
+      "source_weight": 1.1,
+      "age_hours": 0.0,
+      "confidence": 0.92,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167311",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167311"
+      ]
+    },
+    {
       "title": "Russian Strikes Kill at Least 15 in Ukraine in Biggest Attack in Months",
-      "published": "Thu, 16 Apr 2026 08:55:07 +0000",
+      "published": "Thu, 16 Apr 2026 10:55:01 +0000",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.763,
-      "raw_impact": 0.848,
+      "impact": 0.799,
+      "raw_impact": 0.887,
       "source_weight": 0.9,
-      "age_hours": 1.02,
+      "age_hours": 0.24,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,6 +85,108 @@
       ]
     },
     {
+      "title": "\u2018Sent to be killed\u2019: How Russia forces migrants to fight in Ukraine",
+      "published": "Thu, 16 Apr 2026 10:45:39 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.792,
+      "raw_impact": 0.88,
+      "source_weight": 0.9,
+      "age_hours": 0.4,
+      "confidence": 0.81,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/features/2026/4/16/sent-to-be-killed-how-russia-forces-migrants-to-fight-in-ukraine?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/features/2026/4/16/sent-to-be-killed-how-russia-forces-migrants-to-fight-in-ukraine?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Ukraine: At least 16 killed in overnight Russian strikes",
+      "published": "Thu, 16 Apr 2026 10:35:28 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.784,
+      "raw_impact": 0.871,
+      "source_weight": 0.9,
+      "age_hours": 0.57,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260416-ukraine-at-least-16-killed-in-overnight-russian-strikes",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260416-ukraine-at-least-16-killed-in-overnight-russian-strikes"
+      ]
+    },
+    {
+      "title": "'Confusion' as Trump says Israel, Lebanon leaders to hold talks",
+      "published": "Thu, 16 Apr 2026 09:57:16 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.756,
+      "raw_impact": 0.839,
+      "source_weight": 0.9,
+      "age_hours": 1.21,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260416-confusion-as-trump-says-israel-lebanon-leaders-to-hold-talks",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260416-confusion-as-trump-says-israel-lebanon-leaders-to-hold-talks"
+      ]
+    },
+    {
       "title": "Russian missiles and drones bombard Ukraine in hourslong attack",
       "published": "Thu, 16 Apr 2026 04:27:40 -0400",
       "actors": [
@@ -59,10 +195,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.702,
-      "raw_impact": 0.826,
+      "impact": 0.655,
+      "raw_impact": 0.77,
       "source_weight": 0.85,
-      "age_hours": 1.48,
+      "age_hours": 2.7,
       "confidence": 0.885,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,97 +221,30 @@
       ]
     },
     {
-      "title": "More than a dozen killed in Russian attacks on Kyiv, other Ukrainian cities",
-      "published": "Thu, 16 Apr 2026 05:14:18 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.617,
-      "raw_impact": 0.686,
-      "source_weight": 0.9,
-      "age_hours": 4.71,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/europe/20260416-more-than-a-dozen-killed-in-russian-attacks-on-kyiv-other-ukrainian-cities",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/europe/20260416-more-than-a-dozen-killed-in-russian-attacks-on-kyiv-other-ukrainian-cities"
-      ]
-    },
-    {
-      "title": "Hopes grow for a breakthrough in US-Iran talks as Pakistan mediates",
-      "published": "Thu, 16 Apr 2026 03:37:24 +0000",
+      "title": "Pakistani army chief visits Tehran in hopes for renewed talks between US and Iran",
+      "published": "Thu, 16 Apr 2026 10:37:22 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.6,
-      "raw_impact": 0.833,
-      "source_weight": 0.9,
-      "age_hours": 6.32,
-      "confidence": 0.96,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/16/hopes-grow-for-a-breakthrough-in-us-iran-talks-as-pakistan-mediates?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/16/hopes-grow-for-a-breakthrough-in-us-iran-talks-as-pakistan-mediates?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Russian strikes kill three, including child, as drones and missiles hit Kyiv",
-      "published": "Thu, 16 Apr 2026 03:26:22 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.556,
-      "raw_impact": 0.618,
+      "impact": 0.567,
+      "raw_impact": 0.63,
       "source_weight": 0.9,
-      "age_hours": 6.5,
-      "confidence": 0.89,
-      "signal_total": 0.9,
+      "age_hours": 0.54,
+      "confidence": 0.698,
+      "signal_total": 0.65,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.9,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/europe/20260416-russia-strikes-ukraine-kyiv-drones-missiles-kill-three-child",
+      "link": "https://www.france24.com/en/video/20260416-pakistani-army-chief-visits-tehran-in-hopes-for-renewed-talks-between-us-and-iran",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -183,7 +252,42 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/europe/20260416-russia-strikes-ukraine-kyiv-drones-missiles-kill-three-child"
+        "https://www.france24.com/en/video/20260416-pakistani-army-chief-visits-tehran-in-hopes-for-renewed-talks-between-us-and-iran"
+      ]
+    },
+    {
+      "title": "Russian massive strikes kill at least 16 across Ukraine",
+      "published": "Thu, 16 Apr 2026 09:56:22 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.545,
+      "raw_impact": 0.606,
+      "source_weight": 0.9,
+      "age_hours": 1.22,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260416-russian-massive-strikes-kill-at-least-16-across-ukraine",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260416-russian-massive-strikes-kill-at-least-16-across-ukraine"
       ]
     },
     {
@@ -195,10 +299,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.212,
-      "raw_impact": 0.236,
+      "impact": 0.198,
+      "raw_impact": 0.22,
       "source_weight": 0.9,
-      "age_hours": 23.19,
+      "age_hours": 24.41,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -221,40 +325,6 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Pakistan\u2019s Shuttle Diplomacy Unfolds in Tehran",
-      "published": "Thu, 16 Apr 2026 09:52:14 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.161,
-      "raw_impact": -0.199,
-      "source_weight": 0.9,
-      "age_hours": 0.07,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/16/world/iran-war-trump-lebanon-news",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/16/world/iran-war-trump-lebanon-news"
-      ]
-    },
-    {
       "title": "Trump says Israeli, Lebanese leaders will meet amid push to extend ceasefire",
       "published": "Thu, 16 Apr 2026 09:34:08 +0000",
       "actors": [
@@ -263,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.196,
+      "impact": -0.148,
+      "raw_impact": -0.182,
       "source_weight": 0.9,
-      "age_hours": 0.37,
+      "age_hours": 1.59,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.15,
-      "raw_impact": -0.185,
+      "impact": -0.14,
+      "raw_impact": -0.173,
       "source_weight": 0.9,
-      "age_hours": 1.32,
+      "age_hours": 2.54,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -323,40 +393,6 @@
       ]
     },
     {
-      "title": "Iran Will Be in U.S. for World Cup, FIFA\u2019s Infantino Says",
-      "published": "Thu, 16 Apr 2026 02:15:23 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.104,
-      "raw_impact": -0.128,
-      "source_weight": 0.9,
-      "age_hours": 7.69,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/15/world/middleeast/iran-world-cup-fifa-us.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/15/world/middleeast/iran-world-cup-fifa-us.html"
-      ]
-    },
-    {
       "title": "U.S. sends thousands more troops to Mideast as Trump seeks to squeeze Iran",
       "published": "Wed, 15 Apr 2026 21:16:15 +0000",
       "actors": [
@@ -365,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.096,
-      "raw_impact": 0.125,
+      "impact": 0.089,
+      "raw_impact": 0.117,
       "source_weight": 0.9,
-      "age_hours": 12.67,
+      "age_hours": 13.89,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -400,10 +436,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.086,
-      "raw_impact": -0.096,
+      "impact": -0.08,
+      "raw_impact": -0.089,
       "source_weight": 1.0,
-      "age_hours": 12.77,
+      "age_hours": 13.99,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -434,10 +470,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.056,
-      "raw_impact": 0.093,
+      "impact": 0.052,
+      "raw_impact": 0.087,
       "source_weight": 0.75,
-      "age_hours": 49.5,
+      "age_hours": 50.71,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -461,6 +497,142 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: Pakistan\u2019s Shuttle Diplomacy Unfolds in Tehran",
+      "published": "Thu, 16 Apr 2026 10:28:47 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.68,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/16/world/iran-war-trump-lebanon-news",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/16/world/iran-war-trump-lebanon-news"
+      ]
+    },
+    {
+      "title": "Pakistan Looks to Play Peacemaker Between U.S. and Iran, Again",
+      "published": "Thu, 16 Apr 2026 10:26:04 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.73,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/16/world/asia/iran-pakistan-diplomacy.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/16/world/asia/iran-pakistan-diplomacy.html"
+      ]
+    },
+    {
+      "title": "Trump says Lebanese and Israeli leaders to speak",
+      "published": "Thu, 16 Apr 2026 09:59:07 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.187,
+      "source_weight": 0.9,
+      "age_hours": 1.17,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260416-trump-says-lebanese-and-israeli-leaders-to-speak",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260416-trump-says-lebanese-and-israeli-leaders-to-speak"
+      ]
+    },
+    {
+      "title": "The Iran war will damage the petrodollar",
+      "published": "Thu, 16 Apr 2026 10:00:04 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.187,
+      "source_weight": 0.9,
+      "age_hours": 1.16,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/85620381-1381-43da-a977-9ecd94cdeb2f",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/85620381-1381-43da-a977-9ecd94cdeb2f"
+      ]
+    },
+    {
       "title": "US jury rules Live Nation is illegal monopoly",
       "published": "Thu, 16 Apr 2026 09:10:17 GMT",
       "actors": [
@@ -469,10 +641,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.191,
+      "impact": 0.04,
+      "raw_impact": 0.178,
       "source_weight": 0.9,
-      "age_hours": 0.77,
+      "age_hours": 1.99,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -503,10 +675,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.053,
+      "impact": -0.038,
+      "raw_impact": -0.05,
       "source_weight": 0.85,
-      "age_hours": 22.89,
+      "age_hours": 24.1,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -537,10 +709,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.161,
+      "impact": 0.034,
+      "raw_impact": 0.15,
       "source_weight": 0.9,
-      "age_hours": 3.72,
+      "age_hours": 4.94,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -571,10 +743,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.129,
+      "impact": 0.03,
+      "raw_impact": 0.12,
       "source_weight": 1.0,
-      "age_hours": 7.65,
+      "age_hours": 8.87,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -597,40 +769,6 @@
       ]
     },
     {
-      "title": "Democrats clash with US Energy Secretary over Iran war and gas prices",
-      "published": "Thu, 16 Apr 2026 03:26:11 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.137,
-      "source_weight": 0.9,
-      "age_hours": 6.51,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/16/democrats-clash-with-us-energy-secretary-over-iran-war-and-gas-prices?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/16/democrats-clash-with-us-energy-secretary-over-iran-war-and-gas-prices?traffic_source=rss"
-      ]
-    },
-    {
       "title": "With Iran War on Pause, Political Battle Resumes Over Israeli Democracy",
       "published": "Wed, 15 Apr 2026 20:39:54 +0000",
       "actors": [
@@ -639,10 +777,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.093,
+      "impact": 0.019,
+      "raw_impact": 0.087,
       "source_weight": 0.9,
-      "age_hours": 13.28,
+      "age_hours": 14.49,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -673,10 +811,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.087,
+      "impact": 0.018,
+      "raw_impact": 0.081,
       "source_weight": 0.9,
-      "age_hours": 14.45,
+      "age_hours": 15.67,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -708,9 +846,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.013,
-      "raw_impact": -0.014,
+      "raw_impact": -0.013,
       "source_weight": 1.1,
-      "age_hours": 45.94,
+      "age_hours": 47.16,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -742,9 +880,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.013,
-      "raw_impact": -0.014,
+      "raw_impact": -0.013,
       "source_weight": 1.1,
-      "age_hours": 45.94,
+      "age_hours": 47.16,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -775,10 +913,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.046,
+      "impact": 0.009,
+      "raw_impact": 0.043,
       "source_weight": 0.9,
-      "age_hours": 25.54,
+      "age_hours": 26.76,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -809,10 +947,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.005,
-      "raw_impact": 0.021,
+      "impact": 0.004,
+      "raw_impact": 0.019,
       "source_weight": 0.9,
-      "age_hours": 39.35,
+      "age_hours": 40.57,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,9 +982,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.004,
-      "raw_impact": -0.004,
+      "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 69.94,
+      "age_hours": 71.16,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -880,7 +1018,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 132.23,
+      "age_hours": 133.44,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -914,7 +1052,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 186.58,
+      "age_hours": 187.79,
       "confidence": 0.75,
       "signal_total": 0.5,
       "signal_components": {
@@ -948,7 +1086,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 228.93,
+      "age_hours": 230.14,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -982,7 +1120,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1043.19,
+      "age_hours": 1044.41,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1016,7 +1154,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 165.58,
+      "age_hours": 166.8,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1051,7 +1189,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 361.43,
+      "age_hours": 362.65,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1086,7 +1224,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 402.42,
+      "age_hours": 403.64,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1121,7 +1259,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 407.06,
+      "age_hours": 408.28,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1281,16 +1419,16 @@
   ],
   "debug": {
     "event_count": 230,
-    "classified_count": 33,
-    "paired_count": 33,
+    "classified_count": 37,
+    "paired_count": 37,
     "valid_pair_updates": 6,
-    "top_driver_count": 33,
-    "total_signal": 4.2324,
+    "top_driver_count": 37,
+    "total_signal": 8.117,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 101,
-      "no_signal": 55,
-      "invalid_pair": 41,
+      "no_actor": 103,
+      "no_signal": 53,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
