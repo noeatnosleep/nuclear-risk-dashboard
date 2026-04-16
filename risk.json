@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-16 22:08:11 UTC",
-  "probability": 15.11,
-  "uncertainty": 6.12,
+  "last_updated": "2026-04-16 23:10:51 UTC",
+  "probability": 14.5,
+  "uncertainty": 6.04,
   "state": {
-    "us_russia": 3.332444084332309,
-    "us_china": 3.6469499000758105,
-    "china_taiwan": 4.129390030958918,
+    "us_russia": 3.311724502473517,
+    "us_china": 3.590996701218185,
+    "china_taiwan": 4.118199367307508,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.376333494972367,
-    "iran_israel": 4.579238046176943,
+    "iran_us": 4.148753263057221,
+    "iran_israel": 4.032914534448634,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.132653607064123
+    "russia_ukraine": 7.1329722287528154
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.551,
-      "raw_impact": 0.501,
+      "impact": 0.519,
+      "raw_impact": 0.472,
       "source_weight": 1.1,
-      "age_hours": 10.14,
+      "age_hours": 11.18,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.507,
-      "raw_impact": 0.563,
+      "impact": 0.477,
+      "raw_impact": 0.53,
       "source_weight": 0.9,
-      "age_hours": 8.12,
+      "age_hours": 9.17,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.439,
-      "raw_impact": 0.439,
+      "impact": 0.413,
+      "raw_impact": 0.413,
       "source_weight": 1.0,
-      "age_hours": 6.79,
+      "age_hours": 7.83,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -128,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.176,
-      "raw_impact": -0.177,
+      "impact": -0.166,
+      "raw_impact": -0.167,
       "source_weight": 1.1,
-      "age_hours": 2.07,
+      "age_hours": 3.11,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -154,42 +154,8 @@
       ]
     },
     {
-      "title": "10-day ceasefire in Lebanon begins as Israel agrees to U.S.-backed deal",
-      "published": "Thu, 16 Apr 2026 21:56:26 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.16,
-      "raw_impact": -0.198,
-      "source_weight": 0.9,
-      "age_hours": 0.2,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/16/trump-iran-israel-lebanon-ceasefire-talks/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/16/trump-iran-israel-lebanon-ceasefire-talks/"
-      ]
-    },
-    {
       "title": "Live Updates: Lebanon-Israel Cease-Fire Goes Into Effect",
-      "published": "Thu, 16 Apr 2026 21:37:45 +0000",
+      "published": "Thu, 16 Apr 2026 22:46:17 +0000",
       "actors": [
         "iran",
         "israel"
@@ -197,9 +163,9 @@
       "state_key": "iran_israel",
       "class": "deescalation",
       "impact": -0.158,
-      "raw_impact": -0.194,
+      "raw_impact": -0.195,
       "source_weight": 0.9,
-      "age_hours": 0.51,
+      "age_hours": 0.41,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -222,6 +188,74 @@
       ]
     },
     {
+      "title": "10-day ceasefire in Lebanon begins as Israel agrees to U.S.-backed deal",
+      "published": "Thu, 16 Apr 2026 21:56:26 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.151,
+      "raw_impact": -0.186,
+      "source_weight": 0.9,
+      "age_hours": 1.24,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/16/trump-iran-israel-lebanon-ceasefire-talks/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/16/trump-iran-israel-lebanon-ceasefire-talks/"
+      ]
+    },
+    {
+      "title": "FirstFT: China\u2019s economic growth exceeds expectations despite Iran war",
+      "published": "Thu, 16 Apr 2026 21:52:04 GMT",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "deescalation",
+      "impact": -0.15,
+      "raw_impact": -0.185,
+      "source_weight": 0.9,
+      "age_hours": 1.31,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/e00d57ef-b8cc-4f20-b6a6-e9c51381c614",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/e00d57ef-b8cc-4f20-b6a6-e9c51381c614"
+      ]
+    },
+    {
       "title": "Israel agrees to halt its war with Hizbollah in Lebanon",
       "published": "Thu, 16 Apr 2026 21:46:28 GMT",
       "actors": [
@@ -230,10 +264,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.196,
+      "impact": -0.149,
+      "raw_impact": -0.184,
       "source_weight": 0.9,
-      "age_hours": 0.36,
+      "age_hours": 1.41,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -264,10 +298,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.132,
-      "raw_impact": -0.163,
+      "impact": -0.125,
+      "raw_impact": -0.154,
       "source_weight": 0.9,
-      "age_hours": 3.49,
+      "age_hours": 4.53,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -290,40 +324,6 @@
       ]
     },
     {
-      "title": "MIDDLE EAST LIVE 16 April: UN meets over China-Russia Hormuz crisis veto as humanitarian crisis continues in Lebanon",
-      "published": "Thu, 16 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "deescalation",
-      "impact": -0.111,
-      "raw_impact": -0.111,
-      "source_weight": 1.1,
-      "age_hours": 10.14,
-      "confidence": 0.78,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167311",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167311"
-      ]
-    },
-    {
       "title": "A complex set of negotiations to end Israel's overlapping wars",
       "published": "Thu, 16 Apr 2026 12:27:33 -0400",
       "actors": [
@@ -332,10 +332,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.11,
-      "raw_impact": -0.144,
+      "impact": -0.104,
+      "raw_impact": -0.136,
       "source_weight": 0.85,
-      "age_hours": 5.68,
+      "age_hours": 6.72,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -358,6 +358,40 @@
       ]
     },
     {
+      "title": "MIDDLE EAST LIVE 16 April: UN meets over China-Russia Hormuz crisis veto as humanitarian crisis continues in Lebanon",
+      "published": "Thu, 16 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "deescalation",
+      "impact": -0.104,
+      "raw_impact": -0.105,
+      "source_weight": 1.1,
+      "age_hours": 11.18,
+      "confidence": 0.78,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167311",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167311"
+      ]
+    },
+    {
       "title": "Short-term gains for China from US-Iran war may turn to longer-term pain",
       "published": "Wed, 15 Apr 2026 10:45:12 GMT",
       "actors": [
@@ -366,10 +400,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.105,
-      "raw_impact": 0.117,
+      "impact": 0.099,
+      "raw_impact": 0.11,
       "source_weight": 0.9,
-      "age_hours": 35.38,
+      "age_hours": 36.43,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -392,27 +426,26 @@
       ]
     },
     {
-      "title": "Israel agreed to ceasefire in its war with Hezbollah but will keep troops in Lebanon",
+      "title": "Israel agrees to a ceasefire in Lebanon, as Trump sounds optimistic about Iran talks",
       "published": "Thu, 16 Apr 2026 07:45:30 -0400",
       "actors": [
         "iran",
         "israel"
       ],
       "state_key": "iran_israel",
-      "class": "movement",
-      "impact": 0.103,
-      "raw_impact": 0.143,
+      "class": "deescalation",
+      "impact": -0.079,
+      "raw_impact": -0.103,
       "source_weight": 0.85,
-      "age_hours": 10.38,
-      "confidence": 0.605,
-      "signal_total": 0.26,
+      "age_hours": 11.42,
+      "confidence": 0.745,
+      "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
         "action": 0.0,
-        "movement": 0.5,
+        "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
-        "contradiction_adjustment": -0.04,
         "deescalation_verified": 0.0
       },
       "link": "https://www.npr.org/2026/04/16/nx-s1-5787392/iran-middle-east-updates",
@@ -427,6 +460,40 @@
       ]
     },
     {
+      "title": "10-Day Cease-Fire Between Israel and Lebanon Goes Into Effect",
+      "published": "Thu, 16 Apr 2026 22:40:18 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.194,
+      "source_weight": 0.9,
+      "age_hours": 0.51,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/16/world/middleeast/israel-lebanon-cease-fire.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/16/world/middleeast/israel-lebanon-cease-fire.html"
+      ]
+    },
+    {
       "title": "U.S. sends thousands more troops to Mideast as Trump seeks to squeeze Iran",
       "published": "Wed, 15 Apr 2026 21:16:15 +0000",
       "actors": [
@@ -435,10 +502,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.048,
-      "raw_impact": 0.062,
+      "impact": 0.044,
+      "raw_impact": 0.058,
       "source_weight": 0.9,
-      "age_hours": 24.87,
+      "age_hours": 25.91,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -462,40 +529,6 @@
       ]
     },
     {
-      "title": "Israel and Lebanon Reach Deal on a 10-Day Cease-Fire",
-      "published": "Thu, 16 Apr 2026 21:23:58 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.192,
-      "source_weight": 0.9,
-      "age_hours": 0.74,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/16/world/middleeast/israel-lebanon-cease-fire.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/16/world/middleeast/israel-lebanon-cease-fire.html"
-      ]
-    },
-    {
       "title": "Lyse Doucet: Under fragile ceasefire, Iranians wonder if US deal can be done",
       "published": "Wed, 15 Apr 2026 21:10:14 GMT",
       "actors": [
@@ -504,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.042,
-      "raw_impact": -0.047,
+      "impact": -0.041,
+      "raw_impact": -0.045,
       "source_weight": 1.0,
-      "age_hours": 24.97,
+      "age_hours": 26.01,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -538,10 +571,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.185,
+      "impact": 0.039,
+      "raw_impact": 0.174,
       "source_weight": 0.9,
-      "age_hours": 1.33,
+      "age_hours": 2.37,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -572,10 +605,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.185,
+      "impact": 0.037,
+      "raw_impact": 0.175,
       "source_weight": 0.85,
-      "age_hours": 1.31,
+      "age_hours": 2.35,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -606,10 +639,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.176,
+      "impact": 0.037,
+      "raw_impact": 0.165,
       "source_weight": 0.9,
-      "age_hours": 2.24,
+      "age_hours": 3.28,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.145,
+      "impact": 0.031,
+      "raw_impact": 0.136,
       "source_weight": 0.9,
-      "age_hours": 5.59,
+      "age_hours": 6.63,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -674,10 +707,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.137,
+      "impact": 0.029,
+      "raw_impact": 0.129,
       "source_weight": 0.9,
-      "age_hours": 6.55,
+      "age_hours": 7.59,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -708,10 +741,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.132,
+      "impact": 0.028,
+      "raw_impact": 0.125,
       "source_weight": 0.9,
-      "age_hours": 7.14,
+      "age_hours": 8.18,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -742,10 +775,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.132,
+      "impact": 0.028,
+      "raw_impact": 0.125,
       "source_weight": 0.9,
-      "age_hours": 7.14,
+      "age_hours": 8.18,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,10 +809,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.027,
-      "raw_impact": 0.046,
+      "impact": 0.026,
+      "raw_impact": 0.043,
       "source_weight": 0.75,
-      "age_hours": 61.69,
+      "age_hours": 62.73,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -811,10 +844,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.007,
+      "impact": -0.006,
       "raw_impact": -0.007,
       "source_weight": 1.1,
-      "age_hours": 58.14,
+      "age_hours": 59.18,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -846,9 +879,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.005,
-      "raw_impact": 0.023,
+      "raw_impact": 0.021,
       "source_weight": 0.9,
-      "age_hours": 37.74,
+      "age_hours": 38.78,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -882,7 +915,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 144.42,
+      "age_hours": 145.46,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -916,7 +949,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1055.39,
+      "age_hours": 1056.43,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -950,7 +983,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 177.78,
+      "age_hours": 178.82,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -985,7 +1018,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 373.63,
+      "age_hours": 374.67,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1020,7 +1053,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 414.61,
+      "age_hours": 415.66,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1055,7 +1088,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 419.25,
+      "age_hours": 420.3,
       "confidence": 0.865,
       "signal_total": 1.2,
       "signal_components": {
@@ -1210,16 +1243,16 @@
   ],
   "debug": {
     "event_count": 231,
-    "classified_count": 31,
-    "paired_count": 31,
+    "classified_count": 32,
+    "paired_count": 32,
     "valid_pair_updates": 6,
-    "top_driver_count": 31,
-    "total_signal": 2.344,
+    "top_driver_count": 32,
+    "total_signal": 2.5969,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 104,
-      "no_signal": 54,
-      "invalid_pair": 42,
+      "no_actor": 103,
+      "no_signal": 52,
+      "invalid_pair": 44,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
