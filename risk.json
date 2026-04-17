@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-17 19:38:25 UTC",
-  "probability": 14.3,
-  "uncertainty": 5.7,
+  "last_updated": "2026-04-17 20:50:12 UTC",
+  "probability": 14.37,
+  "uncertainty": 5.64,
   "state": {
-    "us_russia": 3.3521431306912337,
-    "us_china": 3.2024666904016077,
-    "china_taiwan": 4.040493338087587,
+    "us_russia": 3.3435506060187596,
+    "us_china": 3.145117542060787,
+    "china_taiwan": 4.029023508416017,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.099556394936073,
-    "iran_israel": 6.317400375294168,
+    "iran_us": 5.349764334809789,
+    "iran_israel": 6.465493949375027,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.392648884636228
+    "russia_ukraine": 5.357152452710058
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.805,
-      "raw_impact": 1.117,
+      "impact": 0.75,
+      "raw_impact": 1.043,
       "source_weight": 0.9,
-      "age_hours": 1.24,
+      "age_hours": 2.43,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.658,
-      "raw_impact": 0.913,
+      "impact": 0.614,
+      "raw_impact": 0.852,
       "source_weight": 0.9,
-      "age_hours": 4.73,
+      "age_hours": 5.93,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.637,
-      "raw_impact": 0.579,
+      "impact": 0.594,
+      "raw_impact": 0.54,
       "source_weight": 1.1,
-      "age_hours": 7.64,
+      "age_hours": 8.84,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.547,
-      "raw_impact": 0.608,
+      "impact": 0.51,
+      "raw_impact": 0.567,
       "source_weight": 0.9,
-      "age_hours": 6.8,
+      "age_hours": 8.0,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -153,18 +153,52 @@
       ]
     },
     {
-      "title": "Live Updates: Thousands of Lebanese Try to Head Home After Israel-Lebanon Truce",
-      "published": "Fri, 17 Apr 2026 19:31:18 +0000",
+      "title": "Air Canada temporarily suspending some flights to New York City and other locations",
+      "published": "Fri, 17 Apr 2026 20:19:43 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.161,
-      "raw_impact": -0.199,
+      "impact": -0.158,
+      "raw_impact": -0.194,
       "source_weight": 0.9,
-      "age_hours": 0.12,
+      "age_hours": 0.51,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/world/2026/apr/17/air-canada-suspending-flights-fuel-prices",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/world/2026/apr/17/air-canada-suspending-flights-fuel-prices"
+      ]
+    },
+    {
+      "title": "Live Updates: Thousands of Lebanese Try to Head Home After Israel-Lebanon Truce",
+      "published": "Fri, 17 Apr 2026 19:42:50 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.152,
+      "raw_impact": -0.187,
+      "source_weight": 0.9,
+      "age_hours": 1.12,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +229,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.159,
-      "raw_impact": 0.145,
+      "impact": 0.149,
+      "raw_impact": 0.135,
       "source_weight": 1.1,
-      "age_hours": 31.64,
+      "age_hours": 32.84,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -229,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.137,
-      "raw_impact": -0.152,
+      "impact": -0.128,
+      "raw_impact": -0.142,
       "source_weight": 1.0,
-      "age_hours": 4.7,
+      "age_hours": 5.9,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.127,
-      "raw_impact": -0.129,
+      "impact": -0.119,
+      "raw_impact": -0.12,
       "source_weight": 1.1,
-      "age_hours": 7.64,
+      "age_hours": 8.84,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -289,40 +323,6 @@
       ]
     },
     {
-      "title": "Iran foreign minister says Strait of Hormuz \u2018completely open\u2019",
-      "published": "Fri, 17 Apr 2026 13:37:00 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "deescalation",
-      "impact": -0.114,
-      "raw_impact": -0.141,
-      "source_weight": 0.9,
-      "age_hours": 6.02,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/17/iran-foreign-minister-says-strait-of-hormuz-completely-open?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/17/iran-foreign-minister-says-strait-of-hormuz-completely-open?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Trump says Iran peace talks will \u2018probably\u2019 resume this weekend",
       "published": "Fri, 17 Apr 2026 12:59:52 GMT",
       "actors": [
@@ -331,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.111,
-      "raw_impact": -0.136,
+      "impact": -0.103,
+      "raw_impact": -0.127,
       "source_weight": 0.9,
-      "age_hours": 6.64,
+      "age_hours": 7.84,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -365,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.102,
-      "raw_impact": -0.133,
+      "impact": -0.095,
+      "raw_impact": -0.124,
       "source_weight": 0.85,
-      "age_hours": 7.04,
+      "age_hours": 8.23,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -399,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.05,
-      "raw_impact": -0.051,
+      "impact": -0.048,
+      "raw_impact": -0.048,
       "source_weight": 1.1,
-      "age_hours": 23.57,
+      "age_hours": 24.77,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -433,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.046,
-      "raw_impact": -0.057,
+      "impact": -0.043,
+      "raw_impact": -0.053,
       "source_weight": 0.9,
-      "age_hours": 21.7,
+      "age_hours": 22.9,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -467,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.192,
+      "impact": 0.04,
+      "raw_impact": 0.179,
       "source_weight": 0.9,
-      "age_hours": 0.74,
+      "age_hours": 1.93,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.176,
+      "impact": 0.037,
+      "raw_impact": 0.164,
       "source_weight": 0.9,
-      "age_hours": 2.21,
+      "age_hours": 3.41,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +535,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.032,
-      "raw_impact": -0.042,
+      "impact": -0.03,
+      "raw_impact": -0.039,
       "source_weight": 0.85,
-      "age_hours": 27.18,
+      "age_hours": 28.38,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -569,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.141,
+      "impact": 0.03,
+      "raw_impact": 0.132,
       "source_weight": 0.9,
-      "age_hours": 6.01,
+      "age_hours": 7.21,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -595,40 +595,6 @@
       ]
     },
     {
-      "title": "Where is US-Kuwaiti journalist Ahmed Shihab-Eldin?",
-      "published": "Fri, 17 Apr 2026 13:51:11 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.143,
-      "source_weight": 0.9,
-      "age_hours": 5.79,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/tv-shows/scoop/20260417-where-is-us-kuwaiti-journalist-ahmed-shihab-eldin",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/tv-shows/scoop/20260417-where-is-us-kuwaiti-journalist-ahmed-shihab-eldin"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 16 April: UN meets over China-Russia Hormuz crisis veto as humanitarian crisis continues in Lebanon",
       "published": "Thu, 16 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -637,10 +603,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.032,
-      "raw_impact": -0.032,
+      "impact": -0.03,
+      "raw_impact": -0.03,
       "source_weight": 1.1,
-      "age_hours": 31.64,
+      "age_hours": 32.84,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -671,10 +637,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.03,
-      "raw_impact": 0.034,
+      "impact": 0.028,
+      "raw_impact": 0.031,
       "source_weight": 0.9,
-      "age_hours": 56.89,
+      "age_hours": 58.08,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -705,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.131,
+      "impact": 0.028,
+      "raw_impact": 0.123,
       "source_weight": 0.9,
-      "age_hours": 7.28,
+      "age_hours": 8.48,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -739,10 +705,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.096,
+      "impact": 0.02,
+      "raw_impact": 0.09,
       "source_weight": 0.9,
-      "age_hours": 12.66,
+      "age_hours": 13.85,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -773,10 +739,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.014,
-      "raw_impact": 0.018,
+      "impact": 0.013,
+      "raw_impact": 0.017,
       "source_weight": 0.9,
-      "age_hours": 46.37,
+      "age_hours": 47.57,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -809,9 +775,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.011,
-      "raw_impact": 0.054,
+      "raw_impact": 0.05,
       "source_weight": 0.85,
-      "age_hours": 22.81,
+      "age_hours": 24.01,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -842,10 +808,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.008,
-      "raw_impact": 0.013,
+      "impact": 0.007,
+      "raw_impact": 0.012,
       "source_weight": 0.75,
-      "age_hours": 83.19,
+      "age_hours": 84.39,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -880,7 +846,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 165.92,
+      "age_hours": 167.12,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -914,7 +880,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1076.89,
+      "age_hours": 1078.09,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -948,7 +914,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 199.28,
+      "age_hours": 200.48,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -983,7 +949,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 395.13,
+      "age_hours": 396.33,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1018,7 +984,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 436.12,
+      "age_hours": 437.31,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1149,11 +1115,6 @@
       "domain": "www.economist.com"
     },
     {
-      "name": "www.france24.com",
-      "url": "https://www.france24.com/en/rss",
-      "domain": "www.france24.com"
-    },
-    {
       "name": "www.ft.com",
       "url": "https://www.ft.com/world?format=rss",
       "domain": "www.ft.com"
@@ -1178,16 +1139,16 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 233,
-    "classified_count": 30,
-    "paired_count": 30,
+    "event_count": 234,
+    "classified_count": 29,
+    "paired_count": 29,
     "valid_pair_updates": 6,
-    "top_driver_count": 30,
-    "total_signal": 3.4289,
+    "top_driver_count": 29,
+    "total_signal": 2.9623,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 108,
-      "no_signal": 54,
+      "no_actor": 106,
+      "no_signal": 58,
       "invalid_pair": 41,
       "low_confidence": 0,
       "classifier_error": 0,
