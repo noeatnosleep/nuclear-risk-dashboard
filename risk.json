@@ -1,21 +1,89 @@
 {
-  "last_updated": "2026-04-17 11:59:49 UTC",
-  "probability": 14.95,
-  "uncertainty": 6.17,
+  "last_updated": "2026-04-17 13:53:30 UTC",
+  "probability": 15.45,
+  "uncertainty": 6.04,
   "state": {
-    "us_russia": 3.257591442718307,
-    "us_china": 4.018804879752939,
-    "china_taiwan": 4.203760976273796,
+    "us_russia": 3.3242776135091137,
+    "us_china": 4.209448389265321,
+    "china_taiwan": 4.241889678024768,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.02328184666384,
-    "iran_israel": 4.201471407290401,
+    "iran_us": 3.9839302651308754,
+    "iran_israel": 4.760395587007443,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.573730776018246
+    "russia_ukraine": 6.057922595238681
   },
   "top_drivers": [
+    {
+      "title": "London\u2019s Kensington Gardens closed for search by counterterror police",
+      "published": "Fri, 17 Apr 2026 12:50:10 GMT",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.762,
+      "raw_impact": 0.847,
+      "source_weight": 0.9,
+      "age_hours": 1.06,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/b29e18db-372b-41a4-9cfe-bf9311ff95aa",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/b29e18db-372b-41a4-9cfe-bf9311ff95aa"
+      ]
+    },
+    {
+      "title": "Iran Resisted a Powerful Attacker. Taiwan Can Too.",
+      "published": "Fri, 17 Apr 2026 09:02:33 +0000",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "action",
+      "impact": 0.612,
+      "raw_impact": 0.68,
+      "source_weight": 0.9,
+      "age_hours": 4.85,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/17/world/middleeast/iran-america-taiwan-china.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/17/world/middleeast/iran-america-taiwan-china.html"
+      ]
+    },
     {
       "title": "Deadly Russian strikes on Ukrainians \u2018simply trying to live their lives\u2019 must stop, says senior UN official",
       "published": "Thu, 16 Apr 2026 12:00:00 +0000",
@@ -25,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.248,
-      "raw_impact": 0.225,
+      "impact": 0.222,
+      "raw_impact": 0.202,
       "source_weight": 1.1,
-      "age_hours": 24.0,
+      "age_hours": 25.89,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,29 +119,29 @@
       ]
     },
     {
-      "title": "Russian Strikes Kill at Least 15 in Ukraine in Biggest Attack in Months",
-      "published": "Thu, 16 Apr 2026 14:00:45 +0000",
+      "title": "Live Updates: Thousands of Lebanese Try to Head Home After Israel-Lebanon Truce",
+      "published": "Fri, 17 Apr 2026 13:50:31 +0000",
       "actors": [
-        "russia",
-        "ukraine"
+        "iran",
+        "us"
       ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.227,
-      "raw_impact": 0.253,
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.161,
+      "raw_impact": -0.199,
       "source_weight": 0.9,
-      "age_hours": 21.98,
-      "confidence": 0.89,
-      "signal_total": 0.9,
+      "age_hours": 0.05,
+      "confidence": 0.68,
+      "signal_total": -0.2,
       "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
+        "deescalation": -0.2,
+        "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/2026/04/16/world/europe/russia-ukraine-missile-drone-attacks.html",
+      "link": "https://www.nytimes.com/live/2026/04/17/world/israel-lebanon-ceasefire-hezbollah",
       "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
@@ -81,42 +149,75 @@
         "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/04/16/world/europe/russia-ukraine-missile-drone-attacks.html"
+        "https://www.nytimes.com/live/2026/04/17/world/israel-lebanon-ceasefire-hezbollah"
       ]
     },
     {
-      "title": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine",
-      "published": "Thu, 16 Apr 2026 15:20:59 GMT",
+      "title": "Iran foreign minister says Strait of Hormuz \u2018completely open\u2019",
+      "published": "Fri, 17 Apr 2026 13:37:00 +0000",
       "actors": [
-        "russia",
-        "ukraine"
+        "iran",
+        "israel"
       ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.197,
-      "raw_impact": 0.197,
-      "source_weight": 1.0,
-      "age_hours": 20.65,
-      "confidence": 0.698,
-      "signal_total": 0.65,
+      "state_key": "iran_israel",
+      "class": "deescalation",
+      "impact": -0.159,
+      "raw_impact": -0.197,
+      "source_weight": 0.9,
+      "age_hours": 0.28,
+      "confidence": 0.75,
+      "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
-        "action": 0.9,
+        "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.bbc.com/news/articles/cm29plylqnvo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
+      "link": "https://www.aljazeera.com/news/2026/4/17/iran-foreign-minister-says-strait-of-hormuz-completely-open?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.bbci.co.uk"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.bbc.com/news/articles/cm29plylqnvo?at_medium=RSS&at_campaign=rss"
+        "https://www.aljazeera.com/news/2026/4/17/iran-foreign-minister-says-strait-of-hormuz-completely-open?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Leaders urge for restraint as 10-day Israel-Lebanon ceasefire takes effect",
+      "published": "Fri, 17 Apr 2026 08:36:18 -0400",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "deescalation",
+      "impact": -0.142,
+      "raw_impact": -0.186,
+      "source_weight": 0.85,
+      "age_hours": 1.29,
+      "confidence": 0.745,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/17/g-s1-117788/middle-east-conflict-israel-lebanon-us-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/17/g-s1-117788/middle-east-conflict-israel-lebanon-us-updates"
       ]
     },
     {
@@ -128,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.195,
+      "impact": -0.141,
+      "raw_impact": -0.175,
       "source_weight": 0.9,
-      "age_hours": 0.43,
+      "age_hours": 2.33,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -155,17 +256,17 @@
     },
     {
       "title": "Israel-Lebanon Cease-Fire: What to Know",
-      "published": "Fri, 17 Apr 2026 11:18:59 +0000",
+      "published": "Fri, 17 Apr 2026 11:19:00 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.156,
-      "raw_impact": -0.192,
+      "impact": -0.14,
+      "raw_impact": -0.172,
       "source_weight": 0.9,
-      "age_hours": 0.68,
+      "age_hours": 2.58,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -196,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.155,
-      "raw_impact": -0.192,
+      "impact": -0.14,
+      "raw_impact": -0.172,
       "source_weight": 0.9,
-      "age_hours": 0.74,
+      "age_hours": 2.63,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -230,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.166,
+      "impact": -0.134,
+      "raw_impact": -0.149,
       "source_weight": 1.0,
-      "age_hours": 3.26,
+      "age_hours": 5.15,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -256,108 +357,6 @@
       ]
     },
     {
-      "title": "Lebanon-Israel Cease-Fire Goes Into Effect",
-      "published": "Fri, 17 Apr 2026 09:46:25 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "deescalation",
-      "impact": -0.142,
-      "raw_impact": -0.176,
-      "source_weight": 0.9,
-      "age_hours": 2.22,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/16/world/iran-war-trump-lebanon-news",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/16/world/iran-war-trump-lebanon-news"
-      ]
-    },
-    {
-      "title": "Lebanon army reports number of ceasefire violations",
-      "published": "Fri, 17 Apr 2026 07:46:32 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.127,
-      "raw_impact": -0.157,
-      "source_weight": 0.9,
-      "age_hours": 4.22,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/lebanon-army-reports-number-of-ceasefire-violations",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/lebanon-army-reports-number-of-ceasefire-violations"
-      ]
-    },
-    {
-      "title": "Iran war: What is happening on day 49 of the US-Iran conflict?",
-      "published": "Fri, 17 Apr 2026 06:23:26 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.117,
-      "raw_impact": -0.145,
-      "source_weight": 0.9,
-      "age_hours": 5.61,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/17/iran-war-day-49?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/17/iran-war-day-49?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Hegseth Urges Iran to 'Choose Wisely' During Epic Fury Ceasefire, Blockade",
       "published": "Thu, 16 Apr 2026 20:04:00 GMT",
       "actors": [
@@ -366,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.079,
-      "raw_impact": -0.08,
+      "impact": -0.071,
+      "raw_impact": -0.071,
       "source_weight": 1.1,
-      "age_hours": 15.93,
+      "age_hours": 17.83,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -400,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.072,
-      "raw_impact": -0.089,
+      "impact": -0.065,
+      "raw_impact": -0.08,
       "source_weight": 0.9,
-      "age_hours": 14.06,
+      "age_hours": 15.95,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -426,6 +425,40 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: Strait of Hormuz Is \u2018Completely Open\u2019 After Lebanon Deal, Iran and U.S. Say",
+      "published": "Fri, 17 Apr 2026 13:51:51 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.045,
+      "raw_impact": 0.2,
+      "source_weight": 0.9,
+      "age_hours": 0.03,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump"
+      ]
+    },
+    {
       "title": "A complex set of negotiations to end Israel's overlapping wars",
       "published": "Thu, 16 Apr 2026 12:27:33 -0400",
       "actors": [
@@ -434,10 +467,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.05,
-      "raw_impact": -0.065,
+      "impact": -0.044,
+      "raw_impact": -0.058,
       "source_weight": 0.85,
-      "age_hours": 19.54,
+      "age_hours": 21.43,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -460,6 +493,40 @@
       ]
     },
     {
+      "title": "Iran says Strait of Hormuz to reopen amid push to end war",
+      "published": "Fri, 17 Apr 2026 13:37:41 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.197,
+      "source_weight": 0.9,
+      "age_hours": 0.26,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/17/hormuz-strait-reopens-iran-us-war/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/17/hormuz-strait-reopens-iran-us-war/"
+      ]
+    },
+    {
       "title": "MIDDLE EAST LIVE 16 April: UN meets over China-Russia Hormuz crisis veto as humanitarian crisis continues in Lebanon",
       "published": "Thu, 16 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -468,10 +535,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.05,
-      "raw_impact": -0.05,
+      "impact": -0.044,
+      "raw_impact": -0.045,
       "source_weight": 1.1,
-      "age_hours": 24.0,
+      "age_hours": 25.89,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -502,10 +569,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.047,
-      "raw_impact": 0.052,
+      "impact": 0.042,
+      "raw_impact": 0.047,
       "source_weight": 0.9,
-      "age_hours": 49.24,
+      "age_hours": 51.14,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -528,38 +595,71 @@
       ]
     },
     {
-      "title": "Israel starts a tense ceasefire in Lebanon, as Trump sounds optimistic on Iran talks",
-      "published": "Thu, 16 Apr 2026 07:45:30 -0400",
+      "title": "Thousands of Lebanese head home despite warnings",
+      "published": "Fri, 17 Apr 2026 12:21:30 GMT",
       "actors": [
         "iran",
-        "israel"
+        "us"
       ],
-      "state_key": "iran_israel",
-      "class": "movement",
-      "impact": 0.046,
-      "raw_impact": 0.064,
-      "source_weight": 0.85,
-      "age_hours": 24.24,
-      "confidence": 0.605,
-      "signal_total": 0.26,
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.183,
+      "source_weight": 0.9,
+      "age_hours": 1.53,
+      "confidence": 0.68,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
-        "movement": 0.5,
+        "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.04,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.npr.org/2026/04/16/nx-s1-5787392/iran-middle-east-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
+      "link": "https://www.ft.com/content/e878fae5-447d-4770-83b2-075d03e5202b",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.npr.org"
+        "www.ft.com"
       ],
       "cluster_links": [
-        "https://www.npr.org/2026/04/16/nx-s1-5787392/iran-middle-east-updates"
+        "https://www.ft.com/content/e878fae5-447d-4770-83b2-075d03e5202b"
+      ]
+    },
+    {
+      "title": "BBC in Iran: 'Tehran does not think it has lost this war'",
+      "published": "Fri, 17 Apr 2026 09:19:23 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.038,
+      "raw_impact": 0.154,
+      "source_weight": 1.0,
+      "age_hours": 4.57,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/videos/clyxp0kp5glo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/videos/clyxp0kp5glo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -571,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.172,
+      "impact": 0.035,
+      "raw_impact": 0.154,
       "source_weight": 0.9,
-      "age_hours": 2.58,
+      "age_hours": 4.47,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -605,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.158,
+      "impact": 0.032,
+      "raw_impact": 0.141,
       "source_weight": 0.9,
-      "age_hours": 4.1,
+      "age_hours": 5.99,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -639,10 +739,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.157,
+      "impact": 0.032,
+      "raw_impact": 0.141,
       "source_weight": 0.9,
-      "age_hours": 4.18,
+      "age_hours": 6.07,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -665,86 +765,18 @@
       ]
     },
     {
-      "title": "\u2018Vengeance for all\u2019: How Iran\u2019s Lego videos won narrative war against Trump",
-      "published": "Fri, 17 Apr 2026 05:43:47 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.139,
-      "source_weight": 0.9,
-      "age_hours": 6.27,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/17/vengeance-for-all-how-irans-lego-videos-won-narrative-war-against-trump?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/17/vengeance-for-all-how-irans-lego-videos-won-narrative-war-against-trump?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "'Allies, not vassals': How Meloni's break with Trump became a political moment for Italy",
-      "published": "Fri, 17 Apr 2026 05:31:06 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.138,
-      "source_weight": 0.9,
-      "age_hours": 6.48,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/europe/20260417-allies-not-vassals-how-meloni-break-with-trump-became-political-moment-italy",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/europe/20260417-allies-not-vassals-how-meloni-break-with-trump-became-political-moment-italy"
-      ]
-    },
-    {
-      "title": "Why China Isn\u2019t Pushing Iran to Accept U.S. Demands to End War",
-      "published": "Fri, 17 Apr 2026 04:40:35 +0000",
+      "title": "Iran War Forces America\u2019s Friends in Asia to Court Its Rivals",
+      "published": "Fri, 17 Apr 2026 06:59:03 +0000",
       "actors": [
         "us",
-        "china"
+        "russia"
       ],
-      "state_key": "us_china",
+      "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.131,
+      "impact": 0.03,
+      "raw_impact": 0.134,
       "source_weight": 0.9,
-      "age_hours": 7.32,
+      "age_hours": 6.91,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -755,7 +787,7 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/2026/04/16/world/asia/china-iran-trump-diplomacy-hormuz.html",
+      "link": "https://www.nytimes.com/2026/04/17/world/asia/iran-war-us-asia-russia.html",
       "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
@@ -763,7 +795,7 @@
         "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/04/16/world/asia/china-iran-trump-diplomacy-hormuz.html"
+        "https://www.nytimes.com/2026/04/17/world/asia/iran-war-us-asia-russia.html"
       ]
     },
     {
@@ -775,10 +807,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.021,
-      "raw_impact": 0.028,
+      "impact": 0.019,
+      "raw_impact": 0.025,
       "source_weight": 0.9,
-      "age_hours": 38.73,
+      "age_hours": 40.62,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -810,10 +842,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.083,
+      "impact": 0.016,
+      "raw_impact": 0.075,
       "source_weight": 0.85,
-      "age_hours": 15.17,
+      "age_hours": 17.06,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -836,40 +868,6 @@
       ]
     },
     {
-      "title": "Pakistan Looks to Play Peacemaker Between U.S. and Iran, Again",
-      "published": "Thu, 16 Apr 2026 19:53:46 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.079,
-      "source_weight": 0.9,
-      "age_hours": 16.1,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/16/world/asia/iran-pakistan-diplomacy.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/16/world/asia/iran-pakistan-diplomacy.html"
-      ]
-    },
-    {
       "title": "Europe should fill the diplomatic vacuum on Iran",
       "published": "Tue, 14 Apr 2026 08:26:54 +0000",
       "actors": [
@@ -878,10 +876,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.012,
-      "raw_impact": 0.021,
+      "impact": 0.011,
+      "raw_impact": 0.018,
       "source_weight": 0.75,
-      "age_hours": 75.55,
+      "age_hours": 77.44,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -916,7 +914,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 72.0,
+      "age_hours": 73.89,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -950,7 +948,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 158.28,
+      "age_hours": 160.18,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -984,7 +982,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1069.25,
+      "age_hours": 1071.14,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1018,7 +1016,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 191.64,
+      "age_hours": 193.53,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1053,7 +1051,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 387.49,
+      "age_hours": 389.38,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1088,7 +1086,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 428.47,
+      "age_hours": 430.37,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1224,6 +1222,11 @@
       "domain": "www.france24.com"
     },
     {
+      "name": "www.ft.com",
+      "url": "https://www.ft.com/world?format=rss",
+      "domain": "www.ft.com"
+    },
+    {
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
@@ -1243,17 +1246,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 232,
+    "event_count": 233,
     "classified_count": 32,
     "paired_count": 32,
     "valid_pair_updates": 6,
     "top_driver_count": 32,
-    "total_signal": 1.3894,
+    "total_signal": 1.7423,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 108,
-      "no_signal": 50,
-      "invalid_pair": 42,
+      "no_actor": 100,
+      "no_signal": 56,
+      "invalid_pair": 45,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
