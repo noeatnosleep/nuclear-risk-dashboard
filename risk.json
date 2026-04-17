@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-17 16:08:08 UTC",
-  "probability": 14.69,
-  "uncertainty": 5.92,
+  "last_updated": "2026-04-17 17:25:41 UTC",
+  "probability": 14.12,
+  "uncertainty": 5.89,
   "state": {
-    "us_russia": 3.3640974465072633,
-    "us_china": 3.8410485419438363,
-    "china_taiwan": 4.168209708437226,
+    "us_russia": 3.363551144311248,
+    "us_china": 3.4925371432407384,
+    "china_taiwan": 4.098507428673892,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 3.9924129305383245,
-    "iran_israel": 5.382339598383529,
+    "iran_us": 4.304063071867881,
+    "iran_israel": 5.51390305986584,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.604153721389094
+    "russia_ukraine": 5.501842798627173
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.805,
-      "raw_impact": 1.118,
+      "impact": 0.747,
+      "raw_impact": 1.038,
       "source_weight": 0.9,
-      "age_hours": 1.23,
+      "age_hours": 2.52,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.669,
-      "raw_impact": 0.744,
+      "impact": 0.621,
+      "raw_impact": 0.69,
       "source_weight": 0.9,
-      "age_hours": 3.3,
+      "age_hours": 4.59,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.195,
-      "raw_impact": 0.177,
+      "impact": 0.181,
+      "raw_impact": 0.164,
       "source_weight": 1.1,
-      "age_hours": 28.14,
+      "age_hours": 29.43,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -119,42 +119,8 @@
       ]
     },
     {
-      "title": "What we know about the Israel-Lebanon ceasefire",
-      "published": "Fri, 17 Apr 2026 14:56:15 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.168,
-      "raw_impact": -0.187,
-      "source_weight": 1.0,
-      "age_hours": 1.2,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cwy32277e58o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cwy32277e58o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Live Updates: Thousands of Lebanese Try to Head Home After Israel-Lebanon Truce",
-      "published": "Fri, 17 Apr 2026 16:01:17 +0000",
+      "published": "Fri, 17 Apr 2026 17:19:56 +0000",
       "actors": [
         "iran",
         "us"
@@ -164,7 +130,7 @@
       "impact": -0.161,
       "raw_impact": -0.199,
       "source_weight": 0.9,
-      "age_hours": 0.11,
+      "age_hours": 0.1,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -187,19 +153,19 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Tehran Declares Strait \u2018Open\u2019 After Lebanon Truce, but Trump Says U.S. Blockade on Iran Continues",
-      "published": "Fri, 17 Apr 2026 15:59:45 +0000",
+      "title": "What we know about the Israel-Lebanon ceasefire",
+      "published": "Fri, 17 Apr 2026 14:56:15 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.161,
-      "raw_impact": -0.198,
-      "source_weight": 0.9,
-      "age_hours": 0.14,
-      "confidence": 0.67,
+      "impact": -0.156,
+      "raw_impact": -0.173,
+      "source_weight": 1.0,
+      "age_hours": 2.49,
+      "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -209,15 +175,49 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.bbc.com/news/articles/cwy32277e58o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "feeds.bbci.co.uk"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump"
+        "https://www.bbc.com/news/articles/cwy32277e58o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "Oil slumps as US and Iran declare Strait of Hormuz open to commercial shipping",
+      "published": "Fri, 17 Apr 2026 16:21:37 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.152,
+      "raw_impact": -0.188,
+      "source_weight": 0.9,
+      "age_hours": 1.07,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/bb35fb5a-0df2-427c-8da0-5b55a0cdd97e",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/bb35fb5a-0df2-427c-8da0-5b55a0cdd97e"
       ]
     },
     {
@@ -229,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.184,
+      "impact": -0.139,
+      "raw_impact": -0.171,
       "source_weight": 0.9,
-      "age_hours": 1.43,
+      "age_hours": 2.72,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +263,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.173,
+      "impact": -0.13,
+      "raw_impact": -0.16,
       "source_weight": 0.9,
-      "age_hours": 2.52,
+      "age_hours": 3.81,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -289,6 +289,40 @@
       ]
     },
     {
+      "title": "Trump says Iran peace talks will \u2018probably\u2019 resume this weekend",
+      "published": "Fri, 17 Apr 2026 12:59:52 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.125,
+      "raw_impact": -0.155,
+      "source_weight": 0.9,
+      "age_hours": 4.43,
+      "confidence": 0.67,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/cdb6aaee-3cec-4456-8106-5c9279d02392",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/cdb6aaee-3cec-4456-8106-5c9279d02392"
+      ]
+    },
+    {
       "title": "The U.S. blockade continues despite Iran's announcement the Strait of Hormuz is open",
       "published": "Fri, 17 Apr 2026 08:36:18 -0400",
       "actors": [
@@ -297,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.125,
-      "raw_impact": -0.163,
+      "impact": -0.116,
+      "raw_impact": -0.151,
       "source_weight": 0.85,
-      "age_hours": 3.53,
+      "age_hours": 4.82,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -323,74 +357,6 @@
       ]
     },
     {
-      "title": "Could the Lebanon ceasefire lead to US-Iran talks breakthrough?",
-      "published": "Fri, 17 Apr 2026 11:33:47 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.124,
-      "raw_impact": -0.154,
-      "source_weight": 0.9,
-      "age_hours": 4.57,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/17/could-the-lebanon-ceasefire-lead-to-us-iran-talks-breakthrough?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/17/could-the-lebanon-ceasefire-lead-to-us-iran-talks-breakthrough?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Lebanon erupts in joy as 10-day ceasefire with Israel takes effect",
-      "published": "Fri, 17 Apr 2026 11:15:31 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.122,
-      "raw_impact": -0.151,
-      "source_weight": 0.9,
-      "age_hours": 4.88,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260417-lebanon-erupts-in-joy-as-10-day-ceasefire-with-israel-takes-effect",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260417-lebanon-erupts-in-joy-as-10-day-ceasefire-with-israel-takes-effect"
-      ]
-    },
-    {
       "title": "Hegseth Urges Iran to 'Choose Wisely' During Epic Fury Ceasefire, Blockade",
       "published": "Thu, 16 Apr 2026 20:04:00 GMT",
       "actors": [
@@ -399,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.062,
-      "raw_impact": -0.063,
+      "impact": -0.058,
+      "raw_impact": -0.058,
       "source_weight": 1.1,
-      "age_hours": 20.07,
+      "age_hours": 21.36,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -433,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.057,
-      "raw_impact": -0.07,
+      "impact": -0.052,
+      "raw_impact": -0.065,
       "source_weight": 0.9,
-      "age_hours": 18.2,
+      "age_hours": 19.49,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -459,18 +425,18 @@
       ]
     },
     {
-      "title": "Where is US-Kuwaiti journalist Ahmed Shihab-Eldin?",
-      "published": "Fri, 17 Apr 2026 13:51:11 GMT",
+      "title": "Iran War Live Updates: Tehran Declares Strait \u2018Open\u2019 but Trump Says U.S. Blockade on Iran Continues",
+      "published": "Fri, 17 Apr 2026 17:21:05 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.175,
+      "impact": 0.045,
+      "raw_impact": 0.199,
       "source_weight": 0.9,
-      "age_hours": 2.28,
+      "age_hours": 0.08,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -481,15 +447,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/tv-shows/scoop/20260417-where-is-us-kuwaiti-journalist-ahmed-shihab-eldin",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/tv-shows/scoop/20260417-where-is-us-kuwaiti-journalist-ahmed-shihab-eldin"
+        "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump"
       ]
     },
     {
@@ -501,10 +467,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.039,
-      "raw_impact": -0.051,
+      "impact": -0.036,
+      "raw_impact": -0.047,
       "source_weight": 0.85,
-      "age_hours": 23.68,
+      "age_hours": 24.97,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -535,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 2.51,
+      "age_hours": 3.8,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -561,6 +527,40 @@
       ]
     },
     {
+      "title": "Where is US-Kuwaiti journalist Ahmed Shihab-Eldin?",
+      "published": "Fri, 17 Apr 2026 13:51:11 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.163,
+      "source_weight": 0.9,
+      "age_hours": 3.58,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/scoop/20260417-where-is-us-kuwaiti-journalist-ahmed-shihab-eldin",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/scoop/20260417-where-is-us-kuwaiti-journalist-ahmed-shihab-eldin"
+      ]
+    },
+    {
       "title": "MIDDLE EAST LIVE 16 April: UN meets over China-Russia Hormuz crisis veto as humanitarian crisis continues in Lebanon",
       "published": "Thu, 16 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -569,10 +569,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.039,
-      "raw_impact": -0.039,
+      "impact": -0.036,
+      "raw_impact": -0.037,
       "source_weight": 1.1,
-      "age_hours": 28.14,
+      "age_hours": 29.43,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -603,10 +603,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.037,
-      "raw_impact": 0.041,
+      "impact": 0.034,
+      "raw_impact": 0.038,
       "source_weight": 0.9,
-      "age_hours": 53.38,
+      "age_hours": 54.67,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -637,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.161,
+      "impact": 0.034,
+      "raw_impact": 0.149,
       "source_weight": 0.9,
-      "age_hours": 3.78,
+      "age_hours": 5.07,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -663,40 +663,6 @@
       ]
     },
     {
-      "title": "BBC in Iran: 'Tehran does not think it has lost this war'",
-      "published": "Fri, 17 Apr 2026 09:19:23 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.135,
-      "source_weight": 1.0,
-      "age_hours": 6.81,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/videos/clyxp0kp5glo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/videos/clyxp0kp5glo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Iran War Forces America\u2019s Friends in Asia to Court Its Rivals",
       "published": "Fri, 17 Apr 2026 06:59:03 +0000",
       "actors": [
@@ -705,10 +671,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.118,
+      "impact": 0.025,
+      "raw_impact": 0.109,
       "source_weight": 0.9,
-      "age_hours": 9.15,
+      "age_hours": 10.44,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -739,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.017,
-      "raw_impact": 0.022,
+      "impact": 0.015,
+      "raw_impact": 0.02,
       "source_weight": 0.9,
-      "age_hours": 42.86,
+      "age_hours": 44.16,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -774,10 +740,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.066,
+      "impact": 0.013,
+      "raw_impact": 0.061,
       "source_weight": 0.85,
-      "age_hours": 19.31,
+      "age_hours": 20.6,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -808,10 +774,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.01,
-      "raw_impact": 0.016,
+      "impact": 0.009,
+      "raw_impact": 0.015,
       "source_weight": 0.75,
-      "age_hours": 79.69,
+      "age_hours": 80.98,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -835,40 +801,6 @@
       ]
     },
     {
-      "title": "\u2018Time for diplomacy over escalation\u2019 in Middle East war: Guterres",
-      "published": "Tue, 14 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.003,
-      "raw_impact": -0.002,
-      "source_weight": 1.1,
-      "age_hours": 76.14,
-      "confidence": 0.69,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167299",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167299"
-      ]
-    },
-    {
       "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
       "published": "Fri, 10 Apr 2026 21:43:00 GMT",
       "actors": [
@@ -880,7 +812,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 162.42,
+      "age_hours": 163.71,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -914,7 +846,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1073.39,
+      "age_hours": 1074.68,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -948,7 +880,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 195.78,
+      "age_hours": 197.07,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -983,7 +915,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 391.62,
+      "age_hours": 392.92,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1018,7 +950,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 432.61,
+      "age_hours": 433.9,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1178,17 +1110,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 233,
-    "classified_count": 30,
-    "paired_count": 30,
+    "event_count": 234,
+    "classified_count": 28,
+    "paired_count": 28,
     "valid_pair_updates": 6,
-    "top_driver_count": 30,
-    "total_signal": 1.308,
+    "top_driver_count": 28,
+    "total_signal": 1.3998,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 100,
-      "no_signal": 54,
-      "invalid_pair": 49,
+      "no_actor": 107,
+      "no_signal": 56,
+      "invalid_pair": 43,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
