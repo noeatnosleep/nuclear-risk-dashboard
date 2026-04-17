@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-17 18:12:51 UTC",
-  "probability": 14.13,
-  "uncertainty": 5.84,
+  "last_updated": "2026-04-17 19:38:25 UTC",
+  "probability": 14.3,
+  "uncertainty": 5.7,
   "state": {
-    "us_russia": 3.359869972754114,
-    "us_china": 3.3053600895431825,
-    "china_taiwan": 4.061072017922314,
+    "us_russia": 3.3521431306912337,
+    "us_china": 3.2024666904016077,
+    "china_taiwan": 4.040493338087587,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.628576743409079,
-    "iran_israel": 6.038636000553728,
+    "iran_us": 5.099556394936073,
+    "iran_israel": 6.317400375294168,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.439458943359495
+    "russia_ukraine": 5.392648884636228
   },
   "top_drivers": [
+    {
+      "title": "What has Trump said before possible US-Iran talks and what could it mean?",
+      "published": "Fri, 17 Apr 2026 18:24:13 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.805,
+      "raw_impact": 1.117,
+      "source_weight": 0.9,
+      "age_hours": 1.24,
+      "confidence": 0.95,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/17/what-has-trump-said-ahead-of-possible-us-iran-talks-and-what-could-it-mean?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/17/what-has-trump-said-ahead-of-possible-us-iran-talks-and-what-could-it-mean?traffic_source=rss"
+      ]
+    },
     {
       "title": "Can Pakistan secure Iran-US nuclear compromise, as Trump says deal \u2018close\u2019?",
       "published": "Fri, 17 Apr 2026 14:54:34 +0000",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.714,
-      "raw_impact": 0.991,
+      "impact": 0.658,
+      "raw_impact": 0.913,
       "source_weight": 0.9,
-      "age_hours": 3.3,
+      "age_hours": 4.73,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.691,
-      "raw_impact": 0.629,
+      "impact": 0.637,
+      "raw_impact": 0.579,
       "source_weight": 1.1,
-      "age_hours": 6.21,
+      "age_hours": 7.64,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.594,
-      "raw_impact": 0.66,
+      "impact": 0.547,
+      "raw_impact": 0.608,
       "source_weight": 0.9,
-      "age_hours": 5.38,
+      "age_hours": 6.8,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -119,52 +153,18 @@
       ]
     },
     {
-      "title": "Deadly Russian strikes on Ukrainians \u2018simply trying to live their lives\u2019 must stop, says senior UN official",
-      "published": "Thu, 16 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.173,
-      "raw_impact": 0.157,
-      "source_weight": 1.1,
-      "age_hours": 30.21,
-      "confidence": 0.91,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167313",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167313"
-      ]
-    },
-    {
       "title": "Live Updates: Thousands of Lebanese Try to Head Home After Israel-Lebanon Truce",
-      "published": "Fri, 17 Apr 2026 17:50:43 +0000",
+      "published": "Fri, 17 Apr 2026 19:31:18 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.196,
+      "impact": -0.161,
+      "raw_impact": -0.199,
       "source_weight": 0.9,
-      "age_hours": 0.37,
+      "age_hours": 0.12,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -187,6 +187,40 @@
       ]
     },
     {
+      "title": "Deadly Russian strikes on Ukrainians \u2018simply trying to live their lives\u2019 must stop, says senior UN official",
+      "published": "Thu, 16 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.159,
+      "raw_impact": 0.145,
+      "source_weight": 1.1,
+      "age_hours": 31.64,
+      "confidence": 0.91,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167313",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167313"
+      ]
+    },
+    {
       "title": "What we know about the Israel-Lebanon ceasefire",
       "published": "Fri, 17 Apr 2026 14:56:15 GMT",
       "actors": [
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.166,
+      "impact": -0.137,
+      "raw_impact": -0.152,
       "source_weight": 1.0,
-      "age_hours": 3.28,
+      "age_hours": 4.7,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.139,
-      "raw_impact": -0.14,
+      "impact": -0.127,
+      "raw_impact": -0.129,
       "source_weight": 1.1,
-      "age_hours": 6.21,
+      "age_hours": 7.64,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -255,40 +289,6 @@
       ]
     },
     {
-      "title": "Israel-Lebanon Cease-Fire: What to Know",
-      "published": "Fri, 17 Apr 2026 14:42:20 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.132,
-      "raw_impact": -0.163,
-      "source_weight": 0.9,
-      "age_hours": 3.51,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/17/world/middleeast/israel-lebanon-ceasefire.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/17/world/middleeast/israel-lebanon-ceasefire.html"
-      ]
-    },
-    {
       "title": "Iran foreign minister says Strait of Hormuz \u2018completely open\u2019",
       "published": "Fri, 17 Apr 2026 13:37:00 +0000",
       "actors": [
@@ -297,10 +297,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.124,
-      "raw_impact": -0.153,
+      "impact": -0.114,
+      "raw_impact": -0.141,
       "source_weight": 0.9,
-      "age_hours": 4.6,
+      "age_hours": 6.02,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -331,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.12,
-      "raw_impact": -0.148,
+      "impact": -0.111,
+      "raw_impact": -0.136,
       "source_weight": 0.9,
-      "age_hours": 5.22,
+      "age_hours": 6.64,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -365,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.111,
-      "raw_impact": -0.145,
+      "impact": -0.102,
+      "raw_impact": -0.133,
       "source_weight": 0.85,
-      "age_hours": 5.61,
+      "age_hours": 7.04,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -399,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.055,
-      "raw_impact": -0.056,
+      "impact": -0.05,
+      "raw_impact": -0.051,
       "source_weight": 1.1,
-      "age_hours": 22.15,
+      "age_hours": 23.57,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -433,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.05,
-      "raw_impact": -0.062,
+      "impact": -0.046,
+      "raw_impact": -0.057,
       "source_weight": 0.9,
-      "age_hours": 20.27,
+      "age_hours": 21.7,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -459,18 +459,18 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Tehran Declares Strait \u2018Open\u2019 but Trump Says U.S. Blockade Remains",
-      "published": "Fri, 17 Apr 2026 18:09:14 +0000",
+      "title": "The U.S. military blockade on ships entering or leaving Iran will continue until Trump ends it.",
+      "published": "Fri, 17 Apr 2026 18:54:07 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.199,
+      "impact": 0.043,
+      "raw_impact": 0.192,
       "source_weight": 0.9,
-      "age_hours": 0.06,
+      "age_hours": 0.74,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -481,7 +481,7 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump",
+      "link": "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump/the-us-military-blockade-on-ships-entering-or-leaving-iran-will-continue-until-trump-ends-it",
       "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
@@ -489,7 +489,7 @@
         "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump"
+        "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump/the-us-military-blockade-on-ships-entering-or-leaving-iran-will-continue-until-trump-ends-it"
       ]
     },
     {
@@ -501,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.191,
+      "impact": 0.04,
+      "raw_impact": 0.176,
       "source_weight": 0.9,
-      "age_hours": 0.79,
+      "age_hours": 2.21,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -527,6 +527,40 @@
       ]
     },
     {
+      "title": "A complex set of negotiations to end Israel's overlapping wars",
+      "published": "Thu, 16 Apr 2026 12:27:33 -0400",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "deescalation",
+      "impact": -0.032,
+      "raw_impact": -0.042,
+      "source_weight": 0.85,
+      "age_hours": 27.18,
+      "confidence": 0.745,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/16/g-s1-117656/a-complex-set-of-negotiations-to-end-israels-overlapping-wars",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/16/g-s1-117656/a-complex-set-of-negotiations-to-end-israels-overlapping-wars"
+      ]
+    },
+    {
       "title": "Iran says Strait of Hormuz is now open amid push to end war",
       "published": "Fri, 17 Apr 2026 13:37:41 +0000",
       "actors": [
@@ -535,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.153,
+      "impact": 0.032,
+      "raw_impact": 0.141,
       "source_weight": 0.9,
-      "age_hours": 4.59,
+      "age_hours": 6.01,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.155,
+      "impact": 0.032,
+      "raw_impact": 0.143,
       "source_weight": 0.9,
-      "age_hours": 4.36,
+      "age_hours": 5.79,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -595,40 +629,6 @@
       ]
     },
     {
-      "title": "A complex set of negotiations to end Israel's overlapping wars",
-      "published": "Thu, 16 Apr 2026 12:27:33 -0400",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "deescalation",
-      "impact": -0.034,
-      "raw_impact": -0.045,
-      "source_weight": 0.85,
-      "age_hours": 25.76,
-      "confidence": 0.745,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/16/g-s1-117656/a-complex-set-of-negotiations-to-end-israels-overlapping-wars",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/16/g-s1-117656/a-complex-set-of-negotiations-to-end-israels-overlapping-wars"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 16 April: UN meets over China-Russia Hormuz crisis veto as humanitarian crisis continues in Lebanon",
       "published": "Thu, 16 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -637,10 +637,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.034,
-      "raw_impact": -0.035,
+      "impact": -0.032,
+      "raw_impact": -0.032,
       "source_weight": 1.1,
-      "age_hours": 30.21,
+      "age_hours": 31.64,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -671,10 +671,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.033,
-      "raw_impact": 0.037,
+      "impact": 0.03,
+      "raw_impact": 0.034,
       "source_weight": 0.9,
-      "age_hours": 55.46,
+      "age_hours": 56.89,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -705,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.143,
+      "impact": 0.029,
+      "raw_impact": 0.131,
       "source_weight": 0.9,
-      "age_hours": 5.86,
+      "age_hours": 7.28,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -739,10 +739,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.105,
+      "impact": 0.022,
+      "raw_impact": 0.096,
       "source_weight": 0.9,
-      "age_hours": 11.23,
+      "age_hours": 12.66,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -774,9 +774,9 @@
       "state_key": "iran_us",
       "class": "movement",
       "impact": 0.014,
-      "raw_impact": 0.019,
+      "raw_impact": 0.018,
       "source_weight": 0.9,
-      "age_hours": 44.94,
+      "age_hours": 46.37,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -808,10 +808,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.058,
+      "impact": 0.011,
+      "raw_impact": 0.054,
       "source_weight": 0.85,
-      "age_hours": 21.38,
+      "age_hours": 22.81,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -842,10 +842,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.009,
-      "raw_impact": 0.014,
+      "impact": 0.008,
+      "raw_impact": 0.013,
       "source_weight": 0.75,
-      "age_hours": 81.77,
+      "age_hours": 83.19,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -880,7 +880,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 164.5,
+      "age_hours": 165.92,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -914,7 +914,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1075.47,
+      "age_hours": 1076.89,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -948,7 +948,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 197.85,
+      "age_hours": 199.28,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -983,7 +983,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 393.7,
+      "age_hours": 395.13,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1018,7 +1018,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 434.69,
+      "age_hours": 436.12,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1178,17 +1178,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 234,
+    "event_count": 233,
     "classified_count": 30,
     "paired_count": 30,
     "valid_pair_updates": 6,
     "top_driver_count": 30,
-    "total_signal": 2.2487,
+    "total_signal": 3.4289,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 108,
-      "no_signal": 53,
-      "invalid_pair": 43,
+      "no_signal": 54,
+      "invalid_pair": 41,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
