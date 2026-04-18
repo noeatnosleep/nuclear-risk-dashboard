@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-18 17:06:35 UTC",
-  "probability": 14.4,
-  "uncertainty": 5.84,
+  "last_updated": "2026-04-18 18:03:36 UTC",
+  "probability": 14.23,
+  "uncertainty": 5.71,
   "state": {
-    "us_russia": 3.321326056132502,
-    "us_china": 3.2629731931045094,
-    "china_taiwan": 4.052594638620902,
+    "us_russia": 3.282863769538266,
+    "us_china": 3.2491211406192866,
+    "china_taiwan": 4.049824228123858,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.630120297729048,
-    "iran_israel": 6.048629040820445,
+    "iran_us": 5.631626408168557,
+    "iran_israel": 5.960556149975627,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.105402099226903
+    "russia_ukraine": 5.099595711655379
   },
   "top_drivers": [
     {
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 7.71,
+      "age_hours": 8.66,
       "confidence": 0.96,
       "signal_total": 2.1,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.525,
-      "raw_impact": 0.729,
+      "impact": 0.497,
+      "raw_impact": 0.69,
       "source_weight": 0.9,
-      "age_hours": 4.4,
+      "age_hours": 5.35,
       "confidence": 0.746,
       "signal_total": 0.94,
       "signal_components": {
@@ -94,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.522,
-      "raw_impact": 0.58,
+      "impact": 0.494,
+      "raw_impact": 0.549,
       "source_weight": 0.9,
-      "age_hours": 1.98,
+      "age_hours": 2.93,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -129,10 +129,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.184,
-      "raw_impact": 0.167,
+      "impact": 0.174,
+      "raw_impact": 0.159,
       "source_weight": 1.1,
-      "age_hours": 29.11,
+      "age_hours": 30.06,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -163,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.139,
-      "raw_impact": -0.171,
+      "impact": -0.131,
+      "raw_impact": -0.162,
       "source_weight": 0.9,
-      "age_hours": 2.74,
+      "age_hours": 3.69,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -197,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.05,
-      "raw_impact": -0.062,
+      "impact": -0.048,
+      "raw_impact": -0.059,
       "source_weight": 0.9,
-      "age_hours": 20.16,
+      "age_hours": 21.11,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -231,10 +231,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.046,
-      "raw_impact": 0.042,
+      "impact": 0.044,
+      "raw_impact": 0.04,
       "source_weight": 1.1,
-      "age_hours": 53.11,
+      "age_hours": 54.06,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -257,40 +257,6 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Iran\u2019s Military Says It Has Reimposed \u2018Strict Control\u2019 of Strait of Hormuz",
-      "published": "Sat, 18 Apr 2026 16:56:57 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.198,
-      "source_weight": 0.9,
-      "age_hours": 0.16,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/18/world/iran-us-war-trump-hormuz",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/18/world/iran-us-war-trump-hormuz"
-      ]
-    },
-    {
       "title": "Iran says it has closed the Strait of Hormuz again, citing U.S. blockade",
       "published": "Sat, 18 Apr 2026 16:04:05 +0000",
       "actors": [
@@ -299,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.188,
+      "impact": 0.04,
+      "raw_impact": 0.178,
       "source_weight": 0.9,
-      "age_hours": 1.04,
+      "age_hours": 1.99,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -333,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.037,
-      "raw_impact": -0.037,
+      "impact": -0.035,
+      "raw_impact": -0.035,
       "source_weight": 1.1,
-      "age_hours": 29.11,
+      "age_hours": 30.06,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -367,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.156,
+      "impact": 0.033,
+      "raw_impact": 0.147,
       "source_weight": 0.9,
-      "age_hours": 4.34,
+      "age_hours": 5.29,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -393,40 +359,6 @@
       ]
     },
     {
-      "title": "Pakistan PM, army chief wrap up key trips in push for more US-Iran talks",
-      "published": "Sat, 18 Apr 2026 09:27:38 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.129,
-      "source_weight": 0.9,
-      "age_hours": 7.65,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/18/pakistan-pm-army-chief-wrap-up-key-trips-in-push-for-more-us-iran-talks?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/18/pakistan-pm-army-chief-wrap-up-key-trips-in-push-for-more-us-iran-talks?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Why China is taking a behind-the-scenes role in the Iran war",
       "published": "Sat, 18 Apr 2026 09:00:20 +0000",
       "actors": [
@@ -435,10 +367,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.125,
+      "impact": 0.027,
+      "raw_impact": 0.119,
       "source_weight": 0.9,
-      "age_hours": 8.1,
+      "age_hours": 9.05,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -461,40 +393,6 @@
       ]
     },
     {
-      "title": "Hegseth Urges Iran to 'Choose Wisely' During Epic Fury Ceasefire, Blockade",
-      "published": "Thu, 16 Apr 2026 20:04:00 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.014,
-      "raw_impact": -0.015,
-      "source_weight": 1.1,
-      "age_hours": 45.04,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.war.gov/News/News-Stories/Article/Article/4461708/hegseth-urges-iran-to-choose-wisely-during-epic-fury-ceasefire-blockade/",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "source_domain": "www.defense.gov",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.defense.gov"
-      ],
-      "cluster_links": [
-        "https://www.war.gov/News/News-Stories/Article/Article/4461708/hegseth-urges-iran-to-choose-wisely-during-epic-fury-ceasefire-blockade/"
-      ]
-    },
-    {
       "title": "Hormuz reopens, but insurers aren't ready to sound the all-clear",
       "published": "Fri, 17 Apr 2026 17:12:09 -0400",
       "actors": [
@@ -504,9 +402,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.013,
-      "raw_impact": 0.063,
+      "raw_impact": 0.06,
       "source_weight": 0.85,
-      "age_hours": 19.91,
+      "age_hours": 20.86,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -538,9 +436,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.013,
-      "raw_impact": -0.017,
+      "raw_impact": -0.016,
       "source_weight": 0.9,
-      "age_hours": 43.17,
+      "age_hours": 44.12,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -563,6 +461,40 @@
       ]
     },
     {
+      "title": "Hegseth Urges Iran to 'Choose Wisely' During Epic Fury Ceasefire, Blockade",
+      "published": "Thu, 16 Apr 2026 20:04:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.013,
+      "raw_impact": -0.014,
+      "source_weight": 1.1,
+      "age_hours": 45.99,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.war.gov/News/News-Stories/Article/Article/4461708/hegseth-urges-iran-to-choose-wisely-during-epic-fury-ceasefire-blockade/",
+      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "source_domain": "www.defense.gov",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.defense.gov"
+      ],
+      "cluster_links": [
+        "https://www.war.gov/News/News-Stories/Article/Article/4461708/hegseth-urges-iran-to-choose-wisely-during-epic-fury-ceasefire-blockade/"
+      ]
+    },
+    {
       "title": "MIDDLE EAST LIVE 16 April: UN meets over China-Russia Hormuz crisis veto as humanitarian crisis continues in Lebanon",
       "published": "Thu, 16 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -574,7 +506,7 @@
       "impact": -0.009,
       "raw_impact": -0.009,
       "source_weight": 1.1,
-      "age_hours": 53.11,
+      "age_hours": 54.06,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -606,9 +538,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.006,
-      "raw_impact": 0.028,
+      "raw_impact": 0.026,
       "source_weight": 0.9,
-      "age_hours": 34.13,
+      "age_hours": 35.08,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -642,7 +574,7 @@
       "impact": 0.002,
       "raw_impact": 0.004,
       "source_weight": 0.75,
-      "age_hours": 104.66,
+      "age_hours": 105.61,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -677,7 +609,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 187.39,
+      "age_hours": 188.34,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -711,7 +643,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1098.36,
+      "age_hours": 1099.31,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -745,7 +677,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 220.75,
+      "age_hours": 221.7,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -780,7 +712,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 416.6,
+      "age_hours": 417.55,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -815,7 +747,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 457.59,
+      "age_hours": 458.54,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -971,16 +903,16 @@
   ],
   "debug": {
     "event_count": 232,
-    "classified_count": 24,
-    "paired_count": 24,
+    "classified_count": 22,
+    "paired_count": 22,
     "valid_pair_updates": 6,
-    "top_driver_count": 24,
-    "total_signal": 3.6027,
+    "top_driver_count": 22,
+    "total_signal": 3.1484,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 113,
-      "no_signal": 53,
-      "invalid_pair": 42,
+      "no_signal": 54,
+      "invalid_pair": 43,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
