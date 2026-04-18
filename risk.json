@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-18 10:08:29 UTC",
-  "probability": 18.78,
-  "uncertainty": 5.86,
+  "last_updated": "2026-04-18 11:08:45 UTC",
+  "probability": 19.22,
+  "uncertainty": 5.69,
   "state": {
-    "us_russia": 5.062993053829252,
-    "us_china": 3.2739477208312104,
-    "china_taiwan": 4.054789544166255,
+    "us_russia": 5.098660292086717,
+    "us_china": 3.3086620987992976,
+    "china_taiwan": 4.061732419759866,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.364289565357066,
-    "iran_israel": 5.67487059865058,
+    "iran_us": 5.490403831595941,
+    "iran_israel": 5.9026205782511205,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.160353215243322
+    "russia_ukraine": 5.150191394752684
   },
   "top_drivers": [
+    {
+      "title": "Can Trump finally make a nuclear deal with Iran?",
+      "published": "Sat, 18 Apr 2026 09:23:46 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.9,
+      "raw_impact": 1.25,
+      "source_weight": 0.9,
+      "age_hours": 1.75,
+      "confidence": 0.96,
+      "signal_total": 2.1,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/7a06181a-310f-4ccb-98e8-3e5c920141d4",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/7a06181a-310f-4ccb-98e8-3e5c920141d4"
+      ]
+    },
     {
       "title": "US issues sanctions waiver on Russian oil sales again",
       "published": "Sat, 18 Apr 2026 07:37:48 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.747,
-      "raw_impact": 1.038,
+      "impact": 0.705,
+      "raw_impact": 0.979,
       "source_weight": 0.9,
-      "age_hours": 2.51,
+      "age_hours": 3.52,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.502,
-      "raw_impact": 0.697,
+      "impact": 0.474,
+      "raw_impact": 0.658,
       "source_weight": 0.9,
-      "age_hours": 5.17,
+      "age_hours": 6.17,
       "confidence": 0.756,
       "signal_total": 0.94,
       "signal_components": {
@@ -94,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.326,
-      "raw_impact": 0.362,
+      "impact": 0.307,
+      "raw_impact": 0.341,
       "source_weight": 0.9,
-      "age_hours": 10.14,
+      "age_hours": 11.15,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -129,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.285,
-      "raw_impact": 0.372,
+      "impact": 0.269,
+      "raw_impact": 0.351,
       "source_weight": 0.9,
-      "age_hours": 5.12,
+      "age_hours": 6.12,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -163,10 +197,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.276,
-      "raw_impact": 0.25,
+      "impact": 0.26,
+      "raw_impact": 0.236,
       "source_weight": 1.1,
-      "age_hours": 22.14,
+      "age_hours": 23.15,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -197,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.15,
-      "raw_impact": -0.186,
+      "impact": -0.142,
+      "raw_impact": -0.176,
       "source_weight": 0.9,
-      "age_hours": 1.25,
+      "age_hours": 2.25,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -231,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.076,
-      "raw_impact": -0.093,
+      "impact": -0.071,
+      "raw_impact": -0.088,
       "source_weight": 0.9,
-      "age_hours": 13.19,
+      "age_hours": 14.19,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -265,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.076,
-      "raw_impact": -0.093,
+      "impact": -0.071,
+      "raw_impact": -0.088,
       "source_weight": 0.9,
-      "age_hours": 13.23,
+      "age_hours": 14.24,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,10 +333,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.069,
-      "raw_impact": 0.063,
+      "impact": 0.065,
+      "raw_impact": 0.059,
       "source_weight": 1.1,
-      "age_hours": 46.14,
+      "age_hours": 47.15,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -333,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.055,
-      "raw_impact": -0.056,
+      "impact": -0.052,
+      "raw_impact": -0.053,
       "source_weight": 1.1,
-      "age_hours": 22.14,
+      "age_hours": 23.15,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -359,42 +393,8 @@
       ]
     },
     {
-      "title": "The Strait of Hormuz opens for commercial ships but the U.S. blockade continues on Iran",
-      "published": "Fri, 17 Apr 2026 08:36:18 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.044,
-      "raw_impact": -0.058,
-      "source_weight": 0.85,
-      "age_hours": 21.54,
-      "confidence": 0.755,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/17/g-s1-117788/middle-east-conflict-israel-lebanon-us-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/17/g-s1-117788/middle-east-conflict-israel-lebanon-us-updates"
-      ]
-    },
-    {
       "title": "Iran War Live Updates: Iran\u2019s Military Says It Has Reimposed \u2018Strict Control\u2019 of Strait of Hormuz",
-      "published": "Sat, 18 Apr 2026 09:56:12 +0000",
+      "published": "Sat, 18 Apr 2026 10:42:01 +0000",
       "actors": [
         "iran",
         "us"
@@ -402,9 +402,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.044,
-      "raw_impact": 0.198,
+      "raw_impact": 0.195,
       "source_weight": 0.9,
-      "age_hours": 0.2,
+      "age_hours": 0.45,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -435,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.196,
+      "impact": 0.042,
+      "raw_impact": 0.185,
       "source_weight": 0.9,
-      "age_hours": 0.31,
+      "age_hours": 1.32,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -469,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.192,
+      "impact": 0.041,
+      "raw_impact": 0.181,
       "source_weight": 0.9,
-      "age_hours": 0.68,
+      "age_hours": 1.69,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -495,7 +495,41 @@
       ]
     },
     {
-      "title": "China cautiously stakes out behind-the-scenes role to end Iran war",
+      "title": "The Strait of Hormuz opens for commercial ships but the U.S. blockade continues on Iran",
+      "published": "Fri, 17 Apr 2026 08:36:18 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.041,
+      "raw_impact": -0.054,
+      "source_weight": 0.85,
+      "age_hours": 22.54,
+      "confidence": 0.755,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/17/g-s1-117788/middle-east-conflict-israel-lebanon-us-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/17/g-s1-117788/middle-east-conflict-israel-lebanon-us-updates"
+      ]
+    },
+    {
+      "title": "Why China is taking a behind-the-scenes role in the Iran war",
       "published": "Sat, 18 Apr 2026 09:00:20 +0000",
       "actors": [
         "us",
@@ -503,10 +537,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.04,
+      "raw_impact": 0.177,
       "source_weight": 0.9,
-      "age_hours": 1.14,
+      "age_hours": 2.14,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -537,10 +571,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.159,
+      "impact": 0.034,
+      "raw_impact": 0.15,
       "source_weight": 0.9,
-      "age_hours": 4.02,
+      "age_hours": 5.03,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -563,40 +597,6 @@
       ]
     },
     {
-      "title": "Middle East war as it happened: US extends waiver allowing countries to buy Russian oil",
-      "published": "Sat, 18 Apr 2026 00:31:24 GMT",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.115,
-      "source_weight": 0.9,
-      "age_hours": 9.62,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/cdb6aaee-3cec-4456-8106-5c9279d02392",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/cdb6aaee-3cec-4456-8106-5c9279d02392"
-      ]
-    },
-    {
       "title": "Hegseth Urges Iran to 'Choose Wisely' During Epic Fury Ceasefire, Blockade",
       "published": "Thu, 16 Apr 2026 20:04:00 GMT",
       "actors": [
@@ -605,10 +605,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.022,
-      "raw_impact": -0.022,
+      "impact": -0.021,
+      "raw_impact": -0.021,
       "source_weight": 1.1,
-      "age_hours": 38.07,
+      "age_hours": 39.08,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -639,10 +639,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.095,
+      "impact": 0.019,
+      "raw_impact": 0.089,
       "source_weight": 0.85,
-      "age_hours": 12.94,
+      "age_hours": 13.94,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -673,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.02,
-      "raw_impact": -0.025,
+      "impact": -0.019,
+      "raw_impact": -0.023,
       "source_weight": 0.9,
-      "age_hours": 36.2,
+      "age_hours": 37.21,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -708,9 +708,9 @@
       "state_key": "us_russia",
       "class": "deescalation",
       "impact": -0.013,
-      "raw_impact": -0.014,
+      "raw_impact": -0.013,
       "source_weight": 1.1,
-      "age_hours": 46.14,
+      "age_hours": 47.15,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -742,9 +742,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.009,
-      "raw_impact": 0.042,
+      "raw_impact": 0.039,
       "source_weight": 0.9,
-      "age_hours": 27.16,
+      "age_hours": 28.16,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,9 +776,9 @@
       "state_key": "us_china",
       "class": "strategic",
       "impact": 0.003,
-      "raw_impact": 0.006,
+      "raw_impact": 0.005,
       "source_weight": 0.75,
-      "age_hours": 97.69,
+      "age_hours": 98.7,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -813,7 +813,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 180.42,
+      "age_hours": 181.43,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -847,7 +847,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1091.39,
+      "age_hours": 1092.4,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -881,7 +881,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 213.78,
+      "age_hours": 214.79,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -916,7 +916,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 409.63,
+      "age_hours": 410.64,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -951,7 +951,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 450.62,
+      "age_hours": 451.62,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1111,11 +1111,11 @@
     "paired_count": 28,
     "valid_pair_updates": 6,
     "top_driver_count": 28,
-    "total_signal": 3.4747,
+    "total_signal": 4.5405,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 120,
-      "no_signal": 50,
+      "no_actor": 118,
+      "no_signal": 52,
       "invalid_pair": 35,
       "low_confidence": 0,
       "classifier_error": 0,
