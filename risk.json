@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-18 20:00:28 UTC",
-  "probability": 15.07,
-  "uncertainty": 5.7,
+  "last_updated": "2026-04-18 20:49:53 UTC",
+  "probability": 15.25,
+  "uncertainty": 5.56,
   "state": {
-    "us_russia": 3.360993346802805,
-    "us_china": 3.221922728958219,
-    "china_taiwan": 4.044384545791644,
+    "us_russia": 3.3678107752748696,
+    "us_china": 3.211126446853812,
+    "china_taiwan": 4.042225289370762,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.632851593711633,
-    "iran_israel": 5.856510379592139,
+    "iran_us": 5.633077409159306,
+    "iran_israel": 5.760284313968579,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.209504224782741
+    "russia_ukraine": 6.5478979380537305
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.819,
-      "raw_impact": 1.138,
+      "impact": 0.781,
+      "raw_impact": 1.085,
       "source_weight": 0.9,
-      "age_hours": 10.61,
+      "age_hours": 11.44,
       "confidence": 0.96,
       "signal_total": 2.1,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.723,
-      "raw_impact": 0.803,
+      "impact": 0.689,
+      "raw_impact": 0.766,
       "source_weight": 0.9,
-      "age_hours": 1.97,
+      "age_hours": 2.79,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.444,
-      "raw_impact": 0.617,
+      "impact": 0.423,
+      "raw_impact": 0.588,
       "source_weight": 0.9,
-      "age_hours": 7.29,
+      "age_hours": 8.12,
       "confidence": 0.746,
       "signal_total": 0.94,
       "signal_components": {
@@ -128,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.441,
-      "raw_impact": 0.49,
+      "impact": 0.421,
+      "raw_impact": 0.468,
       "source_weight": 0.9,
-      "age_hours": 4.88,
+      "age_hours": 5.7,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -163,10 +163,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.156,
-      "raw_impact": 0.142,
+      "impact": 0.149,
+      "raw_impact": 0.135,
       "source_weight": 1.1,
-      "age_hours": 32.01,
+      "age_hours": 32.83,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -197,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.117,
-      "raw_impact": -0.144,
+      "impact": -0.112,
+      "raw_impact": -0.138,
       "source_weight": 0.9,
-      "age_hours": 5.64,
+      "age_hours": 6.46,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -224,17 +224,17 @@
     },
     {
       "title": "Iran War Live Updates: Two Ships Are Fired On As Iran Says the Strait of Hormuz is Closed",
-      "published": "Sat, 18 Apr 2026 19:49:35 +0000",
+      "published": "Sat, 18 Apr 2026 20:42:23 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.198,
+      "impact": 0.045,
+      "raw_impact": 0.199,
       "source_weight": 0.9,
-      "age_hours": 0.18,
+      "age_hours": 0.13,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -257,6 +257,40 @@
       ]
     },
     {
+      "title": "Kyiv Mass Shooting Kills 6 and Gunman Is Shot Dead After Taking Hostages in Grocery",
+      "published": "Sat, 18 Apr 2026 20:43:28 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "rhetoric",
+      "impact": 0.045,
+      "raw_impact": 0.199,
+      "source_weight": 0.9,
+      "age_hours": 0.11,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/18/world/europe/kyiv-ukraine-mass-shooting-hostages.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/18/world/europe/kyiv-ukraine-mass-shooting-hostages.html"
+      ]
+    },
+    {
       "title": "Air Canada temporarily suspends some flights to New York and other locations",
       "published": "Fri, 17 Apr 2026 20:57:11 GMT",
       "actors": [
@@ -265,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.043,
-      "raw_impact": -0.053,
+      "impact": -0.041,
+      "raw_impact": -0.05,
       "source_weight": 0.9,
-      "age_hours": 23.05,
+      "age_hours": 23.88,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,10 +333,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.039,
-      "raw_impact": 0.035,
+      "impact": 0.037,
+      "raw_impact": 0.034,
       "source_weight": 1.1,
-      "age_hours": 56.01,
+      "age_hours": 56.83,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -325,37 +359,37 @@
       ]
     },
     {
-      "title": "Iran says it has closed the Strait of Hormuz again, citing U.S. blockade",
-      "published": "Sat, 18 Apr 2026 16:04:05 +0000",
+      "title": "What we know about the Israel-Lebanon ceasefire",
+      "published": "Fri, 17 Apr 2026 14:56:15 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.159,
-      "source_weight": 0.9,
-      "age_hours": 3.94,
-      "confidence": 0.67,
-      "signal_total": 0.2,
+      "class": "deescalation",
+      "impact": -0.032,
+      "raw_impact": -0.036,
+      "source_weight": 1.0,
+      "age_hours": 29.89,
+      "confidence": 0.77,
+      "signal_total": -0.2,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.2,
+        "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.washingtonpost.com/world/2026/04/18/iran-strait-hormuz-us-oil/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
+      "link": "https://www.bbc.com/news/articles/cwy32277e58o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.washingtonpost.com"
+        "feeds.bbci.co.uk"
       ],
       "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/18/iran-strait-hormuz-us-oil/"
+        "https://www.bbc.com/news/articles/cwy32277e58o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -367,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.032,
-      "raw_impact": -0.031,
+      "impact": -0.03,
+      "raw_impact": -0.03,
       "source_weight": 1.1,
-      "age_hours": 32.01,
+      "age_hours": 32.83,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -401,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.132,
+      "impact": 0.028,
+      "raw_impact": 0.126,
       "source_weight": 0.9,
-      "age_hours": 7.24,
+      "age_hours": 8.06,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -435,10 +469,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.106,
+      "impact": 0.023,
+      "raw_impact": 0.101,
       "source_weight": 0.9,
-      "age_hours": 11.0,
+      "age_hours": 11.83,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -469,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.013,
+      "impact": -0.012,
+      "raw_impact": -0.012,
       "source_weight": 1.1,
-      "age_hours": 47.94,
+      "age_hours": 48.76,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -503,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.012,
-      "raw_impact": -0.014,
+      "impact": -0.011,
+      "raw_impact": -0.013,
       "source_weight": 0.9,
-      "age_hours": 46.07,
+      "age_hours": 46.89,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -529,40 +563,6 @@
       ]
     },
     {
-      "title": "Hormuz reopens, but insurers aren't ready to sound the all-clear",
-      "published": "Fri, 17 Apr 2026 17:12:09 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.054,
-      "source_weight": 0.85,
-      "age_hours": 22.81,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/17/nx-s1-5785167/hormuz-reopens-but-insurers-arent-ready-to-sound-the-all-clear",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/17/nx-s1-5785167/hormuz-reopens-but-insurers-arent-ready-to-sound-the-all-clear"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 16 April: UN meets over China-Russia Hormuz crisis veto as humanitarian crisis continues in Lebanon",
       "published": "Thu, 16 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -571,10 +571,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.008,
+      "impact": -0.007,
       "raw_impact": -0.008,
       "source_weight": 1.1,
-      "age_hours": 56.01,
+      "age_hours": 56.83,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -597,40 +597,6 @@
       ]
     },
     {
-      "title": "Iran War Forces America\u2019s Friends in Asia to Court Its Rivals",
-      "published": "Fri, 17 Apr 2026 06:59:03 +0000",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "rhetoric",
-      "impact": 0.005,
-      "raw_impact": 0.024,
-      "source_weight": 0.9,
-      "age_hours": 37.02,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/17/world/asia/iran-war-us-asia-russia.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/17/world/asia/iran-war-us-asia-russia.html"
-      ]
-    },
-    {
       "title": "Europe should fill the diplomatic vacuum on Iran",
       "published": "Tue, 14 Apr 2026 08:26:54 +0000",
       "actors": [
@@ -642,7 +608,7 @@
       "impact": 0.002,
       "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 107.56,
+      "age_hours": 108.38,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -677,7 +643,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 190.29,
+      "age_hours": 191.11,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -711,7 +677,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1101.26,
+      "age_hours": 1102.08,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -745,7 +711,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 223.65,
+      "age_hours": 224.47,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -780,7 +746,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 419.5,
+      "age_hours": 420.32,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -815,7 +781,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 460.48,
+      "age_hours": 461.31,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -861,9 +827,9 @@
       "domain": "www.economist.com"
     },
     {
-      "name": "feeds.npr.org",
-      "url": "https://feeds.npr.org/1004/rss.xml",
-      "domain": "feeds.npr.org"
+      "name": "feeds.bbci.co.uk",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "domain": "feeds.bbci.co.uk"
     },
     {
       "name": "feeds.washingtonpost.com",
@@ -971,16 +937,16 @@
   ],
   "debug": {
     "event_count": 231,
-    "classified_count": 24,
-    "paired_count": 24,
+    "classified_count": 23,
+    "paired_count": 23,
     "valid_pair_updates": 6,
-    "top_driver_count": 24,
-    "total_signal": 3.8446,
+    "top_driver_count": 23,
+    "total_signal": 3.5943,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 116,
-      "no_signal": 51,
-      "invalid_pair": 40,
+      "no_actor": 115,
+      "no_signal": 49,
+      "invalid_pair": 44,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
