@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-18 11:58:12 UTC",
-  "probability": 19.27,
-  "uncertainty": 5.73,
+  "last_updated": "2026-04-18 13:21:05 UTC",
+  "probability": 16.83,
+  "uncertainty": 5.86,
   "state": {
-    "us_russia": 5.075355911406011,
-    "us_china": 3.319521084919949,
-    "china_taiwan": 4.063904216983993,
+    "us_russia": 4.220446129169846,
+    "us_china": 3.3133613951073375,
+    "china_taiwan": 4.06267227902147,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.557402035535343,
-    "iran_israel": 5.974291896663632,
+    "iran_us": 5.592994831378151,
+    "iran_israel": 6.040816847751407,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.141771209294109
+    "russia_ukraine": 5.132544651237651
   },
   "top_drivers": [
     {
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 2.57,
+      "age_hours": 3.96,
       "confidence": 0.96,
       "signal_total": 2.1,
       "signal_components": {
@@ -51,53 +51,19 @@
       ]
     },
     {
-      "title": "US issues sanctions waiver on Russian oil sales again",
-      "published": "Sat, 18 Apr 2026 07:37:48 GMT",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "strategic",
-      "impact": 0.673,
-      "raw_impact": 0.934,
-      "source_weight": 0.9,
-      "age_hours": 4.34,
-      "confidence": 0.96,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/europe/20260418-us-extends-sanctions-waiver-on-russian-oil-sales-at-sea",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/europe/20260418-us-extends-sanctions-waiver-on-russian-oil-sales-at-sea"
-      ]
-    },
-    {
-      "title": "Tale of two truces: Lebanon 'steps up' alongside Israel as Tehran and Washington edge toward a deal",
-      "published": "Sat, 18 Apr 2026 04:58:33 GMT",
+      "title": "Middle East : Fragile US-Iran talks hinge on nuclear and Hormuz disputes",
+      "published": "Sat, 18 Apr 2026 12:42:51 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.452,
-      "raw_impact": 0.628,
+      "impact": 0.652,
+      "raw_impact": 0.906,
       "source_weight": 0.9,
-      "age_hours": 6.99,
-      "confidence": 0.756,
+      "age_hours": 0.64,
+      "confidence": 0.746,
       "signal_total": 0.94,
       "signal_components": {
         "deescalation": -0.2,
@@ -108,7 +74,7 @@
         "contradiction_adjustment": -0.06,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/tv-shows/spotlight/20260418-tale-of-two-truces-lebanon-steps-up-alongside-israel-as-tehran-and-washington-edge-toward-a-deal",
+      "link": "https://www.france24.com/en/middle-east-fragile-us-iran-talks-hinge-on-nuclear-and-hormuz-disputes",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -116,42 +82,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/tv-shows/spotlight/20260418-tale-of-two-truces-lebanon-steps-up-alongside-israel-as-tehran-and-washington-edge-toward-a-deal"
-      ]
-    },
-    {
-      "title": "Iran war live: Hormuz Strait shut down again over US \u2018piracy\u2019, says Tehran",
-      "published": "Sat, 18 Apr 2026 00:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.293,
-      "raw_impact": 0.326,
-      "source_weight": 0.9,
-      "age_hours": 11.97,
-      "confidence": 0.698,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/18/iran-war-live-tehran-says-president-trump-made-false-claims-amid-talks?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/4/18/iran-war-live-tehran-says-president-trump-made-false-claims-amid-talks?traffic_source=rss"
+        "https://www.france24.com/en/middle-east-fragile-us-iran-talks-hinge-on-nuclear-and-hormuz-disputes"
       ]
     },
     {
@@ -163,10 +94,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.248,
-      "raw_impact": 0.225,
+      "impact": 0.229,
+      "raw_impact": 0.208,
       "source_weight": 1.1,
-      "age_hours": 23.97,
+      "age_hours": 25.35,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -197,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.136,
-      "raw_impact": -0.167,
+      "impact": -0.125,
+      "raw_impact": -0.155,
       "source_weight": 0.9,
-      "age_hours": 3.08,
+      "age_hours": 4.46,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -231,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.068,
-      "raw_impact": -0.084,
+      "impact": -0.063,
+      "raw_impact": -0.078,
       "source_weight": 0.9,
-      "age_hours": 15.02,
+      "age_hours": 16.4,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -257,40 +188,6 @@
       ]
     },
     {
-      "title": "Trump says Iran peace deal could be reached \u2018soon\u2019 after Tehran reopens Hormuz Strait",
-      "published": "Fri, 17 Apr 2026 20:54:37 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.068,
-      "raw_impact": -0.084,
-      "source_weight": 0.9,
-      "age_hours": 15.06,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260417-trump-says-iran-peace-deal-could-be-reached-soon-after-tehran-reopens-hormuz-strait",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260417-trump-says-iran-peace-deal-could-be-reached-soon-after-tehran-reopens-hormuz-strait"
-      ]
-    },
-    {
       "title": "Deadly Russian strikes on Ukrainians \u2018simply trying to live their lives\u2019 must stop, says senior UN official",
       "published": "Thu, 16 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -299,10 +196,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.062,
-      "raw_impact": 0.056,
+      "impact": 0.057,
+      "raw_impact": 0.052,
       "source_weight": 1.1,
-      "age_hours": 47.97,
+      "age_hours": 49.35,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -333,10 +230,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.05,
-      "raw_impact": -0.05,
+      "impact": -0.046,
+      "raw_impact": -0.046,
       "source_weight": 1.1,
-      "age_hours": 23.97,
+      "age_hours": 25.35,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -360,7 +257,7 @@
     },
     {
       "title": "Iran War Live Updates: Iran\u2019s Military Says It Has Reimposed \u2018Strict Control\u2019 of Strait of Hormuz",
-      "published": "Sat, 18 Apr 2026 11:50:09 +0000",
+      "published": "Sat, 18 Apr 2026 13:16:52 +0000",
       "actors": [
         "iran",
         "us"
@@ -368,9 +265,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.045,
-      "raw_impact": 0.198,
+      "raw_impact": 0.199,
       "source_weight": 0.9,
-      "age_hours": 0.13,
+      "age_hours": 0.07,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -393,8 +290,42 @@
       ]
     },
     {
+      "title": "Iran\u2019s deputy FM says no date for more US talks until \u2018framework\u2019 agreed",
+      "published": "Sat, 18 Apr 2026 12:46:18 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.193,
+      "source_weight": 0.9,
+      "age_hours": 0.58,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/18/irans-deputy-fm-says-no-date-for-more-us-talks-until-framework-agreed?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/18/irans-deputy-fm-says-no-date-for-more-us-talks-until-framework-agreed?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Iran says it has closed the Strait of Hormuz again, citing U.S. blockade",
-      "published": "Sat, 18 Apr 2026 11:10:38 +0000",
+      "published": "Sat, 18 Apr 2026 12:34:51 +0000",
       "actors": [
         "iran",
         "us"
@@ -404,7 +335,7 @@
       "impact": 0.043,
       "raw_impact": 0.191,
       "source_weight": 0.9,
-      "age_hours": 0.79,
+      "age_hours": 0.77,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -427,40 +358,6 @@
       ]
     },
     {
-      "title": "The Strait of Hormuz opens for commercial ships but the U.S. blockade continues on Iran",
-      "published": "Fri, 17 Apr 2026 08:36:18 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.04,
-      "raw_impact": -0.052,
-      "source_weight": 0.85,
-      "age_hours": 23.37,
-      "confidence": 0.755,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/17/g-s1-117788/middle-east-conflict-israel-lebanon-us-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/17/g-s1-117788/middle-east-conflict-israel-lebanon-us-updates"
-      ]
-    },
-    {
       "title": "Iran closes Hormuz Strait again over US blockade with ships mid-transit",
       "published": "Sat, 18 Apr 2026 09:49:43 GMT",
       "actors": [
@@ -469,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.177,
+      "impact": 0.037,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 2.14,
+      "age_hours": 3.52,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -503,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
+      "impact": 0.036,
+      "raw_impact": 0.16,
       "source_weight": 0.9,
-      "age_hours": 2.51,
+      "age_hours": 3.89,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -537,10 +434,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
+      "impact": 0.035,
+      "raw_impact": 0.156,
       "source_weight": 0.9,
-      "age_hours": 2.96,
+      "age_hours": 4.35,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -571,10 +468,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.143,
+      "impact": 0.03,
+      "raw_impact": 0.132,
       "source_weight": 0.9,
-      "age_hours": 5.85,
+      "age_hours": 7.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -605,10 +502,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.02,
-      "raw_impact": -0.02,
+      "impact": -0.018,
+      "raw_impact": -0.018,
       "source_weight": 1.1,
-      "age_hours": 39.9,
+      "age_hours": 41.28,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -639,10 +536,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.085,
+      "impact": 0.017,
+      "raw_impact": 0.079,
       "source_weight": 0.85,
-      "age_hours": 14.77,
+      "age_hours": 16.15,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -673,10 +570,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.018,
-      "raw_impact": -0.022,
+      "impact": -0.016,
+      "raw_impact": -0.021,
       "source_weight": 0.9,
-      "age_hours": 38.03,
+      "age_hours": 39.41,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -707,10 +604,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.013,
+      "impact": -0.012,
+      "raw_impact": -0.012,
       "source_weight": 1.1,
-      "age_hours": 47.97,
+      "age_hours": 49.35,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -741,10 +638,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.037,
+      "impact": 0.008,
+      "raw_impact": 0.035,
       "source_weight": 0.9,
-      "age_hours": 28.99,
+      "age_hours": 30.37,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -778,7 +675,7 @@
       "impact": 0.003,
       "raw_impact": 0.005,
       "source_weight": 0.75,
-      "age_hours": 99.52,
+      "age_hours": 100.9,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -813,7 +710,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 182.25,
+      "age_hours": 183.63,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -847,7 +744,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1093.22,
+      "age_hours": 1094.6,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -881,7 +778,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 215.61,
+      "age_hours": 216.99,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -916,7 +813,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 411.46,
+      "age_hours": 412.84,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -951,7 +848,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 452.45,
+      "age_hours": 453.83,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1107,16 +1004,16 @@
   ],
   "debug": {
     "event_count": 234,
-    "classified_count": 28,
-    "paired_count": 28,
+    "classified_count": 25,
+    "paired_count": 25,
     "valid_pair_updates": 6,
-    "top_driver_count": 28,
-    "total_signal": 4.2506,
+    "top_driver_count": 25,
+    "total_signal": 3.6548,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 119,
-      "no_signal": 52,
-      "invalid_pair": 35,
+      "no_actor": 122,
+      "no_signal": 53,
+      "invalid_pair": 34,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
