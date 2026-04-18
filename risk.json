@@ -1,23 +1,58 @@
 {
-  "last_updated": "2026-04-18 05:09:48 UTC",
-  "probability": 12.69,
-  "uncertainty": 5.79,
+  "last_updated": "2026-04-18 06:47:01 UTC",
+  "probability": 13.13,
+  "uncertainty": 5.86,
   "state": {
-    "us_russia": 3.5191839904560815,
-    "us_china": 3.025517981852606,
-    "china_taiwan": 4.0051035963706845,
+    "us_russia": 3.530257762645408,
+    "us_china": 3.018781555126799,
+    "china_taiwan": 4.003756311025447,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 3.1581738590838477,
-    "iran_israel": 5.7240638869071825,
+    "iran_us": 3.9557563435440786,
+    "iran_israel": 5.612282131583647,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.230164293856085
+    "russia_ukraine": 5.205906753269567
   },
   "top_drivers": [
     {
-      "title": "Iran war live: Tehran says US blockade of ports must end as strait to open",
+      "title": "Tale of two truces: Lebanon 'steps up' alongside Israel as Tehran and Washington edge toward a deal",
+      "published": "Sat, 18 Apr 2026 04:58:33 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.61,
+      "raw_impact": 0.847,
+      "source_weight": 0.9,
+      "age_hours": 1.81,
+      "confidence": 0.756,
+      "signal_total": 0.94,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.06,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/spotlight/20260418-tale-of-two-truces-lebanon-steps-up-alongside-israel-as-tehran-and-washington-edge-toward-a-deal",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/spotlight/20260418-tale-of-two-truces-lebanon-steps-up-alongside-israel-as-tehran-and-washington-edge-toward-a-deal"
+      ]
+    },
+    {
+      "title": "Iran war live: Tehran says US blockade of ports must end as strait opens",
       "published": "Sat, 18 Apr 2026 00:00:00 +0000",
       "actors": [
         "iran",
@@ -25,10 +60,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.434,
-      "raw_impact": 0.482,
+      "impact": 0.395,
+      "raw_impact": 0.439,
       "source_weight": 0.9,
-      "age_hours": 5.16,
+      "age_hours": 6.78,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -60,10 +95,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.367,
-      "raw_impact": 0.334,
+      "impact": 0.335,
+      "raw_impact": 0.304,
       "source_weight": 1.1,
-      "age_hours": 17.16,
+      "age_hours": 18.78,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -87,17 +122,17 @@
     },
     {
       "title": "Thousands of Lebanese Try to Head Home After Israel-Lebanon Truce",
-      "published": "Sat, 18 Apr 2026 04:05:04 +0000",
+      "published": "Sat, 18 Apr 2026 06:36:04 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.152,
-      "raw_impact": -0.188,
+      "impact": -0.16,
+      "raw_impact": -0.198,
       "source_weight": 0.9,
-      "age_hours": 1.08,
+      "age_hours": 0.18,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -120,6 +155,40 @@
       ]
     },
     {
+      "title": "Middle East live: Iran threatens to close Strait of Hormuz again if US blockade continues",
+      "published": "Sat, 18 Apr 2026 05:01:20 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.147,
+      "raw_impact": -0.181,
+      "source_weight": 0.9,
+      "age_hours": 1.76,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260418-iran-threatens-to-close-strait-of-hormuz-again-if-us-blockade-continues",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260418-iran-threatens-to-close-strait-of-hormuz-again-if-us-blockade-continues"
+      ]
+    },
+    {
       "title": "Air Canada temporarily suspends some flights to New York and other locations",
       "published": "Fri, 17 Apr 2026 20:57:11 GMT",
       "actors": [
@@ -128,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.101,
-      "raw_impact": -0.124,
+      "impact": -0.092,
+      "raw_impact": -0.113,
       "source_weight": 0.9,
-      "age_hours": 8.21,
+      "age_hours": 9.83,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -162,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.101,
-      "raw_impact": -0.124,
+      "impact": -0.092,
+      "raw_impact": -0.113,
       "source_weight": 0.9,
-      "age_hours": 8.25,
+      "age_hours": 9.87,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -196,10 +265,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.092,
-      "raw_impact": 0.083,
+      "impact": 0.084,
+      "raw_impact": 0.076,
       "source_weight": 1.1,
-      "age_hours": 41.16,
+      "age_hours": 42.78,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -230,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.079,
-      "raw_impact": -0.088,
+      "impact": -0.072,
+      "raw_impact": -0.08,
       "source_weight": 1.0,
-      "age_hours": 14.23,
+      "age_hours": 15.85,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -264,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.074,
-      "raw_impact": -0.074,
+      "impact": -0.067,
+      "raw_impact": -0.068,
       "source_weight": 1.1,
-      "age_hours": 17.16,
+      "age_hours": 18.78,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -298,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.059,
-      "raw_impact": -0.077,
+      "impact": -0.053,
+      "raw_impact": -0.07,
       "source_weight": 0.85,
-      "age_hours": 16.56,
+      "age_hours": 18.18,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -324,6 +393,40 @@
       ]
     },
     {
+      "title": "Iran war: What is happening on day 50 of the US-Iran conflict?",
+      "published": "Sat, 18 Apr 2026 06:07:12 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.66,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/18/iran-war-what-is-happening-on-day-50-of-the-us-iran-conflict?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/18/iran-war-what-is-happening-on-day-50-of-the-us-iran-conflict?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Middle East war as it happened: US extends waiver allowing countries to buy Russian oil",
       "published": "Sat, 18 Apr 2026 00:31:24 GMT",
       "actors": [
@@ -332,10 +435,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.153,
+      "impact": 0.031,
+      "raw_impact": 0.139,
       "source_weight": 0.9,
-      "age_hours": 4.64,
+      "age_hours": 6.26,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -366,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.03,
-      "raw_impact": -0.03,
+      "impact": -0.027,
+      "raw_impact": -0.027,
       "source_weight": 1.1,
-      "age_hours": 33.1,
+      "age_hours": 34.72,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -400,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.126,
+      "impact": 0.025,
+      "raw_impact": 0.115,
       "source_weight": 0.85,
-      "age_hours": 7.96,
+      "age_hours": 9.58,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -434,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.027,
-      "raw_impact": -0.033,
+      "impact": -0.024,
+      "raw_impact": -0.03,
       "source_weight": 0.9,
-      "age_hours": 31.22,
+      "age_hours": 32.84,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -468,10 +571,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.018,
-      "raw_impact": -0.019,
+      "impact": -0.017,
+      "raw_impact": -0.017,
       "source_weight": 1.1,
-      "age_hours": 41.16,
+      "age_hours": 42.78,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -502,10 +605,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.056,
+      "impact": 0.011,
+      "raw_impact": 0.051,
       "source_weight": 0.9,
-      "age_hours": 22.18,
+      "age_hours": 23.8,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -537,9 +640,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.006,
-      "raw_impact": 0.031,
+      "raw_impact": 0.028,
       "source_weight": 0.85,
-      "age_hours": 32.33,
+      "age_hours": 33.95,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -570,10 +673,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.005,
-      "raw_impact": 0.008,
+      "impact": 0.004,
+      "raw_impact": 0.007,
       "source_weight": 0.75,
-      "age_hours": 92.72,
+      "age_hours": 94.34,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -608,7 +711,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 175.45,
+      "age_hours": 177.07,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -642,7 +745,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1086.41,
+      "age_hours": 1088.03,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -676,7 +779,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 208.8,
+      "age_hours": 210.42,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -711,7 +814,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 404.65,
+      "age_hours": 406.27,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -746,7 +849,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 445.64,
+      "age_hours": 447.26,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -907,16 +1010,16 @@
   ],
   "debug": {
     "event_count": 232,
-    "classified_count": 22,
-    "paired_count": 22,
+    "classified_count": 25,
+    "paired_count": 25,
     "valid_pair_updates": 6,
-    "top_driver_count": 22,
-    "total_signal": 0.7403,
+    "top_driver_count": 25,
+    "total_signal": 1.3499,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 117,
-      "no_signal": 52,
-      "invalid_pair": 41,
+      "no_actor": 119,
+      "no_signal": 51,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
