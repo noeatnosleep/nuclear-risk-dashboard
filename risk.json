@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-18 14:10:24 UTC",
-  "probability": 15.6,
+  "last_updated": "2026-04-18 15:07:28 UTC",
+  "probability": 14.92,
   "uncertainty": 5.86,
   "state": {
-    "us_russia": 3.7651547154493463,
-    "us_china": 3.3034287647147718,
-    "china_taiwan": 4.060685752942955,
+    "us_russia": 3.5220495727941654,
+    "us_china": 3.290832102712275,
+    "china_taiwan": 4.058166420542456,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.611903504169643,
-    "iran_israel": 6.05297574059171,
+    "iran_us": 5.621948736590123,
+    "iran_israel": 5.983076428395621,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.124989017156416
+    "russia_ukraine": 5.118058198715499
   },
   "top_drivers": [
     {
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 4.78,
+      "age_hours": 5.73,
       "confidence": 0.96,
       "signal_total": 2.1,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.622,
-      "raw_impact": 0.864,
+      "impact": 0.589,
+      "raw_impact": 0.818,
       "source_weight": 0.9,
-      "age_hours": 1.46,
+      "age_hours": 2.41,
       "confidence": 0.746,
       "signal_total": 0.94,
       "signal_components": {
@@ -94,10 +94,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.218,
-      "raw_impact": 0.198,
+      "impact": 0.207,
+      "raw_impact": 0.188,
       "source_weight": 1.1,
-      "age_hours": 26.17,
+      "age_hours": 27.12,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -120,6 +120,40 @@
       ]
     },
     {
+      "title": "Hormuz tensions highlight pressure tactics in US-Iran negotiations",
+      "published": "Sat, 18 Apr 2026 14:22:05 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.155,
+      "raw_impact": -0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.76,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/hormuz-tensions-highlight-pressure-tactics-in-us-iran-negotiations",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/hormuz-tensions-highlight-pressure-tactics-in-us-iran-negotiations"
+      ]
+    },
+    {
       "title": "Iran declares the Strait of Hormuz 'completely open' amid fragile ceasefire",
       "published": "Sat, 18 Apr 2026 08:53:38 GMT",
       "actors": [
@@ -128,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.12,
-      "raw_impact": -0.147,
+      "impact": -0.113,
+      "raw_impact": -0.14,
       "source_weight": 0.9,
-      "age_hours": 5.28,
+      "age_hours": 6.23,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -162,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.06,
-      "raw_impact": -0.074,
+      "impact": -0.057,
+      "raw_impact": -0.07,
       "source_weight": 0.9,
-      "age_hours": 17.22,
+      "age_hours": 18.17,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -196,10 +230,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.055,
-      "raw_impact": 0.05,
+      "impact": 0.052,
+      "raw_impact": 0.047,
       "source_weight": 1.1,
-      "age_hours": 50.17,
+      "age_hours": 51.12,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -223,7 +257,7 @@
     },
     {
       "title": "Iran War Live Updates: Iran\u2019s Military Says It Has Reimposed \u2018Strict Control\u2019 of Strait of Hormuz",
-      "published": "Sat, 18 Apr 2026 14:01:58 +0000",
+      "published": "Sat, 18 Apr 2026 15:02:14 +0000",
       "actors": [
         "iran",
         "us"
@@ -231,9 +265,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.045,
-      "raw_impact": 0.198,
+      "raw_impact": 0.199,
       "source_weight": 0.9,
-      "age_hours": 0.14,
+      "age_hours": 0.09,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -256,6 +290,40 @@
       ]
     },
     {
+      "title": "Iran says it has closed the Strait of Hormuz again, citing U.S. blockade",
+      "published": "Sat, 18 Apr 2026 15:01:26 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.045,
+      "raw_impact": 0.199,
+      "source_weight": 0.9,
+      "age_hours": 0.1,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/18/iran-strait-hormuz-us-oil/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/18/iran-strait-hormuz-us-oil/"
+      ]
+    },
+    {
       "title": "MIDDLE EAST LIVE 17 April: Israel-Lebanon ceasefire begins; Iran announces opening of Strait of Hormuz",
       "published": "Fri, 17 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -264,10 +332,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.044,
-      "raw_impact": -0.044,
+      "impact": -0.041,
+      "raw_impact": -0.042,
       "source_weight": 1.1,
-      "age_hours": 26.17,
+      "age_hours": 27.12,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -298,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.184,
+      "impact": 0.039,
+      "raw_impact": 0.175,
       "source_weight": 0.9,
-      "age_hours": 1.4,
+      "age_hours": 2.35,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -324,74 +392,6 @@
       ]
     },
     {
-      "title": "Iran says it has closed the Strait of Hormuz again, citing U.S. blockade",
-      "published": "Sat, 18 Apr 2026 12:34:51 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.182,
-      "source_weight": 0.9,
-      "age_hours": 1.59,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/18/iran-strait-hormuz-us-oil/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/18/iran-strait-hormuz-us-oil/"
-      ]
-    },
-    {
-      "title": "Iran closes Hormuz Strait again over US blockade with ships mid-transit",
-      "published": "Sat, 18 Apr 2026 09:49:43 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.156,
-      "source_weight": 0.9,
-      "age_hours": 4.34,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/iran-closes-hormuz-strait-again-over-us-blockade-with-ships-mid-transit",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/iran-closes-hormuz-strait-again-over-us-blockade-with-ships-mid-transit"
-      ]
-    },
-    {
       "title": "Pakistan PM, army chief wrap up key trips in push for more US-Iran talks",
       "published": "Sat, 18 Apr 2026 09:27:38 +0000",
       "actors": [
@@ -400,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.152,
+      "impact": 0.033,
+      "raw_impact": 0.144,
       "source_weight": 0.9,
-      "age_hours": 4.71,
+      "age_hours": 5.66,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -426,6 +426,40 @@
       ]
     },
     {
+      "title": "Iran closes Hormuz Strait again over US blockade with ships mid-transit",
+      "published": "Sat, 18 Apr 2026 09:49:43 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.033,
+      "raw_impact": 0.147,
+      "source_weight": 0.9,
+      "age_hours": 5.3,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/iran-closes-hormuz-strait-again-over-us-blockade-with-ships-mid-transit",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/iran-closes-hormuz-strait-again-over-us-blockade-with-ships-mid-transit"
+      ]
+    },
+    {
       "title": "Why China is taking a behind-the-scenes role in the Iran war",
       "published": "Sat, 18 Apr 2026 09:00:20 +0000",
       "actors": [
@@ -434,10 +468,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.148,
+      "impact": 0.032,
+      "raw_impact": 0.14,
       "source_weight": 0.9,
-      "age_hours": 5.17,
+      "age_hours": 6.12,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -460,40 +494,6 @@
       ]
     },
     {
-      "title": "Iran war: What is happening on day 50 of the US-Iran conflict?",
-      "published": "Sat, 18 Apr 2026 06:07:12 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.126,
-      "source_weight": 0.9,
-      "age_hours": 8.05,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/18/iran-war-what-is-happening-on-day-50-of-the-us-iran-conflict?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/18/iran-war-what-is-happening-on-day-50-of-the-us-iran-conflict?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Hegseth Urges Iran to 'Choose Wisely' During Epic Fury Ceasefire, Blockade",
       "published": "Thu, 16 Apr 2026 20:04:00 GMT",
       "actors": [
@@ -502,10 +502,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.017,
-      "raw_impact": -0.018,
+      "impact": -0.016,
+      "raw_impact": -0.017,
       "source_weight": 1.1,
-      "age_hours": 42.11,
+      "age_hours": 43.06,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -536,10 +536,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.075,
+      "impact": 0.015,
+      "raw_impact": 0.071,
       "source_weight": 0.85,
-      "age_hours": 16.97,
+      "age_hours": 17.92,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -570,10 +570,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.016,
-      "raw_impact": -0.02,
+      "impact": -0.015,
+      "raw_impact": -0.019,
       "source_weight": 0.9,
-      "age_hours": 40.23,
+      "age_hours": 41.18,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -604,10 +604,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.011,
-      "raw_impact": -0.011,
+      "impact": -0.01,
+      "raw_impact": -0.01,
       "source_weight": 1.1,
-      "age_hours": 50.17,
+      "age_hours": 51.12,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -639,9 +639,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.007,
-      "raw_impact": 0.033,
+      "raw_impact": 0.031,
       "source_weight": 0.9,
-      "age_hours": 31.19,
+      "age_hours": 32.14,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -673,9 +673,9 @@
       "state_key": "us_china",
       "class": "strategic",
       "impact": 0.002,
-      "raw_impact": 0.005,
+      "raw_impact": 0.004,
       "source_weight": 0.75,
-      "age_hours": 101.73,
+      "age_hours": 102.68,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -710,7 +710,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 184.46,
+      "age_hours": 185.41,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -744,7 +744,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1095.42,
+      "age_hours": 1096.38,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -778,7 +778,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 217.81,
+      "age_hours": 218.76,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -813,7 +813,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 413.66,
+      "age_hours": 414.61,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -848,7 +848,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 454.65,
+      "age_hours": 455.6,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1008,12 +1008,12 @@
     "paired_count": 25,
     "valid_pair_updates": 6,
     "top_driver_count": 25,
-    "total_signal": 3.557,
+    "total_signal": 3.1442,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 121,
-      "no_signal": 54,
-      "invalid_pair": 34,
+      "no_actor": 119,
+      "no_signal": 53,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
