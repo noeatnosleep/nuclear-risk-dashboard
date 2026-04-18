@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-18 15:07:28 UTC",
-  "probability": 14.92,
-  "uncertainty": 5.86,
+  "last_updated": "2026-04-18 16:02:42 UTC",
+  "probability": 14.61,
+  "uncertainty": 5.89,
   "state": {
-    "us_russia": 3.5220495727941654,
-    "us_china": 3.290832102712275,
-    "china_taiwan": 4.058166420542456,
+    "us_russia": 3.391770400030333,
+    "us_china": 3.277426492248595,
+    "china_taiwan": 4.055485298449719,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.621948736590123,
-    "iran_israel": 5.983076428395621,
+    "iran_us": 5.6272852663135025,
+    "iran_israel": 6.059862693733546,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.118058198715499
+    "russia_ukraine": 5.111700920496128
   },
   "top_drivers": [
     {
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 5.73,
+      "age_hours": 6.65,
       "confidence": 0.96,
       "signal_total": 2.1,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.589,
-      "raw_impact": 0.818,
+      "impact": 0.558,
+      "raw_impact": 0.775,
       "source_weight": 0.9,
-      "age_hours": 2.41,
+      "age_hours": 3.33,
       "confidence": 0.746,
       "signal_total": 0.94,
       "signal_components": {
@@ -86,6 +86,41 @@
       ]
     },
     {
+      "title": "No signs of regime collapse as Iran weathers weeks of war",
+      "published": "Sat, 18 Apr 2026 15:07:39 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.555,
+      "raw_impact": 0.616,
+      "source_weight": 0.9,
+      "age_hours": 0.92,
+      "confidence": 0.698,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/no-signs-of-regime-collapse-as-iran-weathers-weeks-of-war",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/no-signs-of-regime-collapse-as-iran-weathers-weeks-of-war"
+      ]
+    },
+    {
       "title": "UNESCO grants \u2018enhanced protection\u2019 to cultural heritage sites in the Middle East",
       "published": "Fri, 17 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -94,10 +129,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.207,
-      "raw_impact": 0.188,
+      "impact": 0.196,
+      "raw_impact": 0.178,
       "source_weight": 1.1,
-      "age_hours": 27.12,
+      "age_hours": 28.05,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -128,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.155,
-      "raw_impact": -0.191,
+      "impact": -0.147,
+      "raw_impact": -0.182,
       "source_weight": 0.9,
-      "age_hours": 0.76,
+      "age_hours": 1.68,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -154,40 +189,6 @@
       ]
     },
     {
-      "title": "Iran declares the Strait of Hormuz 'completely open' amid fragile ceasefire",
-      "published": "Sat, 18 Apr 2026 08:53:38 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.113,
-      "raw_impact": -0.14,
-      "source_weight": 0.9,
-      "age_hours": 6.23,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/iran-declares-the-strait-of-hormuz-completely-open-amid-fragile-ceasefire",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/iran-declares-the-strait-of-hormuz-completely-open-amid-fragile-ceasefire"
-      ]
-    },
-    {
       "title": "Air Canada temporarily suspends some flights to New York and other locations",
       "published": "Fri, 17 Apr 2026 20:57:11 GMT",
       "actors": [
@@ -196,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.057,
-      "raw_impact": -0.07,
+      "impact": -0.054,
+      "raw_impact": -0.066,
       "source_weight": 0.9,
-      "age_hours": 18.17,
+      "age_hours": 19.09,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -230,10 +231,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.052,
-      "raw_impact": 0.047,
+      "impact": 0.049,
+      "raw_impact": 0.045,
       "source_weight": 1.1,
-      "age_hours": 51.12,
+      "age_hours": 52.05,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -257,17 +258,17 @@
     },
     {
       "title": "Iran War Live Updates: Iran\u2019s Military Says It Has Reimposed \u2018Strict Control\u2019 of Strait of Hormuz",
-      "published": "Sat, 18 Apr 2026 15:02:14 +0000",
+      "published": "Sat, 18 Apr 2026 15:49:09 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.199,
+      "impact": 0.044,
+      "raw_impact": 0.197,
       "source_weight": 0.9,
-      "age_hours": 0.09,
+      "age_hours": 0.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -298,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.199,
+      "impact": 0.043,
+      "raw_impact": 0.189,
       "source_weight": 0.9,
-      "age_hours": 0.1,
+      "age_hours": 1.02,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -332,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.042,
+      "impact": -0.04,
+      "raw_impact": -0.04,
       "source_weight": 1.1,
-      "age_hours": 27.12,
+      "age_hours": 28.05,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -366,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.175,
+      "impact": 0.037,
+      "raw_impact": 0.166,
       "source_weight": 0.9,
-      "age_hours": 2.35,
+      "age_hours": 3.27,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -392,40 +393,6 @@
       ]
     },
     {
-      "title": "Pakistan PM, army chief wrap up key trips in push for more US-Iran talks",
-      "published": "Sat, 18 Apr 2026 09:27:38 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.144,
-      "source_weight": 0.9,
-      "age_hours": 5.66,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/18/pakistan-pm-army-chief-wrap-up-key-trips-in-push-for-more-us-iran-talks?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/18/pakistan-pm-army-chief-wrap-up-key-trips-in-push-for-more-us-iran-talks?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Iran closes Hormuz Strait again over US blockade with ships mid-transit",
       "published": "Sat, 18 Apr 2026 09:49:43 GMT",
       "actors": [
@@ -434,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.147,
+      "impact": 0.032,
+      "raw_impact": 0.14,
       "source_weight": 0.9,
-      "age_hours": 5.3,
+      "age_hours": 6.22,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -460,6 +427,40 @@
       ]
     },
     {
+      "title": "Pakistan PM, army chief wrap up key trips in push for more US-Iran talks",
+      "published": "Sat, 18 Apr 2026 09:27:38 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.031,
+      "raw_impact": 0.137,
+      "source_weight": 0.9,
+      "age_hours": 6.58,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/18/pakistan-pm-army-chief-wrap-up-key-trips-in-push-for-more-us-iran-talks?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/18/pakistan-pm-army-chief-wrap-up-key-trips-in-push-for-more-us-iran-talks?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Why China is taking a behind-the-scenes role in the Iran war",
       "published": "Sat, 18 Apr 2026 09:00:20 +0000",
       "actors": [
@@ -468,10 +469,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.14,
+      "impact": 0.03,
+      "raw_impact": 0.133,
       "source_weight": 0.9,
-      "age_hours": 6.12,
+      "age_hours": 7.04,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -502,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.016,
-      "raw_impact": -0.017,
+      "impact": -0.015,
+      "raw_impact": -0.016,
       "source_weight": 1.1,
-      "age_hours": 43.06,
+      "age_hours": 43.98,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -536,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.071,
+      "impact": 0.014,
+      "raw_impact": 0.067,
       "source_weight": 0.85,
-      "age_hours": 17.92,
+      "age_hours": 18.84,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -570,10 +571,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.015,
-      "raw_impact": -0.019,
+      "impact": -0.014,
+      "raw_impact": -0.018,
       "source_weight": 0.9,
-      "age_hours": 41.18,
+      "age_hours": 42.1,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -607,7 +608,7 @@
       "impact": -0.01,
       "raw_impact": -0.01,
       "source_weight": 1.1,
-      "age_hours": 51.12,
+      "age_hours": 52.05,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -639,9 +640,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.007,
-      "raw_impact": 0.031,
+      "raw_impact": 0.03,
       "source_weight": 0.9,
-      "age_hours": 32.14,
+      "age_hours": 33.06,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -675,7 +676,7 @@
       "impact": 0.002,
       "raw_impact": 0.004,
       "source_weight": 0.75,
-      "age_hours": 102.68,
+      "age_hours": 103.6,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -710,7 +711,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 185.41,
+      "age_hours": 186.33,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -744,7 +745,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1096.38,
+      "age_hours": 1097.3,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -778,7 +779,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 218.76,
+      "age_hours": 219.69,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -813,7 +814,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 414.61,
+      "age_hours": 415.53,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -848,7 +849,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 455.6,
+      "age_hours": 456.52,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1008,12 +1009,12 @@
     "paired_count": 25,
     "valid_pair_updates": 6,
     "top_driver_count": 25,
-    "total_signal": 3.1442,
+    "total_signal": 3.8694,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 119,
-      "no_signal": 53,
-      "invalid_pair": 37,
+      "no_actor": 115,
+      "no_signal": 55,
+      "invalid_pair": 39,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
