@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-18 06:47:01 UTC",
-  "probability": 13.13,
-  "uncertainty": 5.86,
+  "last_updated": "2026-04-18 08:00:42 UTC",
+  "probability": 15.63,
+  "uncertainty": 5.75,
   "state": {
-    "us_russia": 3.530257762645408,
-    "us_china": 3.018781555126799,
-    "china_taiwan": 4.003756311025447,
+    "us_russia": 4.375449436405374,
+    "us_china": 3.0148449586294825,
+    "china_taiwan": 4.002968991725942,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 3.9557563435440786,
-    "iran_israel": 5.612282131583647,
+    "iran_us": 4.680043304240955,
+    "iran_israel": 5.590100457961675,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.205906753269567
+    "russia_ukraine": 5.187291967628547
   },
   "top_drivers": [
+    {
+      "title": "US extends sanctions waiver on Russian oil sales at sea",
+      "published": "Sat, 18 Apr 2026 07:37:48 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "strategic",
+      "impact": 0.845,
+      "raw_impact": 1.174,
+      "source_weight": 0.9,
+      "age_hours": 0.38,
+      "confidence": 0.96,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/europe/20260418-us-extends-sanctions-waiver-on-russian-oil-sales-at-sea",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/europe/20260418-us-extends-sanctions-waiver-on-russian-oil-sales-at-sea"
+      ]
+    },
     {
       "title": "Tale of two truces: Lebanon 'steps up' alongside Israel as Tehran and Washington edge toward a deal",
       "published": "Sat, 18 Apr 2026 04:58:33 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.61,
-      "raw_impact": 0.847,
+      "impact": 0.568,
+      "raw_impact": 0.789,
       "source_weight": 0.9,
-      "age_hours": 1.81,
+      "age_hours": 3.04,
       "confidence": 0.756,
       "signal_total": 0.94,
       "signal_components": {
@@ -60,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.395,
-      "raw_impact": 0.439,
+      "impact": 0.368,
+      "raw_impact": 0.409,
       "source_weight": 0.9,
-      "age_hours": 6.78,
+      "age_hours": 8.01,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -95,10 +129,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.335,
-      "raw_impact": 0.304,
+      "impact": 0.312,
+      "raw_impact": 0.283,
       "source_weight": 1.1,
-      "age_hours": 18.78,
+      "age_hours": 20.01,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -121,41 +155,7 @@
       ]
     },
     {
-      "title": "Thousands of Lebanese Try to Head Home After Israel-Lebanon Truce",
-      "published": "Sat, 18 Apr 2026 06:36:04 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.16,
-      "raw_impact": -0.198,
-      "source_weight": 0.9,
-      "age_hours": 0.18,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/17/world/israel-lebanon-ceasefire-hezbollah",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/17/world/israel-lebanon-ceasefire-hezbollah"
-      ]
-    },
-    {
-      "title": "Middle East live: Iran threatens to close Strait of Hormuz again if US blockade continues",
+      "title": "Middle East war live: Iran threatens to close Strait of Hormuz again if US blockade continues",
       "published": "Sat, 18 Apr 2026 05:01:20 GMT",
       "actors": [
         "iran",
@@ -163,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.147,
-      "raw_impact": -0.181,
+      "impact": -0.136,
+      "raw_impact": -0.168,
       "source_weight": 0.9,
-      "age_hours": 1.76,
+      "age_hours": 2.99,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -197,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.092,
-      "raw_impact": -0.113,
+      "impact": -0.086,
+      "raw_impact": -0.106,
       "source_weight": 0.9,
-      "age_hours": 9.83,
+      "age_hours": 11.06,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -231,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.092,
-      "raw_impact": -0.113,
+      "impact": -0.086,
+      "raw_impact": -0.105,
       "source_weight": 0.9,
-      "age_hours": 9.87,
+      "age_hours": 11.1,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -265,10 +265,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.084,
-      "raw_impact": 0.076,
+      "impact": 0.078,
+      "raw_impact": 0.071,
       "source_weight": 1.1,
-      "age_hours": 42.78,
+      "age_hours": 44.01,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -299,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.072,
-      "raw_impact": -0.08,
+      "impact": -0.068,
+      "raw_impact": -0.075,
       "source_weight": 1.0,
-      "age_hours": 15.85,
+      "age_hours": 17.07,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -333,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.067,
-      "raw_impact": -0.068,
+      "impact": -0.062,
+      "raw_impact": -0.063,
       "source_weight": 1.1,
-      "age_hours": 18.78,
+      "age_hours": 20.01,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -367,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.053,
-      "raw_impact": -0.07,
+      "impact": -0.05,
+      "raw_impact": -0.065,
       "source_weight": 0.85,
-      "age_hours": 18.18,
+      "age_hours": 19.41,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -393,6 +393,40 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: Uncertainty Remains at Strait of Hormuz After Reopening Announcement",
+      "published": "Sat, 18 Apr 2026 07:50:55 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.198,
+      "source_weight": 0.9,
+      "age_hours": 0.16,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/18/world/iran-us-war-trump-hormuz",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/18/world/iran-us-war-trump-hormuz"
+      ]
+    },
+    {
       "title": "Iran war: What is happening on day 50 of the US-Iran conflict?",
       "published": "Sat, 18 Apr 2026 06:07:12 +0000",
       "actors": [
@@ -401,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.192,
+      "impact": 0.04,
+      "raw_impact": 0.179,
       "source_weight": 0.9,
-      "age_hours": 0.66,
+      "age_hours": 1.89,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -435,10 +469,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.139,
+      "impact": 0.029,
+      "raw_impact": 0.13,
       "source_weight": 0.9,
-      "age_hours": 6.26,
+      "age_hours": 7.49,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -469,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.027,
-      "raw_impact": -0.027,
+      "impact": -0.025,
+      "raw_impact": -0.025,
       "source_weight": 1.1,
-      "age_hours": 34.72,
+      "age_hours": 35.95,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -503,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.115,
+      "impact": 0.023,
+      "raw_impact": 0.107,
       "source_weight": 0.85,
-      "age_hours": 9.58,
+      "age_hours": 10.81,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -537,10 +571,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.024,
-      "raw_impact": -0.03,
+      "impact": -0.023,
+      "raw_impact": -0.028,
       "source_weight": 0.9,
-      "age_hours": 32.84,
+      "age_hours": 34.07,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -571,10 +605,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.017,
-      "raw_impact": -0.017,
+      "impact": -0.015,
+      "raw_impact": -0.016,
       "source_weight": 1.1,
-      "age_hours": 42.78,
+      "age_hours": 44.01,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -606,9 +640,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.011,
-      "raw_impact": 0.051,
+      "raw_impact": 0.047,
       "source_weight": 0.9,
-      "age_hours": 23.8,
+      "age_hours": 25.03,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -639,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.028,
+      "impact": 0.005,
+      "raw_impact": 0.026,
       "source_weight": 0.85,
-      "age_hours": 33.95,
+      "age_hours": 35.18,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -674,9 +708,9 @@
       "state_key": "us_china",
       "class": "strategic",
       "impact": 0.004,
-      "raw_impact": 0.007,
+      "raw_impact": 0.006,
       "source_weight": 0.75,
-      "age_hours": 94.34,
+      "age_hours": 95.56,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -711,7 +745,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 177.07,
+      "age_hours": 178.3,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -745,7 +779,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1088.03,
+      "age_hours": 1089.26,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -779,7 +813,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 210.42,
+      "age_hours": 211.65,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -814,7 +848,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 406.27,
+      "age_hours": 407.5,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -849,7 +883,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 447.26,
+      "age_hours": 448.49,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1010,15 +1044,15 @@
   ],
   "debug": {
     "event_count": 232,
-    "classified_count": 25,
-    "paired_count": 25,
+    "classified_count": 26,
+    "paired_count": 26,
     "valid_pair_updates": 6,
-    "top_driver_count": 25,
-    "total_signal": 1.3499,
+    "top_driver_count": 26,
+    "total_signal": 2.727,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 119,
-      "no_signal": 51,
+      "no_actor": 117,
+      "no_signal": 52,
       "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
