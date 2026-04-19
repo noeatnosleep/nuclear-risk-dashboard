@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-19 22:00:20 UTC",
-  "probability": 19.76,
-  "uncertainty": 5.85,
+  "last_updated": "2026-04-19 22:50:38 UTC",
+  "probability": 19.27,
+  "uncertainty": 5.83,
   "state": {
-    "us_russia": 5.181071588529033,
-    "us_china": 3.049666438576458,
-    "china_taiwan": 4.009933287715292,
+    "us_russia": 4.899043441465148,
+    "us_china": 3.047134990536816,
+    "china_taiwan": 4.009426998107363,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333332512811,
-    "iran_israel": 6.104409314634717,
+    "iran_us": 5.633333332897431,
+    "iran_israel": 6.316515126278361,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.4664815909285376,
+    "nk_sk": 3.154068345180786,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.899600380711986
+    "russia_ukraine": 6.27320882333272
   },
   "top_drivers": [
+    {
+      "title": "US forces attack and seize Iranian ship Touska near Strait of Hormuz",
+      "published": "Sun, 19 Apr 2026 21:53:29 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.767,
+      "raw_impact": 0.852,
+      "source_weight": 0.9,
+      "age_hours": 0.95,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/19/us-forces-attack-and-seize-iranian-ship-touska-near-strait-of-hormuz?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/19/us-forces-attack-and-seize-iranian-ship-touska-near-strait-of-hormuz?traffic_source=rss"
+      ]
+    },
     {
       "title": "Ukrainian best-selling author, Andrey Kurkov speaks to France 24",
       "published": "Sun, 19 Apr 2026 21:26:50 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.784,
-      "raw_impact": 0.871,
+      "impact": 0.747,
+      "raw_impact": 0.83,
       "source_weight": 0.9,
-      "age_hours": 0.56,
+      "age_hours": 1.4,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.76,
-      "raw_impact": 0.845,
+      "impact": 0.724,
+      "raw_impact": 0.805,
       "source_weight": 0.9,
-      "age_hours": 1.09,
+      "age_hours": 1.93,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -86,17 +120,17 @@
     },
     {
       "title": "Iran War Live Updates: U.S. Attacks Iranian Cargo Ship While Preparing for New Round of Talks",
-      "published": "Sun, 19 Apr 2026 21:52:56 +0000",
+      "published": "Sun, 19 Apr 2026 22:49:59 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.581,
-      "raw_impact": 0.645,
+      "impact": 0.585,
+      "raw_impact": 0.65,
       "source_weight": 0.9,
-      "age_hours": 0.12,
+      "age_hours": 0.01,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -120,6 +154,41 @@
       ]
     },
     {
+      "title": "Trump says US seized Iranian ship trying to get past blockade near Hormuz",
+      "published": "Sun, 19 Apr 2026 19:52:20 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.493,
+      "raw_impact": 0.547,
+      "source_weight": 0.9,
+      "age_hours": 2.97,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/19/trump-says-us-seized-iran-flagged-ship-trying-to-get-past-hormuz-blockade?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/19/trump-says-us-seized-iran-flagged-ship-trying-to-get-past-hormuz-blockade?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Iran asserts leverage in Hormuz ahead of new round of talks",
       "published": "Sun, 19 Apr 2026 12:36:59 GMT",
       "actors": [
@@ -128,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.502,
-      "raw_impact": 0.698,
+      "impact": 0.478,
+      "raw_impact": 0.665,
       "source_weight": 0.9,
-      "age_hours": 9.39,
+      "age_hours": 10.23,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -162,10 +231,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.478,
-      "raw_impact": 0.597,
+      "impact": 0.455,
+      "raw_impact": 0.569,
       "source_weight": 1.0,
-      "age_hours": 12.08,
+      "age_hours": 12.92,
       "confidence": 0.97,
       "signal_total": 1.2,
       "signal_components": {
@@ -196,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.434,
-      "raw_impact": 0.603,
+      "impact": 0.414,
+      "raw_impact": 0.574,
       "source_weight": 0.9,
-      "age_hours": 11.92,
+      "age_hours": 12.75,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -222,71 +291,37 @@
       ]
     },
     {
-      "title": "Ukraine targeted with over 230 Russian drones, Zelenskyy blasts US green light for Russian oil",
-      "published": "Sun, 19 Apr 2026 13:57:41 +0200",
+      "title": "US navy seizes Iranian ship after it breaches blockade, says Trump",
+      "published": "Sun, 19 Apr 2026 22:08:48 GMT",
       "actors": [
-        "us",
-        "russia"
+        "iran",
+        "us"
       ],
-      "state_key": "us_russia",
-      "class": "action",
-      "impact": 0.428,
-      "raw_impact": 0.504,
-      "source_weight": 0.85,
-      "age_hours": 10.04,
-      "confidence": 0.815,
-      "signal_total": 0.9,
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.156,
+      "raw_impact": -0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.7,
+      "confidence": 0.67,
+      "signal_total": -0.2,
       "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
+        "deescalation": -0.2,
+        "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "http://www.euronews.com/my-europe/2026/04/19/ukraine-targeted-with-over-230-russian-drones-zelenskyy-blasts-us-green-light-for-russian-",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
+      "link": "https://www.ft.com/content/0e51cdea-99df-4913-8c71-03396c4a6faf",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.euronews.com"
+        "www.ft.com"
       ],
       "cluster_links": [
-        "http://www.euronews.com/my-europe/2026/04/19/ukraine-targeted-with-over-230-russian-drones-zelenskyy-blasts-us-green-light-for-russian-"
-      ]
-    },
-    {
-      "title": "North Korea conducts multiple ballistic missile tests",
-      "published": "Sun, 19 Apr 2026 08:49:19 +0200",
-      "actors": [
-        "nk",
-        "sk"
-      ],
-      "state_key": "nk_sk",
-      "class": "action",
-      "impact": 0.318,
-      "raw_impact": 0.374,
-      "source_weight": 0.85,
-      "age_hours": 15.18,
-      "confidence": 0.885,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "http://www.euronews.com/2026/04/19/north-korea-conducts-multiple-ballistic-missile-tests",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.euronews.com"
-      ],
-      "cluster_links": [
-        "http://www.euronews.com/2026/04/19/north-korea-conducts-multiple-ballistic-missile-tests"
+        "https://www.ft.com/content/0e51cdea-99df-4913-8c71-03396c4a6faf"
       ]
     },
     {
@@ -298,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.145,
-      "raw_impact": -0.189,
+      "impact": -0.138,
+      "raw_impact": -0.18,
       "source_weight": 0.85,
-      "age_hours": 0.98,
+      "age_hours": 1.82,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -332,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.112,
-      "raw_impact": -0.137,
+      "impact": -0.106,
+      "raw_impact": -0.131,
       "source_weight": 0.9,
-      "age_hours": 6.49,
+      "age_hours": 7.33,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -358,74 +393,6 @@
       ]
     },
     {
-      "title": "US navy seizes Iranian ship after it breaches blockade, says Trump",
-      "published": "Sun, 19 Apr 2026 15:11:07 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.109,
-      "raw_impact": -0.135,
-      "source_weight": 0.9,
-      "age_hours": 6.82,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/0e51cdea-99df-4913-8c71-03396c4a6faf",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/0e51cdea-99df-4913-8c71-03396c4a6faf"
-      ]
-    },
-    {
-      "title": "What to know about US-Iran standoff over the Strait of Hormuz",
-      "published": "Sun, 19 Apr 2026 14:08:20 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.103,
-      "raw_impact": -0.127,
-      "source_weight": 0.9,
-      "age_hours": 7.87,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/19/what-to-know-about-us-iran-standoff-over-the-strait-of-hormuz?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/19/what-to-know-about-us-iran-standoff-over-the-strait-of-hormuz?traffic_source=rss"
-      ]
-    },
-    {
       "title": "'Ceasefire in the Middle East, especially in Lebanon, are meant to be broken', analyst says",
       "published": "Sun, 19 Apr 2026 13:18:42 GMT",
       "actors": [
@@ -434,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.098,
-      "raw_impact": -0.121,
+      "impact": -0.094,
+      "raw_impact": -0.115,
       "source_weight": 0.9,
-      "age_hours": 8.69,
+      "age_hours": 9.53,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -468,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.094,
-      "raw_impact": -0.116,
+      "impact": -0.089,
+      "raw_impact": -0.11,
       "source_weight": 0.9,
-      "age_hours": 9.45,
+      "age_hours": 10.29,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -502,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.049,
-      "raw_impact": 0.196,
+      "impact": 0.047,
+      "raw_impact": 0.187,
       "source_weight": 1.0,
-      "age_hours": 0.34,
+      "age_hours": 1.18,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -528,18 +495,52 @@
       ]
     },
     {
-      "title": "Can U.S. Blockade Iranian-Linked Ships Anywhere in the World? Yes, But \u2026",
-      "published": "Sun, 19 Apr 2026 21:52:54 +0000",
+      "title": "Trump says U.S. seized Iranian ship trying to bypass blockade of Strait of Hormuz",
+      "published": "Sun, 19 Apr 2026 22:27:21 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.199,
+      "impact": 0.044,
+      "raw_impact": 0.196,
       "source_weight": 0.9,
-      "age_hours": 0.12,
+      "age_hours": 0.39,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/"
+      ]
+    },
+    {
+      "title": "Can U.S. Blockade Iranian-Linked Ships Anywhere in the World? Yes, But \u2026",
+      "published": "Sun, 19 Apr 2026 21:52:55 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.189,
+      "source_weight": 0.9,
+      "age_hours": 0.96,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -570,10 +571,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.193,
+      "impact": 0.041,
+      "raw_impact": 0.184,
       "source_weight": 0.9,
-      "age_hours": 0.62,
+      "age_hours": 1.46,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -604,10 +605,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.186,
+      "impact": 0.04,
+      "raw_impact": 0.177,
       "source_weight": 0.9,
-      "age_hours": 1.27,
+      "age_hours": 2.1,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -630,74 +631,6 @@
       ]
     },
     {
-      "title": "Trump says U.S. seized Iranian ship trying to bypass blockade of Strait of Hormuz",
-      "published": "Sun, 19 Apr 2026 20:32:54 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.184,
-      "source_weight": 0.9,
-      "age_hours": 1.46,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/"
-      ]
-    },
-    {
-      "title": "Trump says US seized Iranian ship trying to get past blockade near Hormuz",
-      "published": "Sun, 19 Apr 2026 19:52:20 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.177,
-      "source_weight": 0.9,
-      "age_hours": 2.13,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/19/trump-says-us-seized-iran-flagged-ship-trying-to-get-past-hormuz-blockade?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/19/trump-says-us-seized-iran-flagged-ship-trying-to-get-past-hormuz-blockade?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Did the US misjudge Iran? A military strategist answers",
       "published": "Sun, 19 Apr 2026 19:06:46 +0000",
       "actors": [
@@ -706,10 +639,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 2.89,
+      "age_hours": 3.73,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -740,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.159,
+      "impact": 0.034,
+      "raw_impact": 0.152,
       "source_weight": 0.9,
-      "age_hours": 3.97,
+      "age_hours": 4.81,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -766,40 +699,6 @@
       ]
     },
     {
-      "title": "UNESCO grants \u2018enhanced protection\u2019 to cultural heritage sites in the Middle East",
-      "published": "Fri, 17 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.035,
-      "raw_impact": 0.032,
-      "source_weight": 1.1,
-      "age_hours": 58.01,
-      "confidence": 0.91,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167326",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167326"
-      ]
-    },
-    {
       "title": "What would it take for the Iran-US talks to succeed?",
       "published": "Sun, 19 Apr 2026 17:20:17 +0000",
       "actors": [
@@ -808,10 +707,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.153,
+      "impact": 0.033,
+      "raw_impact": 0.146,
       "source_weight": 0.9,
-      "age_hours": 4.67,
+      "age_hours": 5.51,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -834,6 +733,40 @@
       ]
     },
     {
+      "title": "UNESCO grants \u2018enhanced protection\u2019 to cultural heritage sites in the Middle East",
+      "published": "Fri, 17 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.033,
+      "raw_impact": 0.03,
+      "source_weight": 1.1,
+      "age_hours": 58.84,
+      "confidence": 0.91,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167326",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167326"
+      ]
+    },
+    {
       "title": "Impact of Iran war will hurt US even after conflict ends, economists warn",
       "published": "Sun, 19 Apr 2026 17:00:07 GMT",
       "actors": [
@@ -842,10 +775,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.15,
+      "impact": 0.032,
+      "raw_impact": 0.143,
       "source_weight": 0.9,
-      "age_hours": 5.0,
+      "age_hours": 5.84,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -876,10 +809,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.112,
+      "impact": 0.024,
+      "raw_impact": 0.107,
       "source_weight": 0.9,
-      "age_hours": 10.0,
+      "age_hours": 10.84,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -902,40 +835,6 @@
       ]
     },
     {
-      "title": "Hormuz standoff reignites, new talks on Monday in Pakistan (White House official)",
-      "published": "Sun, 19 Apr 2026 12:19:14 +0200",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.102,
-      "source_weight": 0.85,
-      "age_hours": 11.69,
-      "confidence": 0.675,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "http://www.euronews.com/2026/04/19/hormuz-standoff-reignites-as-the-irgc-appears-to-now-shape-irans-decisions",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.euronews.com"
-      ],
-      "cluster_links": [
-        "http://www.euronews.com/2026/04/19/hormuz-standoff-reignites-as-the-irgc-appears-to-now-shape-irans-decisions"
-      ]
-    },
-    {
       "title": "In Qatar, Trapped Between the U.S. and Iran, War Forced a Reckoning",
       "published": "Sun, 19 Apr 2026 09:02:20 +0000",
       "actors": [
@@ -944,10 +843,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.095,
+      "impact": 0.02,
+      "raw_impact": 0.09,
       "source_weight": 0.9,
-      "age_hours": 12.97,
+      "age_hours": 13.81,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -978,10 +877,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.073,
+      "impact": 0.016,
+      "raw_impact": 0.07,
       "source_weight": 0.9,
-      "age_hours": 17.34,
+      "age_hours": 18.18,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1012,10 +911,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.046,
+      "impact": 0.01,
+      "raw_impact": 0.044,
       "source_weight": 0.9,
-      "age_hours": 25.28,
+      "age_hours": 26.12,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -1046,10 +945,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.01,
-      "raw_impact": -0.012,
+      "impact": -0.009,
+      "raw_impact": -0.011,
       "source_weight": 0.9,
-      "age_hours": 49.05,
+      "age_hours": 49.89,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -1080,10 +979,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.009,
+      "impact": 0.008,
       "raw_impact": 0.008,
       "source_weight": 1.1,
-      "age_hours": 82.01,
+      "age_hours": 82.84,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -1114,10 +1013,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.007,
+      "impact": -0.006,
       "raw_impact": -0.007,
       "source_weight": 1.1,
-      "age_hours": 58.01,
+      "age_hours": 58.84,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1149,9 +1048,9 @@
       "state_key": "us_china",
       "class": "rhetoric",
       "impact": 0.005,
-      "raw_impact": 0.024,
+      "raw_impact": 0.022,
       "source_weight": 0.9,
-      "age_hours": 37.0,
+      "age_hours": 37.84,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1185,7 +1084,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 73.94,
+      "age_hours": 74.78,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1219,7 +1118,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 82.01,
+      "age_hours": 82.84,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1253,7 +1152,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 133.56,
+      "age_hours": 134.4,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1288,7 +1187,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 216.29,
+      "age_hours": 217.13,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1322,7 +1221,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1127.26,
+      "age_hours": 1128.09,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1356,7 +1255,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 249.65,
+      "age_hours": 250.48,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1391,7 +1290,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 445.49,
+      "age_hours": 446.33,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1426,7 +1325,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 486.48,
+      "age_hours": 487.32,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1470,11 +1369,6 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
-    },
-    {
-      "name": "euronews_world",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1562,11 +1456,6 @@
       "domain": "www.economist.com"
     },
     {
-      "name": "www.euronews.com",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
-    },
-    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -1596,17 +1485,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 248,
-    "classified_count": 42,
-    "paired_count": 42,
-    "valid_pair_updates": 7,
-    "top_driver_count": 42,
-    "total_signal": 6.7656,
+    "event_count": 226,
+    "classified_count": 39,
+    "paired_count": 39,
+    "valid_pair_updates": 6,
+    "top_driver_count": 39,
+    "total_signal": 7.0865,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 119,
-      "no_signal": 57,
-      "invalid_pair": 30,
+      "no_actor": 105,
+      "no_signal": 53,
+      "invalid_pair": 29,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
