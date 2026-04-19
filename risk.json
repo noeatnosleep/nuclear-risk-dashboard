@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-19 17:06:29 UTC",
-  "probability": 18.67,
-  "uncertainty": 5.74,
+  "last_updated": "2026-04-19 18:03:32 UTC",
+  "probability": 19.13,
+  "uncertainty": 5.67,
   "state": {
-    "us_russia": 4.985059072620663,
-    "us_china": 3.0662691421195576,
-    "china_taiwan": 4.013253828423911,
+    "us_russia": 5.148312632329728,
+    "us_china": 3.062560993532728,
+    "china_taiwan": 4.012512198706546,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333313942545,
-    "iran_israel": 5.826925369254451,
+    "iran_us": 5.633333323031977,
+    "iran_israel": 5.8037382042866,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 4.929513467143199,
+    "nk_sk": 4.931304029419825,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.158894260094955
+    "russia_ukraine": 5.147802981001469
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.821,
-      "raw_impact": 1.14,
+      "impact": 0.777,
+      "raw_impact": 1.079,
       "source_weight": 0.9,
-      "age_hours": 10.58,
+      "age_hours": 11.53,
       "confidence": 0.96,
       "signal_total": 2.1,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.666,
-      "raw_impact": 0.926,
+      "impact": 0.631,
+      "raw_impact": 0.876,
       "source_weight": 0.9,
-      "age_hours": 4.49,
+      "age_hours": 5.44,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.634,
-      "raw_impact": 0.792,
+      "impact": 0.6,
+      "raw_impact": 0.75,
       "source_weight": 1.0,
-      "age_hours": 7.19,
+      "age_hours": 8.14,
       "confidence": 0.97,
       "signal_total": 1.2,
       "signal_components": {
@@ -119,52 +119,18 @@
       ]
     },
     {
-      "title": "Iran: Prolonged conflict reshapes view of the regime, analyst says",
-      "published": "Sun, 19 Apr 2026 10:05:25 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.576,
-      "raw_impact": 0.8,
-      "source_weight": 0.9,
-      "age_hours": 7.02,
-      "confidence": 0.95,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/iran-prolonged-conflict-reshapes-view-of-the-regime-analyst-says",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/iran-prolonged-conflict-reshapes-view-of-the-regime-analyst-says"
-      ]
-    },
-    {
       "title": "Trump says Iran talks will resume, threatens power plants and bridges if no deal",
-      "published": "Sun, 19 Apr 2026 16:39:00 +0000",
+      "published": "Sun, 19 Apr 2026 17:58:10 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.57,
-      "raw_impact": 0.633,
+      "impact": 0.582,
+      "raw_impact": 0.647,
       "source_weight": 0.9,
-      "age_hours": 0.46,
+      "age_hours": 0.09,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -188,6 +154,74 @@
       ]
     },
     {
+      "title": "Iran: Prolonged conflict reshapes view of the regime, analyst says",
+      "published": "Sun, 19 Apr 2026 10:05:25 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.546,
+      "raw_impact": 0.757,
+      "source_weight": 0.9,
+      "age_hours": 7.97,
+      "confidence": 0.95,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/iran-prolonged-conflict-reshapes-view-of-the-regime-analyst-says",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/iran-prolonged-conflict-reshapes-view-of-the-regime-analyst-says"
+      ]
+    },
+    {
+      "title": "Ukraine targeted with over 230 Russian drones, Zelenskyy blasts US green light for Russian oil",
+      "published": "Sun, 19 Apr 2026 13:57:41 +0200",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "action",
+      "impact": 0.538,
+      "raw_impact": 0.633,
+      "source_weight": 0.85,
+      "age_hours": 6.1,
+      "confidence": 0.815,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/my-europe/2026/04/19/ukraine-targeted-with-over-230-russian-drones-zelenskyy-blasts-us-green-light-for-russian-",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/my-europe/2026/04/19/ukraine-targeted-with-over-230-russian-drones-zelenskyy-blasts-us-green-light-for-russian-"
+      ]
+    },
+    {
       "title": "Trump to send US officials to Pakistan for fresh peace talks with Iran",
       "published": "Sun, 19 Apr 2026 15:11:07 GMT",
       "actors": [
@@ -196,10 +230,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.524,
-      "raw_impact": 0.582,
+      "impact": 0.496,
+      "raw_impact": 0.551,
       "source_weight": 0.9,
-      "age_hours": 1.92,
+      "age_hours": 2.87,
       "confidence": 0.618,
       "signal_total": 0.65,
       "signal_components": {
@@ -223,6 +257,40 @@
       ]
     },
     {
+      "title": "North Korea conducts multiple ballistic missile tests",
+      "published": "Sun, 19 Apr 2026 08:49:19 +0200",
+      "actors": [
+        "nk",
+        "sk"
+      ],
+      "state_key": "nk_sk",
+      "class": "action",
+      "impact": 0.4,
+      "raw_impact": 0.47,
+      "source_weight": 0.85,
+      "age_hours": 11.24,
+      "confidence": 0.885,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/2026/04/19/north-korea-conducts-multiple-ballistic-missile-tests",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/2026/04/19/north-korea-conducts-multiple-ballistic-missile-tests"
+      ]
+    },
+    {
       "title": "Trump sending US delegation for Iran talks in Pakistan",
       "published": "Sun, 19 Apr 2026 15:30:55 GMT",
       "actors": [
@@ -231,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.148,
-      "raw_impact": -0.182,
+      "impact": -0.14,
+      "raw_impact": -0.173,
       "source_weight": 0.9,
-      "age_hours": 1.59,
+      "age_hours": 2.54,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -265,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.137,
-      "raw_impact": -0.168,
+      "impact": -0.13,
+      "raw_impact": -0.159,
       "source_weight": 0.9,
-      "age_hours": 2.97,
+      "age_hours": 3.92,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.161,
+      "impact": -0.123,
+      "raw_impact": -0.152,
       "source_weight": 0.9,
-      "age_hours": 3.8,
+      "age_hours": 4.75,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -333,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.125,
-      "raw_impact": -0.154,
+      "impact": -0.119,
+      "raw_impact": -0.146,
       "source_weight": 0.9,
-      "age_hours": 4.47,
+      "age_hours": 5.42,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -367,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.124,
-      "raw_impact": -0.154,
+      "impact": -0.118,
+      "raw_impact": -0.146,
       "source_weight": 0.9,
-      "age_hours": 4.55,
+      "age_hours": 5.5,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -401,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.109,
-      "raw_impact": -0.142,
+      "impact": -0.103,
+      "raw_impact": -0.135,
       "source_weight": 0.85,
-      "age_hours": 5.9,
+      "age_hours": 6.85,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -427,52 +495,18 @@
       ]
     },
     {
-      "title": "UNESCO grants \u2018enhanced protection\u2019 to cultural heritage sites in the Middle East",
-      "published": "Fri, 17 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.046,
-      "raw_impact": 0.042,
-      "source_weight": 1.1,
-      "age_hours": 53.11,
-      "confidence": 0.91,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167326",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167326"
-      ]
-    },
-    {
       "title": "Iran War Live Updates: Trump Says U.S. Officials Will Travel to Pakistan for Talks",
-      "published": "Sun, 19 Apr 2026 17:01:03 +0000",
+      "published": "Sun, 19 Apr 2026 17:53:43 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.199,
+      "impact": 0.044,
+      "raw_impact": 0.198,
       "source_weight": 0.9,
-      "age_hours": 0.09,
+      "age_hours": 0.16,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -495,6 +529,108 @@
       ]
     },
     {
+      "title": "UNESCO grants \u2018enhanced protection\u2019 to cultural heritage sites in the Middle East",
+      "published": "Fri, 17 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.044,
+      "raw_impact": 0.04,
+      "source_weight": 1.1,
+      "age_hours": 54.06,
+      "confidence": 0.91,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167326",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167326"
+      ]
+    },
+    {
+      "title": "What would it take for the Iran-US talks to succeed?",
+      "published": "Sun, 19 Apr 2026 17:20:17 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.72,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/the-bottom-line/2026/4/19/what-would-it-take-for-the-iran-us-talks-to-succeed?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/the-bottom-line/2026/4/19/what-would-it-take-for-the-iran-us-talks-to-succeed?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Impact of Iran war will hurt US even after conflict ends, economists warn",
+      "published": "Sun, 19 Apr 2026 17:00:07 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.188,
+      "source_weight": 0.9,
+      "age_hours": 1.06,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/80436d72-25e1-4a97-be09-3327c2d0af9a",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/80436d72-25e1-4a97-be09-3327c2d0af9a"
+      ]
+    },
+    {
       "title": "The US and Europe are still stronger together",
       "published": "Sun, 19 Apr 2026 12:00:08 GMT",
       "actors": [
@@ -503,10 +639,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.149,
+      "impact": 0.032,
+      "raw_impact": 0.141,
       "source_weight": 0.9,
-      "age_hours": 5.11,
+      "age_hours": 6.06,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -537,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.146,
+      "impact": 0.031,
+      "raw_impact": 0.138,
       "source_weight": 0.9,
-      "age_hours": 5.44,
+      "age_hours": 6.39,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -563,40 +699,6 @@
       ]
     },
     {
-      "title": "Iran war: What is happening on day 51 of the US-Israeli conflict?",
-      "published": "Sun, 19 Apr 2026 09:26:26 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.128,
-      "source_weight": 0.9,
-      "age_hours": 7.67,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/19/iran-war-what-is-happening-on-day-51-of-the-us-iran-conflict?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/19/iran-war-what-is-happening-on-day-51-of-the-us-iran-conflict?traffic_source=rss"
-      ]
-    },
-    {
       "title": "In Qatar, Trapped Between the U.S. and Iran, War Forced a Reckoning",
       "published": "Sun, 19 Apr 2026 09:02:20 +0000",
       "actors": [
@@ -605,10 +707,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.125,
+      "impact": 0.027,
+      "raw_impact": 0.119,
       "source_weight": 0.9,
-      "age_hours": 8.07,
+      "age_hours": 9.02,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -639,10 +741,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.125,
+      "impact": 0.026,
+      "raw_impact": 0.118,
       "source_weight": 0.9,
-      "age_hours": 8.15,
+      "age_hours": 9.1,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -673,10 +775,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.097,
+      "impact": 0.021,
+      "raw_impact": 0.092,
       "source_weight": 0.9,
-      "age_hours": 12.44,
+      "age_hours": 13.39,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -707,10 +809,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.062,
+      "impact": 0.013,
+      "raw_impact": 0.058,
       "source_weight": 0.9,
-      "age_hours": 20.38,
+      "age_hours": 21.33,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -741,10 +843,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.016,
+      "impact": -0.012,
+      "raw_impact": -0.015,
       "source_weight": 0.9,
-      "age_hours": 44.16,
+      "age_hours": 45.11,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -775,10 +877,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.012,
+      "impact": 0.011,
       "raw_impact": 0.01,
       "source_weight": 1.1,
-      "age_hours": 77.11,
+      "age_hours": 78.06,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -812,7 +914,7 @@
       "impact": -0.009,
       "raw_impact": -0.009,
       "source_weight": 1.1,
-      "age_hours": 53.11,
+      "age_hours": 54.06,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,9 +946,9 @@
       "state_key": "us_china",
       "class": "rhetoric",
       "impact": 0.007,
-      "raw_impact": 0.031,
+      "raw_impact": 0.03,
       "source_weight": 0.9,
-      "age_hours": 32.1,
+      "age_hours": 33.05,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -869,6 +971,40 @@
       ]
     },
     {
+      "title": "Hegseth Urges Iran to 'Choose Wisely' During Epic Fury Ceasefire, Blockade",
+      "published": "Thu, 16 Apr 2026 20:04:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.004,
+      "raw_impact": -0.004,
+      "source_weight": 1.1,
+      "age_hours": 69.99,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.war.gov/News/News-Stories/Article/Article/4461708/hegseth-urges-iran-to-choose-wisely-during-epic-fury-ceasefire-blockade/",
+      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "source_domain": "www.defense.gov",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.defense.gov"
+      ],
+      "cluster_links": [
+        "https://www.war.gov/News/News-Stories/Article/Article/4461708/hegseth-urges-iran-to-choose-wisely-during-epic-fury-ceasefire-blockade/"
+      ]
+    },
+    {
       "title": "MIDDLE EAST LIVE 16 April: UN meets over China-Russia Hormuz crisis veto as humanitarian crisis continues in Lebanon",
       "published": "Thu, 16 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -877,10 +1013,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.003,
+      "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 77.11,
+      "age_hours": 78.06,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -914,7 +1050,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 128.66,
+      "age_hours": 129.61,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -949,7 +1085,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 211.39,
+      "age_hours": 212.34,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -972,74 +1108,6 @@
       ]
     },
     {
-      "title": "Leaders Praise Troops Who Rescued Downed Airmen in Iran",
-      "published": "Wed, 08 Apr 2026 15:22:00 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.0,
-      "raw_impact": 0.0,
-      "source_weight": 1.1,
-      "age_hours": 265.74,
-      "confidence": 0.75,
-      "signal_total": 0.5,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.war.gov/News/News-Stories/Article/Article/4454212/leaders-praise-troops-who-rescued-downed-airmen-in-iran/",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "source_domain": "www.defense.gov",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.defense.gov"
-      ],
-      "cluster_links": [
-        "https://www.war.gov/News/News-Stories/Article/Article/4454212/leaders-praise-troops-who-rescued-downed-airmen-in-iran/"
-      ]
-    },
-    {
-      "title": "Trump, Hegseth, Caine Laud Successful Rescue of Downed Airmen in Iran",
-      "published": "Mon, 06 Apr 2026 21:01:00 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.0,
-      "raw_impact": 0.0,
-      "source_weight": 1.1,
-      "age_hours": 308.09,
-      "confidence": 0.69,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.war.gov/News/News-Stories/Article/Article/4452653/trump-hegseth-caine-laud-successful-rescue-of-downed-airmen-in-iran/",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "source_domain": "www.defense.gov",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.defense.gov"
-      ],
-      "cluster_links": [
-        "https://www.war.gov/News/News-Stories/Article/Article/4452653/trump-hegseth-caine-laud-successful-rescue-of-downed-airmen-in-iran/"
-      ]
-    },
-    {
       "title": "Binyamin Netanyahu is the big winner from the Iran war, for now",
       "published": "Tue, 03 Mar 2026 22:44:57 +0000",
       "actors": [
@@ -1051,7 +1119,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1122.36,
+      "age_hours": 1123.31,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1085,7 +1153,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 244.75,
+      "age_hours": 245.7,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1120,7 +1188,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 440.6,
+      "age_hours": 441.55,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1155,7 +1223,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 481.58,
+      "age_hours": 482.54,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1199,6 +1267,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "euronews_world",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1286,6 +1359,11 @@
       "domain": "www.economist.com"
     },
     {
+      "name": "www.euronews.com",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
+    },
+    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -1315,17 +1393,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 228,
-    "classified_count": 34,
-    "paired_count": 34,
+    "event_count": 248,
+    "classified_count": 36,
+    "paired_count": 36,
     "valid_pair_updates": 7,
-    "top_driver_count": 34,
-    "total_signal": 5.1338,
+    "top_driver_count": 36,
+    "total_signal": 6.1334,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 114,
-      "no_signal": 51,
-      "invalid_pair": 29,
+      "no_actor": 123,
+      "no_signal": 57,
+      "invalid_pair": 32,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
