@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-19 22:50:38 UTC",
-  "probability": 19.27,
-  "uncertainty": 5.83,
+  "last_updated": "2026-04-19 23:40:00 UTC",
+  "probability": 18.84,
+  "uncertainty": 5.95,
   "state": {
-    "us_russia": 4.899043441465148,
-    "us_china": 3.047134990536816,
-    "china_taiwan": 4.009426998107363,
+    "us_russia": 4.719210224666576,
+    "us_china": 3.0448272586567464,
+    "china_taiwan": 4.008965451731349,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333332897431,
-    "iran_israel": 6.316515126278361,
+    "iran_us": 5.63333333310176,
+    "iran_israel": 6.325956173907141,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.154068345180786,
+    "nk_sk": 2.988098808377292,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.27320882333272
+    "russia_ukraine": 6.434782183620069
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.767,
-      "raw_impact": 0.852,
+      "impact": 0.731,
+      "raw_impact": 0.812,
       "source_weight": 0.9,
-      "age_hours": 0.95,
+      "age_hours": 1.78,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.747,
-      "raw_impact": 0.83,
+      "impact": 0.713,
+      "raw_impact": 0.792,
       "source_weight": 0.9,
-      "age_hours": 1.4,
+      "age_hours": 2.22,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.724,
-      "raw_impact": 0.805,
+      "impact": 0.691,
+      "raw_impact": 0.768,
       "source_weight": 0.9,
-      "age_hours": 1.93,
+      "age_hours": 2.75,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -120,17 +120,17 @@
     },
     {
       "title": "Iran War Live Updates: U.S. Attacks Iranian Cargo Ship While Preparing for New Round of Talks",
-      "published": "Sun, 19 Apr 2026 22:49:59 +0000",
+      "published": "Sun, 19 Apr 2026 23:34:47 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.585,
-      "raw_impact": 0.65,
+      "impact": 0.582,
+      "raw_impact": 0.647,
       "source_weight": 0.9,
-      "age_hours": 0.01,
+      "age_hours": 0.09,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -162,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.493,
-      "raw_impact": 0.547,
+      "impact": 0.47,
+      "raw_impact": 0.522,
       "source_weight": 0.9,
-      "age_hours": 2.97,
+      "age_hours": 3.79,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -197,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.478,
-      "raw_impact": 0.665,
+      "impact": 0.456,
+      "raw_impact": 0.634,
       "source_weight": 0.9,
-      "age_hours": 10.23,
+      "age_hours": 11.05,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -231,10 +231,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.455,
-      "raw_impact": 0.569,
+      "impact": 0.434,
+      "raw_impact": 0.543,
       "source_weight": 1.0,
-      "age_hours": 12.92,
+      "age_hours": 13.74,
       "confidence": 0.97,
       "signal_total": 1.2,
       "signal_components": {
@@ -257,40 +257,6 @@
       ]
     },
     {
-      "title": "Iran: Prolonged conflict reshapes view of the regime, analyst says",
-      "published": "Sun, 19 Apr 2026 10:05:25 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.414,
-      "raw_impact": 0.574,
-      "source_weight": 0.9,
-      "age_hours": 12.75,
-      "confidence": 0.95,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/iran-prolonged-conflict-reshapes-view-of-the-regime-analyst-says",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/iran-prolonged-conflict-reshapes-view-of-the-regime-analyst-says"
-      ]
-    },
-    {
       "title": "US navy seizes Iranian ship after it breaches blockade, says Trump",
       "published": "Sun, 19 Apr 2026 22:08:48 GMT",
       "actors": [
@@ -299,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.156,
-      "raw_impact": -0.192,
+      "impact": -0.149,
+      "raw_impact": -0.183,
       "source_weight": 0.9,
-      "age_hours": 0.7,
+      "age_hours": 1.52,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -333,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.138,
-      "raw_impact": -0.18,
+      "impact": -0.131,
+      "raw_impact": -0.172,
       "source_weight": 0.85,
-      "age_hours": 1.82,
+      "age_hours": 2.64,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -367,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.106,
-      "raw_impact": -0.131,
+      "impact": -0.101,
+      "raw_impact": -0.125,
       "source_weight": 0.9,
-      "age_hours": 7.33,
+      "age_hours": 8.15,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -401,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.094,
-      "raw_impact": -0.115,
+      "impact": -0.089,
+      "raw_impact": -0.11,
       "source_weight": 0.9,
-      "age_hours": 9.53,
+      "age_hours": 10.36,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -435,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.089,
-      "raw_impact": -0.11,
+      "impact": -0.086,
+      "raw_impact": -0.105,
       "source_weight": 0.9,
-      "age_hours": 10.29,
+      "age_hours": 11.11,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -469,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.047,
-      "raw_impact": 0.187,
+      "impact": 0.044,
+      "raw_impact": 0.178,
       "source_weight": 1.0,
-      "age_hours": 1.18,
+      "age_hours": 2.0,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -495,6 +461,40 @@
       ]
     },
     {
+      "title": "Middle East war live: Iran vows response after US destroyer fires on cargo ship",
+      "published": "Sun, 19 Apr 2026 23:16:20 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.195,
+      "source_weight": 0.9,
+      "age_hours": 0.39,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260419-middle-east-war-live-iran-vows-response-after-us-destroyer-fires-on-cargo-ship",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260419-middle-east-war-live-iran-vows-response-after-us-destroyer-fires-on-cargo-ship"
+      ]
+    },
+    {
       "title": "Trump says U.S. seized Iranian ship trying to bypass blockade of Strait of Hormuz",
       "published": "Sun, 19 Apr 2026 22:27:21 +0000",
       "actors": [
@@ -503,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.196,
+      "impact": 0.042,
+      "raw_impact": 0.186,
       "source_weight": 0.9,
-      "age_hours": 0.39,
+      "age_hours": 1.21,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -537,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.189,
+      "impact": 0.041,
+      "raw_impact": 0.18,
       "source_weight": 0.9,
-      "age_hours": 0.96,
+      "age_hours": 1.78,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -571,10 +571,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.184,
+      "impact": 0.04,
+      "raw_impact": 0.175,
       "source_weight": 0.9,
-      "age_hours": 1.46,
+      "age_hours": 2.28,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -605,10 +605,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.177,
+      "impact": 0.038,
+      "raw_impact": 0.169,
       "source_weight": 0.9,
-      "age_hours": 2.1,
+      "age_hours": 2.93,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -639,10 +639,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.161,
+      "impact": 0.035,
+      "raw_impact": 0.154,
       "source_weight": 0.9,
-      "age_hours": 3.73,
+      "age_hours": 4.55,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -673,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.152,
+      "impact": 0.033,
+      "raw_impact": 0.144,
       "source_weight": 0.9,
-      "age_hours": 4.81,
+      "age_hours": 5.63,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -699,40 +699,6 @@
       ]
     },
     {
-      "title": "What would it take for the Iran-US talks to succeed?",
-      "published": "Sun, 19 Apr 2026 17:20:17 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.146,
-      "source_weight": 0.9,
-      "age_hours": 5.51,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/the-bottom-line/2026/4/19/what-would-it-take-for-the-iran-us-talks-to-succeed?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/the-bottom-line/2026/4/19/what-would-it-take-for-the-iran-us-talks-to-succeed?traffic_source=rss"
-      ]
-    },
-    {
       "title": "UNESCO grants \u2018enhanced protection\u2019 to cultural heritage sites in the Middle East",
       "published": "Fri, 17 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -741,10 +707,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.033,
-      "raw_impact": 0.03,
+      "impact": 0.032,
+      "raw_impact": 0.029,
       "source_weight": 1.1,
-      "age_hours": 58.84,
+      "age_hours": 59.67,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -767,6 +733,40 @@
       ]
     },
     {
+      "title": "What would it take for the Iran-US talks to succeed?",
+      "published": "Sun, 19 Apr 2026 17:20:17 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.031,
+      "raw_impact": 0.139,
+      "source_weight": 0.9,
+      "age_hours": 6.33,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/the-bottom-line/2026/4/19/what-would-it-take-for-the-iran-us-talks-to-succeed?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/the-bottom-line/2026/4/19/what-would-it-take-for-the-iran-us-talks-to-succeed?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Impact of Iran war will hurt US even after conflict ends, economists warn",
       "published": "Sun, 19 Apr 2026 17:00:07 GMT",
       "actors": [
@@ -775,10 +775,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.143,
+      "impact": 0.03,
+      "raw_impact": 0.136,
       "source_weight": 0.9,
-      "age_hours": 5.84,
+      "age_hours": 6.66,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -809,10 +809,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.107,
+      "impact": 0.023,
+      "raw_impact": 0.102,
       "source_weight": 0.9,
-      "age_hours": 10.84,
+      "age_hours": 11.66,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -843,10 +843,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.09,
+      "impact": 0.019,
+      "raw_impact": 0.086,
       "source_weight": 0.9,
-      "age_hours": 13.81,
+      "age_hours": 14.63,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -877,10 +877,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.07,
+      "impact": 0.015,
+      "raw_impact": 0.067,
       "source_weight": 0.9,
-      "age_hours": 18.18,
+      "age_hours": 19.0,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -903,40 +903,6 @@
       ]
     },
     {
-      "title": "Kyiv Mass Shooting Kills 6 and Gunman Is Shot Dead After Taking Hostages in Grocery",
-      "published": "Sat, 18 Apr 2026 20:43:28 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.044,
-      "source_weight": 0.9,
-      "age_hours": 26.12,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/18/world/europe/kyiv-ukraine-mass-shooting-hostages.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/18/world/europe/kyiv-ukraine-mass-shooting-hostages.html"
-      ]
-    },
-    {
       "title": "Air Canada temporarily suspends some flights to New York and other locations",
       "published": "Fri, 17 Apr 2026 20:57:11 GMT",
       "actors": [
@@ -948,7 +914,7 @@
       "impact": -0.009,
       "raw_impact": -0.011,
       "source_weight": 0.9,
-      "age_hours": 49.89,
+      "age_hours": 50.71,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -971,6 +937,40 @@
       ]
     },
     {
+      "title": "Kyiv Mass Shooting Kills 6 and Gunman Is Shot Dead After Taking Hostages in Grocery",
+      "published": "Sat, 18 Apr 2026 20:43:28 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "rhetoric",
+      "impact": 0.009,
+      "raw_impact": 0.042,
+      "source_weight": 0.9,
+      "age_hours": 26.94,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/18/world/europe/kyiv-ukraine-mass-shooting-hostages.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/18/world/europe/kyiv-ukraine-mass-shooting-hostages.html"
+      ]
+    },
+    {
       "title": "Deadly Russian strikes on Ukrainians \u2018simply trying to live their lives\u2019 must stop, says senior UN official",
       "published": "Thu, 16 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -980,9 +980,9 @@
       "state_key": "russia_ukraine",
       "class": "action",
       "impact": 0.008,
-      "raw_impact": 0.008,
+      "raw_impact": 0.007,
       "source_weight": 1.1,
-      "age_hours": 82.84,
+      "age_hours": 83.67,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -1014,9 +1014,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.006,
-      "raw_impact": -0.007,
+      "raw_impact": -0.006,
       "source_weight": 1.1,
-      "age_hours": 58.84,
+      "age_hours": 59.67,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1048,9 +1048,9 @@
       "state_key": "us_china",
       "class": "rhetoric",
       "impact": 0.005,
-      "raw_impact": 0.022,
+      "raw_impact": 0.021,
       "source_weight": 0.9,
-      "age_hours": 37.84,
+      "age_hours": 38.66,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1084,7 +1084,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 74.78,
+      "age_hours": 75.6,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1118,7 +1118,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 82.84,
+      "age_hours": 83.67,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1141,41 +1141,6 @@
       ]
     },
     {
-      "title": "Europe should fill the diplomatic vacuum on Iran",
-      "published": "Tue, 14 Apr 2026 08:26:54 +0000",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "strategic",
-      "impact": 0.001,
-      "raw_impact": 0.001,
-      "source_weight": 0.75,
-      "age_hours": 134.4,
-      "confidence": 0.798,
-      "signal_total": 1.62,
-      "signal_components": {
-        "deescalation": -0.8,
-        "action": 0.9,
-        "movement": 0.5,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.18,
-        "deescalation_verified": 1.0
-      },
-      "link": "https://www.iss.europa.eu/publications/commentary/europe-should-fill-diplomatic-vacuum-iran",
-      "source": "https://www.iss.europa.eu/rss.xml",
-      "source_domain": "www.iss.europa.eu",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.iss.europa.eu"
-      ],
-      "cluster_links": [
-        "https://www.iss.europa.eu/publications/commentary/europe-should-fill-diplomatic-vacuum-iran"
-      ]
-    },
-    {
       "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
       "published": "Fri, 10 Apr 2026 21:43:00 GMT",
       "actors": [
@@ -1187,7 +1152,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 217.13,
+      "age_hours": 217.95,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1221,7 +1186,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1128.09,
+      "age_hours": 1128.92,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1244,6 +1209,41 @@
       ]
     },
     {
+      "title": "Europe should fill the diplomatic vacuum on Iran",
+      "published": "Tue, 14 Apr 2026 08:26:54 +0000",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "strategic",
+      "impact": 0.0,
+      "raw_impact": 0.001,
+      "source_weight": 0.75,
+      "age_hours": 135.22,
+      "confidence": 0.798,
+      "signal_total": 1.62,
+      "signal_components": {
+        "deescalation": -0.8,
+        "action": 0.9,
+        "movement": 0.5,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.18,
+        "deescalation_verified": 1.0
+      },
+      "link": "https://www.iss.europa.eu/publications/commentary/europe-should-fill-diplomatic-vacuum-iran",
+      "source": "https://www.iss.europa.eu/rss.xml",
+      "source_domain": "www.iss.europa.eu",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.iss.europa.eu"
+      ],
+      "cluster_links": [
+        "https://www.iss.europa.eu/publications/commentary/europe-should-fill-diplomatic-vacuum-iran"
+      ]
+    },
+    {
       "title": "Assessing the damage: What the Iran war really means for Europe\u2019s defence",
       "published": "Thu, 09 Apr 2026 12:21:35 +0000",
       "actors": [
@@ -1255,7 +1255,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 250.48,
+      "age_hours": 251.31,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1290,7 +1290,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 446.33,
+      "age_hours": 447.16,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1325,7 +1325,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 487.32,
+      "age_hours": 488.14,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1490,11 +1490,11 @@
     "paired_count": 39,
     "valid_pair_updates": 6,
     "top_driver_count": 39,
-    "total_signal": 7.0865,
+    "total_signal": 6.4066,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 105,
-      "no_signal": 53,
+      "no_actor": 103,
+      "no_signal": 55,
       "invalid_pair": 29,
       "low_confidence": 0,
       "classifier_error": 0,
