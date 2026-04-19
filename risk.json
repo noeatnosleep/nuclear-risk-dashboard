@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-19 08:32:37 UTC",
-  "probability": 14.7,
-  "uncertainty": 5.42,
+  "last_updated": "2026-04-19 09:50:30 UTC",
+  "probability": 14.28,
+  "uncertainty": 5.82,
   "state": {
-    "us_russia": 3.3007798178109478,
-    "us_china": 3.114438237068577,
-    "china_taiwan": 4.022887647413716,
+    "us_russia": 3.2598369554106097,
+    "us_china": 3.104768066094869,
+    "china_taiwan": 4.020953613218974,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633330276977524,
-    "iran_israel": 5.588324699066103,
+    "iran_us": 5.63333170964431,
+    "iran_israel": 5.472520027374743,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 4.331250000000001,
+    "nk_sk": 4.613476562500001,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.105301203049648
+    "russia_ukraine": 5.6890884846124
   },
   "top_drivers": [
     {
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 2.02,
+      "age_hours": 3.32,
       "confidence": 0.96,
       "signal_total": 2.1,
       "signal_components": {
@@ -51,40 +51,6 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Iran Declares Strait of Hormuz Closed Again as Ships Report Attacks",
-      "published": "Sun, 19 Apr 2026 08:20:21 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.8,
-      "raw_impact": 0.889,
-      "source_weight": 0.9,
-      "age_hours": 0.2,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/19/world/iran-us-war-trump-hormuz",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/19/world/iran-us-war-trump-hormuz"
-      ]
-    },
-    {
       "title": "Can Trump finally make a nuclear deal with Iran?",
       "published": "Sat, 18 Apr 2026 09:23:46 GMT",
       "actors": [
@@ -93,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.397,
-      "raw_impact": 0.551,
+      "impact": 0.368,
+      "raw_impact": 0.512,
       "source_weight": 0.9,
-      "age_hours": 23.15,
+      "age_hours": 24.45,
       "confidence": 0.96,
       "signal_total": 2.1,
       "signal_components": {
@@ -119,75 +85,6 @@
       ]
     },
     {
-      "title": "Ukraine police shoot dead gunman who killed six in Kyiv, took hostages",
-      "published": "Sat, 18 Apr 2026 18:02:18 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.35,
-      "raw_impact": 0.389,
-      "source_weight": 0.9,
-      "age_hours": 14.51,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/18/ukraine-police-shoot-dead-gunman-who-killed-six-in-kyiv-took-hostages?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/18/ukraine-police-shoot-dead-gunman-who-killed-six-in-kyiv-took-hostages?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Middle East : Fragile US-Iran talks hinge on nuclear and Hormuz disputes",
-      "published": "Sat, 18 Apr 2026 12:42:51 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.215,
-      "raw_impact": 0.299,
-      "source_weight": 0.9,
-      "age_hours": 19.83,
-      "confidence": 0.746,
-      "signal_total": 0.94,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.06,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east-fragile-us-iran-talks-hinge-on-nuclear-and-hormuz-disputes",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east-fragile-us-iran-talks-hinge-on-nuclear-and-hormuz-disputes"
-      ]
-    },
-    {
       "title": "No signs of regime collapse as Iran weathers weeks of war",
       "published": "Sat, 18 Apr 2026 15:07:39 GMT",
       "actors": [
@@ -196,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.214,
-      "raw_impact": 0.238,
+      "impact": 0.198,
+      "raw_impact": 0.221,
       "source_weight": 0.9,
-      "age_hours": 17.42,
+      "age_hours": 18.71,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -231,10 +128,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.076,
-      "raw_impact": 0.069,
+      "impact": 0.07,
+      "raw_impact": 0.064,
       "source_weight": 1.1,
-      "age_hours": 44.54,
+      "age_hours": 45.84,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -265,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.057,
-      "raw_impact": -0.07,
+      "impact": -0.052,
+      "raw_impact": -0.065,
       "source_weight": 0.9,
-      "age_hours": 18.18,
+      "age_hours": 19.47,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -291,6 +188,142 @@
       ]
     },
     {
+      "title": "Iran war: What is happening on day 51 of the US-Iran conflict?",
+      "published": "Sun, 19 Apr 2026 09:26:26 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.195,
+      "source_weight": 0.9,
+      "age_hours": 0.4,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/19/iran-war-what-is-happening-on-day-51-of-the-us-iran-conflict?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/19/iran-war-what-is-happening-on-day-51-of-the-us-iran-conflict?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Iran War Live Updates: Strait of Hormuz Largely Closed as Iran Says Parties Are Far From Final Deal",
+      "published": "Sun, 19 Apr 2026 09:06:41 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.73,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/19/world/iran-us-war-trump-hormuz",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/19/world/iran-us-war-trump-hormuz"
+      ]
+    },
+    {
+      "title": "In Qatar, Trapped Between the U.S. and Iran, War Forced a Reckoning",
+      "published": "Sun, 19 Apr 2026 09:02:20 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.8,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/qatar-iran-us-war.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/19/world/middleeast/qatar-iran-us-war.html"
+      ]
+    },
+    {
+      "title": "Spain\u2019s S\u00e1nchez leads progressive push as far-right gathers in Milan",
+      "published": "Sun, 19 Apr 2026 08:57:19 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.19,
+      "source_weight": 0.9,
+      "age_hours": 0.89,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260419-spain-s-s%C3%A1nchez-leads-progressive-push-as-far-right-gathers-in-milan",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260419-spain-s-s%C3%A1nchez-leads-progressive-push-as-far-right-gathers-in-milan"
+      ]
+    },
+    {
       "title": "Middle East war live: Strait of Hormuz stays shut as Iran reports 'progress' in US talks",
       "published": "Sun, 19 Apr 2026 05:08:34 GMT",
       "actors": [
@@ -299,10 +332,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.164,
+      "impact": 0.034,
+      "raw_impact": 0.152,
       "source_weight": 0.9,
-      "age_hours": 3.4,
+      "age_hours": 4.7,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -333,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.16,
+      "impact": 0.033,
+      "raw_impact": 0.148,
       "source_weight": 0.9,
-      "age_hours": 3.88,
+      "age_hours": 5.18,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -359,7 +392,7 @@
       ]
     },
     {
-      "title": "Iran war live: Tehran says no date set for US talks, Hormuz Strait closed",
+      "title": "Iran war live: Hormuz Strait \u2018closed\u2019 as Tehran says no date for US talks",
       "published": "Sun, 19 Apr 2026 00:00:00 +0000",
       "actors": [
         "iran",
@@ -367,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.122,
+      "impact": 0.025,
+      "raw_impact": 0.113,
       "source_weight": 0.9,
-      "age_hours": 8.54,
+      "age_hours": 9.84,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -401,10 +434,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.101,
+      "impact": 0.021,
+      "raw_impact": 0.094,
       "source_weight": 0.9,
-      "age_hours": 11.82,
+      "age_hours": 13.12,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -435,10 +468,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.021,
-      "raw_impact": -0.026,
+      "impact": -0.019,
+      "raw_impact": -0.024,
       "source_weight": 0.9,
-      "age_hours": 35.59,
+      "age_hours": 36.89,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -469,10 +502,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.019,
-      "raw_impact": 0.017,
+      "impact": 0.018,
+      "raw_impact": 0.016,
       "source_weight": 1.1,
-      "age_hours": 68.54,
+      "age_hours": 69.84,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -503,10 +536,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.015,
-      "raw_impact": -0.015,
+      "impact": -0.014,
+      "raw_impact": -0.014,
       "source_weight": 1.1,
-      "age_hours": 44.54,
+      "age_hours": 45.84,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -538,9 +571,9 @@
       "state_key": "us_china",
       "class": "rhetoric",
       "impact": 0.011,
-      "raw_impact": 0.051,
+      "raw_impact": 0.048,
       "source_weight": 0.9,
-      "age_hours": 23.54,
+      "age_hours": 24.84,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -571,10 +604,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.006,
+      "impact": -0.005,
       "raw_impact": -0.006,
       "source_weight": 1.1,
-      "age_hours": 60.48,
+      "age_hours": 61.78,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -608,7 +641,7 @@
       "impact": -0.004,
       "raw_impact": -0.004,
       "source_weight": 1.1,
-      "age_hours": 68.54,
+      "age_hours": 69.84,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -640,9 +673,9 @@
       "state_key": "us_china",
       "class": "strategic",
       "impact": 0.001,
-      "raw_impact": 0.002,
+      "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 120.1,
+      "age_hours": 121.39,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -677,7 +710,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 202.83,
+      "age_hours": 204.13,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -711,7 +744,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1113.79,
+      "age_hours": 1115.09,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -745,7 +778,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 236.18,
+      "age_hours": 237.48,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -780,7 +813,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 432.03,
+      "age_hours": 433.33,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -815,7 +848,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 473.02,
+      "age_hours": 474.32,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -965,17 +998,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 228,
-    "classified_count": 24,
-    "paired_count": 24,
+    "event_count": 227,
+    "classified_count": 25,
+    "paired_count": 25,
     "valid_pair_updates": 7,
-    "top_driver_count": 24,
-    "total_signal": 4.2459,
+    "top_driver_count": 25,
+    "total_signal": 3.3016,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 119,
-      "no_signal": 51,
-      "invalid_pair": 34,
+      "no_actor": 112,
+      "no_signal": 54,
+      "invalid_pair": 36,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
