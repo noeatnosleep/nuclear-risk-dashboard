@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-20 20:10:51 UTC",
-  "probability": 20.08,
-  "uncertainty": 5.76,
+  "last_updated": "2026-04-20 21:12:22 UTC",
+  "probability": 19.43,
+  "uncertainty": 5.79,
   "state": {
-    "us_russia": 5.121506736837159,
-    "us_china": 3.081032318478996,
-    "china_taiwan": 4.0162064636957995,
+    "us_russia": 5.000524979596224,
+    "us_china": 3.0431903811995737,
+    "china_taiwan": 4.008638076239915,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6333333333331135,
-    "iran_israel": 6.323919142927856,
+    "iran_us": 5.6333333333332165,
+    "iran_israel": 5.998637302185721,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8001789263974843,
+    "nk_sk": 2.800095054648663,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.361516905661596
+    "russia_ukraine": 6.404993330692167
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.873,
-      "raw_impact": 1.212,
+      "impact": 0.822,
+      "raw_impact": 1.143,
       "source_weight": 0.9,
-      "age_hours": 6.74,
+      "age_hours": 7.77,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -60,10 +60,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.825,
-      "raw_impact": 1.146,
+      "impact": 0.778,
+      "raw_impact": 1.08,
       "source_weight": 0.9,
-      "age_hours": 0.8,
+      "age_hours": 1.83,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -94,10 +94,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.723,
-      "raw_impact": 0.804,
+      "impact": 0.682,
+      "raw_impact": 0.757,
       "source_weight": 0.9,
-      "age_hours": 1.96,
+      "age_hours": 2.99,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -128,10 +128,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.604,
-      "raw_impact": 0.839,
+      "impact": 0.57,
+      "raw_impact": 0.791,
       "source_weight": 0.9,
-      "age_hours": 6.2,
+      "age_hours": 7.22,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -162,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.523,
-      "raw_impact": 0.581,
+      "impact": 0.492,
+      "raw_impact": 0.547,
       "source_weight": 0.9,
-      "age_hours": 1.96,
+      "age_hours": 2.98,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -197,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.446,
-      "raw_impact": 0.405,
+      "impact": 0.42,
+      "raw_impact": 0.382,
       "source_weight": 1.1,
-      "age_hours": 8.18,
+      "age_hours": 9.21,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -232,10 +232,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.426,
-      "raw_impact": 0.473,
+      "impact": 0.401,
+      "raw_impact": 0.446,
       "source_weight": 0.9,
-      "age_hours": 11.14,
+      "age_hours": 12.16,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -258,38 +258,71 @@
       ]
     },
     {
-      "title": "'Situation is dire' for displaced people in Lebanon, journalist says",
-      "published": "Mon, 20 Apr 2026 13:05:16 GMT",
+      "title": "Facing Hard-liners at Home and Bluster from Trump, Iran Sends Mixed Signals on Peace Talks",
+      "published": "Mon, 20 Apr 2026 21:03:08 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.388,
-      "raw_impact": 0.431,
+      "class": "deescalation",
+      "impact": -0.16,
+      "raw_impact": -0.198,
       "source_weight": 0.9,
-      "age_hours": 7.09,
-      "confidence": 0.688,
-      "signal_total": 0.65,
+      "age_hours": 0.15,
+      "confidence": 0.67,
+      "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
-        "action": 0.9,
+        "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/tv-shows/perspective/20260420-situation-is-dire-for-displaced-people-in-lebanon-journalist-says",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.nytimes.com/live/2026/04/20/world/iran-us-war-trump-hormuz/facing-hard-liners-at-home-and-bluster-from-trump-iran-sends-mixed-signals-on-peace-talks",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/tv-shows/perspective/20260420-situation-is-dire-for-displaced-people-in-lebanon-journalist-says"
+        "https://www.nytimes.com/live/2026/04/20/world/iran-us-war-trump-hormuz/facing-hard-liners-at-home-and-bluster-from-trump-iran-sends-mixed-signals-on-peace-talks"
+      ]
+    },
+    {
+      "title": "U.S. and Iran Peace Talks Appear on Track to Resume",
+      "published": "Mon, 20 Apr 2026 20:06:37 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.152,
+      "raw_impact": -0.188,
+      "source_weight": 0.9,
+      "age_hours": 1.1,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/20/world/middleeast/iran-us-talks.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/20/world/middleeast/iran-us-talks.html"
       ]
     },
     {
@@ -301,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.157,
-      "raw_impact": -0.193,
+      "impact": -0.148,
+      "raw_impact": -0.182,
       "source_weight": 0.9,
-      "age_hours": 0.58,
+      "age_hours": 1.6,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -335,10 +368,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.155,
-      "raw_impact": -0.191,
+      "impact": -0.146,
+      "raw_impact": -0.18,
       "source_weight": 0.9,
-      "age_hours": 0.79,
+      "age_hours": 1.82,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -361,6 +394,40 @@
       ]
     },
     {
+      "title": "U.S.-Iran talks are uncertain as ceasefire is set to expire",
+      "published": "Mon, 20 Apr 2026 16:14:52 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.145,
+      "raw_impact": -0.189,
+      "source_weight": 0.85,
+      "age_hours": 0.96,
+      "confidence": 0.755,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/20/nx-s1-5791630/u-s-iran-talks-are-uncertain-as-ceasefire-is-set-to-expire",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/20/nx-s1-5791630/u-s-iran-talks-are-uncertain-as-ceasefire-is-set-to-expire"
+      ]
+    },
+    {
       "title": "What exit strategy? Trump, Iranians send mixed signals as truce deadline looms",
       "published": "Mon, 20 Apr 2026 18:10:33 GMT",
       "actors": [
@@ -369,10 +436,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.144,
-      "raw_impact": -0.178,
+      "impact": -0.136,
+      "raw_impact": -0.168,
       "source_weight": 0.9,
-      "age_hours": 2.01,
+      "age_hours": 3.03,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -403,10 +470,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.136,
-      "raw_impact": -0.168,
+      "impact": -0.129,
+      "raw_impact": -0.159,
       "source_weight": 0.9,
-      "age_hours": 2.99,
+      "age_hours": 4.01,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -429,109 +496,6 @@
       ]
     },
     {
-      "title": "Israel army says established 'Yellow Line' in Lebanon, as in Gaza",
-      "published": "Mon, 20 Apr 2026 13:23:08 GMT",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "movement",
-      "impact": 0.134,
-      "raw_impact": 0.176,
-      "source_weight": 0.9,
-      "age_hours": 6.8,
-      "confidence": 0.61,
-      "signal_total": 0.26,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.04,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260420-israel-army-says-established-yellow-line-in-lebanon-as-in-gaza",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260420-israel-army-says-established-yellow-line-in-lebanon-as-in-gaza"
-      ]
-    },
-    {
-      "title": "Iranian FM spokesman says ceasefire \u2018violated\u2019 by US in shipment seizure",
-      "published": "Mon, 20 Apr 2026 15:44:44 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.125,
-      "raw_impact": -0.155,
-      "source_weight": 0.9,
-      "age_hours": 4.44,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/20/iranian-fm-spokesman-says-ceasefire-violated-by-us-in-shipment-seizure?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/20/iranian-fm-spokesman-says-ceasefire-violated-by-us-in-shipment-seizure?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Gaza reconstruction to cost more than $70bn, officials say",
-      "published": "Mon, 20 Apr 2026 15:05:27 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.121,
-      "raw_impact": -0.149,
-      "source_weight": 0.9,
-      "age_hours": 5.09,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/9bc43c2f-cb41-498d-bb8c-8ea756e04a82",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/9bc43c2f-cb41-498d-bb8c-8ea756e04a82"
-      ]
-    },
-    {
       "title": "Ceasefire at risk after US seizes Iranian ship, Iran shuns peace talks",
       "published": "Mon, 20 Apr 2026 14:57:07 GMT",
       "actors": [
@@ -540,10 +504,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.12,
-      "raw_impact": -0.148,
+      "impact": -0.113,
+      "raw_impact": -0.139,
       "source_weight": 0.9,
-      "age_hours": 5.23,
+      "age_hours": 6.25,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -566,19 +530,19 @@
       ]
     },
     {
-      "title": "US seizes Iranian-flagged cargo ship",
-      "published": "Mon, 20 Apr 2026 13:19:46 GMT",
+      "title": "Gaza reconstruction to cost more than $70bn, officials say",
+      "published": "Mon, 20 Apr 2026 15:05:27 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.109,
-      "raw_impact": -0.135,
+      "impact": -0.113,
+      "raw_impact": -0.14,
       "source_weight": 0.9,
-      "age_hours": 6.85,
-      "confidence": 0.67,
+      "age_hours": 6.12,
+      "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -588,49 +552,15 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/video/20260420-us-seizes-iranian-flagged-cargo-ship",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.ft.com/content/9bc43c2f-cb41-498d-bb8c-8ea756e04a82",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "www.ft.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/video/20260420-us-seizes-iranian-flagged-cargo-ship"
-      ]
-    },
-    {
-      "title": "Oil prices jump after U.S. seizes Iranian vessel, imperiling ceasefire",
-      "published": "Mon, 20 Apr 2026 10:19:52 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.092,
-      "raw_impact": -0.113,
-      "source_weight": 0.9,
-      "age_hours": 9.85,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/"
+        "https://www.ft.com/content/9bc43c2f-cb41-498d-bb8c-8ea756e04a82"
       ]
     },
     {
@@ -642,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.09,
-      "raw_impact": -0.118,
+      "impact": -0.086,
+      "raw_impact": -0.111,
       "source_weight": 0.85,
-      "age_hours": 9.14,
+      "age_hours": 10.16,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -668,8 +598,42 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Tehran and Washington Plan New Talks in Pakistan",
-      "published": "Mon, 20 Apr 2026 20:04:40 +0000",
+      "title": "Oil prices jump after U.S. seizes Iranian vessel, imperiling ceasefire",
+      "published": "Mon, 20 Apr 2026 10:19:52 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.086,
+      "raw_impact": -0.107,
+      "source_weight": 0.9,
+      "age_hours": 10.88,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/"
+      ]
+    },
+    {
+      "title": "Iran War Live Updates: Tehran and Trump Send Signals Ahead of Potential Talks",
+      "published": "Mon, 20 Apr 2026 21:04:08 +0000",
       "actors": [
         "iran",
         "us"
@@ -677,9 +641,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.045,
-      "raw_impact": 0.199,
+      "raw_impact": 0.198,
       "source_weight": 0.9,
-      "age_hours": 0.1,
+      "age_hours": 0.14,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -702,6 +666,40 @@
       ]
     },
     {
+      "title": "What to know about the next round of US-Iran talks in Pakistan",
+      "published": "Mon, 20 Apr 2026 20:48:38 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.195,
+      "source_weight": 0.9,
+      "age_hours": 0.4,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/20/what-to-know-about-the-next-round-of-us-iran-talks-in-pakistan?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/20/what-to-know-about-the-next-round-of-us-iran-talks-in-pakistan?traffic_source=rss"
+      ]
+    },
+    {
       "title": "How Pakistan learned to speak Trump\u2019s language, becoming an unlikely peacemaker",
       "published": "Mon, 20 Apr 2026 19:57:38 +0000",
       "actors": [
@@ -710,10 +708,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.197,
+      "impact": 0.042,
+      "raw_impact": 0.186,
       "source_weight": 0.9,
-      "age_hours": 0.22,
+      "age_hours": 1.25,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -744,10 +742,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.053,
+      "impact": -0.038,
+      "raw_impact": -0.049,
       "source_weight": 0.85,
-      "age_hours": 23.15,
+      "age_hours": 24.18,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -770,40 +768,6 @@
       ]
     },
     {
-      "title": "These are difficult times for the world, so what will Pakistan do?",
-      "published": "Mon, 20 Apr 2026 17:33:07 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.172,
-      "source_weight": 0.9,
-      "age_hours": 2.63,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/opinions/2026/4/20/these-are-difficult-times-for-the-world-so-what-will-pakistan-do?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/opinions/2026/4/20/these-are-difficult-times-for-the-world-so-what-will-pakistan-do?traffic_source=rss"
-      ]
-    },
-    {
       "title": "U.S. Forces Disable Vessel Attempting to Enter Iranian Port, Violate Blockade",
       "published": "Mon, 20 Apr 2026 14:19:00 GMT",
       "actors": [
@@ -812,10 +776,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.143,
+      "impact": 0.037,
+      "raw_impact": 0.134,
       "source_weight": 1.1,
-      "age_hours": 5.86,
+      "age_hours": 6.89,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -838,6 +802,40 @@
       ]
     },
     {
+      "title": "These are difficult times for the world, so what will Pakistan do?",
+      "published": "Mon, 20 Apr 2026 17:33:07 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.162,
+      "source_weight": 0.9,
+      "age_hours": 3.65,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/opinions/2026/4/20/these-are-difficult-times-for-the-world-so-what-will-pakistan-do?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/opinions/2026/4/20/these-are-difficult-times-for-the-world-so-what-will-pakistan-do?traffic_source=rss"
+      ]
+    },
+    {
       "title": "U.S. seizes Iranian cargo ship. And, tariff refund portal launches",
       "published": "Mon, 20 Apr 2026 06:30:10 -0400",
       "actors": [
@@ -846,10 +844,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.114,
+      "impact": 0.023,
+      "raw_impact": 0.108,
       "source_weight": 0.85,
-      "age_hours": 9.68,
+      "age_hours": 10.7,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -880,10 +878,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.01,
-      "raw_impact": 0.009,
+      "impact": 0.009,
+      "raw_impact": 0.008,
       "source_weight": 1.1,
-      "age_hours": 80.18,
+      "age_hours": 81.21,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -917,7 +915,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 0.9,
-      "age_hours": 71.23,
+      "age_hours": 72.25,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -951,7 +949,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 80.18,
+      "age_hours": 81.21,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -974,40 +972,6 @@
       ]
     },
     {
-      "title": "Deadly Russian strikes on Ukrainians \u2018simply trying to live their lives\u2019 must stop, says senior UN official",
-      "published": "Thu, 16 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.002,
-      "raw_impact": 0.002,
-      "source_weight": 1.1,
-      "age_hours": 104.18,
-      "confidence": 0.91,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167313",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167313"
-      ]
-    },
-    {
       "title": "Hegseth Urges Iran to 'Choose Wisely' During Epic Fury Ceasefire, Blockade",
       "published": "Thu, 16 Apr 2026 20:04:00 GMT",
       "actors": [
@@ -1019,7 +983,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 96.11,
+      "age_hours": 97.14,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1053,7 +1017,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 238.46,
+      "age_hours": 239.49,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1087,7 +1051,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1149.43,
+      "age_hours": 1150.46,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1121,7 +1085,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 155.73,
+      "age_hours": 156.76,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1156,7 +1120,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 271.82,
+      "age_hours": 272.85,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1191,7 +1155,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 467.67,
+      "age_hours": 468.7,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1226,7 +1190,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 508.66,
+      "age_hours": 509.68,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1382,15 +1346,15 @@
   ],
   "debug": {
     "event_count": 226,
-    "classified_count": 36,
-    "paired_count": 36,
+    "classified_count": 35,
+    "paired_count": 35,
     "valid_pair_updates": 6,
-    "top_driver_count": 36,
-    "total_signal": 5.599,
+    "top_driver_count": 35,
+    "total_signal": 4.5942,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 100,
-      "no_signal": 53,
+      "no_actor": 102,
+      "no_signal": 52,
       "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
