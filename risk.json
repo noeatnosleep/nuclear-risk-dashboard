@@ -1,21 +1,158 @@
 {
-  "last_updated": "2026-04-20 08:12:49 UTC",
-  "probability": 17.58,
-  "uncertainty": 5.68,
+  "last_updated": "2026-04-20 10:17:03 UTC",
+  "probability": 20.3,
+  "uncertainty": 5.53,
   "state": {
-    "us_russia": 4.280966267938249,
-    "us_china": 3.0308135710866533,
-    "china_taiwan": 4.006162714217331,
+    "us_russia": 4.388866011243386,
+    "us_china": 3.8521373895625897,
+    "china_taiwan": 4.1704274779125186,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333333298613,
-    "iran_israel": 5.801703956394839,
+    "iran_us": 5.633333333314888,
+    "iran_israel": 5.854687618988708,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8282021925524177,
+    "nk_sk": 2.8149824147934717,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.923348544383065
+    "russia_ukraine": 7.021778914203503
   },
   "top_drivers": [
+    {
+      "title": "Ukraine claims attack on Russian warships in occupied Crimea",
+      "published": "Mon, 20 Apr 2026 09:23:15 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 1.125,
+      "raw_impact": 1.25,
+      "source_weight": 0.9,
+      "age_hours": 0.9,
+      "confidence": 0.959,
+      "signal_total": 1.37,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.03,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/20/kyiv-claims-to-hit-russian-landing-ships-as-both-sides-trade-deadly-attacks?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/20/kyiv-claims-to-hit-russian-landing-ships-as-both-sides-trade-deadly-attacks?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Pakistan\u2019s Leaders Try to Contain Rising Anger Over Iran War at Home",
+      "published": "Mon, 20 Apr 2026 09:02:40 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.754,
+      "raw_impact": 0.838,
+      "source_weight": 0.9,
+      "age_hours": 1.24,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/20/world/asia/pakistan-shiites-iran-diplomacy.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/20/world/asia/pakistan-shiites-iran-diplomacy.html"
+      ]
+    },
+    {
+      "title": "The Strokes highlight destroyed Gaza and Iran universities at Coachella",
+      "published": "Mon, 20 Apr 2026 08:15:45 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.721,
+      "raw_impact": 0.801,
+      "source_weight": 0.9,
+      "age_hours": 2.02,
+      "confidence": 0.82,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/20/the-strokes-highlight-destroyed-gaza-and-iran-universities-at-coachella?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/20/the-strokes-highlight-destroyed-gaza-and-iran-universities-at-coachella?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Iran war: What is happening on day 52 of US-Israeli attacks?",
+      "published": "Mon, 20 Apr 2026 07:21:14 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.684,
+      "raw_impact": 0.76,
+      "source_weight": 0.9,
+      "age_hours": 2.93,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/20/iran-war-what-is-happening-on-day-52-of-the-us-israeli-conflict?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/20/iran-war-what-is-happening-on-day-52-of-the-us-israeli-conflict?traffic_source=rss"
+      ]
+    },
     {
       "title": "Oil rebounds as Iran threatens to retaliate for US attack on cargo ship",
       "published": "Mon, 20 Apr 2026 07:17:13 GMT",
@@ -25,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.768,
-      "raw_impact": 0.853,
+      "impact": 0.681,
+      "raw_impact": 0.757,
       "source_weight": 0.9,
-      "age_hours": 0.93,
+      "age_hours": 3.0,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,42 +188,8 @@
       ]
     },
     {
-      "title": "Ukraine\u2019s drone pilots hit Russian targets from 500km away",
-      "published": "Mon, 20 Apr 2026 04:00:13 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.635,
-      "raw_impact": 0.706,
-      "source_weight": 0.9,
-      "age_hours": 4.21,
-      "confidence": 0.81,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/9287516e-8ec1-4209-acbc-bc33011ed914",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/9287516e-8ec1-4209-acbc-bc33011ed914"
-      ]
-    },
-    {
-      "title": "Iran War Live Updates: Oil Prices Rise as Iran Vows Retaliation for Cargo Ship Attack",
-      "published": "Mon, 20 Apr 2026 08:08:04 +0000",
+      "title": "Iran War Live Updates: Iran Vows Retaliation for U.S. Attack on Cargo Ship",
+      "published": "Mon, 20 Apr 2026 10:11:17 +0000",
       "actors": [
         "iran",
         "us"
@@ -94,9 +197,9 @@
       "state_key": "iran_us",
       "class": "action",
       "impact": 0.582,
-      "raw_impact": 0.647,
+      "raw_impact": 0.646,
       "source_weight": 0.9,
-      "age_hours": 0.08,
+      "age_hours": 0.1,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -120,74 +223,6 @@
       ]
     },
     {
-      "title": "Iran war live: Tehran will skip talks as tensions rise over US ship seizure",
-      "published": "Mon, 20 Apr 2026 00:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.504,
-      "raw_impact": 0.56,
-      "source_weight": 0.9,
-      "age_hours": 8.21,
-      "confidence": 0.9,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/20/iran-war-live-tehran-slams-uss-piracy-after-ship-seizure-vows-response?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/4/20/iran-war-live-tehran-slams-uss-piracy-after-ship-seizure-vows-response?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "US forces attack and seize Iranian ship Touska near Strait of Hormuz",
-      "published": "Sun, 19 Apr 2026 21:53:29 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.446,
-      "raw_impact": 0.496,
-      "source_weight": 0.9,
-      "age_hours": 10.32,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/19/us-forces-attack-and-seize-iranian-ship-touska-near-strait-of-hormuz?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/19/us-forces-attack-and-seize-iranian-ship-touska-near-strait-of-hormuz?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Ukrainian best-selling author, Andrey Kurkov speaks to France 24",
       "published": "Sun, 19 Apr 2026 21:26:50 GMT",
       "actors": [
@@ -196,10 +231,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.435,
-      "raw_impact": 0.483,
+      "impact": 0.386,
+      "raw_impact": 0.429,
       "source_weight": 0.9,
-      "age_hours": 10.77,
+      "age_hours": 12.84,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -222,6 +257,74 @@
       ]
     },
     {
+      "title": "China warns joint US, Philippines and Japan\u00a0drills risk regional trust",
+      "published": "Mon, 20 Apr 2026 09:15:39 GMT",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "movement",
+      "impact": 0.36,
+      "raw_impact": 0.471,
+      "source_weight": 0.9,
+      "age_hours": 1.02,
+      "confidence": 0.74,
+      "signal_total": 0.5,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260420-china-warns-joint-us-philippines-and-japan-drills-risk-regional-trust",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260420-china-warns-joint-us-philippines-and-japan-drills-risk-regional-trust"
+      ]
+    },
+    {
+      "title": "China sends warships to Pacific as Japan tensions grow",
+      "published": "Mon, 20 Apr 2026 08:43:43 GMT",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "movement",
+      "impact": 0.349,
+      "raw_impact": 0.457,
+      "source_weight": 0.9,
+      "age_hours": 1.56,
+      "confidence": 0.74,
+      "signal_total": 0.5,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/61f8e267-ffd9-4650-a6e6-b42386c78ab1",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/61f8e267-ffd9-4650-a6e6-b42386c78ab1"
+      ]
+    },
+    {
       "title": "Zelensky condemns US extension of Russian sanctions waiver",
       "published": "Sun, 19 Apr 2026 09:55:22 GMT",
       "actors": [
@@ -230,10 +333,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.265,
-      "raw_impact": 0.331,
+      "impact": 0.235,
+      "raw_impact": 0.294,
       "source_weight": 1.0,
-      "age_hours": 22.29,
+      "age_hours": 24.36,
       "confidence": 0.97,
       "signal_total": 1.2,
       "signal_components": {
@@ -256,18 +359,18 @@
       ]
     },
     {
-      "title": "Pakistan ready for multi-day US-Iran talks, but Tehran unsure about joining",
-      "published": "Mon, 20 Apr 2026 06:32:03 +0000",
+      "title": "Iran says 'no decision' on whether to attend next round of US talks",
+      "published": "Mon, 20 Apr 2026 09:23:17 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.147,
-      "raw_impact": -0.182,
+      "impact": -0.154,
+      "raw_impact": -0.19,
       "source_weight": 0.9,
-      "age_hours": 1.68,
+      "age_hours": 0.9,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -278,15 +381,49 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/2026/4/20/pakistan-ready-for-multi-day-us-iran-talks-but-tehran-unsure-about-joining?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.france24.com/en/video/20260420-iran-says-no-decision-on-whether-to-attend-next-round-of-us-talks",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/20/pakistan-ready-for-multi-day-us-iran-talks-but-tehran-unsure-about-joining?traffic_source=rss"
+        "https://www.france24.com/en/video/20260420-iran-says-no-decision-on-whether-to-attend-next-round-of-us-talks"
+      ]
+    },
+    {
+      "title": "US Navy seizure of Iranian ship casts doubt on fresh ceasefire talks in Pakistan",
+      "published": "Mon, 20 Apr 2026 09:22:04 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.154,
+      "raw_impact": -0.19,
+      "source_weight": 0.9,
+      "age_hours": 0.92,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260420-us-navy-seizure-of-iranian-ship-casts-doubt-on-fresh-ceasefire-talks-in-pakistan",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260420-us-navy-seizure-of-iranian-ship-casts-doubt-on-fresh-ceasefire-talks-in-pakistan"
       ]
     },
     {
@@ -298,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.142,
-      "raw_impact": -0.175,
+      "impact": -0.126,
+      "raw_impact": -0.156,
       "source_weight": 0.9,
-      "age_hours": 2.28,
+      "age_hours": 4.35,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -332,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.118,
-      "raw_impact": -0.145,
+      "impact": -0.104,
+      "raw_impact": -0.129,
       "source_weight": 0.9,
-      "age_hours": 5.53,
+      "age_hours": 7.6,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -366,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.096,
-      "raw_impact": -0.119,
+      "impact": -0.086,
+      "raw_impact": -0.106,
       "source_weight": 0.9,
-      "age_hours": 8.94,
+      "age_hours": 11.01,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -400,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.08,
-      "raw_impact": -0.105,
+      "impact": -0.071,
+      "raw_impact": -0.093,
       "source_weight": 0.85,
-      "age_hours": 11.19,
+      "age_hours": 13.26,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -426,52 +563,18 @@
       ]
     },
     {
-      "title": "Trump sending US delegation for Iran talks in Pakistan",
-      "published": "Sun, 19 Apr 2026 15:30:55 GMT",
+      "title": "Bulgaria's former President Radev takes strong lead in election",
+      "published": "Mon, 20 Apr 2026 09:19:06 GMT",
       "actors": [
-        "iran",
-        "us"
+        "us",
+        "russia"
       ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.062,
-      "raw_impact": -0.076,
-      "source_weight": 0.9,
-      "age_hours": 16.7,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/trump-sending-us-delegation-for-iran-talks-in-pakistan",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/trump-sending-us-delegation-for-iran-talks-in-pakistan"
-      ]
-    },
-    {
-      "title": "Iran war: What is happening on day 52 of the US-Israeli conflict?",
-      "published": "Mon, 20 Apr 2026 07:21:14 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
+      "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.043,
-      "raw_impact": 0.19,
+      "raw_impact": 0.189,
       "source_weight": 0.9,
-      "age_hours": 0.86,
+      "age_hours": 0.97,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -482,7 +585,41 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/2026/4/20/iran-war-what-is-happening-on-day-52-of-the-us-israeli-conflict?traffic_source=rss",
+      "link": "https://www.france24.com/en/video/20260420-bulgaria-s-former-president-radev-takes-strong-lead-in-election",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260420-bulgaria-s-former-president-radev-takes-strong-lead-in-election"
+      ]
+    },
+    {
+      "title": "Iran says no talks with US for now, casting doubt over Pakistan efforts",
+      "published": "Mon, 20 Apr 2026 06:32:03 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.161,
+      "source_weight": 0.9,
+      "age_hours": 3.75,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/20/pakistan-ready-for-multi-day-us-iran-talks-but-tehran-unsure-about-joining?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
@@ -490,7 +627,7 @@
         "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/20/iran-war-what-is-happening-on-day-52-of-the-us-israeli-conflict?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/4/20/pakistan-ready-for-multi-day-us-iran-talks-but-tehran-unsure-about-joining?traffic_source=rss"
       ]
     },
     {
@@ -502,10 +639,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.18,
+      "impact": 0.036,
+      "raw_impact": 0.159,
       "source_weight": 0.9,
-      "age_hours": 1.87,
+      "age_hours": 3.94,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -528,40 +665,6 @@
       ]
     },
     {
-      "title": "Can U.S. Blockade Iranian-Linked Ships Anywhere in the World? Yes, But \u2026",
-      "published": "Sun, 19 Apr 2026 21:52:55 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.11,
-      "source_weight": 0.9,
-      "age_hours": 10.33,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/us-iran-blockade-expansion.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/19/world/middleeast/us-iran-blockade-expansion.html"
-      ]
-    },
-    {
       "title": "Trump says U.S. seized Iranian ship trying to bypass blockade of Strait of Hormuz",
       "published": "Sun, 19 Apr 2026 22:27:21 +0000",
       "actors": [
@@ -570,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.114,
+      "impact": 0.023,
+      "raw_impact": 0.101,
       "source_weight": 0.9,
-      "age_hours": 9.76,
+      "age_hours": 11.83,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -596,19 +699,19 @@
       ]
     },
     {
-      "title": "Argentina\u2019s Milei backs US-Israel war on Iran in Jerusalem visit",
-      "published": "Sun, 19 Apr 2026 21:23:19 +0000",
+      "title": "Can U.S. Blockade Iranian-Linked Ships Anywhere in the World? Yes, But \u2026",
+      "published": "Sun, 19 Apr 2026 21:52:55 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.107,
+      "impact": 0.022,
+      "raw_impact": 0.098,
       "source_weight": 0.9,
-      "age_hours": 10.83,
-      "confidence": 0.68,
+      "age_hours": 12.4,
+      "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -618,15 +721,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/19/argentinas-milei-backs-us-israel-war-on-iran-in-jerusalem-visit?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/us-iran-blockade-expansion.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/19/argentinas-milei-backs-us-israel-war-on-iran-in-jerusalem-visit?traffic_source=rss"
+        "https://www.nytimes.com/2026/04/19/world/middleeast/us-iran-blockade-expansion.html"
       ]
     },
     {
@@ -638,10 +741,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.103,
+      "impact": 0.021,
+      "raw_impact": 0.091,
       "source_weight": 0.9,
-      "age_hours": 11.47,
+      "age_hours": 13.54,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -672,10 +775,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.019,
-      "raw_impact": 0.018,
+      "impact": 0.017,
+      "raw_impact": 0.016,
       "source_weight": 1.1,
-      "age_hours": 68.21,
+      "age_hours": 70.28,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -706,10 +809,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.052,
+      "impact": 0.011,
+      "raw_impact": 0.047,
       "source_weight": 0.9,
-      "age_hours": 23.17,
+      "age_hours": 25.25,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -732,40 +835,6 @@
       ]
     },
     {
-      "title": "Kyiv Mass Shooting Kills 6 and Gunman Is Shot Dead After Taking Hostages in Grocery",
-      "published": "Sat, 18 Apr 2026 20:43:28 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.026,
-      "source_weight": 0.9,
-      "age_hours": 35.49,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/18/world/europe/kyiv-ukraine-mass-shooting-hostages.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/18/world/europe/kyiv-ukraine-mass-shooting-hostages.html"
-      ]
-    },
-    {
       "title": "Air Canada temporarily suspends some flights to New York and other locations",
       "published": "Fri, 17 Apr 2026 20:57:11 GMT",
       "actors": [
@@ -775,9 +844,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.005,
-      "raw_impact": -0.007,
+      "raw_impact": -0.006,
       "source_weight": 0.9,
-      "age_hours": 59.26,
+      "age_hours": 61.33,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -800,40 +869,6 @@
       ]
     },
     {
-      "title": "Deadly Russian strikes on Ukrainians \u2018simply trying to live their lives\u2019 must stop, says senior UN official",
-      "published": "Thu, 16 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.005,
-      "raw_impact": 0.004,
-      "source_weight": 1.1,
-      "age_hours": 92.21,
-      "confidence": 0.91,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167313",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167313"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 17 April: Israel-Lebanon ceasefire begins; Iran announces opening of Strait of Hormuz",
       "published": "Fri, 17 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -843,9 +878,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.004,
-      "raw_impact": -0.004,
+      "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 68.21,
+      "age_hours": 70.28,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -868,37 +903,37 @@
       ]
     },
     {
-      "title": "Why China is taking a behind-the-scenes role in the Iran war",
-      "published": "Sat, 18 Apr 2026 09:00:20 +0000",
+      "title": "Deadly Russian strikes on Ukrainians \u2018simply trying to live their lives\u2019 must stop, says senior UN official",
+      "published": "Thu, 16 Apr 2026 12:00:00 +0000",
       "actors": [
-        "us",
-        "china"
+        "russia",
+        "ukraine"
       ],
-      "state_key": "us_china",
-      "class": "rhetoric",
-      "impact": 0.003,
-      "raw_impact": 0.013,
-      "source_weight": 0.9,
-      "age_hours": 47.21,
-      "confidence": 0.68,
-      "signal_total": 0.2,
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.004,
+      "raw_impact": 0.004,
+      "source_weight": 1.1,
+      "age_hours": 94.28,
+      "confidence": 0.91,
+      "signal_total": 0.9,
       "signal_components": {
         "deescalation": 0.0,
-        "action": 0.0,
+        "action": 0.9,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.2,
+        "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.washingtonpost.com/world/2026/04/18/china-iran-war-xi-trump/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167313",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.washingtonpost.com"
+        "news.un.org"
       ],
       "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/18/china-iran-war-xi-trump/"
+        "https://news.un.org/feed/view/en/story/2026/04/1167313"
       ]
     },
     {
@@ -911,9 +946,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.002,
-      "raw_impact": -0.002,
+      "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 84.15,
+      "age_hours": 86.22,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -947,7 +982,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 92.21,
+      "age_hours": 94.28,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -981,7 +1016,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 226.5,
+      "age_hours": 228.57,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1015,7 +1050,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1137.46,
+      "age_hours": 1139.54,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1049,7 +1084,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 143.77,
+      "age_hours": 145.84,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1084,7 +1119,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 259.85,
+      "age_hours": 261.92,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1119,7 +1154,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 455.7,
+      "age_hours": 457.77,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1154,7 +1189,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 496.69,
+      "age_hours": 498.76,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1314,16 +1349,16 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 225,
-    "classified_count": 34,
-    "paired_count": 34,
+    "event_count": 224,
+    "classified_count": 35,
+    "paired_count": 35,
     "valid_pair_updates": 6,
-    "top_driver_count": 34,
-    "total_signal": 4.3822,
+    "top_driver_count": 35,
+    "total_signal": 7.0262,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 106,
-      "no_signal": 56,
+      "no_actor": 101,
+      "no_signal": 59,
       "invalid_pair": 29,
       "low_confidence": 0,
       "classifier_error": 0,
