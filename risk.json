@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-20 10:17:03 UTC",
-  "probability": 20.3,
-  "uncertainty": 5.53,
+  "last_updated": "2026-04-20 11:52:28 UTC",
+  "probability": 21.52,
+  "uncertainty": 5.58,
   "state": {
-    "us_russia": 4.388866011243386,
-    "us_china": 3.8521373895625897,
-    "china_taiwan": 4.1704274779125186,
+    "us_russia": 4.440019264933792,
+    "us_china": 4.215110121847702,
+    "china_taiwan": 4.243022024369541,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333333314888,
-    "iran_israel": 5.854687618988708,
+    "iran_us": 5.6333333333235345,
+    "iran_israel": 5.739911047504739,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8149824147934717,
+    "nk_sk": 2.8079594078590318,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.021778914203503
+    "russia_ukraine": 7.074070048170611
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 1.125,
-      "raw_impact": 1.25,
+      "impact": 1.068,
+      "raw_impact": 1.187,
       "source_weight": 0.9,
-      "age_hours": 0.9,
+      "age_hours": 2.49,
       "confidence": 0.959,
       "signal_total": 1.37,
       "signal_components": {
@@ -52,6 +52,40 @@
       ]
     },
     {
+      "title": "Russia claims Ukraine-linked bomb plot foiled, German woman arrested",
+      "published": "Mon, 20 Apr 2026 11:23:54 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.788,
+      "raw_impact": 0.876,
+      "source_weight": 0.9,
+      "age_hours": 0.48,
+      "confidence": 0.81,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/20/russia-claims-foiled-bomb-plot-involving-german-woman?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/20/russia-claims-foiled-bomb-plot-involving-german-woman?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Pakistan\u2019s Leaders Try to Contain Rising Anger Over Iran War at Home",
       "published": "Mon, 20 Apr 2026 09:02:40 +0000",
       "actors": [
@@ -60,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.754,
-      "raw_impact": 0.838,
+      "impact": 0.688,
+      "raw_impact": 0.764,
       "source_weight": 0.9,
-      "age_hours": 1.24,
+      "age_hours": 2.83,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -94,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.721,
-      "raw_impact": 0.801,
+      "impact": 0.657,
+      "raw_impact": 0.731,
       "source_weight": 0.9,
-      "age_hours": 2.02,
+      "age_hours": 3.61,
       "confidence": 0.82,
       "signal_total": 0.9,
       "signal_components": {
@@ -128,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.684,
-      "raw_impact": 0.76,
+      "impact": 0.624,
+      "raw_impact": 0.693,
       "source_weight": 0.9,
-      "age_hours": 2.93,
+      "age_hours": 4.52,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -162,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.681,
-      "raw_impact": 0.757,
+      "impact": 0.621,
+      "raw_impact": 0.69,
       "source_weight": 0.9,
-      "age_hours": 3.0,
+      "age_hours": 4.59,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -189,17 +223,17 @@
     },
     {
       "title": "Iran War Live Updates: Iran Vows Retaliation for U.S. Attack on Cargo Ship",
-      "published": "Mon, 20 Apr 2026 10:11:17 +0000",
+      "published": "Mon, 20 Apr 2026 11:20:55 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.582,
-      "raw_impact": 0.646,
+      "impact": 0.567,
+      "raw_impact": 0.631,
       "source_weight": 0.9,
-      "age_hours": 0.1,
+      "age_hours": 0.53,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -223,40 +257,6 @@
       ]
     },
     {
-      "title": "Ukrainian best-selling author, Andrey Kurkov speaks to France 24",
-      "published": "Sun, 19 Apr 2026 21:26:50 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.386,
-      "raw_impact": 0.429,
-      "source_weight": 0.9,
-      "age_hours": 12.84,
-      "confidence": 0.81,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/ukrainian-author-andrey-kurkov-speaks-to-france-24",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/ukrainian-author-andrey-kurkov-speaks-to-france-24"
-      ]
-    },
-    {
       "title": "China warns joint US, Philippines and Japan\u00a0drills risk regional trust",
       "published": "Mon, 20 Apr 2026 09:15:39 GMT",
       "actors": [
@@ -265,10 +265,10 @@
       ],
       "state_key": "us_china",
       "class": "movement",
-      "impact": 0.36,
-      "raw_impact": 0.471,
+      "impact": 0.329,
+      "raw_impact": 0.43,
       "source_weight": 0.9,
-      "age_hours": 1.02,
+      "age_hours": 2.61,
       "confidence": 0.74,
       "signal_total": 0.5,
       "signal_components": {
@@ -299,10 +299,10 @@
       ],
       "state_key": "us_china",
       "class": "movement",
-      "impact": 0.349,
-      "raw_impact": 0.457,
+      "impact": 0.319,
+      "raw_impact": 0.417,
       "source_weight": 0.9,
-      "age_hours": 1.56,
+      "age_hours": 3.15,
       "confidence": 0.74,
       "signal_total": 0.5,
       "signal_components": {
@@ -333,10 +333,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.235,
-      "raw_impact": 0.294,
+      "impact": 0.214,
+      "raw_impact": 0.268,
       "source_weight": 1.0,
-      "age_hours": 24.36,
+      "age_hours": 25.95,
       "confidence": 0.97,
       "signal_total": 1.2,
       "signal_components": {
@@ -359,6 +359,142 @@
       ]
     },
     {
+      "title": "Oil prices jump after U.S. seizes Iranian vessel, imperiling ceasefire",
+      "published": "Mon, 20 Apr 2026 10:19:52 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.149,
+      "raw_impact": -0.183,
+      "source_weight": 0.9,
+      "age_hours": 1.54,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/"
+      ]
+    },
+    {
+      "title": "Peace talks clouded by uncertainty after US seizes Iranian ship",
+      "published": "Mon, 20 Apr 2026 10:13:26 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.148,
+      "raw_impact": -0.182,
+      "source_weight": 0.9,
+      "age_hours": 1.65,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260420-peace-talks-clouded-by-uncertainty-after-us-seizes-iranian-ship",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260420-peace-talks-clouded-by-uncertainty-after-us-seizes-iranian-ship"
+      ]
+    },
+    {
+      "title": "Second round in Islamabad: Who are the main US-Iran negotiators?",
+      "published": "Mon, 20 Apr 2026 10:06:49 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.147,
+      "raw_impact": -0.181,
+      "source_weight": 0.9,
+      "age_hours": 1.76,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/features/2026/4/20/second-round-in-islamabad-whos-at-the-us-iran-negotiating-table?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/features/2026/4/20/second-round-in-islamabad-whos-at-the-us-iran-negotiating-table?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Peace talks in doubt as U.S. seizes Iranian ship",
+      "published": "Mon, 20 Apr 2026 07:02:32 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.146,
+      "raw_impact": -0.191,
+      "source_weight": 0.85,
+      "age_hours": 0.83,
+      "confidence": 0.675,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/20/nx-s1-5791256/iran-middle-east-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/20/nx-s1-5791256/iran-middle-east-updates"
+      ]
+    },
+    {
       "title": "Iran says 'no decision' on whether to attend next round of US talks",
       "published": "Mon, 20 Apr 2026 09:23:17 GMT",
       "actors": [
@@ -367,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.154,
-      "raw_impact": -0.19,
+      "impact": -0.14,
+      "raw_impact": -0.173,
       "source_weight": 0.9,
-      "age_hours": 0.9,
+      "age_hours": 2.49,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -401,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.154,
-      "raw_impact": -0.19,
+      "impact": -0.14,
+      "raw_impact": -0.173,
       "source_weight": 0.9,
-      "age_hours": 0.92,
+      "age_hours": 2.51,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -435,10 +571,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.126,
-      "raw_impact": -0.156,
+      "impact": -0.115,
+      "raw_impact": -0.142,
       "source_weight": 0.9,
-      "age_hours": 4.35,
+      "age_hours": 5.94,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -461,74 +597,6 @@
       ]
     },
     {
-      "title": "Oil prices surge amid mixed signals on US-Iran peace talks",
-      "published": "Mon, 20 Apr 2026 02:41:14 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.104,
-      "raw_impact": -0.129,
-      "source_weight": 0.9,
-      "age_hours": 7.6,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/economy/2026/4/20/oil-prices-surge-amid-mixed-signals-on-us-iran-peace-talks?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/economy/2026/4/20/oil-prices-surge-amid-mixed-signals-on-us-iran-peace-talks?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Middle East war live: No plan for a second round of negotiations with the US, says Iran's FM",
-      "published": "Sun, 19 Apr 2026 23:16:20 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.086,
-      "raw_impact": -0.106,
-      "source_weight": 0.9,
-      "age_hours": 11.01,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260419-middle-east-war-live-iran-vows-response-after-us-destroyer-fires-on-cargo-ship",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260419-middle-east-war-live-iran-vows-response-after-us-destroyer-fires-on-cargo-ship"
-      ]
-    },
-    {
       "title": "U.S. says it seized an Iranian cargo ship, ceasefire expires soon",
       "published": "Sun, 19 Apr 2026 17:01:39 -0400",
       "actors": [
@@ -537,10 +605,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.071,
-      "raw_impact": -0.093,
+      "impact": -0.065,
+      "raw_impact": -0.085,
       "source_weight": 0.85,
-      "age_hours": 13.26,
+      "age_hours": 14.85,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -563,6 +631,40 @@
       ]
     },
     {
+      "title": "U.S. seizes Iranian cargo ship. And, tariff refund portal launches",
+      "published": "Mon, 20 Apr 2026 06:30:10 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.039,
+      "raw_impact": 0.185,
+      "source_weight": 0.85,
+      "age_hours": 1.37,
+      "confidence": 0.665,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/20/g-s1-118095/up-first-newsletter-us-iran-peace-talks-strait-of-hormuz-tariff-refunds-louisiana-shooting",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/20/g-s1-118095/up-first-newsletter-us-iran-peace-talks-strait-of-hormuz-tariff-refunds-louisiana-shooting"
+      ]
+    },
+    {
       "title": "Bulgaria's former President Radev takes strong lead in election",
       "published": "Mon, 20 Apr 2026 09:19:06 GMT",
       "actors": [
@@ -571,10 +673,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.189,
+      "impact": 0.039,
+      "raw_impact": 0.173,
       "source_weight": 0.9,
-      "age_hours": 0.97,
+      "age_hours": 2.56,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -605,10 +707,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.161,
+      "impact": 0.033,
+      "raw_impact": 0.147,
       "source_weight": 0.9,
-      "age_hours": 3.75,
+      "age_hours": 5.34,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -631,19 +733,19 @@
       ]
     },
     {
-      "title": "US military releases video of marines seizing Iranian ship",
-      "published": "Mon, 20 Apr 2026 06:20:51 +0000",
+      "title": "Moment US navy fires on and seizes Iranian-flagged cargo ship",
+      "published": "Mon, 20 Apr 2026 09:25:29 +0200",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.159,
-      "source_weight": 0.9,
-      "age_hours": 3.94,
-      "confidence": 0.67,
+      "impact": 0.033,
+      "raw_impact": 0.155,
+      "source_weight": 0.85,
+      "age_hours": 4.45,
+      "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -653,49 +755,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/20/us-military-releases-video-of-marines-seizing-iranian-ship?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "http://www.euronews.com/video/2026/04/20/moment-us-navy-fires-on-and-seizes-iranian-flagged-cargo-ship",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "www.euronews.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/20/us-military-releases-video-of-marines-seizing-iranian-ship?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Trump says U.S. seized Iranian ship trying to bypass blockade of Strait of Hormuz",
-      "published": "Sun, 19 Apr 2026 22:27:21 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.101,
-      "source_weight": 0.9,
-      "age_hours": 11.83,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/"
+        "http://www.euronews.com/video/2026/04/20/moment-us-navy-fires-on-and-seizes-iranian-flagged-cargo-ship"
       ]
     },
     {
@@ -707,10 +775,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.098,
+      "impact": 0.02,
+      "raw_impact": 0.089,
       "source_weight": 0.9,
-      "age_hours": 12.4,
+      "age_hours": 13.99,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -733,40 +801,6 @@
       ]
     },
     {
-      "title": "Trump says US delegation will travel to Islamabad on Monday, Iran declines talks",
-      "published": "Sun, 19 Apr 2026 20:44:23 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.091,
-      "source_weight": 0.9,
-      "age_hours": 13.54,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260419-trump-says-us-delegation-will-travel-to-islamabad-on-monday-iran-declines-talks",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260419-trump-says-us-delegation-will-travel-to-islamabad-on-monday-iran-declines-talks"
-      ]
-    },
-    {
       "title": "UNESCO grants \u2018enhanced protection\u2019 to cultural heritage sites in the Middle East",
       "published": "Fri, 17 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -775,10 +809,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.017,
-      "raw_impact": 0.016,
+      "impact": 0.016,
+      "raw_impact": 0.014,
       "source_weight": 1.1,
-      "age_hours": 70.28,
+      "age_hours": 71.87,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -809,10 +843,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.047,
+      "impact": 0.009,
+      "raw_impact": 0.042,
       "source_weight": 0.9,
-      "age_hours": 25.25,
+      "age_hours": 26.84,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,9 +878,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.005,
-      "raw_impact": -0.006,
+      "raw_impact": -0.005,
       "source_weight": 0.9,
-      "age_hours": 61.33,
+      "age_hours": 62.92,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -869,40 +903,6 @@
       ]
     },
     {
-      "title": "MIDDLE EAST LIVE 17 April: Israel-Lebanon ceasefire begins; Iran announces opening of Strait of Hormuz",
-      "published": "Fri, 17 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.004,
-      "raw_impact": -0.003,
-      "source_weight": 1.1,
-      "age_hours": 70.28,
-      "confidence": 0.78,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167318",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167318"
-      ]
-    },
-    {
       "title": "Deadly Russian strikes on Ukrainians \u2018simply trying to live their lives\u2019 must stop, says senior UN official",
       "published": "Thu, 16 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -914,7 +914,7 @@
       "impact": 0.004,
       "raw_impact": 0.004,
       "source_weight": 1.1,
-      "age_hours": 94.28,
+      "age_hours": 95.87,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -937,19 +937,19 @@
       ]
     },
     {
-      "title": "Hegseth Urges Iran to 'Choose Wisely' During Epic Fury Ceasefire, Blockade",
-      "published": "Thu, 16 Apr 2026 20:04:00 GMT",
+      "title": "MIDDLE EAST LIVE 17 April: Israel-Lebanon ceasefire begins; Iran announces opening of Strait of Hormuz",
+      "published": "Fri, 17 Apr 2026 12:00:00 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.002,
-      "raw_impact": -0.001,
+      "impact": -0.003,
+      "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 86.22,
-      "confidence": 0.77,
+      "age_hours": 71.87,
+      "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -959,15 +959,15 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.war.gov/News/News-Stories/Article/Article/4461708/hegseth-urges-iran-to-choose-wisely-during-epic-fury-ceasefire-blockade/",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "source_domain": "www.defense.gov",
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167318",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.defense.gov"
+        "news.un.org"
       ],
       "cluster_links": [
-        "https://www.war.gov/News/News-Stories/Article/Article/4461708/hegseth-urges-iran-to-choose-wisely-during-epic-fury-ceasefire-blockade/"
+        "https://news.un.org/feed/view/en/story/2026/04/1167318"
       ]
     },
     {
@@ -982,7 +982,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 94.28,
+      "age_hours": 95.87,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1005,6 +1005,40 @@
       ]
     },
     {
+      "title": "Hegseth Urges Iran to 'Choose Wisely' During Epic Fury Ceasefire, Blockade",
+      "published": "Thu, 16 Apr 2026 20:04:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.001,
+      "raw_impact": -0.001,
+      "source_weight": 1.1,
+      "age_hours": 87.81,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.war.gov/News/News-Stories/Article/Article/4461708/hegseth-urges-iran-to-choose-wisely-during-epic-fury-ceasefire-blockade/",
+      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "source_domain": "www.defense.gov",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.defense.gov"
+      ],
+      "cluster_links": [
+        "https://www.war.gov/News/News-Stories/Article/Article/4461708/hegseth-urges-iran-to-choose-wisely-during-epic-fury-ceasefire-blockade/"
+      ]
+    },
+    {
       "title": "This Week in DOW:\u202fIran Ceasefire, Daring Rescue, Honoring Gold Star Spouses",
       "published": "Fri, 10 Apr 2026 21:43:00 GMT",
       "actors": [
@@ -1016,7 +1050,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 228.57,
+      "age_hours": 230.16,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1050,7 +1084,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1139.54,
+      "age_hours": 1141.13,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1084,7 +1118,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 145.84,
+      "age_hours": 147.43,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1119,7 +1153,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 261.92,
+      "age_hours": 263.51,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1154,7 +1188,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 457.77,
+      "age_hours": 459.36,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1189,7 +1223,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 498.76,
+      "age_hours": 500.35,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1233,6 +1267,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "euronews_world",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1320,6 +1359,11 @@
       "domain": "www.economist.com"
     },
     {
+      "name": "www.euronews.com",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
+    },
+    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -1349,16 +1393,16 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 224,
-    "classified_count": 35,
-    "paired_count": 35,
+    "event_count": 243,
+    "classified_count": 36,
+    "paired_count": 36,
     "valid_pair_updates": 6,
-    "top_driver_count": 35,
-    "total_signal": 7.0262,
+    "top_driver_count": 36,
+    "total_signal": 6.4267,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 101,
-      "no_signal": 59,
+      "no_actor": 112,
+      "no_signal": 66,
       "invalid_pair": 29,
       "low_confidence": 0,
       "classifier_error": 0,
