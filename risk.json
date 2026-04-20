@@ -1,54 +1,54 @@
 {
-  "last_updated": "2026-04-20 13:48:02 UTC",
-  "probability": 21.8,
-  "uncertainty": 5.85,
+  "last_updated": "2026-04-20 15:17:50 UTC",
+  "probability": 22.25,
+  "uncertainty": 5.76,
   "state": {
-    "us_russia": 4.403131609216183,
-    "us_china": 4.3276639834528465,
-    "china_taiwan": 4.26553279669057,
+    "us_russia": 4.839163667396098,
+    "us_china": 4.013434462097004,
+    "china_taiwan": 4.202686892419401,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333333328128,
-    "iran_israel": 5.79154293952455,
+    "iran_us": 5.633333333330569,
+    "iran_israel": 6.186132186622417,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8042284354251104,
+    "nk_sk": 2.80224635631959,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.101849713090637
+    "russia_ukraine": 6.766460072641364
   },
   "top_drivers": [
     {
-      "title": "Ukraine claims attack on Russian warships in occupied Crimea",
-      "published": "Mon, 20 Apr 2026 09:23:15 +0000",
+      "title": "Iran-US ceasefire talks: Nuclear program remains sticking point",
+      "published": "Mon, 20 Apr 2026 13:26:14 GMT",
       "actors": [
-        "russia",
-        "ukraine"
+        "iran",
+        "us"
       ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.956,
-      "raw_impact": 1.062,
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.9,
+      "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 4.41,
-      "confidence": 0.959,
-      "signal_total": 1.37,
+      "age_hours": 1.86,
+      "confidence": 0.806,
+      "signal_total": 1.79,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.9,
-        "movement": 0.5,
-        "strategic": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
         "rhetoric": 0.0,
-        "contradiction_adjustment": -0.03,
+        "contradiction_adjustment": -0.11,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/2026/4/20/kyiv-claims-to-hit-russian-landing-ships-as-both-sides-trade-deadly-attacks?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.france24.com/en/video/20260420-iran-us-ceasefire-talks-nuclear-program-remains-sticking-point",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/20/kyiv-claims-to-hit-russian-landing-ships-as-both-sides-trade-deadly-attacks?traffic_source=rss"
+        "https://www.france24.com/en/video/20260420-iran-us-ceasefire-talks-nuclear-program-remains-sticking-point"
       ]
     },
     {
@@ -63,7 +63,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 1.71,
+      "age_hours": 3.2,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -87,6 +87,40 @@
       ]
     },
     {
+      "title": "Macron meets Tusk to discuss possible Polish role in French nuclear deterrence",
+      "published": "Mon, 20 Apr 2026 13:58:57 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "strategic",
+      "impact": 0.801,
+      "raw_impact": 1.112,
+      "source_weight": 0.9,
+      "age_hours": 1.31,
+      "confidence": 0.95,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/europe/20260420-macron-meets-tusk-poland-european-defence-collaboration",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/europe/20260420-macron-meets-tusk-poland-european-defence-collaboration"
+      ]
+    },
+    {
       "title": "Russia claims Ukraine-linked bomb plot foiled, German woman arrested",
       "published": "Mon, 20 Apr 2026 11:23:54 +0000",
       "actors": [
@@ -95,10 +129,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.705,
-      "raw_impact": 0.783,
+      "impact": 0.647,
+      "raw_impact": 0.719,
       "source_weight": 0.9,
-      "age_hours": 2.4,
+      "age_hours": 3.9,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -121,52 +155,53 @@
       ]
     },
     {
-      "title": "Pakistan\u2019s Leaders Try to Contain Rising Anger Over Iran War at Home",
-      "published": "Mon, 20 Apr 2026 09:02:40 +0000",
+      "title": "MIDDLE EAST LIVE 20 April: Uncertainty grows in the Strait of Hormuz",
+      "published": "Mon, 20 Apr 2026 12:00:00 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.615,
-      "raw_impact": 0.684,
-      "source_weight": 0.9,
-      "age_hours": 4.76,
-      "confidence": 0.9,
-      "signal_total": 0.9,
+      "impact": 0.591,
+      "raw_impact": 0.537,
+      "source_weight": 1.1,
+      "age_hours": 3.3,
+      "confidence": 0.718,
+      "signal_total": 0.65,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.9,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/2026/04/20/world/asia/pakistan-shiites-iran-diplomacy.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167333",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "news.un.org"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/04/20/world/asia/pakistan-shiites-iran-diplomacy.html"
+        "https://news.un.org/feed/view/en/story/2026/04/1167333"
       ]
     },
     {
       "title": "Iran War Live Updates: Tehran Sends Mixed Signals on Talks After U.S. Seizes Ship",
-      "published": "Mon, 20 Apr 2026 13:38:18 +0000",
+      "published": "Mon, 20 Apr 2026 15:13:25 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.58,
-      "raw_impact": 0.644,
+      "impact": 0.583,
+      "raw_impact": 0.647,
       "source_weight": 0.9,
-      "age_hours": 0.16,
+      "age_hours": 0.07,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -190,6 +225,40 @@
       ]
     },
     {
+      "title": "Pakistan\u2019s Leaders Try to Contain Rising Anger Over Iran War at Home",
+      "published": "Mon, 20 Apr 2026 09:02:40 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.564,
+      "raw_impact": 0.627,
+      "source_weight": 0.9,
+      "age_hours": 6.25,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/20/world/asia/pakistan-shiites-iran-diplomacy.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/20/world/asia/pakistan-shiites-iran-diplomacy.html"
+      ]
+    },
+    {
       "title": "'Situation is dire' for displaced people in Lebanon, journalist says",
       "published": "Mon, 20 Apr 2026 13:05:16 GMT",
       "actors": [
@@ -198,10 +267,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.561,
-      "raw_impact": 0.624,
+      "impact": 0.515,
+      "raw_impact": 0.572,
       "source_weight": 0.9,
-      "age_hours": 0.71,
+      "age_hours": 2.21,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -225,40 +294,6 @@
       ]
     },
     {
-      "title": "China warns joint US, Philippines and Japan\u00a0drills risk regional trust",
-      "published": "Mon, 20 Apr 2026 09:15:39 GMT",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "movement",
-      "impact": 0.294,
-      "raw_impact": 0.385,
-      "source_weight": 0.9,
-      "age_hours": 4.54,
-      "confidence": 0.74,
-      "signal_total": 0.5,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260420-china-warns-joint-us-philippines-and-japan-drills-risk-regional-trust",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260420-china-warns-joint-us-philippines-and-japan-drills-risk-regional-trust"
-      ]
-    },
-    {
       "title": "China sends warships to Pacific as Japan tensions grow",
       "published": "Mon, 20 Apr 2026 08:43:43 GMT",
       "actors": [
@@ -267,10 +302,10 @@
       ],
       "state_key": "us_china",
       "class": "movement",
-      "impact": 0.286,
-      "raw_impact": 0.373,
+      "impact": 0.262,
+      "raw_impact": 0.342,
       "source_weight": 0.9,
-      "age_hours": 5.07,
+      "age_hours": 6.57,
       "confidence": 0.74,
       "signal_total": 0.5,
       "signal_components": {
@@ -301,10 +336,10 @@
       ],
       "state_key": "iran_israel",
       "class": "movement",
-      "impact": 0.194,
-      "raw_impact": 0.254,
+      "impact": 0.178,
+      "raw_impact": 0.233,
       "source_weight": 0.9,
-      "age_hours": 0.42,
+      "age_hours": 1.91,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -336,10 +371,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.192,
-      "raw_impact": 0.24,
+      "impact": 0.176,
+      "raw_impact": 0.22,
       "source_weight": 1.0,
-      "age_hours": 27.88,
+      "age_hours": 29.37,
       "confidence": 0.97,
       "signal_total": 1.2,
       "signal_components": {
@@ -362,6 +397,74 @@
       ]
     },
     {
+      "title": "Ceasefire at risk after US seizes Iranian ship, Iran shuns peace talks",
+      "published": "Mon, 20 Apr 2026 14:57:07 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.158,
+      "raw_impact": -0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.35,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260420-ceasefire-at-risk-after-us-seizes-iranian-ship-iran-shuns-peace-talks",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260420-ceasefire-at-risk-after-us-seizes-iranian-ship-iran-shuns-peace-talks"
+      ]
+    },
+    {
+      "title": "Cloud over US-Iran talks: What are the key sticking points?",
+      "published": "Mon, 20 Apr 2026 13:51:57 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.149,
+      "raw_impact": -0.184,
+      "source_weight": 0.9,
+      "age_hours": 1.43,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/20/cloud-over-us-iran-talks-what-are-the-key-sticking-points?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/20/cloud-over-us-iran-talks-what-are-the-key-sticking-points?traffic_source=rss"
+      ]
+    },
+    {
       "title": "US seizes Iranian-flagged cargo ship",
       "published": "Mon, 20 Apr 2026 13:19:46 GMT",
       "actors": [
@@ -370,10 +473,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.195,
+      "impact": -0.145,
+      "raw_impact": -0.179,
       "source_weight": 0.9,
-      "age_hours": 0.47,
+      "age_hours": 1.97,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -404,10 +507,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.132,
-      "raw_impact": -0.164,
+      "impact": -0.122,
+      "raw_impact": -0.15,
       "source_weight": 0.9,
-      "age_hours": 3.47,
+      "age_hours": 4.97,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -438,10 +541,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.162,
+      "impact": -0.12,
+      "raw_impact": -0.148,
       "source_weight": 0.9,
-      "age_hours": 3.69,
+      "age_hours": 5.18,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -472,10 +575,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.171,
+      "impact": -0.12,
+      "raw_impact": -0.156,
       "source_weight": 0.85,
-      "age_hours": 2.76,
+      "age_hours": 4.26,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -498,108 +601,6 @@
       ]
     },
     {
-      "title": "Peace talks clouded by uncertainty after US seizes Iranian ship",
-      "published": "Mon, 20 Apr 2026 10:13:26 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.163,
-      "source_weight": 0.9,
-      "age_hours": 3.58,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260420-peace-talks-clouded-by-uncertainty-after-us-seizes-iranian-ship",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260420-peace-talks-clouded-by-uncertainty-after-us-seizes-iranian-ship"
-      ]
-    },
-    {
-      "title": "Iran says 'no decision' on whether to attend next round of US talks",
-      "published": "Mon, 20 Apr 2026 09:23:17 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.126,
-      "raw_impact": -0.155,
-      "source_weight": 0.9,
-      "age_hours": 4.41,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260420-iran-says-no-decision-on-whether-to-attend-next-round-of-us-talks",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260420-iran-says-no-decision-on-whether-to-attend-next-round-of-us-talks"
-      ]
-    },
-    {
-      "title": "US Navy seizure of Iranian ship casts doubt on fresh ceasefire talks in Pakistan",
-      "published": "Mon, 20 Apr 2026 09:22:04 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.125,
-      "raw_impact": -0.155,
-      "source_weight": 0.9,
-      "age_hours": 4.43,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260420-us-navy-seizure-of-iranian-ship-casts-doubt-on-fresh-ceasefire-talks-in-pakistan",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260420-us-navy-seizure-of-iranian-ship-casts-doubt-on-fresh-ceasefire-talks-in-pakistan"
-      ]
-    },
-    {
       "title": "Iran says it has not decided whether to attend peace talks with US",
       "published": "Mon, 20 Apr 2026 07:17:13 GMT",
       "actors": [
@@ -608,10 +609,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.112,
-      "raw_impact": -0.137,
+      "impact": -0.102,
+      "raw_impact": -0.126,
       "source_weight": 0.9,
-      "age_hours": 6.51,
+      "age_hours": 8.01,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -634,40 +635,6 @@
       ]
     },
     {
-      "title": "US navy seizes Iranian ship after it breaches blockade",
-      "published": "Mon, 20 Apr 2026 05:56:18 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.103,
-      "raw_impact": -0.127,
-      "source_weight": 0.9,
-      "age_hours": 7.86,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/0e51cdea-99df-4913-8c71-03396c4a6faf",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/0e51cdea-99df-4913-8c71-03396c4a6faf"
-      ]
-    },
-    {
       "title": "U.S. says it seized an Iranian cargo ship, ceasefire expires soon",
       "published": "Sun, 19 Apr 2026 17:01:39 -0400",
       "actors": [
@@ -676,10 +643,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.059,
-      "raw_impact": -0.076,
+      "impact": -0.053,
+      "raw_impact": -0.07,
       "source_weight": 0.85,
-      "age_hours": 16.77,
+      "age_hours": 18.27,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -702,6 +669,40 @@
       ]
     },
     {
+      "title": "U.S. Forces Disable Vessel Attempting to Enter Iranian Port, Violate Blockade",
+      "published": "Mon, 20 Apr 2026 14:19:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.052,
+      "raw_impact": 0.189,
+      "source_weight": 1.1,
+      "age_hours": 0.98,
+      "confidence": 0.69,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.war.gov/News/News-Stories/Article/Article/4464208/us-forces-disable-vessel-attempting-to-enter-iranian-port-violate-blockade/",
+      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "source_domain": "www.defense.gov",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.defense.gov"
+      ],
+      "cluster_links": [
+        "https://www.war.gov/News/News-Stories/Article/Article/4464208/us-forces-disable-vessel-attempting-to-enter-iranian-port-violate-blockade/"
+      ]
+    },
+    {
       "title": "Tight security in Islamabad as US-Iran talks set to go ahead",
       "published": "Mon, 20 Apr 2026 13:09:52 +0000",
       "actors": [
@@ -710,10 +711,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.193,
+      "impact": 0.04,
+      "raw_impact": 0.177,
       "source_weight": 0.9,
-      "age_hours": 0.64,
+      "age_hours": 2.13,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -744,10 +745,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.165,
+      "impact": 0.032,
+      "raw_impact": 0.152,
       "source_weight": 0.85,
-      "age_hours": 3.3,
+      "age_hours": 4.79,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -770,74 +771,6 @@
       ]
     },
     {
-      "title": "Bulgaria's former President Radev takes strong lead in election",
-      "published": "Mon, 20 Apr 2026 09:19:06 GMT",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.154,
-      "source_weight": 0.9,
-      "age_hours": 4.48,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260420-bulgaria-s-former-president-radev-takes-strong-lead-in-election",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260420-bulgaria-s-former-president-radev-takes-strong-lead-in-election"
-      ]
-    },
-    {
-      "title": "Can U.S. Blockade Iranian-Linked Ships Anywhere in the World? Yes, But \u2026",
-      "published": "Sun, 19 Apr 2026 21:52:55 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.08,
-      "source_weight": 0.9,
-      "age_hours": 15.92,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/us-iran-blockade-expansion.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/19/world/middleeast/us-iran-blockade-expansion.html"
-      ]
-    },
-    {
       "title": "UNESCO grants \u2018enhanced protection\u2019 to cultural heritage sites in the Middle East",
       "published": "Fri, 17 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -846,10 +779,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.014,
-      "raw_impact": 0.013,
+      "impact": 0.013,
+      "raw_impact": 0.012,
       "source_weight": 1.1,
-      "age_hours": 73.8,
+      "age_hours": 75.3,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -880,10 +813,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.038,
+      "impact": 0.008,
+      "raw_impact": 0.035,
       "source_weight": 0.9,
-      "age_hours": 28.76,
+      "age_hours": 30.26,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -915,9 +848,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.004,
-      "raw_impact": -0.005,
+      "raw_impact": -0.004,
       "source_weight": 0.9,
-      "age_hours": 64.85,
+      "age_hours": 66.34,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -951,7 +884,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 73.8,
+      "age_hours": 75.3,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -985,7 +918,7 @@
       "impact": 0.003,
       "raw_impact": 0.003,
       "source_weight": 1.1,
-      "age_hours": 97.8,
+      "age_hours": 99.3,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -1019,7 +952,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 97.8,
+      "age_hours": 99.3,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1053,7 +986,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 89.73,
+      "age_hours": 91.23,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1087,7 +1020,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 232.08,
+      "age_hours": 233.58,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1121,7 +1054,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1143.05,
+      "age_hours": 1144.55,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1155,7 +1088,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 149.35,
+      "age_hours": 150.85,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1190,7 +1123,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 265.44,
+      "age_hours": 266.94,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1225,7 +1158,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 461.29,
+      "age_hours": 462.79,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1260,7 +1193,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 502.28,
+      "age_hours": 503.77,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1420,17 +1353,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 224,
-    "classified_count": 37,
-    "paired_count": 37,
+    "event_count": 225,
+    "classified_count": 35,
+    "paired_count": 35,
     "valid_pair_updates": 6,
-    "top_driver_count": 37,
-    "total_signal": 5.6121,
+    "top_driver_count": 35,
+    "total_signal": 7.2616,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 91,
-      "no_signal": 68,
-      "invalid_pair": 28,
+      "no_actor": 95,
+      "no_signal": 65,
+      "invalid_pair": 30,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
