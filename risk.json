@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-20 15:17:50 UTC",
-  "probability": 22.25,
-  "uncertainty": 5.76,
+  "last_updated": "2026-04-20 16:41:44 UTC",
+  "probability": 21.46,
+  "uncertainty": 5.66,
   "state": {
-    "us_russia": 4.839163667396098,
-    "us_china": 4.013434462097004,
-    "china_taiwan": 4.202686892419401,
+    "us_russia": 5.070805698304177,
+    "us_china": 3.5385712726649885,
+    "china_taiwan": 4.107714254532998,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333333330569,
-    "iran_israel": 6.186132186622417,
+    "iran_us": 5.633333333331865,
+    "iran_israel": 6.36155174345484,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.80224635631959,
+    "nk_sk": 2.801193376794782,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.766460072641364
+    "russia_ukraine": 6.537860917674693
   },
   "top_drivers": [
     {
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 1.86,
+      "age_hours": 3.26,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -63,7 +63,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 3.2,
+      "age_hours": 4.6,
       "confidence": 0.806,
       "signal_total": 1.79,
       "signal_components": {
@@ -87,6 +87,40 @@
       ]
     },
     {
+      "title": "\u2018Israel never talked me into the war with Iran,\u2019 Trump says",
+      "published": "Mon, 20 Apr 2026 15:23:02 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.751,
+      "raw_impact": 0.834,
+      "source_weight": 0.9,
+      "age_hours": 1.31,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/20/israel-never-talked-me-into-the-war-with-iran-trump-says?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/20/israel-never-talked-me-into-the-war-with-iran-trump-says?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Macron meets Tusk to discuss possible Polish role in French nuclear deterrence",
       "published": "Mon, 20 Apr 2026 13:58:57 GMT",
       "actors": [
@@ -95,10 +129,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.801,
-      "raw_impact": 1.112,
+      "impact": 0.738,
+      "raw_impact": 1.026,
       "source_weight": 0.9,
-      "age_hours": 1.31,
+      "age_hours": 2.71,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -129,10 +163,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.647,
-      "raw_impact": 0.719,
+      "impact": 0.596,
+      "raw_impact": 0.663,
       "source_weight": 0.9,
-      "age_hours": 3.9,
+      "age_hours": 5.3,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -163,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.591,
-      "raw_impact": 0.537,
+      "impact": 0.545,
+      "raw_impact": 0.496,
       "source_weight": 1.1,
-      "age_hours": 3.3,
+      "age_hours": 4.7,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -190,41 +224,6 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Tehran Sends Mixed Signals on Talks After U.S. Seizes Ship",
-      "published": "Mon, 20 Apr 2026 15:13:25 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.583,
-      "raw_impact": 0.647,
-      "source_weight": 0.9,
-      "age_hours": 0.07,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/20/world/iran-us-war-trump-hormuz",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/20/world/iran-us-war-trump-hormuz"
-      ]
-    },
-    {
       "title": "Pakistan\u2019s Leaders Try to Contain Rising Anger Over Iran War at Home",
       "published": "Mon, 20 Apr 2026 09:02:40 +0000",
       "actors": [
@@ -233,10 +232,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.564,
-      "raw_impact": 0.627,
+      "impact": 0.521,
+      "raw_impact": 0.579,
       "source_weight": 0.9,
-      "age_hours": 6.25,
+      "age_hours": 7.65,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -267,10 +266,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.515,
-      "raw_impact": 0.572,
+      "impact": 0.475,
+      "raw_impact": 0.528,
       "source_weight": 0.9,
-      "age_hours": 2.21,
+      "age_hours": 3.61,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -294,40 +293,6 @@
       ]
     },
     {
-      "title": "China sends warships to Pacific as Japan tensions grow",
-      "published": "Mon, 20 Apr 2026 08:43:43 GMT",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "movement",
-      "impact": 0.262,
-      "raw_impact": 0.342,
-      "source_weight": 0.9,
-      "age_hours": 6.57,
-      "confidence": 0.74,
-      "signal_total": 0.5,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/61f8e267-ffd9-4650-a6e6-b42386c78ab1",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/61f8e267-ffd9-4650-a6e6-b42386c78ab1"
-      ]
-    },
-    {
       "title": "Israel army says established 'Yellow Line' in Lebanon, as in Gaza",
       "published": "Mon, 20 Apr 2026 13:23:08 GMT",
       "actors": [
@@ -336,10 +301,10 @@
       ],
       "state_key": "iran_israel",
       "class": "movement",
-      "impact": 0.178,
-      "raw_impact": 0.233,
+      "impact": 0.164,
+      "raw_impact": 0.215,
       "source_weight": 0.9,
-      "age_hours": 1.91,
+      "age_hours": 3.31,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -371,10 +336,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.176,
-      "raw_impact": 0.22,
+      "impact": 0.162,
+      "raw_impact": 0.203,
       "source_weight": 1.0,
-      "age_hours": 29.37,
+      "age_hours": 30.77,
       "confidence": 0.97,
       "signal_total": 1.2,
       "signal_components": {
@@ -397,6 +362,108 @@
       ]
     },
     {
+      "title": "Iran talks on shaky footing after U.S. seizure of ship in Strait of Hormuz",
+      "published": "Mon, 20 Apr 2026 16:03:49 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.157,
+      "raw_impact": -0.193,
+      "source_weight": 0.9,
+      "age_hours": 0.63,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/20/iran-united-states-ceasefire-talks-negotiations-hormuz-retaliate/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/20/iran-united-states-ceasefire-talks-negotiations-hormuz-retaliate/"
+      ]
+    },
+    {
+      "title": "Iranian FM spokesman says ceasefire \u2018violated\u2019 by US in shipment seizure",
+      "published": "Mon, 20 Apr 2026 15:44:44 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.153,
+      "raw_impact": -0.189,
+      "source_weight": 0.9,
+      "age_hours": 0.95,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/20/iranian-fm-spokesman-says-ceasefire-violated-by-us-in-shipment-seizure?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/20/iranian-fm-spokesman-says-ceasefire-violated-by-us-in-shipment-seizure?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Gaza reconstruction to cost more than $70bn, officials say",
+      "published": "Mon, 20 Apr 2026 15:05:27 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.148,
+      "raw_impact": -0.182,
+      "source_weight": 0.9,
+      "age_hours": 1.6,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/9bc43c2f-cb41-498d-bb8c-8ea756e04a82",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/9bc43c2f-cb41-498d-bb8c-8ea756e04a82"
+      ]
+    },
+    {
       "title": "Ceasefire at risk after US seizes Iranian ship, Iran shuns peace talks",
       "published": "Mon, 20 Apr 2026 14:57:07 GMT",
       "actors": [
@@ -405,10 +472,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.196,
+      "impact": -0.147,
+      "raw_impact": -0.181,
       "source_weight": 0.9,
-      "age_hours": 0.35,
+      "age_hours": 1.74,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -439,10 +506,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.184,
+      "impact": -0.138,
+      "raw_impact": -0.17,
       "source_weight": 0.9,
-      "age_hours": 1.43,
+      "age_hours": 2.83,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -473,10 +540,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.145,
-      "raw_impact": -0.179,
+      "impact": -0.133,
+      "raw_impact": -0.165,
       "source_weight": 0.9,
-      "age_hours": 1.97,
+      "age_hours": 3.37,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -507,10 +574,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.122,
-      "raw_impact": -0.15,
+      "impact": -0.113,
+      "raw_impact": -0.138,
       "source_weight": 0.9,
-      "age_hours": 4.97,
+      "age_hours": 6.36,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -541,10 +608,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.12,
-      "raw_impact": -0.148,
+      "impact": -0.111,
+      "raw_impact": -0.137,
       "source_weight": 0.9,
-      "age_hours": 5.18,
+      "age_hours": 6.58,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -575,10 +642,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.12,
-      "raw_impact": -0.156,
+      "impact": -0.111,
+      "raw_impact": -0.144,
       "source_weight": 0.85,
-      "age_hours": 4.26,
+      "age_hours": 5.65,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -601,40 +668,6 @@
       ]
     },
     {
-      "title": "Iran says it has not decided whether to attend peace talks with US",
-      "published": "Mon, 20 Apr 2026 07:17:13 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.102,
-      "raw_impact": -0.126,
-      "source_weight": 0.9,
-      "age_hours": 8.01,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/3f067df5-5016-4be1-aa61-21af3e7668e2",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/3f067df5-5016-4be1-aa61-21af3e7668e2"
-      ]
-    },
-    {
       "title": "U.S. says it seized an Iranian cargo ship, ceasefire expires soon",
       "published": "Sun, 19 Apr 2026 17:01:39 -0400",
       "actors": [
@@ -643,10 +676,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.053,
-      "raw_impact": -0.07,
+      "impact": -0.05,
+      "raw_impact": -0.064,
       "source_weight": 0.85,
-      "age_hours": 18.27,
+      "age_hours": 19.67,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -677,10 +710,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.052,
-      "raw_impact": 0.189,
+      "impact": 0.048,
+      "raw_impact": 0.174,
       "source_weight": 1.1,
-      "age_hours": 0.98,
+      "age_hours": 2.38,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -703,6 +736,40 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: Tehran and Washington Plan New Talks in Pakistan",
+      "published": "Mon, 20 Apr 2026 16:39:37 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.045,
+      "raw_impact": 0.2,
+      "source_weight": 0.9,
+      "age_hours": 0.04,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/20/world/iran-us-war-trump-hormuz",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/20/world/iran-us-war-trump-hormuz"
+      ]
+    },
+    {
       "title": "Tight security in Islamabad as US-Iran talks set to go ahead",
       "published": "Mon, 20 Apr 2026 13:09:52 +0000",
       "actors": [
@@ -711,10 +778,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.177,
+      "impact": 0.037,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 2.13,
+      "age_hours": 3.53,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -745,10 +812,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.152,
+      "impact": 0.03,
+      "raw_impact": 0.14,
       "source_weight": 0.85,
-      "age_hours": 4.79,
+      "age_hours": 6.19,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -779,10 +846,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.013,
-      "raw_impact": 0.012,
+      "impact": 0.012,
+      "raw_impact": 0.011,
       "source_weight": 1.1,
-      "age_hours": 75.3,
+      "age_hours": 76.7,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -813,10 +880,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.035,
+      "impact": 0.007,
+      "raw_impact": 0.032,
       "source_weight": 0.9,
-      "age_hours": 30.26,
+      "age_hours": 31.66,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -850,7 +917,7 @@
       "impact": -0.004,
       "raw_impact": -0.004,
       "source_weight": 0.9,
-      "age_hours": 66.34,
+      "age_hours": 67.74,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -882,9 +949,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.003,
-      "raw_impact": -0.003,
+      "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 75.3,
+      "age_hours": 76.7,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -918,7 +985,7 @@
       "impact": 0.003,
       "raw_impact": 0.003,
       "source_weight": 1.1,
-      "age_hours": 99.3,
+      "age_hours": 100.7,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -952,7 +1019,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 99.3,
+      "age_hours": 100.7,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -986,7 +1053,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 91.23,
+      "age_hours": 92.63,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1020,7 +1087,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 233.58,
+      "age_hours": 234.98,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1054,7 +1121,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1144.55,
+      "age_hours": 1145.95,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1088,7 +1155,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 150.85,
+      "age_hours": 152.25,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1123,7 +1190,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 266.94,
+      "age_hours": 268.34,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1158,7 +1225,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 462.79,
+      "age_hours": 464.18,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1193,7 +1260,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 503.77,
+      "age_hours": 505.17,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1353,17 +1420,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 225,
-    "classified_count": 35,
-    "paired_count": 35,
+    "event_count": 226,
+    "classified_count": 37,
+    "paired_count": 37,
     "valid_pair_updates": 6,
-    "top_driver_count": 35,
-    "total_signal": 7.2616,
+    "top_driver_count": 37,
+    "total_signal": 6.5546,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 95,
-      "no_signal": 65,
-      "invalid_pair": 30,
+      "no_actor": 94,
+      "no_signal": 61,
+      "invalid_pair": 34,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
