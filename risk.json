@@ -1,21 +1,89 @@
 {
-  "last_updated": "2026-04-19 23:40:00 UTC",
-  "probability": 18.84,
-  "uncertainty": 5.95,
+  "last_updated": "2026-04-20 02:57:29 UTC",
+  "probability": 18.16,
+  "uncertainty": 5.89,
   "state": {
-    "us_russia": 4.719210224666576,
-    "us_china": 3.0448272586567464,
-    "china_taiwan": 4.008965451731349,
+    "us_russia": 4.516911807837749,
+    "us_china": 3.0401752286250643,
+    "china_taiwan": 4.008035045725013,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.63333333310176,
-    "iran_israel": 6.325956173907141,
+    "iran_us": 5.6333333332103095,
+    "iran_israel": 6.318826170914647,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.988098808377292,
+    "nk_sk": 2.8999274919504363,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.434782183620069
+    "russia_ukraine": 6.389304184942071
   },
   "top_drivers": [
+    {
+      "title": "Iran war live: Tehran slams US \u2018piracy\u2019 after ship seizure, vows response",
+      "published": "Mon, 20 Apr 2026 00:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.683,
+      "raw_impact": 0.759,
+      "source_weight": 0.9,
+      "age_hours": 2.96,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/liveblog/2026/4/20/iran-war-live-tehran-slams-uss-piracy-after-ship-seizure-vows-response?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/liveblog/2026/4/20/iran-war-live-tehran-slams-uss-piracy-after-ship-seizure-vows-response?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "U.S. Attacks Iranian Cargo Ship as Both Countries Claim Cease-Fire Violations",
+      "published": "Sun, 19 Apr 2026 23:45:21 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.673,
+      "raw_impact": 0.748,
+      "source_weight": 0.9,
+      "age_hours": 3.2,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/us-iran-cease-fire-violations-strait-of-hormuz.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/19/world/middleeast/us-iran-cease-fire-violations-strait-of-hormuz.html"
+      ]
+    },
     {
       "title": "US forces attack and seize Iranian ship Touska near Strait of Hormuz",
       "published": "Sun, 19 Apr 2026 21:53:29 +0000",
@@ -25,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.731,
-      "raw_impact": 0.812,
+      "impact": 0.604,
+      "raw_impact": 0.672,
       "source_weight": 0.9,
-      "age_hours": 1.78,
+      "age_hours": 5.07,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.713,
-      "raw_impact": 0.792,
+      "impact": 0.589,
+      "raw_impact": 0.655,
       "source_weight": 0.9,
-      "age_hours": 2.22,
+      "age_hours": 5.51,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,52 +153,18 @@
       ]
     },
     {
-      "title": "U.S. Attacks Iranian Cargo Ship as Both Countries Claim Cease-Fire Violations",
-      "published": "Sun, 19 Apr 2026 20:54:46 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.691,
-      "raw_impact": 0.768,
-      "source_weight": 0.9,
-      "age_hours": 2.75,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/us-iran-cease-fire-violations-strait-of-hormuz.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/19/world/middleeast/us-iran-cease-fire-violations-strait-of-hormuz.html"
-      ]
-    },
-    {
       "title": "Iran War Live Updates: U.S. Attacks Iranian Cargo Ship While Preparing for New Round of Talks",
-      "published": "Sun, 19 Apr 2026 23:34:47 +0000",
+      "published": "Mon, 20 Apr 2026 02:04:43 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.582,
-      "raw_impact": 0.647,
+      "impact": 0.556,
+      "raw_impact": 0.618,
       "source_weight": 0.9,
-      "age_hours": 0.09,
+      "age_hours": 0.88,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -162,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.47,
-      "raw_impact": 0.522,
+      "impact": 0.389,
+      "raw_impact": 0.432,
       "source_weight": 0.9,
-      "age_hours": 3.79,
+      "age_hours": 7.09,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -197,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.456,
-      "raw_impact": 0.634,
+      "impact": 0.378,
+      "raw_impact": 0.524,
       "source_weight": 0.9,
-      "age_hours": 11.05,
+      "age_hours": 14.34,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -231,10 +265,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.434,
-      "raw_impact": 0.543,
+      "impact": 0.359,
+      "raw_impact": 0.449,
       "source_weight": 1.0,
-      "age_hours": 13.74,
+      "age_hours": 17.04,
       "confidence": 0.97,
       "signal_total": 1.2,
       "signal_components": {
@@ -257,18 +291,52 @@
       ]
     },
     {
-      "title": "US navy seizes Iranian ship after it breaches blockade, says Trump",
-      "published": "Sun, 19 Apr 2026 22:08:48 GMT",
+      "title": "Oil prices surge amid mixed signals on US-Iran peace talks",
+      "published": "Mon, 20 Apr 2026 02:41:14 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.183,
+      "impact": -0.159,
+      "raw_impact": -0.197,
       "source_weight": 0.9,
-      "age_hours": 1.52,
+      "age_hours": 0.27,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/economy/2026/4/20/oil-prices-surge-amid-mixed-signals-on-us-iran-peace-talks?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/economy/2026/4/20/oil-prices-surge-amid-mixed-signals-on-us-iran-peace-talks?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "US navy seizes Iranian ship after it breaches blockade",
+      "published": "Mon, 20 Apr 2026 02:10:12 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.155,
+      "raw_impact": -0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.79,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.172,
+      "impact": -0.109,
+      "raw_impact": -0.142,
       "source_weight": 0.85,
-      "age_hours": 2.64,
+      "age_hours": 5.93,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -333,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.101,
-      "raw_impact": -0.125,
+      "impact": -0.084,
+      "raw_impact": -0.103,
       "source_weight": 0.9,
-      "age_hours": 8.15,
+      "age_hours": 11.44,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -367,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.089,
-      "raw_impact": -0.11,
+      "impact": -0.074,
+      "raw_impact": -0.091,
       "source_weight": 0.9,
-      "age_hours": 10.36,
+      "age_hours": 13.65,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -401,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.086,
-      "raw_impact": -0.105,
+      "impact": -0.07,
+      "raw_impact": -0.087,
       "source_weight": 0.9,
-      "age_hours": 11.11,
+      "age_hours": 14.4,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -428,17 +496,17 @@
     },
     {
       "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-      "published": "Sun, 19 Apr 2026 21:39:43 GMT",
+      "published": "Mon, 20 Apr 2026 01:38:17 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.178,
+      "impact": 0.046,
+      "raw_impact": 0.185,
       "source_weight": 1.0,
-      "age_hours": 2.0,
+      "age_hours": 1.32,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -469,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.195,
+      "impact": 0.036,
+      "raw_impact": 0.162,
       "source_weight": 0.9,
-      "age_hours": 0.39,
+      "age_hours": 3.69,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -503,10 +571,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.186,
+      "impact": 0.035,
+      "raw_impact": 0.154,
       "source_weight": 0.9,
-      "age_hours": 1.21,
+      "age_hours": 4.5,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -537,10 +605,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.18,
+      "impact": 0.034,
+      "raw_impact": 0.149,
       "source_weight": 0.9,
-      "age_hours": 1.78,
+      "age_hours": 5.08,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -571,10 +639,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.175,
+      "impact": 0.033,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 2.28,
+      "age_hours": 5.57,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -605,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
+      "impact": 0.032,
+      "raw_impact": 0.14,
       "source_weight": 0.9,
-      "age_hours": 2.93,
+      "age_hours": 6.22,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -639,10 +707,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.154,
+      "impact": 0.029,
+      "raw_impact": 0.127,
       "source_weight": 0.9,
-      "age_hours": 4.55,
+      "age_hours": 7.85,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -673,10 +741,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.144,
+      "impact": 0.027,
+      "raw_impact": 0.119,
       "source_weight": 0.9,
-      "age_hours": 5.63,
+      "age_hours": 8.92,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -699,40 +767,6 @@
       ]
     },
     {
-      "title": "UNESCO grants \u2018enhanced protection\u2019 to cultural heritage sites in the Middle East",
-      "published": "Fri, 17 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.032,
-      "raw_impact": 0.029,
-      "source_weight": 1.1,
-      "age_hours": 59.67,
-      "confidence": 0.91,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167326",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167326"
-      ]
-    },
-    {
       "title": "What would it take for the Iran-US talks to succeed?",
       "published": "Sun, 19 Apr 2026 17:20:17 +0000",
       "actors": [
@@ -741,10 +775,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.139,
+      "impact": 0.026,
+      "raw_impact": 0.115,
       "source_weight": 0.9,
-      "age_hours": 6.33,
+      "age_hours": 9.62,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -767,6 +801,40 @@
       ]
     },
     {
+      "title": "UNESCO grants \u2018enhanced protection\u2019 to cultural heritage sites in the Middle East",
+      "published": "Fri, 17 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.026,
+      "raw_impact": 0.024,
+      "source_weight": 1.1,
+      "age_hours": 62.96,
+      "confidence": 0.91,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167326",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167326"
+      ]
+    },
+    {
       "title": "Impact of Iran war will hurt US even after conflict ends, economists warn",
       "published": "Sun, 19 Apr 2026 17:00:07 GMT",
       "actors": [
@@ -775,10 +843,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.136,
+      "impact": 0.025,
+      "raw_impact": 0.113,
       "source_weight": 0.9,
-      "age_hours": 6.66,
+      "age_hours": 9.96,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -809,10 +877,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.102,
+      "impact": 0.019,
+      "raw_impact": 0.084,
       "source_weight": 0.9,
-      "age_hours": 11.66,
+      "age_hours": 14.96,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -843,10 +911,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.086,
+      "impact": 0.016,
+      "raw_impact": 0.071,
       "source_weight": 0.9,
-      "age_hours": 14.63,
+      "age_hours": 17.92,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -877,10 +945,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.067,
+      "impact": 0.013,
+      "raw_impact": 0.055,
       "source_weight": 0.9,
-      "age_hours": 19.0,
+      "age_hours": 22.29,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -903,40 +971,6 @@
       ]
     },
     {
-      "title": "Air Canada temporarily suspends some flights to New York and other locations",
-      "published": "Fri, 17 Apr 2026 20:57:11 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.009,
-      "raw_impact": -0.011,
-      "source_weight": 0.9,
-      "age_hours": 50.71,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/world/2026/apr/17/air-canada-suspending-flights-fuel-prices",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/world/2026/apr/17/air-canada-suspending-flights-fuel-prices"
-      ]
-    },
-    {
       "title": "Kyiv Mass Shooting Kills 6 and Gunman Is Shot Dead After Taking Hostages in Grocery",
       "published": "Sat, 18 Apr 2026 20:43:28 +0000",
       "actors": [
@@ -945,10 +979,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.042,
+      "impact": 0.008,
+      "raw_impact": 0.035,
       "source_weight": 0.9,
-      "age_hours": 26.94,
+      "age_hours": 30.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -971,6 +1005,40 @@
       ]
     },
     {
+      "title": "Air Canada temporarily suspends some flights to New York and other locations",
+      "published": "Fri, 17 Apr 2026 20:57:11 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.007,
+      "raw_impact": -0.009,
+      "source_weight": 0.9,
+      "age_hours": 54.01,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/world/2026/apr/17/air-canada-suspending-flights-fuel-prices",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/world/2026/apr/17/air-canada-suspending-flights-fuel-prices"
+      ]
+    },
+    {
       "title": "Deadly Russian strikes on Ukrainians \u2018simply trying to live their lives\u2019 must stop, says senior UN official",
       "published": "Thu, 16 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -979,10 +1047,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.008,
-      "raw_impact": 0.007,
+      "impact": 0.007,
+      "raw_impact": 0.006,
       "source_weight": 1.1,
-      "age_hours": 83.67,
+      "age_hours": 86.96,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -1013,10 +1081,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.006,
-      "raw_impact": -0.006,
+      "impact": -0.005,
+      "raw_impact": -0.005,
       "source_weight": 1.1,
-      "age_hours": 59.67,
+      "age_hours": 62.96,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1047,10 +1115,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.005,
-      "raw_impact": 0.021,
+      "impact": 0.004,
+      "raw_impact": 0.018,
       "source_weight": 0.9,
-      "age_hours": 38.66,
+      "age_hours": 41.95,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -1081,10 +1149,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.003,
-      "raw_impact": -0.003,
+      "impact": -0.002,
+      "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 75.6,
+      "age_hours": 78.89,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1115,10 +1183,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.002,
-      "raw_impact": -0.002,
+      "impact": -0.001,
+      "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 83.67,
+      "age_hours": 86.96,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -1152,7 +1220,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 217.95,
+      "age_hours": 221.24,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1186,7 +1254,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1128.92,
+      "age_hours": 1132.21,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1220,7 +1288,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 135.22,
+      "age_hours": 138.51,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1255,7 +1323,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 251.31,
+      "age_hours": 254.6,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1290,7 +1358,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 447.16,
+      "age_hours": 450.45,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1325,7 +1393,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 488.14,
+      "age_hours": 491.43,
       "confidence": 0.954,
       "signal_total": 2.57,
       "signal_components": {
@@ -1486,16 +1554,16 @@
   ],
   "debug": {
     "event_count": 226,
-    "classified_count": 39,
-    "paired_count": 39,
+    "classified_count": 41,
+    "paired_count": 41,
     "valid_pair_updates": 6,
-    "top_driver_count": 39,
-    "total_signal": 6.4066,
+    "top_driver_count": 41,
+    "total_signal": 6.1189,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 103,
-      "no_signal": 55,
-      "invalid_pair": 29,
+      "no_signal": 56,
+      "invalid_pair": 26,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
