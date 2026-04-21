@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-21 10:01:24 UTC",
-  "probability": 12.95,
-  "uncertainty": 6.12,
+  "last_updated": "2026-04-21 11:39:38 UTC",
+  "probability": 11.83,
+  "uncertainty": 6.11,
   "state": {
-    "us_russia": 3.497583297420923,
-    "us_china": 3.000679648860518,
-    "china_taiwan": 4.000135929772104,
+    "us_russia": 3.358091230086781,
+    "us_china": 3.0004226620467507,
+    "china_taiwan": 4.000084532409351,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.12725371996666,
-    "iran_israel": 4.662742853488139,
-    "nk_us": 4.0,
-    "nk_sk": 2.8000011351832184,
+    "iran_us": 2.833228538732288,
+    "iran_israel": 4.384081547660829,
+    "nk_us": 4.480865622776254,
+    "nk_sk": 2.800000603066085,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.174642611783449
+    "russia_ukraine": 5.092778887509957
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "nk_us",
       "class": "strategic",
-      "impact": 0.835,
-      "raw_impact": 1.16,
+      "impact": 0.76,
+      "raw_impact": 1.055,
       "source_weight": 0.9,
-      "age_hours": 0.59,
+      "age_hours": 2.23,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -48,41 +48,6 @@
       ],
       "cluster_links": [
         "https://www.theguardian.com/world/2026/apr/21/us-reportedly-restricts-south-korea-intelligence-sharing-after-minister-identified-suspected-nuclear-site"
-      ]
-    },
-    {
-      "title": "MIDDLE EAST LIVE 20 April: Uncertainty grows in the Strait of Hormuz",
-      "published": "Mon, 20 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.2,
-      "raw_impact": 0.182,
-      "source_weight": 1.1,
-      "age_hours": 22.02,
-      "confidence": 0.718,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167333",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167333"
       ]
     },
     {
@@ -120,6 +85,41 @@
       ]
     },
     {
+      "title": "MIDDLE EAST LIVE 20 April: Uncertainty grows in the Strait of Hormuz",
+      "published": "Mon, 20 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.182,
+      "raw_impact": 0.166,
+      "source_weight": 1.1,
+      "age_hours": 23.66,
+      "confidence": 0.718,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167333",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167333"
+      ]
+    },
+    {
       "title": "Pakistan\u2019s Leaders Try to Contain Rising Anger Over Iran War at Home",
       "published": "Mon, 20 Apr 2026 09:02:41 +0000",
       "actors": [
@@ -128,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.191,
-      "raw_impact": 0.213,
+      "impact": 0.174,
+      "raw_impact": 0.193,
       "source_weight": 0.9,
-      "age_hours": 24.98,
+      "age_hours": 26.62,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -154,6 +154,108 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: Uncertainty Surrounds U.S.-Iran Talks as Cease-Fire Nears End",
+      "published": "Tue, 21 Apr 2026 11:28:38 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.16,
+      "raw_impact": -0.198,
+      "source_weight": 0.9,
+      "age_hours": 0.18,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news"
+      ]
+    },
+    {
+      "title": "U.S. delegation set to leave for Islamabad as Iran ceasefire nears expiration",
+      "published": "Tue, 21 Apr 2026 11:20:08 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.159,
+      "raw_impact": -0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.33,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/21/iran-us-talks-ceasefire/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/21/iran-us-talks-ceasefire/"
+      ]
+    },
+    {
+      "title": "Middle East: Doubts grow over US-Iran talks",
+      "published": "Tue, 21 Apr 2026 10:57:25 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.156,
+      "raw_impact": -0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.7,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east-doubts-grow-over-us-iran-talks",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east-doubts-grow-over-us-iran-talks"
+      ]
+    },
+    {
       "title": "Pakistan prepares for potential talks",
       "published": "Tue, 21 Apr 2026 09:45:39 GMT",
       "actors": [
@@ -162,10 +264,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.159,
-      "raw_impact": -0.197,
+      "impact": -0.145,
+      "raw_impact": -0.179,
       "source_weight": 0.9,
-      "age_hours": 0.26,
+      "age_hours": 1.9,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -196,10 +298,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.159,
-      "raw_impact": -0.197,
+      "impact": -0.145,
+      "raw_impact": -0.179,
       "source_weight": 0.9,
-      "age_hours": 0.28,
+      "age_hours": 1.92,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -230,10 +332,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.143,
-      "raw_impact": -0.177,
+      "impact": -0.131,
+      "raw_impact": -0.161,
       "source_weight": 0.9,
-      "age_hours": 2.1,
+      "age_hours": 3.73,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -256,19 +358,19 @@
       ]
     },
     {
-      "title": "Middle East war live: Iranians not yet departed for US talks in Pakistan, state TV says",
-      "published": "Tue, 21 Apr 2026 01:51:34 GMT",
+      "title": "Iran remains undecided over second-round talks with US as Vance heads to Islamabad",
+      "published": "Tue, 21 Apr 2026 06:54:06 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.101,
-      "raw_impact": -0.125,
+      "impact": -0.123,
+      "raw_impact": -0.152,
       "source_weight": 0.9,
-      "age_hours": 8.16,
-      "confidence": 0.68,
+      "age_hours": 4.76,
+      "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -278,7 +380,7 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/middle-east/20260421-middle-east-war-live-us-iran-warn-ready-for-war-as-talks-in-limbo",
+      "link": "https://www.france24.com/en/iran-remains-undecided-over-second-round-talks-with-us-as-vance-heads-to-islamabad",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -286,7 +388,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260421-middle-east-war-live-us-iran-warn-ready-for-war-as-talks-in-limbo"
+        "https://www.france24.com/en/iran-remains-undecided-over-second-round-talks-with-us-as-vance-heads-to-islamabad"
       ]
     },
     {
@@ -298,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.089,
-      "raw_impact": -0.099,
+      "impact": -0.081,
+      "raw_impact": -0.09,
       "source_weight": 1.0,
-      "age_hours": 12.15,
+      "age_hours": 13.79,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -332,10 +434,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.084,
-      "raw_impact": -0.103,
+      "impact": -0.076,
+      "raw_impact": -0.094,
       "source_weight": 0.9,
-      "age_hours": 11.48,
+      "age_hours": 13.11,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -358,8 +460,8 @@
       ]
     },
     {
-      "title": "Iran talks on shaky footing after U.S. seizure of ship in Strait of Hormuz",
-      "published": "Mon, 20 Apr 2026 19:36:07 +0000",
+      "title": "U.S. and Iran Talks Appear on Track to Resume Despite Mixed Messages",
+      "published": "Mon, 20 Apr 2026 21:10:50 +0000",
       "actors": [
         "iran",
         "us"
@@ -369,7 +471,41 @@
       "impact": -0.07,
       "raw_impact": -0.087,
       "source_weight": 0.9,
-      "age_hours": 14.42,
+      "age_hours": 14.48,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/20/world/middleeast/iran-us-talks.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/20/world/middleeast/iran-us-talks.html"
+      ]
+    },
+    {
+      "title": "Iran talks on shaky footing after U.S. seizure of ship in Strait of Hormuz",
+      "published": "Mon, 20 Apr 2026 19:36:07 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.064,
+      "raw_impact": -0.079,
+      "source_weight": 0.9,
+      "age_hours": 16.06,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -400,10 +536,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.069,
-      "raw_impact": -0.09,
+      "impact": -0.063,
+      "raw_impact": -0.082,
       "source_weight": 0.85,
-      "age_hours": 13.78,
+      "age_hours": 15.41,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -426,74 +562,6 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Vance Is Expected to Lead Talks in Pakistan, U.S. Officials Say",
-      "published": "Tue, 21 Apr 2026 09:23:32 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.193,
-      "source_weight": 0.9,
-      "age_hours": 0.63,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news"
-      ]
-    },
-    {
-      "title": "Peace talks are in doubt as the U.S. seizes an Iranian ship",
-      "published": "Mon, 20 Apr 2026 07:02:32 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.053,
-      "source_weight": 0.85,
-      "age_hours": 22.98,
-      "confidence": 0.675,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5791256/iran-middle-east-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/20/nx-s1-5791256/iran-middle-east-updates"
-      ]
-    },
-    {
       "title": "Oil prices jump after U.S. seizes Iranian vessel, imperiling ceasefire",
       "published": "Mon, 20 Apr 2026 10:19:52 +0000",
       "actors": [
@@ -502,10 +570,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.051,
+      "impact": -0.038,
+      "raw_impact": -0.046,
       "source_weight": 0.9,
-      "age_hours": 23.69,
+      "age_hours": 25.33,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -528,6 +596,40 @@
       ]
     },
     {
+      "title": "Peace talks are in doubt as the U.S. seizes an Iranian ship",
+      "published": "Mon, 20 Apr 2026 07:02:32 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.037,
+      "raw_impact": -0.048,
+      "source_weight": 0.85,
+      "age_hours": 24.62,
+      "confidence": 0.675,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/20/nx-s1-5791256/iran-middle-east-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/20/nx-s1-5791256/iran-middle-east-updates"
+      ]
+    },
+    {
       "title": "Iran war: What is happening on day 53 of the US-Israel conflict?",
       "published": "Tue, 21 Apr 2026 07:10:22 +0000",
       "actors": [
@@ -536,10 +638,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
+      "impact": 0.035,
+      "raw_impact": 0.154,
       "source_weight": 0.9,
-      "age_hours": 2.85,
+      "age_hours": 4.49,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -570,10 +672,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.153,
+      "impact": 0.031,
+      "raw_impact": 0.139,
       "source_weight": 0.9,
-      "age_hours": 4.69,
+      "age_hours": 6.32,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -596,40 +698,6 @@
       ]
     },
     {
-      "title": "Amnesty International slams \u2018predatory world order\u2019 led by US and Israel",
-      "published": "Tue, 21 Apr 2026 04:55:31 +0000",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.149,
-      "source_weight": 0.9,
-      "age_hours": 5.1,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/21/amnesty-international-slams-predatory-world-order-led-by-us-and-israel?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/21/amnesty-international-slams-predatory-world-order-led-by-us-and-israel?traffic_source=rss"
-      ]
-    },
-    {
       "title": "How Pakistan learned to speak Trump\u2019s language, becoming an unlikely peacemaker",
       "published": "Mon, 20 Apr 2026 19:57:38 +0000",
       "actors": [
@@ -638,10 +706,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.089,
+      "impact": 0.018,
+      "raw_impact": 0.081,
       "source_weight": 0.9,
-      "age_hours": 14.06,
+      "age_hours": 15.7,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -672,10 +740,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.064,
+      "impact": 0.016,
+      "raw_impact": 0.058,
       "source_weight": 1.1,
-      "age_hours": 19.71,
+      "age_hours": 21.34,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -706,10 +774,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.051,
+      "impact": 0.01,
+      "raw_impact": 0.047,
       "source_weight": 0.85,
-      "age_hours": 23.52,
+      "age_hours": 25.16,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -743,7 +811,7 @@
       "impact": 0.004,
       "raw_impact": 0.004,
       "source_weight": 1.1,
-      "age_hours": 94.02,
+      "age_hours": 95.66,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -777,7 +845,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 109.96,
+      "age_hours": 111.59,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -811,7 +879,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 252.31,
+      "age_hours": 253.94,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -845,7 +913,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1163.27,
+      "age_hours": 1164.91,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -879,7 +947,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 169.58,
+      "age_hours": 171.21,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -914,7 +982,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 285.66,
+      "age_hours": 287.3,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -949,7 +1017,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 481.51,
+      "age_hours": 483.15,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1104,17 +1172,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 225,
-    "classified_count": 28,
-    "paired_count": 28,
+    "event_count": 227,
+    "classified_count": 30,
+    "paired_count": 30,
     "valid_pair_updates": 6,
-    "top_driver_count": 28,
-    "total_signal": 1.4556,
+    "top_driver_count": 30,
+    "total_signal": 2.1837,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 114,
-      "no_signal": 49,
-      "invalid_pair": 34,
+      "no_actor": 110,
+      "no_signal": 51,
+      "invalid_pair": 36,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
