@@ -1,21 +1,89 @@
 {
-  "last_updated": "2026-04-21 19:24:52 UTC",
-  "probability": 14.08,
-  "uncertainty": 6.07,
+  "last_updated": "2026-04-21 20:27:53 UTC",
+  "probability": 14.25,
+  "uncertainty": 5.83,
   "state": {
-    "us_russia": 3.2066897819434197,
-    "us_china": 3.000104824679198,
-    "china_taiwan": 4.273458623539034,
+    "us_russia": 3.203554008798148,
+    "us_china": 3.0000927316500245,
+    "china_taiwan": 4.261789447117364,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.4152736132002985,
-    "iran_israel": 5.951972900570554,
-    "nk_us": 4.4029422332367645,
-    "nk_sk": 2.800000025518763,
+    "iran_us": 5.517489107012659,
+    "iran_israel": 6.271360603428107,
+    "nk_us": 4.316383344490938,
+    "nk_sk": 2.8000000135568426,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.0039259419704445
+    "russia_ukraine": 5.002085656671799
   },
   "top_drivers": [
+    {
+      "title": "Iran War Live Updates: Trump Extends Cease-fire Indefinitely",
+      "published": "Tue, 21 Apr 2026 20:20:04 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.804,
+      "raw_impact": 0.893,
+      "source_weight": 0.9,
+      "age_hours": 0.13,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news"
+      ]
+    },
+    {
+      "title": "What would happen next if Iran agreed to surrender its highly enriched uranium",
+      "published": "Tue, 21 Apr 2026 16:10:42 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.802,
+      "raw_impact": 1.18,
+      "source_weight": 0.85,
+      "age_hours": 0.29,
+      "confidence": 0.945,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/21/nx-s1-5788988/what-would-happen-next-if-iran-agreed-to-surrender-its-highly-enriched-uranium",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/21/nx-s1-5788988/what-would-happen-next-if-iran-agreed-to-surrender-its-highly-enriched-uranium"
+      ]
+    },
     {
       "title": "Vance\u2019s Trip to Islamabad on Hold as U.S. Says Iran Failed to Respond to Its Terms",
       "published": "Tue, 21 Apr 2026 18:05:41 +0000",
@@ -25,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.801,
-      "raw_impact": 1.112,
+      "impact": 0.754,
+      "raw_impact": 1.046,
       "source_weight": 0.9,
-      "age_hours": 1.32,
+      "age_hours": 2.37,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.652,
-      "raw_impact": 0.905,
+      "impact": 0.614,
+      "raw_impact": 0.852,
       "source_weight": 0.9,
-      "age_hours": 0.66,
+      "age_hours": 1.71,
       "confidence": 0.746,
       "signal_total": 0.94,
       "signal_components": {
@@ -94,10 +162,10 @@
       ],
       "state_key": "nk_us",
       "class": "strategic",
-      "impact": 0.486,
-      "raw_impact": 0.674,
+      "impact": 0.457,
+      "raw_impact": 0.635,
       "source_weight": 0.9,
-      "age_hours": 9.98,
+      "age_hours": 11.03,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -128,10 +196,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.485,
-      "raw_impact": 0.539,
+      "impact": 0.456,
+      "raw_impact": 0.507,
       "source_weight": 0.9,
-      "age_hours": 3.25,
+      "age_hours": 4.3,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -155,53 +223,19 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Vance\u2019s Trip to Peace Talks on Hold",
-      "published": "Tue, 21 Apr 2026 19:17:33 +0000",
+      "title": "Trump extends Iran ceasefire until talks conclude",
+      "published": "Tue, 21 Apr 2026 20:26:52 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.161,
-      "raw_impact": -0.199,
+      "impact": -0.162,
+      "raw_impact": -0.2,
       "source_weight": 0.9,
-      "age_hours": 0.12,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news"
-      ]
-    },
-    {
-      "title": "Trump expects \u2018great deal\u2019 as Iran labels US blockade of ports an \u2018act of war\u2019",
-      "published": "Tue, 21 Apr 2026 19:06:03 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.159,
-      "raw_impact": -0.196,
-      "source_weight": 0.9,
-      "age_hours": 0.31,
-      "confidence": 0.68,
+      "age_hours": 0.02,
+      "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -223,52 +257,18 @@
       ]
     },
     {
-      "title": "US-Iran talks are in doubt as ceasefire nears an end",
-      "published": "Tue, 21 Apr 2026 18:46:20 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.156,
-      "raw_impact": -0.193,
-      "source_weight": 0.9,
-      "age_hours": 0.64,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/us-iran-talks-are-in-doubt-as-ceasefire-nears-an-end",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/us-iran-talks-are-in-doubt-as-ceasefire-nears-an-end"
-      ]
-    },
-    {
       "title": "U.S. delegation\u2019s departure for Islamabad delayed as Iran ceasefire nears expiration",
-      "published": "Tue, 21 Apr 2026 16:09:45 +0000",
+      "published": "Tue, 21 Apr 2026 20:04:01 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.134,
-      "raw_impact": -0.166,
+      "impact": -0.158,
+      "raw_impact": -0.195,
       "source_weight": 0.9,
-      "age_hours": 3.25,
+      "age_hours": 0.4,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -291,6 +291,40 @@
       ]
     },
     {
+      "title": "US-Iran talks are in doubt as ceasefire nears an end",
+      "published": "Tue, 21 Apr 2026 18:46:20 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.147,
+      "raw_impact": -0.181,
+      "source_weight": 0.9,
+      "age_hours": 1.69,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/us-iran-talks-are-in-doubt-as-ceasefire-nears-an-end",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/us-iran-talks-are-in-doubt-as-ceasefire-nears-an-end"
+      ]
+    },
+    {
       "title": "Iran's participation in US talks unclear",
       "published": "Tue, 21 Apr 2026 16:08:52 GMT",
       "actors": [
@@ -299,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.134,
-      "raw_impact": -0.166,
+      "impact": -0.126,
+      "raw_impact": -0.156,
       "source_weight": 0.9,
-      "age_hours": 3.27,
+      "age_hours": 4.32,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -333,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.129,
-      "raw_impact": -0.13,
+      "impact": -0.122,
+      "raw_impact": -0.123,
       "source_weight": 1.1,
-      "age_hours": 7.41,
+      "age_hours": 8.46,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -367,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.125,
-      "raw_impact": -0.155,
+      "impact": -0.118,
+      "raw_impact": -0.145,
       "source_weight": 0.9,
-      "age_hours": 4.47,
+      "age_hours": 5.52,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -393,40 +427,6 @@
       ]
     },
     {
-      "title": "Qatar backs ceasefire as uncertainty surrounds US-Iran peace talks in Islamabad",
-      "published": "Tue, 21 Apr 2026 17:03:22 +0200",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.119,
-      "raw_impact": -0.155,
-      "source_weight": 0.85,
-      "age_hours": 4.36,
-      "confidence": 0.755,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "http://www.euronews.com/2026/04/21/qatar-backs-ceasefire-as-uncertainty-surrounds-us-iran-peace-talks-in-islamabad",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.euronews.com"
-      ],
-      "cluster_links": [
-        "http://www.euronews.com/2026/04/21/qatar-backs-ceasefire-as-uncertainty-surrounds-us-iran-peace-talks-in-islamabad"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 20 April: Uncertainty grows in the Strait of Hormuz",
       "published": "Mon, 20 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -435,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.116,
-      "raw_impact": 0.106,
+      "impact": 0.11,
+      "raw_impact": 0.1,
       "source_weight": 1.1,
-      "age_hours": 31.41,
+      "age_hours": 32.46,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -470,10 +470,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.097,
-      "raw_impact": -0.128,
+      "impact": -0.092,
+      "raw_impact": -0.12,
       "source_weight": 0.85,
-      "age_hours": 7.78,
+      "age_hours": 8.83,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "title": "Ceasefire agreement between the U.S. and Iran ends Wednesday",
+      "title": "Ceasefire agreement between the U.S. and Iran ends soon",
       "published": "Tue, 21 Apr 2026 06:43:08 -0400",
       "actors": [
         "iran",
@@ -504,10 +504,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.093,
-      "raw_impact": -0.121,
+      "impact": -0.087,
+      "raw_impact": -0.114,
       "source_weight": 0.85,
-      "age_hours": 8.7,
+      "age_hours": 9.75,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -538,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.193,
+      "impact": 0.041,
+      "raw_impact": 0.182,
       "source_weight": 0.9,
-      "age_hours": 0.63,
+      "age_hours": 1.68,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -572,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.165,
+      "impact": 0.039,
+      "raw_impact": 0.155,
       "source_weight": 1.0,
-      "age_hours": 3.32,
+      "age_hours": 4.37,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -598,40 +598,6 @@
       ]
     },
     {
-      "title": "U.S.-Iran talks are uncertain as ceasefire is set to expire",
-      "published": "Mon, 20 Apr 2026 16:14:52 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.052,
-      "source_weight": 0.85,
-      "age_hours": 23.17,
-      "confidence": 0.755,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5791630/u-s-iran-talks-are-uncertain-as-ceasefire-is-set-to-expire",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/20/nx-s1-5791630/u-s-iran-talks-are-uncertain-as-ceasefire-is-set-to-expire"
-      ]
-    },
-    {
       "title": "Iran talks on shaky footing after U.S. seizure of ship in Strait of Hormuz",
       "published": "Mon, 20 Apr 2026 19:36:07 +0000",
       "actors": [
@@ -640,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.051,
+      "impact": -0.039,
+      "raw_impact": -0.048,
       "source_weight": 0.9,
-      "age_hours": 23.81,
+      "age_hours": 24.86,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -674,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.16,
+      "impact": 0.034,
+      "raw_impact": 0.15,
       "source_weight": 0.9,
-      "age_hours": 3.91,
+      "age_hours": 4.96,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -708,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.151,
+      "impact": 0.032,
+      "raw_impact": 0.142,
       "source_weight": 0.9,
-      "age_hours": 4.88,
+      "age_hours": 5.93,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -742,10 +708,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.147,
+      "impact": 0.031,
+      "raw_impact": 0.139,
       "source_weight": 0.9,
-      "age_hours": 5.28,
+      "age_hours": 6.33,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,10 +742,10 @@
       ],
       "state_key": "china_taiwan",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.138,
+      "impact": 0.029,
+      "raw_impact": 0.129,
       "source_weight": 0.9,
-      "age_hours": 6.48,
+      "age_hours": 7.53,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,10 +776,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.133,
+      "impact": 0.027,
+      "raw_impact": 0.126,
       "source_weight": 0.85,
-      "age_hours": 7.01,
+      "age_hours": 8.06,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,10 +810,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.024,
-      "raw_impact": -0.03,
+      "impact": -0.023,
+      "raw_impact": -0.028,
       "source_weight": 0.9,
-      "age_hours": 33.08,
+      "age_hours": 34.13,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -879,9 +845,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.011,
-      "raw_impact": 0.052,
+      "raw_impact": 0.049,
       "source_weight": 0.9,
-      "age_hours": 23.45,
+      "age_hours": 24.5,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -913,9 +879,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.01,
-      "raw_impact": 0.037,
+      "raw_impact": 0.035,
       "source_weight": 1.1,
-      "age_hours": 29.1,
+      "age_hours": 30.15,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,10 +912,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.003,
+      "impact": 0.002,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 103.41,
+      "age_hours": 104.46,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -983,7 +949,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 119.35,
+      "age_hours": 120.4,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1017,7 +983,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1172.67,
+      "age_hours": 1173.72,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1051,7 +1017,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 178.97,
+      "age_hours": 180.02,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1086,7 +1052,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 295.05,
+      "age_hours": 296.11,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1121,7 +1087,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 490.9,
+      "age_hours": 491.95,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1165,11 +1131,6 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
-    },
-    {
-      "name": "euronews_world",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1257,11 +1218,6 @@
       "domain": "www.economist.com"
     },
     {
-      "name": "www.euronews.com",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
-    },
-    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -1291,17 +1247,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 250,
-    "classified_count": 33,
-    "paired_count": 33,
+    "event_count": 230,
+    "classified_count": 32,
+    "paired_count": 32,
     "valid_pair_updates": 6,
-    "top_driver_count": 33,
-    "total_signal": 2.7941,
+    "top_driver_count": 32,
+    "total_signal": 5.1409,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 113,
-      "no_signal": 65,
-      "invalid_pair": 39,
+      "no_actor": 99,
+      "no_signal": 63,
+      "invalid_pair": 36,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
