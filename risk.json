@@ -1,54 +1,53 @@
 {
-  "last_updated": "2026-04-21 08:18:16 UTC",
-  "probability": 13.53,
-  "uncertainty": 6.21,
+  "last_updated": "2026-04-21 10:01:24 UTC",
+  "probability": 12.95,
+  "uncertainty": 6.12,
   "state": {
-    "us_russia": 3.5077598592229378,
-    "us_china": 3.0011518871686875,
-    "china_taiwan": 4.000230377433738,
+    "us_russia": 3.497583297420923,
+    "us_china": 3.000679648860518,
+    "china_taiwan": 4.000135929772104,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.122935144862067,
-    "iran_israel": 4.886624100983037,
-    "nk_us": 3.0000000000000004,
-    "nk_sk": 2.80000213681547,
+    "iran_us": 4.12725371996666,
+    "iran_israel": 4.662742853488139,
+    "nk_us": 4.0,
+    "nk_sk": 2.8000011351832184,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.328739033945317
+    "russia_ukraine": 5.174642611783449
   },
   "top_drivers": [
     {
-      "title": "Iran says 'no decision' on joining new talks, with US delegation set to depart",
-      "published": "Mon, 20 Apr 2026 18:13:32 GMT",
+      "title": "US \u2018restricts intelligence sharing with South Korea\u2019 after minister identified suspected nuclear site",
+      "published": "Tue, 21 Apr 2026 09:26:00 GMT",
       "actors": [
-        "iran",
+        "nk",
         "us"
       ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.259,
-      "raw_impact": 0.288,
+      "state_key": "nk_us",
+      "class": "strategic",
+      "impact": 0.835,
+      "raw_impact": 1.16,
       "source_weight": 0.9,
-      "age_hours": 14.08,
-      "confidence": 0.698,
-      "signal_total": 0.65,
+      "age_hours": 0.59,
+      "confidence": 0.96,
+      "signal_total": 1.2,
       "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
+        "deescalation": 0.0,
+        "action": 0.0,
         "movement": 0.0,
-        "strategic": 0.0,
+        "strategic": 1.2,
         "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/iran-says-no-decision-on-joining-new-talks-with-us-delegation-set-to-depart",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.theguardian.com/world/2026/apr/21/us-reportedly-restricts-south-korea-intelligence-sharing-after-minister-identified-suspected-nuclear-site",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "www.theguardian.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/iran-says-no-decision-on-joining-new-talks-with-us-delegation-set-to-depart"
+        "https://www.theguardian.com/world/2026/apr/21/us-reportedly-restricts-south-korea-intelligence-sharing-after-minister-identified-suspected-nuclear-site"
       ]
     },
     {
@@ -60,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.221,
-      "raw_impact": 0.201,
+      "impact": 0.2,
+      "raw_impact": 0.182,
       "source_weight": 1.1,
-      "age_hours": 20.3,
+      "age_hours": 22.02,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -87,6 +86,40 @@
       ]
     },
     {
+      "title": "MIDDLE EAST LIVE 21 April: Talks unclear; Hormuz tensions continue",
+      "published": "Tue, 21 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.198,
+      "raw_impact": -0.2,
+      "source_weight": 1.1,
+      "age_hours": 0.0,
+      "confidence": 0.78,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167340",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167340"
+      ]
+    },
+    {
       "title": "Pakistan\u2019s Leaders Try to Contain Rising Anger Over Iran War at Home",
       "published": "Mon, 20 Apr 2026 09:02:41 +0000",
       "actors": [
@@ -95,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.211,
-      "raw_impact": 0.235,
+      "impact": 0.191,
+      "raw_impact": 0.213,
       "source_weight": 0.9,
-      "age_hours": 23.26,
+      "age_hours": 24.98,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -121,6 +154,108 @@
       ]
     },
     {
+      "title": "Pakistan prepares for potential talks",
+      "published": "Tue, 21 Apr 2026 09:45:39 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.159,
+      "raw_impact": -0.197,
+      "source_weight": 0.9,
+      "age_hours": 0.26,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/pakistan-prepares-for-potential-talks",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/pakistan-prepares-for-potential-talks"
+      ]
+    },
+    {
+      "title": "Doubt surrounds potential US-Iran talks",
+      "published": "Tue, 21 Apr 2026 09:44:25 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.159,
+      "raw_impact": -0.197,
+      "source_weight": 0.9,
+      "age_hours": 0.28,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/doubt-surrounds-potential-us-iran-talks",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/doubt-surrounds-potential-us-iran-talks"
+      ]
+    },
+    {
+      "title": "US, Iran exchange threats as fragile ceasefire set to expire",
+      "published": "Tue, 21 Apr 2026 07:55:38 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.143,
+      "raw_impact": -0.177,
+      "source_weight": 0.9,
+      "age_hours": 2.1,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/21/us-and-iran-exchange-threats-as-fragile-ceasefire-set-to-expire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/21/us-and-iran-exchange-threats-as-fragile-ceasefire-set-to-expire?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Middle East war live: Iranians not yet departed for US talks in Pakistan, state TV says",
       "published": "Tue, 21 Apr 2026 01:51:34 GMT",
       "actors": [
@@ -129,10 +264,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.112,
-      "raw_impact": -0.138,
+      "impact": -0.101,
+      "raw_impact": -0.125,
       "source_weight": 0.9,
-      "age_hours": 6.45,
+      "age_hours": 8.16,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -163,10 +298,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.098,
-      "raw_impact": -0.109,
+      "impact": -0.089,
+      "raw_impact": -0.099,
       "source_weight": 1.0,
-      "age_hours": 10.43,
+      "age_hours": 12.15,
       "confidence": 0.69,
       "signal_total": -0.2,
       "signal_components": {
@@ -197,10 +332,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.092,
-      "raw_impact": -0.114,
+      "impact": -0.084,
+      "raw_impact": -0.103,
       "source_weight": 0.9,
-      "age_hours": 9.76,
+      "age_hours": 11.48,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -223,40 +358,6 @@
       ]
     },
     {
-      "title": "U.S.-Iran talks are uncertain as ceasefire is set to expire",
-      "published": "Mon, 20 Apr 2026 16:14:52 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.077,
-      "raw_impact": -0.1,
-      "source_weight": 0.85,
-      "age_hours": 12.06,
-      "confidence": 0.755,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5791630/u-s-iran-talks-are-uncertain-as-ceasefire-is-set-to-expire",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/20/nx-s1-5791630/u-s-iran-talks-are-uncertain-as-ceasefire-is-set-to-expire"
-      ]
-    },
-    {
       "title": "Iran talks on shaky footing after U.S. seizure of ship in Strait of Hormuz",
       "published": "Mon, 20 Apr 2026 19:36:07 +0000",
       "actors": [
@@ -265,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.077,
-      "raw_impact": -0.096,
+      "impact": -0.07,
+      "raw_impact": -0.087,
       "source_weight": 0.9,
-      "age_hours": 12.7,
+      "age_hours": 14.42,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -291,19 +392,19 @@
       ]
     },
     {
-      "title": "'Trump has boxed himself into a corner', expert says as fate of Iran peace talks uncertain",
-      "published": "Mon, 20 Apr 2026 19:23:15 GMT",
+      "title": "U.S.-Iran talks are uncertain as ceasefire is set to expire",
+      "published": "Mon, 20 Apr 2026 16:14:52 -0400",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.077,
-      "raw_impact": -0.095,
-      "source_weight": 0.9,
-      "age_hours": 12.92,
-      "confidence": 0.67,
+      "impact": -0.069,
+      "raw_impact": -0.09,
+      "source_weight": 0.85,
+      "age_hours": 13.78,
+      "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -313,83 +414,49 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/trump-has-boxed-himself-into-a-corner-expert-says-as-fate-of-iran-peace-talks-uncertain",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.npr.org/2026/04/20/nx-s1-5791630/u-s-iran-talks-are-uncertain-as-ceasefire-is-set-to-expire",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "feeds.npr.org"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/trump-has-boxed-himself-into-a-corner-expert-says-as-fate-of-iran-peace-talks-uncertain"
+        "https://www.npr.org/2026/04/20/nx-s1-5791630/u-s-iran-talks-are-uncertain-as-ceasefire-is-set-to-expire"
       ]
     },
     {
-      "title": "What exit strategy? Trump, Iranians send mixed signals as truce deadline looms",
-      "published": "Mon, 20 Apr 2026 18:10:33 GMT",
+      "title": "Iran War Live Updates: Vance Is Expected to Lead Talks in Pakistan, U.S. Officials Say",
+      "published": "Tue, 21 Apr 2026 09:23:32 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.072,
-      "raw_impact": -0.088,
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.193,
       "source_weight": 0.9,
-      "age_hours": 14.13,
-      "confidence": 0.75,
-      "signal_total": -0.2,
+      "age_hours": 0.63,
+      "confidence": 0.68,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/tv-shows/the-debate/20260420-what-exit-strategy-trump-iranians-send-mixed-signals-as-truce-deadline-looms",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/tv-shows/the-debate/20260420-what-exit-strategy-trump-iranians-send-mixed-signals-as-truce-deadline-looms"
-      ]
-    },
-    {
-      "title": "Oil prices jump after U.S. seizes Iranian vessel, imperiling ceasefire",
-      "published": "Mon, 20 Apr 2026 10:19:52 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.046,
-      "raw_impact": -0.056,
-      "source_weight": 0.9,
-      "age_hours": 21.97,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/"
+        "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news"
       ]
     },
     {
@@ -401,10 +468,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.045,
-      "raw_impact": -0.059,
+      "impact": -0.041,
+      "raw_impact": -0.053,
       "source_weight": 0.85,
-      "age_hours": 21.26,
+      "age_hours": 22.98,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -427,37 +494,37 @@
       ]
     },
     {
-      "title": "Tehran and Trump Send Mixed Signals Ahead of Potential Talks",
-      "published": "Tue, 21 Apr 2026 07:52:13 +0000",
+      "title": "Oil prices jump after U.S. seizes Iranian vessel, imperiling ceasefire",
+      "published": "Mon, 20 Apr 2026 10:19:52 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.195,
+      "class": "deescalation",
+      "impact": -0.041,
+      "raw_impact": -0.051,
       "source_weight": 0.9,
-      "age_hours": 0.43,
-      "confidence": 0.68,
-      "signal_total": 0.2,
+      "age_hours": 23.69,
+      "confidence": 0.76,
+      "signal_total": -0.2,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.2,
+        "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/20/world/iran-us-war-trump-hormuz",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "feeds.washingtonpost.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/20/world/iran-us-war-trump-hormuz"
+        "https://www.washingtonpost.com/world/2026/04/19/trump-iran-war-hormuz-strait-negotiations/"
       ]
     },
     {
@@ -469,10 +536,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.038,
+      "raw_impact": 0.17,
       "source_weight": 0.9,
-      "age_hours": 1.13,
+      "age_hours": 2.85,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -503,10 +570,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
+      "impact": 0.034,
+      "raw_impact": 0.153,
       "source_weight": 0.9,
-      "age_hours": 2.97,
+      "age_hours": 4.69,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -537,10 +604,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.165,
+      "impact": 0.034,
+      "raw_impact": 0.149,
       "source_weight": 0.9,
-      "age_hours": 3.38,
+      "age_hours": 5.1,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -563,40 +630,6 @@
       ]
     },
     {
-      "title": "US is \u2018pretty far behind where they started\u2019 the war on Iran",
-      "published": "Tue, 21 Apr 2026 01:37:53 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.136,
-      "source_weight": 0.9,
-      "age_hours": 6.67,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/quotable/2026/4/21/us-is-pretty-far-behind-where-they-started-the-war-on-iran?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/quotable/2026/4/21/us-is-pretty-far-behind-where-they-started-the-war-on-iran?traffic_source=rss"
-      ]
-    },
-    {
       "title": "How Pakistan learned to speak Trump\u2019s language, becoming an unlikely peacemaker",
       "published": "Mon, 20 Apr 2026 19:57:38 +0000",
       "actors": [
@@ -605,10 +638,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.098,
+      "impact": 0.02,
+      "raw_impact": 0.089,
       "source_weight": 0.9,
-      "age_hours": 12.34,
+      "age_hours": 14.06,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -639,10 +672,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.071,
+      "impact": 0.018,
+      "raw_impact": 0.064,
       "source_weight": 1.1,
-      "age_hours": 17.99,
+      "age_hours": 19.71,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -673,10 +706,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.057,
+      "impact": 0.011,
+      "raw_impact": 0.051,
       "source_weight": 0.85,
-      "age_hours": 21.8,
+      "age_hours": 23.52,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -707,10 +740,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.005,
+      "impact": 0.004,
       "raw_impact": 0.004,
       "source_weight": 1.1,
-      "age_hours": 92.3,
+      "age_hours": 94.02,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -733,40 +766,6 @@
       ]
     },
     {
-      "title": "MIDDLE EAST LIVE 17 April: Israel-Lebanon ceasefire begins; Iran announces opening of Strait of Hormuz",
-      "published": "Fri, 17 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.001,
-      "raw_impact": -0.001,
-      "source_weight": 1.1,
-      "age_hours": 92.3,
-      "confidence": 0.78,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167318",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167318"
-      ]
-    },
-    {
       "title": "Hegseth Urges Iran to 'Choose Wisely' During Epic Fury Ceasefire, Blockade",
       "published": "Thu, 16 Apr 2026 20:04:00 GMT",
       "actors": [
@@ -778,7 +777,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 108.24,
+      "age_hours": 109.96,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -812,7 +811,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 250.59,
+      "age_hours": 252.31,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -846,7 +845,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1161.56,
+      "age_hours": 1163.27,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -880,7 +879,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 167.86,
+      "age_hours": 169.58,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -915,7 +914,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 283.94,
+      "age_hours": 285.66,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -950,7 +949,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 479.79,
+      "age_hours": 481.51,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -971,41 +970,6 @@
       ],
       "cluster_links": [
         "https://www.iss.europa.eu/publications/commentary/contestation-crisis-and-choice-eus-opportunity-energy"
-      ]
-    },
-    {
-      "title": "Africa's power choice: The renewables market and its implications for the EU",
-      "published": "Mon, 30 Mar 2026 15:31:25 +0000",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "strategic",
-      "impact": 0.0,
-      "raw_impact": 0.0,
-      "source_weight": 0.75,
-      "age_hours": 520.78,
-      "confidence": 0.954,
-      "signal_total": 2.57,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.5,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.03,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.iss.europa.eu/publications/briefs/africas-power-choice-renewables-market-and-its-implications-eu",
-      "source": "https://www.iss.europa.eu/rss.xml",
-      "source_domain": "www.iss.europa.eu",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.iss.europa.eu"
-      ],
-      "cluster_links": [
-        "https://www.iss.europa.eu/publications/briefs/africas-power-choice-renewables-market-and-its-implications-eu"
       ]
     }
   ],
@@ -1124,6 +1088,11 @@
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
+    },
+    {
+      "name": "www.theguardian.com",
+      "url": "https://www.theguardian.com/world/rss",
+      "domain": "www.theguardian.com"
     }
   ],
   "driver_sort_default": "chronological",
@@ -1135,17 +1104,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 226,
-    "classified_count": 29,
-    "paired_count": 29,
-    "valid_pair_updates": 5,
-    "top_driver_count": 29,
-    "total_signal": 1.0538,
+    "event_count": 225,
+    "classified_count": 28,
+    "paired_count": 28,
+    "valid_pair_updates": 6,
+    "top_driver_count": 28,
+    "total_signal": 1.4556,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 111,
-      "no_signal": 48,
-      "invalid_pair": 38,
+      "no_actor": 114,
+      "no_signal": 49,
+      "invalid_pair": 34,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
