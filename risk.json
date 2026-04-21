@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-21 22:08:58 UTC",
-  "probability": 15.66,
-  "uncertainty": 5.8,
+  "last_updated": "2026-04-21 23:08:35 UTC",
+  "probability": 15.81,
+  "uncertainty": 5.87,
   "state": {
-    "us_russia": 3.3587693458608006,
-    "us_china": 3.0000784255711475,
-    "china_taiwan": 4.132537949366566,
+    "us_russia": 3.3801567679189124,
+    "us_china": 3.000073397275017,
+    "china_taiwan": 4.070417132339058,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.600639015553377,
-    "iran_israel": 6.53117501405344,
-    "nk_us": 4.177079646502851,
-    "nk_sk": 2.800000003826101,
+    "iran_us": 5.615964477012732,
+    "iran_israel": 6.57906172621589,
+    "nk_us": 4.114536207261388,
+    "nk_sk": 2.800000002032616,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.531838627713037
+    "russia_ukraine": 6.771894267942068
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.812,
-      "raw_impact": 1.127,
+      "impact": 0.766,
+      "raw_impact": 1.065,
       "source_weight": 0.9,
-      "age_hours": 1.08,
+      "age_hours": 2.07,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.797,
-      "raw_impact": 1.107,
+      "impact": 0.753,
+      "raw_impact": 1.045,
       "source_weight": 0.9,
-      "age_hours": 1.39,
+      "age_hours": 2.39,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.795,
-      "raw_impact": 1.104,
+      "impact": 0.75,
+      "raw_impact": 1.042,
       "source_weight": 0.9,
-      "age_hours": 1.44,
+      "age_hours": 2.44,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.728,
-      "raw_impact": 1.071,
+      "impact": 0.687,
+      "raw_impact": 1.011,
       "source_weight": 0.85,
-      "age_hours": 1.97,
+      "age_hours": 2.96,
       "confidence": 0.945,
       "signal_total": 1.2,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.557,
-      "raw_impact": 0.773,
+      "impact": 0.526,
+      "raw_impact": 0.73,
       "source_weight": 0.9,
-      "age_hours": 3.39,
+      "age_hours": 4.38,
       "confidence": 0.746,
       "signal_total": 0.94,
       "signal_components": {
@@ -196,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.528,
-      "raw_impact": 0.587,
+      "impact": 0.498,
+      "raw_impact": 0.554,
       "source_weight": 0.9,
-      "age_hours": 1.78,
+      "age_hours": 2.77,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -231,10 +231,10 @@
       ],
       "state_key": "nk_us",
       "class": "strategic",
-      "impact": 0.414,
-      "raw_impact": 0.576,
+      "impact": 0.391,
+      "raw_impact": 0.544,
       "source_weight": 0.9,
-      "age_hours": 12.72,
+      "age_hours": 13.71,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -265,10 +265,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.414,
-      "raw_impact": 0.46,
+      "impact": 0.391,
+      "raw_impact": 0.434,
       "source_weight": 0.9,
-      "age_hours": 5.98,
+      "age_hours": 6.98,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -292,52 +292,53 @@
       ]
     },
     {
-      "title": "Trump extends ceasefire, says giving Iran time to negotiate",
-      "published": "Tue, 21 Apr 2026 21:28:40 GMT",
+      "title": "Trump extends Iran ceasefire as peace talks hit impasse",
+      "published": "Tue, 21 Apr 2026 22:24:19 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.156,
-      "raw_impact": -0.192,
+      "class": "movement",
+      "impact": 0.19,
+      "raw_impact": 0.249,
       "source_weight": 0.9,
-      "age_hours": 0.67,
-      "confidence": 0.76,
-      "signal_total": -0.2,
+      "age_hours": 0.74,
+      "confidence": 0.61,
+      "signal_total": 0.26,
       "signal_components": {
         "deescalation": -0.2,
         "action": 0.0,
-        "movement": 0.0,
+        "movement": 0.5,
         "strategic": 0.0,
         "rhetoric": 0.0,
+        "contradiction_adjustment": -0.04,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/trump-extends-ceasefire-says-giving-iran-time-to-negotiate",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.ft.com/content/792cf320-25ef-4d6a-bce5-028d0f3afba9",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "www.ft.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/trump-extends-ceasefire-says-giving-iran-time-to-negotiate"
+        "https://www.ft.com/content/792cf320-25ef-4d6a-bce5-028d0f3afba9"
       ]
     },
     {
-      "title": "Trump announces indefinite extension of ceasefire as Iran postpones negotiations",
-      "published": "Tue, 21 Apr 2026 21:11:21 +0000",
+      "title": "Trump extends ceasefire indefinitely as Iran says it won\u2019t join talks now",
+      "published": "Tue, 21 Apr 2026 22:49:48 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.153,
-      "raw_impact": -0.189,
+      "impact": -0.159,
+      "raw_impact": -0.196,
       "source_weight": 0.9,
-      "age_hours": 0.96,
+      "age_hours": 0.31,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -360,52 +361,18 @@
       ]
     },
     {
-      "title": "Why Negotiations With Iran Might Take a While",
-      "published": "Tue, 21 Apr 2026 20:38:30 +0000",
+      "title": "Iran accuses US of violating international law over vessel seizure in Gulf of Oman",
+      "published": "Tue, 21 Apr 2026 22:46:36 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.183,
+      "impact": -0.158,
+      "raw_impact": -0.196,
       "source_weight": 0.9,
-      "age_hours": 1.51,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/video/world/middleeast/100000010853017/why-negotiations-with-iran-might-take-a-while.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/video/world/middleeast/100000010853017/why-negotiations-with-iran-might-take-a-while.html"
-      ]
-    },
-    {
-      "title": "Trump extends Iran ceasefire until talks conclude",
-      "published": "Tue, 21 Apr 2026 20:26:52 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.147,
-      "raw_impact": -0.181,
-      "source_weight": 0.9,
-      "age_hours": 1.7,
+      "age_hours": 0.37,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -428,6 +395,74 @@
       ]
     },
     {
+      "title": "Trump extends ceasefire, says giving Iran time to negotiate",
+      "published": "Tue, 21 Apr 2026 21:28:40 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.147,
+      "raw_impact": -0.182,
+      "source_weight": 0.9,
+      "age_hours": 1.67,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/trump-extends-ceasefire-says-giving-iran-time-to-negotiate",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/trump-extends-ceasefire-says-giving-iran-time-to-negotiate"
+      ]
+    },
+    {
+      "title": "Why Negotiations With Iran Might Take a While",
+      "published": "Tue, 21 Apr 2026 20:38:30 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.14,
+      "raw_impact": -0.173,
+      "source_weight": 0.9,
+      "age_hours": 2.5,
+      "confidence": 0.67,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/video/world/middleeast/100000010853017/why-negotiations-with-iran-might-take-a-while.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/video/world/middleeast/100000010853017/why-negotiations-with-iran-might-take-a-while.html"
+      ]
+    },
+    {
       "title": "US-Iran talks are in doubt as ceasefire nears an end",
       "published": "Tue, 21 Apr 2026 18:46:20 GMT",
       "actors": [
@@ -436,10 +471,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.133,
-      "raw_impact": -0.165,
+      "impact": -0.126,
+      "raw_impact": -0.155,
       "source_weight": 0.9,
-      "age_hours": 3.38,
+      "age_hours": 4.37,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -470,10 +505,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.114,
-      "raw_impact": -0.141,
+      "impact": -0.108,
+      "raw_impact": -0.134,
       "source_weight": 0.9,
-      "age_hours": 6.0,
+      "age_hours": 7.0,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -504,10 +539,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.11,
-      "raw_impact": -0.111,
+      "impact": -0.104,
+      "raw_impact": -0.105,
       "source_weight": 1.1,
-      "age_hours": 10.15,
+      "age_hours": 11.14,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -538,10 +573,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.099,
-      "raw_impact": 0.09,
+      "impact": 0.094,
+      "raw_impact": 0.085,
       "source_weight": 1.1,
-      "age_hours": 34.15,
+      "age_hours": 35.14,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -573,10 +608,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.087,
-      "raw_impact": -0.114,
+      "impact": -0.082,
+      "raw_impact": -0.108,
       "source_weight": 0.85,
-      "age_hours": 9.75,
+      "age_hours": 10.74,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -607,10 +642,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.084,
-      "raw_impact": -0.109,
+      "impact": -0.078,
+      "raw_impact": -0.103,
       "source_weight": 0.85,
-      "age_hours": 10.51,
+      "age_hours": 11.51,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -641,10 +676,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.079,
-      "raw_impact": -0.103,
+      "impact": -0.075,
+      "raw_impact": -0.098,
       "source_weight": 0.85,
-      "age_hours": 11.43,
+      "age_hours": 12.42,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -675,10 +710,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.188,
+      "impact": 0.04,
+      "raw_impact": 0.177,
       "source_weight": 0.9,
-      "age_hours": 1.08,
+      "age_hours": 2.08,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -709,10 +744,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.165,
+      "impact": 0.035,
+      "raw_impact": 0.156,
       "source_weight": 0.9,
-      "age_hours": 3.36,
+      "age_hours": 4.36,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -735,6 +770,40 @@
       ]
     },
     {
+      "title": "A dangerous blind spot in Donald Trump\u2019s Iran war strategy",
+      "published": "Tue, 21 Apr 2026 21:12:55 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.034,
+      "raw_impact": 0.179,
+      "source_weight": 0.75,
+      "age_hours": 1.93,
+      "confidence": 0.655,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.economist.com/international/2026/04/21/a-dangerous-blind-spot-in-donald-trumps-iran-war-strategy",
+      "source": "https://www.economist.com/international/rss.xml",
+      "source_domain": "www.economist.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.economist.com"
+      ],
+      "cluster_links": [
+        "https://www.economist.com/international/2026/04/21/a-dangerous-blind-spot-in-donald-trumps-iran-war-strategy"
+      ]
+    },
+    {
       "title": "Iran sees mass redundancies from war with US and Israel",
       "published": "Tue, 21 Apr 2026 16:05:51 GMT",
       "actors": [
@@ -743,10 +812,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.141,
+      "impact": 0.033,
+      "raw_impact": 0.133,
       "source_weight": 1.0,
-      "age_hours": 6.05,
+      "age_hours": 7.05,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -777,10 +846,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.035,
-      "raw_impact": -0.043,
+      "impact": -0.033,
+      "raw_impact": -0.041,
       "source_weight": 0.9,
-      "age_hours": 26.55,
+      "age_hours": 27.54,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -803,40 +872,6 @@
       ]
     },
     {
-      "title": "A dangerous blind spot in Donald Trump\u2019s Iran war strategy",
-      "published": "Tue, 21 Apr 2026 21:12:55 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.189,
-      "source_weight": 0.75,
-      "age_hours": 0.93,
-      "confidence": 0.655,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.economist.com/international/2026/04/21/a-dangerous-blind-spot-in-donald-trumps-iran-war-strategy",
-      "source": "https://www.economist.com/international/rss.xml",
-      "source_domain": "www.economist.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.economist.com"
-      ],
-      "cluster_links": [
-        "https://www.economist.com/international/2026/04/21/a-dangerous-blind-spot-in-donald-trumps-iran-war-strategy"
-      ]
-    },
-    {
       "title": "Europe Wanted a Say on the Iran War, but It\u2019s Still on the Sidelines",
       "published": "Tue, 21 Apr 2026 14:32:05 +0000",
       "actors": [
@@ -845,10 +880,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.129,
+      "impact": 0.027,
+      "raw_impact": 0.122,
       "source_weight": 0.9,
-      "age_hours": 7.61,
+      "age_hours": 8.61,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -879,10 +914,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.021,
-      "raw_impact": -0.025,
+      "impact": -0.019,
+      "raw_impact": -0.024,
       "source_weight": 0.9,
-      "age_hours": 35.82,
+      "age_hours": 36.81,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -913,10 +948,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.044,
+      "impact": 0.009,
+      "raw_impact": 0.042,
       "source_weight": 0.9,
-      "age_hours": 26.19,
+      "age_hours": 27.18,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -947,10 +982,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.032,
+      "impact": 0.008,
+      "raw_impact": 0.03,
       "source_weight": 1.1,
-      "age_hours": 31.83,
+      "age_hours": 32.83,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -984,7 +1019,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 122.08,
+      "age_hours": 123.08,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1018,7 +1053,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1175.4,
+      "age_hours": 1176.39,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1052,7 +1087,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 181.7,
+      "age_hours": 182.69,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1087,7 +1122,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 297.79,
+      "age_hours": 298.78,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1122,7 +1157,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 493.64,
+      "age_hours": 494.63,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1283,16 +1318,16 @@
   ],
   "debug": {
     "event_count": 230,
-    "classified_count": 33,
-    "paired_count": 33,
+    "classified_count": 34,
+    "paired_count": 34,
     "valid_pair_updates": 7,
-    "top_driver_count": 33,
-    "total_signal": 6.3753,
+    "top_driver_count": 34,
+    "total_signal": 6.243,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 99,
-      "no_signal": 65,
-      "invalid_pair": 33,
+      "no_actor": 98,
+      "no_signal": 63,
+      "invalid_pair": 35,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
