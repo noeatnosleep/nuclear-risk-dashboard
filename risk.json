@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-21 15:16:21 UTC",
-  "probability": 13.01,
-  "uncertainty": 5.86,
+  "last_updated": "2026-04-21 16:36:53 UTC",
+  "probability": 13.51,
+  "uncertainty": 6.01,
   "state": {
-    "us_russia": 3.2446176768327377,
-    "us_china": 3.000198215570251,
-    "china_taiwan": 4.2482828170822575,
+    "us_russia": 3.2237032184347956,
+    "us_china": 3.0001515715851457,
+    "china_taiwan": 4.277433791141483,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.509803720247931,
-    "iran_israel": 4.626370282403059,
-    "nk_us": 4.634725915296274,
-    "nk_sk": 2.800000170201268,
+    "iran_us": 4.8606926640730315,
+    "iran_israel": 5.305033778546412,
+    "nk_us": 4.581748575320463,
+    "nk_sk": 2.8000000904194238,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.026184666494509
+    "russia_ukraine": 5.013910604075209
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.704,
-      "raw_impact": 0.978,
+      "impact": 0.652,
+      "raw_impact": 0.905,
       "source_weight": 0.9,
-      "age_hours": 3.54,
+      "age_hours": 4.88,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "nk_us",
       "class": "strategic",
-      "impact": 0.617,
-      "raw_impact": 0.856,
+      "impact": 0.57,
+      "raw_impact": 0.793,
       "source_weight": 0.9,
-      "age_hours": 5.84,
+      "age_hours": 7.18,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -85,6 +85,41 @@
       ]
     },
     {
+      "title": "Top Lebanese official makes warning",
+      "published": "Tue, 21 Apr 2026 16:10:04 GMT",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.57,
+      "raw_impact": 0.633,
+      "source_weight": 0.9,
+      "age_hours": 0.45,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/top-lebanese-official-makes-warning",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/top-lebanese-official-makes-warning"
+      ]
+    },
+    {
       "title": "As the U.S.-Iran ceasefire deadline looms, here are the main sticking points",
       "published": "Tue, 21 Apr 2026 08:24:15 -0400",
       "actors": [
@@ -93,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.542,
-      "raw_impact": 0.796,
+      "impact": 0.502,
+      "raw_impact": 0.737,
       "source_weight": 0.85,
-      "age_hours": 2.87,
+      "age_hours": 4.21,
       "confidence": 0.741,
       "signal_total": 0.94,
       "signal_components": {
@@ -120,6 +155,108 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: Cease-Fire Nears End, and It\u2019s Unclear if Peace Talks Will Resume",
+      "published": "Tue, 21 Apr 2026 16:31:42 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.161,
+      "raw_impact": -0.199,
+      "source_weight": 0.9,
+      "age_hours": 0.09,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news"
+      ]
+    },
+    {
+      "title": "U.S. delegation\u2019s departure for Islamabad delayed as Iran ceasefire nears expiration",
+      "published": "Tue, 21 Apr 2026 16:09:45 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.158,
+      "raw_impact": -0.195,
+      "source_weight": 0.9,
+      "age_hours": 0.45,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/21/iran-us-talks-ceasefire/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/21/iran-us-talks-ceasefire/"
+      ]
+    },
+    {
+      "title": "Iran's participation in US talks unclear",
+      "published": "Tue, 21 Apr 2026 16:08:52 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.158,
+      "raw_impact": -0.195,
+      "source_weight": 0.9,
+      "age_hours": 0.47,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/iran-s-participation-in-us-talks-unclear",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/iran-s-participation-in-us-talks-unclear"
+      ]
+    },
+    {
       "title": "MIDDLE EAST LIVE 21 April: Talks unclear; Hormuz tensions continue",
       "published": "Tue, 21 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -128,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.164,
-      "raw_impact": -0.166,
+      "impact": -0.152,
+      "raw_impact": -0.153,
       "source_weight": 1.1,
-      "age_hours": 3.27,
+      "age_hours": 4.61,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -162,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.159,
-      "raw_impact": -0.196,
+      "impact": -0.147,
+      "raw_impact": -0.182,
       "source_weight": 0.9,
-      "age_hours": 0.33,
+      "age_hours": 1.67,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -188,74 +325,6 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Uncertainty Surrounds U.S.-Iran Talks as Cease-Fire Nears End",
-      "published": "Tue, 21 Apr 2026 14:59:21 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.159,
-      "raw_impact": -0.197,
-      "source_weight": 0.9,
-      "age_hours": 0.28,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news"
-      ]
-    },
-    {
-      "title": "U.S. delegation set to leave for Islamabad as Iran ceasefire nears expiration",
-      "published": "Tue, 21 Apr 2026 14:05:52 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.151,
-      "raw_impact": -0.187,
-      "source_weight": 0.9,
-      "age_hours": 1.17,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/21/iran-us-talks-ceasefire/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/21/iran-us-talks-ceasefire/"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 20 April: Uncertainty grows in the Strait of Hormuz",
       "published": "Mon, 20 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -264,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.148,
-      "raw_impact": 0.135,
+      "impact": 0.137,
+      "raw_impact": 0.124,
       "source_weight": 1.1,
-      "age_hours": 27.27,
+      "age_hours": 28.61,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -299,10 +368,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.143,
-      "raw_impact": -0.176,
+      "impact": -0.132,
+      "raw_impact": -0.163,
       "source_weight": 0.9,
-      "age_hours": 2.2,
+      "age_hours": 3.54,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -325,40 +394,6 @@
       ]
     },
     {
-      "title": "Pakistan\u2019s Leaders Try to Contain Rising Anger Over Iran War at Home",
-      "published": "Mon, 20 Apr 2026 09:02:41 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.141,
-      "raw_impact": 0.157,
-      "source_weight": 0.9,
-      "age_hours": 30.23,
-      "confidence": 0.9,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/20/world/asia/pakistan-shiites-iran-diplomacy.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/20/world/asia/pakistan-shiites-iran-diplomacy.html"
-      ]
-    },
-    {
       "title": "Iran-US war: Four scenarios for what\u2019s next as talks stumble",
       "published": "Tue, 21 Apr 2026 12:22:58 +0000",
       "actors": [
@@ -367,10 +402,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.137,
-      "raw_impact": -0.169,
+      "impact": -0.127,
+      "raw_impact": -0.157,
       "source_weight": 0.9,
-      "age_hours": 2.89,
+      "age_hours": 4.23,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -401,10 +436,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.124,
-      "raw_impact": -0.162,
+      "impact": -0.115,
+      "raw_impact": -0.15,
       "source_weight": 0.85,
-      "age_hours": 3.64,
+      "age_hours": 4.98,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -435,10 +470,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.118,
-      "raw_impact": -0.154,
+      "impact": -0.109,
+      "raw_impact": -0.142,
       "source_weight": 0.85,
-      "age_hours": 4.55,
+      "age_hours": 5.9,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -461,6 +496,40 @@
       ]
     },
     {
+      "title": "Iran sees mass redundancies from war with US and Israel",
+      "published": "Tue, 21 Apr 2026 16:05:51 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.049,
+      "raw_impact": 0.194,
+      "source_weight": 1.0,
+      "age_hours": 0.52,
+      "confidence": 0.69,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/ce84e31376zo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/ce84e31376zo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Iran talks on shaky footing after U.S. seizure of ship in Strait of Hormuz",
       "published": "Mon, 20 Apr 2026 19:36:07 +0000",
       "actors": [
@@ -469,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.052,
-      "raw_impact": -0.064,
+      "impact": -0.048,
+      "raw_impact": -0.059,
       "source_weight": 0.9,
-      "age_hours": 19.67,
+      "age_hours": 21.01,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -503,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.051,
-      "raw_impact": -0.067,
+      "impact": -0.047,
+      "raw_impact": -0.062,
       "source_weight": 0.85,
-      "age_hours": 19.02,
+      "age_hours": 20.37,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -529,52 +598,18 @@
       ]
     },
     {
-      "title": "Europe Wanted a Say on the Iran War, but It\u2019s Still on the Sidelines",
-      "published": "Tue, 21 Apr 2026 14:32:04 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.192,
-      "source_weight": 0.9,
-      "age_hours": 0.74,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/21/world/middleeast/iran-war-europe-macron-france.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/21/world/middleeast/iran-war-europe-macron-france.html"
-      ]
-    },
-    {
       "title": "U.S. Military Stops and Boards M/T Tifani, Tanker Carrying Iranian Oil, Pentagon Says",
-      "published": "Tue, 21 Apr 2026 14:32:30 +0000",
+      "published": "Tue, 21 Apr 2026 15:30:11 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.192,
+      "impact": 0.042,
+      "raw_impact": 0.188,
       "source_weight": 0.9,
-      "age_hours": 0.73,
+      "age_hours": 1.11,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -597,6 +632,40 @@
       ]
     },
     {
+      "title": "Europe Wanted a Say on the Iran War, but It\u2019s Still on the Sidelines",
+      "published": "Tue, 21 Apr 2026 14:32:05 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.177,
+      "source_weight": 0.9,
+      "age_hours": 2.08,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/21/world/middleeast/iran-war-europe-macron-france.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/21/world/middleeast/iran-war-europe-macron-france.html"
+      ]
+    },
+    {
       "title": "Iran signals new military options amid talks uncertainty",
       "published": "Tue, 21 Apr 2026 14:07:50 GMT",
       "actors": [
@@ -605,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.039,
+      "raw_impact": 0.173,
       "source_weight": 0.9,
-      "age_hours": 1.14,
+      "age_hours": 2.48,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -639,10 +708,10 @@
       ],
       "state_key": "china_taiwan",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.175,
+      "impact": 0.036,
+      "raw_impact": 0.162,
       "source_weight": 0.9,
-      "age_hours": 2.34,
+      "age_hours": 3.68,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -673,10 +742,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.031,
-      "raw_impact": -0.038,
+      "impact": -0.028,
+      "raw_impact": -0.035,
       "source_weight": 0.9,
-      "age_hours": 28.94,
+      "age_hours": 30.28,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -707,10 +776,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.066,
+      "impact": 0.014,
+      "raw_impact": 0.061,
       "source_weight": 0.9,
-      "age_hours": 19.31,
+      "age_hours": 20.65,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -741,10 +810,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.047,
+      "impact": 0.012,
+      "raw_impact": 0.044,
       "source_weight": 1.1,
-      "age_hours": 24.96,
+      "age_hours": 26.3,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -778,7 +847,7 @@
       "impact": 0.003,
       "raw_impact": 0.003,
       "source_weight": 1.1,
-      "age_hours": 99.27,
+      "age_hours": 100.61,
       "confidence": 0.91,
       "signal_total": 0.9,
       "signal_components": {
@@ -812,7 +881,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 115.21,
+      "age_hours": 116.55,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -846,7 +915,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1168.52,
+      "age_hours": 1169.87,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -880,7 +949,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 174.82,
+      "age_hours": 176.17,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -915,7 +984,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 290.91,
+      "age_hours": 292.26,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -950,7 +1019,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 486.76,
+      "age_hours": 488.1,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -994,6 +1063,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "feeds.bbci.co.uk",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "domain": "feeds.bbci.co.uk"
     },
     {
       "name": "feeds.npr.org",
@@ -1105,17 +1179,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 229,
-    "classified_count": 28,
-    "paired_count": 28,
+    "event_count": 230,
+    "classified_count": 30,
+    "paired_count": 30,
     "valid_pair_updates": 6,
-    "top_driver_count": 28,
-    "total_signal": 2.1787,
+    "top_driver_count": 30,
+    "total_signal": 2.421,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 112,
+      "no_actor": 106,
       "no_signal": 57,
-      "invalid_pair": 32,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
