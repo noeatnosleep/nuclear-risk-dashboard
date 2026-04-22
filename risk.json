@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-22 16:38:41 UTC",
-  "probability": 15.82,
-  "uncertainty": 6.31,
+  "last_updated": "2026-04-22 18:01:38 UTC",
+  "probability": 15.41,
+  "uncertainty": 6.38,
   "state": {
-    "us_russia": 3.9275505586508137,
-    "us_china": 3.0354701379324016,
-    "china_taiwan": 4.007331316953664,
+    "us_russia": 3.9388669981081796,
+    "us_china": 3.018854171782715,
+    "china_taiwan": 4.0038968943328594,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633274792121256,
-    "iran_israel": 5.742479588079921,
-    "nk_us": 3.0037565110374698,
-    "nk_sk": 2.800000000006851,
+    "iran_us": 5.633302233314417,
+    "iran_israel": 5.42212877777112,
+    "nk_us": 3.001995646488656,
+    "nk_sk": 2.8000000000036396,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.912411163438992
+    "russia_ukraine": 5.591614025479336
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.78,
-      "raw_impact": 0.867,
+      "impact": 0.72,
+      "raw_impact": 0.8,
       "source_weight": 0.9,
-      "age_hours": 0.65,
+      "age_hours": 2.03,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,110 +51,6 @@
       ]
     },
     {
-      "title": "Iranian economy: Layoffs, inflation add to sanctions pain amid war",
-      "published": "Wed, 22 Apr 2026 11:48:44 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.654,
-      "raw_impact": 0.908,
-      "source_weight": 0.9,
-      "age_hours": 4.83,
-      "confidence": 0.96,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260422-iranian-economy-layoffs-inflation-add-to-sanctions-pain-amid-war",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260422-iranian-economy-layoffs-inflation-add-to-sanctions-pain-amid-war"
-      ]
-    },
-    {
-      "title": "In south Lebanon village, Hezbollah buries fighters killed in war with Israel",
-      "published": "Wed, 22 Apr 2026 11:47:49 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.442,
-      "raw_impact": 0.491,
-      "source_weight": 0.9,
-      "age_hours": 4.85,
-      "confidence": 0.698,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260422-in-south-lebanon-village-hezbollah-buries-fighters-killed-in-war-with-israel",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260422-in-south-lebanon-village-hezbollah-buries-fighters-killed-in-war-with-israel"
-      ]
-    },
-    {
-      "title": "Iran attacks ships in Hormuz Strait as the U.S. continues its blockade amid ceasefire",
-      "published": "Wed, 22 Apr 2026 06:53:59 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.396,
-      "raw_impact": 0.466,
-      "source_weight": 0.85,
-      "age_hours": 5.75,
-      "confidence": 0.693,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/22/nx-s1-5795405/iran-middle-east-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/22/nx-s1-5795405/iran-middle-east-updates"
-      ]
-    },
-    {
       "title": "What would happen next if Iran agreed to surrender its highly enriched uranium",
       "published": "Tue, 21 Apr 2026 16:10:42 -0400",
       "actors": [
@@ -163,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.25,
-      "raw_impact": 0.368,
+      "impact": 0.231,
+      "raw_impact": 0.34,
       "source_weight": 0.85,
-      "age_hours": 20.47,
+      "age_hours": 21.85,
       "confidence": 0.945,
       "signal_total": 1.2,
       "signal_components": {
@@ -197,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.176,
-      "raw_impact": -0.196,
+      "impact": -0.163,
+      "raw_impact": -0.181,
       "source_weight": 1.0,
-      "age_hours": 0.32,
+      "age_hours": 1.7,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -231,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.13,
-      "raw_impact": -0.169,
+      "impact": -0.12,
+      "raw_impact": -0.156,
       "source_weight": 0.85,
-      "age_hours": 2.87,
+      "age_hours": 4.25,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -265,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.129,
-      "raw_impact": -0.159,
+      "impact": -0.119,
+      "raw_impact": -0.147,
       "source_weight": 0.9,
-      "age_hours": 3.94,
+      "age_hours": 5.32,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -291,19 +187,19 @@
       ]
     },
     {
-      "title": "The military man trying to save US-Iran peace talks",
-      "published": "Wed, 22 Apr 2026 11:58:31 GMT",
+      "title": "Iran says it seized ships in Strait of Hormuz as U.S. blockade continues amid ceasefire",
+      "published": "Wed, 22 Apr 2026 06:53:59 -0400",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.123,
-      "raw_impact": -0.153,
-      "source_weight": 0.9,
-      "age_hours": 4.67,
-      "confidence": 0.68,
+      "impact": -0.102,
+      "raw_impact": -0.133,
+      "source_weight": 0.85,
+      "age_hours": 7.13,
+      "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -313,15 +209,15 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.ft.com/content/eb2215d1-df7f-41fb-b23b-a0bdb2f970bd",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
+      "link": "https://www.npr.org/2026/04/22/nx-s1-5795405/iran-middle-east-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.ft.com"
+        "feeds.npr.org"
       ],
       "cluster_links": [
-        "https://www.ft.com/content/eb2215d1-df7f-41fb-b23b-a0bdb2f970bd"
+        "https://www.npr.org/2026/04/22/nx-s1-5795405/iran-middle-east-updates"
       ]
     },
     {
@@ -333,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.058,
-      "raw_impact": -0.071,
+      "impact": -0.053,
+      "raw_impact": -0.066,
       "source_weight": 0.9,
-      "age_hours": 17.81,
+      "age_hours": 19.2,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -359,6 +255,74 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: Battle Over Strait Intensifies as Iranian Forces Say They Seized 2 Ships",
+      "published": "Wed, 22 Apr 2026 17:58:16 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.045,
+      "raw_impact": 0.199,
+      "source_weight": 0.9,
+      "age_hours": 0.06,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/22/world/iran-war-trump-ceasefire-talks",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/22/world/iran-war-trump-ceasefire-talks"
+      ]
+    },
+    {
+      "title": "Pakistani Officials Remain Hopeful About U.S.-Iran Talks",
+      "published": "Wed, 22 Apr 2026 17:09:35 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.19,
+      "source_weight": 0.9,
+      "age_hours": 0.87,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/22/world/asia/pakistan-iran-us-talks-islamabad.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/22/world/asia/pakistan-iran-us-talks-islamabad.html"
+      ]
+    },
+    {
       "title": "Lufthansa cuts 20,000 summer flights as fuel prices surge",
       "published": "Wed, 22 Apr 2026 15:00:40 GMT",
       "actors": [
@@ -367,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.182,
+      "impact": 0.042,
+      "raw_impact": 0.168,
       "source_weight": 1.0,
-      "age_hours": 1.63,
+      "age_hours": 3.02,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -401,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.18,
+      "impact": 0.037,
+      "raw_impact": 0.166,
       "source_weight": 0.9,
-      "age_hours": 1.8,
+      "age_hours": 3.18,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -435,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 2.38,
+      "age_hours": 3.76,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -469,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.038,
-      "raw_impact": -0.038,
+      "impact": -0.035,
+      "raw_impact": -0.035,
       "source_weight": 1.1,
-      "age_hours": 28.64,
+      "age_hours": 30.03,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -495,40 +459,6 @@
       ]
     },
     {
-      "title": "Iran calls US ship seizure \u2018piracy\u2019: Is it?",
-      "published": "Wed, 22 Apr 2026 12:33:36 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.158,
-      "source_weight": 0.9,
-      "age_hours": 4.08,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/22/iran-calls-us-ship-seizure-piracy-is-it?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/22/iran-calls-us-ship-seizure-piracy-is-it?traffic_source=rss"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 20 April: Uncertainty grows in the Strait of Hormuz",
       "published": "Mon, 20 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -537,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.034,
-      "raw_impact": 0.031,
+      "impact": 0.032,
+      "raw_impact": 0.029,
       "source_weight": 1.1,
-      "age_hours": 52.64,
+      "age_hours": 54.03,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -572,10 +502,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.18,
+      "impact": 0.031,
+      "raw_impact": 0.166,
       "source_weight": 0.75,
-      "age_hours": 1.82,
+      "age_hours": 3.2,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -606,10 +536,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.18,
+      "impact": 0.031,
+      "raw_impact": 0.166,
       "source_weight": 0.75,
-      "age_hours": 1.86,
+      "age_hours": 3.25,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,10 +570,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.03,
-      "raw_impact": -0.039,
+      "impact": -0.028,
+      "raw_impact": -0.036,
       "source_weight": 0.85,
-      "age_hours": 28.24,
+      "age_hours": 29.62,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -666,40 +596,6 @@
       ]
     },
     {
-      "title": "U.S.-Iran ceasefire nears its end. And, Fed chair nominee faces tough hearing",
-      "published": "Tue, 21 Apr 2026 07:38:06 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.029,
-      "raw_impact": -0.037,
-      "source_weight": 0.85,
-      "age_hours": 29.01,
-      "confidence": 0.745,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/21/g-s1-118194/up-first-newsletter-us-iran-israel-ceasefire-lori-chavez-deremer-kevin-warsh",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/21/g-s1-118194/up-first-newsletter-us-iran-israel-ceasefire-lori-chavez-deremer-kevin-warsh"
-      ]
-    },
-    {
       "title": "Threat of Evictions Darkens Russia\u2019s Rosy Picture of Occupied Ukraine",
       "published": "Wed, 22 Apr 2026 09:00:21 +0000",
       "actors": [
@@ -708,10 +604,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.129,
+      "impact": 0.027,
+      "raw_impact": 0.119,
       "source_weight": 0.9,
-      "age_hours": 7.64,
+      "age_hours": 9.02,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -734,6 +630,40 @@
       ]
     },
     {
+      "title": "U.S.-Iran ceasefire nears its end. And, Fed chair nominee faces tough hearing",
+      "published": "Tue, 21 Apr 2026 07:38:06 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.026,
+      "raw_impact": -0.035,
+      "source_weight": 0.85,
+      "age_hours": 30.39,
+      "confidence": 0.745,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/21/g-s1-118194/up-first-newsletter-us-iran-israel-ceasefire-lori-chavez-deremer-kevin-warsh",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/21/g-s1-118194/up-first-newsletter-us-iran-israel-ceasefire-lori-chavez-deremer-kevin-warsh"
+      ]
+    },
+    {
       "title": "Steven Everts interviewed by La Vanguardia",
       "published": "Wed, 22 Apr 2026 09:41:12 +0000",
       "actors": [
@@ -742,10 +672,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.134,
+      "impact": 0.023,
+      "raw_impact": 0.124,
       "source_weight": 0.75,
-      "age_hours": 6.96,
+      "age_hours": 8.34,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,10 +706,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.079,
+      "impact": 0.018,
+      "raw_impact": 0.073,
       "source_weight": 1.0,
-      "age_hours": 16.11,
+      "age_hours": 17.49,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,10 +740,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.048,
+      "impact": 0.011,
+      "raw_impact": 0.045,
       "source_weight": 1.0,
-      "age_hours": 24.55,
+      "age_hours": 25.93,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,10 +774,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.012,
-      "raw_impact": -0.015,
+      "impact": -0.011,
+      "raw_impact": -0.014,
       "source_weight": 0.9,
-      "age_hours": 45.04,
+      "age_hours": 46.43,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -878,10 +808,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.065,
+      "impact": 0.011,
+      "raw_impact": 0.06,
       "source_weight": 0.75,
-      "age_hours": 19.43,
+      "age_hours": 20.81,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -912,10 +842,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.004,
-      "raw_impact": 0.015,
+      "impact": 0.003,
+      "raw_impact": 0.014,
       "source_weight": 0.9,
-      "age_hours": 44.68,
+      "age_hours": 46.07,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -947,9 +877,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.011,
+      "raw_impact": 0.01,
       "source_weight": 1.1,
-      "age_hours": 50.33,
+      "age_hours": 51.71,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -983,7 +913,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 140.58,
+      "age_hours": 141.96,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1017,7 +947,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1193.9,
+      "age_hours": 1195.28,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1051,7 +981,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 200.2,
+      "age_hours": 201.58,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1086,7 +1016,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 316.29,
+      "age_hours": 317.67,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1222,11 +1152,6 @@
       "domain": "www.france24.com"
     },
     {
-      "name": "www.ft.com",
-      "url": "https://www.ft.com/world?format=rss",
-      "domain": "www.ft.com"
-    },
-    {
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
@@ -1241,17 +1166,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 230,
-    "classified_count": 32,
-    "paired_count": 32,
+    "event_count": 231,
+    "classified_count": 30,
+    "paired_count": 30,
     "valid_pair_updates": 6,
-    "top_driver_count": 32,
-    "total_signal": 3.8835,
+    "top_driver_count": 30,
+    "total_signal": 2.0316,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 107,
-      "no_signal": 56,
-      "invalid_pair": 35,
+      "no_actor": 108,
+      "no_signal": 60,
+      "invalid_pair": 33,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
