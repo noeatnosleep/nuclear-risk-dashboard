@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-22 15:16:43 UTC",
-  "probability": 16.14,
-  "uncertainty": 6.36,
+  "last_updated": "2026-04-22 16:38:41 UTC",
+  "probability": 15.82,
+  "uncertainty": 6.31,
   "state": {
-    "us_russia": 3.8511153713741475,
-    "us_china": 3.066745582540865,
-    "china_taiwan": 4.013795778846401,
+    "us_russia": 3.9275505586508137,
+    "us_china": 3.0354701379324016,
+    "china_taiwan": 4.007331316953664,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6332231381106,
-    "iran_israel": 5.776496429718523,
-    "nk_us": 3.0070710795999434,
-    "nk_sk": 2.8000000000128957,
+    "iran_us": 5.633274792121256,
+    "iran_israel": 5.742479588079921,
+    "nk_us": 3.0037565110374698,
+    "nk_sk": 2.800000000006851,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.4995384724178
+    "russia_ukraine": 5.912411163438992
   },
   "top_drivers": [
+    {
+      "title": "Mapping the environmental toll of the Middle East war",
+      "published": "Wed, 22 Apr 2026 15:59:50 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.78,
+      "raw_impact": 0.867,
+      "source_weight": 0.9,
+      "age_hours": 0.65,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/the-observers/20260422-mapping-environmental-toll-middle-east-war",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/the-observers/20260422-mapping-environmental-toll-middle-east-war"
+      ]
+    },
     {
       "title": "Iranian economy: Layoffs, inflation add to sanctions pain amid war",
       "published": "Wed, 22 Apr 2026 11:48:44 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.707,
-      "raw_impact": 0.982,
+      "impact": 0.654,
+      "raw_impact": 0.908,
       "source_weight": 0.9,
-      "age_hours": 3.47,
+      "age_hours": 4.83,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -51,40 +85,6 @@
       ]
     },
     {
-      "title": "Ukraine to restart oil flows via Druzhba pipeline, potentially unblocking EU's loan",
-      "published": "Wed, 22 Apr 2026 11:47:07 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.662,
-      "raw_impact": 0.736,
-      "source_weight": 0.9,
-      "age_hours": 3.49,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260422-ukraine-to-restart-oil-flows-via-druzhba-pipeline-potentially-unblocking-eu-s-loan",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260422-ukraine-to-restart-oil-flows-via-druzhba-pipeline-potentially-unblocking-eu-s-loan"
-      ]
-    },
-    {
       "title": "In south Lebanon village, Hezbollah buries fighters killed in war with Israel",
       "published": "Wed, 22 Apr 2026 11:47:49 GMT",
       "actors": [
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.478,
-      "raw_impact": 0.532,
+      "impact": 0.442,
+      "raw_impact": 0.491,
       "source_weight": 0.9,
-      "age_hours": 3.48,
+      "age_hours": 4.85,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -128,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.429,
-      "raw_impact": 0.505,
+      "impact": 0.396,
+      "raw_impact": 0.466,
       "source_weight": 0.85,
-      "age_hours": 4.38,
+      "age_hours": 5.75,
       "confidence": 0.693,
       "signal_total": 0.65,
       "signal_components": {
@@ -163,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.27,
-      "raw_impact": 0.398,
+      "impact": 0.25,
+      "raw_impact": 0.368,
       "source_weight": 0.85,
-      "age_hours": 19.1,
+      "age_hours": 20.47,
       "confidence": 0.945,
       "signal_total": 1.2,
       "signal_components": {
@@ -189,6 +189,40 @@
       ]
     },
     {
+      "title": "US and Iran in blockade standoff as Pakistan pushes for talks",
+      "published": "Wed, 22 Apr 2026 16:19:36 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.176,
+      "raw_impact": -0.196,
+      "source_weight": 1.0,
+      "age_hours": 0.32,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Greetings from an Islamabad park, a peaceful vantage point in an uncertain world",
       "published": "Wed, 22 Apr 2026 09:46:42 -0400",
       "actors": [
@@ -197,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.183,
+      "impact": -0.13,
+      "raw_impact": -0.169,
       "source_weight": 0.85,
-      "age_hours": 1.5,
+      "age_hours": 2.87,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -231,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.172,
+      "impact": -0.129,
+      "raw_impact": -0.159,
       "source_weight": 0.9,
-      "age_hours": 2.58,
+      "age_hours": 3.94,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -265,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.134,
-      "raw_impact": -0.165,
+      "impact": -0.123,
+      "raw_impact": -0.153,
       "source_weight": 0.9,
-      "age_hours": 3.3,
+      "age_hours": 4.67,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.063,
-      "raw_impact": -0.077,
+      "impact": -0.058,
+      "raw_impact": -0.071,
       "source_weight": 0.9,
-      "age_hours": 16.45,
+      "age_hours": 17.81,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -333,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.049,
-      "raw_impact": 0.197,
+      "impact": 0.045,
+      "raw_impact": 0.182,
       "source_weight": 1.0,
-      "age_hours": 0.27,
+      "age_hours": 1.63,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -367,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.195,
+      "impact": 0.041,
+      "raw_impact": 0.18,
       "source_weight": 0.9,
-      "age_hours": 0.43,
+      "age_hours": 1.8,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -401,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.189,
+      "impact": 0.039,
+      "raw_impact": 0.174,
       "source_weight": 0.9,
-      "age_hours": 1.01,
+      "age_hours": 2.38,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -435,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.041,
+      "impact": -0.038,
+      "raw_impact": -0.038,
       "source_weight": 1.1,
-      "age_hours": 27.28,
+      "age_hours": 28.64,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -469,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.171,
+      "impact": 0.035,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 2.72,
+      "age_hours": 4.08,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -503,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.037,
-      "raw_impact": 0.034,
+      "impact": 0.034,
+      "raw_impact": 0.031,
       "source_weight": 1.1,
-      "age_hours": 51.28,
+      "age_hours": 52.64,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -530,40 +564,6 @@
       ]
     },
     {
-      "title": "Five major issues affecting the FIFA World Cup with 50 days to go",
-      "published": "Wed, 22 Apr 2026 11:33:41 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.161,
-      "source_weight": 0.9,
-      "age_hours": 3.72,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/sports/2026/4/22/five-major-issues-affecting-the-fifa-world-cup-with-50-days-to-go?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/sports/2026/4/22/five-major-issues-affecting-the-fifa-world-cup-with-50-days-to-go?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Luigi Scazzieri\u00a0and\u00a0Giuseppe Spatafora's Commentary cited by CNBC",
       "published": "Wed, 22 Apr 2026 14:49:22 +0000",
       "actors": [
@@ -572,10 +572,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.195,
+      "impact": 0.034,
+      "raw_impact": 0.18,
       "source_weight": 0.75,
-      "age_hours": 0.46,
+      "age_hours": 1.82,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -606,10 +606,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.194,
+      "impact": 0.034,
+      "raw_impact": 0.18,
       "source_weight": 0.75,
-      "age_hours": 0.5,
+      "age_hours": 1.86,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.032,
-      "raw_impact": -0.042,
+      "impact": -0.03,
+      "raw_impact": -0.039,
       "source_weight": 0.85,
-      "age_hours": 26.87,
+      "age_hours": 28.24,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -674,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.031,
-      "raw_impact": -0.041,
+      "impact": -0.029,
+      "raw_impact": -0.037,
       "source_weight": 0.85,
-      "age_hours": 27.64,
+      "age_hours": 29.01,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -708,10 +708,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.139,
+      "impact": 0.029,
+      "raw_impact": 0.129,
       "source_weight": 0.9,
-      "age_hours": 6.27,
+      "age_hours": 7.64,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -742,10 +742,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.145,
+      "impact": 0.025,
+      "raw_impact": 0.134,
       "source_weight": 0.75,
-      "age_hours": 5.59,
+      "age_hours": 6.96,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,10 +776,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.085,
+      "impact": 0.02,
+      "raw_impact": 0.079,
       "source_weight": 1.0,
-      "age_hours": 14.74,
+      "age_hours": 16.11,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,10 +810,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.052,
+      "impact": 0.012,
+      "raw_impact": 0.048,
       "source_weight": 1.0,
-      "age_hours": 23.18,
+      "age_hours": 24.55,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,10 +844,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.016,
+      "impact": -0.012,
+      "raw_impact": -0.015,
       "source_weight": 0.9,
-      "age_hours": 43.68,
+      "age_hours": 45.04,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -878,10 +878,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.07,
+      "impact": 0.012,
+      "raw_impact": 0.065,
       "source_weight": 0.75,
-      "age_hours": 18.06,
+      "age_hours": 19.43,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -913,9 +913,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.016,
+      "raw_impact": 0.015,
       "source_weight": 0.9,
-      "age_hours": 43.32,
+      "age_hours": 44.68,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -947,9 +947,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.012,
+      "raw_impact": 0.011,
       "source_weight": 1.1,
-      "age_hours": 48.96,
+      "age_hours": 50.33,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -983,7 +983,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 139.21,
+      "age_hours": 140.58,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1017,7 +1017,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1192.53,
+      "age_hours": 1193.9,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1051,7 +1051,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 198.83,
+      "age_hours": 200.2,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1086,7 +1086,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 314.92,
+      "age_hours": 316.29,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1246,12 +1246,12 @@
     "paired_count": 32,
     "valid_pair_updates": 6,
     "top_driver_count": 32,
-    "total_signal": 4.3466,
+    "total_signal": 3.8835,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 103,
-      "no_signal": 59,
-      "invalid_pair": 36,
+      "no_actor": 107,
+      "no_signal": 56,
+      "invalid_pair": 35,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
