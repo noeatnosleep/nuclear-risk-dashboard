@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-22 08:16:25 UTC",
-  "probability": 14.81,
-  "uncertainty": 5.9,
+  "last_updated": "2026-04-22 10:01:52 UTC",
+  "probability": 15.28,
+  "uncertainty": 6.06,
   "state": {
-    "us_russia": 3.339363322643813,
-    "us_china": 3.0000472523131063,
-    "china_taiwan": 4.0056171348530025,
+    "us_russia": 3.342085048361866,
+    "us_china": 3.163921903407013,
+    "china_taiwan": 4.035763463013793,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.631949872097569,
-    "iran_israel": 6.13411914243214,
-    "nk_us": 3.088774851385763,
-    "nk_sk": 2.8000000001619014,
+    "iran_us": 5.632598369551833,
+    "iran_israel": 6.293933816212755,
+    "nk_us": 3.0471616397986865,
+    "nk_sk": 2.80000000008601,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.39126899026441
+    "russia_ukraine": 6.419594199325937
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.852,
-      "raw_impact": 1.183,
+      "impact": 0.77,
+      "raw_impact": 1.069,
       "source_weight": 0.9,
-      "age_hours": 0.25,
+      "age_hours": 2.0,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -51,6 +51,76 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: 2 Ships Are Attacked as Future of Talks Is Uncertain",
+      "published": "Wed, 22 Apr 2026 09:54:07 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.581,
+      "raw_impact": 0.645,
+      "source_weight": 0.9,
+      "age_hours": 0.13,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/22/world/iran-war-trump-ceasefire-talks",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/22/world/iran-war-trump-ceasefire-talks"
+      ]
+    },
+    {
+      "title": "Attacks and ship seizures in Strait of Hormuz imperil talks to end Iran war",
+      "published": "Wed, 22 Apr 2026 09:19:02 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.561,
+      "raw_impact": 0.624,
+      "source_weight": 0.9,
+      "age_hours": 0.71,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/22/hormuz-strait-us-iran-talks-war/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/22/hormuz-strait-us-iran-talks-war/"
+      ]
+    },
+    {
       "title": "Ukraine reopens damaged Druzhba pipeline to unlock \u20ac90 billion EU loan",
       "published": "Tue, 21 Apr 2026 21:04:12 GMT",
       "actors": [
@@ -59,10 +129,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.452,
-      "raw_impact": 0.628,
+      "impact": 0.409,
+      "raw_impact": 0.568,
       "source_weight": 0.9,
-      "age_hours": 11.2,
+      "age_hours": 12.96,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.444,
-      "raw_impact": 0.617,
+      "impact": 0.402,
+      "raw_impact": 0.557,
       "source_weight": 0.9,
-      "age_hours": 11.52,
+      "age_hours": 13.28,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -119,6 +189,41 @@
       ]
     },
     {
+      "title": "Middle East war live: Three ships attacked in Strait of Hormuz as US prolongs ceasefire",
+      "published": "Wed, 22 Apr 2026 03:27:38 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.4,
+      "raw_impact": 0.445,
+      "source_weight": 0.9,
+      "age_hours": 6.57,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260422-live-us-will-extend-ceasefire-unclear-if-iran-agrees-war",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260422-live-us-will-extend-ceasefire-unclear-if-iran-agrees-war"
+      ]
+    },
+    {
       "title": "What would happen next if Iran agreed to surrender its highly enriched uranium",
       "published": "Tue, 21 Apr 2026 16:10:42 -0400",
       "actors": [
@@ -127,10 +232,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.406,
-      "raw_impact": 0.597,
+      "impact": 0.366,
+      "raw_impact": 0.539,
       "source_weight": 0.85,
-      "age_hours": 12.1,
+      "age_hours": 13.85,
       "confidence": 0.945,
       "signal_total": 1.2,
       "signal_components": {
@@ -161,10 +266,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.363,
-      "raw_impact": 0.403,
+      "impact": 0.328,
+      "raw_impact": 0.364,
       "source_weight": 0.9,
-      "age_hours": 8.27,
+      "age_hours": 10.03,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -196,10 +301,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.184,
-      "raw_impact": 0.24,
+      "impact": 0.166,
+      "raw_impact": 0.216,
       "source_weight": 0.9,
-      "age_hours": 1.42,
+      "age_hours": 3.18,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -223,6 +328,40 @@
       ]
     },
     {
+      "title": "\u2018We cannot let Iran be our spokesperson\u2019: Lebanon charts own path in talks with Israel",
+      "published": "Wed, 22 Apr 2026 08:35:56 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.149,
+      "raw_impact": -0.184,
+      "source_weight": 0.9,
+      "age_hours": 1.43,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/spotlight/20260422-we-cannot-let-iran-be-our-spokesperson-lebanon-charts-own-path-in-talks-with-israel",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/spotlight/20260422-we-cannot-let-iran-be-our-spokesperson-lebanon-charts-own-path-in-talks-with-israel"
+      ]
+    },
+    {
       "title": "Iran\u2019s UN ambassador responds to US ceasefire extension",
       "published": "Wed, 22 Apr 2026 07:33:42 +0000",
       "actors": [
@@ -231,10 +370,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.156,
-      "raw_impact": -0.192,
+      "impact": -0.14,
+      "raw_impact": -0.173,
       "source_weight": 0.9,
-      "age_hours": 0.71,
+      "age_hours": 2.47,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -265,10 +404,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.138,
-      "raw_impact": -0.17,
+      "impact": -0.124,
+      "raw_impact": -0.153,
       "source_weight": 0.9,
-      "age_hours": 2.84,
+      "age_hours": 4.6,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,10 +438,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.122,
-      "raw_impact": -0.151,
+      "impact": -0.11,
+      "raw_impact": -0.136,
       "source_weight": 0.9,
-      "age_hours": 4.92,
+      "age_hours": 6.68,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -325,40 +464,6 @@
       ]
     },
     {
-      "title": "Middle East war live: Trump says Iran 'collapsing financially' as Washington prolongs ceasefire",
-      "published": "Wed, 22 Apr 2026 03:27:38 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.122,
-      "raw_impact": -0.151,
-      "source_weight": 0.9,
-      "age_hours": 4.81,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260422-live-us-will-extend-ceasefire-unclear-if-iran-agrees-war",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260422-live-us-will-extend-ceasefire-unclear-if-iran-agrees-war"
-      ]
-    },
-    {
       "title": "Trump extends Iran ceasefire indefinitely as peace talks stall",
       "published": "Wed, 22 Apr 2026 00:26:22 GMT",
       "actors": [
@@ -367,10 +472,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.103,
-      "raw_impact": -0.127,
+      "impact": -0.093,
+      "raw_impact": -0.115,
       "source_weight": 0.9,
-      "age_hours": 7.83,
+      "age_hours": 9.59,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -401,10 +506,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.094,
-      "raw_impact": -0.116,
+      "impact": -0.085,
+      "raw_impact": -0.105,
       "source_weight": 0.9,
-      "age_hours": 9.44,
+      "age_hours": 11.2,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -435,10 +540,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.086,
-      "raw_impact": -0.107,
+      "impact": -0.078,
+      "raw_impact": -0.097,
       "source_weight": 0.9,
-      "age_hours": 10.8,
+      "age_hours": 12.55,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -461,40 +566,6 @@
       ]
     },
     {
-      "title": "US-Iran talks are in doubt as ceasefire nears an end",
-      "published": "Tue, 21 Apr 2026 18:46:20 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.075,
-      "raw_impact": -0.092,
-      "source_weight": 0.9,
-      "age_hours": 13.5,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/us-iran-talks-are-in-doubt-as-ceasefire-nears-an-end",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/us-iran-talks-are-in-doubt-as-ceasefire-nears-an-end"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 21 April: Talks unclear; Hormuz tensions continue",
       "published": "Tue, 21 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -503,10 +574,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.061,
-      "raw_impact": -0.062,
+      "impact": -0.056,
+      "raw_impact": -0.056,
       "source_weight": 1.1,
-      "age_hours": 20.27,
+      "age_hours": 22.03,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -537,10 +608,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.055,
-      "raw_impact": 0.05,
+      "impact": 0.05,
+      "raw_impact": 0.046,
       "source_weight": 1.1,
-      "age_hours": 44.27,
+      "age_hours": 46.03,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -572,10 +643,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.049,
-      "raw_impact": -0.063,
+      "impact": -0.044,
+      "raw_impact": -0.057,
       "source_weight": 0.85,
-      "age_hours": 19.87,
+      "age_hours": 21.63,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -598,6 +669,40 @@
       ]
     },
     {
+      "title": "Threat of Evictions Darkens Russia\u2019s Rosy Picture of Occupied Ukraine",
+      "published": "Wed, 22 Apr 2026 09:00:21 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.188,
+      "source_weight": 0.9,
+      "age_hours": 1.03,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/22/world/europe/russia-occupied-territories-mariupol.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/22/world/europe/russia-occupied-territories-mariupol.html"
+      ]
+    },
+    {
       "title": "U.S.-Iran ceasefire nears its end. And, Fed chair nominee faces tough hearing",
       "published": "Tue, 21 Apr 2026 07:38:06 -0400",
       "actors": [
@@ -606,10 +711,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.047,
-      "raw_impact": -0.061,
+      "impact": -0.042,
+      "raw_impact": -0.055,
       "source_weight": 0.85,
-      "age_hours": 20.64,
+      "age_hours": 22.4,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -632,6 +737,40 @@
       ]
     },
     {
+      "title": "How China is gaining from Iran war by showing it is different from US",
+      "published": "Wed, 22 Apr 2026 08:24:25 +0000",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.182,
+      "source_weight": 0.9,
+      "age_hours": 1.62,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/22/how-china-is-gaining-from-iran-war-by-showing-it-is-different-from-us?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/22/how-china-is-gaining-from-iran-war-by-showing-it-is-different-from-us?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Ceasefire agreement between the U.S. and Iran ends soon",
       "published": "Tue, 21 Apr 2026 06:43:08 -0400",
       "actors": [
@@ -640,10 +779,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.044,
-      "raw_impact": -0.058,
+      "impact": -0.04,
+      "raw_impact": -0.052,
       "source_weight": 0.85,
-      "age_hours": 21.55,
+      "age_hours": 23.31,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -674,10 +813,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.128,
+      "impact": 0.029,
+      "raw_impact": 0.116,
       "source_weight": 1.0,
-      "age_hours": 7.74,
+      "age_hours": 9.5,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -708,10 +847,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.105,
+      "impact": 0.021,
+      "raw_impact": 0.095,
       "source_weight": 0.9,
-      "age_hours": 11.21,
+      "age_hours": 12.96,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -742,10 +881,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.079,
+      "impact": 0.018,
+      "raw_impact": 0.071,
       "source_weight": 1.0,
-      "age_hours": 16.18,
+      "age_hours": 17.93,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,10 +915,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.02,
-      "raw_impact": -0.024,
+      "impact": -0.018,
+      "raw_impact": -0.022,
       "source_weight": 0.9,
-      "age_hours": 36.67,
+      "age_hours": 38.43,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -810,10 +949,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.106,
+      "impact": 0.018,
+      "raw_impact": 0.095,
       "source_weight": 0.75,
-      "age_hours": 11.06,
+      "age_hours": 12.82,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -836,40 +975,6 @@
       ]
     },
     {
-      "title": "Europe Wanted a Say on the Iran War, but It\u2019s Still on the Sidelines",
-      "published": "Tue, 21 Apr 2026 14:32:05 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.072,
-      "source_weight": 0.9,
-      "age_hours": 17.74,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/21/world/middleeast/iran-war-europe-macron-france.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/21/world/middleeast/iran-war-europe-macron-france.html"
-      ]
-    },
-    {
       "title": "Oil prices jump after U.S. seizes Iranian vessel, imperiling ceasefire",
       "published": "Mon, 20 Apr 2026 10:19:52 +0000",
       "actors": [
@@ -878,10 +983,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.012,
-      "raw_impact": -0.014,
+      "impact": -0.01,
+      "raw_impact": -0.013,
       "source_weight": 0.9,
-      "age_hours": 45.94,
+      "age_hours": 47.7,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -913,9 +1018,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.005,
-      "raw_impact": 0.025,
+      "raw_impact": 0.022,
       "source_weight": 0.9,
-      "age_hours": 36.31,
+      "age_hours": 38.07,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,10 +1051,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.005,
-      "raw_impact": 0.018,
+      "impact": 0.004,
+      "raw_impact": 0.016,
       "source_weight": 1.1,
-      "age_hours": 41.96,
+      "age_hours": 43.71,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -983,7 +1088,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 132.21,
+      "age_hours": 133.96,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1017,7 +1122,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1185.52,
+      "age_hours": 1187.28,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1051,7 +1156,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 191.83,
+      "age_hours": 193.58,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1086,7 +1191,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 307.91,
+      "age_hours": 309.67,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1121,7 +1226,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 503.76,
+      "age_hours": 505.52,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1276,17 +1381,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 230,
-    "classified_count": 33,
-    "paired_count": 33,
+    "event_count": 231,
+    "classified_count": 36,
+    "paired_count": 36,
     "valid_pair_updates": 6,
-    "top_driver_count": 33,
-    "total_signal": 2.9432,
+    "top_driver_count": 36,
+    "total_signal": 4.8614,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 109,
-      "no_signal": 54,
-      "invalid_pair": 34,
+      "no_actor": 103,
+      "no_signal": 61,
+      "invalid_pair": 31,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
