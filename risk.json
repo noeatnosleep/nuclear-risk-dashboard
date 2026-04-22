@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-22 00:02:15 UTC",
-  "probability": 15.69,
-  "uncertainty": 5.97,
+  "last_updated": "2026-04-22 03:48:38 UTC",
+  "probability": 15.38,
+  "uncertainty": 5.96,
   "state": {
-    "us_russia": 3.3866956325997344,
-    "us_china": 3.00006912848503,
-    "china_taiwan": 4.03741512879166,
+    "us_russia": 3.372351132981858,
+    "us_china": 3.0000609590507286,
+    "china_taiwan": 4.019881634079181,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.624106128413015,
-    "iran_israel": 6.6045015420521915,
-    "nk_us": 3.592097360107612,
-    "nk_sk": 2.800000001079827,
+    "iran_us": 5.628431380719414,
+    "iran_israel": 6.483418490569292,
+    "nk_us": 3.314551722557169,
+    "nk_sk": 2.8000000005736583,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.851191820736505
+    "russia_ukraine": 6.715136029863186
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.728,
-      "raw_impact": 1.011,
+      "impact": 0.586,
+      "raw_impact": 0.813,
       "source_weight": 0.9,
-      "age_hours": 2.97,
+      "age_hours": 6.74,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.715,
-      "raw_impact": 0.993,
+      "impact": 0.575,
+      "raw_impact": 0.798,
       "source_weight": 0.9,
-      "age_hours": 3.28,
+      "age_hours": 7.05,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.713,
-      "raw_impact": 0.99,
+      "impact": 0.573,
+      "raw_impact": 0.796,
       "source_weight": 0.9,
-      "age_hours": 3.33,
+      "age_hours": 7.1,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.653,
-      "raw_impact": 0.96,
+      "impact": 0.525,
+      "raw_impact": 0.772,
       "source_weight": 0.85,
-      "age_hours": 3.86,
+      "age_hours": 7.63,
       "confidence": 0.945,
       "signal_total": 1.2,
       "signal_components": {
@@ -153,30 +153,30 @@
       ]
     },
     {
-      "title": "US forces detain Iran-linked tanker Tifani with ceasefire talks on edge",
-      "published": "Tue, 21 Apr 2026 18:45:32 +0000",
+      "title": "Iran war live: Trump says ceasefire extended as talks with Tehran in limbo",
+      "published": "Wed, 22 Apr 2026 00:00:00 +0000",
       "actors": [
         "iran",
-        "us"
+        "israel"
       ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.499,
-      "raw_impact": 0.693,
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.469,
+      "raw_impact": 0.522,
       "source_weight": 0.9,
-      "age_hours": 5.28,
-      "confidence": 0.746,
-      "signal_total": 0.94,
+      "age_hours": 3.81,
+      "confidence": 0.688,
+      "signal_total": 0.65,
       "signal_components": {
         "deescalation": -0.2,
-        "action": 0.0,
+        "action": 0.9,
         "movement": 0.0,
-        "strategic": 1.2,
+        "strategic": 0.0,
         "rhetoric": 0.0,
-        "contradiction_adjustment": -0.06,
+        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/2026/4/21/us-forces-detain-iran-linked-tanker-tifani-with-ceasefire-talks-on-edge?traffic_source=rss",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/4/22/iran-war-live-trump-says-ceasefire-extended-as-talks-with-tehran-in-limbo?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
@@ -184,7 +184,7 @@
         "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/21/us-forces-detain-iran-linked-tanker-tifani-with-ceasefire-talks-on-edge?traffic_source=rss"
+        "https://www.aljazeera.com/news/liveblog/2026/4/22/iran-war-live-trump-says-ceasefire-extended-as-talks-with-tehran-in-limbo?traffic_source=rss"
       ]
     },
     {
@@ -196,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.473,
-      "raw_impact": 0.526,
+      "impact": 0.381,
+      "raw_impact": 0.423,
       "source_weight": 0.9,
-      "age_hours": 3.67,
+      "age_hours": 7.44,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -223,30 +223,63 @@
       ]
     },
     {
-      "title": "Top Lebanese official makes warning",
-      "published": "Tue, 21 Apr 2026 16:10:04 GMT",
+      "title": "Tehran held military parades as ceasefire was set to end",
+      "published": "Wed, 22 Apr 2026 03:21:22 +0000",
       "actors": [
         "iran",
-        "israel"
+        "us"
       ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.371,
-      "raw_impact": 0.413,
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.158,
+      "raw_impact": -0.195,
       "source_weight": 0.9,
-      "age_hours": 7.87,
-      "confidence": 0.688,
-      "signal_total": 0.65,
+      "age_hours": 0.45,
+      "confidence": 0.75,
+      "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
-        "action": 0.9,
+        "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/top-lebanese-official-makes-warning",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/22/tehran-held-military-parades-as-ceasefire-was-set-to-end?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/22/tehran-held-military-parades-as-ceasefire-was-set-to-end?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Live: US will prolong ceasefire, unclear if Iran agrees",
+      "published": "Wed, 22 Apr 2026 03:27:38 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.158,
+      "raw_impact": -0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.35,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260422-live-us-will-extend-ceasefire-unclear-if-iran-agrees-war",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -254,7 +287,41 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/top-lebanese-official-makes-warning"
+        "https://www.france24.com/en/middle-east/20260422-live-us-will-extend-ceasefire-unclear-if-iran-agrees-war"
+      ]
+    },
+    {
+      "title": "Iran accuses US of violating international law over vessel seizure",
+      "published": "Wed, 22 Apr 2026 03:17:26 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.158,
+      "raw_impact": -0.194,
+      "source_weight": 0.9,
+      "age_hours": 0.52,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/da5f559c-f340-4091-95ca-dd930627f292",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/da5f559c-f340-4091-95ca-dd930627f292"
       ]
     },
     {
@@ -266,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.181,
-      "raw_impact": 0.237,
+      "impact": 0.145,
+      "raw_impact": 0.19,
       "source_weight": 0.9,
-      "age_hours": 1.63,
+      "age_hours": 5.41,
       "confidence": 0.61,
       "signal_total": 0.26,
       "signal_components": {
@@ -293,6 +360,40 @@
       ]
     },
     {
+      "title": "Trump extends Iran ceasefire indefinitely as peace talks stall",
+      "published": "Wed, 22 Apr 2026 00:26:22 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.133,
+      "raw_impact": -0.165,
+      "source_weight": 0.9,
+      "age_hours": 3.37,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260422-trump-extends-iran-ceasefire-indefinitely-as-peace-talks-stall-war-usa",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260422-trump-extends-iran-ceasefire-indefinitely-as-peace-talks-stall-war-usa"
+      ]
+    },
+    {
       "title": "Trump extends ceasefire indefinitely as Iran says it won\u2019t join talks now",
       "published": "Tue, 21 Apr 2026 22:49:48 +0000",
       "actors": [
@@ -301,10 +402,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.151,
-      "raw_impact": -0.187,
+      "impact": -0.122,
+      "raw_impact": -0.15,
       "source_weight": 0.9,
-      "age_hours": 1.21,
+      "age_hours": 4.98,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -327,7 +428,7 @@
       ]
     },
     {
-      "title": "Iran accuses US of violating international law over vessel seizure in Gulf of Oman",
+      "title": "Middle East crisis as it happened: Trump extends ceasefire, Iran accuses US of violating international law over vessel seizure",
       "published": "Tue, 21 Apr 2026 22:46:36 GMT",
       "actors": [
         "iran",
@@ -335,10 +436,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.15,
-      "raw_impact": -0.186,
+      "impact": -0.122,
+      "raw_impact": -0.15,
       "source_weight": 0.9,
-      "age_hours": 1.26,
+      "age_hours": 5.03,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -369,10 +470,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.173,
+      "impact": -0.113,
+      "raw_impact": -0.139,
       "source_weight": 0.9,
-      "age_hours": 2.56,
+      "age_hours": 6.33,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -395,74 +496,6 @@
       ]
     },
     {
-      "title": "Why Negotiations With Iran Might Take a While",
-      "published": "Tue, 21 Apr 2026 20:38:30 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.133,
-      "raw_impact": -0.164,
-      "source_weight": 0.9,
-      "age_hours": 3.4,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/video/world/middleeast/100000010853017/why-negotiations-with-iran-might-take-a-while.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/video/world/middleeast/100000010853017/why-negotiations-with-iran-might-take-a-while.html"
-      ]
-    },
-    {
-      "title": "UK ambassador to UAE warns of regional risk but backs UAE resilience amid fragile Iran ceasefire",
-      "published": "Tue, 21 Apr 2026 22:10:15 +0200",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.122,
-      "raw_impact": -0.16,
-      "source_weight": 0.85,
-      "age_hours": 3.87,
-      "confidence": 0.745,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "http://www.euronews.com/2026/04/21/uk-ambassador-to-uae-warns-of-regional-risk-but-backs-uae-resilience-amid-fragile-iran-cea",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.euronews.com"
-      ],
-      "cluster_links": [
-        "http://www.euronews.com/2026/04/21/uk-ambassador-to-uae-warns-of-regional-risk-but-backs-uae-resilience-amid-fragile-iran-cea"
-      ]
-    },
-    {
       "title": "US-Iran talks are in doubt as ceasefire nears an end",
       "published": "Tue, 21 Apr 2026 18:46:20 GMT",
       "actors": [
@@ -471,10 +504,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.12,
-      "raw_impact": -0.148,
+      "impact": -0.096,
+      "raw_impact": -0.119,
       "source_weight": 0.9,
-      "age_hours": 5.27,
+      "age_hours": 9.04,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -497,40 +530,6 @@
       ]
     },
     {
-      "title": "Iran's participation in US talks unclear",
-      "published": "Tue, 21 Apr 2026 16:08:52 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.103,
-      "raw_impact": -0.127,
-      "source_weight": 0.9,
-      "age_hours": 7.89,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/iran-s-participation-in-us-talks-unclear",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/iran-s-participation-in-us-talks-unclear"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 21 April: Talks unclear; Hormuz tensions continue",
       "published": "Tue, 21 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -539,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.099,
-      "raw_impact": -0.1,
+      "impact": -0.079,
+      "raw_impact": -0.08,
       "source_weight": 1.1,
-      "age_hours": 12.04,
+      "age_hours": 15.81,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -573,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.089,
-      "raw_impact": 0.081,
+      "impact": 0.072,
+      "raw_impact": 0.065,
       "source_weight": 1.1,
-      "age_hours": 36.04,
+      "age_hours": 39.81,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -608,10 +607,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.078,
-      "raw_impact": -0.102,
+      "impact": -0.063,
+      "raw_impact": -0.082,
       "source_weight": 0.85,
-      "age_hours": 11.63,
+      "age_hours": 15.41,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -642,10 +641,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.075,
-      "raw_impact": -0.098,
+      "impact": -0.06,
+      "raw_impact": -0.079,
       "source_weight": 0.85,
-      "age_hours": 12.4,
+      "age_hours": 16.18,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -676,10 +675,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.071,
-      "raw_impact": -0.093,
+      "impact": -0.057,
+      "raw_impact": -0.075,
       "source_weight": 0.85,
-      "age_hours": 13.32,
+      "age_hours": 17.09,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -702,6 +701,74 @@
       ]
     },
     {
+      "title": "Trump buys time for Iran deal after frantic day of diplomacy",
+      "published": "Wed, 22 Apr 2026 00:32:10 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.166,
+      "source_weight": 1.0,
+      "age_hours": 3.27,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cvg4yr90jr2o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cvg4yr90jr2o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "Takeaway coffee sales plunge as fuel and living costs dent Australian spending. Is the economy next?",
+      "published": "Wed, 22 Apr 2026 00:00:03 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.16,
+      "source_weight": 0.9,
+      "age_hours": 3.81,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/business/2026/apr/22/takeaway-coffee-sales-australian-economy-fuel-living-costs",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/business/2026/apr/22/takeaway-coffee-sales-australian-economy-fuel-living-costs"
+      ]
+    },
+    {
       "title": "France freezes some spending to offset \u20ac6 billion fallout from Iran war",
       "published": "Tue, 21 Apr 2026 21:04:02 GMT",
       "actors": [
@@ -710,10 +777,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.168,
+      "impact": 0.03,
+      "raw_impact": 0.135,
       "source_weight": 0.9,
-      "age_hours": 2.97,
+      "age_hours": 6.74,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -736,40 +803,6 @@
       ]
     },
     {
-      "title": "Nicaragua\u2019s president says Trump \u2018mentally deranged\u2019 over war on Iran",
-      "published": "Tue, 21 Apr 2026 18:47:11 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.148,
-      "source_weight": 0.9,
-      "age_hours": 5.25,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/21/nicaraguas-president-says-trump-mentally-deranged-over-war-on-iran?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/21/nicaraguas-president-says-trump-mentally-deranged-over-war-on-iran?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Iran sees mass redundancies from war with US and Israel",
       "published": "Tue, 21 Apr 2026 16:05:51 GMT",
       "actors": [
@@ -778,10 +811,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.126,
+      "impact": 0.025,
+      "raw_impact": 0.102,
       "source_weight": 1.0,
-      "age_hours": 7.94,
+      "age_hours": 11.71,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -812,10 +845,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.032,
-      "raw_impact": -0.039,
+      "impact": -0.025,
+      "raw_impact": -0.031,
       "source_weight": 0.9,
-      "age_hours": 28.44,
+      "age_hours": 32.21,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -846,10 +879,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.17,
+      "impact": 0.025,
+      "raw_impact": 0.137,
       "source_weight": 0.75,
-      "age_hours": 2.82,
+      "age_hours": 6.6,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -880,10 +913,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.116,
+      "impact": 0.021,
+      "raw_impact": 0.093,
       "source_weight": 0.9,
-      "age_hours": 9.5,
+      "age_hours": 13.28,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -914,10 +947,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.018,
-      "raw_impact": -0.023,
+      "impact": -0.014,
+      "raw_impact": -0.018,
       "source_weight": 0.9,
-      "age_hours": 37.71,
+      "age_hours": 41.48,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -948,10 +981,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.04,
+      "impact": 0.007,
+      "raw_impact": 0.032,
       "source_weight": 0.9,
-      "age_hours": 28.08,
+      "age_hours": 31.85,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -982,10 +1015,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.029,
+      "impact": 0.006,
+      "raw_impact": 0.023,
       "source_weight": 1.1,
-      "age_hours": 33.72,
+      "age_hours": 37.49,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1019,7 +1052,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 123.97,
+      "age_hours": 127.74,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -1053,7 +1086,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1177.29,
+      "age_hours": 1181.06,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1087,7 +1120,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 183.59,
+      "age_hours": 187.36,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1122,7 +1155,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 299.68,
+      "age_hours": 303.45,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1157,7 +1190,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 495.53,
+      "age_hours": 499.3,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1201,11 +1234,6 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
-    },
-    {
-      "name": "euronews_world",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1293,11 +1321,6 @@
       "domain": "www.economist.com"
     },
     {
-      "name": "www.euronews.com",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
-    },
-    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -1311,6 +1334,11 @@
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
+    },
+    {
+      "name": "www.theguardian.com",
+      "url": "https://www.theguardian.com/world/rss",
+      "domain": "www.theguardian.com"
     }
   ],
   "driver_sort_default": "chronological",
@@ -1322,17 +1350,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 250,
-    "classified_count": 34,
-    "paired_count": 34,
+    "event_count": 230,
+    "classified_count": 35,
+    "paired_count": 35,
     "valid_pair_updates": 6,
-    "top_driver_count": 34,
-    "total_signal": 5.301,
+    "top_driver_count": 35,
+    "total_signal": 3.6502,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 112,
-      "no_signal": 68,
-      "invalid_pair": 36,
+      "no_actor": 94,
+      "no_signal": 64,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
