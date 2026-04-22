@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-22 13:47:25 UTC",
-  "probability": 15.4,
-  "uncertainty": 6.14,
+  "last_updated": "2026-04-22 15:16:43 UTC",
+  "probability": 16.14,
+  "uncertainty": 6.36,
   "state": {
-    "us_russia": 3.523632188072955,
-    "us_china": 3.1256152227049423,
-    "china_taiwan": 4.025963820707064,
+    "us_russia": 3.8511153713741475,
+    "us_china": 3.066745582540865,
+    "china_taiwan": 4.013795778846401,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633125907031719,
-    "iran_israel": 5.936493097843156,
-    "nk_us": 3.0133102674822463,
-    "nk_sk": 2.8000000000242746,
+    "iran_us": 5.6332231381106,
+    "iran_israel": 5.776496429718523,
+    "nk_us": 3.0070710795999434,
+    "nk_sk": 2.8000000000128957,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.340722069329701
+    "russia_ukraine": 6.4995384724178
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.77,
-      "raw_impact": 1.07,
+      "impact": 0.707,
+      "raw_impact": 0.982,
       "source_weight": 0.9,
-      "age_hours": 1.98,
+      "age_hours": 3.47,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.721,
-      "raw_impact": 0.802,
+      "impact": 0.662,
+      "raw_impact": 0.736,
       "source_weight": 0.9,
-      "age_hours": 2.01,
+      "age_hours": 3.49,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,40 +85,6 @@
       ]
     },
     {
-      "title": "Iran's workers face waves of layoffs as war batters domestic economy",
-      "published": "Wed, 22 Apr 2026 10:58:57 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.689,
-      "raw_impact": 0.765,
-      "source_weight": 0.9,
-      "age_hours": 2.81,
-      "confidence": 0.81,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/tv-shows/business/20260422-iran-s-workers-face-waves-of-layoffs-as-war-batters-domestic-economy",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/tv-shows/business/20260422-iran-s-workers-face-waves-of-layoffs-as-war-batters-domestic-economy"
-      ]
-    },
-    {
       "title": "In south Lebanon village, Hezbollah buries fighters killed in war with Israel",
       "published": "Wed, 22 Apr 2026 11:47:49 GMT",
       "actors": [
@@ -127,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.521,
-      "raw_impact": 0.579,
+      "impact": 0.478,
+      "raw_impact": 0.532,
       "source_weight": 0.9,
-      "age_hours": 1.99,
+      "age_hours": 3.48,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -162,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.468,
-      "raw_impact": 0.55,
+      "impact": 0.429,
+      "raw_impact": 0.505,
       "source_weight": 0.85,
-      "age_hours": 2.89,
+      "age_hours": 4.38,
       "confidence": 0.693,
       "signal_total": 0.65,
       "signal_components": {
@@ -197,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.295,
-      "raw_impact": 0.434,
+      "impact": 0.27,
+      "raw_impact": 0.398,
       "source_weight": 0.85,
-      "age_hours": 17.61,
+      "age_hours": 19.1,
       "confidence": 0.945,
       "signal_total": 1.2,
       "signal_components": {
@@ -223,6 +189,40 @@
       ]
     },
     {
+      "title": "Greetings from an Islamabad park, a peaceful vantage point in an uncertain world",
+      "published": "Wed, 22 Apr 2026 09:46:42 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.14,
+      "raw_impact": -0.183,
+      "source_weight": 0.85,
+      "age_hours": 1.5,
+      "confidence": 0.675,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/22/g-s1-117423/pakistan-islamabad-park",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/22/g-s1-117423/pakistan-islamabad-park"
+      ]
+    },
+    {
       "title": "Iran: 'Going back to war is not in anyone's interest,' risk analyst says",
       "published": "Wed, 22 Apr 2026 12:42:09 GMT",
       "actors": [
@@ -231,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.152,
-      "raw_impact": -0.188,
+      "impact": -0.14,
+      "raw_impact": -0.172,
       "source_weight": 0.9,
-      "age_hours": 1.09,
+      "age_hours": 2.58,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -265,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.146,
-      "raw_impact": -0.18,
+      "impact": -0.134,
+      "raw_impact": -0.165,
       "source_weight": 0.9,
-      "age_hours": 1.82,
+      "age_hours": 3.3,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.068,
-      "raw_impact": -0.084,
+      "impact": -0.063,
+      "raw_impact": -0.077,
       "source_weight": 0.9,
-      "age_hours": 14.96,
+      "age_hours": 16.45,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -325,52 +325,18 @@
       ]
     },
     {
-      "title": "MIDDLE EAST LIVE 21 April: Talks unclear; Hormuz tensions continue",
-      "published": "Tue, 21 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.045,
-      "raw_impact": -0.045,
-      "source_weight": 1.1,
-      "age_hours": 25.79,
-      "confidence": 0.78,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167340",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167340"
-      ]
-    },
-    {
       "title": "Lufthansa cuts 20,000 summer flights as fuel prices surge",
-      "published": "Wed, 22 Apr 2026 10:31:29 GMT",
+      "published": "Wed, 22 Apr 2026 15:00:40 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.166,
+      "impact": 0.049,
+      "raw_impact": 0.197,
       "source_weight": 1.0,
-      "age_hours": 3.27,
+      "age_hours": 0.27,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -393,6 +359,108 @@
       ]
     },
     {
+      "title": "The war on Iran: Breaking down the words you\u2019re hearing",
+      "published": "Wed, 22 Apr 2026 14:50:58 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.195,
+      "source_weight": 0.9,
+      "age_hours": 0.43,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/22/the-war-on-iran-breaking-down-the-words-youre-hearing?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/22/the-war-on-iran-breaking-down-the-words-youre-hearing?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "'Trump's high-stakes political theatre: US winning conventional war, Iran winning asymmetrical war'",
+      "published": "Wed, 22 Apr 2026 14:15:55 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.189,
+      "source_weight": 0.9,
+      "age_hours": 1.01,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260422-tale-of-two-wars-us-winning-conventional-war-iran-winning-asymmetrical-war-1",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260422-tale-of-two-wars-us-winning-conventional-war-iran-winning-asymmetrical-war-1"
+      ]
+    },
+    {
+      "title": "MIDDLE EAST LIVE 21 April: Talks unclear; Hormuz tensions continue",
+      "published": "Tue, 21 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.041,
+      "raw_impact": -0.041,
+      "source_weight": 1.1,
+      "age_hours": 27.28,
+      "confidence": 0.78,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167340",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167340"
+      ]
+    },
+    {
       "title": "Iran calls US ship seizure \u2018piracy\u2019: Is it?",
       "published": "Wed, 22 Apr 2026 12:33:36 +0000",
       "actors": [
@@ -401,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.186,
+      "impact": 0.038,
+      "raw_impact": 0.171,
       "source_weight": 0.9,
-      "age_hours": 1.23,
+      "age_hours": 2.72,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -427,40 +495,6 @@
       ]
     },
     {
-      "title": "Five major issues affecting the FIFA World Cup with 50 days to go",
-      "published": "Wed, 22 Apr 2026 11:33:41 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.176,
-      "source_weight": 0.9,
-      "age_hours": 2.23,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/sports/2026/4/22/five-major-issues-affecting-the-fifa-world-cup-with-50-days-to-go?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/sports/2026/4/22/five-major-issues-affecting-the-fifa-world-cup-with-50-days-to-go?traffic_source=rss"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 20 April: Uncertainty grows in the Strait of Hormuz",
       "published": "Mon, 20 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -469,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.04,
-      "raw_impact": 0.037,
+      "impact": 0.037,
+      "raw_impact": 0.034,
       "source_weight": 1.1,
-      "age_hours": 49.79,
+      "age_hours": 51.28,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -496,6 +530,108 @@
       ]
     },
     {
+      "title": "Five major issues affecting the FIFA World Cup with 50 days to go",
+      "published": "Wed, 22 Apr 2026 11:33:41 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.161,
+      "source_weight": 0.9,
+      "age_hours": 3.72,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/sports/2026/4/22/five-major-issues-affecting-the-fifa-world-cup-with-50-days-to-go?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/sports/2026/4/22/five-major-issues-affecting-the-fifa-world-cup-with-50-days-to-go?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Luigi Scazzieri\u00a0and\u00a0Giuseppe Spatafora's Commentary cited by CNBC",
+      "published": "Wed, 22 Apr 2026 14:49:22 +0000",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.195,
+      "source_weight": 0.75,
+      "age_hours": 0.46,
+      "confidence": 0.665,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.iss.europa.eu/press/luigi-scazzieri-and-giuseppe-spataforas-commentary-cited-cnbc",
+      "source": "https://www.iss.europa.eu/rss.xml",
+      "source_domain": "www.iss.europa.eu",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.iss.europa.eu"
+      ],
+      "cluster_links": [
+        "https://www.iss.europa.eu/press/luigi-scazzieri-and-giuseppe-spataforas-commentary-cited-cnbc"
+      ]
+    },
+    {
+      "title": "\ufeffTim R\u00fchlig\u00a0and\u00a0Alessia Caruso's Analysis mentioned in Newsweek",
+      "published": "Wed, 22 Apr 2026 14:46:56 +0000",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.194,
+      "source_weight": 0.75,
+      "age_hours": 0.5,
+      "confidence": 0.665,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.iss.europa.eu/press/tim-ruhlig-and-alessia-carusos-analysis-mentioned-newsweek",
+      "source": "https://www.iss.europa.eu/rss.xml",
+      "source_domain": "www.iss.europa.eu",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.iss.europa.eu"
+      ],
+      "cluster_links": [
+        "https://www.iss.europa.eu/press/tim-ruhlig-and-alessia-carusos-analysis-mentioned-newsweek"
+      ]
+    },
+    {
       "title": "Trump extends U.S. ceasefire with Iran at Pakistan's request",
       "published": "Tue, 21 Apr 2026 08:24:15 -0400",
       "actors": [
@@ -504,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.035,
-      "raw_impact": -0.046,
+      "impact": -0.032,
+      "raw_impact": -0.042,
       "source_weight": 0.85,
-      "age_hours": 25.39,
+      "age_hours": 26.87,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -538,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.034,
-      "raw_impact": -0.044,
+      "impact": -0.031,
+      "raw_impact": -0.041,
       "source_weight": 0.85,
-      "age_hours": 26.16,
+      "age_hours": 27.64,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -572,10 +708,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.152,
+      "impact": 0.031,
+      "raw_impact": 0.139,
       "source_weight": 0.9,
-      "age_hours": 4.78,
+      "age_hours": 6.27,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -598,40 +734,6 @@
       ]
     },
     {
-      "title": "Ceasefire agreement between the U.S. and Iran ends soon",
-      "published": "Tue, 21 Apr 2026 06:43:08 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.032,
-      "raw_impact": -0.042,
-      "source_weight": 0.85,
-      "age_hours": 27.07,
-      "confidence": 0.755,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/21/nx-s1-5791613/ceasefire-agreement-between-the-u-s-and-iran-ends-wednesday",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/21/nx-s1-5791613/ceasefire-agreement-between-the-u-s-and-iran-ends-wednesday"
-      ]
-    },
-    {
       "title": "Steven Everts interviewed by La Vanguardia",
       "published": "Wed, 22 Apr 2026 09:41:12 +0000",
       "actors": [
@@ -640,10 +742,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.158,
+      "impact": 0.027,
+      "raw_impact": 0.145,
       "source_weight": 0.75,
-      "age_hours": 4.1,
+      "age_hours": 5.59,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -674,10 +776,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.093,
+      "impact": 0.021,
+      "raw_impact": 0.085,
       "source_weight": 1.0,
-      "age_hours": 13.25,
+      "age_hours": 14.74,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -700,40 +802,6 @@
       ]
     },
     {
-      "title": "A dangerous blind spot in Donald Trump\u2019s Iran war strategy",
-      "published": "Tue, 21 Apr 2026 21:12:55 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.077,
-      "source_weight": 0.75,
-      "age_hours": 16.58,
-      "confidence": 0.655,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.economist.com/international/2026/04/21/a-dangerous-blind-spot-in-donald-trumps-iran-war-strategy",
-      "source": "https://www.economist.com/international/rss.xml",
-      "source_domain": "www.economist.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.economist.com"
-      ],
-      "cluster_links": [
-        "https://www.economist.com/international/2026/04/21/a-dangerous-blind-spot-in-donald-trumps-iran-war-strategy"
-      ]
-    },
-    {
       "title": "Iran sees mass redundancies from war with US and Israel",
       "published": "Tue, 21 Apr 2026 16:05:51 GMT",
       "actors": [
@@ -742,10 +810,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.057,
+      "impact": 0.013,
+      "raw_impact": 0.052,
       "source_weight": 1.0,
-      "age_hours": 21.69,
+      "age_hours": 23.18,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,10 +844,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.014,
-      "raw_impact": -0.017,
+      "impact": -0.013,
+      "raw_impact": -0.016,
       "source_weight": 0.9,
-      "age_hours": 42.19,
+      "age_hours": 43.68,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -802,6 +870,40 @@
       ]
     },
     {
+      "title": "A dangerous blind spot in Donald Trump\u2019s Iran war strategy",
+      "published": "Tue, 21 Apr 2026 21:12:55 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.013,
+      "raw_impact": 0.07,
+      "source_weight": 0.75,
+      "age_hours": 18.06,
+      "confidence": 0.655,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.economist.com/international/2026/04/21/a-dangerous-blind-spot-in-donald-trumps-iran-war-strategy",
+      "source": "https://www.economist.com/international/rss.xml",
+      "source_domain": "www.economist.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.economist.com"
+      ],
+      "cluster_links": [
+        "https://www.economist.com/international/2026/04/21/a-dangerous-blind-spot-in-donald-trumps-iran-war-strategy"
+      ]
+    },
+    {
       "title": "How Pakistan learned to speak Trump\u2019s language, becoming an unlikely peacemaker",
       "published": "Mon, 20 Apr 2026 19:57:38 +0000",
       "actors": [
@@ -811,9 +913,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.018,
+      "raw_impact": 0.016,
       "source_weight": 0.9,
-      "age_hours": 41.83,
+      "age_hours": 43.32,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,10 +946,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.004,
-      "raw_impact": 0.013,
+      "impact": 0.003,
+      "raw_impact": 0.012,
       "source_weight": 1.1,
-      "age_hours": 47.47,
+      "age_hours": 48.96,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -881,7 +983,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 137.72,
+      "age_hours": 139.21,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -915,7 +1017,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1191.04,
+      "age_hours": 1192.53,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -949,7 +1051,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 197.34,
+      "age_hours": 198.83,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -984,7 +1086,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 313.43,
+      "age_hours": 314.92,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1139,16 +1241,16 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 229,
-    "classified_count": 29,
-    "paired_count": 29,
+    "event_count": 230,
+    "classified_count": 32,
+    "paired_count": 32,
     "valid_pair_updates": 6,
-    "top_driver_count": 29,
-    "total_signal": 4.896,
+    "top_driver_count": 32,
+    "total_signal": 4.3466,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 106,
-      "no_signal": 58,
+      "no_actor": 103,
+      "no_signal": 59,
       "invalid_pair": 36,
       "low_confidence": 0,
       "classifier_error": 0,
