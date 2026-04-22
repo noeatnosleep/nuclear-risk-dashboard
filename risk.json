@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-22 06:02:15 UTC",
-  "probability": 15.06,
-  "uncertainty": 5.85,
+  "last_updated": "2026-04-22 08:16:25 UTC",
+  "probability": 14.81,
+  "uncertainty": 5.9,
   "state": {
-    "us_russia": 3.355898822724892,
-    "us_china": 3.0000536938339666,
-    "china_taiwan": 4.010566379972218,
+    "us_russia": 3.339363322643813,
+    "us_china": 3.0000472523131063,
+    "china_taiwan": 4.0056171348530025,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6307291710071885,
-    "iran_israel": 6.278741054955636,
-    "nk_us": 3.167105602608496,
-    "nk_sk": 2.8000000003047556,
+    "iran_us": 5.631949872097569,
+    "iran_israel": 6.13411914243214,
+    "nk_us": 3.088774851385763,
+    "nk_sk": 2.8000000001619014,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.554538491682496
+    "russia_ukraine": 6.39126899026441
   },
   "top_drivers": [
+    {
+      "title": "IRGC asserting themselves as Iran 'responds to Trump\u2019s method of conducting diplomacy in kind'",
+      "published": "Wed, 22 Apr 2026 08:01:41 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.852,
+      "raw_impact": 1.183,
+      "source_weight": 0.9,
+      "age_hours": 0.25,
+      "confidence": 0.95,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/irgc-asserting-themselves-as-iran-responds-to-trump-s-method-of-conducting-diplomacy-in-kind",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/irgc-asserting-themselves-as-iran-responds-to-trump-s-method-of-conducting-diplomacy-in-kind"
+      ]
+    },
     {
       "title": "Ukraine reopens damaged Druzhba pipeline to unlock \u20ac90 billion EU loan",
       "published": "Tue, 21 Apr 2026 21:04:12 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.514,
-      "raw_impact": 0.715,
+      "impact": 0.452,
+      "raw_impact": 0.628,
       "source_weight": 0.9,
-      "age_hours": 8.97,
+      "age_hours": 11.2,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.506,
-      "raw_impact": 0.702,
+      "impact": 0.444,
+      "raw_impact": 0.617,
       "source_weight": 0.9,
-      "age_hours": 9.28,
+      "age_hours": 11.52,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -85,40 +119,6 @@
       ]
     },
     {
-      "title": "US issues more Iran sanctions on eve of possible talks in Pakistan",
-      "published": "Tue, 21 Apr 2026 20:42:21 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.504,
-      "raw_impact": 0.7,
-      "source_weight": 0.9,
-      "age_hours": 9.33,
-      "confidence": 0.96,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/21/us-issues-more-iran-sanctions-on-eve-of-possible-talks-in-pakistan?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/21/us-issues-more-iran-sanctions-on-eve-of-possible-talks-in-pakistan?traffic_source=rss"
-      ]
-    },
-    {
       "title": "What would happen next if Iran agreed to surrender its highly enriched uranium",
       "published": "Tue, 21 Apr 2026 16:10:42 -0400",
       "actors": [
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.462,
-      "raw_impact": 0.679,
+      "impact": 0.406,
+      "raw_impact": 0.597,
       "source_weight": 0.85,
-      "age_hours": 9.86,
+      "age_hours": 12.1,
       "confidence": 0.945,
       "signal_total": 1.2,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.413,
-      "raw_impact": 0.459,
+      "impact": 0.363,
+      "raw_impact": 0.403,
       "source_weight": 0.9,
-      "age_hours": 6.04,
+      "age_hours": 8.27,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -188,30 +188,64 @@
       ]
     },
     {
-      "title": "Trump announces Iran ceasefire extension but says blockade remains",
-      "published": "Tue, 21 Apr 2026 20:22:17 +0000",
+      "title": "Trump extends Iran ceasefire as peace talks hit impasse",
+      "published": "Wed, 22 Apr 2026 06:51:13 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.335,
-      "raw_impact": 0.372,
+      "class": "movement",
+      "impact": 0.184,
+      "raw_impact": 0.24,
       "source_weight": 0.9,
-      "age_hours": 9.67,
-      "confidence": 0.688,
-      "signal_total": 0.65,
+      "age_hours": 1.42,
+      "confidence": 0.61,
+      "signal_total": 0.26,
       "signal_components": {
         "deescalation": -0.2,
-        "action": 0.9,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.04,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/792cf320-25ef-4d6a-bce5-028d0f3afba9",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/792cf320-25ef-4d6a-bce5-028d0f3afba9"
+      ]
+    },
+    {
+      "title": "Iran\u2019s UN ambassador responds to US ceasefire extension",
+      "published": "Wed, 22 Apr 2026 07:33:42 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.156,
+      "raw_impact": -0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.71,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/2026/4/21/trump-announces-extending-iran-ceasefire-but-says-blockade-remains?traffic_source=rss",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/22/irans-un-ambassador-responds-to-us-ceasefire-extension?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
@@ -219,7 +253,7 @@
         "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/21/trump-announces-extending-iran-ceasefire-but-says-blockade-remains?traffic_source=rss"
+        "https://www.aljazeera.com/video/newsfeed/2026/4/22/irans-un-ambassador-responds-to-us-ceasefire-extension?traffic_source=rss"
       ]
     },
     {
@@ -231,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.157,
-      "raw_impact": -0.193,
+      "impact": -0.138,
+      "raw_impact": -0.17,
       "source_weight": 0.9,
-      "age_hours": 0.61,
+      "age_hours": 2.84,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -257,40 +291,6 @@
       ]
     },
     {
-      "title": "Middle East war live: Trump says Iran 'collapsing financially' as Washington prolongs ceasefire",
-      "published": "Wed, 22 Apr 2026 03:27:38 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.172,
-      "source_weight": 0.9,
-      "age_hours": 2.58,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260422-live-us-will-extend-ceasefire-unclear-if-iran-agrees-war",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260422-live-us-will-extend-ceasefire-unclear-if-iran-agrees-war"
-      ]
-    },
-    {
       "title": "Tehran held military parades as ceasefire was set to end",
       "published": "Wed, 22 Apr 2026 03:21:22 +0000",
       "actors": [
@@ -299,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.139,
-      "raw_impact": -0.171,
+      "impact": -0.122,
+      "raw_impact": -0.151,
       "source_weight": 0.9,
-      "age_hours": 2.68,
+      "age_hours": 4.92,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -325,6 +325,40 @@
       ]
     },
     {
+      "title": "Middle East war live: Trump says Iran 'collapsing financially' as Washington prolongs ceasefire",
+      "published": "Wed, 22 Apr 2026 03:27:38 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.122,
+      "raw_impact": -0.151,
+      "source_weight": 0.9,
+      "age_hours": 4.81,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260422-live-us-will-extend-ceasefire-unclear-if-iran-agrees-war",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260422-live-us-will-extend-ceasefire-unclear-if-iran-agrees-war"
+      ]
+    },
+    {
       "title": "Trump extends Iran ceasefire indefinitely as peace talks stall",
       "published": "Wed, 22 Apr 2026 00:26:22 GMT",
       "actors": [
@@ -333,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.117,
-      "raw_impact": -0.145,
+      "impact": -0.103,
+      "raw_impact": -0.127,
       "source_weight": 0.9,
-      "age_hours": 5.6,
+      "age_hours": 7.83,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -367,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.107,
-      "raw_impact": -0.132,
+      "impact": -0.094,
+      "raw_impact": -0.116,
       "source_weight": 0.9,
-      "age_hours": 7.21,
+      "age_hours": 9.44,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -401,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.099,
-      "raw_impact": -0.122,
+      "impact": -0.086,
+      "raw_impact": -0.107,
       "source_weight": 0.9,
-      "age_hours": 8.56,
+      "age_hours": 10.8,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -435,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.085,
-      "raw_impact": -0.104,
+      "impact": -0.075,
+      "raw_impact": -0.092,
       "source_weight": 0.9,
-      "age_hours": 11.27,
+      "age_hours": 13.5,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -469,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.07,
-      "raw_impact": -0.071,
+      "impact": -0.061,
+      "raw_impact": -0.062,
       "source_weight": 1.1,
-      "age_hours": 18.04,
+      "age_hours": 20.27,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -503,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.063,
-      "raw_impact": 0.057,
+      "impact": 0.055,
+      "raw_impact": 0.05,
       "source_weight": 1.1,
-      "age_hours": 42.04,
+      "age_hours": 44.27,
       "confidence": 0.718,
       "signal_total": 0.65,
       "signal_components": {
@@ -538,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.055,
-      "raw_impact": -0.072,
+      "impact": -0.049,
+      "raw_impact": -0.063,
       "source_weight": 0.85,
-      "age_hours": 17.63,
+      "age_hours": 19.87,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -572,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.053,
-      "raw_impact": -0.069,
+      "impact": -0.047,
+      "raw_impact": -0.061,
       "source_weight": 0.85,
-      "age_hours": 18.4,
+      "age_hours": 20.64,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -606,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.05,
-      "raw_impact": -0.066,
+      "impact": -0.044,
+      "raw_impact": -0.058,
       "source_weight": 0.85,
-      "age_hours": 19.32,
+      "age_hours": 21.55,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -640,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.146,
+      "impact": 0.032,
+      "raw_impact": 0.128,
       "source_weight": 1.0,
-      "age_hours": 5.5,
+      "age_hours": 7.74,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -674,10 +708,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.119,
+      "impact": 0.024,
+      "raw_impact": 0.105,
       "source_weight": 0.9,
-      "age_hours": 8.97,
+      "age_hours": 11.21,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -700,40 +734,6 @@
       ]
     },
     {
-      "title": "Iran talks on shaky footing after U.S. seizure of ship in Strait of Hormuz",
-      "published": "Mon, 20 Apr 2026 19:36:07 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.023,
-      "raw_impact": -0.027,
-      "source_weight": 0.9,
-      "age_hours": 34.44,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/20/iran-united-states-ceasefire-talks-negotiations-hormuz-retaliate/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/20/iran-united-states-ceasefire-talks-negotiations-hormuz-retaliate/"
-      ]
-    },
-    {
       "title": "Iran sees mass redundancies from war with US and Israel",
       "published": "Tue, 21 Apr 2026 16:05:51 GMT",
       "actors": [
@@ -742,10 +742,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.089,
+      "impact": 0.02,
+      "raw_impact": 0.079,
       "source_weight": 1.0,
-      "age_hours": 13.94,
+      "age_hours": 16.18,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -768,6 +768,40 @@
       ]
     },
     {
+      "title": "Iran talks on shaky footing after U.S. seizure of ship in Strait of Hormuz",
+      "published": "Mon, 20 Apr 2026 19:36:07 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.02,
+      "raw_impact": -0.024,
+      "source_weight": 0.9,
+      "age_hours": 36.67,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/20/iran-united-states-ceasefire-talks-negotiations-hormuz-retaliate/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/20/iran-united-states-ceasefire-talks-negotiations-hormuz-retaliate/"
+      ]
+    },
+    {
       "title": "A dangerous blind spot in Donald Trump\u2019s Iran war strategy",
       "published": "Tue, 21 Apr 2026 21:12:55 +0000",
       "actors": [
@@ -776,10 +810,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.12,
+      "impact": 0.02,
+      "raw_impact": 0.106,
       "source_weight": 0.75,
-      "age_hours": 8.82,
+      "age_hours": 11.06,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,10 +844,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.082,
+      "impact": 0.016,
+      "raw_impact": 0.072,
       "source_weight": 0.9,
-      "age_hours": 15.5,
+      "age_hours": 17.74,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,10 +878,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.016,
+      "impact": -0.012,
+      "raw_impact": -0.014,
       "source_weight": 0.9,
-      "age_hours": 43.71,
+      "age_hours": 45.94,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -878,10 +912,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.028,
+      "impact": 0.005,
+      "raw_impact": 0.025,
       "source_weight": 0.9,
-      "age_hours": 34.08,
+      "age_hours": 36.31,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -913,9 +947,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.005,
-      "raw_impact": 0.02,
+      "raw_impact": 0.018,
       "source_weight": 1.1,
-      "age_hours": 39.72,
+      "age_hours": 41.96,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -949,7 +983,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 129.97,
+      "age_hours": 132.21,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -983,7 +1017,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1183.29,
+      "age_hours": 1185.52,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1017,7 +1051,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 189.59,
+      "age_hours": 191.83,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -1052,7 +1086,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 305.68,
+      "age_hours": 307.91,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1087,7 +1121,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 501.53,
+      "age_hours": 503.76,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1223,6 +1257,11 @@
       "domain": "www.france24.com"
     },
     {
+      "name": "www.ft.com",
+      "url": "https://www.ft.com/world?format=rss",
+      "domain": "www.ft.com"
+    },
+    {
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
@@ -1238,15 +1277,15 @@
   ],
   "debug": {
     "event_count": 230,
-    "classified_count": 32,
-    "paired_count": 32,
+    "classified_count": 33,
+    "paired_count": 33,
     "valid_pair_updates": 6,
-    "top_driver_count": 32,
-    "total_signal": 2.9942,
+    "top_driver_count": 33,
+    "total_signal": 2.9432,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 104,
-      "no_signal": 60,
+      "no_actor": 109,
+      "no_signal": 54,
       "invalid_pair": 34,
       "low_confidence": 0,
       "classifier_error": 0,
