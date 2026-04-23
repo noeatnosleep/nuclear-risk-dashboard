@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-23 18:12:59 UTC",
-  "probability": 17.33,
-  "uncertainty": 6.36,
+  "last_updated": "2026-04-23 19:51:03 UTC",
+  "probability": 17.59,
+  "uncertainty": 6.3,
   "state": {
-    "us_russia": 5.105898390911258,
-    "us_china": 3.159272471105334,
-    "china_taiwan": 4.0318545121999385,
-    "india_pakistan": 4.5430812009795725,
+    "us_russia": 5.150762536888141,
+    "us_china": 3.2295328453483134,
+    "china_taiwan": 4.045906578620938,
+    "india_pakistan": 4.522886888020398,
     "china_india": 2.8000000000000003,
-    "iran_us": 3.0055055895182523,
-    "iran_israel": 4.536164518823811,
-    "nk_us": 3.000000284622229,
+    "iran_us": 3.1232704835657907,
+    "iran_israel": 4.496406528451994,
+    "nk_us": 3.000000151205559,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.688544775749341
+    "russia_ukraine": 6.582121763846856
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.678,
-      "raw_impact": 0.942,
+      "impact": 0.617,
+      "raw_impact": 0.857,
       "source_weight": 0.9,
-      "age_hours": 4.2,
+      "age_hours": 5.83,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -52,17 +52,17 @@
     },
     {
       "title": "Russian Officials Say Town\u2019s Air Is Toxic, Days After Strike on Oil Refinery",
-      "published": "Thu, 23 Apr 2026 13:49:05 +0000",
+      "published": "Thu, 23 Apr 2026 13:49:06 +0000",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.628,
-      "raw_impact": 0.698,
+      "impact": 0.572,
+      "raw_impact": 0.635,
       "source_weight": 0.9,
-      "age_hours": 4.4,
+      "age_hours": 6.03,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,19 +85,19 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Trump Threatens Iranian Boats He Says Are Mining the Strait of Hormuz",
-      "published": "Thu, 23 Apr 2026 18:11:37 +0000",
+      "title": "Trump orders Iran mine-layers sunk, as Iran tolls tankers",
+      "published": "Thu, 23 Apr 2026 18:15:48 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.162,
-      "raw_impact": -0.2,
+      "impact": -0.148,
+      "raw_impact": -0.182,
       "source_weight": 0.9,
-      "age_hours": 0.02,
-      "confidence": 0.67,
+      "age_hours": 1.59,
+      "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -107,15 +107,49 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.france24.com/en/trump-orders-iran-mine-layers-sunk-as-iran-tolls-tankers",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news"
+        "https://www.france24.com/en/trump-orders-iran-mine-layers-sunk-as-iran-tolls-tankers"
+      ]
+    },
+    {
+      "title": "Truce without talks: What room for diplomacy between US and Iran?",
+      "published": "Thu, 23 Apr 2026 18:12:50 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.148,
+      "raw_impact": -0.182,
+      "source_weight": 0.9,
+      "age_hours": 1.64,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/the-debate/20260423-truce-without-talks-what-room-for-diplomacy-between-us-and-iran",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/the-debate/20260423-truce-without-talks-what-room-for-diplomacy-between-us-and-iran"
       ]
     },
     {
@@ -127,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.139,
-      "raw_impact": -0.14,
+      "impact": -0.126,
+      "raw_impact": -0.127,
       "source_weight": 1.1,
-      "age_hours": 6.22,
+      "age_hours": 7.85,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -161,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.12,
-      "raw_impact": -0.148,
+      "impact": -0.109,
+      "raw_impact": -0.135,
       "source_weight": 0.9,
-      "age_hours": 5.22,
+      "age_hours": 6.85,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.104,
-      "raw_impact": -0.137,
+      "impact": -0.095,
+      "raw_impact": -0.124,
       "source_weight": 0.85,
-      "age_hours": 6.6,
+      "age_hours": 8.23,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -221,40 +255,6 @@
       ]
     },
     {
-      "title": "The U.S. seizes another oil tanker as peace talks with Iran remain in limbo",
-      "published": "Thu, 23 Apr 2026 07:30:41 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.104,
-      "raw_impact": -0.136,
-      "source_weight": 0.85,
-      "age_hours": 6.71,
-      "confidence": 0.665,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/23/nx-s1-5796719/iran-middle-east-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/23/nx-s1-5796719/iran-middle-east-updates"
-      ]
-    },
-    {
       "title": "Peace talks between U.S. and Iran at a standstill as Trump extends ceasefire",
       "published": "Thu, 23 Apr 2026 06:49:46 -0400",
       "actors": [
@@ -263,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.1,
-      "raw_impact": -0.131,
+      "impact": -0.091,
+      "raw_impact": -0.119,
       "source_weight": 0.85,
-      "age_hours": 7.39,
+      "age_hours": 9.02,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.099,
-      "raw_impact": -0.146,
+      "impact": -0.09,
+      "raw_impact": -0.133,
       "source_weight": 0.75,
-      "age_hours": 5.44,
+      "age_hours": 7.08,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -323,6 +323,108 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: Trump to Host Israeli and Lebanese Officials at White House",
+      "published": "Thu, 23 Apr 2026 19:32:27 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.31,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news"
+      ]
+    },
+    {
+      "title": "How Trump\u2019s Iran war is driving military dissent",
+      "published": "Thu, 23 Apr 2026 19:08:51 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.7,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/the-take-2/2026/4/23/how-trumps-iran-war-is-driving-military-dissent?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/the-take-2/2026/4/23/how-trumps-iran-war-is-driving-military-dissent?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Israel defense minister says awaiting US green light to 'return Iran to Stone Age'",
+      "published": "Thu, 23 Apr 2026 18:36:23 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.186,
+      "source_weight": 0.9,
+      "age_hours": 1.24,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/israel-defense-minister-says-awaiting-us-green-light-to-return-iran-to-stone-age",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/israel-defense-minister-says-awaiting-us-green-light-to-return-iran-to-stone-age"
+      ]
+    },
+    {
       "title": "US-Kuwaiti journalist held in Kuwait over social media posts acquitted, lawyers say",
       "published": "Thu, 23 Apr 2026 15:11:03 GMT",
       "actors": [
@@ -331,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.168,
+      "impact": 0.038,
+      "raw_impact": 0.153,
       "source_weight": 1.0,
-      "age_hours": 3.03,
+      "age_hours": 4.67,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.176,
+      "impact": 0.036,
+      "raw_impact": 0.16,
       "source_weight": 0.9,
-      "age_hours": 2.21,
+      "age_hours": 3.85,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +501,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.177,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 2.12,
+      "age_hours": 3.75,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -425,40 +527,6 @@
       ]
     },
     {
-      "title": "U.S. Forces Board a 2nd Tanker They Say Is Carrying Oil From Iran",
-      "published": "Thu, 23 Apr 2026 14:10:48 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.158,
-      "source_weight": 0.9,
-      "age_hours": 4.04,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/23/world/middleeast/us-iran-oil-tanker-indian-ocean-mt-majestic-x.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/23/world/middleeast/us-iran-oil-tanker-indian-ocean-mt-majestic-x.html"
-      ]
-    },
-    {
       "title": "SECURITY COUNCIL LIVE: Regional war threatens Syria\u2019s fragile transition",
       "published": "Wed, 22 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -467,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.034,
-      "raw_impact": -0.035,
+      "impact": -0.032,
+      "raw_impact": -0.032,
       "source_weight": 1.1,
-      "age_hours": 30.22,
+      "age_hours": 31.85,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -501,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.034,
-      "raw_impact": -0.035,
+      "impact": -0.032,
+      "raw_impact": -0.032,
       "source_weight": 1.1,
-      "age_hours": 30.22,
+      "age_hours": 31.85,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -535,10 +603,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.166,
+      "impact": 0.028,
+      "raw_impact": 0.151,
       "source_weight": 0.75,
-      "age_hours": 3.21,
+      "age_hours": 4.84,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +637,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.145,
+      "impact": 0.025,
+      "raw_impact": 0.132,
       "source_weight": 0.75,
-      "age_hours": 5.61,
+      "age_hours": 7.25,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -603,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.016,
+      "impact": -0.012,
+      "raw_impact": -0.015,
       "source_weight": 0.9,
-      "age_hours": 43.39,
+      "age_hours": 45.02,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -637,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.042,
+      "impact": 0.009,
+      "raw_impact": 0.038,
       "source_weight": 1.0,
-      "age_hours": 27.21,
+      "age_hours": 28.84,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -663,74 +731,6 @@
       ]
     },
     {
-      "title": "MIDDLE EAST LIVE 21 April: Talks unclear; Hormuz tensions continue",
-      "published": "Tue, 21 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.009,
-      "raw_impact": -0.009,
-      "source_weight": 1.1,
-      "age_hours": 54.22,
-      "confidence": 0.78,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167340",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167340"
-      ]
-    },
-    {
-      "title": "Threat of Evictions Darkens Russia\u2019s Rosy Picture of Occupied Ukraine",
-      "published": "Wed, 22 Apr 2026 09:00:22 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.029,
-      "source_weight": 0.9,
-      "age_hours": 33.21,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/22/world/europe/russia-occupied-territories-mariupol.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/22/world/europe/russia-occupied-territories-mariupol.html"
-      ]
-    },
-    {
       "title": "A dangerous blind spot in Donald Trump\u2019s Iran war strategy",
       "published": "Tue, 21 Apr 2026 21:12:55 +0000",
       "actors": [
@@ -740,9 +740,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.015,
+      "raw_impact": 0.014,
       "source_weight": 0.75,
-      "age_hours": 45.0,
+      "age_hours": 46.64,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,7 +776,7 @@
       "impact": 0.001,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 75.9,
+      "age_hours": 77.53,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,7 +810,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 166.15,
+      "age_hours": 167.78,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +844,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1219.47,
+      "age_hours": 1221.1,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -998,17 +998,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 230,
+    "event_count": 228,
     "classified_count": 25,
     "paired_count": 25,
     "valid_pair_updates": 6,
     "top_driver_count": 25,
-    "total_signal": 2.5988,
+    "total_signal": 1.9341,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 100,
-      "no_signal": 58,
-      "invalid_pair": 47,
+      "no_actor": 99,
+      "no_signal": 56,
+      "invalid_pair": 48,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
