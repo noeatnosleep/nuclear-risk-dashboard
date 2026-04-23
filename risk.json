@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-23 07:59:13 UTC",
-  "probability": 14.89,
-  "uncertainty": 6.15,
+  "last_updated": "2026-04-23 09:53:58 UTC",
+  "probability": 15.28,
+  "uncertainty": 6.32,
   "state": {
-    "us_russia": 3.697955821265498,
-    "us_china": 3.000131550550364,
-    "china_taiwan": 4.0000271098868065,
-    "india_pakistan": 4.500000000000001,
+    "us_russia": 3.672938571826295,
+    "us_china": 3.0000741484206683,
+    "china_taiwan": 4.000015254565524,
+    "india_pakistan": 4.676626529668362,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.593089569218358,
-    "iran_israel": 5.026686440056732,
-    "nk_us": 3.0000126612083866,
-    "nk_sk": 2.800000000000023,
+    "iran_us": 5.611953833647253,
+    "iran_israel": 5.0933507592598675,
+    "nk_us": 3.0000067262669554,
+    "nk_sk": 2.800000000000012,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.112483380361919
+    "russia_ukraine": 6.309046176099838
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.754,
-      "raw_impact": 0.838,
+      "impact": 0.675,
+      "raw_impact": 0.75,
       "source_weight": 0.9,
-      "age_hours": 1.24,
+      "age_hours": 3.15,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,6 +51,41 @@
       ]
     },
     {
+      "title": "Iran tightens control of Hormuz after US calls off renewed attacks",
+      "published": "Thu, 23 Apr 2026 08:42:35 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.546,
+      "raw_impact": 0.607,
+      "source_weight": 0.9,
+      "age_hours": 1.19,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260423-iran-tightens-control-of-hormuz-after-us-calls-off-renewed-attacks",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260423-iran-tightens-control-of-hormuz-after-us-calls-off-renewed-attacks"
+      ]
+    },
+    {
       "title": "Iran Says It Seized Two Ships Near the Strait of Hormuz",
       "published": "Thu, 23 Apr 2026 00:54:06 +0000",
       "actors": [
@@ -59,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.538,
-      "raw_impact": 0.598,
+      "impact": 0.482,
+      "raw_impact": 0.535,
       "source_weight": 0.9,
-      "age_hours": 7.09,
+      "age_hours": 9.0,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.511,
-      "raw_impact": 0.567,
+      "impact": 0.457,
+      "raw_impact": 0.508,
       "source_weight": 0.9,
-      "age_hours": 7.99,
+      "age_hours": 9.9,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -119,53 +154,19 @@
       ]
     },
     {
-      "title": "What would happen next if Iran agreed to surrender its highly enriched uranium",
-      "published": "Tue, 21 Apr 2026 16:10:42 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.103,
-      "raw_impact": 0.152,
-      "source_weight": 0.85,
-      "age_hours": 35.81,
-      "confidence": 0.945,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/21/nx-s1-5788988/what-would-happen-next-if-iran-agreed-to-surrender-its-highly-enriched-uranium",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/21/nx-s1-5788988/what-would-happen-next-if-iran-agreed-to-surrender-its-highly-enriched-uranium"
-      ]
-    },
-    {
-      "title": "'Right now both sides are testing each other', analyst says as Iran truce extended",
-      "published": "Wed, 22 Apr 2026 19:27:27 GMT",
+      "title": "Iran war: What\u2019s happening on day 55 after Trump extended ceasefire?",
+      "published": "Thu, 23 Apr 2026 07:34:46 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.078,
-      "raw_impact": -0.097,
+      "impact": -0.141,
+      "raw_impact": -0.175,
       "source_weight": 0.9,
-      "age_hours": 12.53,
-      "confidence": 0.67,
+      "age_hours": 2.32,
+      "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -175,15 +176,15 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/right-now-both-sides-are-testing-each-other-analyst-says-as-iran-truce-extended",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.aljazeera.com/news/2026/4/23/iran-war-whats-happening-on-day-55-after-trump-extended-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/right-now-both-sides-are-testing-each-other-analyst-says-as-iran-truce-extended"
+        "https://www.aljazeera.com/news/2026/4/23/iran-war-whats-happening-on-day-55-after-trump-extended-ceasefire?traffic_source=rss"
       ]
     },
     {
@@ -195,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.062,
-      "raw_impact": -0.063,
+      "impact": -0.056,
+      "raw_impact": -0.056,
       "source_weight": 1.1,
-      "age_hours": 19.99,
+      "age_hours": 21.9,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +230,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.062,
-      "raw_impact": -0.063,
+      "impact": -0.056,
+      "raw_impact": -0.056,
       "source_weight": 1.1,
-      "age_hours": 19.99,
+      "age_hours": 21.9,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +264,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.053,
-      "raw_impact": -0.07,
+      "impact": -0.048,
+      "raw_impact": -0.063,
       "source_weight": 0.85,
-      "age_hours": 18.21,
+      "age_hours": 20.12,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -289,37 +290,71 @@
       ]
     },
     {
-      "title": "Iran says it seized ships in Strait of Hormuz as U.S. blockade continues amid ceasefire",
-      "published": "Wed, 22 Apr 2026 06:53:59 -0400",
+      "title": "India to Iran: How two wars shaped the rise of Pakistan\u2019s Asim Munir",
+      "published": "Thu, 23 Apr 2026 09:34:19 +0000",
+      "actors": [
+        "india",
+        "pakistan"
+      ],
+      "state_key": "india_pakistan",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.33,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/features/2026/4/23/india-to-iran-how-two-wars-shaped-the-rise-of-pakistans-asim-munir?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/features/2026/4/23/india-to-iran-how-two-wars-shaped-the-rise-of-pakistans-asim-munir?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Iran War Live Updates: Reported Ship Seizures Add to Anxiety in Oil Markets",
+      "published": "Thu, 23 Apr 2026 09:35:19 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.045,
-      "raw_impact": -0.059,
-      "source_weight": 0.85,
-      "age_hours": 21.09,
-      "confidence": 0.755,
-      "signal_total": -0.2,
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.31,
+      "confidence": 0.67,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.npr.org/2026/04/22/nx-s1-5795405/iran-middle-east-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
+      "link": "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.npr.org"
+        "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.npr.org/2026/04/22/nx-s1-5795405/iran-middle-east-updates"
+        "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news"
       ]
     },
     {
@@ -331,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
+      "impact": 0.036,
+      "raw_impact": 0.159,
       "source_weight": 0.9,
-      "age_hours": 2.03,
+      "age_hours": 3.95,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -357,40 +392,6 @@
       ]
     },
     {
-      "title": "Turkiye making efforts to revive Russia-Ukraine talks, says Erdogan",
-      "published": "Wed, 22 Apr 2026 21:09:14 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.107,
-      "source_weight": 0.9,
-      "age_hours": 10.83,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/22/turkiye-making-efforts-to-revive-russia-ukraine-talks-says-erdogan?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/22/turkiye-making-efforts-to-revive-russia-ukraine-talks-says-erdogan?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Trump extends ceasefire indefinitely as Iran says it won\u2019t join talks now",
       "published": "Tue, 21 Apr 2026 22:49:48 +0000",
       "actors": [
@@ -399,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.024,
-      "raw_impact": -0.029,
+      "impact": -0.022,
+      "raw_impact": -0.026,
       "source_weight": 0.9,
-      "age_hours": 33.16,
+      "age_hours": 35.07,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -433,10 +434,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.075,
+      "impact": 0.017,
+      "raw_impact": 0.067,
       "source_weight": 1.0,
-      "age_hours": 16.98,
+      "age_hours": 18.89,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +468,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.015,
-      "raw_impact": -0.016,
+      "impact": -0.014,
+      "raw_impact": -0.014,
       "source_weight": 1.1,
-      "age_hours": 43.99,
+      "age_hours": 45.9,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -501,10 +502,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.074,
+      "impact": 0.013,
+      "raw_impact": 0.066,
       "source_weight": 0.75,
-      "age_hours": 17.16,
+      "age_hours": 19.08,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +536,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.074,
+      "impact": 0.013,
+      "raw_impact": 0.066,
       "source_weight": 0.75,
-      "age_hours": 17.2,
+      "age_hours": 19.12,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -561,40 +562,6 @@
       ]
     },
     {
-      "title": "Trump extends U.S. ceasefire with Iran at Pakistan's request",
-      "published": "Tue, 21 Apr 2026 08:24:15 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.016,
-      "source_weight": 0.85,
-      "age_hours": 43.58,
-      "confidence": 0.755,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/21/nx-s1-5793638/iran-middle-east-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/21/nx-s1-5793638/iran-middle-east-updates"
-      ]
-    },
-    {
       "title": "Threat of Evictions Darkens Russia\u2019s Rosy Picture of Occupied Ukraine",
       "published": "Wed, 22 Apr 2026 09:00:22 +0000",
       "actors": [
@@ -603,10 +570,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.053,
+      "impact": 0.011,
+      "raw_impact": 0.047,
       "source_weight": 0.9,
-      "age_hours": 22.98,
+      "age_hours": 24.89,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -637,10 +604,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.055,
+      "impact": 0.009,
+      "raw_impact": 0.049,
       "source_weight": 0.75,
-      "age_hours": 22.3,
+      "age_hours": 24.21,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -671,10 +638,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.033,
+      "impact": 0.007,
+      "raw_impact": 0.029,
       "source_weight": 1.0,
-      "age_hours": 31.45,
+      "age_hours": 33.36,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -705,10 +672,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.005,
-      "raw_impact": 0.02,
+      "impact": 0.004,
+      "raw_impact": 0.018,
       "source_weight": 1.0,
-      "age_hours": 39.89,
+      "age_hours": 41.8,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -739,10 +706,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.005,
-      "raw_impact": 0.027,
+      "impact": 0.004,
+      "raw_impact": 0.024,
       "source_weight": 0.75,
-      "age_hours": 34.77,
+      "age_hours": 36.68,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -774,9 +741,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.001,
-      "raw_impact": 0.005,
+      "raw_impact": 0.004,
       "source_weight": 1.1,
-      "age_hours": 65.67,
+      "age_hours": 67.58,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,7 +777,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 155.92,
+      "age_hours": 157.83,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +811,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1209.24,
+      "age_hours": 1211.15,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -878,7 +845,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 215.54,
+      "age_hours": 217.45,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -913,7 +880,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 331.63,
+      "age_hours": 333.54,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1064,16 +1031,16 @@
   ],
   "debug": {
     "event_count": 230,
-    "classified_count": 27,
-    "paired_count": 27,
-    "valid_pair_updates": 6,
-    "top_driver_count": 27,
-    "total_signal": 2.4568,
+    "classified_count": 26,
+    "paired_count": 26,
+    "valid_pair_updates": 7,
+    "top_driver_count": 26,
+    "total_signal": 2.9844,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 104,
-      "no_signal": 55,
-      "invalid_pair": 44,
+      "no_actor": 103,
+      "no_signal": 59,
+      "invalid_pair": 42,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
