@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-23 20:56:07 UTC",
-  "probability": 17.47,
-  "uncertainty": 6.35,
+  "last_updated": "2026-04-23 21:51:28 UTC",
+  "probability": 17.74,
+  "uncertainty": 6.18,
   "state": {
-    "us_russia": 5.117632152110081,
-    "us_china": 3.258060143706469,
-    "china_taiwan": 4.051612033815409,
-    "india_pakistan": 4.5121586592608365,
+    "us_russia": 5.054302974497364,
+    "us_china": 3.266152184953148,
+    "china_taiwan": 4.053230439686253,
+    "india_pakistan": 4.506459287732319,
     "china_india": 2.8000000000000003,
-    "iran_us": 3.1397718363372626,
-    "iran_israel": 4.466072846628709,
-    "nk_us": 3.000000080327953,
+    "iran_us": 3.198382191530211,
+    "iran_israel": 5.266307068650231,
+    "nk_us": 3.000000042674225,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.483990960718033
+    "russia_ukraine": 6.398469391293001
   },
   "top_drivers": [
+    {
+      "title": "Iran War Live Updates: Trump Says Israel and Lebanon Agree to Extend Cease-Fire",
+      "published": "Thu, 23 Apr 2026 21:46:49 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.806,
+      "raw_impact": 0.896,
+      "source_weight": 0.9,
+      "age_hours": 0.08,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news"
+      ]
+    },
     {
       "title": "EU approves massive loan to help Ukraine after Hungary lifts its veto",
       "published": "Thu, 23 Apr 2026 14:01:02 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.579,
-      "raw_impact": 0.805,
+      "impact": 0.55,
+      "raw_impact": 0.763,
       "source_weight": 0.9,
-      "age_hours": 6.92,
+      "age_hours": 7.84,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.537,
-      "raw_impact": 0.597,
+      "impact": 0.509,
+      "raw_impact": 0.566,
       "source_weight": 0.9,
-      "age_hours": 7.12,
+      "age_hours": 8.04,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,40 +119,6 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Trump to Host Israeli and Lebanese Officials at White House",
-      "published": "Thu, 23 Apr 2026 20:51:31 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.161,
-      "raw_impact": -0.199,
-      "source_weight": 0.9,
-      "age_hours": 0.08,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news"
-      ]
-    },
-    {
       "title": "Trump orders Iran mine-layers sunk, as Iran tolls tankers",
       "published": "Thu, 23 Apr 2026 18:15:48 GMT",
       "actors": [
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.139,
-      "raw_impact": -0.171,
+      "impact": -0.131,
+      "raw_impact": -0.163,
       "source_weight": 0.9,
-      "age_hours": 2.67,
+      "age_hours": 3.59,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.139,
-      "raw_impact": -0.171,
+      "impact": -0.131,
+      "raw_impact": -0.162,
       "source_weight": 0.9,
-      "age_hours": 2.72,
+      "age_hours": 3.64,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.118,
-      "raw_impact": -0.119,
+      "impact": -0.112,
+      "raw_impact": -0.113,
       "source_weight": 1.1,
-      "age_hours": 8.94,
+      "age_hours": 9.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.089,
-      "raw_impact": -0.117,
+      "impact": -0.085,
+      "raw_impact": -0.111,
       "source_weight": 0.85,
-      "age_hours": 9.32,
+      "age_hours": 10.24,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.086,
-      "raw_impact": -0.112,
+      "impact": -0.081,
+      "raw_impact": -0.106,
       "source_weight": 0.85,
-      "age_hours": 10.11,
+      "age_hours": 11.03,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.085,
-      "raw_impact": -0.125,
+      "impact": -0.08,
+      "raw_impact": -0.118,
       "source_weight": 0.75,
-      "age_hours": 8.16,
+      "age_hours": 9.09,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "title": "US shale bosses temper output expectations with \u2018chaos\u2019 of Iran war",
+      "title": "US shale bosses resist boosting oil output over Iran war \u2018chaos\u2019",
       "published": "Thu, 23 Apr 2026 20:47:14 GMT",
       "actors": [
         "iran",
@@ -331,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.198,
+      "impact": 0.042,
+      "raw_impact": 0.188,
       "source_weight": 0.9,
-      "age_hours": 0.15,
+      "age_hours": 1.07,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.18,
+      "impact": 0.038,
+      "raw_impact": 0.171,
       "source_weight": 0.9,
-      "age_hours": 1.79,
+      "age_hours": 2.71,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.175,
+      "impact": 0.037,
+      "raw_impact": 0.166,
       "source_weight": 0.9,
-      "age_hours": 2.33,
+      "age_hours": 3.25,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.143,
+      "impact": 0.034,
+      "raw_impact": 0.136,
       "source_weight": 1.0,
-      "age_hours": 5.75,
+      "age_hours": 6.67,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -459,40 +459,6 @@
       ]
     },
     {
-      "title": "US-Israeli war on Iran will push 30 million back into poverty, UN warns",
-      "published": "Thu, 23 Apr 2026 16:00:19 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.15,
-      "source_weight": 0.9,
-      "age_hours": 4.93,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/23/us-israeli-war-on-iran-will-push-30-million-back-into-poverty-un-warns?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/23/us-israeli-war-on-iran-will-push-30-million-back-into-poverty-un-warns?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Is China's economy insulated from Iran war shock?",
       "published": "Thu, 23 Apr 2026 16:05:53 GMT",
       "actors": [
@@ -501,10 +467,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.151,
+      "impact": 0.032,
+      "raw_impact": 0.143,
       "source_weight": 0.9,
-      "age_hours": 4.84,
+      "age_hours": 5.76,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.03,
-      "raw_impact": -0.03,
+      "impact": -0.028,
+      "raw_impact": -0.028,
       "source_weight": 1.1,
-      "age_hours": 32.94,
+      "age_hours": 33.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -569,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.03,
-      "raw_impact": -0.03,
+      "impact": -0.028,
+      "raw_impact": -0.028,
       "source_weight": 1.1,
-      "age_hours": 32.94,
+      "age_hours": 33.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -603,10 +569,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.142,
+      "impact": 0.025,
+      "raw_impact": 0.135,
       "source_weight": 0.75,
-      "age_hours": 5.93,
+      "age_hours": 6.85,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -637,10 +603,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.124,
+      "impact": 0.022,
+      "raw_impact": 0.117,
       "source_weight": 0.75,
-      "age_hours": 8.33,
+      "age_hours": 9.25,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -671,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.012,
-      "raw_impact": -0.014,
+      "impact": -0.011,
+      "raw_impact": -0.013,
       "source_weight": 0.9,
-      "age_hours": 46.11,
+      "age_hours": 47.03,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -706,9 +672,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.009,
-      "raw_impact": 0.036,
+      "raw_impact": 0.034,
       "source_weight": 1.0,
-      "age_hours": 29.92,
+      "age_hours": 30.85,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -739,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.003,
-      "raw_impact": 0.013,
+      "impact": 0.002,
+      "raw_impact": 0.012,
       "source_weight": 0.75,
-      "age_hours": 47.72,
+      "age_hours": 48.64,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,7 +742,7 @@
       "impact": 0.001,
       "raw_impact": 0.002,
       "source_weight": 1.1,
-      "age_hours": 78.62,
+      "age_hours": 79.54,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,7 +776,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 168.87,
+      "age_hours": 169.79,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +810,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1222.19,
+      "age_hours": 1223.11,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -998,17 +964,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 229,
-    "classified_count": 25,
-    "paired_count": 25,
+    "event_count": 230,
+    "classified_count": 24,
+    "paired_count": 24,
     "valid_pair_updates": 6,
-    "top_driver_count": 25,
-    "total_signal": 1.8802,
+    "top_driver_count": 24,
+    "total_signal": 2.4951,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 99,
-      "no_signal": 58,
-      "invalid_pair": 47,
+      "no_actor": 97,
+      "no_signal": 60,
+      "invalid_pair": 49,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
