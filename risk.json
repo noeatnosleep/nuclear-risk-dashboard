@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-23 05:33:30 UTC",
-  "probability": 14.36,
-  "uncertainty": 6.14,
+  "last_updated": "2026-04-23 07:59:13 UTC",
+  "probability": 14.89,
+  "uncertainty": 6.15,
   "state": {
-    "us_russia": 3.6811102215218896,
-    "us_china": 3.0002386646156145,
-    "china_taiwan": 4.00004923838521,
+    "us_russia": 3.697955821265498,
+    "us_china": 3.000131550550364,
+    "china_taiwan": 4.0000271098868065,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.557580365587496,
-    "iran_israel": 5.078458587477797,
-    "nk_us": 3.0000238328628455,
-    "nk_sk": 2.8000000000000433,
+    "iran_us": 5.593089569218358,
+    "iran_israel": 5.026686440056732,
+    "nk_us": 3.0000126612083866,
+    "nk_sk": 2.800000000000023,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.403406438472434
+    "russia_ukraine": 6.112483380361919
   },
   "top_drivers": [
+    {
+      "title": "Zelensky to join European leaders in Cyprus as EU unblocks \u20ac90bn Ukraine loan",
+      "published": "Thu, 23 Apr 2026 06:45:03 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.754,
+      "raw_impact": 0.838,
+      "source_weight": 0.9,
+      "age_hours": 1.24,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/europe/20260423-zelensky-to-join-european-leaders-in-cyprus-as-eu-unblocks-%E2%82%AC90bn-ukraine-loan",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/europe/20260423-zelensky-to-join-european-leaders-in-cyprus-as-eu-unblocks-%E2%82%AC90bn-ukraine-loan"
+      ]
+    },
     {
       "title": "Iran Says It Seized Two Ships Near the Strait of Hormuz",
       "published": "Thu, 23 Apr 2026 00:54:06 +0000",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.619,
-      "raw_impact": 0.688,
+      "impact": 0.538,
+      "raw_impact": 0.598,
       "source_weight": 0.9,
-      "age_hours": 4.66,
+      "age_hours": 7.09,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.588,
-      "raw_impact": 0.653,
+      "impact": 0.511,
+      "raw_impact": 0.567,
       "source_weight": 0.9,
-      "age_hours": 5.56,
+      "age_hours": 7.99,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,40 +119,6 @@
       ]
     },
     {
-      "title": "Mapping the environmental toll of the Middle East war",
-      "published": "Wed, 22 Apr 2026 15:59:50 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.37,
-      "raw_impact": 0.411,
-      "source_weight": 0.9,
-      "age_hours": 13.56,
-      "confidence": 0.9,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/tv-shows/the-observers/20260422-mapping-environmental-toll-middle-east-war",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/tv-shows/the-observers/20260422-mapping-environmental-toll-middle-east-war"
-      ]
-    },
-    {
       "title": "What would happen next if Iran agreed to surrender its highly enriched uranium",
       "published": "Tue, 21 Apr 2026 16:10:42 -0400",
       "actors": [
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.118,
-      "raw_impact": 0.175,
+      "impact": 0.103,
+      "raw_impact": 0.152,
       "source_weight": 0.85,
-      "age_hours": 33.38,
+      "age_hours": 35.81,
       "confidence": 0.945,
       "signal_total": 1.2,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.09,
-      "raw_impact": -0.112,
+      "impact": -0.078,
+      "raw_impact": -0.097,
       "source_weight": 0.9,
-      "age_hours": 10.1,
+      "age_hours": 12.53,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -187,40 +187,6 @@
       ]
     },
     {
-      "title": "Three ships targeted in Hormuz, Iran seizes two",
-      "published": "Wed, 22 Apr 2026 18:24:43 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.086,
-      "raw_impact": -0.105,
-      "source_weight": 0.9,
-      "age_hours": 11.15,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/three-ships-targeted-in-hormuz-iran-seizes-two",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/three-ships-targeted-in-hormuz-iran-seizes-two"
-      ]
-    },
-    {
       "title": "SECURITY COUNCIL LIVE: Regional war threatens Syria\u2019s fragile transition",
       "published": "Wed, 22 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -229,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.072,
-      "raw_impact": -0.073,
+      "impact": -0.062,
+      "raw_impact": -0.063,
       "source_weight": 1.1,
-      "age_hours": 17.56,
+      "age_hours": 19.99,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.072,
-      "raw_impact": -0.073,
+      "impact": -0.062,
+      "raw_impact": -0.063,
       "source_weight": 1.1,
-      "age_hours": 17.56,
+      "age_hours": 19.99,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.061,
-      "raw_impact": -0.08,
+      "impact": -0.053,
+      "raw_impact": -0.07,
       "source_weight": 0.85,
-      "age_hours": 15.78,
+      "age_hours": 18.21,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -331,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.052,
-      "raw_impact": -0.068,
+      "impact": -0.045,
+      "raw_impact": -0.059,
       "source_weight": 0.85,
-      "age_hours": 18.66,
+      "age_hours": 21.09,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -357,18 +323,18 @@
       ]
     },
     {
-      "title": "\u2018The last thing we needed\u2019: US farmers hit by spiralling prices due to Iran war",
-      "published": "Thu, 23 Apr 2026 04:00:07 GMT",
+      "title": "Pentagon removes top Navy official amid military shake-up",
+      "published": "Thu, 23 Apr 2026 05:57:14 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.183,
+      "impact": 0.04,
+      "raw_impact": 0.178,
       "source_weight": 0.9,
-      "age_hours": 1.56,
+      "age_hours": 2.03,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -379,15 +345,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.ft.com/content/c3b70fde-3e8a-4661-a4cb-7dc1564f43b1",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
+      "link": "https://www.france24.com/en/americas/20260423-pentagon-removes-top-navy-official-amid-military-shake-up",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.ft.com"
+        "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.ft.com/content/c3b70fde-3e8a-4661-a4cb-7dc1564f43b1"
+        "https://www.france24.com/en/americas/20260423-pentagon-removes-top-navy-official-amid-military-shake-up"
       ]
     },
     {
@@ -399,10 +365,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.123,
+      "impact": 0.024,
+      "raw_impact": 0.107,
       "source_weight": 0.9,
-      "age_hours": 8.4,
+      "age_hours": 10.83,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.028,
-      "raw_impact": -0.034,
+      "impact": -0.024,
+      "raw_impact": -0.029,
       "source_weight": 0.9,
-      "age_hours": 30.73,
+      "age_hours": 33.16,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -467,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.086,
+      "impact": 0.019,
+      "raw_impact": 0.075,
       "source_weight": 1.0,
-      "age_hours": 14.55,
+      "age_hours": 16.98,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.018,
-      "raw_impact": -0.018,
+      "impact": -0.015,
+      "raw_impact": -0.016,
       "source_weight": 1.1,
-      "age_hours": 41.56,
+      "age_hours": 43.99,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -535,10 +501,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.085,
+      "impact": 0.014,
+      "raw_impact": 0.074,
       "source_weight": 0.75,
-      "age_hours": 14.74,
+      "age_hours": 17.16,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +535,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.085,
+      "impact": 0.014,
+      "raw_impact": 0.074,
       "source_weight": 0.75,
-      "age_hours": 14.78,
+      "age_hours": 17.2,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -603,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.014,
-      "raw_impact": -0.019,
+      "impact": -0.013,
+      "raw_impact": -0.016,
       "source_weight": 0.85,
-      "age_hours": 41.15,
+      "age_hours": 43.58,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -637,10 +603,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.061,
+      "impact": 0.012,
+      "raw_impact": 0.053,
       "source_weight": 0.9,
-      "age_hours": 20.55,
+      "age_hours": 22.98,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -663,40 +629,6 @@
       ]
     },
     {
-      "title": "U.S.-Iran ceasefire nears its end. And, Fed chair nominee faces tough hearing",
-      "published": "Tue, 21 Apr 2026 07:38:06 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.018,
-      "source_weight": 0.85,
-      "age_hours": 41.92,
-      "confidence": 0.745,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/21/g-s1-118194/up-first-newsletter-us-iran-israel-ceasefire-lori-chavez-deremer-kevin-warsh",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/21/g-s1-118194/up-first-newsletter-us-iran-israel-ceasefire-lori-chavez-deremer-kevin-warsh"
-      ]
-    },
-    {
       "title": "Steven Everts interviewed by La Vanguardia",
       "published": "Wed, 22 Apr 2026 09:41:12 +0000",
       "actors": [
@@ -705,10 +637,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.063,
+      "impact": 0.01,
+      "raw_impact": 0.055,
       "source_weight": 0.75,
-      "age_hours": 19.87,
+      "age_hours": 22.3,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -739,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.037,
+      "impact": 0.008,
+      "raw_impact": 0.033,
       "source_weight": 1.0,
-      "age_hours": 29.02,
+      "age_hours": 31.45,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -773,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.023,
+      "impact": 0.005,
+      "raw_impact": 0.02,
       "source_weight": 1.0,
-      "age_hours": 37.46,
+      "age_hours": 39.89,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -807,10 +739,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.031,
+      "impact": 0.005,
+      "raw_impact": 0.027,
       "source_weight": 0.75,
-      "age_hours": 32.34,
+      "age_hours": 34.77,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -841,10 +773,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.002,
+      "impact": 0.001,
       "raw_impact": 0.005,
       "source_weight": 1.1,
-      "age_hours": 63.24,
+      "age_hours": 65.67,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -878,7 +810,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 153.49,
+      "age_hours": 155.92,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -912,7 +844,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1206.81,
+      "age_hours": 1209.24,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +878,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 213.11,
+      "age_hours": 215.54,
       "confidence": 0.798,
       "signal_total": 1.62,
       "signal_components": {
@@ -981,7 +913,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 329.2,
+      "age_hours": 331.63,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -1117,11 +1049,6 @@
       "domain": "www.france24.com"
     },
     {
-      "name": "www.ft.com",
-      "url": "https://www.ft.com/world?format=rss",
-      "domain": "www.ft.com"
-    },
-    {
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
@@ -1137,15 +1064,15 @@
   ],
   "debug": {
     "event_count": 230,
-    "classified_count": 29,
-    "paired_count": 29,
+    "classified_count": 27,
+    "paired_count": 27,
     "valid_pair_updates": 6,
-    "top_driver_count": 29,
-    "total_signal": 2.1613,
+    "top_driver_count": 27,
+    "total_signal": 2.4568,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 103,
-      "no_signal": 54,
+      "no_actor": 104,
+      "no_signal": 55,
       "invalid_pair": 44,
       "low_confidence": 0,
       "classifier_error": 0,
