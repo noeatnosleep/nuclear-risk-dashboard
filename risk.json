@@ -1,80 +1,45 @@
 {
-  "last_updated": "2026-04-23 12:40:09 UTC",
-  "probability": 16.04,
-  "uncertainty": 6.56,
+  "last_updated": "2026-04-23 15:14:02 UTC",
+  "probability": 16.54,
+  "uncertainty": 6.39,
   "state": {
-    "us_russia": 3.8164214275147716,
-    "us_china": 3.000023025461326,
-    "china_taiwan": 4.0000047250050805,
-    "india_pakistan": 4.787336615855611,
+    "us_russia": 4.527473883367223,
+    "us_china": 3.000012232276329,
+    "china_taiwan": 4.000002510158949,
+    "india_pakistan": 4.652647577173293,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.627299470628961,
-    "iran_israel": 5.022607218311197,
-    "nk_us": 3.0000018983312016,
-    "nk_sk": 2.8000000000000034,
+    "iran_us": 4.163807356149466,
+    "iran_israel": 4.842579151765109,
+    "nk_us": 3.000001008488451,
+    "nk_sk": 2.8000000000000016,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.639546515656464
+    "russia_ukraine": 6.648797734821471
   },
   "top_drivers": [
     {
-      "title": "Toxic rain falls on Russian city after refinery blaze",
-      "published": "Thu, 23 Apr 2026 10:12:09 GMT",
+      "title": "EU approves massive loan to help Ukraine after Hungary lifts its veto",
+      "published": "Thu, 23 Apr 2026 14:01:02 GMT",
       "actors": [
-        "russia",
-        "ukraine"
+        "us",
+        "russia"
       ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.702,
-      "raw_impact": 0.78,
+      "state_key": "us_russia",
+      "class": "strategic",
+      "impact": 0.806,
+      "raw_impact": 1.119,
       "source_weight": 0.9,
-      "age_hours": 2.47,
-      "confidence": 0.89,
-      "signal_total": 0.9,
+      "age_hours": 1.22,
+      "confidence": 0.96,
+      "signal_total": 1.2,
       "signal_components": {
         "deescalation": 0.0,
-        "action": 0.9,
+        "action": 0.0,
         "movement": 0.0,
-        "strategic": 0.0,
+        "strategic": 1.2,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.ft.com/content/1b29527a-6c94-4516-aa5b-c60fb889a296",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/1b29527a-6c94-4516-aa5b-c60fb889a296"
-      ]
-    },
-    {
-      "title": "Iran tightens control of Hormuz after US calls off renewed attacks",
-      "published": "Thu, 23 Apr 2026 08:42:35 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.465,
-      "raw_impact": 0.517,
-      "source_weight": 0.9,
-      "age_hours": 3.96,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260423-iran-tightens-control-of-hormuz-after-us-calls-off-renewed-attacks",
+      "link": "https://www.france24.com/en/video/20260423-eu-approves-massive-loan-to-help-ukraine-after-hungary-lifts-its-veto",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -82,22 +47,22 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/video/20260423-iran-tightens-control-of-hormuz-after-us-calls-off-renewed-attacks"
+        "https://www.france24.com/en/video/20260423-eu-approves-massive-loan-to-help-ukraine-after-hungary-lifts-its-veto"
       ]
     },
     {
-      "title": "Iran Says It Seized Two Ships Near the Strait of Hormuz",
-      "published": "Thu, 23 Apr 2026 00:54:06 +0000",
+      "title": "Russian Officials Say Town\u2019s Air Is Toxic, Days After Strike on Oil Refinery",
+      "published": "Thu, 23 Apr 2026 13:49:05 +0000",
       "actors": [
-        "iran",
-        "us"
+        "russia",
+        "ukraine"
       ],
-      "state_key": "iran_us",
+      "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.41,
-      "raw_impact": 0.456,
+      "impact": 0.746,
+      "raw_impact": 0.829,
       "source_weight": 0.9,
-      "age_hours": 11.77,
+      "age_hours": 1.42,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -108,7 +73,7 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/2026/04/22/world/middleeast/iran-ships-strait-of-hormuz.html",
+      "link": "https://www.nytimes.com/2026/04/23/world/europe/russia-oil-refinery-black-rain.html",
       "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
@@ -116,7 +81,75 @@
         "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/04/22/world/middleeast/iran-ships-strait-of-hormuz.html"
+        "https://www.nytimes.com/2026/04/23/world/europe/russia-oil-refinery-black-rain.html"
+      ]
+    },
+    {
+      "title": "Iran War Live Updates: Trump Threatens Iranian Boats He Says Are Mining the Strait of Hormuz",
+      "published": "Thu, 23 Apr 2026 15:08:14 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.161,
+      "raw_impact": -0.199,
+      "source_weight": 0.9,
+      "age_hours": 0.1,
+      "confidence": 0.67,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news"
+      ]
+    },
+    {
+      "title": "US-Iran war hits new stalemate with shaky ceasefire deal",
+      "published": "Thu, 23 Apr 2026 13:00:03 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.142,
+      "raw_impact": -0.176,
+      "source_weight": 0.9,
+      "age_hours": 2.23,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/023332d2-c0d3-4d1f-9b05-413c39cc1642",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/023332d2-c0d3-4d1f-9b05-413c39cc1642"
       ]
     },
     {
@@ -128,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.144,
-      "raw_impact": -0.188,
+      "impact": -0.124,
+      "raw_impact": -0.162,
       "source_weight": 0.85,
-      "age_hours": 1.05,
+      "age_hours": 3.61,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -154,7 +187,7 @@
       ]
     },
     {
-      "title": "U.S. seizes another oil tanker as peace talks with Iran still in limbo",
+      "title": "The U.S. seizes another oil tanker as peace talks with Iran remain in limbo",
       "published": "Thu, 23 Apr 2026 07:30:41 -0400",
       "actors": [
         "iran",
@@ -162,11 +195,11 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.143,
-      "raw_impact": -0.187,
+      "impact": -0.123,
+      "raw_impact": -0.161,
       "source_weight": 0.85,
-      "age_hours": 1.16,
-      "confidence": 0.745,
+      "age_hours": 3.72,
+      "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -188,6 +221,108 @@
       ]
     },
     {
+      "title": "Peace talks between U.S. and Iran at a standstill as Trump extends ceasefire",
+      "published": "Thu, 23 Apr 2026 06:49:46 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.119,
+      "raw_impact": -0.155,
+      "source_weight": 0.85,
+      "age_hours": 4.4,
+      "confidence": 0.745,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/23/nx-s1-5795829/peace-talks-between-us-and-iran-at-a-standstill-as-trump-extends-ceasefire",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/23/nx-s1-5795829/peace-talks-between-us-and-iran-at-a-standstill-as-trump-extends-ceasefire"
+      ]
+    },
+    {
+      "title": "Caspar Hobhouse quoted in Euronews",
+      "published": "Thu, 23 Apr 2026 12:46:21 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.117,
+      "raw_impact": -0.173,
+      "source_weight": 0.75,
+      "age_hours": 2.46,
+      "confidence": 0.735,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.iss.europa.eu/press/caspar-hobhouse-quoted-euronews",
+      "source": "https://www.iss.europa.eu/rss.xml",
+      "source_domain": "www.iss.europa.eu",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.iss.europa.eu"
+      ],
+      "cluster_links": [
+        "https://www.iss.europa.eu/press/caspar-hobhouse-quoted-euronews"
+      ]
+    },
+    {
+      "title": "U.S. Forces Board a 2nd Tanker They Say Is Carrying Oil From Iran",
+      "published": "Thu, 23 Apr 2026 14:10:48 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.188,
+      "source_weight": 0.9,
+      "age_hours": 1.05,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/23/world/middleeast/us-iran-oil-tanker-indian-ocean-mt-majestic-x.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/23/world/middleeast/us-iran-oil-tanker-indian-ocean-mt-majestic-x.html"
+      ]
+    },
+    {
       "title": "SECURITY COUNCIL LIVE: Regional war threatens Syria\u2019s fragile transition",
       "published": "Wed, 22 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -196,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.048,
-      "raw_impact": -0.048,
+      "impact": -0.041,
+      "raw_impact": -0.041,
       "source_weight": 1.1,
-      "age_hours": 24.67,
+      "age_hours": 27.23,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -230,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.048,
-      "raw_impact": -0.048,
+      "impact": -0.041,
+      "raw_impact": -0.041,
       "source_weight": 1.1,
-      "age_hours": 24.67,
+      "age_hours": 27.23,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -256,18 +391,18 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Reported Ship Seizures Add to Anxiety in Oil Markets",
-      "published": "Thu, 23 Apr 2026 12:22:33 +0000",
+      "title": "Infiltration from Within: Israelis recruited to spy for enemy countries",
+      "published": "Thu, 23 Apr 2026 13:00:00 +0000",
       "actors": [
         "iran",
-        "us"
+        "israel"
       ],
-      "state_key": "iran_us",
+      "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.197,
+      "impact": 0.04,
+      "raw_impact": 0.176,
       "source_weight": 0.9,
-      "age_hours": 0.29,
+      "age_hours": 2.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -278,15 +413,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.aljazeera.com/video/al-jazeera-world/2026/4/23/infiltration-from-within-israelis-recruited-to-spy-for-enemy-countries?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news"
+        "https://www.aljazeera.com/video/al-jazeera-world/2026/4/23/infiltration-from-within-israelis-recruited-to-spy-for-enemy-countries?traffic_source=rss"
       ]
     },
     {
@@ -298,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.191,
+      "impact": 0.037,
+      "raw_impact": 0.165,
       "source_weight": 0.9,
-      "age_hours": 0.79,
+      "age_hours": 3.35,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -332,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.186,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 1.24,
+      "age_hours": 3.81,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -358,74 +493,6 @@
       ]
     },
     {
-      "title": "Who is John Phelan, the US Navy Secretary fired by Pete Hegseth?",
-      "published": "Thu, 23 Apr 2026 09:49:10 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
-      "source_weight": 0.9,
-      "age_hours": 2.85,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/23/who-is-john-phelan-the-us-navy-secretary-fired-by-pete-hegseth?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/23/who-is-john-phelan-the-us-navy-secretary-fired-by-pete-hegseth?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "India to Iran: How two wars shaped the rise of Pakistan\u2019s Asim Munir",
-      "published": "Thu, 23 Apr 2026 09:34:19 +0000",
-      "actors": [
-        "india",
-        "pakistan"
-      ],
-      "state_key": "india_pakistan",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.167,
-      "source_weight": 0.9,
-      "age_hours": 3.1,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/features/2026/4/23/india-to-iran-how-two-wars-shaped-the-rise-of-pakistans-asim-munir?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/features/2026/4/23/india-to-iran-how-two-wars-shaped-the-rise-of-pakistans-asim-munir?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Steven Everts' participation in CIDOB conference covered by Ara",
       "published": "Thu, 23 Apr 2026 12:36:20 +0000",
       "actors": [
@@ -434,10 +501,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.199,
+      "impact": 0.032,
+      "raw_impact": 0.172,
       "source_weight": 0.75,
-      "age_hours": 0.06,
+      "age_hours": 2.63,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -468,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.018,
-      "raw_impact": -0.022,
+      "impact": -0.015,
+      "raw_impact": -0.019,
       "source_weight": 0.9,
-      "age_hours": 37.84,
+      "age_hours": 40.4,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -502,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.057,
+      "impact": 0.012,
+      "raw_impact": 0.049,
       "source_weight": 1.0,
-      "age_hours": 21.66,
+      "age_hours": 24.22,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -536,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.012,
-      "raw_impact": -0.012,
+      "impact": -0.01,
+      "raw_impact": -0.01,
       "source_weight": 1.1,
-      "age_hours": 48.67,
+      "age_hours": 51.23,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -570,10 +637,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.057,
+      "impact": 0.009,
+      "raw_impact": 0.049,
       "source_weight": 0.75,
-      "age_hours": 21.85,
+      "age_hours": 24.41,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -596,40 +663,6 @@
       ]
     },
     {
-      "title": "\ufeffTim R\u00fchlig\u00a0and\u00a0Alessia Caruso's Analysis mentioned in Newsweek",
-      "published": "Wed, 22 Apr 2026 14:46:56 +0000",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.056,
-      "source_weight": 0.75,
-      "age_hours": 21.89,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.iss.europa.eu/press/tim-ruhlig-and-alessia-carusos-analysis-mentioned-newsweek",
-      "source": "https://www.iss.europa.eu/rss.xml",
-      "source_domain": "www.iss.europa.eu",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.iss.europa.eu"
-      ],
-      "cluster_links": [
-        "https://www.iss.europa.eu/press/tim-ruhlig-and-alessia-carusos-analysis-mentioned-newsweek"
-      ]
-    },
-    {
       "title": "Threat of Evictions Darkens Russia\u2019s Rosy Picture of Occupied Ukraine",
       "published": "Wed, 22 Apr 2026 09:00:22 +0000",
       "actors": [
@@ -638,10 +671,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.04,
+      "impact": 0.008,
+      "raw_impact": 0.035,
       "source_weight": 0.9,
-      "age_hours": 27.66,
+      "age_hours": 30.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -664,108 +697,6 @@
       ]
     },
     {
-      "title": "Steven Everts interviewed by La Vanguardia",
-      "published": "Wed, 22 Apr 2026 09:41:12 +0000",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.042,
-      "source_weight": 0.75,
-      "age_hours": 26.98,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.iss.europa.eu/press/steven-everts-interviewed-la-vanguardia",
-      "source": "https://www.iss.europa.eu/rss.xml",
-      "source_domain": "www.iss.europa.eu",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.iss.europa.eu"
-      ],
-      "cluster_links": [
-        "https://www.iss.europa.eu/press/steven-everts-interviewed-la-vanguardia"
-      ]
-    },
-    {
-      "title": "Trump buys time for Iran deal after frantic day of diplomacy",
-      "published": "Wed, 22 Apr 2026 00:32:10 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.025,
-      "source_weight": 1.0,
-      "age_hours": 36.13,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cvg4yr90jr2o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cvg4yr90jr2o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "title": "Iran sees mass redundancies from war with US and Israel",
-      "published": "Tue, 21 Apr 2026 16:05:51 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.004,
-      "raw_impact": 0.015,
-      "source_weight": 1.0,
-      "age_hours": 44.57,
-      "confidence": 0.69,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/ce84e31376zo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/ce84e31376zo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "A dangerous blind spot in Donald Trump\u2019s Iran war strategy",
       "published": "Tue, 21 Apr 2026 21:12:55 +0000",
       "actors": [
@@ -774,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.004,
-      "raw_impact": 0.02,
+      "impact": 0.003,
+      "raw_impact": 0.018,
       "source_weight": 0.75,
-      "age_hours": 39.45,
+      "age_hours": 42.02,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -811,7 +742,7 @@
       "impact": 0.001,
       "raw_impact": 0.003,
       "source_weight": 1.1,
-      "age_hours": 70.35,
+      "age_hours": 72.92,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -845,7 +776,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 160.6,
+      "age_hours": 163.17,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -879,7 +810,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1213.92,
+      "age_hours": 1216.48,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1034,16 +965,16 @@
   ],
   "debug": {
     "event_count": 229,
-    "classified_count": 26,
-    "paired_count": 26,
-    "valid_pair_updates": 5,
-    "top_driver_count": 26,
-    "total_signal": 2.6729,
+    "classified_count": 24,
+    "paired_count": 24,
+    "valid_pair_updates": 4,
+    "top_driver_count": 24,
+    "total_signal": 2.559,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 105,
-      "no_signal": 60,
-      "invalid_pair": 38,
+      "no_actor": 101,
+      "no_signal": 65,
+      "invalid_pair": 39,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
