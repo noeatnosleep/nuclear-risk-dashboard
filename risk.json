@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-23 15:14:02 UTC",
-  "probability": 16.54,
+  "last_updated": "2026-04-23 17:00:41 UTC",
+  "probability": 16.95,
   "uncertainty": 6.39,
   "state": {
-    "us_russia": 4.527473883367223,
-    "us_china": 3.000012232276329,
-    "china_taiwan": 4.000002510158949,
-    "india_pakistan": 4.652647577173293,
+    "us_russia": 4.905220500538837,
+    "us_china": 3.0000064983968,
+    "china_taiwan": 4.000001333521942,
+    "india_pakistan": 4.581094025373312,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.163807356149466,
-    "iran_israel": 4.842579151765109,
-    "nk_us": 3.000001008488451,
-    "nk_sk": 2.8000000000000016,
+    "iran_us": 3.501751985370584,
+    "iran_israel": 4.754587387041476,
+    "nk_us": 3.0000005357594897,
+    "nk_sk": 2.8000000000000007,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.648797734821471
+    "russia_ukraine": 6.711440430988487
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.806,
-      "raw_impact": 1.119,
+      "impact": 0.726,
+      "raw_impact": 1.009,
       "source_weight": 0.9,
-      "age_hours": 1.22,
+      "age_hours": 2.99,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.746,
-      "raw_impact": 0.829,
+      "impact": 0.674,
+      "raw_impact": 0.748,
       "source_weight": 0.9,
-      "age_hours": 1.42,
+      "age_hours": 3.19,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -86,17 +86,17 @@
     },
     {
       "title": "Iran War Live Updates: Trump Threatens Iranian Boats He Says Are Mining the Strait of Hormuz",
-      "published": "Thu, 23 Apr 2026 15:08:14 +0000",
+      "published": "Thu, 23 Apr 2026 16:44:19 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.161,
-      "raw_impact": -0.199,
+      "impact": -0.159,
+      "raw_impact": -0.197,
       "source_weight": 0.9,
-      "age_hours": 0.1,
+      "age_hours": 0.27,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.142,
-      "raw_impact": -0.176,
+      "impact": -0.129,
+      "raw_impact": -0.159,
       "source_weight": 0.9,
-      "age_hours": 2.23,
+      "age_hours": 4.01,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.124,
-      "raw_impact": -0.162,
+      "impact": -0.113,
+      "raw_impact": -0.146,
       "source_weight": 0.85,
-      "age_hours": 3.61,
+      "age_hours": 5.39,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.123,
-      "raw_impact": -0.161,
+      "impact": -0.112,
+      "raw_impact": -0.146,
       "source_weight": 0.85,
-      "age_hours": 3.72,
+      "age_hours": 5.5,
       "confidence": 0.665,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.119,
-      "raw_impact": -0.155,
+      "impact": -0.107,
+      "raw_impact": -0.14,
       "source_weight": 0.85,
-      "age_hours": 4.4,
+      "age_hours": 6.18,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.117,
-      "raw_impact": -0.173,
+      "impact": -0.105,
+      "raw_impact": -0.157,
       "source_weight": 0.75,
-      "age_hours": 2.46,
+      "age_hours": 4.24,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -289,6 +289,74 @@
       ]
     },
     {
+      "title": "US-Kuwaiti journalist held in Kuwait over social media posts acquitted, lawyers say",
+      "published": "Thu, 23 Apr 2026 15:11:03 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.045,
+      "raw_impact": 0.18,
+      "source_weight": 1.0,
+      "age_hours": 1.83,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cy81ljrd445o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cy81ljrd445o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "US-Israeli war on Iran will push 30 million back into poverty, UN warns",
+      "published": "Thu, 23 Apr 2026 16:00:19 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.189,
+      "source_weight": 0.9,
+      "age_hours": 1.01,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/23/us-israeli-war-on-iran-will-push-30-million-back-into-poverty-un-warns?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/23/us-israeli-war-on-iran-will-push-30-million-back-into-poverty-un-warns?traffic_source=rss"
+      ]
+    },
+    {
       "title": "U.S. Forces Board a 2nd Tanker They Say Is Carrying Oil From Iran",
       "published": "Thu, 23 Apr 2026 14:10:48 +0000",
       "actors": [
@@ -297,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.188,
+      "impact": 0.038,
+      "raw_impact": 0.17,
       "source_weight": 0.9,
-      "age_hours": 1.05,
+      "age_hours": 2.83,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -331,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.041,
+      "impact": -0.037,
+      "raw_impact": -0.037,
       "source_weight": 1.1,
-      "age_hours": 27.23,
+      "age_hours": 29.01,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -365,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.041,
+      "impact": -0.037,
+      "raw_impact": -0.037,
       "source_weight": 1.1,
-      "age_hours": 27.23,
+      "age_hours": 29.01,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -399,10 +467,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.176,
+      "impact": 0.036,
+      "raw_impact": 0.159,
       "source_weight": 0.9,
-      "age_hours": 2.23,
+      "age_hours": 4.01,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -425,19 +493,19 @@
       ]
     },
     {
-      "title": "The economic winners & losers in the US-Israel war on Iran",
-      "published": "Thu, 23 Apr 2026 11:52:53 +0000",
+      "title": "\"For China, the West is the source of all the world's evils\"",
+      "published": "Thu, 23 Apr 2026 15:00:34 +0000",
       "actors": [
-        "iran",
-        "us"
+        "russia",
+        "ukraine"
       ],
-      "state_key": "iran_us",
+      "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.165,
-      "source_weight": 0.9,
-      "age_hours": 3.35,
-      "confidence": 0.68,
+      "impact": 0.034,
+      "raw_impact": 0.178,
+      "source_weight": 0.75,
+      "age_hours": 2.0,
+      "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -447,49 +515,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/video/money-works/2026/4/23/the-economic-winners-losers-in-the-us-israel-war-on-iran?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.iss.europa.eu/press/china-west-source-all-worlds-evils",
+      "source": "https://www.iss.europa.eu/rss.xml",
+      "source_domain": "www.iss.europa.eu",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "www.iss.europa.eu"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/video/money-works/2026/4/23/the-economic-winners-losers-in-the-us-israel-war-on-iran?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "How Iran raised Hormuz stakes by capturing ships",
-      "published": "Thu, 23 Apr 2026 11:25:44 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.161,
-      "source_weight": 0.9,
-      "age_hours": 3.81,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/23/how-iran-raised-hormuz-stakes-by-capturing-ships?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/23/how-iran-raised-hormuz-stakes-by-capturing-ships?traffic_source=rss"
+        "https://www.iss.europa.eu/press/china-west-source-all-worlds-evils"
       ]
     },
     {
@@ -501,10 +535,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.172,
+      "impact": 0.029,
+      "raw_impact": 0.155,
       "source_weight": 0.75,
-      "age_hours": 2.63,
+      "age_hours": 4.41,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.015,
-      "raw_impact": -0.019,
+      "impact": -0.014,
+      "raw_impact": -0.017,
       "source_weight": 0.9,
-      "age_hours": 40.4,
+      "age_hours": 42.18,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -569,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.049,
+      "impact": 0.011,
+      "raw_impact": 0.045,
       "source_weight": 1.0,
-      "age_hours": 24.22,
+      "age_hours": 26.0,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -603,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.01,
-      "raw_impact": -0.01,
+      "impact": -0.009,
+      "raw_impact": -0.009,
       "source_weight": 1.1,
-      "age_hours": 51.23,
+      "age_hours": 53.01,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -629,40 +663,6 @@
       ]
     },
     {
-      "title": "Luigi Scazzieri\u00a0and\u00a0Giuseppe Spatafora's Commentary cited by CNBC",
-      "published": "Wed, 22 Apr 2026 14:49:22 +0000",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.049,
-      "source_weight": 0.75,
-      "age_hours": 24.41,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.iss.europa.eu/press/luigi-scazzieri-and-giuseppe-spataforas-commentary-cited-cnbc",
-      "source": "https://www.iss.europa.eu/rss.xml",
-      "source_domain": "www.iss.europa.eu",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.iss.europa.eu"
-      ],
-      "cluster_links": [
-        "https://www.iss.europa.eu/press/luigi-scazzieri-and-giuseppe-spataforas-commentary-cited-cnbc"
-      ]
-    },
-    {
       "title": "Threat of Evictions Darkens Russia\u2019s Rosy Picture of Occupied Ukraine",
       "published": "Wed, 22 Apr 2026 09:00:22 +0000",
       "actors": [
@@ -671,10 +671,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.035,
+      "impact": 0.007,
+      "raw_impact": 0.031,
       "source_weight": 0.9,
-      "age_hours": 30.23,
+      "age_hours": 32.01,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -706,9 +706,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.018,
+      "raw_impact": 0.016,
       "source_weight": 0.75,
-      "age_hours": 42.02,
+      "age_hours": 43.8,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -742,7 +742,7 @@
       "impact": 0.001,
       "raw_impact": 0.003,
       "source_weight": 1.1,
-      "age_hours": 72.92,
+      "age_hours": 74.69,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,7 +776,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 163.17,
+      "age_hours": 164.94,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -810,7 +810,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1216.48,
+      "age_hours": 1218.26,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -964,17 +964,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 229,
+    "event_count": 230,
     "classified_count": 24,
     "paired_count": 24,
     "valid_pair_updates": 4,
     "top_driver_count": 24,
-    "total_signal": 2.559,
+    "total_signal": 2.3673,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 101,
-      "no_signal": 65,
-      "invalid_pair": 39,
+      "no_actor": 99,
+      "no_signal": 63,
+      "invalid_pair": 44,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
