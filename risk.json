@@ -1,34 +1,34 @@
 {
-  "last_updated": "2026-04-24 05:38:19 UTC",
-  "probability": 13.57,
-  "uncertainty": 6.52,
+  "last_updated": "2026-04-24 08:08:44 UTC",
+  "probability": 13.56,
+  "uncertainty": 6.48,
   "state": {
-    "us_russia": 3.8820912693667435,
-    "us_china": 3.205613975600678,
-    "china_taiwan": 4.0411227953348465,
-    "india_pakistan": 4.500514494105045,
+    "us_russia": 3.8127153522208888,
+    "us_china": 3.180469709693756,
+    "china_taiwan": 4.036093942052816,
+    "india_pakistan": 4.500273324993305,
     "china_india": 2.8000000000000003,
-    "iran_us": 3.190933510360726,
-    "iran_israel": 3.9474627761632606,
-    "nk_us": 3.00000000339908,
+    "iran_us": 2.9650918298203095,
+    "iran_israel": 4.196490459615733,
+    "nk_us": 3.0000000018057613,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.983179693185653
+    "russia_ukraine": 6.344158130360625
   },
   "top_drivers": [
     {
-      "title": "Russian Officials Say Town\u2019s Air Is Toxic, Days After Strike on Oil Refinery",
-      "published": "Thu, 23 Apr 2026 13:49:06 +0000",
+      "title": "Ukrainian married couple aged 75 killed in Russian attack on Odesa",
+      "published": "Fri, 24 Apr 2026 07:10:51 +0000",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.325,
-      "raw_impact": 0.361,
+      "impact": 0.766,
+      "raw_impact": 0.851,
       "source_weight": 0.9,
-      "age_hours": 15.82,
+      "age_hours": 0.96,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -39,31 +39,31 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/2026/04/23/world/europe/russia-oil-refinery-black-rain.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.aljazeera.com/news/2026/4/24/russian-drones-kill-two-in-ukraines-odesa-hit-foreign-merchant-ship?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/04/23/world/europe/russia-oil-refinery-black-rain.html"
+        "https://www.aljazeera.com/news/2026/4/24/russian-drones-kill-two-in-ukraines-odesa-hit-foreign-merchant-ship?traffic_source=rss"
       ]
     },
     {
-      "title": "Iran War Live Updates: Trump Says Israel and Lebanon Agree to Extend Cease-Fire",
-      "published": "Fri, 24 Apr 2026 05:31:57 +0000",
+      "title": "Iran war: What\u2019s happening on day 56 after Trump extended ceasefire?",
+      "published": "Fri, 24 Apr 2026 06:11:36 +0000",
       "actors": [
         "iran",
-        "israel"
+        "us"
       ],
-      "state_key": "iran_israel",
+      "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.161,
-      "raw_impact": -0.199,
+      "impact": -0.145,
+      "raw_impact": -0.179,
       "source_weight": 0.9,
-      "age_hours": 0.11,
-      "confidence": 0.67,
+      "age_hours": 1.95,
+      "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -73,15 +73,49 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.aljazeera.com/news/2026/4/24/iran-war-whats-happening-on-day-56-after-trump-extended-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news"
+        "https://www.aljazeera.com/news/2026/4/24/iran-war-whats-happening-on-day-56-after-trump-extended-ceasefire?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Middle East war live: Oil prices jump as tensions remain high in Strait of Hormuz",
+      "published": "Fri, 24 Apr 2026 01:38:23 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.112,
+      "raw_impact": -0.137,
+      "source_weight": 0.9,
+      "age_hours": 6.51,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260424-middle-east-war-live-israel-lebanon-ceasefire-continues-as-trump-hopes-for-peace-deal",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260424-middle-east-war-live-israel-lebanon-ceasefire-continues-as-trump-hopes-for-peace-deal"
       ]
     },
     {
@@ -93,10 +127,10 @@
       ],
       "state_key": "iran_israel",
       "class": "deescalation",
-      "impact": -0.117,
-      "raw_impact": -0.144,
+      "impact": -0.101,
+      "raw_impact": -0.125,
       "source_weight": 0.9,
-      "age_hours": 5.64,
+      "age_hours": 8.15,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -127,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.084,
-      "raw_impact": -0.104,
+      "impact": -0.073,
+      "raw_impact": -0.09,
       "source_weight": 0.9,
-      "age_hours": 11.38,
+      "age_hours": 13.88,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -161,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.084,
-      "raw_impact": -0.103,
+      "impact": -0.072,
+      "raw_impact": -0.089,
       "source_weight": 0.9,
-      "age_hours": 11.42,
+      "age_hours": 13.93,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.071,
-      "raw_impact": -0.072,
+      "impact": -0.062,
+      "raw_impact": -0.062,
       "source_weight": 1.1,
-      "age_hours": 17.64,
+      "age_hours": 20.15,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.054,
-      "raw_impact": -0.071,
+      "impact": -0.047,
+      "raw_impact": -0.061,
       "source_weight": 0.85,
-      "age_hours": 18.02,
+      "age_hours": 20.53,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.051,
-      "raw_impact": -0.067,
+      "impact": -0.045,
+      "raw_impact": -0.058,
       "source_weight": 0.85,
-      "age_hours": 18.81,
+      "age_hours": 21.32,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -289,6 +323,40 @@
       ]
     },
     {
+      "title": "Iran War Live Updates: Trump Says Lebanon Cease-Fire Is Extended by 3 Weeks",
+      "published": "Fri, 24 Apr 2026 07:49:00 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.33,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/24/world/iran-war-trump-hormuz",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/24/world/iran-war-trump-hormuz"
+      ]
+    },
+    {
       "title": "Caspar Hobhouse quoted in Euronews",
       "published": "Thu, 23 Apr 2026 12:46:21 +0000",
       "actors": [
@@ -297,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.051,
-      "raw_impact": -0.075,
+      "impact": -0.044,
+      "raw_impact": -0.065,
       "source_weight": 0.75,
-      "age_hours": 16.87,
+      "age_hours": 19.37,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -323,6 +391,40 @@
       ]
     },
     {
+      "title": "Embassy encourages Australia-based Iranians to volunteer to help war effort",
+      "published": "Fri, 24 Apr 2026 06:37:54 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.183,
+      "source_weight": 0.9,
+      "age_hours": 1.51,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/australia-news/2026/apr/24/iran-embassy-australia-iranians-war-effort",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/australia-news/2026/apr/24/iran-embassy-australia-iranians-war-effort"
+      ]
+    },
+    {
       "title": "Iran War Has Drained U.S. Supplies of Critical, Costly Weapons",
       "published": "Fri, 24 Apr 2026 01:04:32 +0000",
       "actors": [
@@ -331,10 +433,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.154,
+      "impact": 0.03,
+      "raw_impact": 0.133,
       "source_weight": 0.9,
-      "age_hours": 4.56,
+      "age_hours": 7.07,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -357,40 +459,6 @@
       ]
     },
     {
-      "title": "How Trump\u2019s Iran war is driving military dissent",
-      "published": "Thu, 23 Apr 2026 19:08:51 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.109,
-      "source_weight": 0.9,
-      "age_hours": 10.49,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/the-take-2/2026/4/23/how-trumps-iran-war-is-driving-military-dissent?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/the-take-2/2026/4/23/how-trumps-iran-war-is-driving-military-dissent?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Israel defense minister says awaiting US green light to 'return Iran to Stone Age'",
       "published": "Thu, 23 Apr 2026 18:36:23 GMT",
       "actors": [
@@ -399,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.106,
+      "impact": 0.021,
+      "raw_impact": 0.091,
       "source_weight": 0.9,
-      "age_hours": 11.03,
+      "age_hours": 13.54,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.087,
+      "impact": 0.019,
+      "raw_impact": 0.075,
       "source_weight": 1.0,
-      "age_hours": 14.45,
+      "age_hours": 16.96,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +535,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.091,
+      "impact": 0.018,
+      "raw_impact": 0.079,
       "source_weight": 0.9,
-      "age_hours": 13.54,
+      "age_hours": 16.05,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.018,
-      "raw_impact": -0.018,
+      "impact": -0.015,
+      "raw_impact": -0.016,
       "source_weight": 1.1,
-      "age_hours": 41.64,
+      "age_hours": 44.15,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -535,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.018,
-      "raw_impact": -0.018,
+      "impact": -0.015,
+      "raw_impact": -0.016,
       "source_weight": 1.1,
-      "age_hours": 41.64,
+      "age_hours": 44.15,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -569,10 +637,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.086,
+      "impact": 0.014,
+      "raw_impact": 0.074,
       "source_weight": 0.75,
-      "age_hours": 14.63,
+      "age_hours": 17.14,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -603,10 +671,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.075,
+      "impact": 0.012,
+      "raw_impact": 0.065,
       "source_weight": 0.75,
-      "age_hours": 17.03,
+      "age_hours": 19.54,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -637,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.002,
-      "raw_impact": 0.008,
+      "impact": 0.001,
+      "raw_impact": 0.007,
       "source_weight": 0.75,
-      "age_hours": 56.42,
+      "age_hours": 58.93,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -674,7 +742,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 87.32,
+      "age_hours": 89.83,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -708,7 +776,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 177.57,
+      "age_hours": 180.08,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -742,7 +810,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1230.89,
+      "age_hours": 1233.4,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -875,6 +943,11 @@
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
+    },
+    {
+      "name": "www.theguardian.com",
+      "url": "https://www.theguardian.com/world/rss",
+      "domain": "www.theguardian.com"
     }
   ],
   "driver_sort_default": "chronological",
@@ -887,16 +960,16 @@
   ],
   "debug": {
     "event_count": 229,
-    "classified_count": 22,
-    "paired_count": 22,
+    "classified_count": 24,
+    "paired_count": 24,
     "valid_pair_updates": 6,
-    "top_driver_count": 22,
-    "total_signal": 1.2608,
+    "top_driver_count": 24,
+    "total_signal": 1.5384,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 93,
-      "no_signal": 69,
-      "invalid_pair": 45,
+      "no_actor": 100,
+      "no_signal": 63,
+      "invalid_pair": 42,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
