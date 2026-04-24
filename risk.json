@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-24 11:41:07 UTC",
-  "probability": 14.84,
-  "uncertainty": 6.31,
+  "last_updated": "2026-04-24 13:41:23 UTC",
+  "probability": 15.02,
+  "uncertainty": 6.57,
   "state": {
-    "us_russia": 3.80852645245503,
-    "us_china": 3.0509333458022416,
-    "china_taiwan": 4.010186669192641,
-    "india_pakistan": 4.500077139573306,
+    "us_russia": 3.712860703501691,
+    "us_china": 3.027058339957441,
+    "china_taiwan": 4.00541166800859,
+    "india_pakistan": 4.500040980398318,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.619086274501612,
-    "iran_israel": 4.380395179454076,
-    "nk_us": 3.000000000509634,
+    "iran_us": 5.094514583328982,
+    "iran_israel": 4.963513902102826,
+    "nk_us": 3.000000000270743,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.910607128588105
+    "russia_ukraine": 6.689953747465014
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.712,
-      "raw_impact": 0.792,
+      "impact": 0.634,
+      "raw_impact": 0.705,
       "source_weight": 0.9,
-      "age_hours": 2.22,
+      "age_hours": 4.23,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.662,
-      "raw_impact": 0.736,
+      "impact": 0.59,
+      "raw_impact": 0.655,
       "source_weight": 0.9,
-      "age_hours": 3.49,
+      "age_hours": 5.5,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,120 +85,18 @@
       ]
     },
     {
-      "title": "Ukrainian married couple aged 75 killed in Russian attack on Odesa",
-      "published": "Fri, 24 Apr 2026 07:10:51 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.624,
-      "raw_impact": 0.694,
-      "source_weight": 0.9,
-      "age_hours": 4.5,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/24/russian-drones-kill-two-in-ukraines-odesa-hit-foreign-merchant-ship?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/24/russian-drones-kill-two-in-ukraines-odesa-hit-foreign-merchant-ship?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Iran War Live Updates: Trump Says Lebanon Cease-Fire Is Extended by 3 Weeks",
-      "published": "Fri, 24 Apr 2026 11:35:23 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "deescalation",
-      "impact": -0.161,
-      "raw_impact": -0.199,
-      "source_weight": 0.9,
-      "age_hours": 0.1,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/04/24/world/iran-war-trump-hormuz",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/24/world/iran-war-trump-hormuz"
-      ]
-    },
-    {
-      "title": "Iran war: What\u2019s happening on day 56 after Trump extended ceasefire?",
-      "published": "Fri, 24 Apr 2026 06:11:36 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.118,
-      "raw_impact": -0.146,
-      "source_weight": 0.9,
-      "age_hours": 5.49,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/24/iran-war-whats-happening-on-day-56-after-trump-extended-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/24/iran-war-whats-happening-on-day-56-after-trump-extended-ceasefire?traffic_source=rss"
-      ]
-    },
-    {
       "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
-      "published": "Fri, 24 Apr 2026 11:39:53 GMT",
+      "published": "Fri, 24 Apr 2026 12:20:55 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.05,
-      "raw_impact": 0.2,
+      "impact": 0.046,
+      "raw_impact": 0.185,
       "source_weight": 1.0,
-      "age_hours": 0.02,
+      "age_hours": 1.34,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -229,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.05,
-      "raw_impact": -0.051,
+      "impact": -0.045,
+      "raw_impact": -0.045,
       "source_weight": 1.1,
-      "age_hours": 23.69,
+      "age_hours": 25.69,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -255,18 +153,120 @@
       ]
     },
     {
-      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-      "published": "Fri, 24 Apr 2026 10:14:37 GMT",
+      "title": "UK position on Falklands will not change, No 10 says after leaked Pentagon memo",
+      "published": "Fri, 24 Apr 2026 13:18:38 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.046,
-      "raw_impact": 0.184,
-      "source_weight": 1.0,
-      "age_hours": 1.44,
+      "impact": 0.044,
+      "raw_impact": 0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.38,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/uk-news/2026/apr/24/uk-position-falklands-unchanged-leaked-pentagon-memo",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/uk-news/2026/apr/24/uk-position-falklands-unchanged-leaked-pentagon-memo"
+      ]
+    },
+    {
+      "title": "Iran War Live Updates: U.S. Blockade Will Last \u2018As Long as It Takes,\u2019 Hegseth Says",
+      "published": "Fri, 24 Apr 2026 13:19:59 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.36,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/04/24/world/iran-war-trump-hormuz",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/04/24/world/iran-war-trump-hormuz"
+      ]
+    },
+    {
+      "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
+      "published": "Fri, 24 Apr 2026 13:10:30 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.194,
+      "source_weight": 0.9,
+      "age_hours": 0.51,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/"
+      ]
+    },
+    {
+      "title": "Iranian FM Araghchi to visit Pakistan in step towards US talks resumption",
+      "published": "Fri, 24 Apr 2026 12:57:22 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.73,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -277,30 +277,30 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
+      "link": "https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.bbci.co.uk"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
+        "https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss"
       ]
     },
     {
-      "title": "Tokyo workers asked to swap suits for shorts to combat energy costs and heat",
-      "published": "Fri, 24 Apr 2026 11:13:08 GMT",
+      "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
+      "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.195,
+      "impact": 0.042,
+      "raw_impact": 0.185,
       "source_weight": 0.9,
-      "age_hours": 0.47,
+      "age_hours": 1.31,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -323,6 +323,40 @@
       ]
     },
     {
+      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+      "published": "Fri, 24 Apr 2026 10:14:37 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.164,
+      "source_weight": 1.0,
+      "age_hours": 3.45,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "US considers suspending Spain from NATO, reported internal email suggests",
       "published": "Fri, 24 Apr 2026 11:06:00 +0000",
       "actors": [
@@ -331,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.193,
+      "impact": 0.039,
+      "raw_impact": 0.172,
       "source_weight": 0.9,
-      "age_hours": 0.59,
+      "age_hours": 2.59,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.038,
-      "raw_impact": -0.05,
+      "impact": -0.034,
+      "raw_impact": -0.044,
       "source_weight": 0.85,
-      "age_hours": 24.07,
+      "age_hours": 26.07,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -391,40 +425,6 @@
       ]
     },
     {
-      "title": "Peace talks between U.S. and Iran at a standstill as Trump extends ceasefire",
-      "published": "Thu, 23 Apr 2026 06:49:46 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.036,
-      "raw_impact": -0.048,
-      "source_weight": 0.85,
-      "age_hours": 24.86,
-      "confidence": 0.745,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/23/nx-s1-5795829/peace-talks-between-us-and-iran-at-a-standstill-as-trump-extends-ceasefire",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/23/nx-s1-5795829/peace-talks-between-us-and-iran-at-a-standstill-as-trump-extends-ceasefire"
-      ]
-    },
-    {
       "title": "Caspar Hobhouse quoted in Euronews",
       "published": "Thu, 23 Apr 2026 12:46:21 +0000",
       "actors": [
@@ -433,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.036,
-      "raw_impact": -0.053,
+      "impact": -0.032,
+      "raw_impact": -0.047,
       "source_weight": 0.75,
-      "age_hours": 22.91,
+      "age_hours": 24.92,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -467,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.149,
+      "impact": 0.03,
+      "raw_impact": 0.133,
       "source_weight": 0.9,
-      "age_hours": 5.05,
+      "age_hours": 7.06,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +501,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.108,
+      "impact": 0.022,
+      "raw_impact": 0.097,
       "source_weight": 0.9,
-      "age_hours": 10.61,
+      "age_hours": 12.61,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.013,
+      "impact": -0.011,
+      "raw_impact": -0.011,
       "source_weight": 1.1,
-      "age_hours": 47.69,
+      "age_hours": 49.69,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -569,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.013,
+      "impact": -0.011,
+      "raw_impact": -0.011,
       "source_weight": 1.1,
-      "age_hours": 47.69,
+      "age_hours": 49.69,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -603,10 +603,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.061,
+      "impact": 0.01,
+      "raw_impact": 0.054,
       "source_weight": 0.75,
-      "age_hours": 20.68,
+      "age_hours": 22.68,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -637,10 +637,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.053,
+      "impact": 0.009,
+      "raw_impact": 0.047,
       "source_weight": 0.75,
-      "age_hours": 23.08,
+      "age_hours": 25.08,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -674,7 +674,7 @@
       "impact": 0.001,
       "raw_impact": 0.005,
       "source_weight": 0.75,
-      "age_hours": 62.47,
+      "age_hours": 64.47,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -708,7 +708,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 93.37,
+      "age_hours": 95.37,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -742,7 +742,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 183.62,
+      "age_hours": 185.62,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -776,7 +776,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1236.94,
+      "age_hours": 1238.94,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -829,6 +829,11 @@
       "name": "feeds.npr.org",
       "url": "https://feeds.npr.org/1004/rss.xml",
       "domain": "feeds.npr.org"
+    },
+    {
+      "name": "feeds.washingtonpost.com",
+      "url": "https://feeds.washingtonpost.com/rss/world",
+      "domain": "feeds.washingtonpost.com"
     },
     {
       "name": "france24_world",
@@ -925,17 +930,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 230,
+    "event_count": 232,
     "classified_count": 23,
     "paired_count": 23,
     "valid_pair_updates": 4,
     "top_driver_count": 23,
-    "total_signal": 2.9146,
+    "total_signal": 3.1532,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 106,
-      "no_signal": 57,
-      "invalid_pair": 44,
+      "no_actor": 108,
+      "no_signal": 55,
+      "invalid_pair": 46,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
