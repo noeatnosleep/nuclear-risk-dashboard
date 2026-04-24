@@ -1,21 +1,89 @@
 {
-  "last_updated": "2026-04-24 15:10:52 UTC",
-  "probability": 16.36,
-  "uncertainty": 6.27,
+  "last_updated": "2026-04-24 16:34:23 UTC",
+  "probability": 17.13,
+  "uncertainty": 6.35,
   "state": {
-    "us_russia": 3.6463878263745197,
-    "us_china": 3.014374743102391,
-    "china_taiwan": 4.002874948629564,
-    "india_pakistan": 5.267473366903457,
+    "us_russia": 3.6185490847120847,
+    "us_china": 3.0076365822731455,
+    "china_taiwan": 4.001527316459455,
+    "india_pakistan": 5.615890168525007,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.347085872393522,
-    "iran_israel": 5.522188691995909,
-    "nk_us": 3.000000000143832,
+    "iran_us": 5.481264369709058,
+    "iran_israel": 5.766274470702421,
+    "nk_us": 3.000000000076411,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.517013134614529
+    "russia_ukraine": 6.586408562171695
   },
   "top_drivers": [
+    {
+      "title": "EU leaders discuss Iran crisis in Cyprus",
+      "published": "Fri, 24 Apr 2026 15:12:21 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.798,
+      "raw_impact": 1.109,
+      "source_weight": 0.9,
+      "age_hours": 1.37,
+      "confidence": 0.87,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/eu-leaders-discuss-iran-crisis-in-cyprus",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/eu-leaders-discuss-iran-crisis-in-cyprus"
+      ]
+    },
+    {
+      "title": "Russia kills elderly couple in their home",
+      "published": "Fri, 24 Apr 2026 15:09:13 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.746,
+      "raw_impact": 0.829,
+      "source_weight": 0.9,
+      "age_hours": 1.42,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/russia-kills-two-prisoners-in-their-home",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/russia-kills-two-prisoners-in-their-home"
+      ]
+    },
     {
       "title": "US Defense Secretary Hegseth: 'US blockade has gone global'",
       "published": "Fri, 24 Apr 2026 13:20:12 GMT",
@@ -25,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.777,
-      "raw_impact": 1.079,
+      "impact": 0.717,
+      "raw_impact": 0.995,
       "source_weight": 0.9,
-      "age_hours": 1.84,
+      "age_hours": 3.24,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -51,40 +119,6 @@
       ]
     },
     {
-      "title": "REPLAY: Press briefing by US Defense Secretary",
-      "published": "Fri, 24 Apr 2026 13:17:38 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.774,
-      "raw_impact": 1.076,
-      "source_weight": 0.9,
-      "age_hours": 1.89,
-      "confidence": 0.95,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260424-replay-press-briefing-by-us-defense-secretary-1",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260424-replay-press-briefing-by-us-defense-secretary-1"
-      ]
-    },
-    {
       "title": "India-Pakistan ties 'not good', a year after Kashmir attack",
       "published": "Fri, 24 Apr 2026 14:14:50 GMT",
       "actors": [
@@ -93,10 +127,10 @@
       ],
       "state_key": "india_pakistan",
       "class": "action",
-      "impact": 0.767,
-      "raw_impact": 0.853,
+      "impact": 0.708,
+      "raw_impact": 0.787,
       "source_weight": 0.9,
-      "age_hours": 0.93,
+      "age_hours": 2.33,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -119,29 +153,29 @@
       ]
     },
     {
-      "title": "Environmental crisis in Russian city after drone attack on refinery",
-      "published": "Fri, 24 Apr 2026 09:27:41 +0000",
+      "title": "US has three aircraft carriers in the Middle East for first time since 2003",
+      "published": "Fri, 24 Apr 2026 16:04:14 +0000",
       "actors": [
-        "russia",
-        "ukraine"
+        "iran",
+        "us"
       ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.582,
-      "raw_impact": 0.647,
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.158,
+      "raw_impact": -0.194,
       "source_weight": 0.9,
-      "age_hours": 5.72,
-      "confidence": 0.89,
-      "signal_total": 0.9,
+      "age_hours": 0.5,
+      "confidence": 0.67,
+      "signal_total": -0.2,
       "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
+        "deescalation": -0.2,
+        "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/24/environmental-crisis-in-russian-city-after-drone-attack-on-refinery?traffic_source=rss",
+      "link": "https://www.aljazeera.com/news/2026/4/24/us-has-three-aircraft-carriers-in-the-middle-east-for-first-time-since-2003?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
@@ -149,7 +183,7 @@
         "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/24/environmental-crisis-in-russian-city-after-drone-attack-on-refinery?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/4/24/us-has-three-aircraft-carriers-in-the-middle-east-for-first-time-since-2003?traffic_source=rss"
       ]
     },
     {
@@ -161,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.165,
-      "raw_impact": -0.166,
+      "impact": -0.152,
+      "raw_impact": -0.154,
       "source_weight": 1.1,
-      "age_hours": 3.18,
+      "age_hours": 4.57,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -188,7 +222,7 @@
     },
     {
       "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-      "published": "Fri, 24 Apr 2026 14:44:13 GMT",
+      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
       "actors": [
         "iran",
         "us"
@@ -196,9 +230,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.049,
-      "raw_impact": 0.195,
+      "raw_impact": 0.194,
       "source_weight": 1.0,
-      "age_hours": 0.44,
+      "age_hours": 0.5,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -222,17 +256,17 @@
     },
     {
       "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
-      "published": "Fri, 24 Apr 2026 14:17:38 GMT",
+      "published": "Fri, 24 Apr 2026 16:19:56 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.048,
-      "raw_impact": 0.19,
+      "impact": 0.049,
+      "raw_impact": 0.197,
       "source_weight": 1.0,
-      "age_hours": 0.89,
+      "age_hours": 0.24,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -256,7 +290,7 @@
     },
     {
       "title": "Iran War Live Updates: U.S. Blockade Will Last \u2018as Long as It Takes,\u2019 Hegseth Says",
-      "published": "Fri, 24 Apr 2026 15:01:55 +0000",
+      "published": "Fri, 24 Apr 2026 16:25:24 +0000",
       "actors": [
         "iran",
         "us"
@@ -289,18 +323,18 @@
       ]
     },
     {
-      "title": "UK position on Falklands will not change, No 10 says after leaked Pentagon memo",
-      "published": "Fri, 24 Apr 2026 13:18:38 GMT",
+      "title": "PM Sanchez rebuffs US idea of suspending Spain from NATO",
+      "published": "Fri, 24 Apr 2026 15:58:46 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.18,
+      "impact": 0.043,
+      "raw_impact": 0.193,
       "source_weight": 0.9,
-      "age_hours": 1.87,
+      "age_hours": 0.59,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -311,64 +345,30 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.theguardian.com/uk-news/2026/apr/24/uk-position-falklands-unchanged-leaked-pentagon-memo",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/24/pm-sanchez-rebuffs-us-idea-of-suspending-spain-from-nato?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.theguardian.com"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.theguardian.com/uk-news/2026/apr/24/uk-position-falklands-unchanged-leaked-pentagon-memo"
-      ]
-    },
-    {
-      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
-      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.042,
-      "source_weight": 1.1,
-      "age_hours": 27.18,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+        "https://www.aljazeera.com/video/newsfeed/2026/4/24/pm-sanchez-rebuffs-us-idea-of-suspending-spain-from-nato?traffic_source=rss"
       ]
     },
     {
       "title": "P&G warns of $1bn hit from Iran war after failing to hedge oil exposure",
-      "published": "Fri, 24 Apr 2026 13:42:51 GMT",
+      "published": "Fri, 24 Apr 2026 15:12:40 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.184,
+      "impact": 0.042,
+      "raw_impact": 0.185,
       "source_weight": 0.9,
-      "age_hours": 1.47,
+      "age_hours": 1.36,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -391,19 +391,53 @@
       ]
     },
     {
-      "title": "Iranian FM Araghchi to visit Pakistan in step towards US talks resumption",
-      "published": "Fri, 24 Apr 2026 12:57:22 +0000",
+      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
+      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.038,
+      "raw_impact": -0.038,
+      "source_weight": 1.1,
+      "age_hours": 28.57,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+      ]
+    },
+    {
+      "title": "UK position on Falklands will not change, No 10 says after leaked Pentagon memo",
+      "published": "Fri, 24 Apr 2026 13:18:38 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.176,
+      "impact": 0.037,
+      "raw_impact": 0.166,
       "source_weight": 0.9,
-      "age_hours": 2.23,
-      "confidence": 0.68,
+      "age_hours": 3.26,
+      "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -413,15 +447,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.theguardian.com/uk-news/2026/apr/24/uk-position-falklands-unchanged-leaked-pentagon-memo",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "www.theguardian.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss"
+        "https://www.theguardian.com/uk-news/2026/apr/24/uk-position-falklands-unchanged-leaked-pentagon-memo"
       ]
     },
     {
@@ -433,10 +467,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
+      "impact": 0.037,
+      "raw_impact": 0.164,
       "source_weight": 0.9,
-      "age_hours": 2.01,
+      "age_hours": 3.4,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -459,6 +493,40 @@
       ]
     },
     {
+      "title": "Iranian FM Araghchi to visit Pakistan in step towards US talks resumption",
+      "published": "Fri, 24 Apr 2026 12:57:22 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.162,
+      "source_weight": 0.9,
+      "age_hours": 3.62,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
       "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
@@ -467,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
+      "impact": 0.035,
+      "raw_impact": 0.157,
       "source_weight": 0.9,
-      "age_hours": 2.8,
+      "age_hours": 4.2,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -493,40 +561,6 @@
       ]
     },
     {
-      "title": "US considers suspending Spain from NATO, reported internal email suggests",
-      "published": "Fri, 24 Apr 2026 11:06:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.158,
-      "source_weight": 0.9,
-      "age_hours": 4.08,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/24/us-weighs-retaliation-against-nato-allies-over-iran-war-divisions-reuters?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/24/us-weighs-retaliation-against-nato-allies-over-iran-war-divisions-reuters?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Tensions rise in two ceasefires in the Middle East. And, the Navy secretary ousted",
       "published": "Thu, 23 Apr 2026 07:37:10 -0400",
       "actors": [
@@ -535,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.032,
-      "raw_impact": -0.041,
+      "impact": -0.029,
+      "raw_impact": -0.038,
       "source_weight": 0.85,
-      "age_hours": 27.56,
+      "age_hours": 28.95,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -569,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.03,
-      "raw_impact": -0.044,
+      "impact": -0.027,
+      "raw_impact": -0.04,
       "source_weight": 0.75,
-      "age_hours": 26.41,
+      "age_hours": 27.8,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -603,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.122,
+      "impact": 0.025,
+      "raw_impact": 0.113,
       "source_weight": 0.9,
-      "age_hours": 8.55,
+      "age_hours": 9.94,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -637,10 +671,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.089,
+      "impact": 0.018,
+      "raw_impact": 0.082,
       "source_weight": 0.9,
-      "age_hours": 14.11,
+      "age_hours": 15.5,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -674,7 +708,7 @@
       "impact": -0.01,
       "raw_impact": -0.01,
       "source_weight": 1.1,
-      "age_hours": 51.18,
+      "age_hours": 52.57,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -708,7 +742,7 @@
       "impact": -0.01,
       "raw_impact": -0.01,
       "source_weight": 1.1,
-      "age_hours": 51.18,
+      "age_hours": 52.57,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -740,9 +774,9 @@
       "state_key": "russia_ukraine",
       "class": "rhetoric",
       "impact": 0.009,
-      "raw_impact": 0.05,
+      "raw_impact": 0.046,
       "source_weight": 0.75,
-      "age_hours": 24.17,
+      "age_hours": 25.56,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -773,10 +807,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.043,
+      "impact": 0.007,
+      "raw_impact": 0.04,
       "source_weight": 0.75,
-      "age_hours": 26.58,
+      "age_hours": 27.97,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,7 +844,7 @@
       "impact": 0.001,
       "raw_impact": 0.004,
       "source_weight": 0.75,
-      "age_hours": 65.97,
+      "age_hours": 67.36,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,7 +878,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 96.86,
+      "age_hours": 98.26,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -878,7 +912,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 187.11,
+      "age_hours": 188.51,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -912,7 +946,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1240.43,
+      "age_hours": 1241.82,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1071,17 +1105,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 231,
-    "classified_count": 27,
-    "paired_count": 27,
+    "event_count": 230,
+    "classified_count": 28,
+    "paired_count": 28,
     "valid_pair_updates": 5,
-    "top_driver_count": 27,
-    "total_signal": 5.4148,
+    "top_driver_count": 28,
+    "total_signal": 5.2699,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 110,
-      "no_signal": 52,
-      "invalid_pair": 42,
+      "no_actor": 103,
+      "no_signal": 59,
+      "invalid_pair": 40,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
