@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-24 16:34:23 UTC",
-  "probability": 17.13,
-  "uncertainty": 6.35,
+  "last_updated": "2026-04-24 17:51:50 UTC",
+  "probability": 17.23,
+  "uncertainty": 6.24,
   "state": {
-    "us_russia": 3.6185490847120847,
-    "us_china": 3.0076365822731455,
-    "china_taiwan": 4.001527316459455,
-    "india_pakistan": 5.615890168525007,
+    "us_russia": 3.5224723006095378,
+    "us_china": 3.0040569343326085,
+    "china_taiwan": 4.000811386869086,
+    "india_pakistan": 5.750100707030477,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.481264369709058,
-    "iran_israel": 5.766274470702421,
-    "nk_us": 3.000000000076411,
+    "iran_us": 5.552546696407937,
+    "iran_israel": 5.974004942822936,
+    "nk_us": 3.0000000000405933,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.586408562171695
+    "russia_ukraine": 6.567192019985368
   },
   "top_drivers": [
+    {
+      "title": "UK position on Falklands will not change, No 10 says after leaked Pentagon memo",
+      "published": "Fri, 24 Apr 2026 17:00:19 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.771,
+      "raw_impact": 0.856,
+      "source_weight": 0.9,
+      "age_hours": 0.86,
+      "confidence": 0.81,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/uk-news/2026/apr/24/uk-position-falklands-unchanged-leaked-pentagon-memo",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/uk-news/2026/apr/24/uk-position-falklands-unchanged-leaked-pentagon-memo"
+      ]
+    },
     {
       "title": "EU leaders discuss Iran crisis in Cyprus",
       "published": "Fri, 24 Apr 2026 15:12:21 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.798,
-      "raw_impact": 1.109,
+      "impact": 0.741,
+      "raw_impact": 1.029,
       "source_weight": 0.9,
-      "age_hours": 1.37,
+      "age_hours": 2.66,
       "confidence": 0.87,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.746,
-      "raw_impact": 0.829,
+      "impact": 0.693,
+      "raw_impact": 0.77,
       "source_weight": 0.9,
-      "age_hours": 1.42,
+      "age_hours": 2.71,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.717,
-      "raw_impact": 0.995,
+      "impact": 0.665,
+      "raw_impact": 0.924,
       "source_weight": 0.9,
-      "age_hours": 3.24,
+      "age_hours": 4.53,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -127,10 +161,10 @@
       ],
       "state_key": "india_pakistan",
       "class": "action",
-      "impact": 0.708,
-      "raw_impact": 0.787,
+      "impact": 0.657,
+      "raw_impact": 0.73,
       "source_weight": 0.9,
-      "age_hours": 2.33,
+      "age_hours": 3.62,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.194,
+      "impact": -0.146,
+      "raw_impact": -0.18,
       "source_weight": 0.9,
-      "age_hours": 0.5,
+      "age_hours": 1.79,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.152,
-      "raw_impact": -0.154,
+      "impact": -0.141,
+      "raw_impact": -0.143,
       "source_weight": 1.1,
-      "age_hours": 4.57,
+      "age_hours": 5.86,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -221,42 +255,8 @@
       ]
     },
     {
-      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.049,
-      "raw_impact": 0.194,
-      "source_weight": 1.0,
-      "age_hours": 0.5,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
-      "published": "Fri, 24 Apr 2026 16:19:56 GMT",
+      "published": "Fri, 24 Apr 2026 17:37:28 GMT",
       "actors": [
         "iran",
         "us"
@@ -289,18 +289,52 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: U.S. Blockade Will Last \u2018as Long as It Takes,\u2019 Hegseth Says",
-      "published": "Fri, 24 Apr 2026 16:25:24 +0000",
+      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.198,
+      "impact": 0.045,
+      "raw_impact": 0.18,
+      "source_weight": 1.0,
+      "age_hours": 1.79,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
+      "published": "Fri, 24 Apr 2026 16:47:17 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.188,
       "source_weight": 0.9,
-      "age_hours": 0.15,
+      "age_hours": 1.08,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -311,7 +345,7 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/04/24/world/iran-war-trump-hormuz",
+      "link": "https://www.nytimes.com/2026/04/24/world/europe/trump-britain-spain-falklands.html",
       "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
@@ -319,7 +353,7 @@
         "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/04/24/world/iran-war-trump-hormuz"
+        "https://www.nytimes.com/2026/04/24/world/europe/trump-britain-spain-falklands.html"
       ]
     },
     {
@@ -331,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.193,
+      "impact": 0.04,
+      "raw_impact": 0.179,
       "source_weight": 0.9,
-      "age_hours": 0.59,
+      "age_hours": 1.88,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.185,
+      "impact": 0.038,
+      "raw_impact": 0.172,
       "source_weight": 0.9,
-      "age_hours": 1.36,
+      "age_hours": 2.65,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.038,
-      "raw_impact": -0.038,
+      "impact": -0.035,
+      "raw_impact": -0.036,
       "source_weight": 1.1,
-      "age_hours": 28.57,
+      "age_hours": 29.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -425,74 +459,6 @@
       ]
     },
     {
-      "title": "UK position on Falklands will not change, No 10 says after leaked Pentagon memo",
-      "published": "Fri, 24 Apr 2026 13:18:38 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.166,
-      "source_weight": 0.9,
-      "age_hours": 3.26,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/uk-news/2026/apr/24/uk-position-falklands-unchanged-leaked-pentagon-memo",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/uk-news/2026/apr/24/uk-position-falklands-unchanged-leaked-pentagon-memo"
-      ]
-    },
-    {
-      "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
-      "published": "Fri, 24 Apr 2026 13:10:30 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.164,
-      "source_weight": 0.9,
-      "age_hours": 3.4,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/"
-      ]
-    },
-    {
       "title": "Iranian FM Araghchi to visit Pakistan in step towards US talks resumption",
       "published": "Fri, 24 Apr 2026 12:57:22 +0000",
       "actors": [
@@ -501,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.162,
+      "impact": 0.034,
+      "raw_impact": 0.151,
       "source_weight": 0.9,
-      "age_hours": 3.62,
+      "age_hours": 4.91,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -527,6 +493,40 @@
       ]
     },
     {
+      "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
+      "published": "Fri, 24 Apr 2026 13:10:30 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "rhetoric",
+      "impact": 0.034,
+      "raw_impact": 0.153,
+      "source_weight": 0.9,
+      "age_hours": 4.69,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/"
+      ]
+    },
+    {
       "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
       "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
@@ -535,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.157,
+      "impact": 0.033,
+      "raw_impact": 0.146,
       "source_weight": 0.9,
-      "age_hours": 4.2,
+      "age_hours": 5.49,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.029,
-      "raw_impact": -0.038,
+      "impact": -0.027,
+      "raw_impact": -0.035,
       "source_weight": 0.85,
-      "age_hours": 28.95,
+      "age_hours": 30.24,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -603,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.027,
-      "raw_impact": -0.04,
+      "impact": -0.025,
+      "raw_impact": -0.037,
       "source_weight": 0.75,
-      "age_hours": 27.8,
+      "age_hours": 29.09,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -637,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.113,
+      "impact": 0.024,
+      "raw_impact": 0.105,
       "source_weight": 0.9,
-      "age_hours": 9.94,
+      "age_hours": 11.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -663,40 +663,6 @@
       ]
     },
     {
-      "title": "Iran War Has Drained U.S. Supplies of Critical, Costly Weapons",
-      "published": "Fri, 24 Apr 2026 01:04:32 +0000",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.082,
-      "source_weight": 0.9,
-      "age_hours": 15.5,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/23/us/politics/iran-war-cost-military.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/23/us/politics/iran-war-cost-military.html"
-      ]
-    },
-    {
       "title": "SECURITY COUNCIL LIVE: Regional war threatens Syria\u2019s fragile transition",
       "published": "Wed, 22 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -705,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.01,
-      "raw_impact": -0.01,
+      "impact": -0.009,
+      "raw_impact": -0.009,
       "source_weight": 1.1,
-      "age_hours": 52.57,
+      "age_hours": 53.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -739,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.01,
-      "raw_impact": -0.01,
+      "impact": -0.009,
+      "raw_impact": -0.009,
       "source_weight": 1.1,
-      "age_hours": 52.57,
+      "age_hours": 53.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -773,10 +739,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.046,
+      "impact": 0.008,
+      "raw_impact": 0.042,
       "source_weight": 0.75,
-      "age_hours": 25.56,
+      "age_hours": 26.85,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -808,9 +774,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.007,
-      "raw_impact": 0.04,
+      "raw_impact": 0.037,
       "source_weight": 0.75,
-      "age_hours": 27.97,
+      "age_hours": 29.26,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,7 +810,7 @@
       "impact": 0.001,
       "raw_impact": 0.004,
       "source_weight": 0.75,
-      "age_hours": 67.36,
+      "age_hours": 68.65,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -878,7 +844,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 98.26,
+      "age_hours": 99.55,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -912,7 +878,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 188.51,
+      "age_hours": 189.8,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -946,7 +912,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1241.82,
+      "age_hours": 1243.11,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1106,16 +1072,16 @@
   ],
   "debug": {
     "event_count": 230,
-    "classified_count": 28,
-    "paired_count": 28,
+    "classified_count": 27,
+    "paired_count": 27,
     "valid_pair_updates": 5,
-    "top_driver_count": 28,
-    "total_signal": 5.2699,
+    "top_driver_count": 27,
+    "total_signal": 5.6031,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 103,
-      "no_signal": 59,
-      "invalid_pair": 40,
+      "no_actor": 99,
+      "no_signal": 63,
+      "invalid_pair": 41,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
