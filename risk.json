@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-24 17:51:50 UTC",
-  "probability": 17.23,
-  "uncertainty": 6.24,
+  "last_updated": "2026-04-24 18:57:18 UTC",
+  "probability": 16.09,
+  "uncertainty": 6.35,
   "state": {
-    "us_russia": 3.5224723006095378,
-    "us_china": 3.0040569343326085,
-    "china_taiwan": 4.000811386869086,
-    "india_pakistan": 5.750100707030477,
+    "us_russia": 3.4653158995688202,
+    "us_china": 3.002155246364198,
+    "china_taiwan": 4.0004310492742015,
+    "india_pakistan": 5.1641160006099405,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.552546696407937,
-    "iran_israel": 5.974004942822936,
-    "nk_us": 3.0000000000405933,
+    "iran_us": 5.590415432466717,
+    "iran_israel": 5.9617390275626345,
+    "nk_us": 3.000000000021565,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.567192019985368
+    "russia_ukraine": 6.512733246639143
   },
   "top_drivers": [
+    {
+      "title": "Iran: Neither war nor Peace, Ukraine\u2019s Lifeline, Starmer: \u201cJust a Scratch\u201d?",
+      "published": "Fri, 24 Apr 2026 18:22:21 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.835,
+      "raw_impact": 1.16,
+      "source_weight": 0.9,
+      "age_hours": 0.58,
+      "confidence": 0.96,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/the-world-this-week/20260424-iran-neither-war-nor-peace-ukraine-s-lifeline-starmer-just-a-scratch",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/the-world-this-week/20260424-iran-neither-war-nor-peace-ukraine-s-lifeline-starmer-just-a-scratch"
+      ]
+    },
     {
       "title": "UK position on Falklands will not change, No 10 says after leaked Pentagon memo",
       "published": "Fri, 24 Apr 2026 17:00:19 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.771,
-      "raw_impact": 0.856,
+      "impact": 0.724,
+      "raw_impact": 0.804,
       "source_weight": 0.9,
-      "age_hours": 0.86,
+      "age_hours": 1.95,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.741,
-      "raw_impact": 1.029,
+      "impact": 0.696,
+      "raw_impact": 0.966,
       "source_weight": 0.9,
-      "age_hours": 2.66,
+      "age_hours": 3.75,
       "confidence": 0.87,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.693,
-      "raw_impact": 0.77,
+      "impact": 0.65,
+      "raw_impact": 0.723,
       "source_weight": 0.9,
-      "age_hours": 2.71,
+      "age_hours": 3.8,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -119,63 +153,97 @@
       ]
     },
     {
-      "title": "US Defense Secretary Hegseth: 'US blockade has gone global'",
-      "published": "Fri, 24 Apr 2026 13:20:12 GMT",
+      "title": "Witkoff and Kushner to travel to Islamabad as hopes rise for Iran peace talks",
+      "published": "Fri, 24 Apr 2026 18:08:16 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.665,
-      "raw_impact": 0.924,
+      "class": "deescalation",
+      "impact": -0.155,
+      "raw_impact": -0.191,
       "source_weight": 0.9,
-      "age_hours": 4.53,
-      "confidence": 0.95,
-      "signal_total": 1.2,
+      "age_hours": 0.82,
+      "confidence": 0.68,
+      "signal_total": -0.2,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/us-defense-secretary-hegseth-us-blockade-has-gone-global",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/us-defense-secretary-hegseth-us-blockade-has-gone-global"
-      ]
-    },
-    {
-      "title": "India-Pakistan ties 'not good', a year after Kashmir attack",
-      "published": "Fri, 24 Apr 2026 14:14:50 GMT",
-      "actors": [
-        "india",
-        "pakistan"
-      ],
-      "state_key": "india_pakistan",
-      "class": "action",
-      "impact": 0.657,
-      "raw_impact": 0.73,
-      "source_weight": 0.9,
-      "age_hours": 3.62,
-      "confidence": 0.9,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/tv-shows/access-asia/20260424-india-pakistan-ties-not-good-a-year-after-kashmir-attack",
+      "link": "https://www.ft.com/content/a0b83a1d-78d3-4097-a5a7-fbc11b250f5e",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/a0b83a1d-78d3-4097-a5a7-fbc11b250f5e"
+      ]
+    },
+    {
+      "title": "The narrow path to a US-Iran deal",
+      "published": "Fri, 24 Apr 2026 17:56:06 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.153,
+      "raw_impact": -0.189,
+      "source_weight": 0.9,
+      "age_hours": 1.02,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/e96dd18e-eca6-454c-8055-91b975e62154",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/e96dd18e-eca6-454c-8055-91b975e62154"
+      ]
+    },
+    {
+      "title": "Trump's favourite field marshall: A profile of Asim Munir",
+      "published": "Fri, 24 Apr 2026 17:07:01 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.146,
+      "raw_impact": -0.18,
+      "source_weight": 0.9,
+      "age_hours": 1.84,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/spotlight/20260424-trump-s-favourite-field-marshall-a-profile-of-asim-munir",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -183,7 +251,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/tv-shows/access-asia/20260424-india-pakistan-ties-not-good-a-year-after-kashmir-attack"
+        "https://www.france24.com/en/tv-shows/spotlight/20260424-trump-s-favourite-field-marshall-a-profile-of-asim-munir"
       ]
     },
     {
@@ -195,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.146,
-      "raw_impact": -0.18,
+      "impact": -0.137,
+      "raw_impact": -0.169,
       "source_weight": 0.9,
-      "age_hours": 1.79,
+      "age_hours": 2.88,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.141,
-      "raw_impact": -0.143,
+      "impact": -0.132,
+      "raw_impact": -0.134,
       "source_weight": 1.1,
-      "age_hours": 5.86,
+      "age_hours": 6.96,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -255,6 +323,40 @@
       ]
     },
     {
+      "title": "U.S. and Iranian envoys head back to Pakistan for a new round of peace talks",
+      "published": "Fri, 24 Apr 2026 07:59:28 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.103,
+      "raw_impact": -0.134,
+      "source_weight": 0.85,
+      "age_hours": 6.96,
+      "confidence": 0.675,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates"
+      ]
+    },
+    {
       "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
       "published": "Fri, 24 Apr 2026 17:37:28 GMT",
       "actors": [
@@ -263,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.049,
-      "raw_impact": 0.197,
+      "impact": 0.046,
+      "raw_impact": 0.185,
       "source_weight": 1.0,
-      "age_hours": 0.24,
+      "age_hours": 1.33,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -289,52 +391,18 @@
       ]
     },
     {
-      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.18,
-      "source_weight": 1.0,
-      "age_hours": 1.79,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
-      "published": "Fri, 24 Apr 2026 16:47:17 +0000",
+      "published": "Fri, 24 Apr 2026 18:26:49 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.188,
+      "impact": 0.044,
+      "raw_impact": 0.194,
       "source_weight": 0.9,
-      "age_hours": 1.08,
+      "age_hours": 0.51,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -357,154 +425,18 @@
       ]
     },
     {
-      "title": "PM Sanchez rebuffs US idea of suspending Spain from NATO",
-      "published": "Fri, 24 Apr 2026 15:58:46 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.179,
-      "source_weight": 0.9,
-      "age_hours": 1.88,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/24/pm-sanchez-rebuffs-us-idea-of-suspending-spain-from-nato?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/24/pm-sanchez-rebuffs-us-idea-of-suspending-spain-from-nato?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "P&G warns of $1bn hit from Iran war after failing to hedge oil exposure",
-      "published": "Fri, 24 Apr 2026 15:12:40 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.172,
-      "source_weight": 0.9,
-      "age_hours": 2.65,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/34e047b9-da88-4ec2-8036-1896b15953eb",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/34e047b9-da88-4ec2-8036-1896b15953eb"
-      ]
-    },
-    {
-      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
-      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.035,
-      "raw_impact": -0.036,
-      "source_weight": 1.1,
-      "age_hours": 29.86,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167365"
-      ]
-    },
-    {
-      "title": "Iranian FM Araghchi to visit Pakistan in step towards US talks resumption",
-      "published": "Fri, 24 Apr 2026 12:57:22 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.151,
-      "source_weight": 0.9,
-      "age_hours": 4.91,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/features/2026/4/24/iranian-fm-araghchi-to-visit-pakistan-as-talks-with-us-set-to-resume?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
-      "published": "Fri, 24 Apr 2026 13:10:30 +0000",
+      "published": "Fri, 24 Apr 2026 18:40:51 +0000",
       "actors": [
         "iran",
         "israel"
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.153,
+      "impact": 0.044,
+      "raw_impact": 0.197,
       "source_weight": 0.9,
-      "age_hours": 4.69,
+      "age_hours": 0.27,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -527,6 +459,108 @@
       ]
     },
     {
+      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.169,
+      "source_weight": 1.0,
+      "age_hours": 2.88,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "PM Sanchez rebuffs US idea of suspending Spain from NATO",
+      "published": "Fri, 24 Apr 2026 15:58:46 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.038,
+      "raw_impact": 0.168,
+      "source_weight": 0.9,
+      "age_hours": 2.98,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/24/pm-sanchez-rebuffs-us-idea-of-suspending-spain-from-nato?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/24/pm-sanchez-rebuffs-us-idea-of-suspending-spain-from-nato?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
+      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.033,
+      "raw_impact": -0.033,
+      "source_weight": 1.1,
+      "age_hours": 30.96,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+      ]
+    },
+    {
       "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
       "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
@@ -535,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.146,
+      "impact": 0.031,
+      "raw_impact": 0.137,
       "source_weight": 0.9,
-      "age_hours": 5.49,
+      "age_hours": 6.58,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.027,
-      "raw_impact": -0.035,
+      "impact": -0.025,
+      "raw_impact": -0.033,
       "source_weight": 0.85,
-      "age_hours": 30.24,
+      "age_hours": 31.34,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -603,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.025,
-      "raw_impact": -0.037,
+      "impact": -0.023,
+      "raw_impact": -0.035,
       "source_weight": 0.75,
-      "age_hours": 29.09,
+      "age_hours": 30.18,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -637,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.105,
+      "impact": 0.022,
+      "raw_impact": 0.098,
       "source_weight": 0.9,
-      "age_hours": 11.23,
+      "age_hours": 12.32,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -671,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.009,
-      "raw_impact": -0.009,
+      "impact": -0.008,
+      "raw_impact": -0.008,
       "source_weight": 1.1,
-      "age_hours": 53.86,
+      "age_hours": 54.96,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -705,10 +739,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.009,
-      "raw_impact": -0.009,
+      "impact": -0.008,
+      "raw_impact": -0.008,
       "source_weight": 1.1,
-      "age_hours": 53.86,
+      "age_hours": 54.96,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -739,10 +773,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.042,
+      "impact": 0.007,
+      "raw_impact": 0.04,
       "source_weight": 0.75,
-      "age_hours": 26.85,
+      "age_hours": 27.95,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -773,10 +807,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.007,
-      "raw_impact": 0.037,
+      "impact": 0.006,
+      "raw_impact": 0.035,
       "source_weight": 0.75,
-      "age_hours": 29.26,
+      "age_hours": 30.35,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,7 +844,7 @@
       "impact": 0.001,
       "raw_impact": 0.004,
       "source_weight": 0.75,
-      "age_hours": 68.65,
+      "age_hours": 69.74,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,7 +878,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 99.55,
+      "age_hours": 100.64,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -878,7 +912,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 189.8,
+      "age_hours": 190.89,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -912,7 +946,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1243.11,
+      "age_hours": 1244.21,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1071,17 +1105,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 230,
-    "classified_count": 27,
-    "paired_count": 27,
-    "valid_pair_updates": 5,
-    "top_driver_count": 27,
-    "total_signal": 5.6031,
+    "event_count": 228,
+    "classified_count": 28,
+    "paired_count": 28,
+    "valid_pair_updates": 4,
+    "top_driver_count": 28,
+    "total_signal": 3.9604,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 99,
-      "no_signal": 63,
-      "invalid_pair": 41,
+      "no_actor": 98,
+      "no_signal": 64,
+      "invalid_pair": 38,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
