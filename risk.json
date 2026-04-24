@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-24 10:05:48 UTC",
-  "probability": 14.13,
-  "uncertainty": 6.19,
+  "last_updated": "2026-04-24 11:41:07 UTC",
+  "probability": 14.84,
+  "uncertainty": 6.31,
   "state": {
-    "us_russia": 3.8272579112867824,
-    "us_china": 3.0958745332748077,
-    "china_taiwan": 4.019174906715559,
-    "india_pakistan": 4.500145203902693,
+    "us_russia": 3.80852645245503,
+    "us_china": 3.0509333458022416,
+    "china_taiwan": 4.010186669192641,
+    "india_pakistan": 4.500077139573306,
     "china_india": 2.8000000000000003,
-    "iran_us": 3.724162399061858,
-    "iran_israel": 4.161268576123824,
-    "nk_us": 3.000000000959311,
+    "iran_us": 4.619086274501612,
+    "iran_israel": 4.380395179454076,
+    "nk_us": 3.000000000509634,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.7140840067540815
+    "russia_ukraine": 6.910607128588105
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.781,
-      "raw_impact": 0.868,
+      "impact": 0.712,
+      "raw_impact": 0.792,
       "source_weight": 0.9,
-      "age_hours": 0.64,
+      "age_hours": 2.22,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.726,
-      "raw_impact": 0.806,
+      "impact": 0.662,
+      "raw_impact": 0.736,
       "source_weight": 0.9,
-      "age_hours": 1.9,
+      "age_hours": 3.49,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.684,
-      "raw_impact": 0.76,
+      "impact": 0.624,
+      "raw_impact": 0.694,
       "source_weight": 0.9,
-      "age_hours": 2.92,
+      "age_hours": 4.5,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -120,7 +120,7 @@
     },
     {
       "title": "Iran War Live Updates: Trump Says Lebanon Cease-Fire Is Extended by 3 Weeks",
-      "published": "Fri, 24 Apr 2026 09:58:16 +0000",
+      "published": "Fri, 24 Apr 2026 11:35:23 +0000",
       "actors": [
         "iran",
         "israel"
@@ -130,7 +130,7 @@
       "impact": -0.161,
       "raw_impact": -0.199,
       "source_weight": 0.9,
-      "age_hours": 0.13,
+      "age_hours": 0.1,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.13,
-      "raw_impact": -0.16,
+      "impact": -0.118,
+      "raw_impact": -0.146,
       "source_weight": 0.9,
-      "age_hours": 3.9,
+      "age_hours": 5.49,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -187,37 +187,37 @@
       ]
     },
     {
-      "title": "Iran war live: Lebanon truce extended; Trump says time not on Tehran\u2019s side",
-      "published": "Fri, 24 Apr 2026 00:00:00 +0000",
+      "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
+      "published": "Fri, 24 Apr 2026 11:39:53 GMT",
       "actors": [
         "iran",
-        "israel"
+        "us"
       ],
-      "state_key": "iran_israel",
-      "class": "deescalation",
-      "impact": -0.09,
-      "raw_impact": -0.112,
-      "source_weight": 0.9,
-      "age_hours": 10.1,
-      "confidence": 0.67,
-      "signal_total": -0.2,
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.05,
+      "raw_impact": 0.2,
+      "source_weight": 1.0,
+      "age_hours": 0.02,
+      "confidence": 0.68,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/24/iran-war-live-lebanon-truce-extended-trump-says-time-not-on-tehrans-side?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.bbc.com/news/articles/cde51y0zgjyo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "feeds.bbci.co.uk"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/4/24/iran-war-live-lebanon-truce-extended-trump-says-time-not-on-tehrans-side?traffic_source=rss"
+        "https://www.bbc.com/news/articles/cde51y0zgjyo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -229,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.055,
-      "raw_impact": -0.056,
+      "impact": -0.05,
+      "raw_impact": -0.051,
       "source_weight": 1.1,
-      "age_hours": 22.1,
+      "age_hours": 23.69,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -255,6 +255,108 @@
       ]
     },
     {
+      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+      "published": "Fri, 24 Apr 2026 10:14:37 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.046,
+      "raw_impact": 0.184,
+      "source_weight": 1.0,
+      "age_hours": 1.44,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "Tokyo workers asked to swap suits for shorts to combat energy costs and heat",
+      "published": "Fri, 24 Apr 2026 11:13:08 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.195,
+      "source_weight": 0.9,
+      "age_hours": 0.47,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat"
+      ]
+    },
+    {
+      "title": "US considers suspending Spain from NATO, reported internal email suggests",
+      "published": "Fri, 24 Apr 2026 11:06:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.193,
+      "source_weight": 0.9,
+      "age_hours": 0.59,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/24/us-weighs-retaliation-against-nato-allies-over-iran-war-divisions-reuters?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/24/us-weighs-retaliation-against-nato-allies-over-iran-war-divisions-reuters?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Tensions rise in two ceasefires in the Middle East. And, the Navy secretary ousted",
       "published": "Thu, 23 Apr 2026 07:37:10 -0400",
       "actors": [
@@ -263,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.055,
+      "impact": -0.038,
+      "raw_impact": -0.05,
       "source_weight": 0.85,
-      "age_hours": 22.48,
+      "age_hours": 24.07,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.04,
-      "raw_impact": -0.052,
+      "impact": -0.036,
+      "raw_impact": -0.048,
       "source_weight": 0.85,
-      "age_hours": 23.27,
+      "age_hours": 24.86,
       "confidence": 0.745,
       "signal_total": -0.2,
       "signal_components": {
@@ -331,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.04,
-      "raw_impact": -0.058,
+      "impact": -0.036,
+      "raw_impact": -0.053,
       "source_weight": 0.75,
-      "age_hours": 21.32,
+      "age_hours": 22.91,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -365,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.164,
+      "impact": 0.034,
+      "raw_impact": 0.149,
       "source_weight": 0.9,
-      "age_hours": 3.46,
+      "age_hours": 5.05,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +501,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.119,
+      "impact": 0.025,
+      "raw_impact": 0.108,
       "source_weight": 0.9,
-      "age_hours": 9.02,
+      "age_hours": 10.61,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -434,9 +536,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.013,
-      "raw_impact": -0.014,
+      "raw_impact": -0.013,
       "source_weight": 1.1,
-      "age_hours": 46.1,
+      "age_hours": 47.69,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -468,9 +570,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.013,
-      "raw_impact": -0.014,
+      "raw_impact": -0.013,
       "source_weight": 1.1,
-      "age_hours": 46.1,
+      "age_hours": 47.69,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -501,10 +603,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.066,
+      "impact": 0.011,
+      "raw_impact": 0.061,
       "source_weight": 0.75,
-      "age_hours": 19.09,
+      "age_hours": 20.68,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +637,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.058,
+      "impact": 0.01,
+      "raw_impact": 0.053,
       "source_weight": 0.75,
-      "age_hours": 21.49,
+      "age_hours": 23.08,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -570,9 +672,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.001,
-      "raw_impact": 0.006,
+      "raw_impact": 0.005,
       "source_weight": 0.75,
-      "age_hours": 60.88,
+      "age_hours": 62.47,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -606,7 +708,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 91.78,
+      "age_hours": 93.37,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,7 +742,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 182.03,
+      "age_hours": 183.62,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -674,7 +776,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1235.35,
+      "age_hours": 1236.94,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -717,6 +819,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "feeds.bbci.co.uk",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "domain": "feeds.bbci.co.uk"
     },
     {
       "name": "feeds.npr.org",
@@ -818,17 +925,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 229,
-    "classified_count": 20,
-    "paired_count": 20,
+    "event_count": 230,
+    "classified_count": 23,
+    "paired_count": 23,
     "valid_pair_updates": 4,
-    "top_driver_count": 20,
-    "total_signal": 2.5026,
+    "top_driver_count": 23,
+    "total_signal": 2.9146,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 109,
-      "no_signal": 60,
-      "invalid_pair": 40,
+      "no_actor": 106,
+      "no_signal": 57,
+      "invalid_pair": 44,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
