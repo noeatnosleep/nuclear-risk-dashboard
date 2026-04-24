@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-24 20:53:28 UTC",
-  "probability": 15.12,
-  "uncertainty": 6.39,
+  "last_updated": "2026-04-24 21:51:34 UTC",
+  "probability": 14.88,
+  "uncertainty": 6.41,
   "state": {
-    "us_russia": 3.406166120927132,
-    "us_china": 3.0006082677727086,
-    "china_taiwan": 4.000121653554926,
-    "india_pakistan": 4.6874311759533915,
+    "us_russia": 3.389010077459798,
+    "us_china": 3.0003231422542513,
+    "china_taiwan": 4.000064628451055,
+    "india_pakistan": 4.599572812225239,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.621220761702032,
-    "iran_israel": 5.957450469013903,
-    "nk_us": 3.0000000000060862,
+    "iran_us": 5.626898529654205,
+    "iran_israel": 5.934135757861883,
+    "nk_us": 3.0000000000032334,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.376870500801566
+    "russia_ukraine": 6.3065776081627325
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.747,
-      "raw_impact": 1.038,
+      "impact": 0.706,
+      "raw_impact": 0.981,
       "source_weight": 0.9,
-      "age_hours": 2.52,
+      "age_hours": 3.49,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.647,
-      "raw_impact": 0.719,
+      "impact": 0.612,
+      "raw_impact": 0.68,
       "source_weight": 0.9,
-      "age_hours": 3.89,
+      "age_hours": 4.85,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.622,
-      "raw_impact": 0.864,
+      "impact": 0.588,
+      "raw_impact": 0.817,
       "source_weight": 0.9,
-      "age_hours": 5.69,
+      "age_hours": 6.65,
       "confidence": 0.87,
       "signal_total": 1.2,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.582,
-      "raw_impact": 0.646,
+      "impact": 0.55,
+      "raw_impact": 0.611,
       "source_weight": 0.9,
-      "age_hours": 5.74,
+      "age_hours": 6.71,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -153,6 +153,40 @@
       ]
     },
     {
+      "title": "Iran's FM Araghchi arrives in Pakistan ahead of planned US ceasefire talks",
+      "published": "Fri, 24 Apr 2026 21:01:59 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.155,
+      "raw_impact": -0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.83,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260424-iran-fm-araghchi-arrives-in-pakistan-ahead-of-planned-us-ceasefire-talks",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260424-iran-fm-araghchi-arrives-in-pakistan-ahead-of-planned-us-ceasefire-talks"
+      ]
+    },
+    {
       "title": "Witkoff and Kushner to travel to Islamabad as hopes rise for Iran peace talks",
       "published": "Fri, 24 Apr 2026 18:08:16 GMT",
       "actors": [
@@ -161,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.139,
-      "raw_impact": -0.171,
+      "impact": -0.131,
+      "raw_impact": -0.161,
       "source_weight": 0.9,
-      "age_hours": 2.75,
+      "age_hours": 3.72,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.137,
-      "raw_impact": -0.169,
+      "impact": -0.129,
+      "raw_impact": -0.159,
       "source_weight": 0.9,
-      "age_hours": 2.96,
+      "age_hours": 3.92,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.161,
+      "impact": -0.123,
+      "raw_impact": -0.152,
       "source_weight": 0.9,
-      "age_hours": 3.77,
+      "age_hours": 4.74,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.122,
-      "raw_impact": -0.151,
+      "impact": -0.116,
+      "raw_impact": -0.143,
       "source_weight": 0.9,
-      "age_hours": 4.82,
+      "age_hours": 5.79,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.119,
-      "raw_impact": -0.12,
+      "impact": -0.112,
+      "raw_impact": -0.113,
       "source_weight": 1.1,
-      "age_hours": 8.89,
+      "age_hours": 9.86,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -324,17 +358,17 @@
     },
     {
       "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
-      "published": "Fri, 24 Apr 2026 17:37:28 GMT",
+      "published": "Fri, 24 Apr 2026 21:04:23 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.166,
+      "impact": 0.048,
+      "raw_impact": 0.191,
       "source_weight": 1.0,
-      "age_hours": 3.27,
+      "age_hours": 0.79,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -357,6 +391,74 @@
       ]
     },
     {
+      "title": "US sending envoys to Pakistan, raising hopes of talks with Iran\u2019s Araghchi",
+      "published": "Fri, 24 Apr 2026 20:54:28 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.189,
+      "source_weight": 0.9,
+      "age_hours": 0.95,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/24/us-envoys-head-to-pakistan-raising-hopes-of-peace-talks-with-irans-araghchi?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/24/us-envoys-head-to-pakistan-raising-hopes-of-peace-talks-with-irans-araghchi?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Kushner and Witkoff Traveling to Pakistan to Resume Talks With Iran",
+      "published": "Fri, 24 Apr 2026 21:16:58 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.193,
+      "source_weight": 0.9,
+      "age_hours": 0.58,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/24/world/middleeast/kushner-witkoff-pakistan-iran.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/24/world/middleeast/kushner-witkoff-pakistan-iran.html"
+      ]
+    },
+    {
       "title": "Vessels seized by the U.S. this week were part of a global 'shadow fleet'",
       "published": "Fri, 24 Apr 2026 16:39:08 -0400",
       "actors": [
@@ -365,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.197,
+      "impact": 0.04,
+      "raw_impact": 0.187,
       "source_weight": 0.85,
-      "age_hours": 0.24,
+      "age_hours": 1.21,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -391,40 +493,6 @@
       ]
     },
     {
-      "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
-      "published": "Fri, 24 Apr 2026 18:40:51 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.176,
-      "source_weight": 0.9,
-      "age_hours": 2.21,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/"
-      ]
-    },
-    {
       "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
       "published": "Fri, 24 Apr 2026 18:26:49 +0000",
       "actors": [
@@ -433,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
+      "impact": 0.037,
+      "raw_impact": 0.164,
       "source_weight": 0.9,
-      "age_hours": 2.44,
+      "age_hours": 3.41,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -459,6 +527,40 @@
       ]
     },
     {
+      "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
+      "published": "Fri, 24 Apr 2026 18:40:51 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "rhetoric",
+      "impact": 0.037,
+      "raw_impact": 0.166,
+      "source_weight": 0.9,
+      "age_hours": 3.18,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/"
+      ]
+    },
+    {
       "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
       "published": "Fri, 24 Apr 2026 16:04:29 GMT",
       "actors": [
@@ -467,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.151,
+      "impact": 0.036,
+      "raw_impact": 0.143,
       "source_weight": 1.0,
-      "age_hours": 4.82,
+      "age_hours": 5.78,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -493,40 +595,6 @@
       ]
     },
     {
-      "title": "PM Sanchez rebuffs US idea of suspending Spain from NATO",
-      "published": "Fri, 24 Apr 2026 15:58:46 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.151,
-      "source_weight": 0.9,
-      "age_hours": 4.91,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/24/pm-sanchez-rebuffs-us-idea-of-suspending-spain-from-nato?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/24/pm-sanchez-rebuffs-us-idea-of-suspending-spain-from-nato?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
       "published": "Thu, 23 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -535,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.03,
-      "raw_impact": -0.03,
+      "impact": -0.028,
+      "raw_impact": -0.028,
       "source_weight": 1.1,
-      "age_hours": 32.89,
+      "age_hours": 33.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -569,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.122,
+      "impact": 0.026,
+      "raw_impact": 0.116,
       "source_weight": 0.9,
-      "age_hours": 8.51,
+      "age_hours": 9.48,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -603,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.12,
+      "impact": 0.024,
+      "raw_impact": 0.113,
       "source_weight": 0.85,
-      "age_hours": 8.9,
+      "age_hours": 9.87,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -637,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.023,
-      "raw_impact": -0.029,
+      "impact": -0.022,
+      "raw_impact": -0.028,
       "source_weight": 0.85,
-      "age_hours": 33.27,
+      "age_hours": 34.24,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -671,10 +739,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.021,
-      "raw_impact": -0.031,
+      "impact": -0.02,
+      "raw_impact": -0.03,
       "source_weight": 0.75,
-      "age_hours": 32.12,
+      "age_hours": 33.09,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -705,10 +773,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.088,
+      "impact": 0.019,
+      "raw_impact": 0.083,
       "source_weight": 0.9,
-      "age_hours": 14.26,
+      "age_hours": 15.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -742,7 +810,7 @@
       "impact": -0.007,
       "raw_impact": -0.007,
       "source_weight": 1.1,
-      "age_hours": 56.89,
+      "age_hours": 57.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -776,7 +844,7 @@
       "impact": -0.007,
       "raw_impact": -0.007,
       "source_weight": 1.1,
-      "age_hours": 56.89,
+      "age_hours": 57.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -807,10 +875,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.007,
-      "raw_impact": 0.036,
+      "impact": 0.006,
+      "raw_impact": 0.034,
       "source_weight": 0.75,
-      "age_hours": 29.88,
+      "age_hours": 30.85,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -841,10 +909,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.031,
+      "impact": 0.005,
+      "raw_impact": 0.029,
       "source_weight": 0.75,
-      "age_hours": 32.29,
+      "age_hours": 33.25,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -878,7 +946,7 @@
       "impact": 0.001,
       "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 71.68,
+      "age_hours": 72.64,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -912,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 1.1,
-      "age_hours": 102.57,
+      "age_hours": 103.54,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -935,40 +1003,6 @@
       ]
     },
     {
-      "title": "Hegseth Urges Iran to 'Choose Wisely' During Epic Fury Ceasefire, Blockade",
-      "published": "Thu, 16 Apr 2026 20:04:00 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": 0.0,
-      "raw_impact": -0.0,
-      "source_weight": 1.1,
-      "age_hours": 192.82,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.war.gov/News/News-Stories/Article/Article/4461708/hegseth-urges-iran-to-choose-wisely-during-epic-fury-ceasefire-blockade/",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "source_domain": "www.defense.gov",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.defense.gov"
-      ],
-      "cluster_links": [
-        "https://www.war.gov/News/News-Stories/Article/Article/4461708/hegseth-urges-iran-to-choose-wisely-during-epic-fury-ceasefire-blockade/"
-      ]
-    },
-    {
       "title": "Binyamin Netanyahu is the big winner from the Iran war, for now",
       "published": "Tue, 03 Mar 2026 22:44:57 +0000",
       "actors": [
@@ -980,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1246.14,
+      "age_hours": 1247.11,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1139,17 +1173,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 229,
-    "classified_count": 29,
-    "paired_count": 29,
+    "event_count": 228,
+    "classified_count": 30,
+    "paired_count": 30,
     "valid_pair_updates": 4,
-    "top_driver_count": 29,
-    "total_signal": 3.9866,
+    "top_driver_count": 30,
+    "total_signal": 3.8648,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 98,
+      "no_actor": 97,
       "no_signal": 65,
-      "invalid_pair": 37,
+      "invalid_pair": 36,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
