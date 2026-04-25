@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-25 17:40:03 UTC",
-  "probability": 15.72,
-  "uncertainty": 6.46,
+  "last_updated": "2026-04-25 18:57:29 UTC",
+  "probability": 15.2,
+  "uncertainty": 6.51,
   "state": {
-    "us_russia": 3.54629130245024,
-    "us_china": 3.4235656734810656,
-    "china_taiwan": 4.084728721812802,
-    "india_pakistan": 4.500007544403692,
+    "us_russia": 3.5303738506688607,
+    "us_china": 3.225019264036816,
+    "china_taiwan": 4.045012133463051,
+    "india_pakistan": 4.500004007964462,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.9605597097285665,
-    "iran_israel": 4.926982768923098,
+    "iran_us": 4.952886427845168,
+    "iran_israel": 4.906512248906567,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.127613606715058
+    "russia_ukraine": 7.130294728567375
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.704,
-      "raw_impact": 0.782,
+      "impact": 0.653,
+      "raw_impact": 0.726,
       "source_weight": 0.9,
-      "age_hours": 2.43,
+      "age_hours": 3.72,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.667,
-      "raw_impact": 0.667,
+      "impact": 0.62,
+      "raw_impact": 0.62,
       "source_weight": 1.0,
-      "age_hours": 5.17,
+      "age_hours": 6.46,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.368,
-      "raw_impact": 0.409,
+      "impact": 0.342,
+      "raw_impact": 0.38,
       "source_weight": 0.9,
-      "age_hours": 13.66,
+      "age_hours": 14.95,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.32,
-      "raw_impact": 0.355,
+      "impact": 0.297,
+      "raw_impact": 0.33,
       "source_weight": 0.9,
-      "age_hours": 16.09,
+      "age_hours": 17.38,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -153,52 +153,18 @@
       ]
     },
     {
-      "title": "Trump cancels trip by US negotiators for peace talks with Iran",
-      "published": "Sat, 25 Apr 2026 17:13:51 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.195,
-      "source_weight": 0.9,
-      "age_hours": 0.44,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/c3be45f6-0e2d-4683-bd10-e0ba726ffade",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/c3be45f6-0e2d-4683-bd10-e0ba726ffade"
-      ]
-    },
-    {
       "title": "Trump calls off Witkoff, Kushner trip to Pakistan for Iran peace talks",
-      "published": "Sat, 25 Apr 2026 16:46:48 +0000",
+      "published": "Sat, 25 Apr 2026 17:58:53 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.154,
-      "raw_impact": -0.19,
+      "impact": -0.153,
+      "raw_impact": -0.189,
       "source_weight": 0.9,
-      "age_hours": 0.89,
+      "age_hours": 0.98,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -221,6 +187,40 @@
       ]
     },
     {
+      "title": "Trump cancels trip by US negotiators for peace talks with Iran",
+      "published": "Sat, 25 Apr 2026 17:13:51 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.147,
+      "raw_impact": -0.181,
+      "source_weight": 0.9,
+      "age_hours": 1.73,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/c3be45f6-0e2d-4683-bd10-e0ba726ffade",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/c3be45f6-0e2d-4683-bd10-e0ba726ffade"
+      ]
+    },
+    {
       "title": "Iran rules out talks with US unless blockade of ports lifted",
       "published": "Sat, 25 Apr 2026 14:02:32 GMT",
       "actors": [
@@ -229,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.162,
+      "impact": -0.122,
+      "raw_impact": -0.151,
       "source_weight": 0.9,
-      "age_hours": 3.63,
+      "age_hours": 4.92,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.12,
-      "raw_impact": -0.147,
+      "impact": -0.111,
+      "raw_impact": -0.137,
       "source_weight": 0.9,
-      "age_hours": 5.28,
+      "age_hours": 6.57,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.102,
-      "raw_impact": -0.125,
+      "impact": -0.095,
+      "raw_impact": -0.116,
       "source_weight": 0.9,
-      "age_hours": 8.07,
+      "age_hours": 9.36,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -331,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.081,
-      "raw_impact": -0.105,
+      "impact": -0.075,
+      "raw_impact": -0.098,
       "source_weight": 0.85,
-      "age_hours": 11.08,
+      "age_hours": 12.37,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -357,7 +357,75 @@
       ]
     },
     {
-      "title": "A difficult balance to find : Pakistan wants to be a key actor in shaping US-Iran peace",
+      "title": "Trump cancels US envoys\u2019 trip after Iran\u2019s Araghchi leaves Pakistan",
+      "published": "Sat, 25 Apr 2026 18:16:34 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.68,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/25/trump-cancels-envoys-trip-to-pakistan-after-irans-araghchi-leaves-country?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/25/trump-cancels-envoys-trip-to-pakistan-after-irans-araghchi-leaves-country?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Strait talks: What's at stake in Hormuz",
+      "published": "Sat, 25 Apr 2026 17:56:24 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.189,
+      "source_weight": 0.9,
+      "age_hours": 1.02,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/spotlight/20260425-strait-talks-what-s-at-stake-in-hormuz",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/spotlight/20260425-strait-talks-what-s-at-stake-in-hormuz"
+      ]
+    },
+    {
+      "title": "A difficult balance to find: Pakistan wants to be a key actor in shaping US-Iran peace",
       "published": "Sat, 25 Apr 2026 17:14:06 GMT",
       "actors": [
         "iran",
@@ -365,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.195,
+      "impact": 0.041,
+      "raw_impact": 0.181,
       "source_weight": 0.9,
-      "age_hours": 0.43,
+      "age_hours": 1.72,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.036,
-      "raw_impact": -0.036,
+      "impact": -0.033,
+      "raw_impact": -0.033,
       "source_weight": 1.1,
-      "age_hours": 29.67,
+      "age_hours": 30.96,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -433,10 +501,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.142,
+      "impact": 0.03,
+      "raw_impact": 0.132,
       "source_weight": 0.9,
-      "age_hours": 5.9,
+      "age_hours": 7.19,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.121,
+      "impact": 0.025,
+      "raw_impact": 0.112,
       "source_weight": 0.9,
-      "age_hours": 8.71,
+      "age_hours": 10.0,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.091,
+      "impact": 0.019,
+      "raw_impact": 0.084,
       "source_weight": 0.9,
-      "age_hours": 13.66,
+      "age_hours": 14.95,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.059,
+      "impact": 0.012,
+      "raw_impact": 0.055,
       "source_weight": 0.85,
-      "age_hours": 21.02,
+      "age_hours": 22.31,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -561,6 +629,40 @@
       ]
     },
     {
+      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.011,
+      "raw_impact": 0.042,
+      "source_weight": 1.0,
+      "age_hours": 26.88,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
       "published": "Fri, 24 Apr 2026 18:26:49 +0000",
       "actors": [
@@ -569,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.052,
+      "impact": 0.011,
+      "raw_impact": 0.049,
       "source_weight": 0.9,
-      "age_hours": 23.22,
+      "age_hours": 24.51,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -603,10 +705,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.053,
+      "impact": 0.011,
+      "raw_impact": 0.049,
       "source_weight": 0.9,
-      "age_hours": 22.99,
+      "age_hours": 24.28,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -629,74 +731,6 @@
       ]
     },
     {
-      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.046,
-      "source_weight": 1.0,
-      "age_hours": 25.59,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
-      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.009,
-      "raw_impact": -0.009,
-      "source_weight": 1.1,
-      "age_hours": 53.67,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167365"
-      ]
-    },
-    {
       "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
       "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
@@ -706,9 +740,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.008,
-      "raw_impact": 0.037,
+      "raw_impact": 0.034,
       "source_weight": 0.9,
-      "age_hours": 29.29,
+      "age_hours": 30.58,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -731,6 +765,40 @@
       ]
     },
     {
+      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
+      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.008,
+      "raw_impact": -0.008,
+      "source_weight": 1.1,
+      "age_hours": 54.96,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+      ]
+    },
+    {
       "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
       "published": "Fri, 24 Apr 2026 07:59:28 -0400",
       "actors": [
@@ -739,10 +807,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.036,
+      "impact": 0.007,
+      "raw_impact": 0.033,
       "source_weight": 0.85,
-      "age_hours": 29.68,
+      "age_hours": 30.97,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,7 +844,7 @@
       "impact": -0.006,
       "raw_impact": -0.009,
       "source_weight": 0.75,
-      "age_hours": 52.9,
+      "age_hours": 54.19,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -810,7 +878,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 77.67,
+      "age_hours": 78.96,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +912,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 77.67,
+      "age_hours": 78.96,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -876,9 +944,9 @@
       "state_key": "russia_ukraine",
       "class": "rhetoric",
       "impact": 0.002,
-      "raw_impact": 0.011,
+      "raw_impact": 0.01,
       "source_weight": 0.75,
-      "age_hours": 50.66,
+      "age_hours": 51.95,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -912,7 +980,7 @@
       "impact": 0.002,
       "raw_impact": 0.009,
       "source_weight": 0.75,
-      "age_hours": 53.06,
+      "age_hours": 54.35,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 123.35,
+      "age_hours": 124.64,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +1048,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 92.45,
+      "age_hours": 93.74,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +1082,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1266.92,
+      "age_hours": 1268.21,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1173,17 +1241,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 230,
-    "classified_count": 30,
-    "paired_count": 30,
+    "event_count": 229,
+    "classified_count": 32,
+    "paired_count": 32,
     "valid_pair_updates": 4,
-    "top_driver_count": 30,
-    "total_signal": 2.1597,
+    "top_driver_count": 32,
+    "total_signal": 2.4022,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 119,
-      "no_signal": 46,
-      "invalid_pair": 35,
+      "no_actor": 116,
+      "no_signal": 44,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
