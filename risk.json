@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-25 05:14:20 UTC",
-  "probability": 14.46,
-  "uncertainty": 6.21,
+  "last_updated": "2026-04-25 06:51:08 UTC",
+  "probability": 13.99,
+  "uncertainty": 6.44,
   "state": {
-    "us_russia": 3.33046895486935,
-    "us_china": 3.0000257388727354,
-    "china_taiwan": 4.000005147774564,
-    "india_pakistan": 4.507931156968941,
+    "us_russia": 3.2838838917553015,
+    "us_china": 3.0000136737761407,
+    "china_taiwan": 4.000002734755237,
+    "india_pakistan": 4.50421342713975,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.632820789427995,
-    "iran_israel": 6.159156280727757,
-    "nk_us": 3.0000000000002576,
+    "iran_us": 5.633061044383623,
+    "iran_israel": 6.020128705896785,
+    "nk_us": 3.000000000000137,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.93915815370102
+    "russia_ukraine": 5.513945221150154
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.755,
-      "raw_impact": 0.838,
+      "impact": 0.687,
+      "raw_impact": 0.764,
       "source_weight": 0.9,
-      "age_hours": 1.23,
+      "age_hours": 2.84,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.655,
-      "raw_impact": 0.728,
+      "impact": 0.597,
+      "raw_impact": 0.663,
       "source_weight": 0.9,
-      "age_hours": 3.67,
+      "age_hours": 5.28,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.598,
-      "raw_impact": 0.665,
+      "impact": 0.545,
+      "raw_impact": 0.606,
       "source_weight": 0.9,
-      "age_hours": 5.24,
+      "age_hours": 6.85,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.462,
-      "raw_impact": 0.641,
+      "impact": 0.42,
+      "raw_impact": 0.584,
       "source_weight": 0.9,
-      "age_hours": 10.87,
+      "age_hours": 12.48,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -153,63 +153,63 @@
       ]
     },
     {
-      "title": "EU leaders discuss Iran crisis in Cyprus",
-      "published": "Fri, 24 Apr 2026 15:12:21 GMT",
+      "title": "Iran's foreign minister awaits U.S. delegation to Pakistan for peace talks",
+      "published": "Sat, 25 Apr 2026 02:35:21 -0400",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.384,
-      "raw_impact": 0.534,
-      "source_weight": 0.9,
-      "age_hours": 14.03,
-      "confidence": 0.87,
-      "signal_total": 1.2,
+      "class": "deescalation",
+      "impact": -0.15,
+      "raw_impact": -0.197,
+      "source_weight": 0.85,
+      "age_hours": 0.26,
+      "confidence": 0.675,
+      "signal_total": -0.2,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/eu-leaders-discuss-iran-crisis-in-cyprus",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/eu-leaders-discuss-iran-crisis-in-cyprus"
-      ]
-    },
-    {
-      "title": "Russia kills elderly couple in their home",
-      "published": "Fri, 24 Apr 2026 15:09:13 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.359,
-      "raw_impact": 0.399,
-      "source_weight": 0.9,
-      "age_hours": 14.09,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/russia-kills-two-prisoners-in-their-home",
+      "link": "https://www.npr.org/2026/04/25/nx-s1-5799372/iran-middle-east-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/25/nx-s1-5799372/iran-middle-east-updates"
+      ]
+    },
+    {
+      "title": "Middle East war live: US envoys expected in Islamabad as Iran rules out direct talks",
+      "published": "Sat, 25 Apr 2026 05:13:07 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.148,
+      "raw_impact": -0.182,
+      "source_weight": 0.9,
+      "age_hours": 1.63,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260425-middle-east-war-live-us-envoys-expected-in-islamabad-as-iran-rules-out-direct-talks",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -217,7 +217,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/russia-kills-two-prisoners-in-their-home"
+        "https://www.france24.com/en/middle-east/20260425-middle-east-war-live-us-envoys-expected-in-islamabad-as-iran-rules-out-direct-talks"
       ]
     },
     {
@@ -229,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.101,
-      "raw_impact": -0.125,
+      "impact": -0.092,
+      "raw_impact": -0.113,
       "source_weight": 0.9,
-      "age_hours": 8.21,
+      "age_hours": 9.82,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.08,
-      "raw_impact": -0.099,
+      "impact": -0.073,
+      "raw_impact": -0.09,
       "source_weight": 0.9,
-      "age_hours": 12.12,
+      "age_hours": 13.74,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.073,
-      "raw_impact": -0.074,
+      "impact": -0.067,
+      "raw_impact": -0.067,
       "source_weight": 1.1,
-      "age_hours": 17.24,
+      "age_hours": 18.85,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "title": "America\u2019s energy supremacy is being forged in war",
+      "title": "America\u2019s bid for energy supremacy is being forged in war",
       "published": "Sat, 25 Apr 2026 04:00:30 GMT",
       "actors": [
         "iran",
@@ -331,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.186,
+      "impact": 0.038,
+      "raw_impact": 0.17,
       "source_weight": 0.9,
-      "age_hours": 1.23,
+      "age_hours": 2.84,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.175,
+      "impact": 0.036,
+      "raw_impact": 0.16,
       "source_weight": 0.9,
-      "age_hours": 2.27,
+      "age_hours": 3.89,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.139,
+      "impact": 0.032,
+      "raw_impact": 0.126,
       "source_weight": 1.0,
-      "age_hours": 6.32,
+      "age_hours": 7.93,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.134,
+      "impact": 0.028,
+      "raw_impact": 0.122,
       "source_weight": 0.9,
-      "age_hours": 6.89,
+      "age_hours": 8.5,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.124,
+      "impact": 0.025,
+      "raw_impact": 0.113,
       "source_weight": 0.9,
-      "age_hours": 8.33,
+      "age_hours": 9.94,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.122,
+      "impact": 0.024,
+      "raw_impact": 0.111,
       "source_weight": 0.85,
-      "age_hours": 8.59,
+      "age_hours": 10.2,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -527,40 +527,6 @@
       ]
     },
     {
-      "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
-      "published": "Fri, 24 Apr 2026 18:40:51 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.109,
-      "source_weight": 0.9,
-      "age_hours": 10.56,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/"
-      ]
-    },
-    {
       "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
       "published": "Fri, 24 Apr 2026 18:26:49 +0000",
       "actors": [
@@ -569,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.107,
+      "impact": 0.022,
+      "raw_impact": 0.098,
       "source_weight": 0.9,
-      "age_hours": 10.79,
+      "age_hours": 12.41,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -595,6 +561,40 @@
       ]
     },
     {
+      "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
+      "published": "Fri, 24 Apr 2026 18:40:51 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "rhetoric",
+      "impact": 0.022,
+      "raw_impact": 0.099,
+      "source_weight": 0.9,
+      "age_hours": 12.17,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/"
+      ]
+    },
+    {
       "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
       "published": "Fri, 24 Apr 2026 16:04:29 GMT",
       "actors": [
@@ -603,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.093,
+      "impact": 0.021,
+      "raw_impact": 0.085,
       "source_weight": 1.0,
-      "age_hours": 13.16,
+      "age_hours": 14.78,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -637,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.018,
-      "raw_impact": -0.018,
+      "impact": -0.017,
+      "raw_impact": -0.017,
       "source_weight": 1.1,
-      "age_hours": 41.24,
+      "age_hours": 42.85,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -671,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.076,
+      "impact": 0.015,
+      "raw_impact": 0.069,
       "source_weight": 0.9,
-      "age_hours": 16.86,
+      "age_hours": 18.47,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -705,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.074,
+      "impact": 0.014,
+      "raw_impact": 0.067,
       "source_weight": 0.85,
-      "age_hours": 17.25,
+      "age_hours": 18.86,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -731,40 +731,6 @@
       ]
     },
     {
-      "title": "Tensions rise in two ceasefires in the Middle East. And, the Navy secretary ousted",
-      "published": "Thu, 23 Apr 2026 07:37:10 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.018,
-      "source_weight": 0.85,
-      "age_hours": 41.62,
-      "confidence": 0.755,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/23/g-s1-118440/up-first-newsletter-us-iran-john-phelan-trump-republican-democrat-midterm-fundraising-budget-reconciliation-ice",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/23/g-s1-118440/up-first-newsletter-us-iran-john-phelan-trump-republican-democrat-midterm-fundraising-budget-reconciliation-ice"
-      ]
-    },
-    {
       "title": "Caspar Hobhouse quoted in Euronews",
       "published": "Thu, 23 Apr 2026 12:46:21 +0000",
       "actors": [
@@ -773,10 +739,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.019,
+      "impact": -0.012,
+      "raw_impact": -0.018,
       "source_weight": 0.75,
-      "age_hours": 40.47,
+      "age_hours": 42.08,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -808,9 +774,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.005,
-      "raw_impact": -0.005,
+      "raw_impact": -0.004,
       "source_weight": 1.1,
-      "age_hours": 65.24,
+      "age_hours": 66.85,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -842,9 +808,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.005,
-      "raw_impact": -0.005,
+      "raw_impact": -0.004,
       "source_weight": 1.1,
-      "age_hours": 65.24,
+      "age_hours": 66.85,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -876,9 +842,9 @@
       "state_key": "russia_ukraine",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.022,
+      "raw_impact": 0.02,
       "source_weight": 0.75,
-      "age_hours": 38.23,
+      "age_hours": 39.84,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -909,10 +875,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.004,
-      "raw_impact": 0.019,
+      "impact": 0.003,
+      "raw_impact": 0.017,
       "source_weight": 0.75,
-      "age_hours": 40.63,
+      "age_hours": 42.25,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +912,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 110.92,
+      "age_hours": 112.54,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +946,7 @@
       "impact": 0.0,
       "raw_impact": 0.002,
       "source_weight": 0.75,
-      "age_hours": 80.02,
+      "age_hours": 81.64,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1254.49,
+      "age_hours": 1256.1,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1057,11 +1023,6 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
-    },
-    {
-      "name": "euronews_world",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1178,17 +1139,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 248,
-    "classified_count": 30,
-    "paired_count": 30,
+    "event_count": 228,
+    "classified_count": 29,
+    "paired_count": 29,
     "valid_pair_updates": 4,
-    "top_driver_count": 30,
-    "total_signal": 5.1389,
+    "top_driver_count": 29,
+    "total_signal": 3.4162,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 116,
-      "no_signal": 60,
-      "invalid_pair": 42,
+      "no_actor": 106,
+      "no_signal": 56,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
