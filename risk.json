@@ -1,34 +1,34 @@
 {
-  "last_updated": "2026-04-25 12:02:52 UTC",
-  "probability": 19.92,
-  "uncertainty": 6.25,
+  "last_updated": "2026-04-25 13:44:20 UTC",
+  "probability": 19.71,
+  "uncertainty": 6.34,
   "state": {
-    "us_russia": 3.521718891179008,
-    "us_china": 4.743459204933348,
-    "china_taiwan": 4.349060199802852,
-    "india_pakistan": 4.5001782913213475,
+    "us_russia": 3.537270291191801,
+    "us_china": 4.665284470342058,
+    "china_taiwan": 4.333252584689508,
+    "india_pakistan": 4.500094717264465,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633321811416608,
-    "iran_israel": 5.532106364990309,
-    "nk_us": 3.000000000000006,
+    "iran_us": 5.6333272123150735,
+    "iran_israel": 5.38272918052664,
+    "nk_us": 3.0000000000000036,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.9981632578458
+    "russia_ukraine": 7.061524230730582
   },
   "top_drivers": [
     {
       "title": "Seven dead in major Russian attack on Ukraine",
-      "published": "Sat, 25 Apr 2026 10:24:50 GMT",
+      "published": "Sat, 25 Apr 2026 12:29:37 GMT",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.819,
-      "raw_impact": 0.819,
+      "impact": 0.838,
+      "raw_impact": 0.838,
       "source_weight": 1.0,
-      "age_hours": 1.63,
+      "age_hours": 1.25,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.652,
-      "raw_impact": 0.905,
+      "impact": 0.591,
+      "raw_impact": 0.821,
       "source_weight": 0.9,
-      "age_hours": 4.88,
+      "age_hours": 6.57,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.626,
-      "raw_impact": 0.695,
+      "impact": 0.567,
+      "raw_impact": 0.631,
       "source_weight": 0.9,
-      "age_hours": 4.47,
+      "age_hours": 6.16,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.509,
-      "raw_impact": 0.566,
+      "impact": 0.462,
+      "raw_impact": 0.513,
       "source_weight": 0.9,
-      "age_hours": 8.04,
+      "age_hours": 9.73,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.442,
-      "raw_impact": 0.491,
+      "impact": 0.401,
+      "raw_impact": 0.446,
       "source_weight": 0.9,
-      "age_hours": 10.47,
+      "age_hours": 12.17,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -187,29 +187,29 @@
       ]
     },
     {
-      "title": "Iran war live: Tehran\u2019s FM in Islamabad; US says envoys to travel for talks",
-      "published": "Sat, 25 Apr 2026 00:00:00 +0000",
+      "title": "Flights resume at Tehran airport as US-Iran ceasefire holds",
+      "published": "Sat, 25 Apr 2026 12:23:27 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.404,
-      "raw_impact": 0.449,
+      "class": "deescalation",
+      "impact": -0.15,
+      "raw_impact": -0.185,
       "source_weight": 0.9,
-      "age_hours": 12.05,
-      "confidence": 0.9,
-      "signal_total": 0.9,
+      "age_hours": 1.35,
+      "confidence": 0.75,
+      "signal_total": -0.2,
       "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
+        "deescalation": -0.2,
+        "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/25/iran-war-live-tehrans-fm-in-islamabad-us-says-envoys-to-travel-for-talks?traffic_source=rss",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/flights-resume-at-tehran-airport-as-us-iran-ceasefire-holds?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
@@ -217,7 +217,7 @@
         "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/4/25/iran-war-live-tehrans-fm-in-islamabad-us-says-envoys-to-travel-for-talks?traffic_source=rss"
+        "https://www.aljazeera.com/video/newsfeed/2026/4/25/flights-resume-at-tehran-airport-as-us-iran-ceasefire-holds?traffic_source=rss"
       ]
     },
     {
@@ -229,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.174,
+      "impact": -0.128,
+      "raw_impact": -0.157,
       "source_weight": 0.9,
-      "age_hours": 2.45,
+      "age_hours": 4.14,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.112,
-      "raw_impact": -0.146,
+      "impact": -0.101,
+      "raw_impact": -0.132,
       "source_weight": 0.85,
-      "age_hours": 5.46,
+      "age_hours": 7.15,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -289,40 +289,6 @@
       ]
     },
     {
-      "title": "Iran's FM Araghchi arrives in Pakistan ahead of planned US ceasefire talks",
-      "published": "Fri, 24 Apr 2026 21:01:59 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.068,
-      "raw_impact": -0.084,
-      "source_weight": 0.9,
-      "age_hours": 15.01,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260424-iran-fm-araghchi-arrives-in-pakistan-ahead-of-planned-us-ceasefire-talks",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260424-iran-fm-araghchi-arrives-in-pakistan-ahead-of-planned-us-ceasefire-talks"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 24 April: Israel-Lebanon ceasefire extended as humanitarian concerns persist",
       "published": "Fri, 24 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -331,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.05,
-      "raw_impact": -0.05,
+      "impact": -0.045,
+      "raw_impact": -0.045,
       "source_weight": 1.1,
-      "age_hours": 24.05,
+      "age_hours": 25.74,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -357,6 +323,40 @@
       ]
     },
     {
+      "title": "Iran says no direct talks planned as Witkoff, Kushner expected in Pakistan",
+      "published": "Sat, 25 Apr 2026 13:04:04 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.67,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/25/iran-us-pakistan-ceasefire-talks/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/25/iran-us-pakistan-ceasefire-talks/"
+      ]
+    },
+    {
       "title": "Europe Prepares for a Longer War in Ukraine, With No Strategy to End It",
       "published": "Sat, 25 Apr 2026 11:46:15 +0000",
       "actors": [
@@ -365,10 +365,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.197,
+      "impact": 0.04,
+      "raw_impact": 0.179,
       "source_weight": 0.9,
-      "age_hours": 0.28,
+      "age_hours": 1.97,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -391,40 +391,6 @@
       ]
     },
     {
-      "title": "Top Iranian and Pakistani officials meet in Islamabad",
-      "published": "Sat, 25 Apr 2026 08:57:17 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.167,
-      "source_weight": 0.9,
-      "age_hours": 3.09,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/top-iranian-and-pakistani-officials-meet-in-islamabad?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/25/top-iranian-and-pakistani-officials-meet-in-islamabad?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Spain PM brushes of reported Pentagon email on punishing NATO members",
       "published": "Sat, 25 Apr 2026 09:21:13 GMT",
       "actors": [
@@ -433,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.171,
+      "impact": 0.035,
+      "raw_impact": 0.155,
       "source_weight": 0.9,
-      "age_hours": 2.69,
+      "age_hours": 4.39,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -459,6 +425,40 @@
       ]
     },
     {
+      "title": "Top Iranian and Pakistani officials meet in Islamabad",
+      "published": "Sat, 25 Apr 2026 08:57:17 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.034,
+      "raw_impact": 0.152,
+      "source_weight": 0.9,
+      "age_hours": 4.78,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/top-iranian-and-pakistani-officials-meet-in-islamabad?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/25/top-iranian-and-pakistani-officials-meet-in-islamabad?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Middle East war live: Iran military says will respond if US blockade and 'banditry' continues",
       "published": "Sat, 25 Apr 2026 05:13:07 GMT",
       "actors": [
@@ -467,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.135,
+      "impact": 0.028,
+      "raw_impact": 0.122,
       "source_weight": 0.9,
-      "age_hours": 6.83,
+      "age_hours": 8.52,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.126,
+      "impact": 0.026,
+      "raw_impact": 0.114,
       "source_weight": 0.9,
-      "age_hours": 8.04,
+      "age_hours": 9.73,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -527,40 +527,6 @@
       ]
     },
     {
-      "title": "Iran war: What\u2019s happening on day 57 as Trump dispatches negotiating team?",
-      "published": "Sat, 25 Apr 2026 02:58:01 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.118,
-      "source_weight": 0.9,
-      "age_hours": 9.08,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/25/iran-war-whats-happening-on-day-57-as-us-envoys-head-to-pakistan?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/25/iran-war-whats-happening-on-day-57-as-us-envoys-head-to-pakistan?traffic_source=rss"
-      ]
-    },
-    {
       "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
       "published": "Fri, 24 Apr 2026 22:55:05 GMT",
       "actors": [
@@ -569,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.094,
+      "impact": 0.021,
+      "raw_impact": 0.085,
       "source_weight": 1.0,
-      "age_hours": 13.13,
+      "age_hours": 14.82,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -603,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.082,
+      "impact": 0.016,
+      "raw_impact": 0.075,
       "source_weight": 0.85,
-      "age_hours": 15.4,
+      "age_hours": 17.09,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -629,6 +595,40 @@
       ]
     },
     {
+      "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
+      "published": "Fri, 24 Apr 2026 18:26:49 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.015,
+      "raw_impact": 0.066,
+      "source_weight": 0.9,
+      "age_hours": 19.29,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/24/world/europe/trump-britain-spain-falklands.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/24/world/europe/trump-britain-spain-falklands.html"
+      ]
+    },
+    {
       "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
       "published": "Fri, 24 Apr 2026 18:40:51 +0000",
       "actors": [
@@ -637,10 +637,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.073,
+      "impact": 0.015,
+      "raw_impact": 0.067,
       "source_weight": 0.9,
-      "age_hours": 17.37,
+      "age_hours": 19.06,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -671,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.063,
+      "impact": 0.014,
+      "raw_impact": 0.057,
       "source_weight": 1.0,
-      "age_hours": 19.97,
+      "age_hours": 21.66,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -697,74 +697,6 @@
       ]
     },
     {
-      "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
-      "published": "Fri, 24 Apr 2026 18:26:49 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.072,
-      "source_weight": 0.9,
-      "age_hours": 17.6,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/24/world/europe/trump-britain-spain-falklands.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/24/world/europe/trump-britain-spain-falklands.html"
-      ]
-    },
-    {
-      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
-      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.012,
-      "source_weight": 1.1,
-      "age_hours": 48.05,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167365"
-      ]
-    },
-    {
       "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
       "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
@@ -774,9 +706,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.011,
-      "raw_impact": 0.051,
+      "raw_impact": 0.046,
       "source_weight": 0.9,
-      "age_hours": 23.67,
+      "age_hours": 25.36,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -799,6 +731,40 @@
       ]
     },
     {
+      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
+      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.011,
+      "raw_impact": -0.011,
+      "source_weight": 1.1,
+      "age_hours": 49.74,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+      ]
+    },
+    {
       "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
       "published": "Fri, 24 Apr 2026 07:59:28 -0400",
       "actors": [
@@ -807,10 +773,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.05,
+      "impact": 0.009,
+      "raw_impact": 0.045,
       "source_weight": 0.85,
-      "age_hours": 24.06,
+      "age_hours": 25.75,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -841,10 +807,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.009,
-      "raw_impact": -0.013,
+      "impact": -0.008,
+      "raw_impact": -0.012,
       "source_weight": 0.75,
-      "age_hours": 47.28,
+      "age_hours": 48.97,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -878,7 +844,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 72.05,
+      "age_hours": 73.74,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -912,7 +878,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 72.05,
+      "age_hours": 73.74,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -944,9 +910,9 @@
       "state_key": "russia_ukraine",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.015,
+      "raw_impact": 0.013,
       "source_weight": 0.75,
-      "age_hours": 45.04,
+      "age_hours": 46.73,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -977,10 +943,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.003,
-      "raw_impact": 0.013,
+      "impact": 0.002,
+      "raw_impact": 0.012,
       "source_weight": 0.75,
-      "age_hours": 47.44,
+      "age_hours": 49.13,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 117.73,
+      "age_hours": 119.42,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1048,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 86.83,
+      "age_hours": 88.52,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1082,7 +1048,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1261.3,
+      "age_hours": 1262.99,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1241,16 +1207,16 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 229,
-    "classified_count": 32,
-    "paired_count": 32,
+    "event_count": 230,
+    "classified_count": 31,
+    "paired_count": 31,
     "valid_pair_updates": 6,
-    "top_driver_count": 32,
-    "total_signal": 5.1791,
+    "top_driver_count": 31,
+    "total_signal": 4.3362,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 115,
-      "no_signal": 49,
+      "no_actor": 116,
+      "no_signal": 50,
       "invalid_pair": 33,
       "low_confidence": 0,
       "classifier_error": 0,
