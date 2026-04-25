@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-25 13:44:20 UTC",
-  "probability": 19.71,
+  "last_updated": "2026-04-25 14:44:10 UTC",
+  "probability": 19.4,
   "uncertainty": 6.34,
   "state": {
-    "us_russia": 3.537270291191801,
-    "us_china": 4.665284470342058,
-    "china_taiwan": 4.333252584689508,
-    "india_pakistan": 4.500094717264465,
+    "us_russia": 3.536218289245313,
+    "us_china": 4.582376411102629,
+    "china_taiwan": 4.316579242862983,
+    "india_pakistan": 4.500050318546747,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6333272123150735,
-    "iran_israel": 5.38272918052664,
-    "nk_us": 3.0000000000000036,
+    "iran_us": 5.633330081542383,
+    "iran_israel": 5.229289257983675,
+    "nk_us": 3.0000000000000018,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.061524230730582
+    "russia_ukraine": 7.095184747575622
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.838,
-      "raw_impact": 0.838,
+      "impact": 0.791,
+      "raw_impact": 0.791,
       "source_weight": 1.0,
-      "age_hours": 1.25,
+      "age_hours": 2.24,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.591,
-      "raw_impact": 0.821,
+      "impact": 0.558,
+      "raw_impact": 0.775,
       "source_weight": 0.9,
-      "age_hours": 6.57,
+      "age_hours": 7.56,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.567,
-      "raw_impact": 0.631,
+      "impact": 0.536,
+      "raw_impact": 0.595,
       "source_weight": 0.9,
-      "age_hours": 6.16,
+      "age_hours": 7.16,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.462,
-      "raw_impact": 0.513,
+      "impact": 0.436,
+      "raw_impact": 0.484,
       "source_weight": 0.9,
-      "age_hours": 9.73,
+      "age_hours": 10.73,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.401,
-      "raw_impact": 0.446,
+      "impact": 0.379,
+      "raw_impact": 0.421,
       "source_weight": 0.9,
-      "age_hours": 12.17,
+      "age_hours": 13.16,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -187,6 +187,40 @@
       ]
     },
     {
+      "title": "Iran rules out talks with US unless blockade of ports lifted",
+      "published": "Sat, 25 Apr 2026 14:02:32 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.156,
+      "raw_impact": -0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.69,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/iran-rules-out-talks-with-us-unless-blockade-of-ports-lifted",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/iran-rules-out-talks-with-us-unless-blockade-of-ports-lifted"
+      ]
+    },
+    {
       "title": "Flights resume at Tehran airport as US-Iran ceasefire holds",
       "published": "Sat, 25 Apr 2026 12:23:27 +0000",
       "actors": [
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.15,
-      "raw_impact": -0.185,
+      "impact": -0.141,
+      "raw_impact": -0.175,
       "source_weight": 0.9,
-      "age_hours": 1.35,
+      "age_hours": 2.35,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.128,
-      "raw_impact": -0.157,
+      "impact": -0.121,
+      "raw_impact": -0.149,
       "source_weight": 0.9,
-      "age_hours": 4.14,
+      "age_hours": 5.14,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.101,
-      "raw_impact": -0.132,
+      "impact": -0.095,
+      "raw_impact": -0.125,
       "source_weight": 0.85,
-      "age_hours": 7.15,
+      "age_hours": 8.15,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.045,
-      "raw_impact": -0.045,
+      "impact": -0.042,
+      "raw_impact": -0.043,
       "source_weight": 1.1,
-      "age_hours": 25.74,
+      "age_hours": 26.74,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -331,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.192,
+      "impact": 0.041,
+      "raw_impact": 0.182,
       "source_weight": 0.9,
-      "age_hours": 0.67,
+      "age_hours": 1.67,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +399,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.179,
+      "impact": 0.038,
+      "raw_impact": 0.169,
       "source_weight": 0.9,
-      "age_hours": 1.97,
+      "age_hours": 2.97,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.155,
+      "impact": 0.033,
+      "raw_impact": 0.147,
       "source_weight": 0.9,
-      "age_hours": 4.39,
+      "age_hours": 5.38,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.152,
+      "impact": 0.032,
+      "raw_impact": 0.143,
       "source_weight": 0.9,
-      "age_hours": 4.78,
+      "age_hours": 5.78,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -459,40 +493,6 @@
       ]
     },
     {
-      "title": "Middle East war live: Iran military says will respond if US blockade and 'banditry' continues",
-      "published": "Sat, 25 Apr 2026 05:13:07 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.122,
-      "source_weight": 0.9,
-      "age_hours": 8.52,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260425-middle-east-war-live-us-envoys-expected-in-islamabad-as-iran-rules-out-direct-talks",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260425-middle-east-war-live-us-envoys-expected-in-islamabad-as-iran-rules-out-direct-talks"
-      ]
-    },
-    {
       "title": "America\u2019s bid for energy supremacy is being forged in war",
       "published": "Sat, 25 Apr 2026 04:00:30 GMT",
       "actors": [
@@ -501,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.114,
+      "impact": 0.024,
+      "raw_impact": 0.108,
       "source_weight": 0.9,
-      "age_hours": 9.73,
+      "age_hours": 10.73,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.085,
+      "impact": 0.02,
+      "raw_impact": 0.08,
       "source_weight": 1.0,
-      "age_hours": 14.82,
+      "age_hours": 15.82,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.075,
+      "impact": 0.015,
+      "raw_impact": 0.07,
       "source_weight": 0.85,
-      "age_hours": 17.09,
+      "age_hours": 18.08,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -603,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.066,
+      "impact": 0.014,
+      "raw_impact": 0.062,
       "source_weight": 0.9,
-      "age_hours": 19.29,
+      "age_hours": 20.29,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -637,10 +637,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.067,
+      "impact": 0.014,
+      "raw_impact": 0.063,
       "source_weight": 0.9,
-      "age_hours": 19.06,
+      "age_hours": 20.06,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -671,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.057,
+      "impact": 0.013,
+      "raw_impact": 0.054,
       "source_weight": 1.0,
-      "age_hours": 21.66,
+      "age_hours": 22.66,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -697,40 +697,6 @@
       ]
     },
     {
-      "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
-      "published": "Fri, 24 Apr 2026 12:22:40 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.046,
-      "source_weight": 0.9,
-      "age_hours": 25.36,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat"
-      ]
-    },
-    {
       "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
       "published": "Thu, 23 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -742,7 +708,7 @@
       "impact": -0.011,
       "raw_impact": -0.011,
       "source_weight": 1.1,
-      "age_hours": 49.74,
+      "age_hours": 50.74,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -765,6 +731,40 @@
       ]
     },
     {
+      "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
+      "published": "Fri, 24 Apr 2026 12:22:40 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.01,
+      "raw_impact": 0.044,
+      "source_weight": 0.9,
+      "age_hours": 26.36,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat"
+      ]
+    },
+    {
       "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
       "published": "Fri, 24 Apr 2026 07:59:28 -0400",
       "actors": [
@@ -774,9 +774,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.009,
-      "raw_impact": 0.045,
+      "raw_impact": 0.043,
       "source_weight": 0.85,
-      "age_hours": 25.75,
+      "age_hours": 26.75,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -807,10 +807,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.008,
-      "raw_impact": -0.012,
+      "impact": -0.007,
+      "raw_impact": -0.011,
       "source_weight": 0.75,
-      "age_hours": 48.97,
+      "age_hours": 49.96,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +844,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 73.74,
+      "age_hours": 74.74,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -878,7 +878,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 73.74,
+      "age_hours": 74.74,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -912,7 +912,7 @@
       "impact": 0.003,
       "raw_impact": 0.013,
       "source_weight": 0.75,
-      "age_hours": 46.73,
+      "age_hours": 47.73,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -944,9 +944,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.002,
-      "raw_impact": 0.012,
+      "raw_impact": 0.011,
       "source_weight": 0.75,
-      "age_hours": 49.13,
+      "age_hours": 50.13,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 119.42,
+      "age_hours": 120.42,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 88.52,
+      "age_hours": 89.52,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1048,7 +1048,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1262.99,
+      "age_hours": 1263.99,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1207,16 +1207,16 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 230,
+    "event_count": 231,
     "classified_count": 31,
     "paired_count": 31,
     "valid_pair_updates": 6,
     "top_driver_count": 31,
-    "total_signal": 4.3362,
+    "total_signal": 3.7613,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 116,
-      "no_signal": 50,
+      "no_actor": 118,
+      "no_signal": 49,
       "invalid_pair": 33,
       "low_confidence": 0,
       "classifier_error": 0,
