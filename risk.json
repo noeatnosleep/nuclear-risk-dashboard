@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-25 20:42:35 UTC",
-  "probability": 14.54,
-  "uncertainty": 6.49,
+  "last_updated": "2026-04-25 21:39:06 UTC",
+  "probability": 14.82,
+  "uncertainty": 6.31,
   "state": {
-    "us_russia": 3.499556320019652,
-    "us_china": 3.06350641338539,
-    "china_taiwan": 4.012703619698068,
-    "india_pakistan": 4.500001131154033,
+    "us_russia": 3.4915940415851106,
+    "us_china": 3.0337377821109888,
+    "china_taiwan": 4.006748797964598,
+    "india_pakistan": 4.50000060092558,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.703139481601534,
-    "iran_israel": 4.8357539741747795,
+    "iran_us": 5.139167849600815,
+    "iran_israel": 4.975043746549136,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.132475758355441
+    "russia_ukraine": 7.1328777466263285
   },
   "top_drivers": [
+    {
+      "title": "Families of Iranian Children Killed in School Airstrike Pen Letter to Pope",
+      "published": "Sat, 25 Apr 2026 20:59:45 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.78,
+      "raw_impact": 0.867,
+      "source_weight": 0.9,
+      "age_hours": 0.66,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/25/world/middleeast/families-of-iranian-children-killed-in-school-airstrike-pen-letter-to-pope.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/25/world/middleeast/families-of-iranian-children-killed-in-school-airstrike-pen-letter-to-pope.html"
+      ]
+    },
     {
       "title": "Russian strikes kill several in Ukraine's Dnipro",
       "published": "Sat, 25 Apr 2026 15:14:06 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.59,
-      "raw_impact": 0.656,
+      "impact": 0.559,
+      "raw_impact": 0.621,
       "source_weight": 0.9,
-      "age_hours": 5.47,
+      "age_hours": 6.42,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.56,
-      "raw_impact": 0.56,
+      "impact": 0.53,
+      "raw_impact": 0.53,
       "source_weight": 1.0,
-      "age_hours": 8.22,
+      "age_hours": 9.16,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,6 +119,74 @@
       ]
     },
     {
+      "title": "Drone crashes in Romania as Russia strikes neighbouring Ukraine",
+      "published": "Sat, 25 Apr 2026 16:38:24 +0200",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.51,
+      "raw_impact": 0.6,
+      "source_weight": 0.85,
+      "age_hours": 7.01,
+      "confidence": 0.885,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/my-europe/2026/04/25/drone-crashes-in-romania-as-russia-strikes-neighbouring-ukraine",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/my-europe/2026/04/25/drone-crashes-in-romania-as-russia-strikes-neighbouring-ukraine"
+      ]
+    },
+    {
+      "title": "Russian strikes kill at least seven and injure dozens across Ukraine",
+      "published": "Sat, 25 Apr 2026 15:31:51 +0200",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.479,
+      "raw_impact": 0.563,
+      "source_weight": 0.85,
+      "age_hours": 8.12,
+      "confidence": 0.885,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/2026/04/25/russian-strikes-kill-at-least-seven-and-injure-dozens-across-ukraine",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/2026/04/25/russian-strikes-kill-at-least-seven-and-injure-dozens-across-ukraine"
+      ]
+    },
+    {
       "title": "Iran seeks to resume flights from bomb-damaged airports",
       "published": "Sat, 25 Apr 2026 04:00:40 GMT",
       "actors": [
@@ -93,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.309,
-      "raw_impact": 0.343,
+      "impact": 0.292,
+      "raw_impact": 0.325,
       "source_weight": 0.9,
-      "age_hours": 16.7,
+      "age_hours": 17.64,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.268,
-      "raw_impact": 0.298,
+      "impact": 0.254,
+      "raw_impact": 0.282,
       "source_weight": 0.9,
-      "age_hours": 19.14,
+      "age_hours": 20.08,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -153,52 +255,18 @@
       ]
     },
     {
-      "title": "Trump calls off Witkoff, Kushner trip to Pakistan for Iran peace talks",
-      "published": "Sat, 25 Apr 2026 19:57:12 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.155,
-      "raw_impact": -0.191,
-      "source_weight": 0.9,
-      "age_hours": 0.76,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/25/iran-us-pakistan-ceasefire-talks/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/25/iran-us-pakistan-ceasefire-talks/"
-      ]
-    },
-    {
       "title": "Trump cancels trip by US negotiators for Iran peace talks",
-      "published": "Sat, 25 Apr 2026 17:13:51 GMT",
+      "published": "Sat, 25 Apr 2026 21:10:13 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.132,
-      "raw_impact": -0.164,
+      "impact": -0.158,
+      "raw_impact": -0.195,
       "source_weight": 0.9,
-      "age_hours": 3.48,
+      "age_hours": 0.48,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -221,6 +289,40 @@
       ]
     },
     {
+      "title": "Trump calls off Witkoff, Kushner trip to Pakistan for Iran peace talks",
+      "published": "Sat, 25 Apr 2026 19:57:12 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.147,
+      "raw_impact": -0.181,
+      "source_weight": 0.9,
+      "age_hours": 1.7,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/25/iran-us-pakistan-ceasefire-talks/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/25/iran-us-pakistan-ceasefire-talks/"
+      ]
+    },
+    {
       "title": "Iran rules out talks with US unless blockade of ports lifted",
       "published": "Sat, 25 Apr 2026 14:02:32 GMT",
       "actors": [
@@ -229,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.11,
-      "raw_impact": -0.136,
+      "impact": -0.104,
+      "raw_impact": -0.129,
       "source_weight": 0.9,
-      "age_hours": 6.67,
+      "age_hours": 7.61,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -255,19 +357,19 @@
       ]
     },
     {
-      "title": "Flights resume at Tehran airport as US-Iran ceasefire holds",
-      "published": "Sat, 25 Apr 2026 12:23:27 +0000",
+      "title": "Zelenskyy says he is ready to meet Putin in Azerbaijan",
+      "published": "Sat, 25 Apr 2026 12:58:19 +0200",
       "actors": [
-        "iran",
-        "us"
+        "us",
+        "russia"
       ],
-      "state_key": "iran_us",
+      "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.1,
-      "raw_impact": -0.124,
-      "source_weight": 0.9,
-      "age_hours": 8.32,
-      "confidence": 0.75,
+      "impact": -0.083,
+      "raw_impact": -0.108,
+      "source_weight": 0.85,
+      "age_hours": 10.68,
+      "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -277,15 +379,15 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/flights-resume-at-tehran-airport-as-us-iran-ceasefire-holds?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "http://www.euronews.com/2026/04/25/zelenskyy-says-he-is-ready-to-meet-putin-in-azerbaijan",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "www.euronews.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/25/flights-resume-at-tehran-airport-as-us-iran-ceasefire-holds?traffic_source=rss"
+        "http://www.euronews.com/2026/04/25/zelenskyy-says-he-is-ready-to-meet-putin-in-azerbaijan"
       ]
     },
     {
@@ -297,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.086,
-      "raw_impact": -0.105,
+      "impact": -0.081,
+      "raw_impact": -0.1,
       "source_weight": 0.9,
-      "age_hours": 11.11,
+      "age_hours": 12.05,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -323,6 +425,40 @@
       ]
     },
     {
+      "title": "Trump cancels US negotiators' trip to Pakistan for Iran talks as Araghchi departs Islamabad",
+      "published": "Sat, 25 Apr 2026 11:04:01 +0200",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.074,
+      "raw_impact": -0.097,
+      "source_weight": 0.85,
+      "age_hours": 12.58,
+      "confidence": 0.675,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/2026/04/25/irans-fm-abbas-araghchi-meets-with-pakistan-officials-but-rules-out-direct-talks-with-us",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/2026/04/25/irans-fm-abbas-araghchi-meets-with-pakistan-officials-but-rules-out-direct-talks-with-us"
+      ]
+    },
+    {
       "title": "Iran's foreign minister leaves Pakistan, then Trump cancels U.S. delegation's travel",
       "published": "Sat, 25 Apr 2026 02:35:21 -0400",
       "actors": [
@@ -331,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.068,
-      "raw_impact": -0.088,
+      "impact": -0.064,
+      "raw_impact": -0.084,
       "source_weight": 0.85,
-      "age_hours": 14.12,
+      "age_hours": 15.06,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -357,19 +493,19 @@
       ]
     },
     {
-      "title": "Trump cancels US envoys\u2019 trip after Iran\u2019s Araghchi leaves Pakistan",
-      "published": "Sat, 25 Apr 2026 18:16:34 +0000",
+      "title": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
+      "published": "Sat, 25 Apr 2026 21:34:12 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
-      "source_weight": 0.9,
-      "age_hours": 2.43,
-      "confidence": 0.68,
+      "impact": 0.05,
+      "raw_impact": 0.199,
+      "source_weight": 1.0,
+      "age_hours": 0.08,
+      "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -379,15 +515,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/2026/4/25/trump-cancels-envoys-trip-to-pakistan-after-irans-araghchi-leaves-country?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.bbc.com/news/articles/c4g6nyvl29po?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "feeds.bbci.co.uk"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/25/trump-cancels-envoys-trip-to-pakistan-after-irans-araghchi-leaves-country?traffic_source=rss"
+        "https://www.bbc.com/news/articles/c4g6nyvl29po?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -399,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 2.77,
+      "age_hours": 3.71,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.164,
+      "impact": 0.035,
+      "raw_impact": 0.155,
       "source_weight": 0.9,
-      "age_hours": 3.47,
+      "age_hours": 4.42,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.03,
-      "raw_impact": -0.03,
+      "impact": -0.028,
+      "raw_impact": -0.029,
       "source_weight": 1.1,
-      "age_hours": 32.71,
+      "age_hours": 33.65,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -501,10 +637,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.119,
+      "impact": 0.025,
+      "raw_impact": 0.113,
       "source_weight": 0.9,
-      "age_hours": 8.94,
+      "age_hours": 9.88,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.076,
+      "impact": 0.016,
+      "raw_impact": 0.072,
       "source_weight": 0.9,
-      "age_hours": 16.7,
+      "age_hours": 17.64,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.05,
+      "impact": 0.01,
+      "raw_impact": 0.047,
       "source_weight": 0.85,
-      "age_hours": 24.06,
+      "age_hours": 25.0,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -595,6 +731,40 @@
       ]
     },
     {
+      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.009,
+      "raw_impact": 0.036,
+      "source_weight": 1.0,
+      "age_hours": 29.58,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
       "published": "Fri, 24 Apr 2026 18:26:49 +0000",
       "actors": [
@@ -603,10 +773,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.044,
+      "impact": 0.009,
+      "raw_impact": 0.042,
       "source_weight": 0.9,
-      "age_hours": 26.26,
+      "age_hours": 27.2,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -637,10 +807,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.044,
+      "impact": 0.009,
+      "raw_impact": 0.042,
       "source_weight": 0.9,
-      "age_hours": 26.03,
+      "age_hours": 26.97,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -663,74 +833,6 @@
       ]
     },
     {
-      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.038,
-      "source_weight": 1.0,
-      "age_hours": 28.64,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
-      "published": "Fri, 24 Apr 2026 12:22:40 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.007,
-      "raw_impact": 0.031,
-      "source_weight": 0.9,
-      "age_hours": 32.33,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat"
-      ]
-    },
-    {
       "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
       "published": "Thu, 23 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -740,9 +842,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.007,
-      "raw_impact": -0.008,
+      "raw_impact": -0.007,
       "source_weight": 1.1,
-      "age_hours": 56.71,
+      "age_hours": 57.65,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -765,6 +867,40 @@
       ]
     },
     {
+      "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
+      "published": "Fri, 24 Apr 2026 12:22:40 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.006,
+      "raw_impact": 0.029,
+      "source_weight": 0.9,
+      "age_hours": 33.27,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat"
+      ]
+    },
+    {
       "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
       "published": "Fri, 24 Apr 2026 07:59:28 -0400",
       "actors": [
@@ -774,9 +910,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.006,
-      "raw_impact": 0.03,
+      "raw_impact": 0.029,
       "source_weight": 0.85,
-      "age_hours": 32.72,
+      "age_hours": 33.66,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -808,9 +944,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.005,
-      "raw_impact": -0.008,
+      "raw_impact": -0.007,
       "source_weight": 0.75,
-      "age_hours": 55.94,
+      "age_hours": 56.88,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +980,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 80.71,
+      "age_hours": 81.65,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -878,7 +1014,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 80.71,
+      "age_hours": 81.65,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -912,7 +1048,7 @@
       "impact": 0.002,
       "raw_impact": 0.009,
       "source_weight": 0.75,
-      "age_hours": 53.7,
+      "age_hours": 54.64,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -944,9 +1080,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.002,
-      "raw_impact": 0.008,
+      "raw_impact": 0.007,
       "source_weight": 0.75,
-      "age_hours": 56.1,
+      "age_hours": 57.05,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +1116,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 126.39,
+      "age_hours": 127.34,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +1150,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 95.49,
+      "age_hours": 96.44,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1048,7 +1184,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1269.96,
+      "age_hours": 1270.9,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1091,6 +1227,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "euronews_world",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1163,11 +1304,6 @@
       "domain": "feeds.washingtonpost.com"
     },
     {
-      "name": "www.aljazeera.com",
-      "url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "domain": "www.aljazeera.com"
-    },
-    {
       "name": "www.defense.gov",
       "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
       "domain": "www.defense.gov"
@@ -1176,6 +1312,11 @@
       "name": "www.economist.com",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "www.euronews.com",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
     },
     {
       "name": "www.france24.com",
@@ -1207,17 +1348,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 229,
-    "classified_count": 31,
-    "paired_count": 31,
+    "event_count": 249,
+    "classified_count": 35,
+    "paired_count": 35,
     "valid_pair_updates": 4,
-    "top_driver_count": 31,
-    "total_signal": 2.0392,
+    "top_driver_count": 35,
+    "total_signal": 3.9093,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 119,
-      "no_signal": 43,
-      "invalid_pair": 36,
+      "no_actor": 131,
+      "no_signal": 45,
+      "invalid_pair": 38,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
