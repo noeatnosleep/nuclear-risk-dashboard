@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-25 09:28:53 UTC",
-  "probability": 18.48,
-  "uncertainty": 6.29,
+  "last_updated": "2026-04-25 10:24:55 UTC",
+  "probability": 19.17,
+  "uncertainty": 6.22,
   "state": {
-    "us_russia": 3.3752443857887267,
-    "us_china": 4.476371887137449,
-    "china_taiwan": 4.29773120252187,
-    "india_pakistan": 4.5011891410579965,
+    "us_russia": 3.3903458188648945,
+    "us_china": 4.679814516320222,
+    "china_taiwan": 4.337268091595434,
+    "india_pakistan": 4.5006317311870605,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.63325648615905,
-    "iran_israel": 5.845028332446954,
-    "nk_us": 3.000000000000039,
+    "iran_us": 5.633292508271995,
+    "iran_israel": 5.74587530498079,
+    "nk_us": 3.000000000000021,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.483883050704202
+    "russia_ukraine": 6.654391612574736
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.756,
-      "raw_impact": 1.05,
+      "impact": 0.716,
+      "raw_impact": 0.995,
       "source_weight": 0.9,
-      "age_hours": 2.31,
+      "age_hours": 3.24,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.726,
-      "raw_impact": 0.806,
+      "impact": 0.688,
+      "raw_impact": 0.764,
       "source_weight": 0.9,
-      "age_hours": 1.9,
+      "age_hours": 2.84,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.591,
-      "raw_impact": 0.656,
+      "impact": 0.56,
+      "raw_impact": 0.622,
       "source_weight": 0.9,
-      "age_hours": 5.47,
+      "age_hours": 6.4,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.513,
-      "raw_impact": 0.57,
+      "impact": 0.486,
+      "raw_impact": 0.54,
       "source_weight": 0.9,
-      "age_hours": 7.91,
+      "age_hours": 8.84,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.468,
-      "raw_impact": 0.52,
+      "impact": 0.444,
+      "raw_impact": 0.493,
       "source_weight": 0.9,
-      "age_hours": 9.48,
+      "age_hours": 10.42,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -195,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.361,
-      "raw_impact": 0.501,
+      "impact": 0.342,
+      "raw_impact": 0.475,
       "source_weight": 0.9,
-      "age_hours": 15.11,
+      "age_hours": 16.04,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -221,6 +221,40 @@
       ]
     },
     {
+      "title": "US envoys to travel to Islamabad despite Iran ruling out direct\u00a0negotiations\u00a0with\u00a0US",
+      "published": "Sat, 25 Apr 2026 09:35:58 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.155,
+      "raw_impact": -0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.82,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/us-envoys-to-travel-to-islamabad-despite-iran-ruling-out-direct-negotiations-with-us",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/us-envoys-to-travel-to-islamabad-despite-iran-ruling-out-direct-negotiations-with-us"
+      ]
+    },
+    {
       "title": "Iran's foreign minister awaits U.S. delegation to Pakistan for peace talks",
       "published": "Sat, 25 Apr 2026 02:35:21 -0400",
       "actors": [
@@ -229,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.13,
-      "raw_impact": -0.169,
+      "impact": -0.122,
+      "raw_impact": -0.16,
       "source_weight": 0.85,
-      "age_hours": 2.89,
+      "age_hours": 3.83,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.127,
-      "raw_impact": -0.156,
+      "impact": -0.12,
+      "raw_impact": -0.148,
       "source_weight": 0.9,
-      "age_hours": 4.26,
+      "age_hours": 5.2,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.079,
-      "raw_impact": -0.097,
+      "impact": -0.075,
+      "raw_impact": -0.092,
       "source_weight": 0.9,
-      "age_hours": 12.45,
+      "age_hours": 13.38,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -323,40 +357,6 @@
       ]
     },
     {
-      "title": "Trump's favourite field marshall: A profile of Asim Munir",
-      "published": "Fri, 24 Apr 2026 17:07:01 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.063,
-      "raw_impact": -0.078,
-      "source_weight": 0.9,
-      "age_hours": 16.36,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/tv-shows/spotlight/20260424-trump-s-favourite-field-marshall-a-profile-of-asim-munir",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/tv-shows/spotlight/20260424-trump-s-favourite-field-marshall-a-profile-of-asim-munir"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 24 April: Israel-Lebanon ceasefire extended as humanitarian concerns persist",
       "published": "Fri, 24 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -365,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.058,
-      "raw_impact": -0.058,
+      "impact": -0.054,
+      "raw_impact": -0.055,
       "source_weight": 1.1,
-      "age_hours": 21.48,
+      "age_hours": 22.42,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -391,6 +391,40 @@
       ]
     },
     {
+      "title": "Europe Prepares for a Longer War in Ukraine, With No Strategy to End It",
+      "published": "Sat, 25 Apr 2026 09:02:31 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.185,
+      "source_weight": 0.9,
+      "age_hours": 1.37,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/25/world/europe/ukraine-russia-europe-european-union.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/25/world/europe/ukraine-russia-europe-european-union.html"
+      ]
+    },
+    {
       "title": "Spain PM brushes of reported Pentagon email on punishing NATO members",
       "published": "Sat, 25 Apr 2026 09:21:13 GMT",
       "actors": [
@@ -399,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.199,
+      "impact": 0.042,
+      "raw_impact": 0.188,
       "source_weight": 0.9,
-      "age_hours": 0.13,
+      "age_hours": 1.06,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.194,
+      "impact": 0.041,
+      "raw_impact": 0.184,
       "source_weight": 0.9,
-      "age_hours": 0.53,
+      "age_hours": 1.46,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -459,40 +493,6 @@
       ]
     },
     {
-      "title": "Europe Prepares for a Longer War in Ukraine, With No Strategy to End It",
-      "published": "Sat, 25 Apr 2026 09:02:31 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.195,
-      "source_weight": 0.9,
-      "age_hours": 0.44,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/25/world/europe/ukraine-russia-europe-european-union.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/25/world/europe/ukraine-russia-europe-european-union.html"
-      ]
-    },
-    {
       "title": "America\u2019s bid for energy supremacy is being forged in war",
       "published": "Sat, 25 Apr 2026 04:00:30 GMT",
       "actors": [
@@ -501,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.146,
+      "impact": 0.031,
+      "raw_impact": 0.138,
       "source_weight": 0.9,
-      "age_hours": 5.47,
+      "age_hours": 6.41,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.137,
+      "impact": 0.029,
+      "raw_impact": 0.13,
       "source_weight": 0.9,
-      "age_hours": 6.51,
+      "age_hours": 7.45,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.109,
+      "impact": 0.026,
+      "raw_impact": 0.103,
       "source_weight": 1.0,
-      "age_hours": 10.56,
+      "age_hours": 11.5,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -595,40 +595,6 @@
       ]
     },
     {
-      "title": "US sending envoys to Pakistan, raising hopes of talks with Iran\u2019s Araghchi",
-      "published": "Fri, 24 Apr 2026 20:54:28 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.097,
-      "source_weight": 0.9,
-      "age_hours": 12.57,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/24/us-envoys-head-to-pakistan-raising-hopes-of-peace-talks-with-irans-araghchi?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/24/us-envoys-head-to-pakistan-raising-hopes-of-peace-talks-with-irans-araghchi?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Vessels seized by the U.S. this week were part of a global 'shadow fleet'",
       "published": "Fri, 24 Apr 2026 16:39:08 -0400",
       "actors": [
@@ -637,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.095,
+      "impact": 0.019,
+      "raw_impact": 0.09,
       "source_weight": 0.85,
-      "age_hours": 12.83,
+      "age_hours": 13.76,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -671,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.084,
+      "impact": 0.018,
+      "raw_impact": 0.08,
       "source_weight": 0.9,
-      "age_hours": 15.03,
+      "age_hours": 15.97,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -705,10 +671,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.085,
+      "impact": 0.018,
+      "raw_impact": 0.081,
       "source_weight": 0.9,
-      "age_hours": 14.8,
+      "age_hours": 15.73,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -739,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.073,
+      "impact": 0.017,
+      "raw_impact": 0.069,
       "source_weight": 1.0,
-      "age_hours": 17.41,
+      "age_hours": 18.34,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -765,40 +731,6 @@
       ]
     },
     {
-      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
-      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.014,
-      "raw_impact": -0.014,
-      "source_weight": 1.1,
-      "age_hours": 45.48,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167365"
-      ]
-    },
-    {
       "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
       "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
@@ -808,9 +740,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.013,
-      "raw_impact": 0.059,
+      "raw_impact": 0.056,
       "source_weight": 0.9,
-      "age_hours": 21.1,
+      "age_hours": 22.04,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -833,6 +765,40 @@
       ]
     },
     {
+      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
+      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.013,
+      "raw_impact": -0.014,
+      "source_weight": 1.1,
+      "age_hours": 46.42,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+      ]
+    },
+    {
       "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
       "published": "Fri, 24 Apr 2026 07:59:28 -0400",
       "actors": [
@@ -842,9 +808,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.012,
-      "raw_impact": 0.058,
+      "raw_impact": 0.055,
       "source_weight": 0.85,
-      "age_hours": 21.49,
+      "age_hours": 22.42,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -876,9 +842,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.01,
-      "raw_impact": -0.015,
+      "raw_impact": -0.014,
       "source_weight": 0.75,
-      "age_hours": 44.71,
+      "age_hours": 45.64,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -910,9 +876,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.004,
-      "raw_impact": -0.004,
+      "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 69.48,
+      "age_hours": 70.42,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -944,9 +910,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.004,
-      "raw_impact": -0.004,
+      "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 69.48,
+      "age_hours": 70.42,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -978,9 +944,9 @@
       "state_key": "russia_ukraine",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.017,
+      "raw_impact": 0.016,
       "source_weight": 0.75,
-      "age_hours": 42.47,
+      "age_hours": 43.41,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1012,9 +978,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.015,
+      "raw_impact": 0.014,
       "source_weight": 0.75,
-      "age_hours": 44.88,
+      "age_hours": 45.81,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1048,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 115.16,
+      "age_hours": 116.1,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1080,9 +1046,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.0,
-      "raw_impact": 0.002,
+      "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 84.27,
+      "age_hours": 85.2,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1116,7 +1082,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1258.73,
+      "age_hours": 1259.67,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1276,15 +1242,15 @@
   ],
   "debug": {
     "event_count": 230,
-    "classified_count": 33,
-    "paired_count": 33,
+    "classified_count": 32,
+    "paired_count": 32,
     "valid_pair_updates": 6,
-    "top_driver_count": 33,
-    "total_signal": 5.3707,
+    "top_driver_count": 32,
+    "total_signal": 4.8632,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 110,
-      "no_signal": 53,
+      "no_actor": 113,
+      "no_signal": 51,
       "invalid_pair": 34,
       "low_confidence": 0,
       "classifier_error": 0,
