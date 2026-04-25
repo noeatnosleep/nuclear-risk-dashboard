@@ -1,21 +1,89 @@
 {
-  "last_updated": "2026-04-25 06:51:08 UTC",
-  "probability": 13.99,
-  "uncertainty": 6.44,
+  "last_updated": "2026-04-25 08:06:30 UTC",
+  "probability": 16.83,
+  "uncertainty": 6.23,
   "state": {
-    "us_russia": 3.2838838917553015,
-    "us_china": 3.0000136737761407,
-    "china_taiwan": 4.000002734755237,
-    "india_pakistan": 4.50421342713975,
+    "us_russia": 3.336673752789174,
+    "us_china": 4.000007264193575,
+    "china_taiwan": 4.2046260647810785,
+    "india_pakistan": 4.502238383167993,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633061044383623,
-    "iran_israel": 6.020128705896785,
-    "nk_us": 3.000000000000137,
+    "iran_us": 5.6331886798288,
+    "iran_israel": 5.901569741162147,
+    "nk_us": 3.000000000000073,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.513945221150154
+    "russia_ukraine": 6.072580215366619
   },
   "top_drivers": [
+    {
+      "title": "US sanctions China\u2019s \u2018teapot\u2019 refinery for buying Iranian oil",
+      "published": "Sat, 25 Apr 2026 07:10:19 +0000",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "strategic",
+      "impact": 0.818,
+      "raw_impact": 1.137,
+      "source_weight": 0.9,
+      "age_hours": 0.94,
+      "confidence": 0.96,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/25/us-sanctions-chinas-teapot-refinery-for-buying-iranian-oil?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/25/us-sanctions-chinas-teapot-refinery-for-buying-iranian-oil?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Major Russia drone and missile attack kills several, wounds dozens in Ukraine",
+      "published": "Sat, 25 Apr 2026 07:34:43 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.786,
+      "raw_impact": 0.873,
+      "source_weight": 0.9,
+      "age_hours": 0.53,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/europe/20260425-major-russia-drone-and-missile-attack-kills-several-wounds-dozens-in-ukraine",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/europe/20260425-major-russia-drone-and-missile-attack-kills-several-wounds-dozens-in-ukraine"
+      ]
+    },
     {
       "title": "Iran seeks to resume flights from bomb-damaged airports",
       "published": "Sat, 25 Apr 2026 04:00:40 GMT",
@@ -25,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.687,
-      "raw_impact": 0.764,
+      "impact": 0.639,
+      "raw_impact": 0.71,
       "source_weight": 0.9,
-      "age_hours": 2.84,
+      "age_hours": 4.1,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.597,
-      "raw_impact": 0.663,
+      "impact": 0.555,
+      "raw_impact": 0.617,
       "source_weight": 0.9,
-      "age_hours": 5.28,
+      "age_hours": 6.53,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.545,
-      "raw_impact": 0.606,
+      "impact": 0.507,
+      "raw_impact": 0.563,
       "source_weight": 0.9,
-      "age_hours": 6.85,
+      "age_hours": 8.11,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.42,
-      "raw_impact": 0.584,
+      "impact": 0.39,
+      "raw_impact": 0.543,
       "source_weight": 0.9,
-      "age_hours": 12.48,
+      "age_hours": 13.74,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -161,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.15,
-      "raw_impact": -0.197,
+      "impact": -0.14,
+      "raw_impact": -0.183,
       "source_weight": 0.85,
-      "age_hours": 0.26,
+      "age_hours": 1.52,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.148,
-      "raw_impact": -0.182,
+      "impact": -0.137,
+      "raw_impact": -0.169,
       "source_weight": 0.9,
-      "age_hours": 1.63,
+      "age_hours": 2.89,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.092,
-      "raw_impact": -0.113,
+      "impact": -0.086,
+      "raw_impact": -0.105,
       "source_weight": 0.9,
-      "age_hours": 9.82,
+      "age_hours": 11.08,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.073,
-      "raw_impact": -0.09,
+      "impact": -0.068,
+      "raw_impact": -0.084,
       "source_weight": 0.9,
-      "age_hours": 13.74,
+      "age_hours": 14.99,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.067,
-      "raw_impact": -0.067,
+      "impact": -0.062,
+      "raw_impact": -0.063,
       "source_weight": 1.1,
-      "age_hours": 18.85,
+      "age_hours": 20.11,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -331,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
+      "impact": 0.035,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 2.84,
+      "age_hours": 4.1,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.16,
+      "impact": 0.034,
+      "raw_impact": 0.149,
       "source_weight": 0.9,
-      "age_hours": 3.89,
+      "age_hours": 5.14,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.126,
+      "impact": 0.029,
+      "raw_impact": 0.118,
       "source_weight": 1.0,
-      "age_hours": 7.93,
+      "age_hours": 9.19,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.122,
+      "impact": 0.025,
+      "raw_impact": 0.114,
       "source_weight": 0.9,
-      "age_hours": 8.5,
+      "age_hours": 9.76,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.113,
+      "impact": 0.024,
+      "raw_impact": 0.105,
       "source_weight": 0.9,
-      "age_hours": 9.94,
+      "age_hours": 11.2,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.111,
+      "impact": 0.022,
+      "raw_impact": 0.103,
       "source_weight": 0.85,
-      "age_hours": 10.2,
+      "age_hours": 11.46,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.098,
+      "impact": 0.021,
+      "raw_impact": 0.091,
       "source_weight": 0.9,
-      "age_hours": 12.41,
+      "age_hours": 13.66,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +637,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.099,
+      "impact": 0.021,
+      "raw_impact": 0.092,
       "source_weight": 0.9,
-      "age_hours": 12.17,
+      "age_hours": 13.43,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -603,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.085,
+      "impact": 0.02,
+      "raw_impact": 0.079,
       "source_weight": 1.0,
-      "age_hours": 14.78,
+      "age_hours": 16.03,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -629,40 +697,6 @@
       ]
     },
     {
-      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
-      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.017,
-      "raw_impact": -0.017,
-      "source_weight": 1.1,
-      "age_hours": 42.85,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167365"
-      ]
-    },
-    {
       "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
       "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
@@ -672,9 +706,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.015,
-      "raw_impact": 0.069,
+      "raw_impact": 0.064,
       "source_weight": 0.9,
-      "age_hours": 18.47,
+      "age_hours": 19.73,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -697,6 +731,40 @@
       ]
     },
     {
+      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
+      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.015,
+      "raw_impact": -0.016,
+      "source_weight": 1.1,
+      "age_hours": 44.11,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+      ]
+    },
+    {
       "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
       "published": "Fri, 24 Apr 2026 07:59:28 -0400",
       "actors": [
@@ -705,10 +773,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.067,
+      "impact": 0.013,
+      "raw_impact": 0.063,
       "source_weight": 0.85,
-      "age_hours": 18.86,
+      "age_hours": 20.12,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -739,10 +807,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.012,
-      "raw_impact": -0.018,
+      "impact": -0.011,
+      "raw_impact": -0.016,
       "source_weight": 0.75,
-      "age_hours": 42.08,
+      "age_hours": 43.34,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -773,10 +841,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.005,
+      "impact": -0.004,
       "raw_impact": -0.004,
       "source_weight": 1.1,
-      "age_hours": 66.85,
+      "age_hours": 68.11,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -807,10 +875,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.005,
+      "impact": -0.004,
       "raw_impact": -0.004,
       "source_weight": 1.1,
-      "age_hours": 66.85,
+      "age_hours": 68.11,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -842,9 +910,9 @@
       "state_key": "russia_ukraine",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.02,
+      "raw_impact": 0.019,
       "source_weight": 0.75,
-      "age_hours": 39.84,
+      "age_hours": 41.1,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -876,9 +944,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.017,
+      "raw_impact": 0.016,
       "source_weight": 0.75,
-      "age_hours": 42.25,
+      "age_hours": 43.5,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -912,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 112.54,
+      "age_hours": 113.79,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.002,
       "source_weight": 0.75,
-      "age_hours": 81.64,
+      "age_hours": 82.89,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +1048,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1256.1,
+      "age_hours": 1257.36,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1140,16 +1208,16 @@
   ],
   "debug": {
     "event_count": 228,
-    "classified_count": 29,
-    "paired_count": 29,
-    "valid_pair_updates": 4,
-    "top_driver_count": 29,
-    "total_signal": 3.4162,
+    "classified_count": 31,
+    "paired_count": 31,
+    "valid_pair_updates": 6,
+    "top_driver_count": 31,
+    "total_signal": 5.269,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 106,
+      "no_actor": 107,
       "no_signal": 56,
-      "invalid_pair": 37,
+      "invalid_pair": 34,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
