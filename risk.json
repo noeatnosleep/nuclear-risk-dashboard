@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-25 02:39:58 UTC",
-  "probability": 14.52,
-  "uncertainty": 6.28,
+  "last_updated": "2026-04-25 05:14:20 UTC",
+  "probability": 14.46,
+  "uncertainty": 6.21,
   "state": {
-    "us_russia": 3.3478955035279583,
-    "us_china": 3.000048449642796,
-    "china_taiwan": 4.00000968992859,
-    "india_pakistan": 4.5149292366474185,
+    "us_russia": 3.33046895486935,
+    "us_china": 3.0000257388727354,
+    "china_taiwan": 4.000005147774564,
+    "india_pakistan": 4.507931156968941,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.632368544805637,
-    "iran_israel": 5.991561474091274,
-    "nk_us": 3.0000000000004845,
+    "iran_us": 5.632820789427995,
+    "iran_israel": 6.159156280727757,
+    "nk_us": 3.0000000000002576,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.060960790164833
+    "russia_ukraine": 5.93915815370102
   },
   "top_drivers": [
+    {
+      "title": "Iran seeks to resume flights from bomb-damaged airports",
+      "published": "Sat, 25 Apr 2026 04:00:40 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.755,
+      "raw_impact": 0.838,
+      "source_weight": 0.9,
+      "age_hours": 1.23,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/e6e9c6fa-3d49-42e4-9594-38aa1a7d3d44",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/e6e9c6fa-3d49-42e4-9594-38aa1a7d3d44"
+      ]
+    },
     {
       "title": "UK position on Falklands will not change, No 10 says after leaked Pentagon memo",
       "published": "Sat, 25 Apr 2026 01:34:25 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.76,
-      "raw_impact": 0.845,
+      "impact": 0.655,
+      "raw_impact": 0.728,
       "source_weight": 0.9,
-      "age_hours": 1.09,
+      "age_hours": 3.67,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.694,
-      "raw_impact": 0.772,
+      "impact": 0.598,
+      "raw_impact": 0.665,
       "source_weight": 0.9,
-      "age_hours": 2.67,
+      "age_hours": 5.24,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.535,
-      "raw_impact": 0.743,
+      "impact": 0.462,
+      "raw_impact": 0.641,
       "source_weight": 0.9,
-      "age_hours": 8.29,
+      "age_hours": 10.87,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -127,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.446,
-      "raw_impact": 0.619,
+      "impact": 0.384,
+      "raw_impact": 0.534,
       "source_weight": 0.9,
-      "age_hours": 11.46,
+      "age_hours": 14.03,
       "confidence": 0.87,
       "signal_total": 1.2,
       "signal_components": {
@@ -161,10 +195,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.417,
-      "raw_impact": 0.463,
+      "impact": 0.359,
+      "raw_impact": 0.399,
       "source_weight": 0.9,
-      "age_hours": 11.51,
+      "age_hours": 14.09,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.117,
-      "raw_impact": -0.144,
+      "impact": -0.101,
+      "raw_impact": -0.125,
       "source_weight": 0.9,
-      "age_hours": 5.63,
+      "age_hours": 8.21,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -221,74 +255,6 @@
       ]
     },
     {
-      "title": "Witkoff and Kushner to travel to Islamabad as hopes rise for Iran peace talks",
-      "published": "Fri, 24 Apr 2026 18:08:16 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.099,
-      "raw_impact": -0.122,
-      "source_weight": 0.9,
-      "age_hours": 8.53,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/a0b83a1d-78d3-4097-a5a7-fbc11b250f5e",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/a0b83a1d-78d3-4097-a5a7-fbc11b250f5e"
-      ]
-    },
-    {
-      "title": "The narrow path to a US-Iran deal",
-      "published": "Fri, 24 Apr 2026 17:56:06 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.098,
-      "raw_impact": -0.121,
-      "source_weight": 0.9,
-      "age_hours": 8.73,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/e96dd18e-eca6-454c-8055-91b975e62154",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/e96dd18e-eca6-454c-8055-91b975e62154"
-      ]
-    },
-    {
       "title": "Trump's favourite field marshall: A profile of Asim Munir",
       "published": "Fri, 24 Apr 2026 17:07:01 GMT",
       "actors": [
@@ -297,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.094,
-      "raw_impact": -0.115,
+      "impact": -0.08,
+      "raw_impact": -0.099,
       "source_weight": 0.9,
-      "age_hours": 9.55,
+      "age_hours": 12.12,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -331,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.085,
-      "raw_impact": -0.086,
+      "impact": -0.073,
+      "raw_impact": -0.074,
       "source_weight": 1.1,
-      "age_hours": 14.67,
+      "age_hours": 17.24,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -357,6 +323,74 @@
       ]
     },
     {
+      "title": "America\u2019s energy supremacy is being forged in war",
+      "published": "Sat, 25 Apr 2026 04:00:30 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.186,
+      "source_weight": 0.9,
+      "age_hours": 1.23,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://ig.ft.com/global-energy-flows/",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://ig.ft.com/global-energy-flows/"
+      ]
+    },
+    {
+      "title": "Iran war: What\u2019s happening on day 57 as Trump dispatches negotiating team?",
+      "published": "Sat, 25 Apr 2026 02:58:01 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.175,
+      "source_weight": 0.9,
+      "age_hours": 2.27,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/25/iran-war-whats-happening-on-day-57-as-us-envoys-head-to-pakistan?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/25/iran-war-whats-happening-on-day-57-as-us-envoys-head-to-pakistan?traffic_source=rss"
+      ]
+    },
+    {
       "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
       "published": "Fri, 24 Apr 2026 22:55:05 GMT",
       "actors": [
@@ -365,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.161,
+      "impact": 0.035,
+      "raw_impact": 0.139,
       "source_weight": 1.0,
-      "age_hours": 3.75,
+      "age_hours": 6.32,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -391,40 +425,6 @@
       ]
     },
     {
-      "title": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
-      "published": "Fri, 24 Apr 2026 22:02:50 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.153,
-      "source_weight": 1.0,
-      "age_hours": 4.62,
-      "confidence": 0.69,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cy8103xklreo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cy8103xklreo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Kushner and Witkoff Traveling to Pakistan to Resume Iran Talks",
       "published": "Fri, 24 Apr 2026 22:20:57 +0000",
       "actors": [
@@ -433,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.156,
+      "impact": 0.03,
+      "raw_impact": 0.134,
       "source_weight": 0.9,
-      "age_hours": 4.32,
+      "age_hours": 6.89,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.143,
+      "impact": 0.028,
+      "raw_impact": 0.124,
       "source_weight": 0.9,
-      "age_hours": 5.76,
+      "age_hours": 8.33,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.141,
+      "impact": 0.026,
+      "raw_impact": 0.122,
       "source_weight": 0.85,
-      "age_hours": 6.01,
+      "age_hours": 8.59,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -527,40 +527,6 @@
       ]
     },
     {
-      "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
-      "published": "Fri, 24 Apr 2026 18:26:49 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.124,
-      "source_weight": 0.9,
-      "age_hours": 8.22,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/24/world/europe/trump-britain-spain-falklands.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/24/world/europe/trump-britain-spain-falklands.html"
-      ]
-    },
-    {
       "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
       "published": "Fri, 24 Apr 2026 18:40:51 +0000",
       "actors": [
@@ -569,10 +535,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.126,
+      "impact": 0.025,
+      "raw_impact": 0.109,
       "source_weight": 0.9,
-      "age_hours": 7.99,
+      "age_hours": 10.56,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -595,6 +561,40 @@
       ]
     },
     {
+      "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
+      "published": "Fri, 24 Apr 2026 18:26:49 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.024,
+      "raw_impact": 0.107,
+      "source_weight": 0.9,
+      "age_hours": 10.79,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/24/world/europe/trump-britain-spain-falklands.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/24/world/europe/trump-britain-spain-falklands.html"
+      ]
+    },
+    {
       "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
       "published": "Fri, 24 Apr 2026 16:04:29 GMT",
       "actors": [
@@ -603,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.108,
+      "impact": 0.023,
+      "raw_impact": 0.093,
       "source_weight": 1.0,
-      "age_hours": 10.59,
+      "age_hours": 13.16,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -637,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.022,
-      "raw_impact": -0.021,
+      "impact": -0.018,
+      "raw_impact": -0.018,
       "source_weight": 1.1,
-      "age_hours": 38.67,
+      "age_hours": 41.24,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -671,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.088,
+      "impact": 0.017,
+      "raw_impact": 0.076,
       "source_weight": 0.9,
-      "age_hours": 14.29,
+      "age_hours": 16.86,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -705,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.086,
+      "impact": 0.016,
+      "raw_impact": 0.074,
       "source_weight": 0.85,
-      "age_hours": 14.68,
+      "age_hours": 17.25,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -739,10 +739,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.016,
-      "raw_impact": -0.021,
+      "impact": -0.013,
+      "raw_impact": -0.018,
       "source_weight": 0.85,
-      "age_hours": 39.05,
+      "age_hours": 41.62,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -773,10 +773,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.015,
-      "raw_impact": -0.022,
+      "impact": -0.013,
+      "raw_impact": -0.019,
       "source_weight": 0.75,
-      "age_hours": 37.89,
+      "age_hours": 40.47,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -810,7 +810,7 @@
       "impact": -0.005,
       "raw_impact": -0.005,
       "source_weight": 1.1,
-      "age_hours": 62.67,
+      "age_hours": 65.24,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +844,7 @@
       "impact": -0.005,
       "raw_impact": -0.005,
       "source_weight": 1.1,
-      "age_hours": 62.67,
+      "age_hours": 65.24,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -875,10 +875,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.005,
-      "raw_impact": 0.026,
+      "impact": 0.004,
+      "raw_impact": 0.022,
       "source_weight": 0.75,
-      "age_hours": 35.66,
+      "age_hours": 38.23,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -910,9 +910,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.022,
+      "raw_impact": 0.019,
       "source_weight": 0.75,
-      "age_hours": 38.06,
+      "age_hours": 40.63,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -935,40 +935,6 @@
       ]
     },
     {
-      "title": "A dangerous blind spot in Donald Trump\u2019s Iran war strategy",
-      "published": "Tue, 21 Apr 2026 21:12:55 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.001,
-      "raw_impact": 0.002,
-      "source_weight": 0.75,
-      "age_hours": 77.45,
-      "confidence": 0.655,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.economist.com/international/2026/04/21/a-dangerous-blind-spot-in-donald-trumps-iran-war-strategy",
-      "source": "https://www.economist.com/international/rss.xml",
-      "source_domain": "www.economist.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.economist.com"
-      ],
-      "cluster_links": [
-        "https://www.economist.com/international/2026/04/21/a-dangerous-blind-spot-in-donald-trumps-iran-war-strategy"
-      ]
-    },
-    {
       "title": "U.S. Forces Disable Vessel Attempting to Enter Iranian Port, Violate Blockade",
       "published": "Mon, 20 Apr 2026 14:19:00 GMT",
       "actors": [
@@ -980,7 +946,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 108.35,
+      "age_hours": 110.92,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1003,6 +969,40 @@
       ]
     },
     {
+      "title": "A dangerous blind spot in Donald Trump\u2019s Iran war strategy",
+      "published": "Tue, 21 Apr 2026 21:12:55 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.0,
+      "raw_impact": 0.002,
+      "source_weight": 0.75,
+      "age_hours": 80.02,
+      "confidence": 0.655,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.economist.com/international/2026/04/21/a-dangerous-blind-spot-in-donald-trumps-iran-war-strategy",
+      "source": "https://www.economist.com/international/rss.xml",
+      "source_domain": "www.economist.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.economist.com"
+      ],
+      "cluster_links": [
+        "https://www.economist.com/international/2026/04/21/a-dangerous-blind-spot-in-donald-trumps-iran-war-strategy"
+      ]
+    },
+    {
       "title": "Binyamin Netanyahu is the big winner from the Iran war, for now",
       "published": "Tue, 03 Mar 2026 22:44:57 +0000",
       "actors": [
@@ -1014,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1251.92,
+      "age_hours": 1254.49,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1057,6 +1057,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "euronews_world",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1173,17 +1178,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 228,
+    "event_count": 248,
     "classified_count": 30,
     "paired_count": 30,
     "valid_pair_updates": 4,
     "top_driver_count": 30,
-    "total_signal": 4.3799,
+    "total_signal": 5.1389,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 103,
-      "no_signal": 59,
-      "invalid_pair": 36,
+      "no_actor": 116,
+      "no_signal": 60,
+      "invalid_pair": 42,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
