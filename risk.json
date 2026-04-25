@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-25 14:44:10 UTC",
-  "probability": 19.4,
+  "last_updated": "2026-04-25 15:41:36 UTC",
+  "probability": 19.16,
   "uncertainty": 6.34,
   "state": {
-    "us_russia": 3.536218289245313,
-    "us_china": 4.582376411102629,
-    "china_taiwan": 4.316579242862983,
-    "india_pakistan": 4.500050318546747,
+    "us_russia": 3.555405007545443,
+    "us_china": 4.500800171780662,
+    "china_taiwan": 4.300215263447437,
+    "india_pakistan": 4.500026731727959,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633330081542383,
-    "iran_israel": 5.229289257983675,
-    "nk_us": 3.0000000000000018,
+    "iran_us": 5.597631460523601,
+    "iran_israel": 5.13376975974537,
+    "nk_us": 3.000000000000001,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.095184747575622
+    "russia_ukraine": 7.113066897149548
   },
   "top_drivers": [
+    {
+      "title": "Russian strikes kill several in Ukraine's Dnipro",
+      "published": "Sat, 25 Apr 2026 15:14:06 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.789,
+      "raw_impact": 0.876,
+      "source_weight": 0.9,
+      "age_hours": 0.46,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/russian-strikes-kill-several-in-ukraine-s-dnipro",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/russian-strikes-kill-several-in-ukraine-s-dnipro"
+      ]
+    },
     {
       "title": "Seven dead in major Russian attack on Ukraine",
       "published": "Sat, 25 Apr 2026 12:29:37 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.791,
-      "raw_impact": 0.791,
+      "impact": 0.748,
+      "raw_impact": 0.748,
       "source_weight": 1.0,
-      "age_hours": 2.24,
+      "age_hours": 3.2,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "us_china",
       "class": "strategic",
-      "impact": 0.558,
-      "raw_impact": 0.775,
+      "impact": 0.528,
+      "raw_impact": 0.734,
       "source_weight": 0.9,
-      "age_hours": 7.56,
+      "age_hours": 8.52,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -85,40 +119,6 @@
       ]
     },
     {
-      "title": "Major Russia drone and missile attack kills several, wounds dozens in Ukraine",
-      "published": "Sat, 25 Apr 2026 07:34:43 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.536,
-      "raw_impact": 0.595,
-      "source_weight": 0.9,
-      "age_hours": 7.16,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/europe/20260425-major-russia-drone-and-missile-attack-kills-several-wounds-dozens-in-ukraine",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/europe/20260425-major-russia-drone-and-missile-attack-kills-several-wounds-dozens-in-ukraine"
-      ]
-    },
-    {
       "title": "Iran seeks to resume flights from bomb-damaged airports",
       "published": "Sat, 25 Apr 2026 04:00:40 GMT",
       "actors": [
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.436,
-      "raw_impact": 0.484,
+      "impact": 0.412,
+      "raw_impact": 0.458,
       "source_weight": 0.9,
-      "age_hours": 10.73,
+      "age_hours": 11.68,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.379,
-      "raw_impact": 0.421,
+      "impact": 0.358,
+      "raw_impact": 0.398,
       "source_weight": 0.9,
-      "age_hours": 13.16,
+      "age_hours": 14.12,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -195,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.156,
-      "raw_impact": -0.192,
+      "impact": -0.148,
+      "raw_impact": -0.182,
       "source_weight": 0.9,
-      "age_hours": 0.69,
+      "age_hours": 1.65,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.141,
-      "raw_impact": -0.175,
+      "impact": -0.134,
+      "raw_impact": -0.165,
       "source_weight": 0.9,
-      "age_hours": 2.35,
+      "age_hours": 3.3,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.121,
-      "raw_impact": -0.149,
+      "impact": -0.114,
+      "raw_impact": -0.141,
       "source_weight": 0.9,
-      "age_hours": 5.14,
+      "age_hours": 6.09,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.125,
+      "impact": -0.09,
+      "raw_impact": -0.118,
       "source_weight": 0.85,
-      "age_hours": 8.15,
+      "age_hours": 9.1,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -331,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.042,
-      "raw_impact": -0.043,
+      "impact": -0.04,
+      "raw_impact": -0.04,
       "source_weight": 1.1,
-      "age_hours": 26.74,
+      "age_hours": 27.69,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -365,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.182,
+      "impact": 0.039,
+      "raw_impact": 0.172,
       "source_weight": 0.9,
-      "age_hours": 1.67,
+      "age_hours": 2.63,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +399,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
+      "impact": 0.036,
+      "raw_impact": 0.159,
       "source_weight": 0.9,
-      "age_hours": 2.97,
+      "age_hours": 3.92,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.147,
+      "impact": 0.031,
+      "raw_impact": 0.139,
       "source_weight": 0.9,
-      "age_hours": 5.38,
+      "age_hours": 6.34,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.143,
+      "impact": 0.03,
+      "raw_impact": 0.136,
       "source_weight": 0.9,
-      "age_hours": 5.78,
+      "age_hours": 6.74,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.108,
+      "impact": 0.023,
+      "raw_impact": 0.102,
       "source_weight": 0.9,
-      "age_hours": 10.73,
+      "age_hours": 11.69,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.08,
+      "impact": 0.019,
+      "raw_impact": 0.076,
       "source_weight": 1.0,
-      "age_hours": 15.82,
+      "age_hours": 16.78,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.07,
+      "impact": 0.014,
+      "raw_impact": 0.067,
       "source_weight": 0.85,
-      "age_hours": 18.08,
+      "age_hours": 19.04,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -595,6 +595,40 @@
       ]
     },
     {
+      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.013,
+      "raw_impact": 0.051,
+      "source_weight": 1.0,
+      "age_hours": 23.62,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
       "published": "Fri, 24 Apr 2026 18:26:49 +0000",
       "actors": [
@@ -603,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.062,
+      "impact": 0.013,
+      "raw_impact": 0.059,
       "source_weight": 0.9,
-      "age_hours": 20.29,
+      "age_hours": 21.25,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -637,10 +671,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.063,
+      "impact": 0.013,
+      "raw_impact": 0.059,
       "source_weight": 0.9,
-      "age_hours": 20.06,
+      "age_hours": 21.01,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -663,40 +697,6 @@
       ]
     },
     {
-      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.054,
-      "source_weight": 1.0,
-      "age_hours": 22.66,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
       "published": "Thu, 23 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -705,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.011,
-      "raw_impact": -0.011,
+      "impact": -0.01,
+      "raw_impact": -0.01,
       "source_weight": 1.1,
-      "age_hours": 50.74,
+      "age_hours": 51.69,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -739,10 +739,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.044,
+      "impact": 0.009,
+      "raw_impact": 0.041,
       "source_weight": 0.9,
-      "age_hours": 26.36,
+      "age_hours": 27.32,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -774,9 +774,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.009,
-      "raw_impact": 0.043,
+      "raw_impact": 0.04,
       "source_weight": 0.85,
-      "age_hours": 26.75,
+      "age_hours": 27.7,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,7 +810,7 @@
       "impact": -0.007,
       "raw_impact": -0.011,
       "source_weight": 0.75,
-      "age_hours": 49.96,
+      "age_hours": 50.92,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +844,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 74.74,
+      "age_hours": 75.69,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -878,7 +878,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 74.74,
+      "age_hours": 75.69,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -909,10 +909,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.003,
-      "raw_impact": 0.013,
+      "impact": 0.002,
+      "raw_impact": 0.012,
       "source_weight": 0.75,
-      "age_hours": 47.73,
+      "age_hours": 48.68,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -944,9 +944,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.002,
-      "raw_impact": 0.011,
+      "raw_impact": 0.01,
       "source_weight": 0.75,
-      "age_hours": 50.13,
+      "age_hours": 51.09,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 120.42,
+      "age_hours": 121.38,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 89.52,
+      "age_hours": 90.48,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1048,7 +1048,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1263.99,
+      "age_hours": 1264.94,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1212,11 +1212,11 @@
     "paired_count": 31,
     "valid_pair_updates": 6,
     "top_driver_count": 31,
-    "total_signal": 3.7613,
+    "total_signal": 3.8691,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 118,
-      "no_signal": 49,
+      "no_actor": 119,
+      "no_signal": 48,
       "invalid_pair": 33,
       "low_confidence": 0,
       "classifier_error": 0,
