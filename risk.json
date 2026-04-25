@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-25 15:41:36 UTC",
-  "probability": 19.16,
-  "uncertainty": 6.34,
+  "last_updated": "2026-04-25 16:46:17 UTC",
+  "probability": 17.19,
+  "uncertainty": 6.46,
   "state": {
-    "us_russia": 3.555405007545443,
-    "us_china": 4.500800171780662,
-    "china_taiwan": 4.300215263447437,
-    "india_pakistan": 4.500026731727959,
+    "us_russia": 3.554925654851562,
+    "us_china": 3.7973000912584767,
+    "china_taiwan": 4.159489358706451,
+    "india_pakistan": 4.500014201230479,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.597631460523601,
-    "iran_israel": 5.13376975974537,
-    "nk_us": 3.000000000000001,
+    "iran_us": 5.548393506569149,
+    "iran_israel": 5.073742274425257,
+    "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.113066897149548
+    "russia_ukraine": 7.122566789110698
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.789,
-      "raw_impact": 0.876,
+      "impact": 0.741,
+      "raw_impact": 0.824,
       "source_weight": 0.9,
-      "age_hours": 0.46,
+      "age_hours": 1.54,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.748,
-      "raw_impact": 0.748,
+      "impact": 0.703,
+      "raw_impact": 0.703,
       "source_weight": 1.0,
-      "age_hours": 3.2,
+      "age_hours": 4.28,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,40 +85,6 @@
       ]
     },
     {
-      "title": "US sanctions China\u2019s \u2018teapot\u2019 refinery for buying Iranian oil",
-      "published": "Sat, 25 Apr 2026 07:10:19 +0000",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "strategic",
-      "impact": 0.528,
-      "raw_impact": 0.734,
-      "source_weight": 0.9,
-      "age_hours": 8.52,
-      "confidence": 0.96,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/25/us-sanctions-chinas-teapot-refinery-for-buying-iranian-oil?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/25/us-sanctions-chinas-teapot-refinery-for-buying-iranian-oil?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Iran seeks to resume flights from bomb-damaged airports",
       "published": "Sat, 25 Apr 2026 04:00:40 GMT",
       "actors": [
@@ -127,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.412,
-      "raw_impact": 0.458,
+      "impact": 0.388,
+      "raw_impact": 0.431,
       "source_weight": 0.9,
-      "age_hours": 11.68,
+      "age_hours": 12.76,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.358,
-      "raw_impact": 0.398,
+      "impact": 0.337,
+      "raw_impact": 0.374,
       "source_weight": 0.9,
-      "age_hours": 14.12,
+      "age_hours": 15.2,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -195,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.148,
-      "raw_impact": -0.182,
+      "impact": -0.139,
+      "raw_impact": -0.171,
       "source_weight": 0.9,
-      "age_hours": 1.65,
+      "age_hours": 2.73,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.134,
-      "raw_impact": -0.165,
+      "impact": -0.126,
+      "raw_impact": -0.155,
       "source_weight": 0.9,
-      "age_hours": 3.3,
+      "age_hours": 4.38,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.114,
-      "raw_impact": -0.141,
+      "impact": -0.107,
+      "raw_impact": -0.132,
       "source_weight": 0.9,
-      "age_hours": 6.09,
+      "age_hours": 7.17,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -289,7 +255,7 @@
       ]
     },
     {
-      "title": "Iran's foreign minister awaits U.S. delegation to Pakistan for peace talks",
+      "title": "Iran's foreign minister leaves Pakistan, then Trump cancels U.S. delegation's travel",
       "published": "Sat, 25 Apr 2026 02:35:21 -0400",
       "actors": [
         "iran",
@@ -297,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.09,
-      "raw_impact": -0.118,
+      "impact": -0.085,
+      "raw_impact": -0.111,
       "source_weight": 0.85,
-      "age_hours": 9.1,
+      "age_hours": 10.18,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -323,52 +289,18 @@
       ]
     },
     {
-      "title": "MIDDLE EAST LIVE 24 April: Israel-Lebanon ceasefire extended as humanitarian concerns persist",
-      "published": "Fri, 24 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.04,
-      "raw_impact": -0.04,
-      "source_weight": 1.1,
-      "age_hours": 27.69,
-      "confidence": 0.78,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167375",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167375"
-      ]
-    },
-    {
-      "title": "Iran says no direct talks planned as Witkoff, Kushner expected in Pakistan",
-      "published": "Sat, 25 Apr 2026 13:04:04 +0000",
+      "title": "Direct talks with U.S. in doubt as Iranian delegation leaves Pakistan",
+      "published": "Sat, 25 Apr 2026 16:06:43 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.172,
+      "impact": 0.043,
+      "raw_impact": 0.193,
       "source_weight": 0.9,
-      "age_hours": 2.63,
+      "age_hours": 0.66,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -391,6 +323,40 @@
       ]
     },
     {
+      "title": "MIDDLE EAST LIVE 24 April: Israel-Lebanon ceasefire extended as humanitarian concerns persist",
+      "published": "Fri, 24 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.038,
+      "raw_impact": -0.038,
+      "source_weight": 1.1,
+      "age_hours": 28.77,
+      "confidence": 0.78,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167375",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167375"
+      ]
+    },
+    {
       "title": "Europe Prepares for a Longer War in Ukraine, With No Strategy to End It",
       "published": "Sat, 25 Apr 2026 11:46:15 +0000",
       "actors": [
@@ -399,10 +365,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.159,
+      "impact": 0.034,
+      "raw_impact": 0.15,
       "source_weight": 0.9,
-      "age_hours": 3.92,
+      "age_hours": 5.0,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -425,40 +391,6 @@
       ]
     },
     {
-      "title": "Spain PM brushes of reported Pentagon email on punishing NATO members",
-      "published": "Sat, 25 Apr 2026 09:21:13 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.139,
-      "source_weight": 0.9,
-      "age_hours": 6.34,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260425-spain-pm-brushes-of-reported-pentagon-email-on-punishing-nato-members",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260425-spain-pm-brushes-of-reported-pentagon-email-on-punishing-nato-members"
-      ]
-    },
-    {
       "title": "Top Iranian and Pakistani officials meet in Islamabad",
       "published": "Sat, 25 Apr 2026 08:57:17 +0000",
       "actors": [
@@ -467,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.136,
+      "impact": 0.029,
+      "raw_impact": 0.127,
       "source_weight": 0.9,
-      "age_hours": 6.74,
+      "age_hours": 7.82,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -493,6 +425,40 @@
       ]
     },
     {
+      "title": "Spain PM brushes of reported Pentagon email on punishing NATO members",
+      "published": "Sat, 25 Apr 2026 09:21:13 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.029,
+      "raw_impact": 0.13,
+      "source_weight": 0.9,
+      "age_hours": 7.42,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260425-spain-pm-brushes-of-reported-pentagon-email-on-punishing-nato-members",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260425-spain-pm-brushes-of-reported-pentagon-email-on-punishing-nato-members"
+      ]
+    },
+    {
       "title": "America\u2019s bid for energy supremacy is being forged in war",
       "published": "Sat, 25 Apr 2026 04:00:30 GMT",
       "actors": [
@@ -501,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.102,
+      "impact": 0.021,
+      "raw_impact": 0.096,
       "source_weight": 0.9,
-      "age_hours": 11.69,
+      "age_hours": 12.76,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.076,
+      "impact": 0.018,
+      "raw_impact": 0.071,
       "source_weight": 1.0,
-      "age_hours": 16.78,
+      "age_hours": 17.85,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.067,
+      "impact": 0.013,
+      "raw_impact": 0.063,
       "source_weight": 0.85,
-      "age_hours": 19.04,
+      "age_hours": 20.12,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -595,40 +561,6 @@
       ]
     },
     {
-      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.051,
-      "source_weight": 1.0,
-      "age_hours": 23.62,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
       "published": "Fri, 24 Apr 2026 18:26:49 +0000",
       "actors": [
@@ -638,9 +570,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.013,
-      "raw_impact": 0.059,
+      "raw_impact": 0.055,
       "source_weight": 0.9,
-      "age_hours": 21.25,
+      "age_hours": 22.32,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -672,9 +604,9 @@
       "state_key": "iran_israel",
       "class": "rhetoric",
       "impact": 0.013,
-      "raw_impact": 0.059,
+      "raw_impact": 0.056,
       "source_weight": 0.9,
-      "age_hours": 21.01,
+      "age_hours": 22.09,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -697,37 +629,37 @@
       ]
     },
     {
-      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
-      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.01,
-      "raw_impact": -0.01,
-      "source_weight": 1.1,
-      "age_hours": 51.69,
-      "confidence": 0.77,
-      "signal_total": -0.2,
+      "class": "rhetoric",
+      "impact": 0.012,
+      "raw_impact": 0.048,
+      "source_weight": 1.0,
+      "age_hours": 24.7,
+      "confidence": 0.68,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
+      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
       "corroboration_count": 1,
       "cluster_sources": [
-        "news.un.org"
+        "feeds.bbci.co.uk"
       ],
       "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -740,9 +672,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.009,
-      "raw_impact": 0.041,
+      "raw_impact": 0.039,
       "source_weight": 0.9,
-      "age_hours": 27.32,
+      "age_hours": 28.39,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -765,6 +697,40 @@
       ]
     },
     {
+      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
+      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.009,
+      "raw_impact": -0.009,
+      "source_weight": 1.1,
+      "age_hours": 52.77,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+      ]
+    },
+    {
       "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
       "published": "Fri, 24 Apr 2026 07:59:28 -0400",
       "actors": [
@@ -773,10 +739,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.04,
+      "impact": 0.008,
+      "raw_impact": 0.038,
       "source_weight": 0.85,
-      "age_hours": 27.7,
+      "age_hours": 28.78,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -807,10 +773,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.007,
-      "raw_impact": -0.011,
+      "impact": -0.006,
+      "raw_impact": -0.01,
       "source_weight": 0.75,
-      "age_hours": 50.92,
+      "age_hours": 52.0,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -842,9 +808,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.003,
-      "raw_impact": -0.003,
+      "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 75.69,
+      "age_hours": 76.77,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -876,9 +842,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.003,
-      "raw_impact": -0.003,
+      "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 75.69,
+      "age_hours": 76.77,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -910,9 +876,9 @@
       "state_key": "russia_ukraine",
       "class": "rhetoric",
       "impact": 0.002,
-      "raw_impact": 0.012,
+      "raw_impact": 0.011,
       "source_weight": 0.75,
-      "age_hours": 48.68,
+      "age_hours": 49.76,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +912,7 @@
       "impact": 0.002,
       "raw_impact": 0.01,
       "source_weight": 0.75,
-      "age_hours": 51.09,
+      "age_hours": 52.17,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +946,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 121.38,
+      "age_hours": 122.45,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 90.48,
+      "age_hours": 91.56,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1048,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1264.94,
+      "age_hours": 1266.02,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1207,16 +1173,16 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 231,
-    "classified_count": 31,
-    "paired_count": 31,
-    "valid_pair_updates": 6,
-    "top_driver_count": 31,
-    "total_signal": 3.8691,
+    "event_count": 230,
+    "classified_count": 30,
+    "paired_count": 30,
+    "valid_pair_updates": 4,
+    "top_driver_count": 30,
+    "total_signal": 2.9247,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 119,
-      "no_signal": 48,
+      "no_actor": 118,
+      "no_signal": 49,
       "invalid_pair": 33,
       "low_confidence": 0,
       "classifier_error": 0,
