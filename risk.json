@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-26 18:59:08 UTC",
-  "probability": 18.83,
+  "last_updated": "2026-04-26 19:51:29 UTC",
+  "probability": 19.13,
   "uncertainty": 6.38,
   "state": {
-    "us_russia": 3.482301057309019,
-    "us_china": 4.494256610310707,
-    "china_taiwan": 4.29885132215621,
-    "india_pakistan": 4.500000000045531,
+    "us_russia": 3.6105015642222424,
+    "us_china": 4.505983582367513,
+    "china_taiwan": 4.301196716523477,
+    "india_pakistan": 4.500000000024188,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.609607102940286,
-    "iran_israel": 5.129545726670455,
+    "iran_us": 5.620728773437027,
+    "iran_israel": 5.075881395302547,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.996747810245993
+    "russia_ukraine": 6.882588665983106
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.784,
-      "raw_impact": 0.871,
+      "impact": 0.746,
+      "raw_impact": 0.828,
       "source_weight": 0.9,
-      "age_hours": 0.56,
+      "age_hours": 1.43,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.634,
-      "raw_impact": 0.705,
+      "impact": 0.603,
+      "raw_impact": 0.67,
       "source_weight": 0.9,
-      "age_hours": 4.23,
+      "age_hours": 5.1,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.486,
-      "raw_impact": 0.674,
+      "impact": 0.462,
+      "raw_impact": 0.641,
       "source_weight": 0.9,
-      "age_hours": 9.98,
+      "age_hours": 10.86,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.24,
-      "raw_impact": 0.267,
+      "impact": 0.228,
+      "raw_impact": 0.253,
       "source_weight": 0.9,
-      "age_hours": 21.06,
+      "age_hours": 21.94,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.155,
-      "raw_impact": 0.155,
+      "impact": 0.147,
+      "raw_impact": 0.147,
       "source_weight": 1.0,
-      "age_hours": 30.49,
+      "age_hours": 31.36,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -195,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.155,
-      "raw_impact": -0.191,
+      "impact": -0.147,
+      "raw_impact": -0.182,
       "source_weight": 0.9,
-      "age_hours": 0.8,
+      "age_hours": 1.67,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.112,
-      "raw_impact": -0.137,
+      "impact": -0.106,
+      "raw_impact": -0.131,
       "source_weight": 0.9,
-      "age_hours": 6.49,
+      "age_hours": 7.36,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.1,
-      "raw_impact": -0.131,
+      "impact": -0.095,
+      "raw_impact": -0.125,
       "source_weight": 0.85,
-      "age_hours": 7.32,
+      "age_hours": 8.19,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.074,
-      "raw_impact": 0.082,
+      "impact": 0.07,
+      "raw_impact": 0.078,
       "source_weight": 0.9,
-      "age_hours": 41.41,
+      "age_hours": 42.28,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -323,6 +323,40 @@
       ]
     },
     {
+      "title": "Iran\u2019s top diplomat leaves Pakistan for Russia, Trump says Tehran can talk by phone",
+      "published": "Sun, 26 Apr 2026 19:32:54 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.196,
+      "source_weight": 0.9,
+      "age_hours": 0.31,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260426-iran-top-diplomat-pakistan-russia-oman-trump-says-tehran-talk-phone",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260426-iran-top-diplomat-pakistan-russia-oman-trump-says-tehran-talk-phone"
+      ]
+    },
+    {
       "title": "Iran and U.S. Sink Into Awkward Limbo of \u2018No War, No Peace\u2019",
       "published": "Sun, 26 Apr 2026 17:41:06 +0000",
       "actors": [
@@ -331,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.186,
+      "impact": 0.04,
+      "raw_impact": 0.176,
       "source_weight": 0.9,
-      "age_hours": 1.3,
+      "age_hours": 2.17,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.15,
+      "impact": 0.032,
+      "raw_impact": 0.143,
       "source_weight": 0.9,
-      "age_hours": 4.96,
+      "age_hours": 5.83,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +433,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.135,
+      "impact": 0.027,
+      "raw_impact": 0.128,
       "source_weight": 0.85,
-      "age_hours": 6.84,
+      "age_hours": 7.71,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.12,
+      "impact": 0.025,
+      "raw_impact": 0.114,
       "source_weight": 0.9,
-      "age_hours": 8.89,
+      "age_hours": 9.76,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.119,
+      "impact": 0.025,
+      "raw_impact": 0.113,
       "source_weight": 0.9,
-      "age_hours": 8.98,
+      "age_hours": 9.86,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -493,40 +527,6 @@
       ]
     },
     {
-      "title": "US-Iran talks in doubt after Trump scraps Pakistan visit",
-      "published": "Sun, 26 Apr 2026 09:16:35 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.114,
-      "source_weight": 0.9,
-      "age_hours": 9.71,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/us-iran-talks-in-doubt-after-trump-scraps-pakistan-visit",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/us-iran-talks-in-doubt-after-trump-scraps-pakistan-visit"
-      ]
-    },
-    {
       "title": "40 years after Chernobyl, war brings new rounds of disaster and displacement",
       "published": "Sun, 26 Apr 2026 09:00:20 +0000",
       "actors": [
@@ -535,10 +535,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.112,
+      "impact": 0.024,
+      "raw_impact": 0.107,
       "source_weight": 0.9,
-      "age_hours": 9.98,
+      "age_hours": 10.85,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.019,
-      "raw_impact": -0.024,
+      "impact": -0.018,
+      "raw_impact": -0.023,
       "source_weight": 0.85,
-      "age_hours": 36.4,
+      "age_hours": 37.27,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -603,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.058,
+      "impact": 0.014,
+      "raw_impact": 0.055,
       "source_weight": 1.0,
-      "age_hours": 21.42,
+      "age_hours": 22.29,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,7 +640,7 @@
       "impact": -0.008,
       "raw_impact": -0.008,
       "source_weight": 1.1,
-      "age_hours": 54.99,
+      "age_hours": 55.86,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -672,9 +672,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.011,
+      "raw_impact": 0.01,
       "source_weight": 1.0,
-      "age_hours": 50.91,
+      "age_hours": 51.78,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -706,9 +706,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.014,
+      "raw_impact": 0.013,
       "source_weight": 0.85,
-      "age_hours": 46.33,
+      "age_hours": 47.21,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -740,9 +740,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.002,
-      "raw_impact": 0.009,
+      "raw_impact": 0.008,
       "source_weight": 0.9,
-      "age_hours": 54.61,
+      "age_hours": 55.48,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,7 +776,7 @@
       "impact": 0.002,
       "raw_impact": 0.008,
       "source_weight": 0.85,
-      "age_hours": 54.99,
+      "age_hours": 55.87,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,7 +810,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 78.99,
+      "age_hours": 79.86,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +844,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 0.75,
-      "age_hours": 78.21,
+      "age_hours": 79.09,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -878,7 +878,7 @@
       "impact": 0.001,
       "raw_impact": 0.002,
       "source_weight": 0.75,
-      "age_hours": 75.98,
+      "age_hours": 76.85,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -912,7 +912,7 @@
       "impact": 0.001,
       "raw_impact": 0.002,
       "source_weight": 0.75,
-      "age_hours": 78.38,
+      "age_hours": 79.25,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +946,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 148.67,
+      "age_hours": 149.54,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 117.77,
+      "age_hours": 118.64,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1292.24,
+      "age_hours": 1293.11,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1178,12 +1178,12 @@
     "paired_count": 30,
     "valid_pair_updates": 6,
     "top_driver_count": 30,
-    "total_signal": 3.4979,
+    "total_signal": 3.3855,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 114,
-      "no_signal": 47,
-      "invalid_pair": 36,
+      "no_actor": 111,
+      "no_signal": 49,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
