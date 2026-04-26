@@ -1,21 +1,89 @@
 {
-  "last_updated": "2026-04-26 13:46:51 UTC",
-  "probability": 15.01,
-  "uncertainty": 6.37,
+  "last_updated": "2026-04-26 14:47:38 UTC",
+  "probability": 17.24,
+  "uncertainty": 6.22,
   "state": {
-    "us_russia": 3.6456693885581872,
-    "us_china": 3.000060409599945,
-    "china_taiwan": 4.000012084143048,
-    "india_pakistan": 4.500000001075994,
+    "us_russia": 3.626975147879243,
+    "us_china": 3.8082917764303703,
+    "china_taiwan": 4.161658356467075,
+    "india_pakistan": 4.500000000571622,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.072628850882054,
-    "iran_israel": 4.850327463305203,
+    "iran_us": 5.335459077031091,
+    "iran_israel": 5.046194759501206,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.112304717249088
+    "russia_ukraine": 7.122161881038577
   },
   "top_drivers": [
+    {
+      "title": "The week in pictures: Trump evacuated at media dinner, Leo XIV in Africa and robots race in Beijing",
+      "published": "Sun, 26 Apr 2026 14:45:24 GMT",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "action",
+      "impact": 0.808,
+      "raw_impact": 0.898,
+      "source_weight": 0.9,
+      "age_hours": 0.04,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/americas/20260426-the-week-in-pictures-trump-evacuated-at-media-dinner-leo-xiv-in-africa-and-robots-race-in-beijing",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/americas/20260426-the-week-in-pictures-trump-evacuated-at-media-dinner-leo-xiv-in-africa-and-robots-race-in-beijing"
+      ]
+    },
+    {
+      "title": "Israel and Hezbollah Trade Strikes in Lebanon, as Iran Talks Remain on Hold",
+      "published": "Sun, 26 Apr 2026 14:34:20 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.8,
+      "raw_impact": 0.889,
+      "source_weight": 0.9,
+      "age_hours": 0.22,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/iranian-negotiators-set-to-return-to-pakistan-to-try-to-revive-truce-talks.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/26/world/middleeast/iranian-negotiators-set-to-return-to-pakistan-to-try-to-revive-truce-talks.html"
+      ]
+    },
     {
       "title": "Ukraine marks 40th anniversary of the Chernobyl\u00a0nuclear plant disaster",
       "published": "Sun, 26 Apr 2026 09:10:08 GMT",
@@ -25,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.662,
-      "raw_impact": 0.919,
+      "impact": 0.624,
+      "raw_impact": 0.867,
       "source_weight": 0.9,
-      "age_hours": 4.61,
+      "age_hours": 5.63,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.655,
-      "raw_impact": 0.91,
+      "impact": 0.618,
+      "raw_impact": 0.859,
       "source_weight": 0.9,
-      "age_hours": 4.78,
+      "age_hours": 5.79,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.324,
-      "raw_impact": 0.36,
+      "impact": 0.306,
+      "raw_impact": 0.34,
       "source_weight": 0.9,
-      "age_hours": 15.86,
+      "age_hours": 16.87,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +195,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.209,
-      "raw_impact": 0.209,
+      "impact": 0.197,
+      "raw_impact": 0.197,
       "source_weight": 1.0,
-      "age_hours": 25.29,
+      "age_hours": 26.3,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.15,
-      "raw_impact": -0.186,
+      "impact": -0.142,
+      "raw_impact": -0.175,
       "source_weight": 0.9,
-      "age_hours": 1.29,
+      "age_hours": 2.3,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.135,
-      "raw_impact": -0.177,
+      "impact": -0.128,
+      "raw_impact": -0.167,
       "source_weight": 0.85,
-      "age_hours": 2.11,
+      "age_hours": 3.12,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.1,
-      "raw_impact": 0.111,
+      "impact": 0.094,
+      "raw_impact": 0.105,
       "source_weight": 0.9,
-      "age_hours": 36.21,
+      "age_hours": 37.22,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -255,6 +323,74 @@
       ]
     },
     {
+      "title": "Iran and U.S. Sink Into Awkward Limbo of \u2018No War, No Peace\u2019",
+      "published": "Sun, 26 Apr 2026 14:21:35 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.195,
+      "source_weight": 0.9,
+      "age_hours": 0.43,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/iran-united-states-israel-war-truce.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/26/world/middleeast/iran-united-states-israel-war-truce.html"
+      ]
+    },
+    {
+      "title": "US-Iran conflict: What\u2019s the latest as the Islamabad talks stall?",
+      "published": "Sun, 26 Apr 2026 14:01:47 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.76,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/26/us-iran-conflict-whats-the-latest-as-the-islamabad-talks-stall?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/26/us-iran-conflict-whats-the-latest-as-the-islamabad-talks-stall?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Islamabad Reopens After U.S.-Iran Talks Fail to Materialize",
       "published": "Sun, 26 Apr 2026 10:05:44 +0000",
       "actors": [
@@ -263,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.162,
+      "impact": 0.034,
+      "raw_impact": 0.152,
       "source_weight": 0.9,
-      "age_hours": 3.69,
+      "age_hours": 4.7,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -297,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.161,
+      "impact": 0.034,
+      "raw_impact": 0.152,
       "source_weight": 0.9,
-      "age_hours": 3.78,
+      "age_hours": 4.79,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -331,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.154,
+      "impact": 0.033,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 4.5,
+      "age_hours": 5.52,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +501,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.152,
+      "impact": 0.032,
+      "raw_impact": 0.143,
       "source_weight": 0.9,
-      "age_hours": 4.78,
+      "age_hours": 5.79,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -391,40 +527,6 @@
       ]
     },
     {
-      "title": "Iran war: What\u2019s happening on day 58 as Tehran-Washington talks stall?",
-      "published": "Sun, 26 Apr 2026 06:29:14 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.131,
-      "source_weight": 0.9,
-      "age_hours": 7.29,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/26/iran-war-whats-happening-on-day-58-as-tehran-washington-talks-stall?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/26/iran-war-whats-happening-on-day-58-as-tehran-washington-talks-stall?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Iran's foreign minister leaves Pakistan, then Trump cancels U.S. delegation's travel",
       "published": "Sat, 25 Apr 2026 02:35:21 -0400",
       "actors": [
@@ -433,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.025,
-      "raw_impact": -0.033,
+      "impact": -0.023,
+      "raw_impact": -0.031,
       "source_weight": 0.85,
-      "age_hours": 31.19,
+      "age_hours": 32.2,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -467,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.078,
+      "impact": 0.018,
+      "raw_impact": 0.074,
       "source_weight": 1.0,
-      "age_hours": 16.21,
+      "age_hours": 17.22,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -504,7 +606,7 @@
       "impact": -0.011,
       "raw_impact": -0.011,
       "source_weight": 1.1,
-      "age_hours": 49.78,
+      "age_hours": 50.79,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -527,40 +629,6 @@
       ]
     },
     {
-      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.004,
-      "raw_impact": 0.014,
-      "source_weight": 1.0,
-      "age_hours": 45.71,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Vessels seized by the U.S. this week were part of a global 'shadow fleet'",
       "published": "Fri, 24 Apr 2026 16:39:08 -0400",
       "actors": [
@@ -570,9 +638,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.019,
+      "raw_impact": 0.018,
       "source_weight": 0.85,
-      "age_hours": 41.13,
+      "age_hours": 42.14,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -604,9 +672,9 @@
       "state_key": "iran_israel",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.017,
+      "raw_impact": 0.016,
       "source_weight": 0.9,
-      "age_hours": 43.1,
+      "age_hours": 44.11,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -629,6 +697,40 @@
       ]
     },
     {
+      "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+      "published": "Fri, 24 Apr 2026 16:04:29 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.003,
+      "raw_impact": 0.013,
+      "source_weight": 1.0,
+      "age_hours": 46.72,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
       "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
@@ -638,9 +740,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.012,
+      "raw_impact": 0.011,
       "source_weight": 0.9,
-      "age_hours": 49.4,
+      "age_hours": 50.42,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -663,40 +765,6 @@
       ]
     },
     {
-      "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
-      "published": "Fri, 24 Apr 2026 07:59:28 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.003,
-      "raw_impact": 0.011,
-      "source_weight": 0.85,
-      "age_hours": 49.79,
-      "confidence": 0.675,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates"
-      ]
-    },
-    {
       "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
       "published": "Thu, 23 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -708,7 +776,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 73.78,
+      "age_hours": 74.79,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -731,6 +799,40 @@
       ]
     },
     {
+      "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
+      "published": "Fri, 24 Apr 2026 07:59:28 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.002,
+      "raw_impact": 0.011,
+      "source_weight": 0.85,
+      "age_hours": 50.8,
+      "confidence": 0.675,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates"
+      ]
+    },
+    {
       "title": "Caspar Hobhouse quoted in Euronews",
       "published": "Thu, 23 Apr 2026 12:46:21 +0000",
       "actors": [
@@ -742,7 +844,7 @@
       "impact": -0.002,
       "raw_impact": -0.003,
       "source_weight": 0.75,
-      "age_hours": 73.01,
+      "age_hours": 74.02,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -776,7 +878,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 97.78,
+      "age_hours": 98.79,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -810,7 +912,7 @@
       "impact": 0.001,
       "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 70.77,
+      "age_hours": 71.78,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -844,7 +946,7 @@
       "impact": 0.001,
       "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 73.18,
+      "age_hours": 74.19,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -878,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 143.46,
+      "age_hours": 144.48,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -912,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 112.57,
+      "age_hours": 113.58,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +1048,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1287.03,
+      "age_hours": 1288.04,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1106,16 +1208,16 @@
   ],
   "debug": {
     "event_count": 229,
-    "classified_count": 28,
-    "paired_count": 28,
-    "valid_pair_updates": 4,
-    "top_driver_count": 28,
-    "total_signal": 3.0943,
+    "classified_count": 31,
+    "paired_count": 31,
+    "valid_pair_updates": 6,
+    "top_driver_count": 31,
+    "total_signal": 5.1317,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 109,
-      "no_signal": 53,
-      "invalid_pair": 39,
+      "no_actor": 112,
+      "no_signal": 50,
+      "invalid_pair": 36,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
