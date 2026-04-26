@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-25 23:40:57 UTC",
-  "probability": 14.98,
-  "uncertainty": 6.41,
+  "last_updated": "2026-04-26 02:56:57 UTC",
+  "probability": 14.8,
+  "uncertainty": 6.45,
   "state": {
-    "us_russia": 3.4565045158531524,
-    "us_china": 3.0095216982715587,
-    "china_taiwan": 4.001904690050556,
-    "india_pakistan": 4.50000016959716,
+    "us_russia": 3.4285460388354125,
+    "us_china": 3.0050584022067652,
+    "china_taiwan": 4.001011866589358,
+    "india_pakistan": 4.500000090098491,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.493866707553355,
-    "iran_israel": 5.081272101345522,
+    "iran_us": 5.49968154600806,
+    "iran_israel": 5.02480088375458,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.133204754663096
+    "russia_ukraine": 7.015105167095892
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.732,
-      "raw_impact": 0.813,
+      "impact": 0.606,
+      "raw_impact": 0.673,
       "source_weight": 0.9,
-      "age_hours": 1.76,
+      "age_hours": 5.03,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.497,
-      "raw_impact": 0.552,
+      "impact": 0.412,
+      "raw_impact": 0.457,
       "source_weight": 0.9,
-      "age_hours": 8.45,
+      "age_hours": 11.71,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.472,
-      "raw_impact": 0.472,
+      "impact": 0.39,
+      "raw_impact": 0.39,
       "source_weight": 1.0,
-      "age_hours": 11.19,
+      "age_hours": 14.46,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.26,
-      "raw_impact": 0.289,
+      "impact": 0.215,
+      "raw_impact": 0.239,
       "source_weight": 0.9,
-      "age_hours": 19.67,
+      "age_hours": 22.94,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.226,
-      "raw_impact": 0.251,
+      "impact": 0.187,
+      "raw_impact": 0.208,
       "source_weight": 0.9,
-      "age_hours": 22.11,
+      "age_hours": 25.38,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -187,6 +187,40 @@
       ]
     },
     {
+      "title": "Hundreds of Israelis rally as US-Iran peace talks stall",
+      "published": "Sun, 26 Apr 2026 02:00:32 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.153,
+      "raw_impact": -0.189,
+      "source_weight": 0.9,
+      "age_hours": 0.94,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/26/hundreds-of-israelis-rally-as-us-iran-peace-talks-stall?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/26/hundreds-of-israelis-rally-as-us-iran-peace-talks-stall?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Trump cancels trip by US negotiators for Iran peace talks",
       "published": "Sat, 25 Apr 2026 21:10:13 GMT",
       "actors": [
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.173,
+      "impact": -0.116,
+      "raw_impact": -0.143,
       "source_weight": 0.9,
-      "age_hours": 2.51,
+      "age_hours": 5.78,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.161,
+      "impact": -0.108,
+      "raw_impact": -0.134,
       "source_weight": 0.9,
-      "age_hours": 3.73,
+      "age_hours": 7.0,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.093,
-      "raw_impact": -0.115,
+      "impact": -0.077,
+      "raw_impact": -0.095,
       "source_weight": 0.9,
-      "age_hours": 9.64,
+      "age_hours": 12.91,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -289,40 +323,6 @@
       ]
     },
     {
-      "title": "US envoys to travel to Islamabad despite Iran ruling out direct\u00a0negotiations\u00a0with\u00a0US",
-      "published": "Sat, 25 Apr 2026 09:35:58 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.072,
-      "raw_impact": -0.089,
-      "source_weight": 0.9,
-      "age_hours": 14.08,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/us-envoys-to-travel-to-islamabad-despite-iran-ruling-out-direct-negotiations-with-us",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/us-envoys-to-travel-to-islamabad-despite-iran-ruling-out-direct-negotiations-with-us"
-      ]
-    },
-    {
       "title": "Iran's foreign minister leaves Pakistan, then Trump cancels U.S. delegation's travel",
       "published": "Sat, 25 Apr 2026 02:35:21 -0400",
       "actors": [
@@ -331,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.057,
-      "raw_impact": -0.075,
+      "impact": -0.047,
+      "raw_impact": -0.062,
       "source_weight": 0.85,
-      "age_hours": 17.09,
+      "age_hours": 20.36,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -365,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.177,
+      "impact": 0.037,
+      "raw_impact": 0.147,
       "source_weight": 1.0,
-      "age_hours": 2.11,
+      "age_hours": 5.38,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.144,
+      "impact": 0.027,
+      "raw_impact": 0.119,
       "source_weight": 0.9,
-      "age_hours": 5.74,
+      "age_hours": 9.01,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.138,
+      "impact": 0.026,
+      "raw_impact": 0.114,
       "source_weight": 0.9,
-      "age_hours": 6.45,
+      "age_hours": 9.71,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.025,
-      "raw_impact": -0.025,
+      "impact": -0.021,
+      "raw_impact": -0.021,
       "source_weight": 1.1,
-      "age_hours": 35.68,
+      "age_hours": 38.95,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -501,10 +501,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.101,
+      "impact": 0.019,
+      "raw_impact": 0.083,
       "source_weight": 0.9,
-      "age_hours": 11.91,
+      "age_hours": 15.18,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.064,
+      "impact": 0.012,
+      "raw_impact": 0.053,
       "source_weight": 0.9,
-      "age_hours": 19.67,
+      "age_hours": 22.94,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -561,74 +561,6 @@
       ]
     },
     {
-      "title": "Vessels seized by the U.S. this week were part of a global 'shadow fleet'",
-      "published": "Fri, 24 Apr 2026 16:39:08 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.042,
-      "source_weight": 0.85,
-      "age_hours": 27.03,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/24/nx-s1-5795895/vessels-seized-by-the-u-s-this-week-were-part-of-a-global-shadow-fleet",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/24/nx-s1-5795895/vessels-seized-by-the-u-s-this-week-were-part-of-a-global-shadow-fleet"
-      ]
-    },
-    {
-      "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
-      "published": "Fri, 24 Apr 2026 18:40:51 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.037,
-      "source_weight": 0.9,
-      "age_hours": 29.0,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/"
-      ]
-    },
-    {
       "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
       "published": "Fri, 24 Apr 2026 16:04:29 GMT",
       "actors": [
@@ -637,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.032,
+      "impact": 0.007,
+      "raw_impact": 0.027,
       "source_weight": 1.0,
-      "age_hours": 31.61,
+      "age_hours": 34.87,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -663,6 +595,40 @@
       ]
     },
     {
+      "title": "Vessels seized by the U.S. this week were part of a global 'shadow fleet'",
+      "published": "Fri, 24 Apr 2026 16:39:08 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.007,
+      "raw_impact": 0.035,
+      "source_weight": 0.85,
+      "age_hours": 30.3,
+      "confidence": 0.665,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/24/nx-s1-5795895/vessels-seized-by-the-u-s-this-week-were-part-of-a-global-shadow-fleet",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/24/nx-s1-5795895/vessels-seized-by-the-u-s-this-week-were-part-of-a-global-shadow-fleet"
+      ]
+    },
+    {
       "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
       "published": "Fri, 24 Apr 2026 18:26:49 +0000",
       "actors": [
@@ -671,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.037,
+      "impact": 0.007,
+      "raw_impact": 0.031,
       "source_weight": 0.9,
-      "age_hours": 29.24,
+      "age_hours": 32.5,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -697,6 +663,40 @@
       ]
     },
     {
+      "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
+      "published": "Fri, 24 Apr 2026 18:40:51 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "rhetoric",
+      "impact": 0.007,
+      "raw_impact": 0.031,
+      "source_weight": 0.9,
+      "age_hours": 32.27,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/"
+      ]
+    },
+    {
       "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
       "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
@@ -705,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.026,
+      "impact": 0.005,
+      "raw_impact": 0.022,
       "source_weight": 0.9,
-      "age_hours": 35.3,
+      "age_hours": 38.57,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -739,10 +739,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.006,
-      "raw_impact": -0.006,
+      "impact": -0.005,
+      "raw_impact": -0.005,
       "source_weight": 1.1,
-      "age_hours": 59.68,
+      "age_hours": 62.95,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -773,10 +773,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.005,
-      "raw_impact": 0.025,
+      "impact": 0.004,
+      "raw_impact": 0.021,
       "source_weight": 0.85,
-      "age_hours": 35.69,
+      "age_hours": 38.96,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -807,10 +807,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.005,
-      "raw_impact": -0.007,
+      "impact": -0.004,
+      "raw_impact": -0.006,
       "source_weight": 0.75,
-      "age_hours": 58.91,
+      "age_hours": 62.18,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -841,10 +841,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.002,
-      "raw_impact": -0.002,
+      "impact": -0.001,
+      "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 83.68,
+      "age_hours": 86.95,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -875,10 +875,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.002,
-      "raw_impact": -0.002,
+      "impact": -0.001,
+      "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 83.68,
+      "age_hours": 86.95,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -909,10 +909,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.002,
-      "raw_impact": 0.008,
+      "impact": 0.001,
+      "raw_impact": 0.006,
       "source_weight": 0.75,
-      "age_hours": 56.67,
+      "age_hours": 59.94,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -944,9 +944,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.001,
-      "raw_impact": 0.007,
+      "raw_impact": 0.005,
       "source_weight": 0.75,
-      "age_hours": 59.08,
+      "age_hours": 62.34,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 129.37,
+      "age_hours": 132.63,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 98.47,
+      "age_hours": 101.73,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1048,7 +1048,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1272.93,
+      "age_hours": 1276.2,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1163,6 +1163,11 @@
       "domain": "feeds.washingtonpost.com"
     },
     {
+      "name": "www.aljazeera.com",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "domain": "www.aljazeera.com"
+    },
+    {
       "name": "www.defense.gov",
       "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
       "domain": "www.defense.gov"
@@ -1207,12 +1212,12 @@
     "paired_count": 31,
     "valid_pair_updates": 4,
     "top_driver_count": 31,
-    "total_signal": 2.7243,
+    "total_signal": 2.1306,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 117,
-      "no_signal": 42,
-      "invalid_pair": 36,
+      "no_actor": 112,
+      "no_signal": 48,
+      "invalid_pair": 35,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
