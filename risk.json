@@ -1,34 +1,34 @@
 {
-  "last_updated": "2026-04-26 17:41:20 UTC",
-  "probability": 18.94,
-  "uncertainty": 6.24,
+  "last_updated": "2026-04-26 18:59:08 UTC",
+  "probability": 18.83,
+  "uncertainty": 6.38,
   "state": {
-    "us_russia": 3.56564580197005,
-    "us_china": 4.402876581708407,
-    "china_taiwan": 4.280575316518752,
-    "india_pakistan": 4.500000000085705,
+    "us_russia": 3.482301057309019,
+    "us_china": 4.494256610310707,
+    "china_taiwan": 4.29885132215621,
+    "india_pakistan": 4.500000000045531,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.588672193769951,
-    "iran_israel": 5.1683892219690994,
+    "iran_us": 5.609607102940286,
+    "iran_israel": 5.129545726670455,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.13165836552559
+    "russia_ukraine": 6.996747810245993
   },
   "top_drivers": [
     {
       "title": "Israel and Hezbollah Trade Strikes in Lebanon, as Iran Talks Remain on Hold",
-      "published": "Sun, 26 Apr 2026 15:23:06 +0000",
+      "published": "Sun, 26 Apr 2026 18:25:30 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.709,
-      "raw_impact": 0.788,
+      "impact": 0.784,
+      "raw_impact": 0.871,
       "source_weight": 0.9,
-      "age_hours": 2.3,
+      "age_hours": 0.56,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.684,
-      "raw_impact": 0.76,
+      "impact": 0.634,
+      "raw_impact": 0.705,
       "source_weight": 0.9,
-      "age_hours": 2.93,
+      "age_hours": 4.23,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,40 +85,6 @@
       ]
     },
     {
-      "title": "Ukraine marks 40th anniversary of the Chernobyl\u00a0nuclear plant disaster",
-      "published": "Sun, 26 Apr 2026 09:10:08 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "strategic",
-      "impact": 0.528,
-      "raw_impact": 0.734,
-      "source_weight": 0.9,
-      "age_hours": 8.52,
-      "confidence": 0.95,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/ukraine-marks-40th-anniversary-of-the-chernobyl-nuclear-plant-disaster",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/ukraine-marks-40th-anniversary-of-the-chernobyl-nuclear-plant-disaster"
-      ]
-    },
-    {
       "title": "Mood in Russia turns bleak as war in Ukraine drags on and economy suffers",
       "published": "Sun, 26 Apr 2026 09:00:03 +0000",
       "actors": [
@@ -127,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.523,
-      "raw_impact": 0.726,
+      "impact": 0.486,
+      "raw_impact": 0.674,
       "source_weight": 0.9,
-      "age_hours": 8.69,
+      "age_hours": 9.98,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -161,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.259,
-      "raw_impact": 0.287,
+      "impact": 0.24,
+      "raw_impact": 0.267,
       "source_weight": 0.9,
-      "age_hours": 19.77,
+      "age_hours": 21.06,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -195,10 +161,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.167,
-      "raw_impact": 0.167,
+      "impact": 0.155,
+      "raw_impact": 0.155,
       "source_weight": 1.0,
-      "age_hours": 29.2,
+      "age_hours": 30.49,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -221,6 +187,40 @@
       ]
     },
     {
+      "title": "What to Know About U.S.-Iran Peace Talks",
+      "published": "Sun, 26 Apr 2026 18:11:12 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.155,
+      "raw_impact": -0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.8,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html"
+      ]
+    },
+    {
       "title": "Trump calls off Witkoff, Kushner trip to Pakistan for Iran peace talks",
       "published": "Sun, 26 Apr 2026 12:29:41 +0000",
       "actors": [
@@ -229,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.12,
-      "raw_impact": -0.148,
+      "impact": -0.112,
+      "raw_impact": -0.137,
       "source_weight": 0.9,
-      "age_hours": 5.19,
+      "age_hours": 6.49,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.108,
-      "raw_impact": -0.141,
+      "impact": -0.1,
+      "raw_impact": -0.131,
       "source_weight": 0.85,
-      "age_hours": 6.02,
+      "age_hours": 7.32,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.08,
-      "raw_impact": 0.089,
+      "impact": 0.074,
+      "raw_impact": 0.082,
       "source_weight": 0.9,
-      "age_hours": 40.12,
+      "age_hours": 41.41,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -324,17 +324,17 @@
     },
     {
       "title": "Iran and U.S. Sink Into Awkward Limbo of \u2018No War, No Peace\u2019",
-      "published": "Sun, 26 Apr 2026 15:19:22 +0000",
+      "published": "Sun, 26 Apr 2026 17:41:06 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
+      "impact": 0.042,
+      "raw_impact": 0.186,
       "source_weight": 0.9,
-      "age_hours": 2.37,
+      "age_hours": 1.3,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.162,
+      "impact": 0.034,
+      "raw_impact": 0.15,
       "source_weight": 0.9,
-      "age_hours": 3.66,
+      "age_hours": 4.96,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -391,6 +391,40 @@
       ]
     },
     {
+      "title": "How China is responding to the stalling of talks between the U.S. and Iran",
+      "published": "Sun, 26 Apr 2026 08:08:51 -0400",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.029,
+      "raw_impact": 0.135,
+      "source_weight": 0.85,
+      "age_hours": 6.84,
+      "confidence": 0.675,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/26/nx-s1-5797410/how-china-is-responding-to-the-stalling-of-talks-between-the-u-s-and-iran",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/26/nx-s1-5797410/how-china-is-responding-to-the-stalling-of-talks-between-the-u-s-and-iran"
+      ]
+    },
+    {
       "title": "Islamabad Reopens After U.S.-Iran Talks Fail to Materialize",
       "published": "Sun, 26 Apr 2026 10:05:44 +0000",
       "actors": [
@@ -399,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.129,
+      "impact": 0.027,
+      "raw_impact": 0.12,
       "source_weight": 0.9,
-      "age_hours": 7.59,
+      "age_hours": 8.89,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.128,
+      "impact": 0.027,
+      "raw_impact": 0.119,
       "source_weight": 0.9,
-      "age_hours": 7.69,
+      "age_hours": 8.98,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.123,
+      "impact": 0.026,
+      "raw_impact": 0.114,
       "source_weight": 0.9,
-      "age_hours": 8.41,
+      "age_hours": 9.71,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +535,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.121,
+      "impact": 0.025,
+      "raw_impact": 0.112,
       "source_weight": 0.9,
-      "age_hours": 8.68,
+      "age_hours": 9.98,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.02,
-      "raw_impact": -0.026,
+      "impact": -0.019,
+      "raw_impact": -0.024,
       "source_weight": 0.85,
-      "age_hours": 35.1,
+      "age_hours": 36.4,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -569,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.063,
+      "impact": 0.015,
+      "raw_impact": 0.058,
       "source_weight": 1.0,
-      "age_hours": 20.12,
+      "age_hours": 21.42,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -603,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.009,
-      "raw_impact": -0.009,
+      "impact": -0.008,
+      "raw_impact": -0.008,
       "source_weight": 1.1,
-      "age_hours": 53.69,
+      "age_hours": 54.99,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -640,7 +674,7 @@
       "impact": 0.003,
       "raw_impact": 0.011,
       "source_weight": 1.0,
-      "age_hours": 49.61,
+      "age_hours": 50.91,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -672,9 +706,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.015,
+      "raw_impact": 0.014,
       "source_weight": 0.85,
-      "age_hours": 45.04,
+      "age_hours": 46.33,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -697,40 +731,6 @@
       ]
     },
     {
-      "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
-      "published": "Fri, 24 Apr 2026 18:40:51 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "rhetoric",
-      "impact": 0.003,
-      "raw_impact": 0.013,
-      "source_weight": 0.9,
-      "age_hours": 47.01,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/24/netanyahu-prostate-cancer-treatment-iran-war/"
-      ]
-    },
-    {
       "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
       "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
@@ -742,7 +742,7 @@
       "impact": 0.002,
       "raw_impact": 0.009,
       "source_weight": 0.9,
-      "age_hours": 53.31,
+      "age_hours": 54.61,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -774,9 +774,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.002,
-      "raw_impact": 0.009,
+      "raw_impact": 0.008,
       "source_weight": 0.85,
-      "age_hours": 53.7,
+      "age_hours": 54.99,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -810,7 +810,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 77.69,
+      "age_hours": 78.99,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +844,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 0.75,
-      "age_hours": 76.92,
+      "age_hours": 78.21,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -876,9 +876,9 @@
       "state_key": "russia_ukraine",
       "class": "rhetoric",
       "impact": 0.001,
-      "raw_impact": 0.003,
+      "raw_impact": 0.002,
       "source_weight": 0.75,
-      "age_hours": 74.68,
+      "age_hours": 75.98,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -912,7 +912,7 @@
       "impact": 0.001,
       "raw_impact": 0.002,
       "source_weight": 0.75,
-      "age_hours": 77.08,
+      "age_hours": 78.38,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +946,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 147.37,
+      "age_hours": 148.67,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 116.47,
+      "age_hours": 117.77,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1290.94,
+      "age_hours": 1292.24,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1173,17 +1173,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 229,
+    "event_count": 227,
     "classified_count": 30,
     "paired_count": 30,
     "valid_pair_updates": 6,
     "top_driver_count": 30,
-    "total_signal": 4.3914,
+    "total_signal": 3.4979,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 113,
-      "no_signal": 48,
-      "invalid_pair": 38,
+      "no_actor": 114,
+      "no_signal": 47,
+      "invalid_pair": 36,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
