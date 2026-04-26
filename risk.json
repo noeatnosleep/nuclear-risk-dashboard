@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-26 11:12:23 UTC",
-  "probability": 14.99,
-  "uncertainty": 6.37,
+  "last_updated": "2026-04-26 12:04:55 UTC",
+  "probability": 15.03,
+  "uncertainty": 6.39,
   "state": {
-    "us_russia": 3.6457731468536014,
-    "us_china": 3.0002140464717777,
-    "china_taiwan": 4.000042817171215,
-    "india_pakistan": 4.500000003812521,
+    "us_russia": 3.659286361615041,
+    "us_china": 3.000113712188132,
+    "china_taiwan": 4.000022746622208,
+    "india_pakistan": 4.500000002025402,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.0967853175143585,
-    "iran_israel": 4.862307806658066,
+    "iran_us": 5.075291463247122,
+    "iran_israel": 4.854345693067645,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.0588236348202935
+    "russia_ukraine": 7.093750055998282
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.768,
-      "raw_impact": 1.067,
+      "impact": 0.73,
+      "raw_impact": 1.014,
       "source_weight": 0.9,
-      "age_hours": 2.04,
+      "age_hours": 2.91,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.761,
-      "raw_impact": 1.056,
+      "impact": 0.723,
+      "raw_impact": 1.004,
       "source_weight": 0.9,
-      "age_hours": 2.21,
+      "age_hours": 3.08,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.376,
-      "raw_impact": 0.418,
+      "impact": 0.357,
+      "raw_impact": 0.397,
       "source_weight": 0.9,
-      "age_hours": 13.28,
+      "age_hours": 14.16,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.242,
-      "raw_impact": 0.242,
+      "impact": 0.23,
+      "raw_impact": 0.23,
       "source_weight": 1.0,
-      "age_hours": 22.71,
+      "age_hours": 23.59,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -153,6 +153,40 @@
       ]
     },
     {
+      "title": "Trump doubts shooter motivated by Iran war as peace talks on hold",
+      "published": "Sun, 26 Apr 2026 07:40:10 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.149,
+      "raw_impact": -0.195,
+      "source_weight": 0.85,
+      "age_hours": 0.41,
+      "confidence": 0.675,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/26/nx-s1-5800054/iran-talks-on-hold-shooting-talks-pakistan",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/26/nx-s1-5800054/iran-talks-on-hold-shooting-talks-pakistan"
+      ]
+    },
+    {
       "title": "UK position on Falklands will not change, No 10 says after leaked Pentagon memo",
       "published": "Sat, 25 Apr 2026 01:34:25 GMT",
       "actors": [
@@ -161,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.116,
-      "raw_impact": 0.129,
+      "impact": 0.11,
+      "raw_impact": 0.123,
       "source_weight": 0.9,
-      "age_hours": 33.63,
+      "age_hours": 34.51,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.114,
-      "raw_impact": -0.142,
+      "impact": -0.109,
+      "raw_impact": -0.135,
       "source_weight": 0.9,
-      "age_hours": 5.98,
+      "age_hours": 6.86,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.072,
-      "raw_impact": -0.089,
+      "impact": -0.068,
+      "raw_impact": -0.085,
       "source_weight": 0.9,
-      "age_hours": 14.04,
+      "age_hours": 14.91,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.068,
-      "raw_impact": -0.083,
+      "impact": -0.064,
+      "raw_impact": -0.079,
       "source_weight": 0.9,
-      "age_hours": 15.25,
+      "age_hours": 16.13,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.188,
+      "impact": 0.04,
+      "raw_impact": 0.178,
       "source_weight": 0.9,
-      "age_hours": 1.11,
+      "age_hours": 1.99,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -331,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.04,
+      "raw_impact": 0.177,
       "source_weight": 0.9,
-      "age_hours": 1.2,
+      "age_hours": 2.08,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +399,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.176,
+      "impact": 0.038,
+      "raw_impact": 0.167,
       "source_weight": 0.9,
-      "age_hours": 2.2,
+      "age_hours": 3.08,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.179,
+      "impact": 0.038,
+      "raw_impact": 0.17,
       "source_weight": 0.9,
-      "age_hours": 1.93,
+      "age_hours": 2.81,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.152,
+      "impact": 0.033,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 4.72,
+      "age_hours": 5.59,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.03,
-      "raw_impact": -0.038,
+      "impact": -0.028,
+      "raw_impact": -0.036,
       "source_weight": 0.85,
-      "age_hours": 28.62,
+      "age_hours": 29.49,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -501,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.091,
+      "impact": 0.021,
+      "raw_impact": 0.086,
       "source_weight": 1.0,
-      "age_hours": 13.64,
+      "age_hours": 14.51,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -536,9 +570,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.013,
-      "raw_impact": -0.013,
+      "raw_impact": -0.012,
       "source_weight": 1.1,
-      "age_hours": 47.21,
+      "age_hours": 48.08,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -570,9 +604,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.017,
+      "raw_impact": 0.016,
       "source_weight": 1.0,
-      "age_hours": 43.13,
+      "age_hours": 44.01,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -604,9 +638,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.022,
+      "raw_impact": 0.021,
       "source_weight": 0.85,
-      "age_hours": 38.55,
+      "age_hours": 39.43,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -638,9 +672,9 @@
       "state_key": "iran_israel",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.019,
+      "raw_impact": 0.018,
       "source_weight": 0.9,
-      "age_hours": 40.53,
+      "age_hours": 41.4,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -663,40 +697,6 @@
       ]
     },
     {
-      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
-      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.004,
-      "raw_impact": -0.003,
-      "source_weight": 1.1,
-      "age_hours": 71.21,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167365"
-      ]
-    },
-    {
       "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
       "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
@@ -708,7 +708,7 @@
       "impact": 0.003,
       "raw_impact": 0.013,
       "source_weight": 0.9,
-      "age_hours": 46.83,
+      "age_hours": 47.7,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -740,9 +740,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.013,
+      "raw_impact": 0.012,
       "source_weight": 0.85,
-      "age_hours": 47.22,
+      "age_hours": 48.09,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -765,8 +765,8 @@
       ]
     },
     {
-      "title": "Caspar Hobhouse quoted in Euronews",
-      "published": "Thu, 23 Apr 2026 12:46:21 +0000",
+      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
+      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
       "actors": [
         "iran",
         "us"
@@ -775,8 +775,42 @@
       "class": "deescalation",
       "impact": -0.003,
       "raw_impact": -0.003,
+      "source_weight": 1.1,
+      "age_hours": 72.08,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+      ]
+    },
+    {
+      "title": "Caspar Hobhouse quoted in Euronews",
+      "published": "Thu, 23 Apr 2026 12:46:21 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.002,
+      "raw_impact": -0.003,
       "source_weight": 0.75,
-      "age_hours": 70.43,
+      "age_hours": 71.31,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -810,7 +844,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 95.21,
+      "age_hours": 96.08,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +878,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 95.21,
+      "age_hours": 96.08,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -878,7 +912,7 @@
       "impact": 0.001,
       "raw_impact": 0.004,
       "source_weight": 0.75,
-      "age_hours": 68.2,
+      "age_hours": 69.07,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -912,7 +946,7 @@
       "impact": 0.001,
       "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 70.6,
+      "age_hours": 71.48,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 140.89,
+      "age_hours": 141.77,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 109.99,
+      "age_hours": 110.87,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +1048,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1284.46,
+      "age_hours": 1285.33,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1174,16 +1208,16 @@
   ],
   "debug": {
     "event_count": 228,
-    "classified_count": 30,
-    "paired_count": 30,
+    "classified_count": 31,
+    "paired_count": 31,
     "valid_pair_updates": 4,
-    "top_driver_count": 30,
-    "total_signal": 3.6932,
+    "top_driver_count": 31,
+    "total_signal": 3.3119,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 104,
-      "no_signal": 58,
-      "invalid_pair": 36,
+      "no_actor": 106,
+      "no_signal": 56,
+      "invalid_pair": 35,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
