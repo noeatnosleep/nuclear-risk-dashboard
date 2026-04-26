@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-26 05:44:26 UTC",
-  "probability": 13.76,
-  "uncertainty": 6.64,
+  "last_updated": "2026-04-26 07:43:57 UTC",
+  "probability": 13.62,
+  "uncertainty": 6.54,
   "state": {
-    "us_russia": 3.3999519112399437,
-    "us_china": 3.002687276172344,
-    "china_taiwan": 4.000537554125596,
-    "india_pakistan": 4.500000047864823,
+    "us_russia": 3.376224797526498,
+    "us_china": 3.001427615466558,
+    "china_taiwan": 4.000285575629222,
+    "india_pakistan": 4.5000000254281876,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.4484090582059,
-    "iran_israel": 4.77977181292247,
+    "iran_us": 4.508503956815754,
+    "iran_israel": 4.770734698544117,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.821049300303791
+    "russia_ukraine": 6.636379577812207
   },
   "top_drivers": [
+    {
+      "title": "Families of Iranian Children Killed in School Airstrike Pen Letter to Pope",
+      "published": "Sat, 25 Apr 2026 21:55:18 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.46,
+      "raw_impact": 0.511,
+      "source_weight": 0.9,
+      "age_hours": 9.81,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/25/world/middleeast/families-of-iranian-children-killed-in-school-airstrike-pen-letter-to-pope.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/25/world/middleeast/families-of-iranian-children-killed-in-school-airstrike-pen-letter-to-pope.html"
+      ]
+    },
     {
       "title": "Russian strikes kill several in Ukraine's Dnipro",
       "published": "Sat, 25 Apr 2026 15:14:06 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.35,
-      "raw_impact": 0.389,
+      "impact": 0.312,
+      "raw_impact": 0.347,
       "source_weight": 0.9,
-      "age_hours": 14.51,
+      "age_hours": 16.5,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.332,
-      "raw_impact": 0.332,
+      "impact": 0.296,
+      "raw_impact": 0.296,
       "source_weight": 1.0,
-      "age_hours": 17.25,
+      "age_hours": 19.24,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.159,
-      "raw_impact": 0.177,
+      "impact": 0.142,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 28.17,
+      "age_hours": 30.16,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.194,
+      "impact": -0.14,
+      "raw_impact": -0.173,
       "source_weight": 0.9,
-      "age_hours": 0.51,
+      "age_hours": 2.51,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -161,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.161,
+      "impact": -0.116,
+      "raw_impact": -0.144,
       "source_weight": 0.9,
-      "age_hours": 3.73,
+      "age_hours": 5.72,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.099,
-      "raw_impact": -0.122,
+      "impact": -0.088,
+      "raw_impact": -0.109,
       "source_weight": 0.9,
-      "age_hours": 8.57,
+      "age_hours": 10.56,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.092,
-      "raw_impact": -0.114,
+      "impact": -0.082,
+      "raw_impact": -0.101,
       "source_weight": 0.9,
-      "age_hours": 9.79,
+      "age_hours": 11.78,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.066,
-      "raw_impact": -0.081,
+      "impact": -0.059,
+      "raw_impact": -0.072,
       "source_weight": 0.9,
-      "age_hours": 15.7,
+      "age_hours": 17.69,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -289,6 +323,40 @@
       ]
     },
     {
+      "title": "Iran war: What\u2019s happening on day 58 as Tehran-Washington talks stall?",
+      "published": "Sun, 26 Apr 2026 06:29:14 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.186,
+      "source_weight": 0.9,
+      "age_hours": 1.25,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/26/iran-war-whats-happening-on-day-58-as-tehran-washington-talks-stall?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/26/iran-war-whats-happening-on-day-58-as-tehran-washington-talks-stall?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Iran's foreign minister leaves Pakistan, then Trump cancels U.S. delegation's travel",
       "published": "Sat, 25 Apr 2026 02:35:21 -0400",
       "actors": [
@@ -297,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.053,
+      "impact": -0.036,
+      "raw_impact": -0.047,
       "source_weight": 0.85,
-      "age_hours": 23.15,
+      "age_hours": 25.14,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -331,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.125,
+      "impact": 0.028,
+      "raw_impact": 0.111,
       "source_weight": 1.0,
-      "age_hours": 8.17,
+      "age_hours": 10.16,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.101,
+      "impact": 0.02,
+      "raw_impact": 0.09,
       "source_weight": 0.9,
-      "age_hours": 11.8,
+      "age_hours": 13.79,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.097,
+      "impact": 0.019,
+      "raw_impact": 0.087,
       "source_weight": 0.9,
-      "age_hours": 12.51,
+      "age_hours": 14.5,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.018,
-      "raw_impact": -0.018,
+      "impact": -0.016,
+      "raw_impact": -0.016,
       "source_weight": 1.1,
-      "age_hours": 41.74,
+      "age_hours": 43.73,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -467,10 +535,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.071,
+      "impact": 0.014,
+      "raw_impact": 0.063,
       "source_weight": 0.9,
-      "age_hours": 17.97,
+      "age_hours": 19.96,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.023,
+      "impact": 0.005,
+      "raw_impact": 0.02,
       "source_weight": 1.0,
-      "age_hours": 37.67,
+      "age_hours": 39.66,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +603,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.03,
+      "impact": 0.005,
+      "raw_impact": 0.026,
       "source_weight": 0.85,
-      "age_hours": 33.09,
+      "age_hours": 35.08,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -561,40 +629,6 @@
       ]
     },
     {
-      "title": "Britain and Spain Reject Reported Plans by Trump to Punish Them",
-      "published": "Fri, 24 Apr 2026 18:26:49 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.026,
-      "source_weight": 0.9,
-      "age_hours": 35.29,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/24/world/europe/trump-britain-spain-falklands.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/24/world/europe/trump-britain-spain-falklands.html"
-      ]
-    },
-    {
       "title": "Netanyahu says he hid prostate cancer from public because of Iran war",
       "published": "Fri, 24 Apr 2026 18:40:51 +0000",
       "actors": [
@@ -603,10 +637,10 @@
       ],
       "state_key": "iran_israel",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.026,
+      "impact": 0.005,
+      "raw_impact": 0.024,
       "source_weight": 0.9,
-      "age_hours": 35.06,
+      "age_hours": 37.05,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -629,40 +663,6 @@
       ]
     },
     {
-      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
-      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.005,
-      "raw_impact": -0.004,
-      "source_weight": 1.1,
-      "age_hours": 65.74,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167365"
-      ]
-    },
-    {
       "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
       "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
@@ -672,9 +672,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.018,
+      "raw_impact": 0.016,
       "source_weight": 0.9,
-      "age_hours": 41.36,
+      "age_hours": 43.35,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -706,9 +706,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.018,
+      "raw_impact": 0.016,
       "source_weight": 0.85,
-      "age_hours": 41.75,
+      "age_hours": 43.74,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -731,6 +731,40 @@
       ]
     },
     {
+      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
+      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.004,
+      "raw_impact": -0.004,
+      "source_weight": 1.1,
+      "age_hours": 67.73,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+      ]
+    },
+    {
       "title": "Caspar Hobhouse quoted in Euronews",
       "published": "Thu, 23 Apr 2026 12:46:21 +0000",
       "actors": [
@@ -739,10 +773,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.004,
-      "raw_impact": -0.005,
+      "impact": -0.003,
+      "raw_impact": -0.004,
       "source_weight": 0.75,
-      "age_hours": 64.97,
+      "age_hours": 66.96,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -776,7 +810,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 89.74,
+      "age_hours": 91.73,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -810,7 +844,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 89.74,
+      "age_hours": 91.73,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +878,7 @@
       "impact": 0.001,
       "raw_impact": 0.005,
       "source_weight": 0.75,
-      "age_hours": 62.73,
+      "age_hours": 64.72,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -876,9 +910,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.001,
-      "raw_impact": 0.005,
+      "raw_impact": 0.004,
       "source_weight": 0.75,
-      "age_hours": 65.14,
+      "age_hours": 67.13,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -912,7 +946,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 135.42,
+      "age_hours": 137.42,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 104.53,
+      "age_hours": 106.52,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1278.99,
+      "age_hours": 1280.98,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1140,16 +1174,16 @@
   ],
   "debug": {
     "event_count": 226,
-    "classified_count": 29,
-    "paired_count": 29,
+    "classified_count": 30,
+    "paired_count": 30,
     "valid_pair_updates": 4,
-    "top_driver_count": 29,
-    "total_signal": 0.944,
+    "top_driver_count": 30,
+    "total_signal": 1.3657,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 107,
-      "no_signal": 54,
-      "invalid_pair": 36,
+      "no_actor": 106,
+      "no_signal": 53,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
