@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-26 07:43:57 UTC",
-  "probability": 13.62,
-  "uncertainty": 6.54,
+  "last_updated": "2026-04-26 09:04:33 UTC",
+  "probability": 14.01,
+  "uncertainty": 6.45,
   "state": {
-    "us_russia": 3.376224797526498,
-    "us_china": 3.001427615466558,
-    "china_taiwan": 4.000285575629222,
-    "india_pakistan": 4.5000000254281876,
+    "us_russia": 3.4838540901536734,
+    "us_china": 3.000758420716609,
+    "china_taiwan": 4.000151712053024,
+    "india_pakistan": 4.500000013508725,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.508503956815754,
-    "iran_israel": 4.770734698544117,
+    "iran_us": 4.502756424133548,
+    "iran_israel": 4.756818534875261,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.636379577812207
+    "russia_ukraine": 6.869326650712734
   },
   "top_drivers": [
+    {
+      "title": "Mood in Russia turns bleak as war in Ukraine drags and economy suffers",
+      "published": "Sun, 26 Apr 2026 09:00:03 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "strategic",
+      "impact": 0.86,
+      "raw_impact": 1.195,
+      "source_weight": 0.9,
+      "age_hours": 0.08,
+      "confidence": 0.95,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/26/russia-public-despair-war-ukraine/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/26/russia-public-despair-war-ukraine/"
+      ]
+    },
     {
       "title": "Families of Iranian Children Killed in School Airstrike Pen Letter to Pope",
       "published": "Sat, 25 Apr 2026 21:55:18 +0000",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.46,
-      "raw_impact": 0.511,
+      "impact": 0.425,
+      "raw_impact": 0.473,
       "source_weight": 0.9,
-      "age_hours": 9.81,
+      "age_hours": 11.15,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.312,
-      "raw_impact": 0.347,
+      "impact": 0.289,
+      "raw_impact": 0.321,
       "source_weight": 0.9,
-      "age_hours": 16.5,
+      "age_hours": 17.84,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.296,
-      "raw_impact": 0.296,
+      "impact": 0.274,
+      "raw_impact": 0.274,
       "source_weight": 1.0,
-      "age_hours": 19.24,
+      "age_hours": 20.58,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.142,
-      "raw_impact": 0.158,
+      "impact": 0.131,
+      "raw_impact": 0.146,
       "source_weight": 0.9,
-      "age_hours": 30.16,
+      "age_hours": 31.5,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.173,
+      "impact": -0.13,
+      "raw_impact": -0.16,
       "source_weight": 0.9,
-      "age_hours": 2.51,
+      "age_hours": 3.85,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.116,
-      "raw_impact": -0.144,
+      "impact": -0.108,
+      "raw_impact": -0.133,
       "source_weight": 0.9,
-      "age_hours": 5.72,
+      "age_hours": 7.07,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -229,10 +263,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.088,
-      "raw_impact": -0.109,
+      "impact": -0.081,
+      "raw_impact": -0.101,
       "source_weight": 0.9,
-      "age_hours": 10.56,
+      "age_hours": 11.91,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.082,
-      "raw_impact": -0.101,
+      "impact": -0.076,
+      "raw_impact": -0.094,
       "source_weight": 0.9,
-      "age_hours": 11.78,
+      "age_hours": 13.12,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.059,
-      "raw_impact": -0.072,
+      "impact": -0.054,
+      "raw_impact": -0.067,
       "source_weight": 0.9,
-      "age_hours": 17.69,
+      "age_hours": 19.03,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -323,6 +357,40 @@
       ]
     },
     {
+      "title": "40 years after Chernobyl, war brings new rounds of disaster and displacement",
+      "published": "Sun, 26 Apr 2026 09:00:20 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "rhetoric",
+      "impact": 0.045,
+      "raw_impact": 0.199,
+      "source_weight": 0.9,
+      "age_hours": 0.07,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/26/chernobyl-40-anniversary-ukraine-russia/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/26/chernobyl-40-anniversary-ukraine-russia/"
+      ]
+    },
+    {
       "title": "Iran war: What\u2019s happening on day 58 as Tehran-Washington talks stall?",
       "published": "Sun, 26 Apr 2026 06:29:14 +0000",
       "actors": [
@@ -331,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.186,
+      "impact": 0.039,
+      "raw_impact": 0.172,
       "source_weight": 0.9,
-      "age_hours": 1.25,
+      "age_hours": 2.59,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.036,
-      "raw_impact": -0.047,
+      "impact": -0.033,
+      "raw_impact": -0.043,
       "source_weight": 0.85,
-      "age_hours": 25.14,
+      "age_hours": 26.49,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -399,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.111,
+      "impact": 0.026,
+      "raw_impact": 0.103,
       "source_weight": 1.0,
-      "age_hours": 10.16,
+      "age_hours": 11.51,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.09,
+      "impact": 0.019,
+      "raw_impact": 0.083,
       "source_weight": 0.9,
-      "age_hours": 13.79,
+      "age_hours": 15.14,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +535,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.087,
+      "impact": 0.018,
+      "raw_impact": 0.08,
       "source_weight": 0.9,
-      "age_hours": 14.5,
+      "age_hours": 15.84,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.016,
-      "raw_impact": -0.016,
+      "impact": -0.014,
+      "raw_impact": -0.015,
       "source_weight": 1.1,
-      "age_hours": 43.73,
+      "age_hours": 45.08,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -535,10 +603,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.063,
+      "impact": 0.013,
+      "raw_impact": 0.058,
       "source_weight": 0.9,
-      "age_hours": 19.96,
+      "age_hours": 21.31,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -570,9 +638,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.005,
-      "raw_impact": 0.02,
+      "raw_impact": 0.019,
       "source_weight": 1.0,
-      "age_hours": 39.66,
+      "age_hours": 41.0,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -604,9 +672,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.005,
-      "raw_impact": 0.026,
+      "raw_impact": 0.024,
       "source_weight": 0.85,
-      "age_hours": 35.08,
+      "age_hours": 36.42,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -638,9 +706,9 @@
       "state_key": "iran_israel",
       "class": "rhetoric",
       "impact": 0.005,
-      "raw_impact": 0.024,
+      "raw_impact": 0.022,
       "source_weight": 0.9,
-      "age_hours": 37.05,
+      "age_hours": 38.4,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -672,9 +740,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.016,
+      "raw_impact": 0.015,
       "source_weight": 0.9,
-      "age_hours": 43.35,
+      "age_hours": 44.7,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -697,40 +765,6 @@
       ]
     },
     {
-      "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
-      "published": "Fri, 24 Apr 2026 07:59:28 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.004,
-      "raw_impact": 0.016,
-      "source_weight": 0.85,
-      "age_hours": 43.74,
-      "confidence": 0.675,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates"
-      ]
-    },
-    {
       "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
       "published": "Thu, 23 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -742,7 +776,7 @@
       "impact": -0.004,
       "raw_impact": -0.004,
       "source_weight": 1.1,
-      "age_hours": 67.73,
+      "age_hours": 69.08,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -765,6 +799,40 @@
       ]
     },
     {
+      "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
+      "published": "Fri, 24 Apr 2026 07:59:28 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.003,
+      "raw_impact": 0.015,
+      "source_weight": 0.85,
+      "age_hours": 45.08,
+      "confidence": 0.675,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates"
+      ]
+    },
+    {
       "title": "Caspar Hobhouse quoted in Euronews",
       "published": "Thu, 23 Apr 2026 12:46:21 +0000",
       "actors": [
@@ -776,7 +844,7 @@
       "impact": -0.003,
       "raw_impact": -0.004,
       "source_weight": 0.75,
-      "age_hours": 66.96,
+      "age_hours": 68.3,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -810,7 +878,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 91.73,
+      "age_hours": 93.08,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +912,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 91.73,
+      "age_hours": 93.08,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -876,9 +944,9 @@
       "state_key": "russia_ukraine",
       "class": "rhetoric",
       "impact": 0.001,
-      "raw_impact": 0.005,
+      "raw_impact": 0.004,
       "source_weight": 0.75,
-      "age_hours": 64.72,
+      "age_hours": 66.07,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -912,7 +980,7 @@
       "impact": 0.001,
       "raw_impact": 0.004,
       "source_weight": 0.75,
-      "age_hours": 67.13,
+      "age_hours": 68.47,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 137.42,
+      "age_hours": 138.76,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +1048,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 106.52,
+      "age_hours": 107.86,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +1082,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1280.98,
+      "age_hours": 1282.33,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1173,17 +1241,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 226,
-    "classified_count": 30,
-    "paired_count": 30,
+    "event_count": 229,
+    "classified_count": 32,
+    "paired_count": 32,
     "valid_pair_updates": 4,
-    "top_driver_count": 30,
-    "total_signal": 1.3657,
+    "top_driver_count": 32,
+    "total_signal": 2.6438,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 106,
-      "no_signal": 53,
-      "invalid_pair": 37,
+      "no_actor": 101,
+      "no_signal": 57,
+      "invalid_pair": 39,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
