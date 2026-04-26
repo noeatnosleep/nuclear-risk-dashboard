@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-26 12:04:55 UTC",
-  "probability": 15.03,
-  "uncertainty": 6.39,
+  "last_updated": "2026-04-26 13:46:51 UTC",
+  "probability": 15.01,
+  "uncertainty": 6.37,
   "state": {
-    "us_russia": 3.659286361615041,
-    "us_china": 3.000113712188132,
-    "china_taiwan": 4.000022746622208,
-    "india_pakistan": 4.500000002025402,
+    "us_russia": 3.6456693885581872,
+    "us_china": 3.000060409599945,
+    "china_taiwan": 4.000012084143048,
+    "india_pakistan": 4.500000001075994,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.075291463247122,
-    "iran_israel": 4.854345693067645,
+    "iran_us": 5.072628850882054,
+    "iran_israel": 4.850327463305203,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.093750055998282
+    "russia_ukraine": 7.112304717249088
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.73,
-      "raw_impact": 1.014,
+      "impact": 0.662,
+      "raw_impact": 0.919,
       "source_weight": 0.9,
-      "age_hours": 2.91,
+      "age_hours": 4.61,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.723,
-      "raw_impact": 1.004,
+      "impact": 0.655,
+      "raw_impact": 0.91,
       "source_weight": 0.9,
-      "age_hours": 3.08,
+      "age_hours": 4.78,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.357,
-      "raw_impact": 0.397,
+      "impact": 0.324,
+      "raw_impact": 0.36,
       "source_weight": 0.9,
-      "age_hours": 14.16,
+      "age_hours": 15.86,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.23,
-      "raw_impact": 0.23,
+      "impact": 0.209,
+      "raw_impact": 0.209,
       "source_weight": 1.0,
-      "age_hours": 23.59,
+      "age_hours": 25.29,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -153,6 +153,40 @@
       ]
     },
     {
+      "title": "Trump calls off Witkoff, Kushner trip to Pakistan for Iran peace talks",
+      "published": "Sun, 26 Apr 2026 12:29:41 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.15,
+      "raw_impact": -0.186,
+      "source_weight": 0.9,
+      "age_hours": 1.29,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/25/iran-us-pakistan-ceasefire-talks/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/25/iran-us-pakistan-ceasefire-talks/"
+      ]
+    },
+    {
       "title": "Trump doubts shooter motivated by Iran war as peace talks on hold",
       "published": "Sun, 26 Apr 2026 07:40:10 -0400",
       "actors": [
@@ -161,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.195,
+      "impact": -0.135,
+      "raw_impact": -0.177,
       "source_weight": 0.85,
-      "age_hours": 0.41,
+      "age_hours": 2.11,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.11,
-      "raw_impact": 0.123,
+      "impact": 0.1,
+      "raw_impact": 0.111,
       "source_weight": 0.9,
-      "age_hours": 34.51,
+      "age_hours": 36.21,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -221,120 +255,18 @@
       ]
     },
     {
-      "title": "Middle East war live: Iran's FM to return to Pakistan for talks as US envoys cancel visit",
-      "published": "Sun, 26 Apr 2026 05:13:33 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.109,
-      "raw_impact": -0.135,
-      "source_weight": 0.9,
-      "age_hours": 6.86,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260426-middle-east-war-live-iran-s-fm-to-return-to-pakistan-for-talks-as-us-envoys-cancel-visit",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260426-middle-east-war-live-iran-s-fm-to-return-to-pakistan-for-talks-as-us-envoys-cancel-visit"
-      ]
-    },
-    {
-      "title": "Trump cancels trip by US negotiators for Iran peace talks",
-      "published": "Sat, 25 Apr 2026 21:10:13 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.068,
-      "raw_impact": -0.085,
-      "source_weight": 0.9,
-      "age_hours": 14.91,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/c3be45f6-0e2d-4683-bd10-e0ba726ffade",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/c3be45f6-0e2d-4683-bd10-e0ba726ffade"
-      ]
-    },
-    {
-      "title": "Trump calls off Witkoff, Kushner trip to Pakistan for Iran peace talks",
-      "published": "Sat, 25 Apr 2026 19:57:12 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.064,
-      "raw_impact": -0.079,
-      "source_weight": 0.9,
-      "age_hours": 16.13,
-      "confidence": 0.68,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/25/iran-us-pakistan-ceasefire-talks/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/25/iran-us-pakistan-ceasefire-talks/"
-      ]
-    },
-    {
       "title": "Islamabad Reopens After U.S.-Iran Talks Fail to Materialize",
-      "published": "Sun, 26 Apr 2026 10:05:43 +0000",
+      "published": "Sun, 26 Apr 2026 10:05:44 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
+      "impact": 0.036,
+      "raw_impact": 0.162,
       "source_weight": 0.9,
-      "age_hours": 1.99,
+      "age_hours": 3.69,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.177,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 2.08,
+      "age_hours": 3.78,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -391,40 +323,6 @@
       ]
     },
     {
-      "title": "40 years after Chernobyl, war brings new rounds of disaster and displacement",
-      "published": "Sun, 26 Apr 2026 09:00:20 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.167,
-      "source_weight": 0.9,
-      "age_hours": 3.08,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/26/chernobyl-40-anniversary-ukraine-russia/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/26/chernobyl-40-anniversary-ukraine-russia/"
-      ]
-    },
-    {
       "title": "US-Iran talks in doubt after Trump scraps Pakistan visit",
       "published": "Sun, 26 Apr 2026 09:16:35 GMT",
       "actors": [
@@ -433,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
+      "impact": 0.035,
+      "raw_impact": 0.154,
       "source_weight": 0.9,
-      "age_hours": 2.81,
+      "age_hours": 4.5,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -459,6 +357,40 @@
       ]
     },
     {
+      "title": "40 years after Chernobyl, war brings new rounds of disaster and displacement",
+      "published": "Sun, 26 Apr 2026 09:00:20 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "rhetoric",
+      "impact": 0.034,
+      "raw_impact": 0.152,
+      "source_weight": 0.9,
+      "age_hours": 4.78,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/26/chernobyl-40-anniversary-ukraine-russia/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/26/chernobyl-40-anniversary-ukraine-russia/"
+      ]
+    },
+    {
       "title": "Iran war: What\u2019s happening on day 58 as Tehran-Washington talks stall?",
       "published": "Sun, 26 Apr 2026 06:29:14 +0000",
       "actors": [
@@ -467,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.145,
+      "impact": 0.029,
+      "raw_impact": 0.131,
       "source_weight": 0.9,
-      "age_hours": 5.59,
+      "age_hours": 7.29,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.028,
-      "raw_impact": -0.036,
+      "impact": -0.025,
+      "raw_impact": -0.033,
       "source_weight": 0.85,
-      "age_hours": 29.49,
+      "age_hours": 31.19,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -535,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.086,
+      "impact": 0.019,
+      "raw_impact": 0.078,
       "source_weight": 1.0,
-      "age_hours": 14.51,
+      "age_hours": 16.21,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.013,
-      "raw_impact": -0.012,
+      "impact": -0.011,
+      "raw_impact": -0.011,
       "source_weight": 1.1,
-      "age_hours": 48.08,
+      "age_hours": 49.78,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -604,9 +536,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.016,
+      "raw_impact": 0.014,
       "source_weight": 1.0,
-      "age_hours": 44.01,
+      "age_hours": 45.71,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -638,9 +570,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.021,
+      "raw_impact": 0.019,
       "source_weight": 0.85,
-      "age_hours": 39.43,
+      "age_hours": 41.13,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -672,9 +604,9 @@
       "state_key": "iran_israel",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.018,
+      "raw_impact": 0.017,
       "source_weight": 0.9,
-      "age_hours": 41.4,
+      "age_hours": 43.1,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -706,9 +638,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.013,
+      "raw_impact": 0.012,
       "source_weight": 0.9,
-      "age_hours": 47.7,
+      "age_hours": 49.4,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -740,9 +672,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.012,
+      "raw_impact": 0.011,
       "source_weight": 0.85,
-      "age_hours": 48.09,
+      "age_hours": 49.79,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,7 +708,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 72.08,
+      "age_hours": 73.78,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -810,7 +742,7 @@
       "impact": -0.002,
       "raw_impact": -0.003,
       "source_weight": 0.75,
-      "age_hours": 71.31,
+      "age_hours": 73.01,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -844,7 +776,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 96.08,
+      "age_hours": 97.78,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -867,40 +799,6 @@
       ]
     },
     {
-      "title": "Ceasefire extension offers diplomatic opening, but tensions persist in Strait of Hormuz",
-      "published": "Wed, 22 Apr 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.001,
-      "raw_impact": -0.001,
-      "source_weight": 1.1,
-      "age_hours": 96.08,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167354",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167354"
-      ]
-    },
-    {
       "title": "\"For China, the West is the source of all the world's evils\"",
       "published": "Thu, 23 Apr 2026 15:00:34 +0000",
       "actors": [
@@ -910,9 +808,9 @@
       "state_key": "russia_ukraine",
       "class": "rhetoric",
       "impact": 0.001,
-      "raw_impact": 0.004,
+      "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 69.07,
+      "age_hours": 70.77,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +844,7 @@
       "impact": 0.001,
       "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 71.48,
+      "age_hours": 73.18,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +878,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 141.77,
+      "age_hours": 143.46,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +912,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 110.87,
+      "age_hours": 112.57,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1048,7 +946,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1285.33,
+      "age_hours": 1287.03,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1207,17 +1105,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 228,
-    "classified_count": 31,
-    "paired_count": 31,
+    "event_count": 229,
+    "classified_count": 28,
+    "paired_count": 28,
     "valid_pair_updates": 4,
-    "top_driver_count": 31,
-    "total_signal": 3.3119,
+    "top_driver_count": 28,
+    "total_signal": 3.0943,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 106,
-      "no_signal": 56,
-      "invalid_pair": 35,
+      "no_actor": 109,
+      "no_signal": 53,
+      "invalid_pair": 39,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
