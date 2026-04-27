@@ -1,34 +1,68 @@
 {
-  "last_updated": "2026-04-27 20:09:45 UTC",
-  "probability": 19.69,
-  "uncertainty": 6.01,
+  "last_updated": "2026-04-27 21:34:41 UTC",
+  "probability": 19.95,
+  "uncertainty": 5.96,
   "state": {
-    "us_russia": 4.8468954837155405,
-    "us_china": 3.0808644920190003,
-    "china_taiwan": 4.0161728984038145,
-    "india_pakistan": 4.500000000000007,
+    "us_russia": 4.96166420752645,
+    "us_china": 3.067608887353813,
+    "china_taiwan": 4.01352177747077,
+    "india_pakistan": 4.5000000000000036,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.626166505555644,
-    "iran_israel": 6.023117179690713,
+    "iran_us": 5.629525956076436,
+    "iran_israel": 5.90955428473527,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.121693847038402
+    "russia_ukraine": 7.127149856239151
   },
   "top_drivers": [
     {
-      "title": "Iran Offers Plan to Focus on Strait of Hormuz and Delay Nuclear Talks",
-      "published": "Mon, 27 Apr 2026 18:59:55 +0000",
+      "title": "Iranian foreign minister meets with Putin as U.S.-Iran talks falter",
+      "published": "Mon, 27 Apr 2026 21:17:34 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.808,
-      "raw_impact": 1.122,
+      "impact": 0.85,
+      "raw_impact": 1.18,
       "source_weight": 0.9,
-      "age_hours": 1.16,
+      "age_hours": 0.29,
+      "confidence": 0.95,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/27/iran-talks-putin-araghchi-trump-russia/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/27/iran-talks-putin-araghchi-trump-russia/"
+      ]
+    },
+    {
+      "title": "Iran Offers Plan to Focus on Strait of Hormuz and Delay Nuclear Talks",
+      "published": "Mon, 27 Apr 2026 20:12:55 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.798,
+      "raw_impact": 1.109,
+      "source_weight": 0.9,
+      "age_hours": 1.36,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.765,
-      "raw_impact": 0.765,
+      "impact": 0.705,
+      "raw_impact": 0.705,
       "source_weight": 1.0,
-      "age_hours": 10.09,
+      "age_hours": 11.5,
       "confidence": 0.889,
       "signal_total": 1.37,
       "signal_components": {
@@ -86,40 +120,6 @@
       ]
     },
     {
-      "title": "Iran offers Hormuz deal without nuclear talks, as it seeks broader buy-in",
-      "published": "Mon, 27 Apr 2026 15:50:25 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.673,
-      "raw_impact": 0.935,
-      "source_weight": 0.9,
-      "age_hours": 4.32,
-      "confidence": 0.95,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/27/iran-offers-hormuz-deal-without-nuclear-talks-as-it-seeks-broader-buy-in?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/27/iran-offers-hormuz-deal-without-nuclear-talks-as-it-seeks-broader-buy-in?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Fighting \u2018Sacred\u2019 War in Ukraine, North Korea and Russia Pledge to Deepen Ties",
       "published": "Mon, 27 Apr 2026 09:10:40 +0000",
       "actors": [
@@ -128,10 +128,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.654,
-      "raw_impact": 0.726,
+      "impact": 0.602,
+      "raw_impact": 0.669,
       "source_weight": 0.9,
-      "age_hours": 10.98,
+      "age_hours": 12.4,
       "confidence": 0.889,
       "signal_total": 1.37,
       "signal_components": {
@@ -163,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.632,
-      "raw_impact": 0.878,
+      "impact": 0.582,
+      "raw_impact": 0.809,
       "source_weight": 0.9,
-      "age_hours": 5.41,
+      "age_hours": 6.82,
       "confidence": 0.88,
       "signal_total": 1.2,
       "signal_components": {
@@ -197,10 +197,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.53,
-      "raw_impact": 0.883,
+      "impact": 0.488,
+      "raw_impact": 0.814,
       "source_weight": 0.75,
-      "age_hours": 12.23,
+      "age_hours": 13.65,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -232,10 +232,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.418,
-      "raw_impact": 0.418,
+      "impact": 0.385,
+      "raw_impact": 0.385,
       "source_weight": 1.0,
-      "age_hours": 13.28,
+      "age_hours": 14.7,
       "confidence": 0.83,
       "signal_total": 0.9,
       "signal_components": {
@@ -266,10 +266,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.225,
-      "raw_impact": 0.33,
+      "impact": 0.207,
+      "raw_impact": 0.304,
       "source_weight": 0.85,
-      "age_hours": 32.02,
+      "age_hours": 33.43,
       "confidence": 0.955,
       "signal_total": 2.1,
       "signal_components": {
@@ -292,6 +292,40 @@
       ]
     },
     {
+      "title": "Who holds the cards in Iran-US talks?",
+      "published": "Mon, 27 Apr 2026 21:00:18 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.157,
+      "raw_impact": -0.193,
+      "source_weight": 0.9,
+      "age_hours": 0.57,
+      "confidence": 0.67,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/27/who-holds-the-cards-in-iran-us-talks?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/27/who-holds-the-cards-in-iran-us-talks?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Iran blames US for failure of talks as FM meets with Putin",
       "published": "Mon, 27 Apr 2026 15:10:23 GMT",
       "actors": [
@@ -300,10 +334,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.122,
-      "raw_impact": -0.15,
+      "impact": -0.112,
+      "raw_impact": -0.138,
       "source_weight": 0.9,
-      "age_hours": 4.99,
+      "age_hours": 6.41,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -334,10 +368,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.114,
-      "raw_impact": 0.157,
+      "impact": 0.105,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 35.16,
+      "age_hours": 36.58,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -368,10 +402,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.093,
-      "raw_impact": -0.122,
+      "impact": -0.086,
+      "raw_impact": -0.112,
       "source_weight": 0.85,
-      "age_hours": 8.61,
+      "age_hours": 10.03,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -394,8 +428,42 @@
       ]
     },
     {
-      "title": "Iranian foreign minister meets with Putin as U.S.-Iran talks falter",
-      "published": "Mon, 27 Apr 2026 18:49:35 +0000",
+      "title": "Iran FM in Russia says US has offered new round of talks",
+      "published": "Mon, 27 Apr 2026 20:59:56 +0000",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.193,
+      "source_weight": 0.9,
+      "age_hours": 0.58,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/27/iran-fm-in-russia-says-us-has-offered-new-round-of-talks?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/27/iran-fm-in-russia-says-us-has-offered-new-round-of-talks?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Iran War Shakes Global Economy, but the U.S. Has Mostly Been Spared",
+      "published": "Mon, 27 Apr 2026 20:16:20 +0000",
       "actors": [
         "iran",
         "us"
@@ -405,7 +473,7 @@
       "impact": 0.042,
       "raw_impact": 0.185,
       "source_weight": 0.9,
-      "age_hours": 1.34,
+      "age_hours": 1.31,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -416,15 +484,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.washingtonpost.com/world/2026/04/27/iran-talks-putin-araghchi-trump-russia/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
+      "link": "https://www.nytimes.com/2026/04/27/business/economy/iran-war-global-growth.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.washingtonpost.com"
+        "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/27/iran-talks-putin-araghchi-trump-russia/"
+        "https://www.nytimes.com/2026/04/27/business/economy/iran-war-global-growth.html"
       ]
     },
     {
@@ -436,10 +504,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
+      "impact": 0.035,
+      "raw_impact": 0.156,
       "source_weight": 0.9,
-      "age_hours": 2.88,
+      "age_hours": 4.3,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -470,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.161,
+      "impact": 0.033,
+      "raw_impact": 0.148,
       "source_weight": 0.9,
-      "age_hours": 3.77,
+      "age_hours": 5.19,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -496,74 +564,6 @@
       ]
     },
     {
-      "title": "Germany\u2019s Merz says US has no strategy in Iran war",
-      "published": "Mon, 27 Apr 2026 15:41:05 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.154,
-      "source_weight": 0.9,
-      "age_hours": 4.48,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/27/germanys-merz-says-us-has-no-strategy-in-iran-war?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/27/germanys-merz-says-us-has-no-strategy-in-iran-war?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Iran War Shakes Global Economy, but the U.S. Has Mostly Been Spared",
-      "published": "Mon, 27 Apr 2026 15:03:45 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.149,
-      "source_weight": 0.9,
-      "age_hours": 5.1,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/27/business/economy/iran-war-global-growth.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/27/business/economy/iran-war-global-growth.html"
-      ]
-    },
-    {
       "title": "U.S. offers no help with Iran war\u2019s fallout, Thai foreign minister says",
       "published": "Mon, 27 Apr 2026 13:13:42 +0000",
       "actors": [
@@ -572,10 +572,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.134,
+      "impact": 0.028,
+      "raw_impact": 0.123,
       "source_weight": 0.9,
-      "age_hours": 6.93,
+      "age_hours": 8.35,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -606,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.026,
-      "raw_impact": -0.032,
+      "impact": -0.024,
+      "raw_impact": -0.03,
       "source_weight": 0.9,
-      "age_hours": 31.67,
+      "age_hours": 33.08,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -632,40 +632,6 @@
       ]
     },
     {
-      "title": "HSBC \u2018reviewing\u2019 private school perk for bankers in Hong Kong",
-      "published": "Mon, 27 Apr 2026 08:31:05 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.102,
-      "source_weight": 0.9,
-      "age_hours": 11.64,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/business/2026/apr/27/hsbc-reviewing-private-school-perk-for-bankers-in-hong-kong",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/business/2026/apr/27/hsbc-reviewing-private-school-perk-for-bankers-in-hong-kong"
-      ]
-    },
-    {
       "title": "Trump doubts shooter motivated by Iran war as peace talks on hold",
       "published": "Sun, 26 Apr 2026 07:40:10 -0400",
       "actors": [
@@ -674,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.023,
-      "raw_impact": -0.031,
+      "impact": -0.022,
+      "raw_impact": -0.028,
       "source_weight": 0.85,
-      "age_hours": 32.49,
+      "age_hours": 33.91,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -708,10 +674,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.007,
-      "raw_impact": 0.031,
+      "impact": 0.006,
+      "raw_impact": 0.029,
       "source_weight": 0.85,
-      "age_hours": 32.02,
+      "age_hours": 33.43,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -742,10 +708,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.026,
+      "impact": 0.005,
+      "raw_impact": 0.024,
       "source_weight": 0.9,
-      "age_hours": 35.16,
+      "age_hours": 36.57,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -779,7 +745,7 @@
       "impact": -0.002,
       "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 80.16,
+      "age_hours": 81.58,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -810,10 +776,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.001,
+      "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 1.1,
-      "age_hours": 104.16,
+      "age_hours": 105.58,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -847,7 +813,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 173.85,
+      "age_hours": 175.26,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -881,7 +847,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 142.95,
+      "age_hours": 144.36,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -915,7 +881,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1317.41,
+      "age_hours": 1318.83,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -949,7 +915,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 101.15,
+      "age_hours": 102.57,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -981,9 +947,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": 0.0,
-      "raw_impact": -0.001,
+      "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 103.39,
+      "age_hours": 104.81,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -1015,9 +981,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.0,
-      "raw_impact": 0.001,
+      "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 103.56,
+      "age_hours": 104.97,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1160,11 +1126,6 @@
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
-    },
-    {
-      "name": "www.theguardian.com",
-      "url": "https://www.theguardian.com/world/rss",
-      "domain": "www.theguardian.com"
     }
   ],
   "driver_sort_default": "chronological",
@@ -1177,15 +1138,15 @@
   ],
   "debug": {
     "event_count": 230,
-    "classified_count": 30,
-    "paired_count": 30,
+    "classified_count": 29,
+    "paired_count": 29,
     "valid_pair_updates": 6,
-    "top_driver_count": 30,
-    "total_signal": 7.1834,
+    "top_driver_count": 29,
+    "total_signal": 6.6228,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 109,
-      "no_signal": 50,
+      "no_actor": 105,
+      "no_signal": 55,
       "invalid_pair": 41,
       "low_confidence": 0,
       "classifier_error": 0,
