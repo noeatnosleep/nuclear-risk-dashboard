@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-26 23:41:57 UTC",
-  "probability": 19.16,
-  "uncertainty": 6.4,
+  "last_updated": "2026-04-27 03:21:33 UTC",
+  "probability": 20.3,
+  "uncertainty": 6.28,
   "state": {
-    "us_russia": 3.925708989238454,
-    "us_china": 4.294227361248979,
-    "china_taiwan": 4.2588454722537765,
-    "india_pakistan": 4.5000000000019265,
+    "us_russia": 4.585532900532929,
+    "us_china": 4.149309912108891,
+    "china_taiwan": 4.229861982423893,
+    "india_pakistan": 4.500000000001024,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.632329357038722,
-    "iran_israel": 5.033661418893732,
+    "iran_us": 5.322646562741207,
+    "iran_israel": 4.921476947150173,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.505036360383195
+    "russia_ukraine": 6.332401596311508
   },
   "top_drivers": [
+    {
+      "title": "Middle East war live: Putin receives Iran\u2019s foreign minister amid stalled US-Iran talks",
+      "published": "Mon, 27 Apr 2026 02:45:24 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "strategic",
+      "impact": 0.834,
+      "raw_impact": 1.159,
+      "source_weight": 0.9,
+      "age_hours": 0.6,
+      "confidence": 0.96,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260427-middle-east-war-live-putin-iran-foreign-minister-us-iran-talks",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260427-middle-east-war-live-putin-iran-foreign-minister-us-iran-talks"
+      ]
+    },
     {
       "title": "Israel and Hezbollah Trade Strikes in Lebanon, as Iran Talks Remain on Hold",
       "published": "Sun, 26 Apr 2026 22:27:09 +0000",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.754,
-      "raw_impact": 0.837,
+      "impact": 0.61,
+      "raw_impact": 0.678,
       "source_weight": 0.9,
-      "age_hours": 1.25,
+      "age_hours": 4.91,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.483,
-      "raw_impact": 0.537,
+      "impact": 0.391,
+      "raw_impact": 0.435,
       "source_weight": 0.9,
-      "age_hours": 8.94,
+      "age_hours": 12.6,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.37,
-      "raw_impact": 0.513,
+      "impact": 0.299,
+      "raw_impact": 0.416,
       "source_weight": 0.9,
-      "age_hours": 14.7,
+      "age_hours": 18.36,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -119,6 +153,40 @@
       ]
     },
     {
+      "title": "Oil prices rise amid stalled US-Iran peace talks",
+      "published": "Mon, 27 Apr 2026 02:06:46 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.15,
+      "raw_impact": -0.186,
+      "source_weight": 0.9,
+      "age_hours": 1.25,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/economy/2026/4/27/oil-prices-rise-higher-amid-stalled-us-iran-peace-talks?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/economy/2026/4/27/oil-prices-rise-higher-amid-stalled-us-iran-peace-talks?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Families of Iranian Children Killed in School Airstrike Pen Letter to Pope",
       "published": "Sat, 25 Apr 2026 21:55:18 +0000",
       "actors": [
@@ -127,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.183,
-      "raw_impact": 0.203,
+      "impact": 0.148,
+      "raw_impact": 0.164,
       "source_weight": 0.9,
-      "age_hours": 25.78,
+      "age_hours": 29.44,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -161,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.173,
+      "impact": -0.113,
+      "raw_impact": -0.14,
       "source_weight": 0.9,
-      "age_hours": 2.55,
+      "age_hours": 6.21,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +263,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.118,
-      "raw_impact": 0.118,
+      "impact": 0.095,
+      "raw_impact": 0.095,
       "source_weight": 1.0,
-      "age_hours": 35.21,
+      "age_hours": 38.87,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -229,10 +297,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.085,
-      "raw_impact": -0.105,
+      "impact": -0.068,
+      "raw_impact": -0.085,
       "source_weight": 0.9,
-      "age_hours": 11.2,
+      "age_hours": 14.86,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -263,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.077,
-      "raw_impact": -0.1,
+      "impact": -0.062,
+      "raw_impact": -0.081,
       "source_weight": 0.85,
-      "age_hours": 12.03,
+      "age_hours": 15.69,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -297,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.056,
-      "raw_impact": 0.063,
+      "impact": 0.046,
+      "raw_impact": 0.051,
       "source_weight": 0.9,
-      "age_hours": 46.13,
+      "age_hours": 49.79,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -331,10 +399,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.034,
+      "raw_impact": 0.152,
       "source_weight": 0.9,
-      "age_hours": 1.14,
+      "age_hours": 4.8,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.161,
+      "impact": 0.029,
+      "raw_impact": 0.13,
       "source_weight": 0.9,
-      "age_hours": 3.77,
+      "age_hours": 7.43,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +467,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.157,
+      "impact": 0.029,
+      "raw_impact": 0.127,
       "source_weight": 0.9,
-      "age_hours": 4.15,
+      "age_hours": 7.81,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +501,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.141,
+      "impact": 0.026,
+      "raw_impact": 0.114,
       "source_weight": 0.9,
-      "age_hours": 6.01,
+      "age_hours": 9.67,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -459,40 +527,6 @@
       ]
     },
     {
-      "title": "US-Iran conflict: What\u2019s the latest as the Islamabad talks stall?",
-      "published": "Sun, 26 Apr 2026 14:01:47 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.114,
-      "source_weight": 0.9,
-      "age_hours": 9.67,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/26/us-iran-conflict-whats-the-latest-as-the-islamabad-talks-stall?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/26/us-iran-conflict-whats-the-latest-as-the-islamabad-talks-stall?traffic_source=rss"
-      ]
-    },
-    {
       "title": "How China is responding to the stalling of talks between the U.S. and Iran",
       "published": "Sun, 26 Apr 2026 08:08:51 -0400",
       "actors": [
@@ -501,10 +535,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.103,
+      "impact": 0.018,
+      "raw_impact": 0.083,
       "source_weight": 0.85,
-      "age_hours": 11.55,
+      "age_hours": 15.21,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +569,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.091,
+      "impact": 0.017,
+      "raw_impact": 0.074,
       "source_weight": 0.9,
-      "age_hours": 13.6,
+      "age_hours": 17.26,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +603,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.086,
+      "impact": 0.015,
+      "raw_impact": 0.069,
       "source_weight": 0.9,
-      "age_hours": 14.69,
+      "age_hours": 18.35,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -603,10 +637,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.014,
-      "raw_impact": -0.019,
+      "impact": -0.012,
+      "raw_impact": -0.015,
       "source_weight": 0.85,
-      "age_hours": 41.11,
+      "age_hours": 44.77,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -637,10 +671,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.044,
+      "impact": 0.009,
+      "raw_impact": 0.036,
       "source_weight": 1.0,
-      "age_hours": 26.13,
+      "age_hours": 29.79,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -671,10 +705,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.006,
-      "raw_impact": -0.006,
+      "impact": -0.005,
+      "raw_impact": -0.005,
       "source_weight": 1.1,
-      "age_hours": 59.7,
+      "age_hours": 63.36,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -706,9 +740,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.002,
-      "raw_impact": 0.008,
+      "raw_impact": 0.007,
       "source_weight": 1.0,
-      "age_hours": 55.62,
+      "age_hours": 59.28,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -731,40 +765,6 @@
       ]
     },
     {
-      "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
-      "published": "Fri, 24 Apr 2026 12:22:40 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.002,
-      "raw_impact": 0.006,
-      "source_weight": 0.9,
-      "age_hours": 59.32,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat"
-      ]
-    },
-    {
       "title": "Vessels seized by the U.S. this week were part of a global 'shadow fleet'",
       "published": "Fri, 24 Apr 2026 16:39:08 -0400",
       "actors": [
@@ -774,9 +774,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.002,
-      "raw_impact": 0.01,
+      "raw_impact": 0.008,
       "source_weight": 0.85,
-      "age_hours": 51.05,
+      "age_hours": 54.71,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -799,37 +799,37 @@
       ]
     },
     {
-      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
-      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "title": "Tokyo workers encouraged to wear shorts to cut energy costs and keep cool",
+      "published": "Fri, 24 Apr 2026 12:22:40 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.002,
-      "raw_impact": -0.002,
-      "source_weight": 1.1,
-      "age_hours": 83.7,
-      "confidence": 0.77,
-      "signal_total": -0.2,
+      "class": "rhetoric",
+      "impact": 0.001,
+      "raw_impact": 0.005,
+      "source_weight": 0.9,
+      "age_hours": 62.98,
+      "confidence": 0.68,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
+      "link": "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "news.un.org"
+        "www.theguardian.com"
       ],
       "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+        "https://www.theguardian.com/world/2026/apr/24/tokyo-workers-asked-to-swap-suits-for-shorts-to-combat-energy-costs-and-heat"
       ]
     },
     {
@@ -842,9 +842,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.001,
-      "raw_impact": 0.006,
+      "raw_impact": 0.005,
       "source_weight": 0.85,
-      "age_hours": 59.71,
+      "age_hours": 63.37,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -867,6 +867,40 @@
       ]
     },
     {
+      "title": "Despite ceasefire, Hormuz tensions continue to throttle supply chains worldwide",
+      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.001,
+      "raw_impact": -0.001,
+      "source_weight": 1.1,
+      "age_hours": 87.36,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167365",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167365"
+      ]
+    },
+    {
       "title": "Caspar Hobhouse quoted in Euronews",
       "published": "Thu, 23 Apr 2026 12:46:21 +0000",
       "actors": [
@@ -876,9 +910,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.001,
-      "raw_impact": -0.002,
+      "raw_impact": -0.001,
       "source_weight": 0.75,
-      "age_hours": 82.93,
+      "age_hours": 86.59,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -912,7 +946,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 153.38,
+      "age_hours": 157.04,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -946,7 +980,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 122.48,
+      "age_hours": 126.14,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -980,7 +1014,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1296.95,
+      "age_hours": 1300.61,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1014,7 +1048,7 @@
       "impact": 0.0,
       "raw_impact": 0.002,
       "source_weight": 0.75,
-      "age_hours": 80.69,
+      "age_hours": 84.35,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1046,9 +1080,9 @@
       "state_key": "us_russia",
       "class": "rhetoric",
       "impact": 0.0,
-      "raw_impact": 0.002,
+      "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 83.09,
+      "age_hours": 86.75,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1203,16 +1237,16 @@
   ],
   "debug": {
     "event_count": 226,
-    "classified_count": 31,
-    "paired_count": 31,
+    "classified_count": 32,
+    "paired_count": 32,
     "valid_pair_updates": 6,
-    "top_driver_count": 31,
-    "total_signal": 3.1146,
+    "top_driver_count": 32,
+    "total_signal": 3.2632,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 107,
+      "no_actor": 104,
       "no_signal": 51,
-      "invalid_pair": 37,
+      "invalid_pair": 39,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
