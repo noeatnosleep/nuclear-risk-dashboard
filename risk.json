@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-27 13:05:23 UTC",
-  "probability": 19.31,
-  "uncertainty": 5.94,
+  "last_updated": "2026-04-27 15:23:55 UTC",
+  "probability": 20.38,
+  "uncertainty": 5.81,
   "state": {
-    "us_russia": 4.575428795891675,
-    "us_china": 3.3076077839239004,
-    "china_taiwan": 4.061521556784948,
-    "india_pakistan": 4.500000000000082,
+    "us_russia": 4.930696547817453,
+    "us_china": 3.1986396194041395,
+    "china_taiwan": 4.039727923880917,
+    "india_pakistan": 4.5000000000000435,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.543356398145552,
-    "iran_israel": 6.022478627611029,
+    "iran_us": 5.5855330865148245,
+    "iran_israel": 6.30881677091836,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.987203785301167
+    "russia_ukraine": 7.055702010941245
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 1.151,
-      "raw_impact": 1.151,
+      "impact": 1.007,
+      "raw_impact": 1.007,
       "source_weight": 1.0,
-      "age_hours": 3.01,
+      "age_hours": 5.32,
       "confidence": 0.889,
       "signal_total": 1.37,
       "signal_components": {
@@ -52,41 +52,6 @@
       ]
     },
     {
-      "title": "Fighting \u2018Sacred\u2019 War in Ukraine, North Korea and Russia Pledge to Deepen Ties",
-      "published": "Mon, 27 Apr 2026 09:10:40 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.984,
-      "raw_impact": 1.093,
-      "source_weight": 0.9,
-      "age_hours": 3.91,
-      "confidence": 0.889,
-      "signal_total": 1.37,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.03,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/27/world/asia/north-korea-memorial-russia-ukraine.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/27/world/asia/north-korea-memorial-russia-ukraine.html"
-      ]
-    },
-    {
       "title": "Russia attacks Odesa, claims Ukraine hit Zaporizhzhia nuclear plant",
       "published": "Mon, 27 Apr 2026 09:16:36 +0000",
       "actors": [
@@ -98,7 +63,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 3.81,
+      "age_hours": 6.12,
       "confidence": 0.96,
       "signal_total": 2.1,
       "signal_components": {
@@ -132,7 +97,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 4.36,
+      "age_hours": 6.67,
       "confidence": 0.97,
       "signal_total": 2.1,
       "signal_components": {
@@ -155,19 +120,19 @@
       ]
     },
     {
-      "title": "Kim reaffirms North Korean support for Russia's 'sacred' Ukraine war",
-      "published": "Mon, 27 Apr 2026 05:51:14 GMT",
+      "title": "Fighting \u2018Sacred\u2019 War in Ukraine, North Korea and Russia Pledge to Deepen Ties",
+      "published": "Mon, 27 Apr 2026 09:10:40 +0000",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.812,
-      "raw_impact": 0.902,
+      "impact": 0.861,
+      "raw_impact": 0.956,
       "source_weight": 0.9,
-      "age_hours": 7.24,
-      "confidence": 0.969,
+      "age_hours": 6.22,
+      "confidence": 0.889,
       "signal_total": 1.37,
       "signal_components": {
         "deescalation": 0.0,
@@ -178,7 +143,41 @@
         "contradiction_adjustment": -0.03,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/europe/20260427-kim-jong-un-reaffirms-north-korea-s-support-for-russia-s-sacred-ukraine-war",
+      "link": "https://www.nytimes.com/2026/04/27/world/asia/north-korea-memorial-russia-ukraine.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/27/world/asia/north-korea-memorial-russia-ukraine.html"
+      ]
+    },
+    {
+      "title": "UK, EU 'push back strongly' on US foreign policy: Will Charles' visit 'soften' transatlantic divide?",
+      "published": "Mon, 27 Apr 2026 14:45:17 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.833,
+      "raw_impact": 1.156,
+      "source_weight": 0.9,
+      "age_hours": 0.64,
+      "confidence": 0.88,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/uk-eu-push-back-strongly-on-us-foreign-policy-will-charles-visit-soften-transatlantic-divide",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -186,7 +185,76 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/europe/20260427-kim-jong-un-reaffirms-north-korea-s-support-for-russia-s-sacred-ukraine-war"
+        "https://www.france24.com/en/uk-eu-push-back-strongly-on-us-foreign-policy-will-charles-visit-soften-transatlantic-divide"
+      ]
+    },
+    {
+      "title": "NPT summit: Can nuclear pact survive US-Israel war on Iran?",
+      "published": "Mon, 27 Apr 2026 14:43:27 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.831,
+      "raw_impact": 1.154,
+      "source_weight": 0.9,
+      "age_hours": 0.67,
+      "confidence": 0.96,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/27/npt-summit-can-nuclear-pact-survive-us-israel-war-on-iran?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/27/npt-summit-can-nuclear-pact-survive-us-israel-war-on-iran?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Putin\u2019s troubles: Facing mounting economic and military pressure, the Kremlin may try to muddle through \u2013 or escalate",
+      "published": "Mon, 27 Apr 2026 07:55:57 +0000",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "strategic",
+      "impact": 0.698,
+      "raw_impact": 1.163,
+      "source_weight": 0.75,
+      "age_hours": 7.47,
+      "confidence": 0.801,
+      "signal_total": 1.79,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.11,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.iss.europa.eu/publications/commentary/putins-troubles-facing-mounting-economic-and-military-pressure-kremlin-may",
+      "source": "https://www.iss.europa.eu/rss.xml",
+      "source_domain": "www.iss.europa.eu",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.iss.europa.eu"
+      ],
+      "cluster_links": [
+        "https://www.iss.europa.eu/publications/commentary/putins-troubles-facing-mounting-economic-and-military-pressure-kremlin-may"
       ]
     },
     {
@@ -198,10 +266,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.629,
-      "raw_impact": 0.629,
+      "impact": 0.55,
+      "raw_impact": 0.55,
       "source_weight": 1.0,
-      "age_hours": 6.21,
+      "age_hours": 8.52,
       "confidence": 0.83,
       "signal_total": 0.9,
       "signal_components": {
@@ -232,10 +300,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.506,
-      "raw_impact": 0.562,
+      "impact": 0.443,
+      "raw_impact": 0.492,
       "source_weight": 0.9,
-      "age_hours": 2.52,
+      "age_hours": 4.83,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -267,10 +335,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.348,
-      "raw_impact": 0.386,
+      "impact": 0.304,
+      "raw_impact": 0.338,
       "source_weight": 0.9,
-      "age_hours": 14.64,
+      "age_hours": 16.95,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -301,10 +369,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.338,
-      "raw_impact": 0.497,
+      "impact": 0.296,
+      "raw_impact": 0.435,
       "source_weight": 0.85,
-      "age_hours": 24.94,
+      "age_hours": 27.25,
       "confidence": 0.955,
       "signal_total": 2.1,
       "signal_components": {
@@ -327,6 +395,40 @@
       ]
     },
     {
+      "title": "Iran blames US for failure of talks as FM meets with Putin",
+      "published": "Mon, 27 Apr 2026 15:10:23 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "deescalation",
+      "impact": -0.16,
+      "raw_impact": -0.197,
+      "source_weight": 0.9,
+      "age_hours": 0.23,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260427-iran-blames-us-for-failure-of-talks-as-fm-meets-with-putin",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260427-iran-blames-us-for-failure-of-talks-as-fm-meets-with-putin"
+      ]
+    },
+    {
       "title": "Mood in Russia turns bleak as war in Ukraine drags on and economy suffers",
       "published": "Sun, 26 Apr 2026 09:00:03 +0000",
       "actors": [
@@ -335,10 +437,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.17,
-      "raw_impact": 0.237,
+      "impact": 0.15,
+      "raw_impact": 0.207,
       "source_weight": 0.9,
-      "age_hours": 28.09,
+      "age_hours": 30.4,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -369,10 +471,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.183,
+      "impact": -0.122,
+      "raw_impact": -0.16,
       "source_weight": 0.85,
-      "age_hours": 1.54,
+      "age_hours": 3.85,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -395,37 +497,71 @@
       ]
     },
     {
-      "title": "Middle East war live: Lebanon\u2019s Aoun says will not accept 'humiliating' deal in Israel talks",
-      "published": "Mon, 27 Apr 2026 02:45:24 GMT",
+      "title": "The War in Iran Has Upended the Global Economy. The U.S. Has Been Mostly Spared.",
+      "published": "Mon, 27 Apr 2026 15:03:45 +0000",
       "actors": [
         "iran",
-        "israel"
+        "us"
       ],
-      "state_key": "iran_israel",
-      "class": "deescalation",
-      "impact": -0.089,
-      "raw_impact": -0.11,
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.196,
       "source_weight": 0.9,
-      "age_hours": 10.33,
+      "age_hours": 0.34,
       "confidence": 0.67,
-      "signal_total": -0.2,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/middle-east/20260427-middle-east-war-live-putin-iran-foreign-minister-us-iran-talks",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.nytimes.com/2026/04/27/business/economy/iran-war-global-growth.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260427-middle-east-war-live-putin-iran-foreign-minister-us-iran-talks"
+        "https://www.nytimes.com/2026/04/27/business/economy/iran-war-global-growth.html"
+      ]
+    },
+    {
+      "title": "U.S. offers no help with Iran war\u2019s fallout, Thai foreign minister says",
+      "published": "Mon, 27 Apr 2026 13:13:42 +0000",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.176,
+      "source_weight": 0.9,
+      "age_hours": 2.17,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/04/27/thailand-war-iran/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/27/thailand-war-iran/"
       ]
     },
     {
@@ -437,10 +573,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.198,
+      "impact": 0.039,
+      "raw_impact": 0.173,
       "source_weight": 0.9,
-      "age_hours": 0.19,
+      "age_hours": 2.49,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -471,10 +607,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.197,
+      "impact": 0.039,
+      "raw_impact": 0.172,
       "source_weight": 0.9,
-      "age_hours": 0.3,
+      "age_hours": 2.61,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -505,10 +641,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.039,
-      "raw_impact": -0.048,
+      "impact": -0.034,
+      "raw_impact": -0.042,
       "source_weight": 0.9,
-      "age_hours": 24.6,
+      "age_hours": 26.9,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -531,74 +667,6 @@
       ]
     },
     {
-      "title": "King Charles' visit to US goes ahead despite Washington shooting",
-      "published": "Mon, 27 Apr 2026 09:08:17 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.159,
-      "source_weight": 0.9,
-      "age_hours": 3.95,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260427-king-charles-visit-to-us-goes-ahead-despite-washington-shooting",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260427-king-charles-visit-to-us-goes-ahead-despite-washington-shooting"
-      ]
-    },
-    {
-      "title": "HSBC \u2018reviewing\u2019 private school perk for bankers in Hong Kong",
-      "published": "Mon, 27 Apr 2026 08:31:05 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.154,
-      "source_weight": 0.9,
-      "age_hours": 4.57,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/business/2026/apr/27/hsbc-reviewing-private-school-perk-for-bankers-in-hong-kong",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/business/2026/apr/27/hsbc-reviewing-private-school-perk-for-bankers-in-hong-kong"
-      ]
-    },
-    {
       "title": "Trump doubts shooter motivated by Iran war as peace talks on hold",
       "published": "Sun, 26 Apr 2026 07:40:10 -0400",
       "actors": [
@@ -607,10 +675,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.035,
-      "raw_impact": -0.046,
+      "impact": -0.031,
+      "raw_impact": -0.04,
       "source_weight": 0.85,
-      "age_hours": 25.42,
+      "age_hours": 27.73,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -633,18 +701,18 @@
       ]
     },
     {
-      "title": "King Charles steps into U.K.-Trump standoff just as new security concerns arise",
-      "published": "Mon, 27 Apr 2026 09:00:31 +0000",
+      "title": "HSBC \u2018reviewing\u2019 private school perk for bankers in Hong Kong",
+      "published": "Mon, 27 Apr 2026 08:31:05 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.158,
+      "impact": 0.03,
+      "raw_impact": 0.134,
       "source_weight": 0.9,
-      "age_hours": 4.08,
+      "age_hours": 6.88,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -655,49 +723,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.washingtonpost.com/politics/2026/04/27/trump-king-charles-iran-tension/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
+      "link": "https://www.theguardian.com/business/2026/apr/27/hsbc-reviewing-private-school-perk-for-bankers-in-hong-kong",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.washingtonpost.com"
+        "www.theguardian.com"
       ],
       "cluster_links": [
-        "https://www.washingtonpost.com/politics/2026/04/27/trump-king-charles-iran-tension/"
-      ]
-    },
-    {
-      "title": "Iran\u2019s top diplomat visits Russia as part of efforts to end the war",
-      "published": "Mon, 27 Apr 2026 08:10:43 +0000",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.151,
-      "source_weight": 0.9,
-      "age_hours": 4.91,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/27/iran-foreign-minister-in-russia-for-putin-talks?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/27/iran-foreign-minister-in-russia-for-putin-talks?traffic_source=rss"
+        "https://www.theguardian.com/business/2026/apr/27/hsbc-reviewing-private-school-perk-for-bankers-in-hong-kong"
       ]
     },
     {
@@ -709,10 +743,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.065,
+      "impact": 0.013,
+      "raw_impact": 0.057,
       "source_weight": 0.9,
-      "age_hours": 19.4,
+      "age_hours": 21.71,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -743,10 +777,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.047,
+      "impact": 0.009,
+      "raw_impact": 0.041,
       "source_weight": 0.85,
-      "age_hours": 24.94,
+      "age_hours": 27.25,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -777,10 +811,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.039,
+      "impact": 0.008,
+      "raw_impact": 0.035,
       "source_weight": 0.9,
-      "age_hours": 28.08,
+      "age_hours": 30.39,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -814,7 +848,7 @@
       "impact": -0.003,
       "raw_impact": -0.003,
       "source_weight": 1.1,
-      "age_hours": 73.09,
+      "age_hours": 75.4,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -848,7 +882,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 97.09,
+      "age_hours": 99.4,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -882,7 +916,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 0.75,
-      "age_hours": 96.32,
+      "age_hours": 98.63,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -916,7 +950,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 166.77,
+      "age_hours": 169.08,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -950,7 +984,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 135.87,
+      "age_hours": 138.18,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -984,7 +1018,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1310.34,
+      "age_hours": 1312.65,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1018,7 +1052,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 94.08,
+      "age_hours": 96.39,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1052,7 +1086,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 96.48,
+      "age_hours": 98.79,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1206,17 +1240,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 227,
-    "classified_count": 31,
-    "paired_count": 31,
+    "event_count": 229,
+    "classified_count": 32,
+    "paired_count": 32,
     "valid_pair_updates": 6,
-    "top_driver_count": 31,
-    "total_signal": 9.0128,
+    "top_driver_count": 32,
+    "total_signal": 10.6576,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 111,
-      "no_signal": 50,
-      "invalid_pair": 35,
+      "no_actor": 114,
+      "no_signal": 46,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
