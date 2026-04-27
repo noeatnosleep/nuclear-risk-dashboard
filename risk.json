@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-27 15:23:55 UTC",
-  "probability": 20.38,
-  "uncertainty": 5.81,
+  "last_updated": "2026-04-27 17:07:52 UTC",
+  "probability": 20.56,
+  "uncertainty": 5.93,
   "state": {
-    "us_russia": 4.930696547817453,
-    "us_china": 3.1986396194041395,
-    "china_taiwan": 4.039727923880917,
-    "india_pakistan": 4.5000000000000435,
+    "us_russia": 5.040830785312557,
+    "us_china": 3.137396124756868,
+    "china_taiwan": 4.027479224951421,
+    "india_pakistan": 4.500000000000023,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.5855330865148245,
-    "iran_israel": 6.30881677091836,
+    "iran_us": 5.607939452211,
+    "iran_israel": 6.233941302531003,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.055702010941245
+    "russia_ukraine": 7.092091693312536
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 1.007,
-      "raw_impact": 1.007,
+      "impact": 0.911,
+      "raw_impact": 0.911,
       "source_weight": 1.0,
-      "age_hours": 5.32,
+      "age_hours": 7.06,
       "confidence": 0.889,
       "signal_total": 1.37,
       "signal_components": {
@@ -52,63 +52,29 @@
       ]
     },
     {
-      "title": "Russia attacks Odesa, claims Ukraine hit Zaporizhzhia nuclear plant",
-      "published": "Mon, 27 Apr 2026 09:16:36 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "strategic",
-      "impact": 0.9,
-      "raw_impact": 1.25,
-      "source_weight": 0.9,
-      "age_hours": 6.12,
-      "confidence": 0.96,
-      "signal_total": 2.1,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/27/russia-attacks-odesa-claims-ukraine-hit-zaporizhzhia-nuclear-plant?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/27/russia-attacks-odesa-claims-ukraine-hit-zaporizhzhia-nuclear-plant?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "The war on Iran is eroding nuclear non-proliferation",
-      "published": "Mon, 27 Apr 2026 08:43:37 +0000",
+      "title": "Iran offers Hormuz deal without nuclear talks, as it seeks broader buy-in",
+      "published": "Mon, 27 Apr 2026 15:50:25 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.9,
-      "raw_impact": 1.25,
+      "impact": 0.802,
+      "raw_impact": 1.114,
       "source_weight": 0.9,
-      "age_hours": 6.67,
-      "confidence": 0.97,
-      "signal_total": 2.1,
+      "age_hours": 1.29,
+      "confidence": 0.95,
+      "signal_total": 1.2,
       "signal_components": {
         "deescalation": 0.0,
-        "action": 0.9,
+        "action": 0.0,
         "movement": 0.0,
         "strategic": 1.2,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/opinions/2026/4/27/the-war-on-iran-is-eroding-nuclear-non-proliferation?traffic_source=rss",
+      "link": "https://www.aljazeera.com/news/2026/4/27/iran-offers-hormuz-deal-without-nuclear-talks-as-it-seeks-broader-buy-in?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
@@ -116,7 +82,7 @@
         "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/opinions/2026/4/27/the-war-on-iran-is-eroding-nuclear-non-proliferation?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/4/27/iran-offers-hormuz-deal-without-nuclear-talks-as-it-seeks-broader-buy-in?traffic_source=rss"
       ]
     },
     {
@@ -128,10 +94,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.861,
-      "raw_impact": 0.956,
+      "impact": 0.779,
+      "raw_impact": 0.865,
       "source_weight": 0.9,
-      "age_hours": 6.22,
+      "age_hours": 7.95,
       "confidence": 0.889,
       "signal_total": 1.37,
       "signal_components": {
@@ -163,10 +129,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.833,
-      "raw_impact": 1.156,
+      "impact": 0.753,
+      "raw_impact": 1.046,
       "source_weight": 0.9,
-      "age_hours": 0.64,
+      "age_hours": 2.38,
       "confidence": 0.88,
       "signal_total": 1.2,
       "signal_components": {
@@ -197,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.831,
-      "raw_impact": 1.154,
+      "impact": 0.752,
+      "raw_impact": 1.044,
       "source_weight": 0.9,
-      "age_hours": 0.67,
+      "age_hours": 2.41,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -231,10 +197,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.698,
-      "raw_impact": 1.163,
+      "impact": 0.631,
+      "raw_impact": 1.052,
       "source_weight": 0.75,
-      "age_hours": 7.47,
+      "age_hours": 9.2,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -266,10 +232,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.55,
-      "raw_impact": 0.55,
+      "impact": 0.498,
+      "raw_impact": 0.498,
       "source_weight": 1.0,
-      "age_hours": 8.52,
+      "age_hours": 10.25,
       "confidence": 0.83,
       "signal_total": 0.9,
       "signal_components": {
@@ -292,41 +258,6 @@
       ]
     },
     {
-      "title": "Israel, Hezbollah trade accusations over Lebanon truce violations",
-      "published": "Mon, 27 Apr 2026 10:34:24 GMT",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.443,
-      "raw_impact": 0.492,
-      "source_weight": 0.9,
-      "age_hours": 4.83,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260427-israel-hezbollah-trade-accusations-over-lebanon-truce-violations",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260427-israel-hezbollah-trade-accusations-over-lebanon-truce-violations"
-      ]
-    },
-    {
       "title": "Israel and Hezbollah Trade Strikes in Lebanon, as Iran Talks Remain on Hold",
       "published": "Sun, 26 Apr 2026 22:27:09 +0000",
       "actors": [
@@ -335,10 +266,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.304,
-      "raw_impact": 0.338,
+      "impact": 0.275,
+      "raw_impact": 0.306,
       "source_weight": 0.9,
-      "age_hours": 16.95,
+      "age_hours": 18.68,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -369,10 +300,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.296,
-      "raw_impact": 0.435,
+      "impact": 0.268,
+      "raw_impact": 0.394,
       "source_weight": 0.85,
-      "age_hours": 27.25,
+      "age_hours": 28.99,
       "confidence": 0.955,
       "signal_total": 2.1,
       "signal_components": {
@@ -403,10 +334,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.16,
-      "raw_impact": -0.197,
+      "impact": -0.145,
+      "raw_impact": -0.179,
       "source_weight": 0.9,
-      "age_hours": 0.23,
+      "age_hours": 1.96,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -437,10 +368,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.15,
-      "raw_impact": 0.207,
+      "impact": 0.135,
+      "raw_impact": 0.188,
       "source_weight": 0.9,
-      "age_hours": 30.4,
+      "age_hours": 32.13,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -463,7 +394,7 @@
       ]
     },
     {
-      "title": "Iran's flurry of diplomacy, as Trump insists U.S. has 'the cards'",
+      "title": "Iran's flurry of diplomacy continues in Russia, as Trump insists U.S. has 'the cards'",
       "published": "Mon, 27 Apr 2026 07:32:55 -0400",
       "actors": [
         "us",
@@ -471,10 +402,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.122,
-      "raw_impact": -0.16,
+      "impact": -0.111,
+      "raw_impact": -0.145,
       "source_weight": 0.85,
-      "age_hours": 3.85,
+      "age_hours": 5.58,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -497,18 +428,52 @@
       ]
     },
     {
-      "title": "The War in Iran Has Upended the Global Economy. The U.S. Has Been Mostly Spared.",
-      "published": "Mon, 27 Apr 2026 15:03:45 +0000",
+      "title": "Will the Iran war push millions back into poverty?",
+      "published": "Mon, 27 Apr 2026 16:23:27 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.196,
+      "impact": 0.043,
+      "raw_impact": 0.192,
       "source_weight": 0.9,
-      "age_hours": 0.34,
+      "age_hours": 0.74,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/counting-the-cost/2026/4/27/will-the-iran-war-push-millions-back-into-poverty?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/counting-the-cost/2026/4/27/will-the-iran-war-push-millions-back-into-poverty?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Germany\u2019s Merz says US has no strategy in Iran war",
+      "published": "Mon, 27 Apr 2026 15:41:05 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.184,
+      "source_weight": 0.9,
+      "age_hours": 1.45,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -519,15 +484,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/2026/04/27/business/economy/iran-war-global-growth.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/27/germanys-merz-says-us-has-no-strategy-in-iran-war?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/04/27/business/economy/iran-war-global-growth.html"
+        "https://www.aljazeera.com/video/newsfeed/2026/4/27/germanys-merz-says-us-has-no-strategy-in-iran-war?traffic_source=rss"
       ]
     },
     {
@@ -539,10 +504,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.176,
+      "impact": 0.036,
+      "raw_impact": 0.16,
       "source_weight": 0.9,
-      "age_hours": 2.17,
+      "age_hours": 3.9,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -573,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
+      "impact": 0.035,
+      "raw_impact": 0.157,
       "source_weight": 0.9,
-      "age_hours": 2.49,
+      "age_hours": 4.23,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -607,10 +572,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.172,
+      "impact": 0.035,
+      "raw_impact": 0.156,
       "source_weight": 0.9,
-      "age_hours": 2.61,
+      "age_hours": 4.34,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -641,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.034,
-      "raw_impact": -0.042,
+      "impact": -0.031,
+      "raw_impact": -0.038,
       "source_weight": 0.9,
-      "age_hours": 26.9,
+      "age_hours": 28.64,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -675,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.031,
-      "raw_impact": -0.04,
+      "impact": -0.028,
+      "raw_impact": -0.036,
       "source_weight": 0.85,
-      "age_hours": 27.73,
+      "age_hours": 29.46,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -709,10 +674,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.134,
+      "impact": 0.027,
+      "raw_impact": 0.122,
       "source_weight": 0.9,
-      "age_hours": 6.88,
+      "age_hours": 8.61,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -743,10 +708,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.057,
+      "impact": 0.011,
+      "raw_impact": 0.052,
       "source_weight": 0.9,
-      "age_hours": 21.71,
+      "age_hours": 23.45,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -777,10 +742,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.041,
+      "impact": 0.008,
+      "raw_impact": 0.037,
       "source_weight": 0.85,
-      "age_hours": 27.25,
+      "age_hours": 28.98,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -811,10 +776,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.035,
+      "impact": 0.007,
+      "raw_impact": 0.031,
       "source_weight": 0.9,
-      "age_hours": 30.39,
+      "age_hours": 32.13,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -846,9 +811,9 @@
       "state_key": "iran_us",
       "class": "deescalation",
       "impact": -0.003,
-      "raw_impact": -0.003,
+      "raw_impact": -0.002,
       "source_weight": 1.1,
-      "age_hours": 75.4,
+      "age_hours": 77.13,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -882,7 +847,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 99.4,
+      "age_hours": 101.13,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -905,40 +870,6 @@
       ]
     },
     {
-      "title": "Caspar Hobhouse quoted in Euronews",
-      "published": "Thu, 23 Apr 2026 12:46:21 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.001,
-      "raw_impact": -0.001,
-      "source_weight": 0.75,
-      "age_hours": 98.63,
-      "confidence": 0.735,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.iss.europa.eu/press/caspar-hobhouse-quoted-euronews",
-      "source": "https://www.iss.europa.eu/rss.xml",
-      "source_domain": "www.iss.europa.eu",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.iss.europa.eu"
-      ],
-      "cluster_links": [
-        "https://www.iss.europa.eu/press/caspar-hobhouse-quoted-euronews"
-      ]
-    },
-    {
       "title": "U.S. Forces Disable Vessel Attempting to Enter Iranian Port, Violate Blockade",
       "published": "Mon, 20 Apr 2026 14:19:00 GMT",
       "actors": [
@@ -950,7 +881,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 169.08,
+      "age_hours": 170.81,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -984,7 +915,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 138.18,
+      "age_hours": 139.92,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1018,7 +949,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1312.65,
+      "age_hours": 1314.38,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -1052,7 +983,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 96.39,
+      "age_hours": 98.12,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1075,6 +1006,40 @@
       ]
     },
     {
+      "title": "Caspar Hobhouse quoted in Euronews",
+      "published": "Thu, 23 Apr 2026 12:46:21 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": 0.0,
+      "raw_impact": -0.001,
+      "source_weight": 0.75,
+      "age_hours": 100.36,
+      "confidence": 0.735,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.iss.europa.eu/press/caspar-hobhouse-quoted-euronews",
+      "source": "https://www.iss.europa.eu/rss.xml",
+      "source_domain": "www.iss.europa.eu",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.iss.europa.eu"
+      ],
+      "cluster_links": [
+        "https://www.iss.europa.eu/press/caspar-hobhouse-quoted-euronews"
+      ]
+    },
+    {
       "title": "Steven Everts' participation in CIDOB conference covered by Ara",
       "published": "Thu, 23 Apr 2026 12:36:20 +0000",
       "actors": [
@@ -1086,7 +1051,7 @@
       "impact": 0.0,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 98.79,
+      "age_hours": 100.53,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1241,16 +1206,16 @@
   ],
   "debug": {
     "event_count": 229,
-    "classified_count": 32,
-    "paired_count": 32,
+    "classified_count": 31,
+    "paired_count": 31,
     "valid_pair_updates": 6,
-    "top_driver_count": 32,
-    "total_signal": 10.6576,
+    "top_driver_count": 31,
+    "total_signal": 8.318,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 114,
-      "no_signal": 46,
-      "invalid_pair": 37,
+      "no_signal": 44,
+      "invalid_pair": 40,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
