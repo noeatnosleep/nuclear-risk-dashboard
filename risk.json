@@ -1,34 +1,69 @@
 {
-  "last_updated": "2026-04-28 09:24:26 UTC",
-  "probability": 18.21,
-  "uncertainty": 5.79,
+  "last_updated": "2026-04-28 11:21:44 UTC",
+  "probability": 17.97,
+  "uncertainty": 5.88,
   "state": {
-    "us_russia": 4.459054426005974,
-    "us_china": 3.033042346583001,
-    "china_taiwan": 4.0066084693166,
+    "us_russia": 4.286032265887338,
+    "us_china": 3.190017553025302,
+    "china_taiwan": 4.03800351060506,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.63317222402742,
-    "iran_israel": 5.734933011313832,
+    "iran_us": 5.633247744014567,
+    "iran_israel": 5.772154377019222,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.118606236640001
+    "russia_ukraine": 6.889078607411348
   },
   "top_drivers": [
     {
-      "title": "Middle East war live: Trump not happy with Iran's latest peace proposal, US official says",
-      "published": "Tue, 28 Apr 2026 05:02:36 GMT",
+      "title": "Deadlock over Iran's nuclear program and the Strait of Hormuz cripples peace efforts",
+      "published": "Tue, 28 Apr 2026 06:59:44 -0400",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.671,
-      "raw_impact": 0.933,
+      "impact": 0.85,
+      "raw_impact": 1.25,
+      "source_weight": 0.85,
+      "age_hours": 0.37,
+      "confidence": 0.811,
+      "signal_total": 1.79,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.11,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/28/nx-s1-5802283/iran-middle-east-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/28/nx-s1-5802283/iran-middle-east-updates"
+      ]
+    },
+    {
+      "title": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends",
+      "published": "Tue, 28 Apr 2026 09:34:02 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.779,
+      "raw_impact": 1.082,
       "source_weight": 0.9,
-      "age_hours": 4.36,
+      "age_hours": 1.8,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -39,7 +74,7 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/middle-east/20260428-middle-east-war-live-trump-not-happy-with-iran-s-latest-peace-proposal-us-official-says",
+      "link": "https://www.france24.com/en/video/20260428-iran-offers-to-reopen-strait-of-hormuz-if-us-lifts-its-blockade-and-the-war-ends",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -47,42 +82,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260428-middle-east-war-live-trump-not-happy-with-iran-s-latest-peace-proposal-us-official-says"
-      ]
-    },
-    {
-      "title": "Iran\u2019s hardliners clash over talks with US",
-      "published": "Tue, 28 Apr 2026 04:00:29 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.495,
-      "raw_impact": 0.688,
-      "source_weight": 0.9,
-      "age_hours": 5.4,
-      "confidence": 0.746,
-      "signal_total": 0.94,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.06,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/53a428c7-5242-4e90-ba87-71730128379a",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/53a428c7-5242-4e90-ba87-71730128379a"
+        "https://www.france24.com/en/video/20260428-iran-offers-to-reopen-strait-of-hormuz-if-us-lifts-its-blockade-and-the-war-ends"
       ]
     },
     {
@@ -94,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.429,
-      "raw_impact": 0.596,
+      "impact": 0.383,
+      "raw_impact": 0.532,
       "source_weight": 0.9,
-      "age_hours": 12.11,
+      "age_hours": 14.07,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -128,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.403,
-      "raw_impact": 0.56,
+      "impact": 0.36,
+      "raw_impact": 0.5,
       "source_weight": 0.9,
-      "age_hours": 13.19,
+      "age_hours": 15.15,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -162,10 +162,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.356,
-      "raw_impact": 0.356,
+      "impact": 0.318,
+      "raw_impact": 0.318,
       "source_weight": 1.0,
-      "age_hours": 23.33,
+      "age_hours": 25.29,
       "confidence": 0.889,
       "signal_total": 1.37,
       "signal_components": {
@@ -197,10 +197,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.304,
-      "raw_impact": 0.338,
+      "impact": 0.272,
+      "raw_impact": 0.302,
       "source_weight": 0.9,
-      "age_hours": 24.23,
+      "age_hours": 26.18,
       "confidence": 0.889,
       "signal_total": 1.37,
       "signal_components": {
@@ -232,10 +232,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.246,
-      "raw_impact": 0.411,
+      "impact": 0.22,
+      "raw_impact": 0.367,
       "source_weight": 0.75,
-      "age_hours": 25.47,
+      "age_hours": 27.43,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -267,10 +267,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.194,
-      "raw_impact": 0.194,
+      "impact": 0.174,
+      "raw_impact": 0.174,
       "source_weight": 1.0,
-      "age_hours": 26.52,
+      "age_hours": 28.48,
       "confidence": 0.83,
       "signal_total": 0.9,
       "signal_components": {
@@ -301,10 +301,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.152,
-      "raw_impact": -0.188,
+      "impact": -0.136,
+      "raw_impact": -0.168,
       "source_weight": 0.9,
-      "age_hours": 1.06,
+      "age_hours": 3.02,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -327,37 +327,71 @@
       ]
     },
     {
-      "title": "Chernobyl survivors have paid the ultimate price in the Russia-Ukraine war",
-      "published": "Sun, 26 Apr 2026 08:08:46 -0400",
+      "title": "FirstFT: Oil price rises as US-Iran talks stall",
+      "published": "Tue, 28 Apr 2026 10:37:19 GMT",
       "actors": [
-        "russia",
-        "ukraine"
+        "us",
+        "china"
       ],
-      "state_key": "russia_ukraine",
-      "class": "strategic",
-      "impact": 0.105,
-      "raw_impact": 0.154,
-      "source_weight": 0.85,
-      "age_hours": 45.26,
-      "confidence": 0.955,
-      "signal_total": 2.1,
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.192,
+      "source_weight": 0.9,
+      "age_hours": 0.74,
+      "confidence": 0.68,
+      "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
-        "action": 0.9,
+        "action": 0.0,
         "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.npr.org/2026/04/26/nx-s1-5793661/chernobyl-survivors-have-paid-the-ultimate-price-in-the-russia-ukraine-war",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
+      "link": "https://www.ft.com/content/347f9969-bff8-4679-a7f1-dbfb9e22df52",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.npr.org"
+        "www.ft.com"
       ],
       "cluster_links": [
-        "https://www.npr.org/2026/04/26/nx-s1-5793661/chernobyl-survivors-have-paid-the-ultimate-price-in-the-russia-ukraine-war"
+        "https://www.ft.com/content/347f9969-bff8-4679-a7f1-dbfb9e22df52"
+      ]
+    },
+    {
+      "title": "Britain's King Charles meets Trump in bid to salvage ties",
+      "published": "Tue, 28 Apr 2026 09:29:12 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.179,
+      "source_weight": 0.9,
+      "age_hours": 1.88,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260428-britain-s-king-charles-meets-trump-in-bid-to-salvage-ties",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260428-britain-s-king-charles-meets-trump-in-bid-to-salvage-ties"
       ]
     },
     {
@@ -369,10 +403,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.043,
-      "raw_impact": -0.057,
+      "impact": -0.039,
+      "raw_impact": -0.051,
       "source_weight": 0.85,
-      "age_hours": 21.86,
+      "age_hours": 23.81,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -403,10 +437,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.146,
+      "impact": 0.029,
+      "raw_impact": 0.131,
       "source_weight": 0.9,
-      "age_hours": 5.4,
+      "age_hours": 7.35,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -429,40 +463,6 @@
       ]
     },
     {
-      "title": "Abu Dhabi state energy group to invest \u2018tens of billions\u2019 in US push",
-      "published": "Tue, 28 Apr 2026 04:00:29 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.146,
-      "source_weight": 0.9,
-      "age_hours": 5.4,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/e48d4c9b-36b8-476c-81a8-faccb1a981c0",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/e48d4c9b-36b8-476c-81a8-faccb1a981c0"
-      ]
-    },
-    {
       "title": "U.S. offers no help with Iran war\u2019s fallout, Thai foreign minister says",
       "published": "Tue, 28 Apr 2026 02:34:01 +0000",
       "actors": [
@@ -471,10 +471,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.135,
+      "impact": 0.027,
+      "raw_impact": 0.12,
       "source_weight": 0.9,
-      "age_hours": 6.84,
+      "age_hours": 8.8,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -505,10 +505,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.012,
-      "raw_impact": -0.015,
+      "impact": -0.011,
+      "raw_impact": -0.013,
       "source_weight": 0.9,
-      "age_hours": 44.91,
+      "age_hours": 46.87,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -531,40 +531,6 @@
       ]
     },
     {
-      "title": "How China is responding to the stalling of talks between the U.S. and Iran",
-      "published": "Sun, 26 Apr 2026 08:08:51 -0400",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "rhetoric",
-      "impact": 0.003,
-      "raw_impact": 0.015,
-      "source_weight": 0.85,
-      "age_hours": 45.26,
-      "confidence": 0.675,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/26/nx-s1-5797410/how-china-is-responding-to-the-stalling-of-talks-between-the-u-s-and-iran",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/26/nx-s1-5797410/how-china-is-responding-to-the-stalling-of-talks-between-the-u-s-and-iran"
-      ]
-    },
-    {
       "title": "MIDDLE EAST LIVE 24 April: Israel-Lebanon ceasefire extended as humanitarian concerns persist",
       "published": "Fri, 24 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -576,7 +542,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 93.41,
+      "age_hours": 95.36,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -610,7 +576,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 187.09,
+      "age_hours": 189.05,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -644,7 +610,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 156.19,
+      "age_hours": 158.15,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -678,7 +644,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1330.66,
+      "age_hours": 1332.61,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -712,7 +678,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 114.4,
+      "age_hours": 116.35,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -746,7 +712,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 116.63,
+      "age_hours": 118.59,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -780,7 +746,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 116.8,
+      "age_hours": 118.76,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -935,16 +901,16 @@
   ],
   "debug": {
     "event_count": 227,
-    "classified_count": 23,
-    "paired_count": 23,
+    "classified_count": 22,
+    "paired_count": 22,
     "valid_pair_updates": 6,
-    "top_driver_count": 23,
-    "total_signal": 4.5752,
+    "top_driver_count": 22,
+    "total_signal": 5.0843,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 115,
-      "no_signal": 51,
-      "invalid_pair": 38,
+      "no_actor": 110,
+      "no_signal": 49,
+      "invalid_pair": 46,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
