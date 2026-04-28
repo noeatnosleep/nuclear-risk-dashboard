@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-28 13:14:52 UTC",
-  "probability": 17.82,
-  "uncertainty": 5.51,
+  "last_updated": "2026-04-28 15:57:57 UTC",
+  "probability": 17.42,
+  "uncertainty": 5.9,
   "state": {
-    "us_russia": 4.151065632590893,
-    "us_china": 3.255613299938144,
-    "china_taiwan": 4.051122659987628,
+    "us_russia": 4.073743720918795,
+    "us_china": 3.135794565592139,
+    "china_taiwan": 4.027158913118427,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633287864007739,
-    "iran_israel": 6.175832012791461,
+    "iran_us": 5.6333091777541116,
+    "iran_israel": 6.116420828191031,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.688345877429452
+    "russia_ukraine": 6.896933747384397
   },
   "top_drivers": [
     {
@@ -28,7 +28,7 @@
       "impact": 0.85,
       "raw_impact": 1.25,
       "source_weight": 0.85,
-      "age_hours": 2.25,
+      "age_hours": 4.97,
       "confidence": 0.811,
       "signal_total": 1.79,
       "signal_components": {
@@ -52,6 +52,40 @@
       ]
     },
     {
+      "title": "Third Ukrainian strike hits Russian oil refinery and prompts evacuations",
+      "published": "Tue, 28 Apr 2026 14:32:20 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.829,
+      "raw_impact": 0.829,
+      "source_weight": 1.0,
+      "age_hours": 1.43,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cvgzd4qk7qgo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cvgzd4qk7qgo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "What\u2019s in Iran\u2019s latest proposal \u2013 and how has the US responded?",
       "published": "Tue, 28 Apr 2026 12:56:40 +0000",
       "actors": [
@@ -60,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.849,
-      "raw_impact": 1.179,
+      "impact": 0.726,
+      "raw_impact": 1.008,
       "source_weight": 0.9,
-      "age_hours": 0.3,
+      "age_hours": 3.02,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -94,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.786,
-      "raw_impact": 1.093,
+      "impact": 0.672,
+      "raw_impact": 0.934,
       "source_weight": 0.9,
-      "age_hours": 1.62,
+      "age_hours": 4.34,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -120,74 +154,6 @@
       ]
     },
     {
-      "title": "How the US-Israeli war is collapsing the sanctions regime on Iran",
-      "published": "Tue, 28 Apr 2026 11:19:22 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.773,
-      "raw_impact": 1.074,
-      "source_weight": 0.9,
-      "age_hours": 1.93,
-      "confidence": 0.96,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/opinions/2026/4/28/how-the-us-israeli-war-is-collapsing-the-sanctions-regime-on-iran?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/opinions/2026/4/28/how-the-us-israeli-war-is-collapsing-the-sanctions-regime-on-iran?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends",
-      "published": "Tue, 28 Apr 2026 09:34:02 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.698,
-      "raw_impact": 0.97,
-      "source_weight": 0.9,
-      "age_hours": 3.68,
-      "confidence": 0.96,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260428-iran-offers-to-reopen-strait-of-hormuz-if-us-lifts-its-blockade-and-the-war-ends",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260428-iran-offers-to-reopen-strait-of-hormuz-if-us-lifts-its-blockade-and-the-war-ends"
-      ]
-    },
-    {
       "title": "Iran Offers Plan to Focus on Strait of Hormuz and Delay Nuclear Talks",
       "published": "Mon, 27 Apr 2026 20:12:55 +0000",
       "actors": [
@@ -196,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.323,
-      "raw_impact": 0.449,
+      "impact": 0.276,
+      "raw_impact": 0.383,
       "source_weight": 0.9,
-      "age_hours": 17.03,
+      "age_hours": 19.75,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -230,10 +196,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.285,
-      "raw_impact": 0.285,
+      "impact": 0.244,
+      "raw_impact": 0.244,
       "source_weight": 1.0,
-      "age_hours": 27.17,
+      "age_hours": 29.89,
       "confidence": 0.889,
       "signal_total": 1.37,
       "signal_components": {
@@ -257,41 +223,6 @@
       ]
     },
     {
-      "title": "Fighting \u2018Sacred\u2019 War in Ukraine, North Korea and Russia Pledge to Deepen Ties",
-      "published": "Mon, 27 Apr 2026 09:10:40 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.244,
-      "raw_impact": 0.271,
-      "source_weight": 0.9,
-      "age_hours": 28.07,
-      "confidence": 0.889,
-      "signal_total": 1.37,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.03,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/27/world/asia/north-korea-memorial-russia-ukraine.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/27/world/asia/north-korea-memorial-russia-ukraine.html"
-      ]
-    },
-    {
       "title": "Putin\u2019s troubles: Facing mounting economic and military pressure, the Kremlin may try to muddle through \u2013 or escalate",
       "published": "Mon, 27 Apr 2026 07:55:57 +0000",
       "actors": [
@@ -300,10 +231,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.198,
-      "raw_impact": 0.329,
+      "impact": 0.169,
+      "raw_impact": 0.281,
       "source_weight": 0.75,
-      "age_hours": 29.32,
+      "age_hours": 32.03,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -327,40 +258,6 @@
       ]
     },
     {
-      "title": "Kim Jong Un opens memorial for N Korean soldiers killed in Ukraine war",
-      "published": "Mon, 27 Apr 2026 06:52:59 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.156,
-      "raw_impact": 0.156,
-      "source_weight": 1.0,
-      "age_hours": 30.36,
-      "confidence": 0.83,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cql7l707244o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cql7l707244o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Life in Tehran since the ceasefire: How Iranian society is evolving",
       "published": "Tue, 28 Apr 2026 12:06:03 GMT",
       "actors": [
@@ -369,10 +266,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.151,
-      "raw_impact": -0.187,
+      "impact": -0.13,
+      "raw_impact": -0.16,
       "source_weight": 0.9,
-      "age_hours": 1.15,
+      "age_hours": 3.87,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -395,6 +292,74 @@
       ]
     },
     {
+      "title": "The cost of 76 years of US wars, from Korea to Iran",
+      "published": "Tue, 28 Apr 2026 14:30:27 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.184,
+      "source_weight": 0.9,
+      "age_hours": 1.46,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/28/the-cost-of-76-years-of-us-wars-from-korea-to-iran?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/28/the-cost-of-76-years-of-us-wars-from-korea-to-iran?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Coffee, fuel and houses: why Trump has an inflation problem",
+      "published": "Tue, 28 Apr 2026 13:52:03 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.177,
+      "source_weight": 0.9,
+      "age_hours": 2.1,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/401a7647-5593-4a58-8592-92caf9dbd440",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/401a7647-5593-4a58-8592-92caf9dbd440"
+      ]
+    },
+    {
       "title": "King Charles in US for state visit amid differences over Iran war",
       "published": "Tue, 28 Apr 2026 12:38:17 GMT",
       "actors": [
@@ -403,10 +368,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.193,
+      "impact": 0.037,
+      "raw_impact": 0.165,
       "source_weight": 0.9,
-      "age_hours": 0.61,
+      "age_hours": 3.33,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -437,10 +402,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.191,
+      "impact": 0.037,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 0.79,
+      "age_hours": 3.51,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -463,40 +428,6 @@
       ]
     },
     {
-      "title": "FirstFT: Oil price rises as US-Iran talks stall",
-      "published": "Tue, 28 Apr 2026 10:37:19 GMT",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.172,
-      "source_weight": 0.9,
-      "age_hours": 2.63,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/347f9969-bff8-4679-a7f1-dbfb9e22df52",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/347f9969-bff8-4679-a7f1-dbfb9e22df52"
-      ]
-    },
-    {
       "title": "Iran's flurry of diplomacy continues in Russia, as Trump reviews Iran's latest proposal",
       "published": "Mon, 27 Apr 2026 07:32:55 -0400",
       "actors": [
@@ -505,10 +436,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.035,
-      "raw_impact": -0.045,
+      "impact": -0.03,
+      "raw_impact": -0.039,
       "source_weight": 0.85,
-      "age_hours": 25.7,
+      "age_hours": 28.42,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -539,10 +470,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.108,
+      "impact": 0.021,
+      "raw_impact": 0.092,
       "source_weight": 0.9,
-      "age_hours": 10.68,
+      "age_hours": 13.4,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -576,7 +507,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 97.25,
+      "age_hours": 99.97,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -610,7 +541,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 1.1,
-      "age_hours": 190.93,
+      "age_hours": 193.65,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -644,7 +575,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 160.03,
+      "age_hours": 162.75,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -678,7 +609,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1334.5,
+      "age_hours": 1337.22,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -712,7 +643,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 118.24,
+      "age_hours": 120.96,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -746,7 +677,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 120.48,
+      "age_hours": 123.19,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -780,7 +711,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 120.64,
+      "age_hours": 123.36,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -935,16 +866,16 @@
   ],
   "debug": {
     "event_count": 225,
-    "classified_count": 23,
-    "paired_count": 23,
-    "valid_pair_updates": 6,
-    "top_driver_count": 23,
-    "total_signal": 7.8764,
+    "classified_count": 21,
+    "paired_count": 21,
+    "valid_pair_updates": 4,
+    "top_driver_count": 21,
+    "total_signal": 5.7979,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 113,
-      "no_signal": 47,
-      "invalid_pair": 42,
+      "no_actor": 111,
+      "no_signal": 50,
+      "invalid_pair": 43,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
