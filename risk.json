@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-28 15:57:57 UTC",
-  "probability": 17.42,
-  "uncertainty": 5.9,
+  "last_updated": "2026-04-28 17:54:08 UTC",
+  "probability": 17.75,
+  "uncertainty": 5.73,
   "state": {
-    "us_russia": 4.073743720918795,
-    "us_china": 3.135794565592139,
-    "china_taiwan": 4.027158913118427,
+    "us_russia": 4.235413835340631,
+    "us_china": 3.072140862970824,
+    "china_taiwan": 4.014428172594164,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6333091777541116,
-    "iran_israel": 6.116420828191031,
+    "iran_us": 5.633320500681871,
+    "iran_israel": 6.026444554484772,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.896933747384397
+    "russia_ukraine": 7.007746053297961
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.85,
-      "raw_impact": 1.25,
+      "impact": 0.817,
+      "raw_impact": 1.201,
       "source_weight": 0.85,
-      "age_hours": 4.97,
+      "age_hours": 6.91,
       "confidence": 0.811,
       "signal_total": 1.79,
       "signal_components": {
@@ -52,6 +52,40 @@
       ]
     },
     {
+      "title": "Ukrainian drones strike Russia\u2019s Tuapse refinery for third time",
+      "published": "Tue, 28 Apr 2026 16:48:19 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.76,
+      "raw_impact": 0.845,
+      "source_weight": 0.9,
+      "age_hours": 1.1,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/28/ukrainian-drones-strike-russias-tuapse-refinery-for-third-time?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/28/ukrainian-drones-strike-russias-tuapse-refinery-for-third-time?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Third Ukrainian strike hits Russian oil refinery and prompts evacuations",
       "published": "Tue, 28 Apr 2026 14:32:20 GMT",
       "actors": [
@@ -60,10 +94,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.829,
-      "raw_impact": 0.829,
+      "impact": 0.741,
+      "raw_impact": 0.741,
       "source_weight": 1.0,
-      "age_hours": 1.43,
+      "age_hours": 3.36,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -94,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.726,
-      "raw_impact": 1.008,
+      "impact": 0.649,
+      "raw_impact": 0.901,
       "source_weight": 0.9,
-      "age_hours": 3.02,
+      "age_hours": 4.96,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -128,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.672,
-      "raw_impact": 0.934,
+      "impact": 0.601,
+      "raw_impact": 0.835,
       "source_weight": 0.9,
-      "age_hours": 4.34,
+      "age_hours": 6.28,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -162,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.276,
-      "raw_impact": 0.383,
+      "impact": 0.247,
+      "raw_impact": 0.343,
       "source_weight": 0.9,
-      "age_hours": 19.75,
+      "age_hours": 21.69,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -196,10 +230,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.244,
-      "raw_impact": 0.244,
+      "impact": 0.218,
+      "raw_impact": 0.218,
       "source_weight": 1.0,
-      "age_hours": 29.89,
+      "age_hours": 31.83,
       "confidence": 0.889,
       "signal_total": 1.37,
       "signal_components": {
@@ -231,10 +265,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.169,
-      "raw_impact": 0.281,
+      "impact": 0.151,
+      "raw_impact": 0.252,
       "source_weight": 0.75,
-      "age_hours": 32.03,
+      "age_hours": 33.97,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -258,29 +292,63 @@
       ]
     },
     {
-      "title": "Life in Tehran since the ceasefire: How Iranian society is evolving",
-      "published": "Tue, 28 Apr 2026 12:06:03 GMT",
+      "title": "Is a US-Iran deal still possible?",
+      "published": "Tue, 28 Apr 2026 16:28:13 +0000",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.184,
+      "source_weight": 0.9,
+      "age_hours": 1.43,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/the-take-2/2026/4/28/is-a-us-iran-deal-still-possible?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/the-take-2/2026/4/28/is-a-us-iran-deal-still-possible?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "King Charles to promote British-American unity in speech to Congress",
+      "published": "Tue, 28 Apr 2026 15:30:01 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.13,
-      "raw_impact": -0.16,
+      "class": "rhetoric",
+      "impact": 0.039,
+      "raw_impact": 0.174,
       "source_weight": 0.9,
-      "age_hours": 3.87,
-      "confidence": 0.75,
-      "signal_total": -0.2,
+      "age_hours": 2.4,
+      "confidence": 0.67,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/tv-shows/focus/20260428-life-in-tehran-since-the-ceasefire-how-iranian-society-is-evolving",
+      "link": "https://www.france24.com/en/video/20260428-king-charles-to-promote-british-american-unity-in-speech-to-congress",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -288,7 +356,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/tv-shows/focus/20260428-life-in-tehran-since-the-ceasefire-how-iranian-society-is-evolving"
+        "https://www.france24.com/en/video/20260428-king-charles-to-promote-british-american-unity-in-speech-to-congress"
       ]
     },
     {
@@ -300,10 +368,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.184,
+      "impact": 0.037,
+      "raw_impact": 0.164,
       "source_weight": 0.9,
-      "age_hours": 1.46,
+      "age_hours": 3.39,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -326,7 +394,7 @@
       ]
     },
     {
-      "title": "Coffee, fuel and houses: why Trump has an inflation problem",
+      "title": "Why Donald Trump has an inflation problem",
       "published": "Tue, 28 Apr 2026 13:52:03 GMT",
       "actors": [
         "iran",
@@ -334,10 +402,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.177,
+      "impact": 0.036,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 2.1,
+      "age_hours": 4.03,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -360,74 +428,6 @@
       ]
     },
     {
-      "title": "King Charles in US for state visit amid differences over Iran war",
-      "published": "Tue, 28 Apr 2026 12:38:17 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.165,
-      "source_weight": 0.9,
-      "age_hours": 3.33,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260428-king-charles-in-us-for-state-visit-amid-differences-over-iran-war",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260428-king-charles-in-us-for-state-visit-amid-differences-over-iran-war"
-      ]
-    },
-    {
-      "title": "'Iranians believe they have upper hand because they can endure double blockade better than US'",
-      "published": "Tue, 28 Apr 2026 12:27:23 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.163,
-      "source_weight": 0.9,
-      "age_hours": 3.51,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260428-iranians-believe-they-have-upper-hand-because-they-can-endure-double-blockade-better-than-us",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260428-iranians-believe-they-have-upper-hand-because-they-can-endure-double-blockade-better-than-us"
-      ]
-    },
-    {
       "title": "Iran's flurry of diplomacy continues in Russia, as Trump reviews Iran's latest proposal",
       "published": "Mon, 27 Apr 2026 07:32:55 -0400",
       "actors": [
@@ -436,10 +436,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.03,
-      "raw_impact": -0.039,
+      "impact": -0.026,
+      "raw_impact": -0.035,
       "source_weight": 0.85,
-      "age_hours": 28.42,
+      "age_hours": 30.35,
       "confidence": 0.675,
       "signal_total": -0.2,
       "signal_components": {
@@ -470,10 +470,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.092,
+      "impact": 0.018,
+      "raw_impact": 0.082,
       "source_weight": 0.9,
-      "age_hours": 13.4,
+      "age_hours": 15.34,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -507,7 +507,7 @@
       "impact": -0.001,
       "raw_impact": -0.001,
       "source_weight": 1.1,
-      "age_hours": 99.97,
+      "age_hours": 101.9,
       "confidence": 0.78,
       "signal_total": -0.2,
       "signal_components": {
@@ -530,40 +530,6 @@
       ]
     },
     {
-      "title": "U.S. Forces Disable Vessel Attempting to Enter Iranian Port, Violate Blockade",
-      "published": "Mon, 20 Apr 2026 14:19:00 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.0,
-      "raw_impact": 0.0,
-      "source_weight": 1.1,
-      "age_hours": 193.65,
-      "confidence": 0.69,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.war.gov/News/News-Stories/Article/Article/4464208/us-forces-disable-vessel-attempting-to-enter-iranian-port-violate-blockade/",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "source_domain": "www.defense.gov",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.defense.gov"
-      ],
-      "cluster_links": [
-        "https://www.war.gov/News/News-Stories/Article/Article/4464208/us-forces-disable-vessel-attempting-to-enter-iranian-port-violate-blockade/"
-      ]
-    },
-    {
       "title": "A dangerous blind spot in Donald Trump\u2019s Iran war strategy",
       "published": "Tue, 21 Apr 2026 21:12:55 +0000",
       "actors": [
@@ -575,7 +541,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 162.75,
+      "age_hours": 164.69,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -609,7 +575,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 1337.22,
+      "age_hours": 1339.15,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -643,7 +609,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 120.96,
+      "age_hours": 122.89,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -677,7 +643,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 123.19,
+      "age_hours": 125.13,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -711,7 +677,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 123.36,
+      "age_hours": 125.3,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -831,11 +797,6 @@
       "domain": "www.aljazeera.com"
     },
     {
-      "name": "www.defense.gov",
-      "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "domain": "www.defense.gov"
-    },
-    {
       "name": "www.economist.com",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
@@ -865,17 +826,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 225,
-    "classified_count": 21,
-    "paired_count": 21,
+    "event_count": 227,
+    "classified_count": 20,
+    "paired_count": 20,
     "valid_pair_updates": 4,
-    "top_driver_count": 21,
-    "total_signal": 5.7979,
+    "top_driver_count": 20,
+    "total_signal": 6.297,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 111,
-      "no_signal": 50,
-      "invalid_pair": 43,
+      "no_actor": 117,
+      "no_signal": 52,
+      "invalid_pair": 38,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
