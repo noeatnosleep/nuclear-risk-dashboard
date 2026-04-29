@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-28 23:56:54 UTC",
-  "probability": 15.81,
-  "uncertainty": 6.29,
+  "last_updated": "2026-04-29 03:42:10 UTC",
+  "probability": 15.26,
+  "uncertainty": 6.39,
   "state": {
-    "us_russia": 3.876248150548726,
-    "us_china": 3.0057461519395696,
-    "china_taiwan": 4.001149230387914,
+    "us_russia": 3.7506681668574124,
+    "us_china": 3.003052643217896,
+    "china_taiwan": 4.00061052864358,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633332311189128,
-    "iran_israel": 5.416580398962667,
+    "iran_us": 5.633332790319224,
+    "iran_israel": 5.342088497483308,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.416089008438284
+    "russia_ukraine": 6.173107427449281
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.576,
-      "raw_impact": 0.847,
+      "impact": 0.464,
+      "raw_impact": 0.682,
       "source_weight": 0.85,
-      "age_hours": 12.95,
+      "age_hours": 16.71,
       "confidence": 0.811,
       "signal_total": 1.79,
       "signal_components": {
@@ -60,10 +60,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.523,
-      "raw_impact": 0.523,
+      "impact": 0.421,
+      "raw_impact": 0.421,
       "source_weight": 1.0,
-      "age_hours": 9.41,
+      "age_hours": 13.16,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -94,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.424,
-      "raw_impact": 0.589,
+      "impact": 0.342,
+      "raw_impact": 0.474,
       "source_weight": 0.9,
-      "age_hours": 12.32,
+      "age_hours": 16.08,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -128,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.195,
+      "impact": -0.127,
+      "raw_impact": -0.157,
       "source_weight": 0.9,
-      "age_hours": 0.48,
+      "age_hours": 4.23,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -162,10 +162,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.106,
-      "raw_impact": 0.177,
+      "impact": 0.086,
+      "raw_impact": 0.143,
       "source_weight": 0.75,
-      "age_hours": 40.02,
+      "age_hours": 43.77,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -189,8 +189,8 @@
       ]
     },
     {
-      "title": "King Charles defends transatlantic relationship in speech to Congress",
-      "published": "Tue, 28 Apr 2026 22:39:41 GMT",
+      "title": "Middle East war live: Trump says Iran has been 'militarily defeated' at state dinner",
+      "published": "Wed, 29 Apr 2026 02:27:14 GMT",
       "actors": [
         "iran",
         "us"
@@ -200,7 +200,75 @@
       "impact": 0.042,
       "raw_impact": 0.186,
       "source_weight": 0.9,
-      "age_hours": 1.29,
+      "age_hours": 1.25,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260429-middle-east-war-live-trump-says-iran-has-been-militarily-defeated-at-state-dinner",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260429-middle-east-war-live-trump-says-iran-has-been-militarily-defeated-at-state-dinner"
+      ]
+    },
+    {
+      "title": "Iran war live: Trump says Tehran wants end to blockade; Israel kills medics",
+      "published": "Wed, 29 Apr 2026 00:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.161,
+      "source_weight": 0.9,
+      "age_hours": 3.7,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/liveblog/2026/4/29/iran-war-live-trump-says-tehran-wants-end-to-blockade-israel-kills-medics?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/liveblog/2026/4/29/iran-war-live-trump-says-tehran-wants-end-to-blockade-israel-kills-medics?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "King Charles defends transatlantic relationship in speech to Congress",
+      "published": "Tue, 28 Apr 2026 22:39:41 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.034,
+      "raw_impact": 0.149,
+      "source_weight": 0.9,
+      "age_hours": 5.04,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -231,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.18,
+      "impact": 0.033,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 1.8,
+      "age_hours": 5.55,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -265,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.159,
+      "impact": 0.029,
+      "raw_impact": 0.128,
       "source_weight": 0.9,
-      "age_hours": 3.96,
+      "age_hours": 7.71,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -299,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.156,
+      "impact": 0.028,
+      "raw_impact": 0.126,
       "source_weight": 0.9,
-      "age_hours": 4.27,
+      "age_hours": 8.02,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -333,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.144,
+      "impact": 0.026,
+      "raw_impact": 0.116,
       "source_weight": 0.9,
-      "age_hours": 5.74,
+      "age_hours": 9.49,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -367,10 +435,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.058,
+      "impact": 0.011,
+      "raw_impact": 0.047,
       "source_weight": 0.9,
-      "age_hours": 21.38,
+      "age_hours": 25.14,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -404,7 +472,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 170.73,
+      "age_hours": 174.49,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -438,7 +506,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 128.94,
+      "age_hours": 132.69,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -472,7 +540,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 131.18,
+      "age_hours": 134.93,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -506,7 +574,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 131.34,
+      "age_hours": 135.1,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -646,15 +714,15 @@
   ],
   "debug": {
     "event_count": 227,
-    "classified_count": 15,
-    "paired_count": 15,
+    "classified_count": 17,
+    "paired_count": 17,
     "valid_pair_updates": 4,
-    "top_driver_count": 15,
-    "total_signal": 2.9412,
+    "top_driver_count": 17,
+    "total_signal": 2.7432,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 118,
-      "no_signal": 60,
+      "no_signal": 58,
       "invalid_pair": 34,
       "low_confidence": 0,
       "classifier_error": 0,
