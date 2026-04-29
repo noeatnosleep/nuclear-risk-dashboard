@@ -1,23 +1,91 @@
 {
-  "last_updated": "2026-04-29 08:38:44 UTC",
-  "probability": 14.6,
-  "uncertainty": 6.03,
+  "last_updated": "2026-04-29 10:59:07 UTC",
+  "probability": 15.07,
+  "uncertainty": 5.37,
   "state": {
-    "us_russia": 3.5861655469159355,
-    "us_china": 3.0008615370019256,
-    "china_taiwan": 4.000172307400385,
+    "us_russia": 3.6061738205567653,
+    "us_china": 3.000457691532273,
+    "china_taiwan": 4.000091538306455,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333180080328,
-    "iran_israel": 5.319063484584877,
+    "iran_us": 5.633333251917675,
+    "iran_israel": 5.326161498380058,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.838381863284387
+    "russia_ukraine": 6.445390364869831
   },
   "top_drivers": [
     {
-      "title": "Weeks of silence over Iran school strike highly unusual, former US officials say",
+      "title": "King Charles, Trump toast ties despite Iran tensions",
+      "published": "Wed, 29 Apr 2026 09:34:25 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.796,
+      "raw_impact": 1.106,
+      "source_weight": 0.9,
+      "age_hours": 1.41,
+      "confidence": 0.95,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260429-king-charles-trump-toast-ties-despite-iran-tensions",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260429-king-charles-trump-toast-ties-despite-iran-tensions"
+      ]
+    },
+    {
+      "title": "Putin pares back Victory Day parade over fear of Ukrainian strikes",
+      "published": "Wed, 29 Apr 2026 09:43:52 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.753,
+      "raw_impact": 0.837,
+      "source_weight": 0.9,
+      "age_hours": 1.25,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/b8c32f5f-9611-4713-8825-58a703a5bd5d",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/b8c32f5f-9611-4713-8825-58a703a5bd5d"
+      ]
+    },
+    {
+      "title": "Former US officials criticise Pentagon silence on deadly Iran school attack",
       "published": "Wed, 29 Apr 2026 02:01:50 GMT",
       "actors": [
         "iran",
@@ -25,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.614,
-      "raw_impact": 0.614,
+      "impact": 0.537,
+      "raw_impact": 0.537,
       "source_weight": 1.0,
-      "age_hours": 6.62,
+      "age_hours": 8.95,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,41 +119,6 @@
       ]
     },
     {
-      "title": "Deadlock over Iran's nuclear program and the Strait of Hormuz cripples peace efforts",
-      "published": "Tue, 28 Apr 2026 06:59:44 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.349,
-      "raw_impact": 0.513,
-      "source_weight": 0.85,
-      "age_hours": 21.65,
-      "confidence": 0.811,
-      "signal_total": 1.79,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.11,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5802283/iran-middle-east-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/04/28/nx-s1-5802283/iran-middle-east-updates"
-      ]
-    },
-    {
       "title": "Third Ukrainian strike hits Russian oil refinery and prompts evacuations",
       "published": "Tue, 28 Apr 2026 14:32:20 GMT",
       "actors": [
@@ -94,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.316,
-      "raw_impact": 0.316,
+      "impact": 0.276,
+      "raw_impact": 0.276,
       "source_weight": 1.0,
-      "age_hours": 18.11,
+      "age_hours": 20.45,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -128,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.257,
-      "raw_impact": 0.356,
+      "impact": 0.224,
+      "raw_impact": 0.311,
       "source_weight": 0.9,
-      "age_hours": 21.02,
+      "age_hours": 23.36,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -154,40 +187,6 @@
       ]
     },
     {
-      "title": "Middle East peace talks stall amid Hormuz tensions, ceasefire violations in Lebanon",
-      "published": "Tue, 28 Apr 2026 23:28:18 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.118,
-      "source_weight": 0.9,
-      "age_hours": 9.17,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260428-iran-talks-stall-amid-hormuz-tensions-and-ceasefire-violations-in-lebanon",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260428-iran-talks-stall-amid-hormuz-tensions-and-ceasefire-violations-in-lebanon"
-      ]
-    },
-    {
       "title": "Putin\u2019s troubles: Facing mounting economic and military pressure, the Kremlin may try to muddle through \u2013 or escalate",
       "published": "Mon, 27 Apr 2026 07:55:57 +0000",
       "actors": [
@@ -196,10 +195,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.065,
-      "raw_impact": 0.107,
+      "impact": 0.056,
+      "raw_impact": 0.094,
       "source_weight": 0.75,
-      "age_hours": 48.71,
+      "age_hours": 51.05,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -231,10 +230,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.182,
+      "impact": 0.036,
+      "raw_impact": 0.159,
       "source_weight": 0.9,
-      "age_hours": 1.63,
+      "age_hours": 3.97,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -257,108 +256,6 @@
       ]
     },
     {
-      "title": "UN aid chief says situation in Somalia worsened by US war on Iran",
-      "published": "Wed, 29 Apr 2026 04:49:08 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.16,
-      "source_weight": 0.9,
-      "age_hours": 3.83,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/un-aid-chief-says-situation-in-somalia-worsened-by-us-war-on-iran?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/29/un-aid-chief-says-situation-in-somalia-worsened-by-us-war-on-iran?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Middle East war live: Trump says Iran has been 'militarily defeated' at state dinner",
-      "published": "Wed, 29 Apr 2026 02:27:14 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.14,
-      "source_weight": 0.9,
-      "age_hours": 6.19,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260429-middle-east-war-live-trump-says-iran-has-been-militarily-defeated-at-state-dinner",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260429-middle-east-war-live-trump-says-iran-has-been-militarily-defeated-at-state-dinner"
-      ]
-    },
-    {
-      "title": "Iran war live: Trump says Tehran wants end to blockade; Israel kills medics",
-      "published": "Wed, 29 Apr 2026 00:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.121,
-      "source_weight": 0.9,
-      "age_hours": 8.65,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/29/iran-war-live-trump-says-tehran-wants-end-to-blockade-israel-kills-medics?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/4/29/iran-war-live-trump-says-tehran-wants-end-to-blockade-israel-kills-medics?traffic_source=rss"
-      ]
-    },
-    {
       "title": "U.S. offers no help with Iran war\u2019s fallout, Thai foreign minister says",
       "published": "Tue, 28 Apr 2026 02:34:01 +0000",
       "actors": [
@@ -367,10 +264,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.035,
+      "impact": 0.007,
+      "raw_impact": 0.031,
       "source_weight": 0.9,
-      "age_hours": 30.08,
+      "age_hours": 32.42,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -404,7 +301,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 179.43,
+      "age_hours": 181.77,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -438,7 +335,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 137.64,
+      "age_hours": 139.98,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -472,7 +369,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 139.87,
+      "age_hours": 142.21,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -506,7 +403,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 140.04,
+      "age_hours": 142.38,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -554,11 +451,6 @@
       "name": "feeds.bbci.co.uk",
       "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
       "domain": "feeds.bbci.co.uk"
-    },
-    {
-      "name": "feeds.npr.org",
-      "url": "https://feeds.npr.org/1004/rss.xml",
-      "domain": "feeds.npr.org"
     },
     {
       "name": "feeds.washingtonpost.com",
@@ -611,11 +503,6 @@
       "domain": "feeds.washingtonpost.com"
     },
     {
-      "name": "www.aljazeera.com",
-      "url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "domain": "www.aljazeera.com"
-    },
-    {
       "name": "www.economist.com",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
@@ -624,6 +511,11 @@
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
+    },
+    {
+      "name": "www.ft.com",
+      "url": "https://www.ft.com/world?format=rss",
+      "domain": "www.ft.com"
     },
     {
       "name": "www.iss.europa.eu",
@@ -646,16 +538,16 @@
   ],
   "debug": {
     "event_count": 227,
-    "classified_count": 15,
-    "paired_count": 15,
+    "classified_count": 12,
+    "paired_count": 12,
     "valid_pair_updates": 4,
-    "top_driver_count": 15,
-    "total_signal": 2.6295,
+    "top_driver_count": 12,
+    "total_signal": 3.5769,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 117,
-      "no_signal": 53,
-      "invalid_pair": 42,
+      "no_actor": 119,
+      "no_signal": 52,
+      "invalid_pair": 44,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
