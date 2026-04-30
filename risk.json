@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-30 17:51:31 UTC",
-  "probability": 15.9,
-  "uncertainty": 6.01,
+  "last_updated": "2026-04-30 19:26:47 UTC",
+  "probability": 15.5,
+  "uncertainty": 5.83,
   "state": {
-    "us_russia": 3.532936254847137,
-    "us_china": 3.189906479491341,
-    "china_taiwan": 4.037981657942991,
+    "us_russia": 3.447080869242154,
+    "us_china": 3.1008878172297747,
+    "china_taiwan": 4.020177755782214,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633327205595148,
-    "iran_israel": 6.19423371371843,
+    "iran_us": 5.633330077972422,
+    "iran_israel": 6.201209750615372,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8000000000000003,
+    "nk_sk": 3.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.605142414731108
+    "russia_ukraine": 6.446885667973309
   },
   "top_drivers": [
+    {
+      "title": "DPRK Korea: Continued militarisation a \u2018serious concern\u2019, political affairs chief warns Security Council",
+      "published": "Thu, 30 Apr 2026 12:00:00 +0000",
+      "actors": [
+        "nk",
+        "sk"
+      ],
+      "state_key": "nk_sk",
+      "class": "strategic",
+      "impact": 1.1,
+      "raw_impact": 1.25,
+      "source_weight": 1.1,
+      "age_hours": 7.45,
+      "confidence": 0.98,
+      "signal_total": 2.1,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://news.un.org/feed/view/en/story/2026/04/1167415",
+      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "source_domain": "news.un.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "news.un.org"
+      ],
+      "cluster_links": [
+        "https://news.un.org/feed/view/en/story/2026/04/1167415"
+      ]
+    },
     {
       "title": "Trump May Pull Troops From Germany. That Isn\u2019t as Scary as It Once Was.",
       "published": "Thu, 30 Apr 2026 12:49:45 +0000",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.922,
-      "raw_impact": 1.025,
+      "impact": 0.841,
+      "raw_impact": 0.935,
       "source_weight": 0.9,
-      "age_hours": 5.03,
+      "age_hours": 6.62,
       "confidence": 0.959,
       "signal_total": 1.37,
       "signal_components": {
@@ -60,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.641,
-      "raw_impact": 0.712,
+      "impact": 0.584,
+      "raw_impact": 0.649,
       "source_weight": 0.9,
-      "age_hours": 4.06,
+      "age_hours": 5.65,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -94,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.534,
-      "raw_impact": 0.628,
+      "impact": 0.487,
+      "raw_impact": 0.573,
       "source_weight": 0.85,
-      "age_hours": 6.22,
+      "age_hours": 7.81,
       "confidence": 0.885,
       "signal_total": 0.9,
       "signal_components": {
@@ -128,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.531,
-      "raw_impact": 0.59,
+      "impact": 0.485,
+      "raw_impact": 0.538,
       "source_weight": 0.9,
-      "age_hours": 7.3,
+      "age_hours": 8.89,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -162,10 +196,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.486,
-      "raw_impact": 0.54,
+      "impact": 0.443,
+      "raw_impact": 0.492,
       "source_weight": 0.9,
-      "age_hours": 8.86,
+      "age_hours": 10.45,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -196,10 +230,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.371,
-      "raw_impact": 0.485,
+      "impact": 0.338,
+      "raw_impact": 0.443,
       "source_weight": 0.9,
-      "age_hours": 0.53,
+      "age_hours": 2.11,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -230,10 +264,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.34,
-      "raw_impact": 0.444,
+      "impact": 0.31,
+      "raw_impact": 0.405,
       "source_weight": 0.9,
-      "age_hours": 2.05,
+      "age_hours": 3.64,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -264,10 +298,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.309,
-      "raw_impact": 0.403,
+      "impact": 0.281,
+      "raw_impact": 0.368,
       "source_weight": 0.9,
-      "age_hours": 3.72,
+      "age_hours": 5.31,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -298,10 +332,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.213,
-      "raw_impact": 0.296,
+      "impact": 0.194,
+      "raw_impact": 0.27,
       "source_weight": 0.9,
-      "age_hours": 30.29,
+      "age_hours": 31.88,
       "confidence": 0.88,
       "signal_total": 1.7,
       "signal_components": {
@@ -332,10 +366,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.09,
-      "raw_impact": -0.118,
+      "impact": -0.083,
+      "raw_impact": -0.108,
       "source_weight": 0.85,
-      "age_hours": 9.13,
+      "age_hours": 10.72,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -358,6 +392,40 @@
       ]
     },
     {
+      "title": "Piracy rises off Somalia as US-Israeli war on Iran diverts naval forces",
+      "published": "Thu, 30 Apr 2026 18:59:13 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.195,
+      "source_weight": 0.9,
+      "age_hours": 0.46,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/30/piracy-rises-off-somalia-as-us-israeli-war-on-iran-diverts-naval-forces?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/30/piracy-rises-off-somalia-as-us-israeli-war-on-iran-diverts-naval-forces?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Trump says US studying troop cuts in Germany, as spat with Merz intensifies",
       "published": "Thu, 30 Apr 2026 14:31:49 GMT",
       "actors": [
@@ -366,10 +434,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.165,
+      "impact": 0.038,
+      "raw_impact": 0.151,
       "source_weight": 1.0,
-      "age_hours": 3.33,
+      "age_hours": 4.92,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -392,40 +460,6 @@
       ]
     },
     {
-      "title": "$25bn or $1 trillion: How much has Iran war really cost the US?",
-      "published": "Thu, 30 Apr 2026 12:53:19 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.15,
-      "source_weight": 0.9,
-      "age_hours": 4.97,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Trump says he is weighing reducing American troop presence in Germany after Iran feud",
       "published": "Thu, 30 Apr 2026 01:41:44 -0400",
       "actors": [
@@ -434,10 +468,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.099,
+      "impact": 0.019,
+      "raw_impact": 0.09,
       "source_weight": 0.85,
-      "age_hours": 12.16,
+      "age_hours": 13.75,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -460,40 +494,6 @@
       ]
     },
     {
-      "title": "U.S. aircraft carrier to leave Mideast, reducing military might amid Iran war",
-      "published": "Wed, 29 Apr 2026 19:49:56 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.056,
-      "source_weight": 0.9,
-      "age_hours": 22.03,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/national-security/2026/04/29/us-aircraft-carrier-iran-war/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/national-security/2026/04/29/us-aircraft-carrier-iran-war/"
-      ]
-    },
-    {
       "title": "The Iran war now has a price tag ($25 billion), but still no end date",
       "published": "Wed, 29 Apr 2026 15:48:24 -0400",
       "actors": [
@@ -502,10 +502,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.012,
-      "raw_impact": 0.056,
+      "impact": 0.011,
+      "raw_impact": 0.051,
       "source_weight": 0.85,
-      "age_hours": 22.05,
+      "age_hours": 23.64,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -528,6 +528,40 @@
       ]
     },
     {
+      "title": "U.S. aircraft carrier to leave Mideast, reducing military might amid Iran war",
+      "published": "Wed, 29 Apr 2026 19:49:56 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.011,
+      "raw_impact": 0.051,
+      "source_weight": 0.9,
+      "age_hours": 23.61,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/national-security/2026/04/29/us-aircraft-carrier-iran-war/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/national-security/2026/04/29/us-aircraft-carrier-iran-war/"
+      ]
+    },
+    {
       "title": "Putin\u2019s troubles: Facing mounting economic and military pressure, the Kremlin may try to muddle through \u2013 or escalate",
       "published": "Mon, 27 Apr 2026 07:55:57 +0000",
       "actors": [
@@ -536,10 +570,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.01,
-      "raw_impact": 0.016,
+      "impact": 0.009,
+      "raw_impact": 0.014,
       "source_weight": 0.75,
-      "age_hours": 81.93,
+      "age_hours": 83.51,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -571,10 +605,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.027,
+      "impact": 0.005,
+      "raw_impact": 0.024,
       "source_weight": 0.9,
-      "age_hours": 34.85,
+      "age_hours": 36.43,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -608,7 +642,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 212.64,
+      "age_hours": 214.23,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -642,7 +676,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 170.85,
+      "age_hours": 172.44,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -676,7 +710,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 173.09,
+      "age_hours": 174.67,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -710,7 +744,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 173.25,
+      "age_hours": 174.84,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -790,6 +824,11 @@
       "domain": "www.iss.europa.eu"
     },
     {
+      "name": "news.un.org",
+      "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "domain": "news.un.org"
+    },
+    {
       "name": "npr_world",
       "url": "https://feeds.npr.org/1004/rss.xml",
       "domain": "feeds.npr.org"
@@ -860,16 +899,16 @@
   ],
   "debug": {
     "event_count": 226,
-    "classified_count": 21,
-    "paired_count": 21,
-    "valid_pair_updates": 4,
-    "top_driver_count": 21,
-    "total_signal": 5.9283,
+    "classified_count": 22,
+    "paired_count": 22,
+    "valid_pair_updates": 5,
+    "top_driver_count": 22,
+    "total_signal": 6.8463,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 114,
-      "no_signal": 57,
-      "invalid_pair": 34,
+      "no_actor": 112,
+      "no_signal": 60,
+      "invalid_pair": 32,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
