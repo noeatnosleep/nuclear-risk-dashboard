@@ -1,21 +1,90 @@
 {
-  "last_updated": "2026-04-30 12:19:32 UTC",
-  "probability": 18.25,
-  "uncertainty": 6.56,
+  "last_updated": "2026-04-30 14:34:57 UTC",
+  "probability": 17.63,
+  "uncertainty": 6.19,
   "state": {
-    "us_russia": 4.4118025420406015,
-    "us_china": 3.1736748839368056,
-    "china_taiwan": 4.034737391499651,
+    "us_russia": 3.941324552605662,
+    "us_china": 3.4006785807229942,
+    "china_taiwan": 4.080136998960503,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6332924634524355,
-    "iran_israel": 5.3625806786421775,
+    "iran_us": 5.633311621209106,
+    "iran_israel": 5.832680145904316,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.133148645325897
+    "russia_ukraine": 6.96583802439353
   },
   "top_drivers": [
+    {
+      "title": "Trump May Pull Troops From Germany. That Isn\u2019t as Scary as It Once Was.",
+      "published": "Thu, 30 Apr 2026 12:49:45 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 1.114,
+      "raw_impact": 1.238,
+      "source_weight": 0.9,
+      "age_hours": 1.75,
+      "confidence": 0.959,
+      "signal_total": 1.37,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.03,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/30/world/europe/trump-germany-troops-merz-threat.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/30/world/europe/trump-germany-troops-merz-threat.html"
+      ]
+    },
+    {
+      "title": "US military equipment worth billions of dollars destroyed in Iran war",
+      "published": "Thu, 30 Apr 2026 13:47:40 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.774,
+      "raw_impact": 0.86,
+      "source_weight": 0.9,
+      "age_hours": 0.79,
+      "confidence": 0.81,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/30/us-military-equipment-worth-billions-of-dollars-destroyed-in-iran-war?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/30/us-military-equipment-worth-billions-of-dollars-destroyed-in-iran-war?traffic_source=rss"
+      ]
+    },
     {
       "title": "Iran war has cost $25B, Pentagon says. And, SCOTUS strikes blow to Voting Rights Act",
       "published": "Thu, 30 Apr 2026 07:38:15 -0400",
@@ -25,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.735,
-      "raw_impact": 0.865,
+      "impact": 0.645,
+      "raw_impact": 0.759,
       "source_weight": 0.85,
-      "age_hours": 0.69,
+      "age_hours": 2.95,
       "confidence": 0.885,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.731,
-      "raw_impact": 0.812,
+      "impact": 0.642,
+      "raw_impact": 0.713,
       "source_weight": 0.9,
-      "age_hours": 1.77,
+      "age_hours": 4.03,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +162,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.668,
-      "raw_impact": 0.743,
+      "impact": 0.587,
+      "raw_impact": 0.652,
       "source_weight": 0.9,
-      "age_hours": 3.33,
+      "age_hours": 5.58,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -119,30 +188,29 @@
       ]
     },
     {
-      "title": "Middle East: Rising tensions on Israel\u2019s border as Iran negotiations falter",
-      "published": "Thu, 30 Apr 2026 09:16:21 GMT",
+      "title": "'Growing sense in international community' that Trump doesn't have an Iran exit strategy",
+      "published": "Thu, 30 Apr 2026 14:08:20 GMT",
       "actors": [
-        "us",
-        "russia"
+        "iran",
+        "us"
       ],
-      "state_key": "us_russia",
-      "class": "action",
-      "impact": 0.49,
-      "raw_impact": 0.545,
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.373,
+      "raw_impact": 0.487,
       "source_weight": 0.9,
-      "age_hours": 3.05,
-      "confidence": 0.698,
-      "signal_total": 0.65,
+      "age_hours": 0.44,
+      "confidence": 0.73,
+      "signal_total": 0.5,
       "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
         "strategic": 0.0,
         "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/middle-east-rising-tensions-on-israel-s-border-as-iran-negotiations-falter",
+      "link": "https://www.france24.com/en/growing-sense-in-international-community-that-trump-doesn-t-have-an-iran-exit-strategy",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -150,7 +218,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/middle-east-rising-tensions-on-israel-s-border-as-iran-negotiations-falter"
+        "https://www.france24.com/en/growing-sense-in-international-community-that-trump-doesn-t-have-an-iran-exit-strategy"
       ]
     },
     {
@@ -162,10 +230,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.293,
-      "raw_impact": 0.407,
+      "impact": 0.257,
+      "raw_impact": 0.357,
       "source_weight": 0.9,
-      "age_hours": 24.76,
+      "age_hours": 27.01,
       "confidence": 0.88,
       "signal_total": 1.7,
       "signal_components": {
@@ -188,40 +256,6 @@
       ]
     },
     {
-      "title": "US: Hegseth under fire in Congress over Iran war as diplomacy stalls",
-      "published": "Thu, 30 Apr 2026 10:12:10 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.143,
-      "raw_impact": -0.177,
-      "source_weight": 0.9,
-      "age_hours": 2.12,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/us-hegseth-under-fire-in-congress-over-iran-war-as-diplomacy-stalls",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/us-hegseth-under-fire-in-congress-over-iran-war-as-diplomacy-stalls"
-      ]
-    },
-    {
       "title": "Trump says he spoke with Putin about a possible ceasefire in Ukraine",
       "published": "Thu, 30 Apr 2026 04:43:53 -0400",
       "actors": [
@@ -230,10 +264,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.124,
-      "raw_impact": -0.163,
+      "impact": -0.109,
+      "raw_impact": -0.143,
       "source_weight": 0.85,
-      "age_hours": 3.59,
+      "age_hours": 5.85,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -256,6 +290,108 @@
       ]
     },
     {
+      "title": "Trump says US studying troop cuts in Germany, as spat with Merz intensifies",
+      "published": "Thu, 30 Apr 2026 14:31:49 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.05,
+      "raw_impact": 0.199,
+      "source_weight": 1.0,
+      "age_hours": 0.05,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/clyplg23l30o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/clyplg23l30o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "$25bn or $1 trillion: How much has Iran war really cost the US?",
+      "published": "Thu, 30 Apr 2026 12:53:19 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.181,
+      "source_weight": 0.9,
+      "age_hours": 1.69,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/30/25bn-or-1-trillion-how-much-has-iran-war-really-cost-the-us?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "How the Trump-Xi threats of trade war softened into a quieter rivalry",
+      "published": "Thu, 30 Apr 2026 12:34:21 GMT",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.178,
+      "source_weight": 0.9,
+      "age_hours": 2.01,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/27bb8e7b-c4f3-4c83-9952-dd140f6ba794",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/27bb8e7b-c4f3-4c83-9952-dd140f6ba794"
+      ]
+    },
+    {
       "title": "Will the Iran war reshape the global energy order?",
       "published": "Thu, 30 Apr 2026 11:12:39 +0000",
       "actors": [
@@ -264,10 +400,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.188,
+      "impact": 0.037,
+      "raw_impact": 0.165,
       "source_weight": 0.9,
-      "age_hours": 1.11,
+      "age_hours": 3.37,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -298,10 +434,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.185,
+      "impact": 0.036,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 1.32,
+      "age_hours": 3.58,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -324,176 +460,6 @@
       ]
     },
     {
-      "title": "Environmental disaster fears grip Russia as Ukraine targets oil refineries",
-      "published": "Thu, 30 Apr 2026 09:40:33 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.172,
-      "source_weight": 0.9,
-      "age_hours": 2.65,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/30/its-all-very-toxic?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/30/its-all-very-toxic?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Crude oil prices hit four-year high as Iran war threatens to drag on",
-      "published": "Thu, 30 Apr 2026 09:29:32 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
-      "source_weight": 0.9,
-      "age_hours": 2.83,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/tv-shows/business/20260430-crude-oil-prices-hit-four-year-high-as-iran-war-threatens-to-drag-on",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/tv-shows/business/20260430-crude-oil-prices-hit-four-year-high-as-iran-war-threatens-to-drag-on"
-      ]
-    },
-    {
-      "title": "Iran war: What\u2019s happening on day 62 as Trump asks Iran to \u2018give up\u2019?",
-      "published": "Thu, 30 Apr 2026 07:30:35 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.151,
-      "source_weight": 0.9,
-      "age_hours": 4.82,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/30/iran-war-whats-happening-on-day-62-as-trump-asks-iran-to-give-up?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/30/iran-war-whats-happening-on-day-62-as-trump-asks-iran-to-give-up?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Could the US-Iran war become a protracted \u2018frozen\u2019 conflict?",
-      "published": "Thu, 30 Apr 2026 07:03:07 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.147,
-      "source_weight": 0.9,
-      "age_hours": 5.27,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/30/could-the-us-iran-war-become-a-protracted-frozen-conflict?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/30/could-the-us-iran-war-become-a-protracted-frozen-conflict?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Trump says US studying troop cuts in Germany, after Merz criticises war",
-      "published": "Thu, 30 Apr 2026 03:25:51 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.12,
-      "source_weight": 1.0,
-      "age_hours": 8.89,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/clyplg23l30o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/clyplg23l30o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Trump says he is weighing reducing American troop presence in Germany after Iran feud",
       "published": "Thu, 30 Apr 2026 01:41:44 -0400",
       "actors": [
@@ -502,10 +468,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.136,
+      "impact": 0.025,
+      "raw_impact": 0.12,
       "source_weight": 0.85,
-      "age_hours": 6.63,
+      "age_hours": 8.89,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -536,10 +502,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.077,
+      "impact": 0.015,
+      "raw_impact": 0.068,
       "source_weight": 0.9,
-      "age_hours": 16.49,
+      "age_hours": 18.75,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -570,10 +536,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.077,
+      "impact": 0.014,
+      "raw_impact": 0.068,
       "source_weight": 0.85,
-      "age_hours": 16.52,
+      "age_hours": 18.78,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -596,40 +562,6 @@
       ]
     },
     {
-      "title": "Russia\u2019s Victory Day Parade Will Be Missing Tanks and Other Heavy Military Armor",
-      "published": "Wed, 29 Apr 2026 17:32:36 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.068,
-      "source_weight": 0.9,
-      "age_hours": 18.78,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/29/world/europe/russia-victory-day-parade-tanks.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/29/world/europe/russia-victory-day-parade-tanks.html"
-      ]
-    },
-    {
       "title": "Russia scales back Moscow Victory Day parade, blaming threat from Ukraine",
       "published": "Wed, 29 Apr 2026 13:01:57 GMT",
       "actors": [
@@ -638,10 +570,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.013,
-      "raw_impact": 0.052,
+      "impact": 0.011,
+      "raw_impact": 0.046,
       "source_weight": 1.0,
-      "age_hours": 23.29,
+      "age_hours": 25.55,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -672,10 +604,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.013,
-      "raw_impact": 0.022,
+      "impact": 0.011,
+      "raw_impact": 0.019,
       "source_weight": 0.75,
-      "age_hours": 76.39,
+      "age_hours": 78.65,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -707,10 +639,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.037,
+      "impact": 0.007,
+      "raw_impact": 0.032,
       "source_weight": 0.9,
-      "age_hours": 29.31,
+      "age_hours": 31.57,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -744,7 +676,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 207.11,
+      "age_hours": 209.37,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -778,7 +710,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 165.32,
+      "age_hours": 167.57,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -812,7 +744,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 167.55,
+      "age_hours": 169.81,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -846,7 +778,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 167.72,
+      "age_hours": 169.98,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -996,15 +928,15 @@
   ],
   "debug": {
     "event_count": 227,
-    "classified_count": 25,
-    "paired_count": 25,
+    "classified_count": 23,
+    "paired_count": 23,
     "valid_pair_updates": 6,
-    "top_driver_count": 25,
-    "total_signal": 4.7486,
+    "top_driver_count": 23,
+    "total_signal": 6.5469,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 112,
-      "no_signal": 60,
+      "no_actor": 113,
+      "no_signal": 61,
       "invalid_pair": 30,
       "low_confidence": 0,
       "classifier_error": 0,
