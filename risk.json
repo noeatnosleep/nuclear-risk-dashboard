@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-30 06:29:13 UTC",
-  "probability": 16.27,
-  "uncertainty": 6.49,
+  "last_updated": "2026-04-30 08:40:35 UTC",
+  "probability": 16.06,
+  "uncertainty": 6.57,
   "state": {
-    "us_russia": 3.8684598051234143,
-    "us_china": 3.0326869735262716,
-    "china_taiwan": 4.006553499995777,
+    "us_russia": 3.8051236040033625,
+    "us_china": 3.017364954685832,
+    "china_taiwan": 4.003481546872756,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633060745452759,
-    "iran_israel": 5.210630322980695,
+    "iran_us": 5.633188521021777,
+    "iran_israel": 5.198393098424527,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.132101528605532
+    "russia_ukraine": 7.132678937071689
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.479,
-      "raw_impact": 0.532,
+      "impact": 0.422,
+      "raw_impact": 0.469,
       "source_weight": 0.9,
-      "age_hours": 9.09,
+      "age_hours": 11.28,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.41,
-      "raw_impact": 0.57,
+      "impact": 0.362,
+      "raw_impact": 0.502,
       "source_weight": 0.9,
-      "age_hours": 18.92,
+      "age_hours": 21.11,
       "confidence": 0.88,
       "signal_total": 1.7,
       "signal_components": {
@@ -85,18 +85,18 @@
       ]
     },
     {
-      "title": "Middle East war live: Trump says US may cut troops in Germany as Iran row rages",
-      "published": "Thu, 30 Apr 2026 02:49:58 GMT",
+      "title": "Trump launches review of US troops in Germany",
+      "published": "Thu, 30 Apr 2026 06:46:18 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.309,
-      "raw_impact": 0.405,
+      "impact": 0.343,
+      "raw_impact": 0.448,
       "source_weight": 0.9,
-      "age_hours": 3.65,
+      "age_hours": 1.9,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -107,15 +107,15 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/middle-east/20260430-middle-east-war-live-trump-says-us-may-cut-troops-in-germany-as-iran-row-rages",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.ft.com/content/0fc1e2ef-f494-478a-b20f-4cd9b533ed86",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "www.ft.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260430-middle-east-war-live-trump-says-us-may-cut-troops-in-germany-as-iran-row-rages"
+        "https://www.ft.com/content/0fc1e2ef-f494-478a-b20f-4cd9b533ed86"
       ]
     },
     {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.073,
-      "raw_impact": 0.101,
+      "impact": 0.064,
+      "raw_impact": 0.089,
       "source_weight": 0.9,
-      "age_hours": 42.86,
+      "age_hours": 45.05,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -153,6 +153,74 @@
       ]
     },
     {
+      "title": "Iran war: What\u2019s happening on day 62 as Trump asks Iran to \u2018give up\u2019?",
+      "published": "Thu, 30 Apr 2026 07:30:35 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.187,
+      "source_weight": 0.9,
+      "age_hours": 1.17,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/30/iran-war-whats-happening-on-day-62-as-trump-asks-iran-to-give-up?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/30/iran-war-whats-happening-on-day-62-as-trump-asks-iran-to-give-up?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Could the US-Iran war become a protracted \u2018frozen\u2019 conflict?",
+      "published": "Thu, 30 Apr 2026 07:03:07 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.182,
+      "source_weight": 0.9,
+      "age_hours": 1.62,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/30/could-the-us-iran-war-become-a-protracted-frozen-conflict?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/30/could-the-us-iran-war-become-a-protracted-frozen-conflict?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Trump says he is weighing reducing American troop presence in Germany after Iran feud",
       "published": "Thu, 30 Apr 2026 01:41:44 -0400",
       "actors": [
@@ -161,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.191,
+      "impact": 0.036,
+      "raw_impact": 0.168,
       "source_weight": 0.85,
-      "age_hours": 0.79,
+      "age_hours": 2.98,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -187,40 +255,6 @@
       ]
     },
     {
-      "title": "Ukraine\u2019s \u2018existential\u2019 battle with Russia",
-      "published": "Thu, 30 Apr 2026 04:00:00 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
-      "source_weight": 0.9,
-      "age_hours": 2.49,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/96758056-1b4e-49b0-bdff-44b04646317c",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/96758056-1b4e-49b0-bdff-44b04646317c"
-      ]
-    },
-    {
       "title": "Iran crisis, World Cup tensions overshadow FIFA Congress in Vancouver",
       "published": "Thu, 30 Apr 2026 02:50:42 GMT",
       "actors": [
@@ -229,10 +263,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.162,
+      "impact": 0.032,
+      "raw_impact": 0.143,
       "source_weight": 0.9,
-      "age_hours": 3.64,
+      "age_hours": 5.83,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -255,6 +289,40 @@
       ]
     },
     {
+      "title": "Middle East war live: US naval blockade \u2018doomed to fail\u2019, Iran\u2019s president says",
+      "published": "Thu, 30 Apr 2026 02:49:58 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.032,
+      "raw_impact": 0.143,
+      "source_weight": 0.9,
+      "age_hours": 5.84,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260430-middle-east-war-live-trump-says-us-may-cut-troops-in-germany-as-iran-row-rages",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260430-middle-east-war-live-trump-says-us-may-cut-troops-in-germany-as-iran-row-rages"
+      ]
+    },
+    {
       "title": "Hegseth clashes with lawmakers over Iran war in nearly six-hour-long hearing",
       "published": "Wed, 29 Apr 2026 22:22:18 GMT",
       "actors": [
@@ -263,10 +331,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.125,
+      "impact": 0.028,
+      "raw_impact": 0.11,
       "source_weight": 1.0,
-      "age_hours": 8.12,
+      "age_hours": 10.3,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -297,10 +365,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.138,
+      "impact": 0.027,
+      "raw_impact": 0.121,
       "source_weight": 0.9,
-      "age_hours": 6.48,
+      "age_hours": 8.67,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -331,10 +399,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.114,
+      "impact": 0.023,
+      "raw_impact": 0.101,
       "source_weight": 0.9,
-      "age_hours": 9.67,
+      "age_hours": 11.86,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -365,10 +433,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.108,
+      "impact": 0.021,
+      "raw_impact": 0.095,
       "source_weight": 0.9,
-      "age_hours": 10.65,
+      "age_hours": 12.84,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,10 +467,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.108,
+      "impact": 0.02,
+      "raw_impact": 0.095,
       "source_weight": 0.85,
-      "age_hours": 10.68,
+      "age_hours": 12.87,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -433,10 +501,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.095,
+      "impact": 0.019,
+      "raw_impact": 0.083,
       "source_weight": 0.9,
-      "age_hours": 12.94,
+      "age_hours": 15.13,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +535,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.073,
+      "impact": 0.016,
+      "raw_impact": 0.064,
       "source_weight": 1.0,
-      "age_hours": 17.45,
+      "age_hours": 19.64,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +569,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.018,
-      "raw_impact": 0.03,
+      "impact": 0.016,
+      "raw_impact": 0.027,
       "source_weight": 0.75,
-      "age_hours": 70.55,
+      "age_hours": 72.74,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -536,10 +604,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.052,
+      "impact": 0.01,
+      "raw_impact": 0.045,
       "source_weight": 0.9,
-      "age_hours": 23.47,
+      "age_hours": 25.66,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -573,7 +641,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 201.27,
+      "age_hours": 203.46,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -607,7 +675,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 159.48,
+      "age_hours": 161.67,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -641,7 +709,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 161.71,
+      "age_hours": 163.9,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -675,7 +743,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 161.88,
+      "age_hours": 164.07,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -825,15 +893,15 @@
   ],
   "debug": {
     "event_count": 226,
-    "classified_count": 20,
-    "paired_count": 20,
+    "classified_count": 22,
+    "paired_count": 22,
     "valid_pair_updates": 4,
-    "top_driver_count": 20,
-    "total_signal": 3.0515,
+    "top_driver_count": 22,
+    "total_signal": 3.189,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 119,
-      "no_signal": 56,
+      "no_actor": 114,
+      "no_signal": 59,
       "invalid_pair": 31,
       "low_confidence": 0,
       "classifier_error": 0,
