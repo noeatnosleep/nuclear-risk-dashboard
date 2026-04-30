@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-29 23:56:43 UTC",
-  "probability": 16.33,
-  "uncertainty": 6.17,
+  "last_updated": "2026-04-30 03:40:44 UTC",
+  "probability": 16.51,
+  "uncertainty": 6.22,
   "state": {
-    "us_russia": 3.786195027239736,
-    "us_china": 3.1158182037747464,
-    "china_taiwan": 4.02322070586739,
+    "us_russia": 3.894889254235379,
+    "us_china": 3.061528420755334,
+    "china_taiwan": 4.01233599999205,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6323674856180785,
-    "iran_israel": 5.35466146424019,
+    "iran_us": 5.632820226734604,
+    "iran_israel": 5.384054140676105,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.128968738034828
+    "russia_ukraine": 7.131014642081002
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.699,
-      "raw_impact": 0.777,
+      "impact": 0.564,
+      "raw_impact": 0.626,
       "source_weight": 0.9,
-      "age_hours": 2.55,
+      "age_hours": 6.28,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.603,
-      "raw_impact": 0.67,
+      "impact": 0.486,
+      "raw_impact": 0.54,
       "source_weight": 0.9,
-      "age_hours": 5.11,
+      "age_hours": 8.84,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.599,
-      "raw_impact": 0.832,
+      "impact": 0.482,
+      "raw_impact": 0.67,
       "source_weight": 0.9,
-      "age_hours": 12.38,
+      "age_hours": 16.11,
       "confidence": 0.88,
       "signal_total": 1.7,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.494,
-      "raw_impact": 0.687,
+      "impact": 0.398,
+      "raw_impact": 0.553,
       "source_weight": 0.9,
-      "age_hours": 5.44,
+      "age_hours": 9.17,
       "confidence": 0.756,
       "signal_total": 0.94,
       "signal_components": {
@@ -154,6 +154,40 @@
       ]
     },
     {
+      "title": "Middle East War Live: Trump says US may cut troops in Germany as Iran row rages",
+      "published": "Thu, 30 Apr 2026 02:49:58 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.365,
+      "raw_impact": 0.476,
+      "source_weight": 0.9,
+      "age_hours": 0.85,
+      "confidence": 0.73,
+      "signal_total": 0.5,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260430-middle-east-war-live-trump-says-us-may-cut-troops-in-germany-as-iran-row-rages",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260430-middle-east-war-live-trump-says-us-may-cut-troops-in-germany-as-iran-row-rages"
+      ]
+    },
+    {
       "title": "Former US officials criticise Pentagon silence on deadly Iran school attack",
       "published": "Wed, 29 Apr 2026 02:01:50 GMT",
       "actors": [
@@ -162,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.254,
-      "raw_impact": 0.254,
+      "impact": 0.205,
+      "raw_impact": 0.205,
       "source_weight": 1.0,
-      "age_hours": 21.91,
+      "age_hours": 25.65,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -196,10 +230,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.106,
-      "raw_impact": 0.147,
+      "impact": 0.086,
+      "raw_impact": 0.119,
       "source_weight": 0.9,
-      "age_hours": 36.32,
+      "age_hours": 40.06,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -222,6 +256,108 @@
       ]
     },
     {
+      "title": "Iran crisis, World Cup tensions overshadow FIFA Congress in Vancouver",
+      "published": "Thu, 30 Apr 2026 02:50:42 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.83,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/sport/20260430-iran-world-cup-fifa-congress-vancouver",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/sport/20260430-iran-world-cup-fifa-congress-vancouver"
+      ]
+    },
+    {
+      "title": "Hegseth clashes with lawmakers over Iran war in nearly six-hour-long hearing",
+      "published": "Wed, 29 Apr 2026 22:22:18 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.037,
+      "raw_impact": 0.147,
+      "source_weight": 1.0,
+      "age_hours": 5.31,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c78qd6ll8xlo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/c78qd6ll8xlo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "Iran war live: Trump urges Tehran to \u2018give up\u2019; Ghalibaf mocks US strategy",
+      "published": "Thu, 30 Apr 2026 00:00:20 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.162,
+      "source_weight": 0.9,
+      "age_hours": 3.67,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/liveblog/2026/4/30/iran-war-live-trump-urges-tehran-to-just-give-up-as-oil-prices-surge?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/liveblog/2026/4/30/iran-war-live-trump-urges-tehran-to-just-give-up-as-oil-prices-surge?traffic_source=rss"
+      ]
+    },
+    {
       "title": "U.S. Gas Prices Climb Further as Effects of Iran War Reverberate",
       "published": "Wed, 29 Apr 2026 20:41:25 +0000",
       "actors": [
@@ -230,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.166,
+      "impact": 0.03,
+      "raw_impact": 0.134,
       "source_weight": 0.9,
-      "age_hours": 3.26,
+      "age_hours": 6.99,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -264,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.167,
+      "impact": 0.03,
+      "raw_impact": 0.135,
       "source_weight": 0.9,
-      "age_hours": 3.13,
+      "age_hours": 6.86,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -290,74 +426,6 @@
       ]
     },
     {
-      "title": "US lawmakers question Pete Hegseth over budget for war on Iran",
-      "published": "Wed, 29 Apr 2026 19:39:22 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.156,
-      "source_weight": 0.9,
-      "age_hours": 4.29,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/us-lawmakers-question-pete-hegseth-over-budget-for-war-on-iran?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/29/us-lawmakers-question-pete-hegseth-over-budget-for-war-on-iran?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Pentagon chief Hegseth first public hearing on Iran war: Key takeaways",
-      "published": "Wed, 29 Apr 2026 19:38:54 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.156,
-      "source_weight": 0.9,
-      "age_hours": 4.3,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/4/29/pentagon-chief-hegseth-first-public-hearing-on-iran-war-key-takeaways?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/4/29/pentagon-chief-hegseth-first-public-hearing-on-iran-war-key-takeaways?traffic_source=rss"
-      ]
-    },
-    {
       "title": "U.S. aircraft carrier to leave Mideast, reducing military might amid Iran war",
       "published": "Wed, 29 Apr 2026 19:49:56 +0000",
       "actors": [
@@ -366,10 +434,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.158,
+      "impact": 0.029,
+      "raw_impact": 0.127,
       "source_weight": 0.9,
-      "age_hours": 4.11,
+      "age_hours": 7.85,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -392,6 +460,40 @@
       ]
     },
     {
+      "title": "US lawmakers question Pete Hegseth over budget for war on Iran",
+      "published": "Wed, 29 Apr 2026 19:39:22 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.028,
+      "raw_impact": 0.126,
+      "source_weight": 0.9,
+      "age_hours": 8.02,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/us-lawmakers-question-pete-hegseth-over-budget-for-war-on-iran?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/4/29/us-lawmakers-question-pete-hegseth-over-budget-for-war-on-iran?traffic_source=rss"
+      ]
+    },
+    {
       "title": "The Iran war now has a price tag ($25 billion), but still no end date",
       "published": "Wed, 29 Apr 2026 15:48:24 -0400",
       "actors": [
@@ -400,10 +502,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.157,
+      "impact": 0.027,
+      "raw_impact": 0.127,
       "source_weight": 0.85,
-      "age_hours": 4.14,
+      "age_hours": 7.87,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -434,10 +536,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.138,
+      "impact": 0.025,
+      "raw_impact": 0.111,
       "source_weight": 0.9,
-      "age_hours": 6.4,
+      "age_hours": 10.14,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -460,40 +562,6 @@
       ]
     },
     {
-      "title": "Russia scales back Moscow Victory Day parade, blaming threat from Ukraine",
-      "published": "Wed, 29 Apr 2026 13:01:57 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.106,
-      "source_weight": 1.0,
-      "age_hours": 10.91,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/c794wp4yy93o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/c794wp4yy93o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Putin\u2019s troubles: Facing mounting economic and military pressure, the Kremlin may try to muddle through \u2013 or escalate",
       "published": "Mon, 27 Apr 2026 07:55:57 +0000",
       "actors": [
@@ -502,10 +570,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.026,
-      "raw_impact": 0.044,
+      "impact": 0.022,
+      "raw_impact": 0.036,
       "source_weight": 0.75,
-      "age_hours": 64.01,
+      "age_hours": 67.75,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -529,6 +597,40 @@
       ]
     },
     {
+      "title": "Russia scales back Moscow Victory Day parade, blaming threat from Ukraine",
+      "published": "Wed, 29 Apr 2026 13:01:57 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "rhetoric",
+      "impact": 0.021,
+      "raw_impact": 0.086,
+      "source_weight": 1.0,
+      "age_hours": 14.65,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c794wp4yy93o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/c794wp4yy93o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Calls for humanitarian corridor through strait of Hormuz as Iran war hits vital aid",
       "published": "Wed, 29 Apr 2026 07:00:48 GMT",
       "actors": [
@@ -537,10 +639,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.075,
+      "impact": 0.014,
+      "raw_impact": 0.061,
       "source_weight": 0.9,
-      "age_hours": 16.93,
+      "age_hours": 20.67,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -563,40 +665,6 @@
       ]
     },
     {
-      "title": "U.S. offers no help with Iran war\u2019s fallout, Thai foreign minister says",
-      "published": "Tue, 28 Apr 2026 02:34:01 +0000",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "rhetoric",
-      "impact": 0.003,
-      "raw_impact": 0.015,
-      "source_weight": 0.9,
-      "age_hours": 45.38,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/04/27/thailand-war-iran/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/27/thailand-war-iran/"
-      ]
-    },
-    {
       "title": "A dangerous blind spot in Donald Trump\u2019s Iran war strategy",
       "published": "Tue, 21 Apr 2026 21:12:55 +0000",
       "actors": [
@@ -608,7 +676,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 194.73,
+      "age_hours": 198.46,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -642,7 +710,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 152.94,
+      "age_hours": 156.67,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -676,7 +744,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 155.17,
+      "age_hours": 158.91,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -710,7 +778,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 155.34,
+      "age_hours": 159.07,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -859,17 +927,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 227,
-    "classified_count": 21,
-    "paired_count": 21,
+    "event_count": 226,
+    "classified_count": 23,
+    "paired_count": 23,
     "valid_pair_updates": 4,
-    "top_driver_count": 21,
-    "total_signal": 4.8683,
+    "top_driver_count": 23,
+    "total_signal": 4.8146,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 122,
-      "no_signal": 54,
-      "invalid_pair": 30,
+      "no_actor": 115,
+      "no_signal": 57,
+      "invalid_pair": 31,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
