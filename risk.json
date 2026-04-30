@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-04-30 14:34:57 UTC",
-  "probability": 17.63,
-  "uncertainty": 6.19,
+  "last_updated": "2026-04-30 16:21:44 UTC",
+  "probability": 16.78,
+  "uncertainty": 6.1,
   "state": {
-    "us_russia": 3.941324552605662,
-    "us_china": 3.4006785807229942,
-    "china_taiwan": 4.080136998960503,
+    "us_russia": 3.6818523905181784,
+    "us_china": 3.357471020218995,
+    "china_taiwan": 4.071494885539749,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633311621209106,
-    "iran_israel": 5.832680145904316,
+    "iran_us": 5.633321798767337,
+    "iran_israel": 6.057725432703537,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.96583802439353
+    "russia_ukraine": 6.795611862340937
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 1.114,
-      "raw_impact": 1.238,
+      "impact": 1.005,
+      "raw_impact": 1.117,
       "source_weight": 0.9,
-      "age_hours": 1.75,
+      "age_hours": 3.53,
       "confidence": 0.959,
       "signal_total": 1.37,
       "signal_components": {
@@ -60,10 +60,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.774,
-      "raw_impact": 0.86,
+      "impact": 0.698,
+      "raw_impact": 0.776,
       "source_weight": 0.9,
-      "age_hours": 0.79,
+      "age_hours": 2.57,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -94,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.645,
-      "raw_impact": 0.759,
+      "impact": 0.582,
+      "raw_impact": 0.685,
       "source_weight": 0.85,
-      "age_hours": 2.95,
+      "age_hours": 4.72,
       "confidence": 0.885,
       "signal_total": 0.9,
       "signal_components": {
@@ -128,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.642,
-      "raw_impact": 0.713,
+      "impact": 0.579,
+      "raw_impact": 0.643,
       "source_weight": 0.9,
-      "age_hours": 4.03,
+      "age_hours": 5.81,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -162,10 +162,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.587,
-      "raw_impact": 0.652,
+      "impact": 0.529,
+      "raw_impact": 0.588,
       "source_weight": 0.9,
-      "age_hours": 5.58,
+      "age_hours": 7.36,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -188,6 +188,40 @@
       ]
     },
     {
+      "title": "Trump launches review of US troops in Germany",
+      "published": "Thu, 30 Apr 2026 15:48:17 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.371,
+      "raw_impact": 0.484,
+      "source_weight": 0.9,
+      "age_hours": 0.56,
+      "confidence": 0.73,
+      "signal_total": 0.5,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/0fc1e2ef-f494-478a-b20f-4cd9b533ed86",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/0fc1e2ef-f494-478a-b20f-4cd9b533ed86"
+      ]
+    },
+    {
       "title": "'Growing sense in international community' that Trump doesn't have an Iran exit strategy",
       "published": "Thu, 30 Apr 2026 14:08:20 GMT",
       "actors": [
@@ -196,10 +230,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.373,
-      "raw_impact": 0.487,
+      "impact": 0.337,
+      "raw_impact": 0.44,
       "source_weight": 0.9,
-      "age_hours": 0.44,
+      "age_hours": 2.22,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -230,10 +264,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.257,
-      "raw_impact": 0.357,
+      "impact": 0.232,
+      "raw_impact": 0.322,
       "source_weight": 0.9,
-      "age_hours": 27.01,
+      "age_hours": 28.79,
       "confidence": 0.88,
       "signal_total": 1.7,
       "signal_components": {
@@ -264,10 +298,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.109,
-      "raw_impact": -0.143,
+      "impact": -0.098,
+      "raw_impact": -0.129,
       "source_weight": 0.85,
-      "age_hours": 5.85,
+      "age_hours": 7.63,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -298,10 +332,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.05,
-      "raw_impact": 0.199,
+      "impact": 0.045,
+      "raw_impact": 0.18,
       "source_weight": 1.0,
-      "age_hours": 0.05,
+      "age_hours": 1.83,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -332,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.181,
+      "impact": 0.037,
+      "raw_impact": 0.164,
       "source_weight": 0.9,
-      "age_hours": 1.69,
+      "age_hours": 3.47,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -366,10 +400,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 2.01,
+      "age_hours": 3.79,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -392,74 +426,6 @@
       ]
     },
     {
-      "title": "Will the Iran war reshape the global energy order?",
-      "published": "Thu, 30 Apr 2026 11:12:39 +0000",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.165,
-      "source_weight": 0.9,
-      "age_hours": 3.37,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/counting-the-cost/2026/4/30/will-the-iran-war-reshape-the-global-energy-order?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/counting-the-cost/2026/4/30/will-the-iran-war-reshape-the-global-energy-order?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Returns before rigs: why surging oil prices haven\u2019t sparked a Permian boom",
-      "published": "Thu, 30 Apr 2026 11:00:05 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.163,
-      "source_weight": 0.9,
-      "age_hours": 3.58,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/a20353a5-4656-4823-bffc-89c5541ffdca",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/a20353a5-4656-4823-bffc-89c5541ffdca"
-      ]
-    },
-    {
       "title": "Trump says he is weighing reducing American troop presence in Germany after Iran feud",
       "published": "Thu, 30 Apr 2026 01:41:44 -0400",
       "actors": [
@@ -468,10 +434,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.12,
+      "impact": 0.023,
+      "raw_impact": 0.108,
       "source_weight": 0.85,
-      "age_hours": 8.89,
+      "age_hours": 10.67,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -502,10 +468,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.068,
+      "impact": 0.014,
+      "raw_impact": 0.061,
       "source_weight": 0.9,
-      "age_hours": 18.75,
+      "age_hours": 20.53,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -536,10 +502,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.068,
+      "impact": 0.013,
+      "raw_impact": 0.061,
       "source_weight": 0.85,
-      "age_hours": 18.78,
+      "age_hours": 20.56,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -570,10 +536,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.046,
+      "impact": 0.01,
+      "raw_impact": 0.041,
       "source_weight": 1.0,
-      "age_hours": 25.55,
+      "age_hours": 27.33,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -604,10 +570,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.011,
-      "raw_impact": 0.019,
+      "impact": 0.01,
+      "raw_impact": 0.017,
       "source_weight": 0.75,
-      "age_hours": 78.65,
+      "age_hours": 80.43,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -639,10 +605,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.007,
-      "raw_impact": 0.032,
+      "impact": 0.006,
+      "raw_impact": 0.029,
       "source_weight": 0.9,
-      "age_hours": 31.57,
+      "age_hours": 33.35,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -676,7 +642,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 209.37,
+      "age_hours": 211.15,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -710,7 +676,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 167.57,
+      "age_hours": 169.35,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -744,7 +710,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 169.81,
+      "age_hours": 171.59,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -778,7 +744,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 169.98,
+      "age_hours": 171.76,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -927,17 +893,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 227,
-    "classified_count": 23,
-    "paired_count": 23,
+    "event_count": 226,
+    "classified_count": 22,
+    "paired_count": 22,
     "valid_pair_updates": 6,
-    "top_driver_count": 23,
-    "total_signal": 6.5469,
+    "top_driver_count": 22,
+    "total_signal": 6.1113,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 113,
-      "no_signal": 61,
-      "invalid_pair": 30,
+      "no_actor": 114,
+      "no_signal": 56,
+      "invalid_pair": 34,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
