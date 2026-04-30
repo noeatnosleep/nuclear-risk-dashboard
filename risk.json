@@ -1,34 +1,68 @@
 {
-  "last_updated": "2026-04-30 08:40:35 UTC",
-  "probability": 16.06,
-  "uncertainty": 6.57,
+  "last_updated": "2026-04-30 10:57:48 UTC",
+  "probability": 17.45,
+  "uncertainty": 6.48,
   "state": {
-    "us_russia": 3.8051236040033625,
-    "us_china": 3.017364954685832,
-    "china_taiwan": 4.003481546872756,
+    "us_russia": 4.308179870358693,
+    "us_china": 3.0092251321768484,
+    "china_taiwan": 4.001849571776152,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633188521021777,
-    "iran_israel": 5.198393098424527,
+    "iran_us": 5.63325640179282,
+    "iran_israel": 5.258050636744949,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.132678937071689
+    "russia_ukraine": 7.132985685319335
   },
   "top_drivers": [
     {
-      "title": "Russia scales down WW2 victory parade due to Ukrainian threat",
-      "published": "Wed, 29 Apr 2026 21:23:59 GMT",
+      "title": "Mexico\u2019s cartel crackdown hits top ranks \u2013 but will it fuel Jalisco violence?",
+      "published": "Thu, 30 Apr 2026 10:33:16 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.791,
+      "raw_impact": 0.879,
+      "source_weight": 0.9,
+      "age_hours": 0.41,
+      "confidence": 0.81,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/world/2026/apr/30/mexico-jalisco-cartel-el-mencho-flores",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/world/2026/apr/30/mexico-jalisco-cartel-el-mencho-flores"
+      ]
+    },
+    {
+      "title": "Russia scales back Victory Day plans as Ukraine\u2019s military reach expands",
+      "published": "Thu, 30 Apr 2026 09:00:00 +0000",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.422,
-      "raw_impact": 0.469,
+      "impact": 0.723,
+      "raw_impact": 0.804,
       "source_weight": 0.9,
-      "age_hours": 11.28,
+      "age_hours": 1.96,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -39,7 +73,42 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/video/20260429-russia-scales-down-ww2-victory-parade-due-to-ukrainian-threat",
+      "link": "https://www.washingtonpost.com/world/2026/04/30/russia-victory-day-parade-ukraine-moscow/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/04/30/russia-victory-day-parade-ukraine-moscow/"
+      ]
+    },
+    {
+      "title": "Middle East: Rising tensions on Israel\u2019s border as Iran negotiations falter",
+      "published": "Thu, 30 Apr 2026 09:16:21 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "action",
+      "impact": 0.531,
+      "raw_impact": 0.59,
+      "source_weight": 0.9,
+      "age_hours": 1.69,
+      "confidence": 0.698,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east-rising-tensions-on-israel-s-border-as-iran-negotiations-falter",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -47,7 +116,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/video/20260429-russia-scales-down-ww2-victory-parade-due-to-ukrainian-threat"
+        "https://www.france24.com/en/middle-east-rising-tensions-on-israel-s-border-as-iran-negotiations-falter"
       ]
     },
     {
@@ -59,10 +128,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.362,
-      "raw_impact": 0.502,
+      "impact": 0.317,
+      "raw_impact": 0.44,
       "source_weight": 0.9,
-      "age_hours": 21.11,
+      "age_hours": 23.39,
       "confidence": 0.88,
       "signal_total": 1.7,
       "signal_components": {
@@ -93,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.343,
-      "raw_impact": 0.448,
+      "impact": 0.3,
+      "raw_impact": 0.392,
       "source_weight": 0.9,
-      "age_hours": 1.9,
+      "age_hours": 4.19,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -119,6 +188,74 @@
       ]
     },
     {
+      "title": "US: Hegseth under fire in Congress over Iran war as diplomacy stalls",
+      "published": "Thu, 30 Apr 2026 10:12:10 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.155,
+      "raw_impact": -0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.76,
+      "confidence": 0.67,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/us-hegseth-under-fire-in-congress-over-iran-war-as-diplomacy-stalls",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/us-hegseth-under-fire-in-congress-over-iran-war-as-diplomacy-stalls"
+      ]
+    },
+    {
+      "title": "Trump says he spoke with Putin about a possible ceasefire in Ukraine",
+      "published": "Thu, 30 Apr 2026 04:43:53 -0400",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "deescalation",
+      "impact": -0.134,
+      "raw_impact": -0.176,
+      "source_weight": 0.85,
+      "age_hours": 2.23,
+      "confidence": 0.755,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5805188/trump-says-he-spoke-with-putin-about-a-possible-ceasefire-in-ukraine",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/30/nx-s1-5805188/trump-says-he-spoke-with-putin-about-a-possible-ceasefire-in-ukraine"
+      ]
+    },
+    {
       "title": "U.S. weighs Iranian proposal that would open Strait of Hormuz but delay nuclear talks",
       "published": "Tue, 28 Apr 2026 11:37:25 +0000",
       "actors": [
@@ -127,10 +264,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.064,
-      "raw_impact": 0.089,
+      "impact": 0.056,
+      "raw_impact": 0.078,
       "source_weight": 0.9,
-      "age_hours": 45.05,
+      "age_hours": 47.34,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -153,6 +290,74 @@
       ]
     },
     {
+      "title": "Environmental disaster fears grip Russia as Ukraine targets oil refineries",
+      "published": "Thu, 30 Apr 2026 09:40:33 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.186,
+      "source_weight": 0.9,
+      "age_hours": 1.29,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/4/30/its-all-very-toxic?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/4/30/its-all-very-toxic?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Crude oil prices hit four-year high as Iran war threatens to drag on",
+      "published": "Thu, 30 Apr 2026 09:29:32 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.184,
+      "source_weight": 0.9,
+      "age_hours": 1.47,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/business/20260430-crude-oil-prices-hit-four-year-high-as-iran-war-threatens-to-drag-on",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/business/20260430-crude-oil-prices-hit-four-year-high-as-iran-war-threatens-to-drag-on"
+      ]
+    },
+    {
       "title": "Iran war: What\u2019s happening on day 62 as Trump asks Iran to \u2018give up\u2019?",
       "published": "Thu, 30 Apr 2026 07:30:35 +0000",
       "actors": [
@@ -161,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.037,
+      "raw_impact": 0.164,
       "source_weight": 0.9,
-      "age_hours": 1.17,
+      "age_hours": 3.45,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -195,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.182,
+      "impact": 0.036,
+      "raw_impact": 0.16,
       "source_weight": 0.9,
-      "age_hours": 1.62,
+      "age_hours": 3.91,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -221,6 +426,40 @@
       ]
     },
     {
+      "title": "Trump says US studying troop cuts in Germany, after Merz criticises war",
+      "published": "Thu, 30 Apr 2026 03:25:51 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.032,
+      "raw_impact": 0.129,
+      "source_weight": 1.0,
+      "age_hours": 7.53,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/clyplg23l30o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/clyplg23l30o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Trump says he is weighing reducing American troop presence in Germany after Iran feud",
       "published": "Thu, 30 Apr 2026 01:41:44 -0400",
       "actors": [
@@ -229,10 +468,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.168,
+      "impact": 0.031,
+      "raw_impact": 0.148,
       "source_weight": 0.85,
-      "age_hours": 2.98,
+      "age_hours": 5.27,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -263,10 +502,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.143,
+      "impact": 0.028,
+      "raw_impact": 0.125,
       "source_weight": 0.9,
-      "age_hours": 5.83,
+      "age_hours": 8.12,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -289,142 +528,6 @@
       ]
     },
     {
-      "title": "Middle East war live: US naval blockade \u2018doomed to fail\u2019, Iran\u2019s president says",
-      "published": "Thu, 30 Apr 2026 02:49:58 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.143,
-      "source_weight": 0.9,
-      "age_hours": 5.84,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260430-middle-east-war-live-trump-says-us-may-cut-troops-in-germany-as-iran-row-rages",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260430-middle-east-war-live-trump-says-us-may-cut-troops-in-germany-as-iran-row-rages"
-      ]
-    },
-    {
-      "title": "Hegseth clashes with lawmakers over Iran war in nearly six-hour-long hearing",
-      "published": "Wed, 29 Apr 2026 22:22:18 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.11,
-      "source_weight": 1.0,
-      "age_hours": 10.3,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/c78qd6ll8xlo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/c78qd6ll8xlo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "title": "Iran war live: Trump urges Tehran to \u2018give up\u2019; Ghalibaf mocks US strategy",
-      "published": "Thu, 30 Apr 2026 00:00:20 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.121,
-      "source_weight": 0.9,
-      "age_hours": 8.67,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/4/30/iran-war-live-trump-urges-tehran-to-just-give-up-as-oil-prices-surge?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/4/30/iran-war-live-trump-urges-tehran-to-just-give-up-as-oil-prices-surge?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "'Uncertainty but a lot of resilience' in Latin America, says IDB head",
-      "published": "Wed, 29 Apr 2026 20:49:04 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.101,
-      "source_weight": 0.9,
-      "age_hours": 11.86,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/uncertainty-but-a-lot-of-resilience-in-latin-america-says-idb-head-ilan-goldfajn",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/uncertainty-but-a-lot-of-resilience-in-latin-america-says-idb-head-ilan-goldfajn"
-      ]
-    },
-    {
       "title": "U.S. aircraft carrier to leave Mideast, reducing military might amid Iran war",
       "published": "Wed, 29 Apr 2026 19:49:56 +0000",
       "actors": [
@@ -433,10 +536,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.095,
+      "impact": 0.019,
+      "raw_impact": 0.083,
       "source_weight": 0.9,
-      "age_hours": 12.84,
+      "age_hours": 15.13,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -467,10 +570,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.095,
+      "impact": 0.018,
+      "raw_impact": 0.083,
       "source_weight": 0.85,
-      "age_hours": 12.87,
+      "age_hours": 15.16,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -501,10 +604,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.083,
+      "impact": 0.017,
+      "raw_impact": 0.073,
       "source_weight": 0.9,
-      "age_hours": 15.13,
+      "age_hours": 17.42,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -535,10 +638,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.064,
+      "impact": 0.014,
+      "raw_impact": 0.056,
       "source_weight": 1.0,
-      "age_hours": 19.64,
+      "age_hours": 21.93,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -569,10 +672,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.016,
-      "raw_impact": 0.027,
+      "impact": 0.014,
+      "raw_impact": 0.023,
       "source_weight": 0.75,
-      "age_hours": 72.74,
+      "age_hours": 75.03,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -604,10 +707,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.045,
+      "impact": 0.009,
+      "raw_impact": 0.04,
       "source_weight": 0.9,
-      "age_hours": 25.66,
+      "age_hours": 27.95,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -641,7 +744,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 203.46,
+      "age_hours": 205.75,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -675,7 +778,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 161.67,
+      "age_hours": 163.95,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -709,7 +812,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 163.9,
+      "age_hours": 166.19,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -743,7 +846,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 164.07,
+      "age_hours": 166.36,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -892,17 +995,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 226,
-    "classified_count": 22,
-    "paired_count": 22,
+    "event_count": 228,
+    "classified_count": 25,
+    "paired_count": 25,
     "valid_pair_updates": 4,
-    "top_driver_count": 22,
-    "total_signal": 3.189,
+    "top_driver_count": 25,
+    "total_signal": 4.368,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 114,
-      "no_signal": 59,
-      "invalid_pair": 31,
+      "no_actor": 110,
+      "no_signal": 61,
+      "invalid_pair": 32,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
