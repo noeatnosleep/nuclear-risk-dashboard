@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-04-30 10:57:48 UTC",
-  "probability": 17.45,
-  "uncertainty": 6.48,
+  "last_updated": "2026-04-30 12:19:32 UTC",
+  "probability": 18.25,
+  "uncertainty": 6.56,
   "state": {
-    "us_russia": 4.308179870358693,
-    "us_china": 3.0092251321768484,
-    "china_taiwan": 4.001849571776152,
+    "us_russia": 4.4118025420406015,
+    "us_china": 3.1736748839368056,
+    "china_taiwan": 4.034737391499651,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.63325640179282,
-    "iran_israel": 5.258050636744949,
+    "iran_us": 5.6332924634524355,
+    "iran_israel": 5.3625806786421775,
     "nk_us": 3.0000000000000004,
     "nk_sk": 2.8000000000000003,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.132985685319335
+    "russia_ukraine": 7.133148645325897
   },
   "top_drivers": [
+    {
+      "title": "Iran war has cost $25B, Pentagon says. And, SCOTUS strikes blow to Voting Rights Act",
+      "published": "Thu, 30 Apr 2026 07:38:15 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.735,
+      "raw_impact": 0.865,
+      "source_weight": 0.85,
+      "age_hours": 0.69,
+      "confidence": 0.885,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/04/30/g-s1-119496/up-first-newsletter-pentagon-iran-war-jerome-powell-scotus-voting-rights-wildfire-fuel-costs",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/04/30/g-s1-119496/up-first-newsletter-pentagon-iran-war-jerome-powell-scotus-voting-rights-wildfire-fuel-costs"
+      ]
+    },
     {
       "title": "Mexico\u2019s cartel crackdown hits top ranks \u2013 but will it fuel Jalisco violence?",
       "published": "Thu, 30 Apr 2026 10:33:16 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.791,
-      "raw_impact": 0.879,
+      "impact": 0.731,
+      "raw_impact": 0.812,
       "source_weight": 0.9,
-      "age_hours": 0.41,
+      "age_hours": 1.77,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.723,
-      "raw_impact": 0.804,
+      "impact": 0.668,
+      "raw_impact": 0.743,
       "source_weight": 0.9,
-      "age_hours": 1.96,
+      "age_hours": 3.33,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "us_russia",
       "class": "action",
-      "impact": 0.531,
-      "raw_impact": 0.59,
+      "impact": 0.49,
+      "raw_impact": 0.545,
       "source_weight": 0.9,
-      "age_hours": 1.69,
+      "age_hours": 3.05,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -128,10 +162,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.317,
-      "raw_impact": 0.44,
+      "impact": 0.293,
+      "raw_impact": 0.407,
       "source_weight": 0.9,
-      "age_hours": 23.39,
+      "age_hours": 24.76,
       "confidence": 0.88,
       "signal_total": 1.7,
       "signal_components": {
@@ -154,40 +188,6 @@
       ]
     },
     {
-      "title": "Trump launches review of US troops in Germany",
-      "published": "Thu, 30 Apr 2026 06:46:18 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.3,
-      "raw_impact": 0.392,
-      "source_weight": 0.9,
-      "age_hours": 4.19,
-      "confidence": 0.73,
-      "signal_total": 0.5,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/0fc1e2ef-f494-478a-b20f-4cd9b533ed86",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/0fc1e2ef-f494-478a-b20f-4cd9b533ed86"
-      ]
-    },
-    {
       "title": "US: Hegseth under fire in Congress over Iran war as diplomacy stalls",
       "published": "Thu, 30 Apr 2026 10:12:10 GMT",
       "actors": [
@@ -196,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.155,
-      "raw_impact": -0.191,
+      "impact": -0.143,
+      "raw_impact": -0.177,
       "source_weight": 0.9,
-      "age_hours": 0.76,
+      "age_hours": 2.12,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -230,10 +230,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.134,
-      "raw_impact": -0.176,
+      "impact": -0.124,
+      "raw_impact": -0.163,
       "source_weight": 0.85,
-      "age_hours": 2.23,
+      "age_hours": 3.59,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -256,37 +256,71 @@
       ]
     },
     {
-      "title": "U.S. weighs Iranian proposal that would open Strait of Hormuz but delay nuclear talks",
-      "published": "Tue, 28 Apr 2026 11:37:25 +0000",
+      "title": "Will the Iran war reshape the global energy order?",
+      "published": "Thu, 30 Apr 2026 11:12:39 +0000",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.188,
+      "source_weight": 0.9,
+      "age_hours": 1.11,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/counting-the-cost/2026/4/30/will-the-iran-war-reshape-the-global-energy-order?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/counting-the-cost/2026/4/30/will-the-iran-war-reshape-the-global-energy-order?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Returns before rigs: why surging oil prices haven\u2019t sparked a Permian boom",
+      "published": "Thu, 30 Apr 2026 11:00:05 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.056,
-      "raw_impact": 0.078,
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.185,
       "source_weight": 0.9,
-      "age_hours": 47.34,
-      "confidence": 0.95,
-      "signal_total": 1.2,
+      "age_hours": 1.32,
+      "confidence": 0.67,
+      "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
         "action": 0.0,
         "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.washingtonpost.com/world/2026/04/27/iran-talks-putin-araghchi-trump-russia/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
+      "link": "https://www.ft.com/content/a20353a5-4656-4823-bffc-89c5541ffdca",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.washingtonpost.com"
+        "www.ft.com"
       ],
       "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/27/iran-talks-putin-araghchi-trump-russia/"
+        "https://www.ft.com/content/a20353a5-4656-4823-bffc-89c5541ffdca"
       ]
     },
     {
@@ -298,10 +332,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.186,
+      "impact": 0.038,
+      "raw_impact": 0.172,
       "source_weight": 0.9,
-      "age_hours": 1.29,
+      "age_hours": 2.65,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -332,10 +366,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.184,
+      "impact": 0.038,
+      "raw_impact": 0.17,
       "source_weight": 0.9,
-      "age_hours": 1.47,
+      "age_hours": 2.83,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -366,10 +400,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.164,
+      "impact": 0.034,
+      "raw_impact": 0.151,
       "source_weight": 0.9,
-      "age_hours": 3.45,
+      "age_hours": 4.82,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -400,10 +434,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.16,
+      "impact": 0.033,
+      "raw_impact": 0.147,
       "source_weight": 0.9,
-      "age_hours": 3.91,
+      "age_hours": 5.27,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -434,10 +468,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.129,
+      "impact": 0.03,
+      "raw_impact": 0.12,
       "source_weight": 1.0,
-      "age_hours": 7.53,
+      "age_hours": 8.89,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -468,10 +502,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.148,
+      "impact": 0.029,
+      "raw_impact": 0.136,
       "source_weight": 0.85,
-      "age_hours": 5.27,
+      "age_hours": 6.63,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -494,40 +528,6 @@
       ]
     },
     {
-      "title": "Iran crisis, World Cup tensions overshadow FIFA Congress in Vancouver",
-      "published": "Thu, 30 Apr 2026 02:50:42 GMT",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.125,
-      "source_weight": 0.9,
-      "age_hours": 8.12,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/sport/20260430-iran-world-cup-fifa-congress-vancouver",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/sport/20260430-iran-world-cup-fifa-congress-vancouver"
-      ]
-    },
-    {
       "title": "U.S. aircraft carrier to leave Mideast, reducing military might amid Iran war",
       "published": "Wed, 29 Apr 2026 19:49:56 +0000",
       "actors": [
@@ -536,10 +536,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.083,
+      "impact": 0.017,
+      "raw_impact": 0.077,
       "source_weight": 0.9,
-      "age_hours": 15.13,
+      "age_hours": 16.49,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -570,10 +570,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.083,
+      "impact": 0.016,
+      "raw_impact": 0.077,
       "source_weight": 0.85,
-      "age_hours": 15.16,
+      "age_hours": 16.52,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -604,10 +604,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.073,
+      "impact": 0.015,
+      "raw_impact": 0.068,
       "source_weight": 0.9,
-      "age_hours": 17.42,
+      "age_hours": 18.78,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -638,10 +638,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.056,
+      "impact": 0.013,
+      "raw_impact": 0.052,
       "source_weight": 1.0,
-      "age_hours": 21.93,
+      "age_hours": 23.29,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -672,10 +672,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.014,
-      "raw_impact": 0.023,
+      "impact": 0.013,
+      "raw_impact": 0.022,
       "source_weight": 0.75,
-      "age_hours": 75.03,
+      "age_hours": 76.39,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -707,10 +707,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.04,
+      "impact": 0.008,
+      "raw_impact": 0.037,
       "source_weight": 0.9,
-      "age_hours": 27.95,
+      "age_hours": 29.31,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -744,7 +744,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 205.75,
+      "age_hours": 207.11,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -778,7 +778,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 163.95,
+      "age_hours": 165.32,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -812,7 +812,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 166.19,
+      "age_hours": 167.55,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -846,7 +846,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 166.36,
+      "age_hours": 167.72,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -995,17 +995,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 228,
+    "event_count": 227,
     "classified_count": 25,
     "paired_count": 25,
-    "valid_pair_updates": 4,
+    "valid_pair_updates": 6,
     "top_driver_count": 25,
-    "total_signal": 4.368,
+    "total_signal": 4.7486,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 110,
-      "no_signal": 61,
-      "invalid_pair": 32,
+      "no_actor": 112,
+      "no_signal": 60,
+      "invalid_pair": 30,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
