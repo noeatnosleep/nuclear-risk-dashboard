@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-01 12:01:04 UTC",
-  "probability": 13.52,
-  "uncertainty": 6.36,
+  "last_updated": "2026-05-01 14:00:05 UTC",
+  "probability": 13.75,
+  "uncertainty": 6.09,
   "state": {
-    "us_russia": 3.0158443185185058,
-    "us_china": 3.000340039378264,
-    "china_taiwan": 4.000068008523916,
+    "us_russia": 3.062087984063109,
+    "us_china": 3.000180645919703,
+    "china_taiwan": 4.000036129528331,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333322361237,
-    "iran_israel": 6.043438507714385,
+    "iran_us": 5.633333327504407,
+    "iran_israel": 5.832396258180502,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 4.167553518685029,
+    "nk_sk": 4.040957424277788,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.441230153412016
+    "russia_ukraine": 5.811903036229237
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.715,
-      "raw_impact": 0.794,
+      "impact": 0.637,
+      "raw_impact": 0.708,
       "source_weight": 0.9,
-      "age_hours": 2.16,
+      "age_hours": 4.15,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.714,
-      "raw_impact": 0.793,
+      "impact": 0.636,
+      "raw_impact": 0.707,
       "source_weight": 0.9,
-      "age_hours": 2.19,
+      "age_hours": 4.18,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.55,
-      "raw_impact": 0.611,
+      "impact": 0.49,
+      "raw_impact": 0.545,
       "source_weight": 0.9,
-      "age_hours": 1.08,
+      "age_hours": 3.06,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -128,10 +128,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.462,
-      "raw_impact": 0.524,
+      "impact": 0.411,
+      "raw_impact": 0.468,
       "source_weight": 1.1,
-      "age_hours": 24.02,
+      "age_hours": 26.0,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -154,65 +154,29 @@
       ]
     },
     {
-      "title": "Deadline for US Congress on war in Iran",
-      "published": "Fri, 01 May 2026 07:43:38 GMT",
+      "title": "Trump\u2019s threat: Why cutting US troops in Europe won\u2019t be easy",
+      "published": "Fri, 01 May 2026 13:25:46 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.457,
-      "raw_impact": 0.507,
+      "class": "movement",
+      "impact": 0.37,
+      "raw_impact": 0.484,
       "source_weight": 0.9,
-      "age_hours": 4.29,
-      "confidence": 0.688,
-      "signal_total": 0.65,
+      "age_hours": 0.57,
+      "confidence": 0.73,
+      "signal_total": 0.5,
       "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
         "strategic": 0.0,
         "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/deadline-for-us-congress-on-war-in-iran",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/deadline-for-us-congress-on-war-in-iran"
-      ]
-    },
-    {
-      "title": "Iran vows \u2018long, painful\u2019 response if US renews attacks",
-      "published": "Fri, 01 May 2026 07:32:57 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.452,
-      "raw_impact": 0.502,
-      "source_weight": 0.9,
-      "age_hours": 4.47,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/1/iran-vows-long-painful-response-if-us-renews-attacks?traffic_source=rss",
+      "link": "https://www.aljazeera.com/news/2026/5/1/trumps-threat-why-cutting-us-troops-in-europe-wont-be-easy?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
@@ -220,7 +184,41 @@
         "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/1/iran-vows-long-painful-response-if-us-renews-attacks?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/5/1/trumps-threat-why-cutting-us-troops-in-europe-wont-be-easy?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "President Macron attends Orion 26 excerices",
+      "published": "Fri, 01 May 2026 13:02:42 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "movement",
+      "impact": 0.362,
+      "raw_impact": 0.473,
+      "source_weight": 0.9,
+      "age_hours": 0.96,
+      "confidence": 0.73,
+      "signal_total": 0.5,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/president-macron-attends-orion-26-excerices",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/president-macron-attends-orion-26-excerices"
       ]
     },
     {
@@ -232,10 +230,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.174,
-      "raw_impact": 0.227,
+      "impact": 0.156,
+      "raw_impact": 0.203,
       "source_weight": 0.9,
-      "age_hours": 2.32,
+      "age_hours": 4.3,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -259,6 +257,40 @@
       ]
     },
     {
+      "title": "Hegseth says clock paused on deadline to seek approval for Iran war",
+      "published": "Fri, 01 May 2026 11:05:14 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.152,
+      "raw_impact": -0.169,
+      "source_weight": 1.0,
+      "age_hours": 2.91,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cvgz7l5v03po?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cvgz7l5v03po?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Russia scales back Victory Day plans as Ukraine\u2019s military reach expands",
       "published": "Thu, 30 Apr 2026 09:00:00 +0000",
       "actors": [
@@ -267,10 +299,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.17,
-      "raw_impact": 0.189,
+      "impact": 0.152,
+      "raw_impact": 0.169,
       "source_weight": 0.9,
-      "age_hours": 27.02,
+      "age_hours": 29.0,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -293,41 +325,6 @@
       ]
     },
     {
-      "title": "US considers reducing troops in Germany",
-      "published": "Fri, 01 May 2026 07:48:19 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.156,
-      "raw_impact": 0.204,
-      "source_weight": 0.9,
-      "age_hours": 4.21,
-      "confidence": 0.53,
-      "signal_total": 0.26,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.04,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/us-considers-reducing-troops-in-germany",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/us-considers-reducing-troops-in-germany"
-      ]
-    },
-    {
       "title": "Zelenskyy says he's seeking details of Putin's May 9 ceasefire proposal",
       "published": "Fri, 01 May 2026 01:04:38 -0400",
       "actors": [
@@ -336,10 +333,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.103,
-      "raw_impact": -0.134,
+      "impact": -0.092,
+      "raw_impact": -0.119,
       "source_weight": 0.85,
-      "age_hours": 6.94,
+      "age_hours": 8.92,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -362,18 +359,18 @@
       ]
     },
     {
-      "title": "Workers across the world march for peace and better pay in May Day rallies",
-      "published": "Fri, 01 May 2026 06:02:15 GMT",
+      "title": "\ud83d\udd34 Middle East war live: Iran has sent its latest proposal to US via Pakistani mediators",
+      "published": "Fri, 01 May 2026 12:44:32 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.142,
+      "impact": 0.042,
+      "raw_impact": 0.186,
       "source_weight": 0.9,
-      "age_hours": 5.98,
+      "age_hours": 1.26,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -384,7 +381,7 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/culture/20260501-workers-across-the-world-march-for-peace-and-better-pay-in-may-day-rallies",
+      "link": "https://www.france24.com/en/middle-east/20260501-middle-east-war-live-iran-supreme-leader-nuclear-missile-capabilities",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -392,23 +389,23 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/culture/20260501-workers-across-the-world-march-for-peace-and-better-pay-in-may-day-rallies"
+        "https://www.france24.com/en/middle-east/20260501-middle-east-war-live-iran-supreme-leader-nuclear-missile-capabilities"
       ]
     },
     {
-      "title": "Trump says US studying troop cuts in Germany, as spat with Merz intensifies",
-      "published": "Thu, 30 Apr 2026 20:15:20 GMT",
+      "title": "Oil prices rise amid US-Iran impasse",
+      "published": "Fri, 01 May 2026 12:38:03 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.08,
-      "source_weight": 1.0,
-      "age_hours": 15.76,
-      "confidence": 0.68,
+      "impact": 0.042,
+      "raw_impact": 0.185,
+      "source_weight": 0.9,
+      "age_hours": 1.37,
+      "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -418,15 +415,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.bbc.com/news/articles/clyplg23l30o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
+      "link": "https://www.france24.com/en/video/20260501-oil-prices-rise-amid-us-iran-impasse-1",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.bbci.co.uk"
+        "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.bbc.com/news/articles/clyplg23l30o?at_medium=RSS&at_campaign=rss"
+        "https://www.france24.com/en/video/20260501-oil-prices-rise-amid-us-iran-impasse-1"
       ]
     },
     {
@@ -439,9 +436,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.02,
+      "raw_impact": 0.018,
       "source_weight": 0.9,
-      "age_hours": 40.19,
+      "age_hours": 42.17,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -473,9 +470,9 @@
       "state_key": "us_russia",
       "class": "strategic",
       "impact": 0.003,
-      "raw_impact": 0.006,
+      "raw_impact": 0.005,
       "source_weight": 0.75,
-      "age_hours": 100.09,
+      "age_hours": 102.07,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -510,7 +507,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 230.8,
+      "age_hours": 232.79,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -544,7 +541,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 189.01,
+      "age_hours": 190.99,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -578,7 +575,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 191.25,
+      "age_hours": 193.23,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -612,7 +609,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 191.41,
+      "age_hours": 193.4,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -756,12 +753,12 @@
     "paired_count": 18,
     "valid_pair_updates": 5,
     "top_driver_count": 18,
-    "total_signal": 5.04,
+    "total_signal": 4.2067,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 120,
+      "no_actor": 116,
       "no_signal": 57,
-      "invalid_pair": 31,
+      "invalid_pair": 35,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
