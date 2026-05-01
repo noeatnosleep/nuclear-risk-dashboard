@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-01 16:32:42 UTC",
-  "probability": 13.68,
-  "uncertainty": 6.45,
+  "last_updated": "2026-05-01 18:00:10 UTC",
+  "probability": 13.62,
+  "uncertainty": 6.4,
   "state": {
-    "us_russia": 3.1065381994938672,
-    "us_china": 3.0000509830769473,
-    "china_taiwan": 4.000010196712585,
+    "us_russia": 3.118539950682901,
+    "us_china": 3.0000270847596284,
+    "china_taiwan": 4.000005417003561,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6267182223451915,
-    "iran_israel": 5.232847519485121,
+    "iran_us": 5.6298190556208825,
+    "iran_israel": 5.098516660636422,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.8502801967058025,
+    "nk_sk": 3.7662442023570133,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.014993862222215
+    "russia_ukraine": 5.997541097730897
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.423,
-      "raw_impact": 0.47,
+      "impact": 0.389,
+      "raw_impact": 0.432,
       "source_weight": 0.9,
-      "age_hours": 5.61,
+      "age_hours": 7.06,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -60,10 +60,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.355,
-      "raw_impact": 0.404,
+      "impact": 0.326,
+      "raw_impact": 0.371,
       "source_weight": 1.1,
-      "age_hours": 28.55,
+      "age_hours": 30.0,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -94,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.32,
-      "raw_impact": 0.418,
+      "impact": 0.294,
+      "raw_impact": 0.384,
       "source_weight": 0.9,
-      "age_hours": 3.12,
+      "age_hours": 4.57,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -128,10 +128,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "movement",
-      "impact": 0.313,
-      "raw_impact": 0.408,
+      "impact": 0.287,
+      "raw_impact": 0.375,
       "source_weight": 0.9,
-      "age_hours": 3.5,
+      "age_hours": 4.96,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -154,6 +154,40 @@
       ]
     },
     {
+      "title": "Hegseth says clock paused on deadline to seek approval for Iran war",
+      "published": "Fri, 01 May 2026 16:54:21 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.169,
+      "raw_impact": -0.188,
+      "source_weight": 1.0,
+      "age_hours": 1.1,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cvgz7l5v03po?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cvgz7l5v03po?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "60-day deadline for Congress' Iran war extension approval",
       "published": "Fri, 01 May 2026 14:45:01 GMT",
       "actors": [
@@ -162,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.179,
-      "raw_impact": 0.234,
+      "impact": 0.165,
+      "raw_impact": 0.215,
       "source_weight": 0.9,
-      "age_hours": 1.79,
+      "age_hours": 3.25,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -189,74 +223,6 @@
       ]
     },
     {
-      "title": "Hegseth says clock paused on deadline to seek approval for Iran war",
-      "published": "Fri, 01 May 2026 14:42:59 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.162,
-      "raw_impact": -0.18,
-      "source_weight": 1.0,
-      "age_hours": 1.83,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cvgz7l5v03po?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cvgz7l5v03po?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "title": "Iran Sends New Proposal for Peace Talks with U.S., State Media Says",
-      "published": "Fri, 01 May 2026 15:25:30 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.152,
-      "raw_impact": -0.187,
-      "source_weight": 0.9,
-      "age_hours": 1.12,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/05/01/world/middleeast/iran-new-proposal-peace-talks.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/05/01/world/middleeast/iran-new-proposal-peace-talks.html"
-      ]
-    },
-    {
       "title": "Russia scales back Victory Day plans as Ukraine\u2019s military reach expands",
       "published": "Thu, 30 Apr 2026 09:00:00 +0000",
       "actors": [
@@ -265,10 +231,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.131,
-      "raw_impact": 0.146,
+      "impact": 0.12,
+      "raw_impact": 0.134,
       "source_weight": 0.9,
-      "age_hours": 31.55,
+      "age_hours": 33.0,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -299,10 +265,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.079,
-      "raw_impact": -0.103,
+      "impact": -0.073,
+      "raw_impact": -0.095,
       "source_weight": 0.85,
-      "age_hours": 11.47,
+      "age_hours": 12.93,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -333,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.193,
+      "impact": 0.04,
+      "raw_impact": 0.178,
       "source_weight": 0.9,
-      "age_hours": 0.59,
+      "age_hours": 2.05,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -367,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.161,
+      "impact": 0.033,
+      "raw_impact": 0.148,
       "source_weight": 0.9,
-      "age_hours": 3.8,
+      "age_hours": 5.26,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -401,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.004,
-      "raw_impact": 0.015,
+      "impact": 0.003,
+      "raw_impact": 0.014,
       "source_weight": 0.9,
-      "age_hours": 44.71,
+      "age_hours": 46.17,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -438,7 +404,7 @@
       "impact": 0.002,
       "raw_impact": 0.004,
       "source_weight": 0.75,
-      "age_hours": 104.61,
+      "age_hours": 106.07,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -473,7 +439,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 235.33,
+      "age_hours": 236.79,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -507,7 +473,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 193.54,
+      "age_hours": 194.99,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -541,7 +507,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 195.77,
+      "age_hours": 197.23,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -575,7 +541,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 195.94,
+      "age_hours": 197.4,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -670,11 +636,6 @@
       "domain": "rss.nytimes.com"
     },
     {
-      "name": "rss.nytimes.com",
-      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "domain": "rss.nytimes.com"
-    },
-    {
       "name": "un_news",
       "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
       "domain": "news.un.org"
@@ -720,16 +681,16 @@
   ],
   "debug": {
     "event_count": 226,
-    "classified_count": 17,
-    "paired_count": 17,
+    "classified_count": 16,
+    "paired_count": 16,
     "valid_pair_updates": 5,
-    "top_driver_count": 17,
-    "total_signal": 2.1694,
+    "top_driver_count": 16,
+    "total_signal": 2.1536,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 126,
-      "no_signal": 56,
-      "invalid_pair": 27,
+      "no_actor": 122,
+      "no_signal": 60,
+      "invalid_pair": 28,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
