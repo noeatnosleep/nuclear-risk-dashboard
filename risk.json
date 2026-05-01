@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-01 20:28:31 UTC",
-  "probability": 13.73,
+  "last_updated": "2026-05-01 21:28:36 UTC",
+  "probability": 13.42,
   "uncertainty": 6.21,
   "state": {
-    "us_russia": 3.133860975064058,
-    "us_china": 3.000007644038606,
-    "china_taiwan": 4.000001528822294,
+    "us_russia": 3.13883800625934,
+    "us_china": 3.0000040608955096,
+    "china_taiwan": 4.000000812186844,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.176357823718459,
-    "iran_israel": 6.074115682127017,
+    "iran_us": 4.68756093170342,
+    "iran_israel": 6.1308765652832395,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.626543773199648,
+    "nk_sk": 3.57315773092188,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.903260608693711
+    "russia_ukraine": 5.854858453248978
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.779,
-      "raw_impact": 0.866,
+      "impact": 0.735,
+      "raw_impact": 0.817,
       "source_weight": 0.9,
-      "age_hours": 0.68,
+      "age_hours": 1.68,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.283,
-      "raw_impact": 0.322,
+      "impact": 0.267,
+      "raw_impact": 0.304,
       "source_weight": 1.1,
-      "age_hours": 32.48,
+      "age_hours": 33.48,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -85,40 +85,6 @@
       ]
     },
     {
-      "title": "Trump\u2019s threat: Why cutting US troops in Europe won\u2019t be easy",
-      "published": "Fri, 01 May 2026 13:25:46 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.255,
-      "raw_impact": 0.333,
-      "source_weight": 0.9,
-      "age_hours": 7.05,
-      "confidence": 0.73,
-      "signal_total": 0.5,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/1/trumps-threat-why-cutting-us-troops-in-europe-wont-be-easy?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/1/trumps-threat-why-cutting-us-troops-in-europe-wont-be-easy?traffic_source=rss"
-      ]
-    },
-    {
       "title": "President Macron attends Orion 26 excerices",
       "published": "Fri, 01 May 2026 13:02:42 GMT",
       "actors": [
@@ -127,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "movement",
-      "impact": 0.249,
-      "raw_impact": 0.326,
+      "impact": 0.235,
+      "raw_impact": 0.307,
       "source_weight": 0.9,
-      "age_hours": 7.43,
+      "age_hours": 8.43,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -161,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.159,
-      "raw_impact": -0.197,
+      "impact": -0.15,
+      "raw_impact": -0.186,
       "source_weight": 0.9,
-      "age_hours": 0.25,
+      "age_hours": 1.25,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -195,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.143,
-      "raw_impact": 0.187,
+      "impact": 0.135,
+      "raw_impact": 0.176,
       "source_weight": 0.9,
-      "age_hours": 5.73,
+      "age_hours": 6.73,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -230,10 +196,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.104,
-      "raw_impact": 0.116,
+      "impact": 0.098,
+      "raw_impact": 0.109,
       "source_weight": 0.9,
-      "age_hours": 35.48,
+      "age_hours": 36.48,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -264,10 +230,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.063,
-      "raw_impact": -0.082,
+      "impact": -0.059,
+      "raw_impact": -0.078,
       "source_weight": 0.85,
-      "age_hours": 15.4,
+      "age_hours": 16.4,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -290,6 +256,40 @@
       ]
     },
     {
+      "title": "Trump\u2019s Iran war leaves US with sharpest fuel shock in G7",
+      "published": "Fri, 01 May 2026 20:59:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.194,
+      "source_weight": 0.9,
+      "age_hours": 0.49,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/aa553985-ef1a-4001-9f8d-f9501810dbb5",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/aa553985-ef1a-4001-9f8d-f9501810dbb5"
+      ]
+    },
+    {
       "title": "Pentagon announces deal with seven AI companies for classified systems",
       "published": "Fri, 01 May 2026 15:57:09 +0000",
       "actors": [
@@ -298,10 +298,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.154,
+      "impact": 0.033,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 4.52,
+      "age_hours": 5.52,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -324,40 +324,6 @@
       ]
     },
     {
-      "title": "\ud83d\udd34 Middle East war live: Iran has sent its latest proposal to US via Pakistani mediators",
-      "published": "Fri, 01 May 2026 12:44:32 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.128,
-      "source_weight": 0.9,
-      "age_hours": 7.73,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260501-middle-east-war-live-iran-supreme-leader-nuclear-missile-capabilities",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260501-middle-east-war-live-iran-supreme-leader-nuclear-missile-capabilities"
-      ]
-    },
-    {
       "title": "Putin\u2019s troubles: Facing mounting economic and military pressure, the Kremlin may try to muddle through \u2013 or escalate",
       "published": "Mon, 27 Apr 2026 07:55:57 +0000",
       "actors": [
@@ -369,7 +335,7 @@
       "impact": 0.002,
       "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 108.54,
+      "age_hours": 109.54,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -404,7 +370,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 239.26,
+      "age_hours": 240.26,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -438,7 +404,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 197.47,
+      "age_hours": 198.47,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -472,7 +438,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 199.7,
+      "age_hours": 200.7,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -506,7 +472,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 199.87,
+      "age_hours": 200.87,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -631,6 +597,11 @@
       "domain": "www.france24.com"
     },
     {
+      "name": "www.ft.com",
+      "url": "https://www.ft.com/world?format=rss",
+      "domain": "www.ft.com"
+    },
+    {
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
@@ -646,15 +617,15 @@
   ],
   "debug": {
     "event_count": 225,
-    "classified_count": 15,
-    "paired_count": 15,
+    "classified_count": 14,
+    "paired_count": 14,
     "valid_pair_updates": 5,
-    "top_driver_count": 15,
-    "total_signal": 2.2107,
+    "top_driver_count": 14,
+    "total_signal": 1.8267,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 120,
-      "no_signal": 64,
+      "no_actor": 115,
+      "no_signal": 70,
       "invalid_pair": 26,
       "low_confidence": 0,
       "classifier_error": 0,
