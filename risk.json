@@ -1,21 +1,56 @@
 {
-  "last_updated": "2026-04-30 23:59:48 UTC",
-  "probability": 14.83,
-  "uncertainty": 5.97,
+  "last_updated": "2026-05-01 04:09:57 UTC",
+  "probability": 14.71,
+  "uncertainty": 5.88,
   "state": {
-    "us_russia": 3.330981599780905,
-    "us_china": 3.0080358995274046,
-    "china_taiwan": 4.001607195225416,
+    "us_russia": 3.3120116856713575,
+    "us_china": 3.0042690716239338,
+    "china_taiwan": 4.000853822463503,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333074037871,
-    "iran_israel": 6.113580932316233,
+    "iran_us": 5.633333195582619,
+    "iran_israel": 6.193005886031612,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 4.843061256408692,
+    "nk_sk": 4.793348738066922,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.057156057308052
+    "russia_ukraine": 5.92066739643162
   },
   "top_drivers": [
+    {
+      "title": "Middle East War Live: Iran\u2019s supreme leader vows to protect nuclear and missile capabilities",
+      "published": "Fri, 01 May 2026 03:13:36 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.9,
+      "raw_impact": 1.25,
+      "source_weight": 0.9,
+      "age_hours": 0.94,
+      "confidence": 0.806,
+      "signal_total": 1.79,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.11,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260501-middle-east-war-live-iran-supreme-leader-nuclear-missile-capabilities",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260501-middle-east-war-live-iran-supreme-leader-nuclear-missile-capabilities"
+      ]
+    },
     {
       "title": "Germany says 'prepared' for any US troop reduction",
       "published": "Thu, 30 Apr 2026 19:46:47 GMT",
@@ -25,10 +60,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.966,
-      "raw_impact": 1.074,
+      "impact": 0.76,
+      "raw_impact": 0.844,
       "source_weight": 0.9,
-      "age_hours": 4.22,
+      "age_hours": 8.39,
       "confidence": 0.959,
       "signal_total": 1.37,
       "signal_components": {
@@ -60,10 +95,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.924,
-      "raw_impact": 1.05,
+      "impact": 0.726,
+      "raw_impact": 0.825,
       "source_weight": 1.1,
-      "age_hours": 12.0,
+      "age_hours": 16.17,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -86,6 +121,40 @@
       ]
     },
     {
+      "title": "Iran war live: Tehran says US ports siege \u2018intolerable\u2019; Trump mulls action",
+      "published": "Fri, 01 May 2026 00:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.637,
+      "raw_impact": 0.708,
+      "source_weight": 0.9,
+      "age_hours": 4.17,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/liveblog/2026/5/1/iran-war-live-tehran-says-us-ports-siege-intolerable-trump-mulls-action?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/liveblog/2026/5/1/iran-war-live-tehran-says-us-ports-siege-intolerable-trump-mulls-action?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Trump May Pull Troops From Germany. That Isn\u2019t as Scary as It Once Was.",
       "published": "Thu, 30 Apr 2026 12:49:45 +0000",
       "actors": [
@@ -94,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.647,
-      "raw_impact": 0.719,
+      "impact": 0.508,
+      "raw_impact": 0.565,
       "source_weight": 0.9,
-      "age_hours": 11.17,
+      "age_hours": 15.34,
       "confidence": 0.959,
       "signal_total": 1.37,
       "signal_components": {
@@ -129,10 +198,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.375,
-      "raw_impact": 0.441,
+      "impact": 0.294,
+      "raw_impact": 0.346,
       "source_weight": 0.85,
-      "age_hours": 12.36,
+      "age_hours": 16.53,
       "confidence": 0.885,
       "signal_total": 0.9,
       "signal_components": {
@@ -155,40 +224,6 @@
       ]
     },
     {
-      "title": "Mexico\u2019s cartel crackdown hits top ranks \u2013 but will it fuel Jalisco violence?",
-      "published": "Thu, 30 Apr 2026 10:33:16 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.373,
-      "raw_impact": 0.414,
-      "source_weight": 0.9,
-      "age_hours": 13.44,
-      "confidence": 0.81,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.theguardian.com/world/2026/apr/30/mexico-jalisco-cartel-el-mencho-flores",
-      "source": "https://www.theguardian.com/world/rss",
-      "source_domain": "www.theguardian.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.theguardian.com"
-      ],
-      "cluster_links": [
-        "https://www.theguardian.com/world/2026/apr/30/mexico-jalisco-cartel-el-mencho-flores"
-      ]
-    },
-    {
       "title": "Russia scales back Victory Day plans as Ukraine\u2019s military reach expands",
       "published": "Thu, 30 Apr 2026 09:00:00 +0000",
       "actors": [
@@ -197,10 +232,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.341,
-      "raw_impact": 0.378,
+      "impact": 0.268,
+      "raw_impact": 0.297,
       "source_weight": 0.9,
-      "age_hours": 15.0,
+      "age_hours": 19.17,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -231,10 +266,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "strategic",
-      "impact": 0.15,
-      "raw_impact": 0.207,
+      "impact": 0.118,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 36.43,
+      "age_hours": 40.6,
       "confidence": 0.88,
       "signal_total": 1.7,
       "signal_components": {
@@ -265,10 +300,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.063,
-      "raw_impact": -0.083,
+      "impact": -0.05,
+      "raw_impact": -0.065,
       "source_weight": 0.85,
-      "age_hours": 15.27,
+      "age_hours": 19.43,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.161,
+      "impact": 0.032,
+      "raw_impact": 0.127,
       "source_weight": 1.0,
-      "age_hours": 3.74,
+      "age_hours": 7.91,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -333,10 +368,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
+      "impact": 0.031,
+      "raw_impact": 0.136,
       "source_weight": 0.9,
-      "age_hours": 2.48,
+      "age_hours": 6.65,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -367,10 +402,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
+      "impact": 0.03,
+      "raw_impact": 0.133,
       "source_weight": 0.9,
-      "age_hours": 2.84,
+      "age_hours": 7.01,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -401,10 +436,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.164,
+      "impact": 0.029,
+      "raw_impact": 0.129,
       "source_weight": 0.9,
-      "age_hours": 3.46,
+      "age_hours": 7.63,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -435,10 +470,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.16,
+      "impact": 0.028,
+      "raw_impact": 0.126,
       "source_weight": 0.9,
-      "age_hours": 3.9,
+      "age_hours": 8.06,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -469,10 +504,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.151,
+      "impact": 0.027,
+      "raw_impact": 0.119,
       "source_weight": 0.9,
-      "age_hours": 4.82,
+      "age_hours": 8.99,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -495,40 +530,6 @@
       ]
     },
     {
-      "title": "Piracy rises off Somalia as US-Israeli war on Iran diverts naval forces",
-      "published": "Thu, 30 Apr 2026 18:59:13 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.15,
-      "source_weight": 0.9,
-      "age_hours": 5.01,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/4/30/piracy-rises-off-somalia-as-us-israeli-war-on-iran-diverts-naval-forces?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/4/30/piracy-rises-off-somalia-as-us-israeli-war-on-iran-diverts-naval-forces?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Trump says he is weighing reducing American troop presence in Germany after Iran feud",
       "published": "Thu, 30 Apr 2026 01:41:44 -0400",
       "actors": [
@@ -537,10 +538,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.069,
+      "impact": 0.011,
+      "raw_impact": 0.055,
       "source_weight": 0.85,
-      "age_hours": 18.3,
+      "age_hours": 22.47,
       "confidence": 0.675,
       "signal_total": 0.2,
       "signal_components": {
@@ -563,6 +564,40 @@
       ]
     },
     {
+      "title": "Three takeaways from Hegseth's clash with lawmakers over Iran war",
+      "published": "Wed, 29 Apr 2026 22:22:18 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.009,
+      "raw_impact": 0.036,
+      "source_weight": 1.0,
+      "age_hours": 29.79,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/c78qd6ll8xlo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/c78qd6ll8xlo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "U.S. aircraft carrier to leave Mideast, reducing military might amid Iran war",
       "published": "Wed, 29 Apr 2026 19:49:56 +0000",
       "actors": [
@@ -571,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.039,
+      "impact": 0.007,
+      "raw_impact": 0.031,
       "source_weight": 0.9,
-      "age_hours": 28.16,
+      "age_hours": 32.33,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -605,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.039,
+      "impact": 0.006,
+      "raw_impact": 0.031,
       "source_weight": 0.85,
-      "age_hours": 28.19,
+      "age_hours": 32.36,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,9 +675,9 @@
       "state_key": "us_russia",
       "class": "strategic",
       "impact": 0.006,
-      "raw_impact": 0.011,
+      "raw_impact": 0.009,
       "source_weight": 0.75,
-      "age_hours": 88.06,
+      "age_hours": 92.23,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -674,10 +709,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.004,
-      "raw_impact": 0.019,
+      "impact": 0.003,
+      "raw_impact": 0.015,
       "source_weight": 0.9,
-      "age_hours": 40.98,
+      "age_hours": 45.15,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -711,7 +746,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 218.78,
+      "age_hours": 222.95,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -745,7 +780,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 176.99,
+      "age_hours": 181.16,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -779,7 +814,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 179.22,
+      "age_hours": 183.39,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -813,7 +848,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 179.39,
+      "age_hours": 183.56,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -968,16 +1003,16 @@
   ],
   "debug": {
     "event_count": 226,
-    "classified_count": 24,
-    "paired_count": 24,
+    "classified_count": 25,
+    "paired_count": 25,
     "valid_pair_updates": 5,
-    "top_driver_count": 24,
-    "total_signal": 5.9108,
+    "top_driver_count": 25,
+    "total_signal": 6.3242,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 109,
-      "no_signal": 62,
-      "invalid_pair": 31,
+      "no_actor": 110,
+      "no_signal": 63,
+      "invalid_pair": 28,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
