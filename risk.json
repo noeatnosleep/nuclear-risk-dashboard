@@ -1,34 +1,34 @@
 {
-  "last_updated": "2026-05-01 21:28:36 UTC",
-  "probability": 13.42,
-  "uncertainty": 6.21,
+  "last_updated": "2026-05-01 22:28:02 UTC",
+  "probability": 13.64,
+  "uncertainty": 6.27,
   "state": {
-    "us_russia": 3.13883800625934,
-    "us_china": 3.0000040608955096,
-    "china_taiwan": 4.000000812186844,
+    "us_russia": 3.3127964718722507,
+    "us_china": 3.0000021573507394,
+    "china_taiwan": 4.000000431474262,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.68756093170342,
-    "iran_israel": 6.1308765652832395,
+    "iran_us": 4.411372581411952,
+    "iran_israel": 6.210197450398201,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.57315773092188,
+    "nk_sk": 3.5262205770925132,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.854858453248978
+    "russia_ukraine": 5.808292172399403
   },
   "top_drivers": [
     {
       "title": "Israel Said to Have Helped Defend Emirates in Iran War With Iron Dome",
-      "published": "Fri, 01 May 2026 19:48:00 +0000",
+      "published": "Fri, 01 May 2026 21:59:02 +0000",
       "actors": [
         "iran",
         "israel"
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.735,
-      "raw_impact": 0.817,
+      "impact": 0.788,
+      "raw_impact": 0.875,
       "source_weight": 0.9,
-      "age_hours": 1.68,
+      "age_hours": 0.48,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.267,
-      "raw_impact": 0.304,
+      "impact": 0.252,
+      "raw_impact": 0.287,
       "source_weight": 1.1,
-      "age_hours": 33.48,
+      "age_hours": 34.47,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "movement",
-      "impact": 0.235,
-      "raw_impact": 0.307,
+      "impact": 0.222,
+      "raw_impact": 0.29,
       "source_weight": 0.9,
-      "age_hours": 8.43,
+      "age_hours": 9.42,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.15,
-      "raw_impact": -0.186,
+      "impact": -0.142,
+      "raw_impact": -0.176,
       "source_weight": 0.9,
-      "age_hours": 1.25,
+      "age_hours": 2.24,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -161,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.135,
-      "raw_impact": 0.176,
+      "impact": 0.128,
+      "raw_impact": 0.166,
       "source_weight": 0.9,
-      "age_hours": 6.73,
+      "age_hours": 7.72,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -196,10 +196,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.098,
-      "raw_impact": 0.109,
+      "impact": 0.093,
+      "raw_impact": 0.103,
       "source_weight": 0.9,
-      "age_hours": 36.48,
+      "age_hours": 37.47,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -230,10 +230,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.059,
-      "raw_impact": -0.078,
+      "impact": -0.056,
+      "raw_impact": -0.073,
       "source_weight": 0.85,
-      "age_hours": 16.4,
+      "age_hours": 17.39,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -256,6 +256,40 @@
       ]
     },
     {
+      "title": "US warns Europe of delays to arms shipments as Iran war drains stockpiles",
+      "published": "Fri, 01 May 2026 21:27:51 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.189,
+      "source_weight": 0.9,
+      "age_hours": 1.0,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/f87a8b04-e683-4e0e-8c66-647d23bfc2ff",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/f87a8b04-e683-4e0e-8c66-647d23bfc2ff"
+      ]
+    },
+    {
       "title": "Trump\u2019s Iran war leaves US with sharpest fuel shock in G7",
       "published": "Fri, 01 May 2026 20:59:00 GMT",
       "actors": [
@@ -264,10 +298,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.194,
+      "impact": 0.041,
+      "raw_impact": 0.184,
       "source_weight": 0.9,
-      "age_hours": 0.49,
+      "age_hours": 1.48,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -298,10 +332,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.145,
+      "impact": 0.031,
+      "raw_impact": 0.137,
       "source_weight": 0.9,
-      "age_hours": 5.52,
+      "age_hours": 6.51,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -335,7 +369,7 @@
       "impact": 0.002,
       "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 109.54,
+      "age_hours": 110.53,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -370,7 +404,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 240.26,
+      "age_hours": 241.25,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -404,7 +438,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 198.47,
+      "age_hours": 199.46,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -438,7 +472,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 200.7,
+      "age_hours": 201.69,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -472,7 +506,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 200.87,
+      "age_hours": 201.86,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -617,16 +651,16 @@
   ],
   "debug": {
     "event_count": 225,
-    "classified_count": 14,
-    "paired_count": 14,
+    "classified_count": 15,
+    "paired_count": 15,
     "valid_pair_updates": 5,
-    "top_driver_count": 14,
-    "total_signal": 1.8267,
+    "top_driver_count": 15,
+    "total_signal": 1.9392,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 115,
-      "no_signal": 70,
-      "invalid_pair": 26,
+      "no_actor": 116,
+      "no_signal": 69,
+      "invalid_pair": 25,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
