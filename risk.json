@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-05-01 18:00:10 UTC",
-  "probability": 13.62,
-  "uncertainty": 6.4,
+  "last_updated": "2026-05-01 19:24:58 UTC",
+  "probability": 13.93,
+  "uncertainty": 6.27,
   "state": {
-    "us_russia": 3.118539950682901,
-    "us_china": 3.0000270847596284,
-    "china_taiwan": 4.000005417003561,
+    "us_russia": 3.127409374947893,
+    "us_china": 3.0000143887785526,
+    "china_taiwan": 4.000002877783142,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6298190556208825,
-    "iran_israel": 5.098516660636422,
+    "iran_us": 5.6314663732985935,
+    "iran_israel": 5.791872000129412,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.7662442023570133,
+    "nk_sk": 3.6895944167038484,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.997541097730897
+    "russia_ukraine": 5.952340753653419
   },
   "top_drivers": [
+    {
+      "title": "Israel Said to Have Helped Defend Emirates in Iran War With Iron Dome",
+      "published": "Fri, 01 May 2026 18:00:12 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.747,
+      "raw_impact": 0.829,
+      "source_weight": 0.9,
+      "age_hours": 1.41,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/05/01/world/middleeast/israel-emirates-iron-dome.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/05/01/world/middleeast/israel-emirates-iron-dome.html"
+      ]
+    },
     {
       "title": "Has the US-Iran ceasefire reset the clock on War Powers Act deadline?",
       "published": "Fri, 01 May 2026 10:56:21 +0000",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.389,
-      "raw_impact": 0.432,
+      "impact": 0.359,
+      "raw_impact": 0.398,
       "source_weight": 0.9,
-      "age_hours": 7.06,
+      "age_hours": 8.48,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -60,10 +94,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.326,
-      "raw_impact": 0.371,
+      "impact": 0.301,
+      "raw_impact": 0.342,
       "source_weight": 1.1,
-      "age_hours": 30.0,
+      "age_hours": 31.42,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -94,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.294,
-      "raw_impact": 0.384,
+      "impact": 0.27,
+      "raw_impact": 0.354,
       "source_weight": 0.9,
-      "age_hours": 4.57,
+      "age_hours": 5.99,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -128,10 +162,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "movement",
-      "impact": 0.287,
-      "raw_impact": 0.375,
+      "impact": 0.264,
+      "raw_impact": 0.346,
       "source_weight": 0.9,
-      "age_hours": 4.96,
+      "age_hours": 6.37,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -154,40 +188,6 @@
       ]
     },
     {
-      "title": "Hegseth says clock paused on deadline to seek approval for Iran war",
-      "published": "Fri, 01 May 2026 16:54:21 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.169,
-      "raw_impact": -0.188,
-      "source_weight": 1.0,
-      "age_hours": 1.1,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cvgz7l5v03po?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cvgz7l5v03po?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "60-day deadline for Congress' Iran war extension approval",
       "published": "Fri, 01 May 2026 14:45:01 GMT",
       "actors": [
@@ -196,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.165,
-      "raw_impact": 0.215,
+      "impact": 0.152,
+      "raw_impact": 0.199,
       "source_weight": 0.9,
-      "age_hours": 3.25,
+      "age_hours": 4.67,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -231,10 +231,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.12,
-      "raw_impact": 0.134,
+      "impact": 0.111,
+      "raw_impact": 0.123,
       "source_weight": 0.9,
-      "age_hours": 33.0,
+      "age_hours": 34.42,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -265,10 +265,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.073,
-      "raw_impact": -0.095,
+      "impact": -0.067,
+      "raw_impact": -0.087,
       "source_weight": 0.85,
-      "age_hours": 12.93,
+      "age_hours": 14.34,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
+      "impact": 0.037,
+      "raw_impact": 0.164,
       "source_weight": 0.9,
-      "age_hours": 2.05,
+      "age_hours": 3.46,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -333,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.148,
+      "impact": 0.03,
+      "raw_impact": 0.136,
       "source_weight": 0.9,
-      "age_hours": 5.26,
+      "age_hours": 6.67,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -368,9 +368,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.014,
+      "raw_impact": 0.013,
       "source_weight": 0.9,
-      "age_hours": 46.17,
+      "age_hours": 47.58,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -404,7 +404,7 @@
       "impact": 0.002,
       "raw_impact": 0.004,
       "source_weight": 0.75,
-      "age_hours": 106.07,
+      "age_hours": 107.48,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -439,7 +439,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 236.79,
+      "age_hours": 238.2,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -473,7 +473,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 194.99,
+      "age_hours": 196.41,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -507,7 +507,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 197.23,
+      "age_hours": 198.64,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -541,7 +541,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 197.4,
+      "age_hours": 198.81,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -586,11 +586,6 @@
       "domain": "www.economist.com"
     },
     {
-      "name": "feeds.bbci.co.uk",
-      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "domain": "feeds.bbci.co.uk"
-    },
-    {
       "name": "feeds.npr.org",
       "url": "https://feeds.npr.org/1004/rss.xml",
       "domain": "feeds.npr.org"
@@ -632,6 +627,11 @@
     },
     {
       "name": "nyt_world",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "domain": "rss.nytimes.com"
+    },
+    {
+      "name": "rss.nytimes.com",
       "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       "domain": "rss.nytimes.com"
     },
@@ -685,12 +685,12 @@
     "paired_count": 16,
     "valid_pair_updates": 5,
     "top_driver_count": 16,
-    "total_signal": 2.1536,
+    "total_signal": 2.9389,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 122,
-      "no_signal": 60,
-      "invalid_pair": 28,
+      "no_actor": 118,
+      "no_signal": 63,
+      "invalid_pair": 29,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
