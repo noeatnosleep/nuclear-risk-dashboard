@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-01 22:28:02 UTC",
-  "probability": 13.64,
-  "uncertainty": 6.27,
+  "last_updated": "2026-05-01 23:29:42 UTC",
+  "probability": 14.37,
+  "uncertainty": 6.56,
   "state": {
-    "us_russia": 3.3127964718722507,
-    "us_china": 3.0000021573507394,
-    "china_taiwan": 4.000000431474262,
+    "us_russia": 3.5554821767289297,
+    "us_china": 3.0000011460925804,
+    "china_taiwan": 4.000000229220701,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.411372581411952,
-    "iran_israel": 6.210197450398201,
+    "iran_us": 4.6526367027006446,
+    "iran_israel": 6.284532862326248,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.5262205770925132,
+    "nk_sk": 3.4831014280488306,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.808292172399403
+    "russia_ukraine": 5.763141282283704
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.788,
-      "raw_impact": 0.875,
+      "impact": 0.742,
+      "raw_impact": 0.825,
       "source_weight": 0.9,
-      "age_hours": 0.48,
+      "age_hours": 1.51,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.252,
-      "raw_impact": 0.287,
+      "impact": 0.238,
+      "raw_impact": 0.27,
       "source_weight": 1.1,
-      "age_hours": 34.47,
+      "age_hours": 35.5,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "movement",
-      "impact": 0.222,
-      "raw_impact": 0.29,
+      "impact": 0.209,
+      "raw_impact": 0.273,
       "source_weight": 0.9,
-      "age_hours": 9.42,
+      "age_hours": 10.45,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -119,6 +119,41 @@
       ]
     },
     {
+      "title": "US said to be withdrawing 5,000 troops from Germany over Iran war spat",
+      "published": "Fri, 01 May 2026 22:54:30 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.192,
+      "raw_impact": 0.251,
+      "source_weight": 0.9,
+      "age_hours": 0.59,
+      "confidence": 0.53,
+      "signal_total": 0.26,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.04,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Iran delivers new proposal for US talks, Trump says \u2018not satisfied\u2019 with offer",
       "published": "Fri, 01 May 2026 20:13:26 GMT",
       "actors": [
@@ -127,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.142,
-      "raw_impact": -0.176,
+      "impact": -0.134,
+      "raw_impact": -0.166,
       "source_weight": 0.9,
-      "age_hours": 2.24,
+      "age_hours": 3.27,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -161,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.128,
-      "raw_impact": 0.166,
+      "impact": 0.12,
+      "raw_impact": 0.157,
       "source_weight": 0.9,
-      "age_hours": 7.72,
+      "age_hours": 8.74,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -196,10 +231,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.093,
-      "raw_impact": 0.103,
+      "impact": 0.088,
+      "raw_impact": 0.097,
       "source_weight": 0.9,
-      "age_hours": 37.47,
+      "age_hours": 38.5,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -230,10 +265,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.056,
-      "raw_impact": -0.073,
+      "impact": -0.053,
+      "raw_impact": -0.069,
       "source_weight": 0.85,
-      "age_hours": 17.39,
+      "age_hours": 18.42,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -256,6 +291,74 @@
       ]
     },
     {
+      "title": "Trump to downsize U.S. military presence in Germany",
+      "published": "Fri, 01 May 2026 23:17:49 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.198,
+      "source_weight": 0.9,
+      "age_hours": 0.2,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/national-security/2026/05/01/us-troops-germany-trump-merz/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/national-security/2026/05/01/us-troops-germany-trump-merz/"
+      ]
+    },
+    {
+      "title": "Tessalit army base taken by rebels",
+      "published": "Fri, 01 May 2026 21:18:31 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.176,
+      "source_weight": 0.9,
+      "age_hours": 2.19,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tessalit-army-base-taken-by-rebels",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tessalit-army-base-taken-by-rebels"
+      ]
+    },
+    {
       "title": "US warns Europe of delays to arms shipments as Iran war drains stockpiles",
       "published": "Fri, 01 May 2026 21:27:51 GMT",
       "actors": [
@@ -264,10 +367,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.189,
+      "impact": 0.04,
+      "raw_impact": 0.178,
       "source_weight": 0.9,
-      "age_hours": 1.0,
+      "age_hours": 2.03,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -298,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.184,
+      "impact": 0.039,
+      "raw_impact": 0.173,
       "source_weight": 0.9,
-      "age_hours": 1.48,
+      "age_hours": 2.51,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -332,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.137,
+      "impact": 0.029,
+      "raw_impact": 0.129,
       "source_weight": 0.9,
-      "age_hours": 6.51,
+      "age_hours": 7.54,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -369,7 +472,7 @@
       "impact": 0.002,
       "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 110.53,
+      "age_hours": 111.56,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -404,7 +507,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 241.25,
+      "age_hours": 242.28,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -438,7 +541,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 199.46,
+      "age_hours": 200.49,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -472,7 +575,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 201.69,
+      "age_hours": 202.72,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -506,7 +609,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 201.86,
+      "age_hours": 202.89,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -651,16 +754,16 @@
   ],
   "debug": {
     "event_count": 225,
-    "classified_count": 15,
-    "paired_count": 15,
+    "classified_count": 18,
+    "paired_count": 18,
     "valid_pair_updates": 5,
-    "top_driver_count": 15,
-    "total_signal": 1.9392,
+    "top_driver_count": 18,
+    "total_signal": 2.4711,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 116,
-      "no_signal": 69,
-      "invalid_pair": 25,
+      "no_actor": 113,
+      "no_signal": 68,
+      "invalid_pair": 26,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
