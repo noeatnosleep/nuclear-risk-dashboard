@@ -1,34 +1,34 @@
 {
-  "last_updated": "2026-05-01 19:24:58 UTC",
-  "probability": 13.93,
-  "uncertainty": 6.27,
+  "last_updated": "2026-05-01 20:28:31 UTC",
+  "probability": 13.73,
+  "uncertainty": 6.21,
   "state": {
-    "us_russia": 3.127409374947893,
-    "us_china": 3.0000143887785526,
-    "china_taiwan": 4.000002877783142,
+    "us_russia": 3.133860975064058,
+    "us_china": 3.000007644038606,
+    "china_taiwan": 4.000001528822294,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6314663732985935,
-    "iran_israel": 5.791872000129412,
+    "iran_us": 5.176357823718459,
+    "iran_israel": 6.074115682127017,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.6895944167038484,
+    "nk_sk": 3.626543773199648,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.952340753653419
+    "russia_ukraine": 5.903260608693711
   },
   "top_drivers": [
     {
       "title": "Israel Said to Have Helped Defend Emirates in Iran War With Iron Dome",
-      "published": "Fri, 01 May 2026 18:00:12 +0000",
+      "published": "Fri, 01 May 2026 19:48:00 +0000",
       "actors": [
         "iran",
         "israel"
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.747,
-      "raw_impact": 0.829,
+      "impact": 0.779,
+      "raw_impact": 0.866,
       "source_weight": 0.9,
-      "age_hours": 1.41,
+      "age_hours": 0.68,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,41 +51,6 @@
       ]
     },
     {
-      "title": "Has the US-Iran ceasefire reset the clock on War Powers Act deadline?",
-      "published": "Fri, 01 May 2026 10:56:21 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.359,
-      "raw_impact": 0.398,
-      "source_weight": 0.9,
-      "age_hours": 8.48,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/1/has-the-us-iran-ceasefire-reset-the-clock-on-war-powers-act-deadline?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/1/has-the-us-iran-ceasefire-reset-the-clock-on-war-powers-act-deadline?traffic_source=rss"
-      ]
-    },
-    {
       "title": "DPRK Korea: Continued militarisation a \u2018serious concern\u2019, political affairs chief warns Security Council",
       "published": "Thu, 30 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -94,10 +59,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.301,
-      "raw_impact": 0.342,
+      "impact": 0.283,
+      "raw_impact": 0.322,
       "source_weight": 1.1,
-      "age_hours": 31.42,
+      "age_hours": 32.48,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -128,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.27,
-      "raw_impact": 0.354,
+      "impact": 0.255,
+      "raw_impact": 0.333,
       "source_weight": 0.9,
-      "age_hours": 5.99,
+      "age_hours": 7.05,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -162,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "movement",
-      "impact": 0.264,
-      "raw_impact": 0.346,
+      "impact": 0.249,
+      "raw_impact": 0.326,
       "source_weight": 0.9,
-      "age_hours": 6.37,
+      "age_hours": 7.43,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -188,6 +153,40 @@
       ]
     },
     {
+      "title": "Iran delivers new proposal for US talks, Trump says \u2018not satisfied\u2019 with offer",
+      "published": "Fri, 01 May 2026 20:13:26 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.159,
+      "raw_impact": -0.197,
+      "source_weight": 0.9,
+      "age_hours": 0.25,
+      "confidence": 0.68,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260501-iran-delivers-new-proposal-for-us-talks-trump-says-not-satisfied-with-offer",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260501-iran-delivers-new-proposal-for-us-talks-trump-says-not-satisfied-with-offer"
+      ]
+    },
+    {
       "title": "60-day deadline for Congress' Iran war extension approval",
       "published": "Fri, 01 May 2026 14:45:01 GMT",
       "actors": [
@@ -196,10 +195,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.152,
-      "raw_impact": 0.199,
+      "impact": 0.143,
+      "raw_impact": 0.187,
       "source_weight": 0.9,
-      "age_hours": 4.67,
+      "age_hours": 5.73,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -231,10 +230,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.111,
-      "raw_impact": 0.123,
+      "impact": 0.104,
+      "raw_impact": 0.116,
       "source_weight": 0.9,
-      "age_hours": 34.42,
+      "age_hours": 35.48,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -265,10 +264,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.067,
-      "raw_impact": -0.087,
+      "impact": -0.063,
+      "raw_impact": -0.082,
       "source_weight": 0.85,
-      "age_hours": 14.34,
+      "age_hours": 15.4,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,10 +298,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.164,
+      "impact": 0.035,
+      "raw_impact": 0.154,
       "source_weight": 0.9,
-      "age_hours": 3.46,
+      "age_hours": 4.52,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -333,10 +332,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.136,
+      "impact": 0.029,
+      "raw_impact": 0.128,
       "source_weight": 0.9,
-      "age_hours": 6.67,
+      "age_hours": 7.73,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -359,40 +358,6 @@
       ]
     },
     {
-      "title": "U.S. aircraft carrier to leave Mideast, reducing military might amid Iran war",
-      "published": "Wed, 29 Apr 2026 19:49:56 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.003,
-      "raw_impact": 0.013,
-      "source_weight": 0.9,
-      "age_hours": 47.58,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/national-security/2026/04/29/us-aircraft-carrier-iran-war/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/national-security/2026/04/29/us-aircraft-carrier-iran-war/"
-      ]
-    },
-    {
       "title": "Putin\u2019s troubles: Facing mounting economic and military pressure, the Kremlin may try to muddle through \u2013 or escalate",
       "published": "Mon, 27 Apr 2026 07:55:57 +0000",
       "actors": [
@@ -402,9 +367,9 @@
       "state_key": "us_russia",
       "class": "strategic",
       "impact": 0.002,
-      "raw_impact": 0.004,
+      "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 107.48,
+      "age_hours": 108.54,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -439,7 +404,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 238.2,
+      "age_hours": 239.26,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -473,7 +438,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 196.41,
+      "age_hours": 197.47,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -507,7 +472,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 198.64,
+      "age_hours": 199.7,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -541,7 +506,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 198.81,
+      "age_hours": 199.87,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -680,17 +645,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 226,
-    "classified_count": 16,
-    "paired_count": 16,
+    "event_count": 225,
+    "classified_count": 15,
+    "paired_count": 15,
     "valid_pair_updates": 5,
-    "top_driver_count": 16,
-    "total_signal": 2.9389,
+    "top_driver_count": 15,
+    "total_signal": 2.2107,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 118,
-      "no_signal": 63,
-      "invalid_pair": 29,
+      "no_actor": 120,
+      "no_signal": 64,
+      "invalid_pair": 26,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
