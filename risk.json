@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-02 21:09:01 UTC",
-  "probability": 16.09,
-  "uncertainty": 6.61,
+  "last_updated": "2026-05-02 22:11:20 UTC",
+  "probability": 16.57,
+  "uncertainty": 6.56,
   "state": {
-    "us_russia": 3.713520616017703,
-    "us_china": 3.0000000000868368,
-    "china_taiwan": 4.000000000017367,
+    "us_russia": 3.8155428394779127,
+    "us_china": 3.000000000046132,
+    "china_taiwan": 4.000000000009226,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.632607818970689,
-    "iran_israel": 6.450169452825312,
+    "iran_us": 5.632947903828178,
+    "iran_israel": 6.507430589546637,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.995790215625411,
+    "nk_sk": 2.984161126565943,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.622186108100665
+    "russia_ukraine": 6.8617863699284785
   },
   "top_drivers": [
     {
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 1.24,
+      "age_hours": 2.28,
       "confidence": 0.96,
       "signal_total": 2.1,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.724,
-      "raw_impact": 0.804,
+      "impact": 0.681,
+      "raw_impact": 0.757,
       "source_weight": 0.9,
-      "age_hours": 1.95,
+      "age_hours": 2.99,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.612,
-      "raw_impact": 0.68,
+      "impact": 0.577,
+      "raw_impact": 0.641,
       "source_weight": 0.9,
-      "age_hours": 4.84,
+      "age_hours": 5.88,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.507,
-      "raw_impact": 0.507,
+      "impact": 0.478,
+      "raw_impact": 0.478,
       "source_weight": 1.0,
-      "age_hours": 4.3,
+      "age_hours": 5.33,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -162,10 +162,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.488,
-      "raw_impact": 0.542,
+      "impact": 0.459,
+      "raw_impact": 0.51,
       "source_weight": 0.9,
-      "age_hours": 8.79,
+      "age_hours": 9.83,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -196,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.487,
-      "raw_impact": 0.541,
+      "impact": 0.459,
+      "raw_impact": 0.51,
       "source_weight": 0.9,
-      "age_hours": 8.8,
+      "age_hours": 9.84,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -222,6 +222,75 @@
       ]
     },
     {
+      "title": "Trump jokes that the US Navy will takeover Cuba 'almost immediately' on the way back from Iran",
+      "published": "Sat, 02 May 2026 09:12:56 +0200",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.344,
+      "raw_impact": 0.505,
+      "source_weight": 0.85,
+      "age_hours": 14.97,
+      "confidence": 0.945,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/2026/05/02/trump-jokes-that-the-us-navy-will-takeover-cuba-almost-immediately-on-the-way-back-from-ir",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/2026/05/02/trump-jokes-that-the-us-navy-will-takeover-cuba-almost-immediately-on-the-way-back-from-ir"
+      ]
+    },
+    {
+      "title": "Two people killed and over a dozen injured in Russian attacks across Ukraine",
+      "published": "Sat, 02 May 2026 12:00:38 +0200",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.273,
+      "raw_impact": 0.322,
+      "source_weight": 0.85,
+      "age_hours": 12.18,
+      "confidence": 0.693,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/my-europe/2026/05/02/two-people-killed-and-over-a-dozen-injured-in-russian-attacks-across-ukraine",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/my-europe/2026/05/02/two-people-killed-and-over-a-dozen-injured-in-russian-attacks-across-ukraine"
+      ]
+    },
+    {
       "title": "Pentagon announces withdrawal of 5.000 soldiers from Germany",
       "published": "Sat, 02 May 2026 15:18:33 GMT",
       "actors": [
@@ -230,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.142,
-      "raw_impact": 0.186,
+      "impact": 0.133,
+      "raw_impact": 0.175,
       "source_weight": 0.9,
-      "age_hours": 5.84,
+      "age_hours": 6.88,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -265,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.137,
-      "raw_impact": 0.178,
+      "impact": 0.128,
+      "raw_impact": 0.168,
       "source_weight": 0.9,
-      "age_hours": 6.52,
+      "age_hours": 7.56,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -300,10 +369,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.135,
-      "raw_impact": 0.176,
+      "impact": 0.127,
+      "raw_impact": 0.166,
       "source_weight": 0.9,
-      "age_hours": 6.72,
+      "age_hours": 7.76,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -335,10 +404,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.119,
-      "raw_impact": 0.155,
+      "impact": 0.112,
+      "raw_impact": 0.146,
       "source_weight": 0.9,
-      "age_hours": 8.91,
+      "age_hours": 9.95,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -370,10 +439,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.097,
-      "raw_impact": -0.12,
+      "impact": -0.092,
+      "raw_impact": -0.113,
       "source_weight": 0.9,
-      "age_hours": 8.81,
+      "age_hours": 9.84,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -396,6 +465,75 @@
       ]
     },
     {
+      "title": "Trump claims hostilities in Iran 'have terminated' in letter sent to top US lawmakers",
+      "published": "Sat, 02 May 2026 13:56:16 +0200",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.085,
+      "raw_impact": -0.111,
+      "source_weight": 0.85,
+      "age_hours": 10.25,
+      "confidence": 0.745,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/2026/05/02/trump-claims-hostilities-in-iran-have-terminated-in-letter-sent-to-top-us-lawmakers",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/2026/05/02/trump-claims-hostilities-in-iran-have-terminated-in-letter-sent-to-top-us-lawmakers"
+      ]
+    },
+    {
+      "title": "Trump follows through on threats as he announces significant troop withdrawal from Germany",
+      "published": "Sat, 02 May 2026 08:30:45 +0200",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.076,
+      "raw_impact": 0.105,
+      "source_weight": 0.85,
+      "age_hours": 15.68,
+      "confidence": 0.535,
+      "signal_total": 0.26,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.04,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/2026/05/02/trump-follows-through-on-threats-as-he-announces-significant-troop-withdrawal-from-germany",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/2026/05/02/trump-follows-through-on-threats-as-he-announces-significant-troop-withdrawal-from-germany"
+      ]
+    },
+    {
       "title": "U.S. to withdraw 5,000 troops from Germany in next 6-12 months",
       "published": "Sat, 02 May 2026 01:33:54 -0400",
       "actors": [
@@ -404,10 +542,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.076,
-      "raw_impact": 0.106,
+      "impact": 0.072,
+      "raw_impact": 0.1,
       "source_weight": 0.85,
-      "age_hours": 15.59,
+      "age_hours": 16.62,
       "confidence": 0.525,
       "signal_total": 0.26,
       "signal_components": {
@@ -439,10 +577,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.068,
-      "raw_impact": 0.077,
+      "impact": 0.064,
+      "raw_impact": 0.073,
       "source_weight": 1.1,
-      "age_hours": 57.15,
+      "age_hours": 58.19,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -473,10 +611,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.192,
+      "impact": 0.041,
+      "raw_impact": 0.181,
       "source_weight": 0.9,
-      "age_hours": 0.68,
+      "age_hours": 1.72,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -507,10 +645,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
+      "impact": 0.036,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 2.54,
+      "age_hours": 3.58,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -541,10 +679,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.149,
+      "impact": 0.032,
+      "raw_impact": 0.141,
       "source_weight": 0.9,
-      "age_hours": 5.05,
+      "age_hours": 6.09,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -575,10 +713,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.104,
+      "impact": 0.022,
+      "raw_impact": 0.098,
       "source_weight": 0.9,
-      "age_hours": 11.3,
+      "age_hours": 12.34,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -612,7 +750,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 133.22,
+      "age_hours": 134.26,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -647,7 +785,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 263.94,
+      "age_hours": 264.97,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -681,7 +819,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 222.14,
+      "age_hours": 223.18,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -715,7 +853,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 224.38,
+      "age_hours": 225.42,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -749,7 +887,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 224.54,
+      "age_hours": 225.58,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -792,6 +930,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "euronews_world",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -869,6 +1012,11 @@
       "domain": "www.economist.com"
     },
     {
+      "name": "www.euronews.com",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
+    },
+    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -893,17 +1041,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 223,
-    "classified_count": 22,
-    "paired_count": 22,
+    "event_count": 243,
+    "classified_count": 26,
+    "paired_count": 26,
     "valid_pair_updates": 5,
-    "top_driver_count": 22,
-    "total_signal": 5.8607,
+    "top_driver_count": 26,
+    "total_signal": 6.4021,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 112,
-      "no_signal": 57,
-      "invalid_pair": 32,
+      "no_actor": 120,
+      "no_signal": 60,
+      "invalid_pair": 37,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
