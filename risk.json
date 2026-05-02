@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-05-02 14:51:24 UTC",
-  "probability": 15.51,
-  "uncertainty": 6.87,
+  "last_updated": "2026-05-02 15:50:36 UTC",
+  "probability": 15.62,
+  "uncertainty": 6.93,
   "state": {
-    "us_russia": 3.6573721497015326,
-    "us_china": 3.000000003862871,
-    "china_taiwan": 4.000000000772581,
+    "us_russia": 3.6373920754146134,
+    "us_china": 3.0000000020521504,
+    "china_taiwan": 4.000000000410434,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.601059365930748,
-    "iran_israel": 6.3538787119549855,
+    "iran_us": 5.61618778815071,
+    "iran_israel": 6.457406927241062,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.0857211834311005,
+    "nk_sk": 3.067421112063266,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.106084701903111
+    "russia_ukraine": 6.250052929220491
   },
   "top_drivers": [
+    {
+      "title": "U.S. Fast-Tracks Arms Deals Valued at $8.6 Billion to Mideast Partners",
+      "published": "Sat, 02 May 2026 14:58:29 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.77,
+      "raw_impact": 0.856,
+      "source_weight": 0.9,
+      "age_hours": 0.87,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/05/02/world/middleeast/us-fast-track-arms-deal-middle-east.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/05/02/world/middleeast/us-fast-track-arms-deal-middle-east.html"
+      ]
+    },
     {
       "title": "Ukraine hits oil facilities in Russia",
       "published": "Sat, 02 May 2026 12:21:43 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.701,
-      "raw_impact": 0.779,
+      "impact": 0.662,
+      "raw_impact": 0.736,
       "source_weight": 0.9,
-      "age_hours": 2.49,
+      "age_hours": 3.48,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.636,
-      "raw_impact": 0.636,
+      "impact": 0.6,
+      "raw_impact": 0.6,
       "source_weight": 1.0,
-      "age_hours": 0.39,
+      "age_hours": 1.37,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -86,38 +120,38 @@
       ]
     },
     {
-      "title": "What to Know About the U.S.-Iran Peace Talks",
-      "published": "Sat, 02 May 2026 10:28:24 +0000",
+      "title": "Pentagon announces withdrawal of 5.000 soldiers from Germany",
+      "published": "Sat, 02 May 2026 15:18:33 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.526,
-      "raw_impact": 0.73,
+      "class": "movement",
+      "impact": 0.193,
+      "raw_impact": 0.252,
       "source_weight": 0.9,
-      "age_hours": 4.38,
-      "confidence": 0.746,
-      "signal_total": 0.94,
+      "age_hours": 0.53,
+      "confidence": 0.53,
+      "signal_total": 0.26,
       "signal_components": {
         "deescalation": -0.2,
         "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
+        "movement": 0.5,
+        "strategic": 0.0,
         "rhetoric": 0.0,
-        "contradiction_adjustment": -0.06,
+        "contradiction_adjustment": -0.04,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.france24.com/en/pentagon-announces-withdrawal-of-5-000-soldiers-from-germany",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html"
+        "https://www.france24.com/en/pentagon-announces-withdrawal-of-5-000-soldiers-from-germany"
       ]
     },
     {
@@ -129,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.196,
-      "raw_impact": 0.257,
+      "impact": 0.185,
+      "raw_impact": 0.242,
       "source_weight": 0.9,
-      "age_hours": 0.23,
+      "age_hours": 1.22,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -156,7 +190,7 @@
       ]
     },
     {
-      "title": "Nato in talks with US over troops cuts",
+      "title": "NATO in talks with US over troops cuts",
       "published": "Sat, 02 May 2026 14:25:43 GMT",
       "actors": [
         "iran",
@@ -164,10 +198,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.194,
-      "raw_impact": 0.254,
+      "impact": 0.184,
+      "raw_impact": 0.24,
       "source_weight": 0.9,
-      "age_hours": 0.43,
+      "age_hours": 1.41,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -199,10 +233,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.17,
-      "raw_impact": 0.224,
+      "impact": 0.161,
+      "raw_impact": 0.211,
       "source_weight": 0.9,
-      "age_hours": 2.62,
+      "age_hours": 3.6,
       "confidence": 0.565,
       "signal_total": 0.26,
       "signal_components": {
@@ -236,10 +270,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.173,
+      "impact": -0.132,
+      "raw_impact": -0.163,
       "source_weight": 0.9,
-      "age_hours": 2.51,
+      "age_hours": 3.5,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -262,40 +296,6 @@
       ]
     },
     {
-      "title": "Trump told Congress that hostilities \"have terminated\"",
-      "published": "Sat, 02 May 2026 08:15:03 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.111,
-      "raw_impact": -0.137,
-      "source_weight": 0.9,
-      "age_hours": 6.61,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/trump-told-congress-that-hostilities-have-terminated",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/trump-told-congress-that-hostilities-have-terminated"
-      ]
-    },
-    {
       "title": "U.S. to withdraw 5,000 troops from Germany in next 6-12 months",
       "published": "Sat, 02 May 2026 01:33:54 -0400",
       "actors": [
@@ -304,10 +304,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.11,
-      "raw_impact": 0.152,
+      "impact": 0.104,
+      "raw_impact": 0.144,
       "source_weight": 0.85,
-      "age_hours": 9.29,
+      "age_hours": 10.28,
       "confidence": 0.525,
       "signal_total": 0.26,
       "signal_components": {
@@ -339,10 +339,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.098,
-      "raw_impact": 0.111,
+      "impact": 0.093,
+      "raw_impact": 0.105,
       "source_weight": 1.1,
-      "age_hours": 50.86,
+      "age_hours": 51.84,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -373,10 +373,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.15,
+      "impact": 0.032,
+      "raw_impact": 0.141,
       "source_weight": 0.9,
-      "age_hours": 5.01,
+      "age_hours": 5.99,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -407,10 +407,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.123,
+      "impact": 0.026,
+      "raw_impact": 0.116,
       "source_weight": 0.9,
-      "age_hours": 8.4,
+      "age_hours": 9.38,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -444,7 +444,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 126.92,
+      "age_hours": 127.91,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -479,7 +479,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 257.64,
+      "age_hours": 258.63,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -513,7 +513,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 215.85,
+      "age_hours": 216.83,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -547,7 +547,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 218.08,
+      "age_hours": 219.07,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -581,7 +581,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 218.25,
+      "age_hours": 219.24,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -725,17 +725,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 221,
+    "event_count": 223,
     "classified_count": 18,
     "paired_count": 18,
     "valid_pair_updates": 5,
     "top_driver_count": 17,
-    "total_signal": 3.4025,
+    "total_signal": 3.8055,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 114,
-      "no_signal": 59,
-      "invalid_pair": 30,
+      "no_actor": 117,
+      "no_signal": 57,
+      "invalid_pair": 31,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
