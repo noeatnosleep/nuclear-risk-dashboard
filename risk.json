@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-02 04:42:06 UTC",
-  "probability": 14.19,
-  "uncertainty": 6.48,
+  "last_updated": "2026-05-02 07:02:13 UTC",
+  "probability": 13.95,
+  "uncertainty": 6.81,
   "state": {
-    "us_russia": 3.5426394561229695,
-    "us_china": 3.0000003234577695,
-    "china_taiwan": 4.000000064692171,
+    "us_russia": 3.491697728645469,
+    "us_china": 3.0000001718369402,
+    "china_taiwan": 4.000000034367716,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.734480757840394,
-    "iran_israel": 6.091661242687133,
+    "iran_us": 4.890432352885801,
+    "iran_israel": 5.972652812033025,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.355720866962573,
+    "nk_sk": 3.287532194606024,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.622794336751951
+    "russia_ukraine": 5.387563555335211
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.549,
-      "raw_impact": 0.611,
+      "impact": 0.48,
+      "raw_impact": 0.534,
       "source_weight": 0.9,
-      "age_hours": 6.72,
+      "age_hours": 9.05,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,6 +51,75 @@
       ]
     },
     {
+      "title": "U.S. to withdraw 5,000 troops from Germany in next 6-12 months",
+      "published": "Sat, 02 May 2026 01:33:54 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.173,
+      "raw_impact": 0.239,
+      "source_weight": 0.85,
+      "age_hours": 1.47,
+      "confidence": 0.525,
+      "signal_total": 0.26,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.04,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/05/02/g-s1-119864/u-s-withdraw-troops-germany",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/05/02/g-s1-119864/u-s-withdraw-troops-germany"
+      ]
+    },
+    {
+      "title": "'Still on a war footing': Tehran shares new proposal on ending Iran war",
+      "published": "Sat, 02 May 2026 06:23:30 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.156,
+      "raw_impact": -0.193,
+      "source_weight": 0.9,
+      "age_hours": 0.65,
+      "confidence": 0.67,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/still-on-a-war-footing-tehran-shares-new-peace-proposal-with-washington",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/still-on-a-war-footing-tehran-shares-new-peace-proposal-with-washington"
+      ]
+    },
+    {
       "title": "DPRK Korea: Continued militarisation a \u2018serious concern\u2019, political affairs chief warns Security Council",
       "published": "Thu, 30 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -59,10 +128,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.176,
-      "raw_impact": 0.2,
+      "impact": 0.154,
+      "raw_impact": 0.175,
       "source_weight": 1.1,
-      "age_hours": 40.7,
+      "age_hours": 43.04,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -85,29 +154,29 @@
       ]
     },
     {
-      "title": "President Macron attends Orion 26 excerices",
-      "published": "Fri, 01 May 2026 13:02:42 GMT",
+      "title": "Middle East war live: Trump tells US Congress that hostilities in Iran 'have terminated'",
+      "published": "Sat, 02 May 2026 05:02:34 GMT",
       "actors": [
-        "russia",
-        "ukraine"
+        "iran",
+        "us"
       ],
-      "state_key": "russia_ukraine",
-      "class": "movement",
-      "impact": 0.155,
-      "raw_impact": 0.202,
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.144,
+      "raw_impact": -0.178,
       "source_weight": 0.9,
-      "age_hours": 15.66,
-      "confidence": 0.73,
-      "signal_total": 0.5,
+      "age_hours": 1.99,
+      "confidence": 0.75,
+      "signal_total": -0.2,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.0,
-        "movement": 0.5,
+        "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/president-macron-attends-orion-26-excerices",
+      "link": "https://www.france24.com/en/middle-east/20260502-middle-east-war-live-trump-tells-us-congress-that-hostilities-in-iran-have-terminated",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -115,7 +184,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/president-macron-attends-orion-26-excerices"
+        "https://www.france24.com/en/middle-east/20260502-middle-east-war-live-trump-tells-us-congress-that-hostilities-in-iran-have-terminated"
       ]
     },
     {
@@ -127,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.142,
-      "raw_impact": 0.186,
+      "impact": 0.124,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 5.79,
+      "age_hours": 8.13,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -162,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.099,
-      "raw_impact": -0.123,
+      "impact": -0.086,
+      "raw_impact": -0.107,
       "source_weight": 0.9,
-      "age_hours": 8.48,
+      "age_hours": 10.81,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -196,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.089,
-      "raw_impact": 0.116,
+      "impact": 0.077,
+      "raw_impact": 0.101,
       "source_weight": 0.9,
-      "age_hours": 13.95,
+      "age_hours": 16.29,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -231,10 +300,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.065,
-      "raw_impact": 0.072,
+      "impact": 0.057,
+      "raw_impact": 0.063,
       "source_weight": 0.9,
-      "age_hours": 43.7,
+      "age_hours": 46.04,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -257,52 +326,18 @@
       ]
     },
     {
-      "title": "Zelenskyy says he's seeking details of Putin's May 9 ceasefire proposal",
-      "published": "Fri, 01 May 2026 01:04:38 -0400",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "deescalation",
-      "impact": -0.039,
-      "raw_impact": -0.051,
-      "source_weight": 0.85,
-      "age_hours": 23.62,
-      "confidence": 0.755,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/05/01/g-s1-119659/zelenskyy-seeking-details-of-putins-ceasefire-proposal",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/05/01/g-s1-119659/zelenskyy-seeking-details-of-putins-ceasefire-proposal"
-      ]
-    },
-    {
-      "title": "Trump to downsize U.S. military presence in Germany",
-      "published": "Sat, 02 May 2026 00:03:49 +0000",
+      "title": "Iran war: What\u2019s happening on day 64 as Trump rejects Tehran\u2019s proposal",
+      "published": "Sat, 02 May 2026 06:27:32 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.153,
+      "impact": 0.043,
+      "raw_impact": 0.193,
       "source_weight": 0.9,
-      "age_hours": 4.64,
+      "age_hours": 0.58,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -313,15 +348,83 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.washingtonpost.com/national-security/2026/05/01/us-troops-germany-trump-merz/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
+      "link": "https://www.aljazeera.com/news/2026/5/2/iran-war-whats-happening-on-day-64-as-trump-rejects-tehrans-proposal?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.washingtonpost.com"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.washingtonpost.com/national-security/2026/05/01/us-troops-germany-trump-merz/"
+        "https://www.aljazeera.com/news/2026/5/2/iran-war-whats-happening-on-day-64-as-trump-rejects-tehrans-proposal?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Trump says US forces are \u2018like pirates\u2019 taking Iranian oil",
+      "published": "Sat, 02 May 2026 04:35:54 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.039,
+      "raw_impact": 0.174,
+      "source_weight": 0.9,
+      "age_hours": 2.44,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/2/trump-says-us-forces-are-like-pirates-taking-iranian-oil?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/5/2/trump-says-us-forces-are-like-pirates-taking-iranian-oil?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Iran war protester speaks to Al Jazeera from top of Washington bridge",
+      "published": "Sat, 02 May 2026 04:17:09 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.038,
+      "raw_impact": 0.171,
+      "source_weight": 0.9,
+      "age_hours": 2.75,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/2/iran-war-protester-speaks-to-al-jazeera-from-top-of-washington-bridge?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/5/2/iran-war-protester-speaks-to-al-jazeera-from-top-of-washington-bridge?traffic_source=rss"
       ]
     },
     {
@@ -333,10 +436,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.152,
+      "impact": 0.03,
+      "raw_impact": 0.133,
       "source_weight": 0.9,
-      "age_hours": 4.7,
+      "age_hours": 7.04,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -359,6 +462,40 @@
       ]
     },
     {
+      "title": "Trump to downsize U.S. military presence in Germany",
+      "published": "Sat, 02 May 2026 00:03:49 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.03,
+      "raw_impact": 0.134,
+      "source_weight": 0.9,
+      "age_hours": 6.97,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/national-security/2026/05/01/us-troops-germany-trump-merz/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/national-security/2026/05/01/us-troops-germany-trump-merz/"
+      ]
+    },
+    {
       "title": "Tessalit army base taken by rebels",
       "published": "Fri, 01 May 2026 21:18:31 GMT",
       "actors": [
@@ -367,10 +504,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.13,
+      "impact": 0.026,
+      "raw_impact": 0.114,
       "source_weight": 0.9,
-      "age_hours": 7.39,
+      "age_hours": 9.73,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -401,10 +538,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.002,
+      "impact": 0.001,
       "raw_impact": 0.002,
       "source_weight": 0.75,
-      "age_hours": 116.77,
+      "age_hours": 119.1,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -439,7 +576,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 247.49,
+      "age_hours": 249.82,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -473,7 +610,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 205.69,
+      "age_hours": 208.03,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -507,7 +644,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 207.93,
+      "age_hours": 210.26,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -541,7 +678,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 208.1,
+      "age_hours": 210.43,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -681,15 +818,15 @@
   ],
   "debug": {
     "event_count": 225,
-    "classified_count": 16,
-    "paired_count": 16,
+    "classified_count": 20,
+    "paired_count": 20,
     "valid_pair_updates": 5,
-    "top_driver_count": 16,
-    "total_signal": 1.6408,
+    "top_driver_count": 20,
+    "total_signal": 1.7204,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 115,
-      "no_signal": 68,
+      "no_actor": 113,
+      "no_signal": 66,
       "invalid_pair": 26,
       "low_confidence": 0,
       "classifier_error": 0,
