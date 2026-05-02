@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-01 23:29:42 UTC",
-  "probability": 14.37,
-  "uncertainty": 6.56,
+  "last_updated": "2026-05-02 01:13:57 UTC",
+  "probability": 14.82,
+  "uncertainty": 6.71,
   "state": {
-    "us_russia": 3.5554821767289297,
-    "us_china": 3.0000011460925804,
-    "china_taiwan": 4.000000229220701,
+    "us_russia": 3.6561840547036804,
+    "us_china": 3.0000006088616833,
+    "china_taiwan": 4.000000121773498,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.6526367027006446,
-    "iran_israel": 6.284532862326248,
+    "iran_us": 5.0019804041879725,
+    "iran_israel": 6.297371151650007,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.4831014280488306,
+    "nk_sk": 3.431803533860723,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.763141282283704
+    "russia_ukraine": 5.707284193483293
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.742,
-      "raw_impact": 0.825,
+      "impact": 0.671,
+      "raw_impact": 0.746,
       "source_weight": 0.9,
-      "age_hours": 1.51,
+      "age_hours": 3.25,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.238,
-      "raw_impact": 0.27,
+      "impact": 0.215,
+      "raw_impact": 0.244,
       "source_weight": 1.1,
-      "age_hours": 35.5,
+      "age_hours": 37.23,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "movement",
-      "impact": 0.209,
-      "raw_impact": 0.273,
+      "impact": 0.19,
+      "raw_impact": 0.247,
       "source_weight": 0.9,
-      "age_hours": 10.45,
+      "age_hours": 12.19,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -119,6 +119,41 @@
       ]
     },
     {
+      "title": "US to withdraw 5,000 troops from Germany in dispute over Iran conflict",
+      "published": "Fri, 01 May 2026 23:47:56 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.183,
+      "raw_impact": 0.239,
+      "source_weight": 0.9,
+      "age_hours": 1.43,
+      "confidence": 0.54,
+      "signal_total": 0.26,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.04,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6"
+      ]
+    },
+    {
       "title": "US said to be withdrawing 5,000 troops from Germany over Iran war spat",
       "published": "Fri, 01 May 2026 22:54:30 +0000",
       "actors": [
@@ -127,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.192,
-      "raw_impact": 0.251,
+      "impact": 0.174,
+      "raw_impact": 0.227,
       "source_weight": 0.9,
-      "age_hours": 0.59,
+      "age_hours": 2.32,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -162,10 +197,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.134,
-      "raw_impact": -0.166,
+      "impact": -0.122,
+      "raw_impact": -0.15,
       "source_weight": 0.9,
-      "age_hours": 3.27,
+      "age_hours": 5.01,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -196,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.12,
-      "raw_impact": 0.157,
+      "impact": 0.109,
+      "raw_impact": 0.142,
       "source_weight": 0.9,
-      "age_hours": 8.74,
+      "age_hours": 10.48,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -231,10 +266,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.088,
-      "raw_impact": 0.097,
+      "impact": 0.079,
+      "raw_impact": 0.088,
       "source_weight": 0.9,
-      "age_hours": 38.5,
+      "age_hours": 40.23,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -265,10 +300,10 @@
       ],
       "state_key": "us_russia",
       "class": "deescalation",
-      "impact": -0.053,
-      "raw_impact": -0.069,
+      "impact": -0.048,
+      "raw_impact": -0.062,
       "source_weight": 0.85,
-      "age_hours": 18.42,
+      "age_hours": 20.16,
       "confidence": 0.755,
       "signal_total": -0.2,
       "signal_components": {
@@ -291,18 +326,52 @@
       ]
     },
     {
-      "title": "Trump to downsize U.S. military presence in Germany",
-      "published": "Fri, 01 May 2026 23:17:49 +0000",
+      "title": "Iran war live: Trump says no \u2018early\u2019 end to war, unhappy with Tehran offer",
+      "published": "Sat, 02 May 2026 00:00:00 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.198,
+      "impact": 0.042,
+      "raw_impact": 0.186,
       "source_weight": 0.9,
-      "age_hours": 0.2,
+      "age_hours": 1.23,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/liveblog/2026/5/2/iran-war-live-trump-says-no-early-end-to-war-unhappy-with-tehran-offer?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/liveblog/2026/5/2/iran-war-live-trump-says-no-early-end-to-war-unhappy-with-tehran-offer?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Trump to downsize U.S. military presence in Germany",
+      "published": "Sat, 02 May 2026 00:03:49 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.187,
+      "source_weight": 0.9,
+      "age_hours": 1.17,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -333,10 +402,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.176,
+      "impact": 0.036,
+      "raw_impact": 0.159,
       "source_weight": 0.9,
-      "age_hours": 2.19,
+      "age_hours": 3.92,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -367,10 +436,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 2.03,
+      "age_hours": 3.77,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -401,10 +470,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
+      "impact": 0.035,
+      "raw_impact": 0.156,
       "source_weight": 0.9,
-      "age_hours": 2.51,
+      "age_hours": 4.25,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -427,40 +496,6 @@
       ]
     },
     {
-      "title": "Pentagon announces deal with seven AI companies for classified systems",
-      "published": "Fri, 01 May 2026 15:57:09 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.129,
-      "source_weight": 0.9,
-      "age_hours": 7.54,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/1/pentagon-announces-deal-with-seven-ai-companies-for-classified-systems?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/1/pentagon-announces-deal-with-seven-ai-companies-for-classified-systems?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Putin\u2019s troubles: Facing mounting economic and military pressure, the Kremlin may try to muddle through \u2013 or escalate",
       "published": "Mon, 27 Apr 2026 07:55:57 +0000",
       "actors": [
@@ -472,7 +507,7 @@
       "impact": 0.002,
       "raw_impact": 0.003,
       "source_weight": 0.75,
-      "age_hours": 111.56,
+      "age_hours": 113.3,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -507,7 +542,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 242.28,
+      "age_hours": 244.02,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -541,7 +576,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 200.49,
+      "age_hours": 202.22,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -575,7 +610,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 202.72,
+      "age_hours": 204.46,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -609,7 +644,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 202.89,
+      "age_hours": 204.63,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -754,14 +789,14 @@
   ],
   "debug": {
     "event_count": 225,
-    "classified_count": 18,
-    "paired_count": 18,
+    "classified_count": 19,
+    "paired_count": 19,
     "valid_pair_updates": 5,
-    "top_driver_count": 18,
-    "total_signal": 2.4711,
+    "top_driver_count": 19,
+    "total_signal": 2.5771,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 113,
+      "no_actor": 112,
       "no_signal": 68,
       "invalid_pair": 26,
       "low_confidence": 0,
