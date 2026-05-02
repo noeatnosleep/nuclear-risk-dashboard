@@ -1,34 +1,34 @@
 {
-  "last_updated": "2026-05-02 15:50:36 UTC",
-  "probability": 15.62,
-  "uncertainty": 6.93,
+  "last_updated": "2026-05-02 16:52:49 UTC",
+  "probability": 15.64,
+  "uncertainty": 7.02,
   "state": {
-    "us_russia": 3.6373920754146134,
-    "us_china": 3.0000000020521504,
-    "china_taiwan": 4.000000000410434,
+    "us_russia": 3.6154750877334725,
+    "us_china": 3.000000001090205,
+    "china_taiwan": 4.000000000218043,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.61618778815071,
-    "iran_israel": 6.457406927241062,
+    "iran_us": 5.624224762455064,
+    "iran_israel": 6.535612992980837,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.067421112063266,
+    "nk_sk": 3.050976730181794,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.250052929220491
+    "russia_ukraine": 6.288023532975944
   },
   "top_drivers": [
     {
       "title": "U.S. Fast-Tracks Arms Deals Valued at $8.6 Billion to Mideast Partners",
-      "published": "Sat, 02 May 2026 14:58:29 +0000",
+      "published": "Sat, 02 May 2026 16:18:32 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.77,
-      "raw_impact": 0.856,
+      "impact": 0.784,
+      "raw_impact": 0.871,
       "source_weight": 0.9,
-      "age_hours": 0.87,
+      "age_hours": 0.57,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,52 +51,18 @@
       ]
     },
     {
-      "title": "Ukraine hits oil facilities in Russia",
-      "published": "Sat, 02 May 2026 12:21:43 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.662,
-      "raw_impact": 0.736,
-      "source_weight": 0.9,
-      "age_hours": 3.48,
-      "confidence": 0.81,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/ukraine-hits-oil-facilities-in-russia",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/ukraine-hits-oil-facilities-in-russia"
-      ]
-    },
-    {
       "title": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
-      "published": "Sat, 02 May 2026 14:28:13 GMT",
+      "published": "Sat, 02 May 2026 16:51:18 GMT",
       "actors": [
         "iran",
         "israel"
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.6,
-      "raw_impact": 0.6,
+      "impact": 0.649,
+      "raw_impact": 0.649,
       "source_weight": 1.0,
-      "age_hours": 1.37,
+      "age_hours": 0.03,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -120,6 +86,40 @@
       ]
     },
     {
+      "title": "Ukraine hits oil facilities in Russia",
+      "published": "Sat, 02 May 2026 12:21:43 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.624,
+      "raw_impact": 0.693,
+      "source_weight": 0.9,
+      "age_hours": 4.52,
+      "confidence": 0.81,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/ukraine-hits-oil-facilities-in-russia",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/ukraine-hits-oil-facilities-in-russia"
+      ]
+    },
+    {
       "title": "Pentagon announces withdrawal of 5.000 soldiers from Germany",
       "published": "Sat, 02 May 2026 15:18:33 GMT",
       "actors": [
@@ -128,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.193,
-      "raw_impact": 0.252,
+      "impact": 0.182,
+      "raw_impact": 0.237,
       "source_weight": 0.9,
-      "age_hours": 0.53,
+      "age_hours": 1.57,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -163,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.185,
-      "raw_impact": 0.242,
+      "impact": 0.174,
+      "raw_impact": 0.228,
       "source_weight": 0.9,
-      "age_hours": 1.22,
+      "age_hours": 2.25,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -198,10 +198,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.184,
-      "raw_impact": 0.24,
+      "impact": 0.173,
+      "raw_impact": 0.226,
       "source_weight": 0.9,
-      "age_hours": 1.41,
+      "age_hours": 2.45,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -233,11 +233,11 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.161,
-      "raw_impact": 0.211,
+      "impact": 0.152,
+      "raw_impact": 0.199,
       "source_weight": 0.9,
-      "age_hours": 3.6,
-      "confidence": 0.565,
+      "age_hours": 4.64,
+      "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
         "deescalation": -0.2,
@@ -251,14 +251,12 @@
       "link": "https://www.france24.com/en/us-to-withdraw-5-000-troops-from-germany-1",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
-      "corroboration_count": 2,
+      "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com",
-        "www.ft.com"
+        "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/us-to-withdraw-5-000-troops-from-germany-1",
-        "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6"
+        "https://www.france24.com/en/us-to-withdraw-5-000-troops-from-germany-1"
       ]
     },
     {
@@ -270,10 +268,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.132,
-      "raw_impact": -0.163,
+      "impact": -0.125,
+      "raw_impact": -0.154,
       "source_weight": 0.9,
-      "age_hours": 3.5,
+      "age_hours": 4.54,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -304,10 +302,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.104,
-      "raw_impact": 0.144,
+      "impact": 0.098,
+      "raw_impact": 0.135,
       "source_weight": 0.85,
-      "age_hours": 10.28,
+      "age_hours": 11.32,
       "confidence": 0.525,
       "signal_total": 0.26,
       "signal_components": {
@@ -339,10 +337,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.093,
-      "raw_impact": 0.105,
+      "impact": 0.087,
+      "raw_impact": 0.099,
       "source_weight": 1.1,
-      "age_hours": 51.84,
+      "age_hours": 52.88,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -365,6 +363,40 @@
       ]
     },
     {
+      "title": "Pentagon to pull 5,000 soldiers out of Germany in dispute over Iran war",
+      "published": "Sat, 02 May 2026 16:06:14 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.191,
+      "source_weight": 0.9,
+      "age_hours": 0.78,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6"
+      ]
+    },
+    {
       "title": "US warns Europe of delays to arms shipments as Iran war drains stockpiles",
       "published": "Sat, 02 May 2026 09:51:05 GMT",
       "actors": [
@@ -373,10 +405,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.032,
-      "raw_impact": 0.141,
+      "impact": 0.03,
+      "raw_impact": 0.133,
       "source_weight": 0.9,
-      "age_hours": 5.99,
+      "age_hours": 7.03,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -399,40 +431,6 @@
       ]
     },
     {
-      "title": "Iran war: What\u2019s happening on day 64 as Trump rejects Tehran\u2019s proposal",
-      "published": "Sat, 02 May 2026 06:27:32 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.116,
-      "source_weight": 0.9,
-      "age_hours": 9.38,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/2/iran-war-whats-happening-on-day-64-as-trump-rejects-tehrans-proposal?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/2/iran-war-whats-happening-on-day-64-as-trump-rejects-tehrans-proposal?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Putin\u2019s troubles: Facing mounting economic and military pressure, the Kremlin may try to muddle through \u2013 or escalate",
       "published": "Mon, 27 Apr 2026 07:55:57 +0000",
       "actors": [
@@ -444,7 +442,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 127.91,
+      "age_hours": 128.95,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -479,7 +477,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 258.63,
+      "age_hours": 259.67,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -513,7 +511,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 216.83,
+      "age_hours": 217.87,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -547,7 +545,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 219.07,
+      "age_hours": 220.11,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -581,7 +579,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 219.24,
+      "age_hours": 220.27,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -691,11 +689,6 @@
       "domain": "feeds.washingtonpost.com"
     },
     {
-      "name": "www.aljazeera.com",
-      "url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "domain": "www.aljazeera.com"
-    },
-    {
       "name": "www.economist.com",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
@@ -726,16 +719,16 @@
   ],
   "debug": {
     "event_count": 223,
-    "classified_count": 18,
-    "paired_count": 18,
+    "classified_count": 17,
+    "paired_count": 17,
     "valid_pair_updates": 5,
     "top_driver_count": 17,
-    "total_signal": 3.8055,
+    "total_signal": 3.6451,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 117,
-      "no_signal": 57,
-      "invalid_pair": 31,
+      "no_actor": 115,
+      "no_signal": 59,
+      "invalid_pair": 32,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
