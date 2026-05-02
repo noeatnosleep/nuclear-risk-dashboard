@@ -1,21 +1,91 @@
 {
-  "last_updated": "2026-05-02 08:49:51 UTC",
-  "probability": 13.69,
-  "uncertainty": 6.55,
+  "last_updated": "2026-05-02 10:00:00 UTC",
+  "probability": 14.37,
+  "uncertainty": 6.58,
   "state": {
-    "us_russia": 3.45383961573116,
-    "us_china": 3.0000000912883746,
-    "china_taiwan": 4.000000018257849,
+    "us_russia": 3.6009532318047963,
+    "us_china": 3.000000048496949,
+    "china_taiwan": 4.000000009699482,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.870626494137375,
-    "iran_israel": 5.84163445049206,
+    "iran_us": 5.22814532501048,
+    "iran_israel": 6.212743301823907,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.2323775450966097,
+    "nk_sk": 3.1917552409332335,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.257015589509823
+    "russia_ukraine": 5.136540296141537
   },
   "top_drivers": [
+    {
+      "title": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
+      "published": "Sat, 02 May 2026 09:41:07 GMT",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.638,
+      "raw_impact": 0.638,
+      "source_weight": 1.0,
+      "age_hours": 0.31,
+      "confidence": 0.698,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cd7pn0zywggo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cd7pn0zywggo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "What to Know About the U.S.-Iran Peace Talks",
+      "published": "Sat, 02 May 2026 04:42:59 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.498,
+      "raw_impact": 0.693,
+      "source_weight": 0.9,
+      "age_hours": 5.28,
+      "confidence": 0.746,
+      "signal_total": 0.94,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.06,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html"
+      ]
+    },
     {
       "title": "Israel Said to Have Helped Defend Emirates in Iran War With Iron Dome",
       "published": "Fri, 01 May 2026 21:59:03 +0000",
@@ -25,10 +95,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.433,
-      "raw_impact": 0.481,
+      "impact": 0.405,
+      "raw_impact": 0.45,
       "source_weight": 0.9,
-      "age_hours": 10.85,
+      "age_hours": 12.02,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,11 +129,11 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.164,
-      "raw_impact": 0.147,
+      "impact": 0.183,
+      "raw_impact": 0.137,
       "source_weight": 0.9,
-      "age_hours": 9.92,
-      "confidence": 0.56,
+      "age_hours": 11.09,
+      "confidence": 0.593,
       "signal_total": 0.26,
       "signal_components": {
         "deescalation": -0.2,
@@ -77,14 +147,16 @@
       "link": "https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_domain": "www.aljazeera.com",
-      "corroboration_count": 2,
+      "corroboration_count": 3,
       "cluster_sources": [
         "www.aljazeera.com",
-        "www.france24.com"
+        "www.france24.com",
+        "www.ft.com"
       ],
       "cluster_links": [
         "https://www.aljazeera.com/news/2026/5/1/us-said-to-be-withdrawing-5000-troops-from-germany-over-iran-war-spat?traffic_source=rss",
-        "https://www.france24.com/en/us-to-withdraw-5-000-troops-from-germany"
+        "https://www.france24.com/en/us-to-withdraw-5-000-troops-from-germany",
+        "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6"
       ]
     },
     {
@@ -96,10 +168,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.157,
-      "raw_impact": -0.193,
+      "impact": -0.147,
+      "raw_impact": -0.181,
       "source_weight": 0.9,
-      "age_hours": 0.58,
+      "age_hours": 1.75,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -130,10 +202,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.156,
-      "raw_impact": 0.215,
+      "impact": 0.145,
+      "raw_impact": 0.201,
       "source_weight": 0.85,
-      "age_hours": 3.27,
+      "age_hours": 4.44,
       "confidence": 0.525,
       "signal_total": 0.26,
       "signal_components": {
@@ -165,10 +237,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.174,
+      "impact": -0.131,
+      "raw_impact": -0.162,
       "source_weight": 0.9,
-      "age_hours": 2.44,
+      "age_hours": 3.61,
       "confidence": 0.67,
       "signal_total": -0.2,
       "signal_components": {
@@ -199,10 +271,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.138,
-      "raw_impact": 0.158,
+      "impact": 0.13,
+      "raw_impact": 0.147,
       "source_weight": 1.1,
-      "age_hours": 44.83,
+      "age_hours": 46.0,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -225,7 +297,7 @@
       ]
     },
     {
-      "title": "Middle East war live: Trump tells US Congress that hostilities in Iran 'have terminated'",
+      "title": "Middle East war live: Iran official says renewed conflict \u2018likely\u2019, Trump says fighting \u2018terminated\u2019",
       "published": "Sat, 02 May 2026 05:02:34 GMT",
       "actors": [
         "iran",
@@ -233,10 +305,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.131,
-      "raw_impact": -0.161,
+      "impact": -0.122,
+      "raw_impact": -0.15,
       "source_weight": 0.9,
-      "age_hours": 3.79,
+      "age_hours": 4.96,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -267,10 +339,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.078,
-      "raw_impact": -0.097,
+      "impact": -0.073,
+      "raw_impact": -0.09,
       "source_weight": 0.9,
-      "age_hours": 12.61,
+      "age_hours": 13.78,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -293,37 +365,37 @@
       ]
     },
     {
-      "title": "Russia scales back Victory Day plans as Ukraine\u2019s military reach expands",
-      "published": "Thu, 30 Apr 2026 09:00:00 +0000",
+      "title": "US warns Europe of delays to arms shipments as Iran war drains stockpiles",
+      "published": "Sat, 02 May 2026 09:51:05 GMT",
       "actors": [
-        "russia",
-        "ukraine"
+        "us",
+        "russia"
       ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.051,
-      "raw_impact": 0.057,
+      "state_key": "us_russia",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.198,
       "source_weight": 0.9,
-      "age_hours": 47.83,
-      "confidence": 0.89,
-      "signal_total": 0.9,
+      "age_hours": 0.15,
+      "confidence": 0.68,
+      "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
-        "action": 0.9,
+        "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.washingtonpost.com/world/2026/04/30/russia-victory-day-parade-ukraine-moscow/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
+      "link": "https://www.ft.com/content/f87a8b04-e683-4e0e-8c66-647d23bfc2ff",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.washingtonpost.com"
+        "www.ft.com"
       ],
       "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/04/30/russia-victory-day-parade-ukraine-moscow/"
+        "https://www.ft.com/content/f87a8b04-e683-4e0e-8c66-647d23bfc2ff"
       ]
     },
     {
@@ -335,10 +407,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
+      "impact": 0.037,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 2.37,
+      "age_hours": 3.54,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -369,10 +441,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.157,
+      "impact": 0.033,
+      "raw_impact": 0.146,
       "source_weight": 0.9,
-      "age_hours": 4.23,
+      "age_hours": 5.4,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -403,10 +475,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.154,
+      "impact": 0.032,
+      "raw_impact": 0.144,
       "source_weight": 0.9,
-      "age_hours": 4.55,
+      "age_hours": 5.71,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -429,7 +501,7 @@
       ]
     },
     {
-      "title": "Iran war live: Trump says no \u2018early\u2019 end to war, unhappy with Tehran offer",
+      "title": "Iran war live: Military says conflict with US \u2018likely\u2019 to restart",
       "published": "Sat, 02 May 2026 00:00:00 +0000",
       "actors": [
         "iran",
@@ -437,10 +509,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.12,
+      "impact": 0.025,
+      "raw_impact": 0.112,
       "source_weight": 0.9,
-      "age_hours": 8.83,
+      "age_hours": 10.0,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -463,40 +535,6 @@
       ]
     },
     {
-      "title": "Trump to downsize U.S. military presence in Germany",
-      "published": "Sat, 02 May 2026 00:03:49 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.121,
-      "source_weight": 0.9,
-      "age_hours": 8.77,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/national-security/2026/05/01/us-troops-germany-trump-merz/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/national-security/2026/05/01/us-troops-germany-trump-merz/"
-      ]
-    },
-    {
       "title": "Tessalit army base taken by rebels",
       "published": "Fri, 01 May 2026 21:18:31 GMT",
       "actors": [
@@ -505,10 +543,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.103,
+      "impact": 0.021,
+      "raw_impact": 0.096,
       "source_weight": 0.9,
-      "age_hours": 11.52,
+      "age_hours": 12.69,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -542,7 +580,7 @@
       "impact": 0.001,
       "raw_impact": 0.002,
       "source_weight": 0.75,
-      "age_hours": 120.9,
+      "age_hours": 122.07,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -577,7 +615,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 251.62,
+      "age_hours": 252.78,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -611,7 +649,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 209.82,
+      "age_hours": 210.99,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -645,7 +683,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 212.06,
+      "age_hours": 213.23,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -679,7 +717,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 212.23,
+      "age_hours": 213.39,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -724,14 +762,14 @@
       "domain": "www.economist.com"
     },
     {
+      "name": "feeds.bbci.co.uk",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "domain": "feeds.bbci.co.uk"
+    },
+    {
       "name": "feeds.npr.org",
       "url": "https://feeds.npr.org/1004/rss.xml",
       "domain": "feeds.npr.org"
-    },
-    {
-      "name": "feeds.washingtonpost.com",
-      "url": "https://feeds.washingtonpost.com/rss/world",
-      "domain": "feeds.washingtonpost.com"
     },
     {
       "name": "france24_world",
@@ -804,6 +842,11 @@
       "domain": "www.france24.com"
     },
     {
+      "name": "www.ft.com",
+      "url": "https://www.ft.com/world?format=rss",
+      "domain": "www.ft.com"
+    },
+    {
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
@@ -818,17 +861,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 225,
-    "classified_count": 21,
-    "paired_count": 21,
+    "event_count": 224,
+    "classified_count": 23,
+    "paired_count": 23,
     "valid_pair_updates": 5,
-    "top_driver_count": 20,
-    "total_signal": 1.5146,
+    "top_driver_count": 21,
+    "total_signal": 3.0752,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 113,
+      "no_actor": 112,
       "no_signal": 60,
-      "invalid_pair": 31,
+      "invalid_pair": 29,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
