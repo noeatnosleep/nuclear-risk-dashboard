@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-02 13:53:31 UTC",
-  "probability": 15.23,
-  "uncertainty": 6.52,
+  "last_updated": "2026-05-02 14:51:24 UTC",
+  "probability": 15.51,
+  "uncertainty": 6.87,
   "state": {
-    "us_russia": 3.6735181042821057,
-    "us_china": 3.0000000072712862,
-    "china_taiwan": 4.000000001454271,
+    "us_russia": 3.6573721497015326,
+    "us_china": 3.000000003862871,
+    "china_taiwan": 4.000000000772581,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.572582335869644,
-    "iran_israel": 6.248102896621282,
+    "iran_us": 5.601059365930748,
+    "iran_israel": 6.3538787119549855,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 3.107402401657828,
+    "nk_sk": 3.0857211834311005,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 5.761950366062601
+    "russia_ukraine": 6.106084701903111
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.741,
-      "raw_impact": 0.824,
+      "impact": 0.701,
+      "raw_impact": 0.779,
       "source_weight": 0.9,
-      "age_hours": 1.53,
+      "age_hours": 2.49,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,53 +51,18 @@
       ]
     },
     {
-      "title": "What to Know About the U.S.-Iran Peace Talks",
-      "published": "Sat, 02 May 2026 10:28:24 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.555,
-      "raw_impact": 0.772,
-      "source_weight": 0.9,
-      "age_hours": 3.42,
-      "confidence": 0.746,
-      "signal_total": 0.94,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.06,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html"
-      ]
-    },
-    {
       "title": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
-      "published": "Sat, 02 May 2026 11:03:40 GMT",
+      "published": "Sat, 02 May 2026 14:28:13 GMT",
       "actors": [
         "iran",
         "israel"
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.552,
-      "raw_impact": 0.552,
+      "impact": 0.636,
+      "raw_impact": 0.636,
       "source_weight": 1.0,
-      "age_hours": 2.83,
+      "age_hours": 0.39,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -121,6 +86,111 @@
       ]
     },
     {
+      "title": "What to Know About the U.S.-Iran Peace Talks",
+      "published": "Sat, 02 May 2026 10:28:24 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.526,
+      "raw_impact": 0.73,
+      "source_weight": 0.9,
+      "age_hours": 4.38,
+      "confidence": 0.746,
+      "signal_total": 0.94,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.06,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html"
+      ]
+    },
+    {
+      "title": "Berlin urges stronger European defence",
+      "published": "Sat, 02 May 2026 14:37:33 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.196,
+      "raw_impact": 0.257,
+      "source_weight": 0.9,
+      "age_hours": 0.23,
+      "confidence": 0.53,
+      "signal_total": 0.26,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.04,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/berlin-urges-stronger-european-defence",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/berlin-urges-stronger-european-defence"
+      ]
+    },
+    {
+      "title": "Nato in talks with US over troops cuts",
+      "published": "Sat, 02 May 2026 14:25:43 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.194,
+      "raw_impact": 0.254,
+      "source_weight": 0.9,
+      "age_hours": 0.43,
+      "confidence": 0.53,
+      "signal_total": 0.26,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.04,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/nato-in-talks-with-us-over-troops-cuts",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/nato-in-talks-with-us-over-troops-cuts"
+      ]
+    },
+    {
       "title": "US to withdraw 5.000 troops from Germany",
       "published": "Sat, 02 May 2026 12:14:23 GMT",
       "actors": [
@@ -129,10 +199,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.18,
-      "raw_impact": 0.236,
+      "impact": 0.17,
+      "raw_impact": 0.224,
       "source_weight": 0.9,
-      "age_hours": 1.65,
+      "age_hours": 2.62,
       "confidence": 0.565,
       "signal_total": 0.26,
       "signal_components": {
@@ -158,40 +228,6 @@
       ]
     },
     {
-      "title": "Washington to pull some 5,000 US troops from Germany as rift over Iran war widens",
-      "published": "Fri, 01 May 2026 22:43:11 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.159,
-      "raw_impact": 0.208,
-      "source_weight": 0.9,
-      "age_hours": 15.17,
-      "confidence": 0.73,
-      "signal_total": 0.5,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/europe/20260501-washington-will-pull-some-5-000-us-troops-from-germany-as-rift-over-iran-war-widens",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/europe/20260501-washington-will-pull-some-5-000-us-troops-from-germany-as-rift-over-iran-war-widens"
-      ]
-    },
-    {
       "title": "Trump 'not satisfied' with Tehran offer",
       "published": "Sat, 02 May 2026 12:20:42 GMT",
       "actors": [
@@ -200,10 +236,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.183,
+      "impact": -0.14,
+      "raw_impact": -0.173,
       "source_weight": 0.9,
-      "age_hours": 1.55,
+      "age_hours": 2.51,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -234,10 +270,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.117,
-      "raw_impact": -0.144,
+      "impact": -0.111,
+      "raw_impact": -0.137,
       "source_weight": 0.9,
-      "age_hours": 5.64,
+      "age_hours": 6.61,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -268,10 +304,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.116,
-      "raw_impact": 0.161,
+      "impact": 0.11,
+      "raw_impact": 0.152,
       "source_weight": 0.85,
-      "age_hours": 8.33,
+      "age_hours": 9.29,
       "confidence": 0.525,
       "signal_total": 0.26,
       "signal_components": {
@@ -295,40 +331,6 @@
       ]
     },
     {
-      "title": "'Still on a war footing': Tehran shares new proposal on ending Iran war",
-      "published": "Sat, 02 May 2026 06:23:30 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.105,
-      "raw_impact": -0.13,
-      "source_weight": 0.9,
-      "age_hours": 7.5,
-      "confidence": 0.67,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/still-on-a-war-footing-tehran-shares-new-peace-proposal-with-washington",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/still-on-a-war-footing-tehran-shares-new-peace-proposal-with-washington"
-      ]
-    },
-    {
       "title": "DPRK Korea: Continued militarisation a \u2018serious concern\u2019, political affairs chief warns Security Council",
       "published": "Thu, 30 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -337,10 +339,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.103,
-      "raw_impact": 0.118,
+      "impact": 0.098,
+      "raw_impact": 0.111,
       "source_weight": 1.1,
-      "age_hours": 49.89,
+      "age_hours": 50.86,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -363,40 +365,6 @@
       ]
     },
     {
-      "title": "Middle East war live: Iran official says renewed conflict \u2018likely\u2019, Trump says fighting \u2018terminated\u2019",
-      "published": "Sat, 02 May 2026 05:02:34 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.097,
-      "raw_impact": -0.12,
-      "source_weight": 0.9,
-      "age_hours": 8.85,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260502-middle-east-war-live-trump-tells-us-congress-that-hostilities-in-iran-have-terminated",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260502-middle-east-war-live-trump-tells-us-congress-that-hostilities-in-iran-have-terminated"
-      ]
-    },
-    {
       "title": "US warns Europe of delays to arms shipments as Iran war drains stockpiles",
       "published": "Sat, 02 May 2026 09:51:05 GMT",
       "actors": [
@@ -405,10 +373,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.158,
+      "impact": 0.034,
+      "raw_impact": 0.15,
       "source_weight": 0.9,
-      "age_hours": 4.04,
+      "age_hours": 5.01,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -439,10 +407,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.13,
+      "impact": 0.028,
+      "raw_impact": 0.123,
       "source_weight": 0.9,
-      "age_hours": 7.43,
+      "age_hours": 8.4,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -476,7 +444,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 125.96,
+      "age_hours": 126.92,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -511,7 +479,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 256.68,
+      "age_hours": 257.64,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -545,7 +513,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 214.88,
+      "age_hours": 215.85,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -579,7 +547,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 217.12,
+      "age_hours": 218.08,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -613,7 +581,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 217.29,
+      "age_hours": 218.25,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -758,16 +726,16 @@
   ],
   "debug": {
     "event_count": 221,
-    "classified_count": 19,
-    "paired_count": 19,
+    "classified_count": 18,
+    "paired_count": 18,
     "valid_pair_updates": 5,
-    "top_driver_count": 18,
-    "total_signal": 2.8499,
+    "top_driver_count": 17,
+    "total_signal": 3.4025,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 117,
-      "no_signal": 57,
-      "invalid_pair": 28,
+      "no_actor": 114,
+      "no_signal": 59,
+      "invalid_pair": 30,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
