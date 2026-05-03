@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-05-03 15:23:54 UTC",
-  "probability": 15.42,
-  "uncertainty": 5.54,
+  "last_updated": "2026-05-03 16:09:55 UTC",
+  "probability": 15.41,
+  "uncertainty": 5.63,
   "state": {
-    "us_russia": 3.5217233547085405,
-    "us_china": 3.0000000000000826,
-    "china_taiwan": 4.000000000000017,
+    "us_russia": 3.567021310250964,
+    "us_china": 3.000000000000044,
+    "china_taiwan": 4.000000000000009,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.608603821314582,
-    "iran_israel": 5.48255569758737,
+    "iran_us": 5.161977818874661,
+    "iran_israel": 5.859881610649037,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8689417371145782,
+    "nk_sk": 2.8650006198579048,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.132847111584328
+    "russia_ukraine": 7.133075028029174
   },
   "top_drivers": [
+    {
+      "title": "Russian strikes on Ukraine kill three",
+      "published": "Sun, 03 May 2026 15:24:19 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.775,
+      "raw_impact": 0.861,
+      "source_weight": 0.9,
+      "age_hours": 0.76,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/russian-strikes-on-ukraine-kill-three",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/russian-strikes-on-ukraine-kill-three"
+      ]
+    },
     {
       "title": "Ukrainian drones strike Russia's Primorsk oil port",
       "published": "Sun, 03 May 2026 14:26:35 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.767,
-      "raw_impact": 0.852,
+      "impact": 0.733,
+      "raw_impact": 0.815,
       "source_weight": 0.9,
-      "age_hours": 0.96,
+      "age_hours": 1.72,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,6 +85,41 @@
       ]
     },
     {
+      "title": "Southern Lebanon: Israeli strikes kill one, wounds rescuers",
+      "published": "Sun, 03 May 2026 15:25:22 GMT",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.56,
+      "raw_impact": 0.623,
+      "source_weight": 0.9,
+      "age_hours": 0.74,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/southern-lebanon-israeli-strikes-kill-one-wounds-rescuers",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/southern-lebanon-israeli-strikes-kill-one-wounds-rescuers"
+      ]
+    },
+    {
       "title": "Elderly Ukrainian woman rescued using robotic vehicle",
       "published": "Sun, 03 May 2026 08:41:42 GMT",
       "actors": [
@@ -59,10 +128,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.55,
-      "raw_impact": 0.611,
+      "impact": 0.526,
+      "raw_impact": 0.585,
       "source_weight": 0.9,
-      "age_hours": 6.7,
+      "age_hours": 7.47,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,40 +154,6 @@
       ]
     },
     {
-      "title": "New Iranian proposal to end the war under examination",
-      "published": "Sun, 03 May 2026 08:38:18 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.548,
-      "raw_impact": 0.609,
-      "source_weight": 0.9,
-      "age_hours": 6.76,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/new-iranian-proposal-to-end-the-war-under-examination",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/new-iranian-proposal-to-end-the-war-under-examination"
-      ]
-    },
-    {
       "title": "US to cut troops in Germany as Iran war spat deepens",
       "published": "Sun, 03 May 2026 13:38:56 +0000",
       "actors": [
@@ -127,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.346,
-      "raw_impact": 0.452,
+      "impact": 0.331,
+      "raw_impact": 0.432,
       "source_weight": 0.9,
-      "age_hours": 1.75,
+      "age_hours": 2.52,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -161,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.213,
-      "raw_impact": 0.237,
+      "impact": 0.204,
+      "raw_impact": 0.227,
       "source_weight": 0.9,
-      "age_hours": 23.09,
+      "age_hours": 23.86,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -195,10 +230,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.177,
-      "raw_impact": 0.177,
+      "impact": 0.169,
+      "raw_impact": 0.169,
       "source_weight": 1.0,
-      "age_hours": 22.54,
+      "age_hours": 23.31,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -230,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.11,
-      "raw_impact": -0.136,
+      "impact": -0.105,
+      "raw_impact": -0.13,
       "source_weight": 0.9,
-      "age_hours": 6.73,
+      "age_hours": 7.49,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -264,10 +299,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.071,
-      "raw_impact": -0.079,
+      "impact": -0.068,
+      "raw_impact": -0.076,
       "source_weight": 1.0,
-      "age_hours": 16.07,
+      "age_hours": 16.84,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -298,10 +333,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.024,
-      "raw_impact": 0.027,
+      "impact": 0.022,
+      "raw_impact": 0.026,
       "source_weight": 1.1,
-      "age_hours": 75.4,
+      "age_hours": 76.17,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -332,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.08,
+      "impact": 0.016,
+      "raw_impact": 0.077,
       "source_weight": 0.85,
-      "age_hours": 15.81,
+      "age_hours": 16.58,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -369,7 +404,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 282.18,
+      "age_hours": 282.95,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -403,7 +438,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 151.47,
+      "age_hours": 152.23,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -438,7 +473,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 240.39,
+      "age_hours": 241.16,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -472,7 +507,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 242.63,
+      "age_hours": 243.39,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -506,7 +541,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 242.79,
+      "age_hours": 243.56,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -646,15 +681,15 @@
   ],
   "debug": {
     "event_count": 223,
-    "classified_count": 15,
-    "paired_count": 15,
+    "classified_count": 16,
+    "paired_count": 16,
     "valid_pair_updates": 5,
-    "top_driver_count": 15,
-    "total_signal": 2.9052,
+    "top_driver_count": 16,
+    "total_signal": 3.5632,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 115,
-      "no_signal": 60,
+      "no_actor": 111,
+      "no_signal": 63,
       "invalid_pair": 33,
       "low_confidence": 0,
       "classifier_error": 0,
