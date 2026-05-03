@@ -1,34 +1,34 @@
 {
-  "last_updated": "2026-05-03 13:16:27 UTC",
-  "probability": 15.42,
-  "uncertainty": 5.56,
+  "last_updated": "2026-05-03 14:29:19 UTC",
+  "probability": 15.59,
+  "uncertainty": 5.57,
   "state": {
-    "us_russia": 3.5336796217690765,
-    "us_china": 3.0000000000002927,
-    "china_taiwan": 4.000000000000059,
+    "us_russia": 3.572266072509723,
+    "us_china": 3.0000000000001554,
+    "china_taiwan": 4.000000000000031,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.545710425695959,
-    "iran_israel": 5.51189158535532,
+    "iran_us": 5.586783663650978,
+    "iran_israel": 5.597213551675421,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8803389490569975,
+    "nk_sk": 2.8739406891248054,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.13161052685935
+    "russia_ukraine": 7.13241809239403
   },
   "top_drivers": [
     {
-      "title": "Ukraine drone attack hits Russian Baltic port",
-      "published": "Sun, 03 May 2026 09:57:31 +0000",
+      "title": "Ukrainian drones strike Russia's Baltic Sea port of Primorsk",
+      "published": "Sun, 03 May 2026 14:26:35 GMT",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.669,
-      "raw_impact": 0.743,
+      "impact": 0.808,
+      "raw_impact": 0.898,
       "source_weight": 0.9,
-      "age_hours": 3.32,
+      "age_hours": 0.05,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -39,15 +39,49 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/2026/5/3/ukraine-drone-attack-hits-russian-baltic-port-governor-says?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.france24.com/en/europe/20260503-ukrainian-drones-strike-russia-baltic-sea-port-primorsk",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/3/ukraine-drone-attack-hits-russian-baltic-port-governor-says?traffic_source=rss"
+        "https://www.france24.com/en/europe/20260503-ukrainian-drones-strike-russia-baltic-sea-port-primorsk"
+      ]
+    },
+    {
+      "title": "At least 10 killed, over 70 injured in Russian attacks across Ukraine in past 24 hours, Kyiv says",
+      "published": "Sun, 03 May 2026 13:29:46 +0200",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.644,
+      "raw_impact": 0.757,
+      "source_weight": 0.85,
+      "age_hours": 2.99,
+      "confidence": 0.885,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/my-europe/2026/05/03/at-least-10-killed-over-70-injured-in-russian-attacks-across-ukraine-in-past-24-hours-kyiv",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/my-europe/2026/05/03/at-least-10-killed-over-70-injured-in-russian-attacks-across-ukraine-in-past-24-hours-kyiv"
       ]
     },
     {
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.622,
-      "raw_impact": 0.691,
+      "impact": 0.58,
+      "raw_impact": 0.644,
       "source_weight": 0.9,
-      "age_hours": 4.58,
+      "age_hours": 5.79,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.62,
-      "raw_impact": 0.689,
+      "impact": 0.578,
+      "raw_impact": 0.642,
       "source_weight": 0.9,
-      "age_hours": 4.64,
+      "age_hours": 5.85,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -119,19 +153,19 @@
       ]
     },
     {
-      "title": "Ukraine battlefield: Advanced Ukrainian drones raise concerns among Russian forces",
-      "published": "Sat, 02 May 2026 19:11:46 GMT",
+      "title": "Trump says Iran has 'not yet paid a big enough price' as he reviews new peace proposal",
+      "published": "Sun, 03 May 2026 08:29:55 +0200",
       "actors": [
-        "russia",
-        "ukraine"
+        "iran",
+        "us"
       ],
-      "state_key": "russia_ukraine",
+      "state_key": "iran_us",
       "class": "action",
-      "impact": 0.285,
-      "raw_impact": 0.317,
-      "source_weight": 0.9,
-      "age_hours": 18.08,
-      "confidence": 0.81,
+      "impact": 0.482,
+      "raw_impact": 0.567,
+      "source_weight": 0.85,
+      "age_hours": 7.99,
+      "confidence": 0.885,
       "signal_total": 0.9,
       "signal_components": {
         "deescalation": 0.0,
@@ -141,15 +175,49 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/tv-shows/spotlight/20260502-ukraine-battlefield-advanced-ukrainian-drones-raise-concerns-among-russian-forces",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "http://www.euronews.com/2026/05/03/trump-says-iran-has-not-yet-paid-a-big-enough-price-as-he-reviews-new-peace-proposal",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "www.euronews.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/tv-shows/spotlight/20260502-ukraine-battlefield-advanced-ukrainian-drones-raise-concerns-among-russian-forces"
+        "http://www.euronews.com/2026/05/03/trump-says-iran-has-not-yet-paid-a-big-enough-price-as-he-reviews-new-peace-proposal"
+      ]
+    },
+    {
+      "title": "US to cut troops in Germany as Iran war spat deepens",
+      "published": "Sun, 03 May 2026 13:38:56 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.365,
+      "raw_impact": 0.476,
+      "source_weight": 0.9,
+      "age_hours": 0.84,
+      "confidence": 0.73,
+      "signal_total": 0.5,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/3/us-to-cut-troops-in-germany-as-iran-war-spat-deepens?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/5/3/us-to-cut-troops-in-germany-as-iran-war-spat-deepens?traffic_source=rss"
       ]
     },
     {
@@ -161,10 +229,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.241,
-      "raw_impact": 0.268,
+      "impact": 0.225,
+      "raw_impact": 0.25,
       "source_weight": 0.9,
-      "age_hours": 20.97,
+      "age_hours": 22.18,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -195,10 +263,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.2,
-      "raw_impact": 0.2,
+      "impact": 0.186,
+      "raw_impact": 0.186,
       "source_weight": 1.0,
-      "age_hours": 20.42,
+      "age_hours": 21.63,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -222,6 +290,41 @@
       ]
     },
     {
+      "title": "'No strategy' behind Trump's withdrawal of NATO troops from Germany, sources say",
+      "published": "Sun, 03 May 2026 15:36:02 +0200",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "movement",
+      "impact": 0.178,
+      "raw_impact": 0.247,
+      "source_weight": 0.85,
+      "age_hours": 0.89,
+      "confidence": 0.525,
+      "signal_total": 0.26,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.04,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/my-europe/2026/05/03/no-strategy-behind-trumps-withdrawal-of-nato-troops-from-germany-sources-say",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/my-europe/2026/05/03/no-strategy-behind-trumps-withdrawal-of-nato-troops-from-germany-sources-say"
+      ]
+    },
+    {
       "title": "Inflation surging past 50% in Iran",
       "published": "Sun, 03 May 2026 08:40:21 GMT",
       "actors": [
@@ -230,10 +333,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.124,
-      "raw_impact": -0.153,
+      "impact": -0.116,
+      "raw_impact": -0.143,
       "source_weight": 0.9,
-      "age_hours": 4.6,
+      "age_hours": 5.82,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -264,10 +367,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.08,
-      "raw_impact": -0.089,
+      "impact": -0.075,
+      "raw_impact": -0.083,
       "source_weight": 1.0,
-      "age_hours": 13.95,
+      "age_hours": 15.16,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -290,40 +393,6 @@
       ]
     },
     {
-      "title": "Middle East war live: Trump says he 'can't imagine' Iran's latest peace plan is acceptable",
-      "published": "Sun, 03 May 2026 05:06:01 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.125,
-      "source_weight": 0.9,
-      "age_hours": 8.17,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260503-middle-east-war-live-trump-says-he-can-t-imagine-iran-s-latest-peace-plan-is-acceptable",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260503-middle-east-war-live-trump-says-he-can-t-imagine-iran-s-latest-peace-plan-is-acceptable"
-      ]
-    },
-    {
       "title": "DPRK Korea: Continued militarisation a \u2018serious concern\u2019, political affairs chief warns Security Council",
       "published": "Thu, 30 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -332,10 +401,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.027,
-      "raw_impact": 0.03,
+      "impact": 0.025,
+      "raw_impact": 0.028,
       "source_weight": 1.1,
-      "age_hours": 73.27,
+      "age_hours": 74.49,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -366,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.091,
+      "impact": 0.018,
+      "raw_impact": 0.085,
       "source_weight": 0.85,
-      "age_hours": 13.69,
+      "age_hours": 14.91,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -403,7 +472,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 280.06,
+      "age_hours": 281.27,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -437,7 +506,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 149.34,
+      "age_hours": 150.56,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -472,7 +541,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 238.26,
+      "age_hours": 239.48,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -506,7 +575,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 240.5,
+      "age_hours": 241.72,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -540,7 +609,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 240.67,
+      "age_hours": 241.88,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -583,6 +652,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "euronews_world",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -660,6 +734,11 @@
       "domain": "www.economist.com"
     },
     {
+      "name": "www.euronews.com",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
+    },
+    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -679,17 +758,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 223,
-    "classified_count": 16,
-    "paired_count": 16,
+    "event_count": 243,
+    "classified_count": 18,
+    "paired_count": 18,
     "valid_pair_updates": 5,
-    "top_driver_count": 16,
-    "total_signal": 2.9634,
+    "top_driver_count": 18,
+    "total_signal": 4.6004,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 117,
-      "no_signal": 57,
-      "invalid_pair": 33,
+      "no_actor": 128,
+      "no_signal": 62,
+      "invalid_pair": 35,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
