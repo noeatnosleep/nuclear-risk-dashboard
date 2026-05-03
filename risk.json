@@ -1,23 +1,57 @@
 {
-  "last_updated": "2026-05-03 09:04:26 UTC",
-  "probability": 15.76,
-  "uncertainty": 6.3,
+  "last_updated": "2026-05-03 10:31:41 UTC",
+  "probability": 15.69,
+  "uncertainty": 6.0,
   "state": {
-    "us_russia": 3.5282008526634705,
-    "us_china": 3.0000000000019518,
-    "china_taiwan": 4.00000000000039,
+    "us_russia": 3.548818601732222,
+    "us_china": 3.000000000001037,
+    "china_taiwan": 4.000000000000207,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633317023869925,
-    "iran_israel": 6.065777530005494,
+    "iran_us": 5.633324668930897,
+    "iran_israel": 5.832655933821692,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.9084695588846063,
+    "nk_sk": 2.896921128706789,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.121842813785301
+    "russia_ukraine": 7.127228994823441
   },
   "top_drivers": [
     {
-      "title": "Ukrainian elderly woman rescued using robotic vehicle",
+      "title": "Ukraine drone attack hits Russian Baltic port, governor says",
+      "published": "Sun, 03 May 2026 09:57:31 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.784,
+      "raw_impact": 0.871,
+      "source_weight": 0.9,
+      "age_hours": 0.57,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/5/3/ukraine-drone-attack-hits-russian-baltic-port-governor-says?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/5/3/ukraine-drone-attack-hits-russian-baltic-port-governor-says?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Elderly Ukrainian woman rescued using robotic vehicle",
       "published": "Sun, 03 May 2026 08:41:42 GMT",
       "actors": [
         "russia",
@@ -25,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.792,
-      "raw_impact": 0.881,
+      "impact": 0.729,
+      "raw_impact": 0.81,
       "source_weight": 0.9,
-      "age_hours": 0.38,
+      "age_hours": 1.83,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.79,
-      "raw_impact": 0.878,
+      "impact": 0.726,
+      "raw_impact": 0.807,
       "source_weight": 0.9,
-      "age_hours": 0.44,
+      "age_hours": 1.89,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -85,41 +119,6 @@
       ]
     },
     {
-      "title": "What to Know About the U.S.-Iran Peace Talks",
-      "published": "Sat, 02 May 2026 23:27:45 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.389,
-      "raw_impact": 0.54,
-      "source_weight": 0.9,
-      "age_hours": 9.61,
-      "confidence": 0.746,
-      "signal_total": 0.94,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.06,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html"
-      ]
-    },
-    {
       "title": "Ukraine battlefield: Advanced Ukrainian drones raise concerns among Russian forces",
       "published": "Sat, 02 May 2026 19:11:46 GMT",
       "actors": [
@@ -128,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.363,
-      "raw_impact": 0.404,
+      "impact": 0.334,
+      "raw_impact": 0.371,
       "source_weight": 0.9,
-      "age_hours": 13.88,
+      "age_hours": 15.33,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -162,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.308,
-      "raw_impact": 0.342,
+      "impact": 0.283,
+      "raw_impact": 0.314,
       "source_weight": 0.9,
-      "age_hours": 16.76,
+      "age_hours": 18.22,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -196,10 +195,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.255,
-      "raw_impact": 0.255,
+      "impact": 0.234,
+      "raw_impact": 0.234,
       "source_weight": 1.0,
-      "age_hours": 16.22,
+      "age_hours": 17.67,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -231,10 +230,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.158,
-      "raw_impact": -0.195,
+      "impact": -0.146,
+      "raw_impact": -0.18,
       "source_weight": 0.9,
-      "age_hours": 0.4,
+      "age_hours": 1.86,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -265,10 +264,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.125,
-      "raw_impact": -0.154,
+      "impact": -0.115,
+      "raw_impact": -0.142,
       "source_weight": 0.9,
-      "age_hours": 4.48,
+      "age_hours": 5.94,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,10 +298,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.103,
-      "raw_impact": -0.114,
+      "impact": -0.095,
+      "raw_impact": -0.105,
       "source_weight": 1.0,
-      "age_hours": 9.75,
+      "age_hours": 11.2,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -333,10 +332,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.071,
-      "raw_impact": 0.093,
+      "impact": 0.065,
+      "raw_impact": 0.086,
       "source_weight": 0.9,
-      "age_hours": 17.76,
+      "age_hours": 19.22,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -360,41 +359,6 @@
       ]
     },
     {
-      "title": "Berlin urges stronger European defence",
-      "published": "Sat, 02 May 2026 14:37:33 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.069,
-      "raw_impact": 0.09,
-      "source_weight": 0.9,
-      "age_hours": 18.45,
-      "confidence": 0.53,
-      "signal_total": 0.26,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.04,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/berlin-urges-stronger-european-defence",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/berlin-urges-stronger-european-defence"
-      ]
-    },
-    {
       "title": "Iran war: What\u2019s happening on day 65 as Trump reviews new plan to end war?",
       "published": "Sun, 03 May 2026 07:02:09 +0000",
       "actors": [
@@ -403,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
+      "impact": 0.037,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 2.04,
+      "age_hours": 3.49,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -437,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.159,
+      "impact": 0.033,
+      "raw_impact": 0.146,
       "source_weight": 0.9,
-      "age_hours": 3.97,
+      "age_hours": 5.43,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -471,10 +435,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.034,
-      "raw_impact": 0.039,
+      "impact": 0.031,
+      "raw_impact": 0.036,
       "source_weight": 1.1,
-      "age_hours": 69.07,
+      "age_hours": 70.53,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -497,40 +461,6 @@
       ]
     },
     {
-      "title": "Iran war live: Trump to review 14-point plan; Israel pounds Lebanon",
-      "published": "Sun, 03 May 2026 00:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.118,
-      "source_weight": 0.9,
-      "age_hours": 9.07,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/5/3/iran-war-live-trump-says-reviewing-14-point-plan-israel-pounds-lebanon?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/5/3/iran-war-live-trump-says-reviewing-14-point-plan-israel-pounds-lebanon?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Pentagon to pull 5,000 soldiers out of Germany in dispute over Iran war",
       "published": "Sat, 02 May 2026 23:36:15 GMT",
       "actors": [
@@ -539,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.116,
+      "impact": 0.024,
+      "raw_impact": 0.106,
       "source_weight": 0.9,
-      "age_hours": 9.47,
+      "age_hours": 10.92,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -573,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.116,
+      "impact": 0.022,
+      "raw_impact": 0.106,
       "source_weight": 0.85,
-      "age_hours": 9.49,
+      "age_hours": 10.94,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -607,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.087,
+      "impact": 0.018,
+      "raw_impact": 0.08,
       "source_weight": 0.9,
-      "age_hours": 14.47,
+      "age_hours": 15.92,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -644,7 +574,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 275.86,
+      "age_hours": 277.31,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -678,7 +608,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 145.14,
+      "age_hours": 146.6,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -713,7 +643,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 234.06,
+      "age_hours": 235.52,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -747,7 +677,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 236.3,
+      "age_hours": 237.76,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -781,7 +711,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 236.47,
+      "age_hours": 237.92,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -926,16 +856,16 @@
   ],
   "debug": {
     "event_count": 223,
-    "classified_count": 23,
-    "paired_count": 23,
+    "classified_count": 21,
+    "paired_count": 21,
     "valid_pair_updates": 5,
-    "top_driver_count": 23,
-    "total_signal": 3.9913,
+    "top_driver_count": 21,
+    "total_signal": 3.7896,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 110,
-      "no_signal": 58,
-      "invalid_pair": 32,
+      "no_actor": 116,
+      "no_signal": 56,
+      "invalid_pair": 30,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
