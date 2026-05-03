@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-03 19:34:15 UTC",
-  "probability": 15.03,
-  "uncertainty": 5.73,
+  "last_updated": "2026-05-03 20:48:22 UTC",
+  "probability": 14.75,
+  "uncertainty": 5.75,
   "state": {
-    "us_russia": 3.5169913113272817,
-    "us_china": 3.0000000000000067,
-    "china_taiwan": 4.000000000000002,
+    "us_russia": 3.478153759693325,
+    "us_china": 3.0000000000000036,
+    "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.688218413103025,
-    "iran_israel": 6.0270108418031345,
+    "iran_us": 4.49249688813932,
+    "iran_israel": 5.941471035717697,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.853903374824046,
+    "nk_sk": 2.850339219198074,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.133294604879985
+    "russia_ukraine": 7.133312758842491
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.637,
-      "raw_impact": 0.708,
+      "impact": 0.593,
+      "raw_impact": 0.659,
       "source_weight": 0.9,
-      "age_hours": 4.17,
+      "age_hours": 5.4,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.602,
-      "raw_impact": 0.669,
+      "impact": 0.561,
+      "raw_impact": 0.623,
       "source_weight": 0.9,
-      "age_hours": 5.13,
+      "age_hours": 6.36,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.46,
-      "raw_impact": 0.512,
+      "impact": 0.429,
+      "raw_impact": 0.476,
       "source_weight": 0.9,
-      "age_hours": 4.15,
+      "age_hours": 5.38,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -128,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.272,
-      "raw_impact": 0.355,
+      "impact": 0.253,
+      "raw_impact": 0.331,
       "source_weight": 0.9,
-      "age_hours": 5.92,
+      "age_hours": 7.16,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -162,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.168,
-      "raw_impact": 0.186,
+      "impact": 0.156,
+      "raw_impact": 0.174,
       "source_weight": 0.9,
-      "age_hours": 27.26,
+      "age_hours": 28.5,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -196,10 +196,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.139,
-      "raw_impact": 0.139,
+      "impact": 0.129,
+      "raw_impact": 0.129,
       "source_weight": 1.0,
-      "age_hours": 26.72,
+      "age_hours": 27.95,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -223,6 +223,40 @@
       ]
     },
     {
+      "title": "Iran reviews US response to peace proposal, warns against further military action",
+      "published": "Sun, 03 May 2026 16:45:15 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.128,
+      "raw_impact": -0.158,
+      "source_weight": 0.9,
+      "age_hours": 4.05,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260503-iran-reviews-us-response-to-peace-proposal-warns-against-further-military-action",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260503-iran-reviews-us-response-to-peace-proposal-warns-against-further-military-action"
+      ]
+    },
+    {
       "title": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
       "published": "Sat, 02 May 2026 23:19:27 GMT",
       "actors": [
@@ -231,10 +265,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.056,
-      "raw_impact": -0.062,
+      "impact": -0.052,
+      "raw_impact": -0.058,
       "source_weight": 1.0,
-      "age_hours": 20.25,
+      "age_hours": 21.48,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -266,9 +300,9 @@
       "state_key": "nk_sk",
       "class": "strategic",
       "impact": 0.018,
-      "raw_impact": 0.021,
+      "raw_impact": 0.02,
       "source_weight": 1.1,
-      "age_hours": 79.57,
+      "age_hours": 80.81,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -300,9 +334,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.013,
-      "raw_impact": 0.063,
+      "raw_impact": 0.059,
       "source_weight": 0.85,
-      "age_hours": 19.99,
+      "age_hours": 21.22,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -336,7 +370,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 286.36,
+      "age_hours": 287.59,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -370,7 +404,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 155.64,
+      "age_hours": 156.87,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -405,7 +439,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 244.56,
+      "age_hours": 245.8,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -439,7 +473,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 246.8,
+      "age_hours": 248.03,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -473,7 +507,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 246.97,
+      "age_hours": 248.2,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -612,17 +646,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 222,
-    "classified_count": 14,
-    "paired_count": 14,
+    "event_count": 223,
+    "classified_count": 15,
+    "paired_count": 15,
     "valid_pair_updates": 5,
-    "top_driver_count": 14,
-    "total_signal": 2.5666,
+    "top_driver_count": 15,
+    "total_signal": 2.2189,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 113,
-      "no_signal": 63,
-      "invalid_pair": 32,
+      "no_signal": 61,
+      "invalid_pair": 34,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
