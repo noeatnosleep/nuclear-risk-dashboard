@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-03 18:12:07 UTC",
-  "probability": 15.2,
-  "uncertainty": 5.63,
+  "last_updated": "2026-05-03 19:34:15 UTC",
+  "probability": 15.03,
+  "uncertainty": 5.73,
   "state": {
-    "us_russia": 3.574817826449258,
-    "us_china": 3.0000000000000124,
-    "china_taiwan": 4.000000000000003,
+    "us_russia": 3.5169913113272817,
+    "us_china": 3.0000000000000067,
+    "china_taiwan": 4.000000000000002,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.7183951288132295,
-    "iran_israel": 6.042695932422326,
+    "iran_us": 4.688218413103025,
+    "iran_israel": 6.0270108418031345,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8575909197487515,
+    "nk_sk": 2.853903374824046,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.133260432715265
+    "russia_ukraine": 7.133294604879985
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.689,
-      "raw_impact": 0.766,
+      "impact": 0.637,
+      "raw_impact": 0.708,
       "source_weight": 0.9,
-      "age_hours": 2.8,
+      "age_hours": 4.17,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.652,
-      "raw_impact": 0.724,
+      "impact": 0.602,
+      "raw_impact": 0.669,
       "source_weight": 0.9,
-      "age_hours": 3.76,
+      "age_hours": 5.13,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.498,
-      "raw_impact": 0.554,
+      "impact": 0.46,
+      "raw_impact": 0.512,
       "source_weight": 0.9,
-      "age_hours": 2.78,
+      "age_hours": 4.15,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -120,40 +120,6 @@
       ]
     },
     {
-      "title": "Elderly Ukrainian woman rescued using robotic vehicle",
-      "published": "Sun, 03 May 2026 08:41:42 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.468,
-      "raw_impact": 0.52,
-      "source_weight": 0.9,
-      "age_hours": 9.51,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/ukrainian-elderly-woman-rescued-using-robotic-vehicle",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/ukrainian-elderly-woman-rescued-using-robotic-vehicle"
-      ]
-    },
-    {
       "title": "US to cut troops in Germany as Iran war spat deepens",
       "published": "Sun, 03 May 2026 13:38:56 +0000",
       "actors": [
@@ -162,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.294,
-      "raw_impact": 0.384,
+      "impact": 0.272,
+      "raw_impact": 0.355,
       "source_weight": 0.9,
-      "age_hours": 4.55,
+      "age_hours": 5.92,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -196,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.182,
-      "raw_impact": 0.202,
+      "impact": 0.168,
+      "raw_impact": 0.186,
       "source_weight": 0.9,
-      "age_hours": 25.89,
+      "age_hours": 27.26,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -230,10 +196,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.15,
-      "raw_impact": 0.15,
+      "impact": 0.139,
+      "raw_impact": 0.139,
       "source_weight": 1.0,
-      "age_hours": 25.35,
+      "age_hours": 26.72,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -257,40 +223,6 @@
       ]
     },
     {
-      "title": "Inflation surging past 50% in Iran",
-      "published": "Sun, 03 May 2026 08:40:21 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.094,
-      "raw_impact": -0.115,
-      "source_weight": 0.9,
-      "age_hours": 9.53,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/inflation-surging-past-50-in-iran",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/inflation-surging-past-50-in-iran"
-      ]
-    },
-    {
       "title": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
       "published": "Sat, 02 May 2026 23:19:27 GMT",
       "actors": [
@@ -299,10 +231,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.06,
-      "raw_impact": -0.067,
+      "impact": -0.056,
+      "raw_impact": -0.062,
       "source_weight": 1.0,
-      "age_hours": 18.88,
+      "age_hours": 20.25,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -333,10 +265,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.02,
-      "raw_impact": 0.023,
+      "impact": 0.018,
+      "raw_impact": 0.021,
       "source_weight": 1.1,
-      "age_hours": 78.2,
+      "age_hours": 79.57,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -367,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.068,
+      "impact": 0.013,
+      "raw_impact": 0.063,
       "source_weight": 0.85,
-      "age_hours": 18.62,
+      "age_hours": 19.99,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -404,7 +336,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 284.99,
+      "age_hours": 286.36,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -438,7 +370,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 154.27,
+      "age_hours": 155.64,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -473,7 +405,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 243.19,
+      "age_hours": 244.56,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -507,7 +439,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 245.43,
+      "age_hours": 246.8,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -541,7 +473,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 245.6,
+      "age_hours": 246.97,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -681,16 +613,16 @@
   ],
   "debug": {
     "event_count": 222,
-    "classified_count": 16,
-    "paired_count": 16,
+    "classified_count": 14,
+    "paired_count": 14,
     "valid_pair_updates": 5,
-    "top_driver_count": 16,
-    "total_signal": 3.1677,
+    "top_driver_count": 14,
+    "total_signal": 2.5666,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 110,
-      "no_signal": 65,
-      "invalid_pair": 31,
+      "no_actor": 113,
+      "no_signal": 63,
+      "invalid_pair": 32,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
