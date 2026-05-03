@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-02 23:10:26 UTC",
-  "probability": 16.66,
-  "uncertainty": 6.61,
+  "last_updated": "2026-05-03 00:08:31 UTC",
+  "probability": 16.7,
+  "uncertainty": 6.45,
   "state": {
-    "us_russia": 3.831180887411995,
-    "us_china": 3.0000000000245075,
-    "china_taiwan": 4.000000000004901,
+    "us_russia": 3.80998585181254,
+    "us_china": 3.0000000000130194,
+    "china_taiwan": 4.000000000002604,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.63312857390872,
-    "iran_israel": 6.403864783260181,
+    "iran_us": 5.633224554889007,
+    "iran_israel": 6.496057550848713,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.9735511455266934,
+    "nk_sk": 2.9637961792241607,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.989074009024504
+    "russia_ukraine": 7.056695567294268
   },
   "top_drivers": [
     {
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 3.27,
+      "age_hours": 4.23,
       "confidence": 0.96,
       "signal_total": 2.1,
       "signal_components": {
@@ -51,6 +51,41 @@
       ]
     },
     {
+      "title": "What to Know About the U.S.-Iran Peace Talks",
+      "published": "Sat, 02 May 2026 23:27:45 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.65,
+      "raw_impact": 0.904,
+      "source_weight": 0.9,
+      "age_hours": 0.68,
+      "confidence": 0.746,
+      "signal_total": 0.94,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.06,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html"
+      ]
+    },
+    {
       "title": "Ukraine battlefield: Advanced Ukrainian drones raise concerns among Russian forces",
       "published": "Sat, 02 May 2026 19:11:46 GMT",
       "actors": [
@@ -59,10 +94,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.644,
-      "raw_impact": 0.715,
+      "impact": 0.609,
+      "raw_impact": 0.676,
       "source_weight": 0.9,
-      "age_hours": 3.98,
+      "age_hours": 4.95,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.545,
-      "raw_impact": 0.605,
+      "impact": 0.515,
+      "raw_impact": 0.572,
       "source_weight": 0.9,
-      "age_hours": 6.87,
+      "age_hours": 7.83,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +162,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.451,
-      "raw_impact": 0.451,
+      "impact": 0.427,
+      "raw_impact": 0.427,
       "source_weight": 1.0,
-      "age_hours": 6.32,
+      "age_hours": 7.29,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -162,10 +197,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.434,
-      "raw_impact": 0.482,
+      "impact": 0.41,
+      "raw_impact": 0.456,
       "source_weight": 0.9,
-      "age_hours": 10.81,
+      "age_hours": 11.78,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -196,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.434,
-      "raw_impact": 0.482,
+      "impact": 0.41,
+      "raw_impact": 0.456,
       "source_weight": 0.9,
-      "age_hours": 10.82,
+      "age_hours": 11.79,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -222,6 +257,40 @@
       ]
     },
     {
+      "title": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
+      "published": "Sat, 02 May 2026 23:19:27 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "deescalation",
+      "impact": -0.172,
+      "raw_impact": -0.191,
+      "source_weight": 1.0,
+      "age_hours": 0.82,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cgjp7vpee03o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cgjp7vpee03o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Pentagon announces withdrawal of 5.000 soldiers from Germany",
       "published": "Sat, 02 May 2026 15:18:33 GMT",
       "actors": [
@@ -230,10 +299,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.127,
-      "raw_impact": 0.165,
+      "impact": 0.119,
+      "raw_impact": 0.156,
       "source_weight": 0.9,
-      "age_hours": 7.86,
+      "age_hours": 8.83,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -265,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.122,
-      "raw_impact": 0.159,
+      "impact": 0.115,
+      "raw_impact": 0.15,
       "source_weight": 0.9,
-      "age_hours": 8.55,
+      "age_hours": 9.52,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -300,10 +369,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.12,
-      "raw_impact": 0.157,
+      "impact": 0.114,
+      "raw_impact": 0.148,
       "source_weight": 0.9,
-      "age_hours": 8.75,
+      "age_hours": 9.71,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -335,10 +404,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.105,
-      "raw_impact": 0.138,
+      "impact": 0.1,
+      "raw_impact": 0.131,
       "source_weight": 0.9,
-      "age_hours": 10.93,
+      "age_hours": 11.9,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -370,10 +439,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.086,
-      "raw_impact": -0.107,
+      "impact": -0.082,
+      "raw_impact": -0.101,
       "source_weight": 0.9,
-      "age_hours": 10.83,
+      "age_hours": 11.8,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -396,41 +465,6 @@
       ]
     },
     {
-      "title": "U.S. to withdraw 5,000 troops from Germany in next 6-12 months",
-      "published": "Sat, 02 May 2026 01:33:54 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.068,
-      "raw_impact": 0.094,
-      "source_weight": 0.85,
-      "age_hours": 17.61,
-      "confidence": 0.525,
-      "signal_total": 0.26,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.04,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/05/02/g-s1-119864/u-s-withdraw-troops-germany",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/05/02/g-s1-119864/u-s-withdraw-troops-germany"
-      ]
-    },
-    {
       "title": "DPRK Korea: Continued militarisation a \u2018serious concern\u2019, political affairs chief warns Security Council",
       "published": "Thu, 30 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -439,10 +473,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.061,
-      "raw_impact": 0.069,
+      "impact": 0.058,
+      "raw_impact": 0.065,
       "source_weight": 1.1,
-      "age_hours": 59.17,
+      "age_hours": 60.14,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -465,6 +499,74 @@
       ]
     },
     {
+      "title": "Pentagon to pull 5,000 soldiers out of Germany in dispute over Iran war",
+      "published": "Sat, 02 May 2026 23:36:15 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.194,
+      "source_weight": 0.9,
+      "age_hours": 0.54,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6"
+      ]
+    },
+    {
+      "title": "Iran submits 14-point response to U.S. proposal to end war",
+      "published": "Sat, 02 May 2026 19:35:01 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.194,
+      "source_weight": 0.85,
+      "age_hours": 0.56,
+      "confidence": 0.665,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/05/02/nx-s1-5808924/iran-response-trump-proposal",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/05/02/nx-s1-5808924/iran-response-trump-proposal"
+      ]
+    },
+    {
       "title": "Spirit Airlines collapses amid rising fuel costs from war on Iran",
       "published": "Sat, 02 May 2026 20:28:12 +0000",
       "actors": [
@@ -473,10 +575,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.171,
+      "impact": 0.036,
+      "raw_impact": 0.162,
       "source_weight": 0.9,
-      "age_hours": 2.7,
+      "age_hours": 3.67,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -507,10 +609,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.154,
+      "impact": 0.033,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 4.57,
+      "age_hours": 5.53,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -533,40 +635,6 @@
       ]
     },
     {
-      "title": "Pentagon to pull 5,000 soldiers out of Germany in dispute over Iran war",
-      "published": "Sat, 02 May 2026 16:06:14 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.133,
-      "source_weight": 0.9,
-      "age_hours": 7.07,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/4cabedc3-0119-4c3f-9867-094b7e1398f6"
-      ]
-    },
-    {
       "title": "US warns Europe of delays to arms shipments as Iran war drains stockpiles",
       "published": "Sat, 02 May 2026 09:51:05 GMT",
       "actors": [
@@ -575,10 +643,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.093,
+      "impact": 0.02,
+      "raw_impact": 0.088,
       "source_weight": 0.9,
-      "age_hours": 13.32,
+      "age_hours": 14.29,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -612,7 +680,7 @@
       "impact": 0.001,
       "raw_impact": 0.001,
       "source_weight": 0.75,
-      "age_hours": 135.24,
+      "age_hours": 136.21,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -647,7 +715,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 265.96,
+      "age_hours": 266.93,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -681,7 +749,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 224.16,
+      "age_hours": 225.13,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -715,7 +783,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 226.4,
+      "age_hours": 227.37,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -749,7 +817,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 226.57,
+      "age_hours": 227.54,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -894,16 +962,16 @@
   ],
   "debug": {
     "event_count": 222,
-    "classified_count": 22,
-    "paired_count": 22,
+    "classified_count": 24,
+    "paired_count": 24,
     "valid_pair_updates": 5,
-    "top_driver_count": 22,
-    "total_signal": 5.3507,
+    "top_driver_count": 24,
+    "total_signal": 6.0737,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 110,
+      "no_actor": 109,
       "no_signal": 56,
-      "invalid_pair": 34,
+      "invalid_pair": 33,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
