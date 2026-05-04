@@ -1,21 +1,91 @@
 {
-  "last_updated": "2026-05-04 17:43:09 UTC",
-  "probability": 17.28,
-  "uncertainty": 5.76,
+  "last_updated": "2026-05-04 19:43:47 UTC",
+  "probability": 16.87,
+  "uncertainty": 5.65,
   "state": {
-    "us_russia": 4.000635577645817,
+    "us_russia": 3.8430532826425834,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.617168085604206,
-    "iran_israel": 6.552201738880081,
+    "iran_us": 5.624745545477234,
+    "iran_israel": 6.590232173780043,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8163846820313188,
+    "nk_sk": 2.8144781397316216,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.126519744067892
+    "russia_ukraine": 7.129713614036067
   },
   "top_drivers": [
+    {
+      "title": "Iran-US clash over alleged warship attack in Strait of Hormuz",
+      "published": "Mon, 04 May 2026 19:02:46 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 1.125,
+      "raw_impact": 1.25,
+      "source_weight": 0.9,
+      "age_hours": 0.68,
+      "confidence": 0.959,
+      "signal_total": 1.37,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.03,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/4/iran-us-clash-over-alleged-warship-attack-in-strait-of-hormuz?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/5/4/iran-us-clash-over-alleged-warship-attack-in-strait-of-hormuz?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Iran War Live Updates: Attacks in Gulf Threaten to Reignite Conflict",
+      "published": "Mon, 04 May 2026 19:37:15 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 1.125,
+      "raw_impact": 1.25,
+      "source_weight": 0.9,
+      "age_hours": 0.11,
+      "confidence": 0.959,
+      "signal_total": 1.37,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.03,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/05/04/world/iran-hormuz-ships-navy",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/05/04/world/iran-hormuz-ships-navy"
+      ]
+    },
     {
       "title": "Uncertainty continues over safety in the  Strait of Hormuz",
       "published": "Mon, 04 May 2026 12:00:00 +0000",
@@ -25,10 +95,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 1.083,
-      "raw_impact": 0.985,
+      "impact": 0.964,
+      "raw_impact": 0.877,
       "source_weight": 1.1,
-      "age_hours": 5.72,
+      "age_hours": 7.73,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -52,52 +122,53 @@
       ]
     },
     {
-      "title": "The UAE says Iran resumes attacks as the U.S. moves to reopen the Strait of Hormuz",
-      "published": "Mon, 04 May 2026 12:08:35 -0400",
+      "title": "Iran fires on U.S. ships in Strait of Hormuz, in threat to ceasefire",
+      "published": "Mon, 04 May 2026 17:43:52 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.698,
-      "raw_impact": 0.822,
-      "source_weight": 0.85,
-      "age_hours": 1.58,
-      "confidence": 0.885,
-      "signal_total": 0.9,
+      "impact": 0.866,
+      "raw_impact": 0.962,
+      "source_weight": 0.9,
+      "age_hours": 2.0,
+      "confidence": 0.771,
+      "signal_total": 1.08,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.9,
-        "movement": 0.0,
+        "movement": 0.5,
         "strategic": 0.0,
         "rhetoric": 0.0,
+        "contradiction_adjustment": -0.12,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.npr.org/2026/05/04/nx-s1-5810508/iran-war-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
+      "link": "https://www.washingtonpost.com/world/2026/05/04/us-ships-iran-hormuz-ceasefire/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.npr.org"
+        "feeds.washingtonpost.com"
       ],
       "cluster_links": [
-        "https://www.npr.org/2026/05/04/nx-s1-5810508/iran-war-updates"
+        "https://www.washingtonpost.com/world/2026/05/04/us-ships-iran-hormuz-ceasefire/"
       ]
     },
     {
       "title": "Drone Hits a Moscow High-Rise Days Before a Major Military Parade",
-      "published": "Mon, 04 May 2026 13:28:14 +0000",
+      "published": "Mon, 04 May 2026 18:03:03 +0000",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.634,
-      "raw_impact": 0.704,
+      "impact": 0.735,
+      "raw_impact": 0.817,
       "source_weight": 0.9,
-      "age_hours": 4.25,
+      "age_hours": 1.68,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -120,60 +191,27 @@
       ]
     },
     {
-      "title": "Missile strike on Ukraine's Kharkiv region kills five, destroys infrastructure",
-      "published": "Mon, 04 May 2026 12:53:18 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.613,
-      "raw_impact": 0.681,
-      "source_weight": 0.9,
-      "age_hours": 4.83,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/europe/20260504-missile-strike-ukraine-kharkiv-region-kills-five-destroys-infrastructure",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/europe/20260504-missile-strike-ukraine-kharkiv-region-kills-five-destroys-infrastructure"
-      ]
-    },
-    {
       "title": "Ukrainian drone hits upmarket Moscow high-rise ahead of Victory Day celebrations",
-      "published": "Mon, 04 May 2026 09:49:05 GMT",
+      "published": "Mon, 04 May 2026 19:09:14 GMT",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.57,
-      "raw_impact": 0.57,
+      "impact": 0.629,
+      "raw_impact": 0.629,
       "source_weight": 1.0,
-      "age_hours": 7.9,
-      "confidence": 0.9,
-      "signal_total": 0.9,
+      "age_hours": 0.58,
+      "confidence": 0.698,
+      "signal_total": 0.65,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.9,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
       "link": "https://www.bbc.com/news/articles/cwy234llx3vo?at_medium=RSS&at_campaign=rss",
@@ -188,18 +226,122 @@
       ]
     },
     {
+      "title": "The U.S. fights to reopen the Strait of Hormuz as UAE says it's attacked by Iran",
+      "published": "Mon, 04 May 2026 12:08:35 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.622,
+      "raw_impact": 0.732,
+      "source_weight": 0.85,
+      "age_hours": 3.59,
+      "confidence": 0.885,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/05/04/nx-s1-5810508/iran-war-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/05/04/nx-s1-5810508/iran-war-updates"
+      ]
+    },
+    {
+      "title": "Putin threatens 'massive missile strike' on Kyiv if Ukraine breaks two-day truce",
+      "published": "Mon, 04 May 2026 18:40:56 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.551,
+      "raw_impact": 0.612,
+      "source_weight": 0.9,
+      "age_hours": 1.05,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/europe/20260504-putin-threatens-massive-missile-strike-on-kyiv-if-ukraine-breaks-two-day-truce",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/europe/20260504-putin-threatens-massive-missile-strike-on-kyiv-if-ukraine-breaks-two-day-truce"
+      ]
+    },
+    {
+      "title": "Iran fires 'warning shots' as US Navy says its ships entered Gulf via Hormuz",
+      "published": "Mon, 04 May 2026 18:18:37 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.539,
+      "raw_impact": 0.599,
+      "source_weight": 0.9,
+      "age_hours": 1.42,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/iran-fires-warning-shots-as-us-navy-says-its-ships-entered-gulf-via-hormuz",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/iran-fires-warning-shots-as-us-navy-says-its-ships-entered-gulf-via-hormuz"
+      ]
+    },
+    {
       "title": "With World Distracted by Iran War, Israeli Settlers Intensify Attacks in West Bank",
-      "published": "Mon, 04 May 2026 09:08:32 +0000",
+      "published": "Mon, 04 May 2026 09:08:33 +0000",
       "actors": [
         "iran",
         "israel"
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.494,
-      "raw_impact": 0.548,
+      "impact": 0.439,
+      "raw_impact": 0.488,
       "source_weight": 0.9,
-      "age_hours": 8.58,
+      "age_hours": 10.59,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -222,74 +364,6 @@
       ]
     },
     {
-      "title": "Inside The Old Skydiving Plane Hunting Drones in Ukraine",
-      "published": "Mon, 04 May 2026 09:01:06 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.49,
-      "raw_impact": 0.544,
-      "source_weight": 0.9,
-      "age_hours": 8.7,
-      "confidence": 0.81,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/video/world/europe/100000010837657/inside-the-old-skydiving-plane-hunting-drones-in-ukraine.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/video/world/europe/100000010837657/inside-the-old-skydiving-plane-hunting-drones-in-ukraine.html"
-      ]
-    },
-    {
-      "title": "War preparations under way in Iran as Hormuz tensions with US escalate",
-      "published": "Mon, 04 May 2026 13:12:52 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.295,
-      "raw_impact": 0.385,
-      "source_weight": 0.9,
-      "age_hours": 4.5,
-      "confidence": 0.73,
-      "signal_total": 0.5,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/4/war-preparations-under-way-in-iran-as-hormuz-tensions-with-us-escalate?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/4/war-preparations-under-way-in-iran-as-hormuz-tensions-with-us-escalate?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Allies jolted on defence as Trump pulls troops from Germany",
       "published": "Mon, 04 May 2026 15:28:01 GMT",
       "actors": [
@@ -298,10 +372,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.174,
-      "raw_impact": 0.228,
+      "impact": 0.156,
+      "raw_impact": 0.203,
       "source_weight": 0.9,
-      "age_hours": 2.25,
+      "age_hours": 4.26,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -325,75 +399,6 @@
       ]
     },
     {
-      "title": "NATO chief says Europeans have 'gotten message' from Trump on defence",
-      "published": "Mon, 04 May 2026 13:06:46 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.152,
-      "raw_impact": 0.199,
-      "source_weight": 0.9,
-      "age_hours": 4.61,
-      "confidence": 0.54,
-      "signal_total": 0.26,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.04,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260504-nato-chief-says-europeans-have-gotten-message-from-trump-on-defence",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260504-nato-chief-says-europeans-have-gotten-message-from-trump-on-defence"
-      ]
-    },
-    {
-      "title": "U.S. ships pass through Strait of Hormuz as Iran renews threats",
-      "published": "Mon, 04 May 2026 15:33:27 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.143,
-      "raw_impact": -0.177,
-      "source_weight": 0.9,
-      "age_hours": 2.16,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/05/04/us-ships-iran-hormuz-ceasefire/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/05/04/us-ships-iran-hormuz-ceasefire/"
-      ]
-    },
-    {
       "title": "Armenia hosts major EU summits in pivot away from Russia",
       "published": "Mon, 04 May 2026 14:11:33 +0000",
       "actors": [
@@ -402,10 +407,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.163,
+      "impact": 0.033,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 3.53,
+      "age_hours": 5.54,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -436,10 +441,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.164,
+      "impact": 0.033,
+      "raw_impact": 0.146,
       "source_weight": 0.9,
-      "age_hours": 3.42,
+      "age_hours": 5.43,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -462,40 +467,6 @@
       ]
     },
     {
-      "title": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
-      "published": "Sat, 02 May 2026 23:19:27 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "deescalation",
-      "impact": -0.015,
-      "raw_impact": -0.017,
-      "source_weight": 1.0,
-      "age_hours": 42.4,
-      "confidence": 0.77,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cgjp7vpee03o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cgjp7vpee03o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "title": "Gas prices went up more than 30 cents a gallon last week. How high could they go?",
       "published": "Sun, 03 May 2026 18:24:37 -0400",
       "actors": [
@@ -504,10 +475,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.066,
+      "impact": 0.013,
+      "raw_impact": 0.058,
       "source_weight": 0.85,
-      "age_hours": 19.31,
+      "age_hours": 21.32,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -539,9 +510,9 @@
       "state_key": "nk_sk",
       "class": "strategic",
       "impact": 0.005,
-      "raw_impact": 0.006,
+      "raw_impact": 0.005,
       "source_weight": 1.1,
-      "age_hours": 101.72,
+      "age_hours": 103.73,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -575,7 +546,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 308.5,
+      "age_hours": 310.51,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -609,7 +580,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 177.79,
+      "age_hours": 179.8,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -644,7 +615,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 266.71,
+      "age_hours": 268.72,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -678,7 +649,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 268.95,
+      "age_hours": 270.96,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -712,7 +683,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 269.11,
+      "age_hours": 271.12,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -857,16 +828,16 @@
   ],
   "debug": {
     "event_count": 223,
-    "classified_count": 21,
-    "paired_count": 21,
+    "classified_count": 20,
+    "paired_count": 20,
     "valid_pair_updates": 5,
-    "top_driver_count": 21,
-    "total_signal": 6.2345,
+    "top_driver_count": 20,
+    "total_signal": 9.408,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 116,
-      "no_signal": 64,
-      "invalid_pair": 22,
+      "no_actor": 121,
+      "no_signal": 61,
+      "invalid_pair": 21,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
