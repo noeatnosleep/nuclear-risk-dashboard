@@ -1,21 +1,192 @@
 {
-  "last_updated": "2026-05-04 09:03:58 UTC",
-  "probability": 16.19,
-  "uncertainty": 6.01,
+  "last_updated": "2026-05-04 11:27:49 UTC",
+  "probability": 17.71,
+  "uncertainty": 5.91,
   "state": {
-    "us_russia": 3.803627942867533,
+    "us_russia": 4.247405131730934,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.430384484507071,
-    "iran_israel": 5.921810324480219,
+    "iran_us": 5.5255167573943815,
+    "iran_israel": 6.2553367348801165,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8277373423402117,
+    "nk_sk": 2.824042748059383,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.047791180131146
+    "russia_ukraine": 7.0878890644446715
   },
   "top_drivers": [
+    {
+      "title": "Ukrainian drone hits upmarket Moscow high-rise ahead of Victory Day celebrations",
+      "published": "Mon, 04 May 2026 09:49:05 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.818,
+      "raw_impact": 0.818,
+      "source_weight": 1.0,
+      "age_hours": 1.65,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cwy234llx3vo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cwy234llx3vo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "title": "Drone Hits a Moscow High-Rise Days Before a Major Military Parade",
+      "published": "Mon, 04 May 2026 10:08:52 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.751,
+      "raw_impact": 0.834,
+      "source_weight": 0.9,
+      "age_hours": 1.32,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/05/04/world/europe/moscow-drone-attack.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/05/04/world/europe/moscow-drone-attack.html"
+      ]
+    },
+    {
+      "title": "With World Distracted by Iran War, Israeli Settlers Intensify Attacks in West Bank",
+      "published": "Mon, 04 May 2026 09:08:32 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.708,
+      "raw_impact": 0.787,
+      "source_weight": 0.9,
+      "age_hours": 2.32,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/05/04/world/middleeast/israel-palestinians-west-bank-settler-violence-iran-war.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/05/04/world/middleeast/israel-palestinians-west-bank-settler-violence-iran-war.html"
+      ]
+    },
+    {
+      "title": "Inside The Old Skydiving Plane Hunting Drones in Ukraine",
+      "published": "Mon, 04 May 2026 09:01:06 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.703,
+      "raw_impact": 0.781,
+      "source_weight": 0.9,
+      "age_hours": 2.45,
+      "confidence": 0.81,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/video/world/europe/100000010837657/inside-the-old-skydiving-plane-hunting-drones-in-ukraine.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/video/world/europe/100000010837657/inside-the-old-skydiving-plane-hunting-drones-in-ukraine.html"
+      ]
+    },
+    {
+      "title": "Iran war live: US warship attacked with missiles in Hormuz by Iran\u2019s navy",
+      "published": "Mon, 04 May 2026 00:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.636,
+      "raw_impact": 0.707,
+      "source_weight": 0.9,
+      "age_hours": 11.46,
+      "confidence": 0.959,
+      "signal_total": 1.37,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.03,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/liveblog/2026/5/4/iran-war-live-tehran-says-trumps-hormuz-mission-violates-ceasefire?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/liveblog/2026/5/4/iran-war-live-tehran-says-trumps-hormuz-mission-violates-ceasefire?traffic_source=rss"
+      ]
+    },
     {
       "title": "How to escape Russia\u2019s army: Soldiers serving in Ukraine seek a way out",
       "published": "Mon, 04 May 2026 06:15:24 +0000",
@@ -25,10 +196,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.689,
-      "raw_impact": 0.765,
+      "impact": 0.6,
+      "raw_impact": 0.666,
       "source_weight": 0.9,
-      "age_hours": 2.81,
+      "age_hours": 5.21,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +230,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.605,
-      "raw_impact": 0.672,
+      "impact": 0.527,
+      "raw_impact": 0.585,
       "source_weight": 0.9,
-      "age_hours": 5.06,
+      "age_hours": 7.45,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +264,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.571,
-      "raw_impact": 0.793,
+      "impact": 0.497,
+      "raw_impact": 0.691,
       "source_weight": 0.9,
-      "age_hours": 7.17,
+      "age_hours": 9.57,
       "confidence": 0.88,
       "signal_total": 1.2,
       "signal_components": {
@@ -119,40 +290,6 @@
       ]
     },
     {
-      "title": "Iran war live: Iranian military warns US of attacks over Hormuz mission",
-      "published": "Mon, 04 May 2026 00:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.48,
-      "raw_impact": 0.533,
-      "source_weight": 0.9,
-      "age_hours": 9.07,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/5/4/iran-war-live-tehran-says-trumps-hormuz-mission-violates-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/5/4/iran-war-live-tehran-says-trumps-hormuz-mission-violates-ceasefire?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Why Are Africans Fighting in Russia\u2019s War in Ukraine?",
       "published": "Mon, 04 May 2026 07:53:37 +0000",
       "actors": [
@@ -161,10 +298,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "movement",
-      "impact": 0.358,
-      "raw_impact": 0.467,
+      "impact": 0.311,
+      "raw_impact": 0.407,
       "source_weight": 0.9,
-      "age_hours": 1.17,
+      "age_hours": 3.57,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -187,144 +324,6 @@
       ]
     },
     {
-      "title": "Live: Iran warns it will attack US ships in Strait of Hormuz after Trump announces escort missions",
-      "published": "Mon, 04 May 2026 00:06:58 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.349,
-      "raw_impact": 0.388,
-      "source_weight": 0.9,
-      "age_hours": 8.95,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260504-live-us-to-escort-ships-through-strait-of-hormuz-as-iran-warns-of-ceasefire-breach-trump",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260504-live-us-to-escort-ships-through-strait-of-hormuz-as-iran-warns-of-ceasefire-breach-trump"
-      ]
-    },
-    {
-      "title": "Russian strikes on Ukraine kill three",
-      "published": "Sun, 03 May 2026 15:24:19 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.292,
-      "raw_impact": 0.324,
-      "source_weight": 0.9,
-      "age_hours": 17.66,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/russian-strikes-on-ukraine-kill-three",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/russian-strikes-on-ukraine-kill-three"
-      ]
-    },
-    {
-      "title": "Ukrainian drones strike Russia's Primorsk oil port",
-      "published": "Sun, 03 May 2026 14:26:35 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.276,
-      "raw_impact": 0.307,
-      "source_weight": 0.9,
-      "age_hours": 18.62,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/europe/20260503-ukrainian-drones-strike-russia-baltic-sea-port-primorsk",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/europe/20260503-ukrainian-drones-strike-russia-baltic-sea-port-primorsk"
-      ]
-    },
-    {
-      "title": "Southern Lebanon: Israeli strikes kill one, wounds rescuers",
-      "published": "Sun, 03 May 2026 15:25:22 GMT",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.211,
-      "raw_impact": 0.235,
-      "source_weight": 0.9,
-      "age_hours": 17.64,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/southern-lebanon-israeli-strikes-kill-one-wounds-rescuers",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/southern-lebanon-israeli-strikes-kill-one-wounds-rescuers"
-      ]
-    },
-    {
       "title": "A look at the US military presence in Europe as Trump seeks to withdraw troops from Germany",
       "published": "Mon, 04 May 2026 07:19:05 GMT",
       "actors": [
@@ -333,10 +332,10 @@
       ],
       "state_key": "us_russia",
       "class": "movement",
-      "impact": 0.18,
-      "raw_impact": 0.235,
+      "impact": 0.156,
+      "raw_impact": 0.205,
       "source_weight": 0.9,
-      "age_hours": 1.75,
+      "age_hours": 4.15,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -360,6 +359,40 @@
       ]
     },
     {
+      "title": "'Project freedom': Trump says the US will 'guide' stranded ships from the Strait of Hormuz",
+      "published": "Mon, 04 May 2026 08:58:18 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.14,
+      "raw_impact": -0.173,
+      "source_weight": 0.9,
+      "age_hours": 2.49,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260504-project-freedom-trump-says-the-us-will-guide-stranded-ships-from-the-strait-of-hormuz",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260504-project-freedom-trump-says-the-us-will-guide-stranded-ships-from-the-strait-of-hormuz"
+      ]
+    },
+    {
       "title": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
       "published": "Sat, 02 May 2026 16:51:18 GMT",
       "actors": [
@@ -368,10 +401,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.064,
-      "raw_impact": 0.064,
+      "impact": 0.055,
+      "raw_impact": 0.055,
       "source_weight": 1.0,
-      "age_hours": 40.21,
+      "age_hours": 42.61,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -395,29 +428,97 @@
       ]
     },
     {
-      "title": "Iran reviews US response to peace proposal, warns against further military action",
-      "published": "Sun, 03 May 2026 16:45:15 GMT",
+      "title": "NATO chief says Europeans have \u2018gotten the message\u2019 from Trump on defence",
+      "published": "Mon, 04 May 2026 09:57:05 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.063,
-      "raw_impact": -0.078,
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.183,
       "source_weight": 0.9,
-      "age_hours": 16.31,
-      "confidence": 0.75,
-      "signal_total": -0.2,
+      "age_hours": 1.51,
+      "confidence": 0.68,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/middle-east/20260503-iran-reviews-us-response-to-peace-proposal-warns-against-further-military-action",
+      "link": "https://www.aljazeera.com/news/2026/5/4/nato-chief-says-europeans-have-gotten-the-message-from-trump-on-defence?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/5/4/nato-chief-says-europeans-have-gotten-the-message-from-trump-on-defence?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Iran war: What\u2019s happening on day 66 as Trump announces Hormuz mission?",
+      "published": "Mon, 04 May 2026 09:11:08 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.175,
+      "source_weight": 0.9,
+      "age_hours": 2.28,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/5/4/iran-war-whats-happening-on-day-66-as-trump-announces-hormuz-mission?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/5/4/iran-war-whats-happening-on-day-66-as-trump-announces-hormuz-mission?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Trump says US operation will aid ships stranded in Strait of Hormuz",
+      "published": "Mon, 04 May 2026 09:05:13 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.039,
+      "raw_impact": 0.174,
+      "source_weight": 0.9,
+      "age_hours": 2.38,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260504-trump-says-us-operation-will-aid-ships-stranded-in-strait-of-hormuz",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -425,7 +526,75 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260503-iran-reviews-us-response-to-peace-proposal-warns-against-further-military-action"
+        "https://www.france24.com/en/video/20260504-trump-says-us-operation-will-aid-ships-stranded-in-strait-of-hormuz"
+      ]
+    },
+    {
+      "title": "Europe, Canada leaders hold Yerevan talks in Trump's shadow",
+      "published": "Mon, 04 May 2026 09:04:25 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "rhetoric",
+      "impact": 0.039,
+      "raw_impact": 0.174,
+      "source_weight": 0.9,
+      "age_hours": 2.39,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260504-europe-canada-leaders-hold-yerevan-talks-in-trump-s-shadow",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260504-europe-canada-leaders-hold-yerevan-talks-in-trump-s-shadow"
+      ]
+    },
+    {
+      "title": "German chancellor downplays row with Trump after troop drawdown announced",
+      "published": "Mon, 04 May 2026 08:59:35 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.039,
+      "raw_impact": 0.173,
+      "source_weight": 0.9,
+      "age_hours": 2.47,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260504-german-chancellor-downplays-row-with-trump-after-troop-drawdown-announced",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/video/20260504-german-chancellor-downplays-row-with-trump-after-troop-drawdown-announced"
       ]
     },
     {
@@ -437,10 +606,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.184,
+      "impact": 0.036,
+      "raw_impact": 0.16,
       "source_weight": 0.9,
-      "age_hours": 1.45,
+      "age_hours": 3.85,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -471,10 +640,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.183,
+      "impact": 0.036,
+      "raw_impact": 0.159,
       "source_weight": 0.9,
-      "age_hours": 1.54,
+      "age_hours": 3.94,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -505,10 +674,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.149,
+      "impact": 0.029,
+      "raw_impact": 0.13,
       "source_weight": 0.9,
-      "age_hours": 5.04,
+      "age_hours": 7.44,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -531,40 +700,6 @@
       ]
     },
     {
-      "title": "America\u2019s retail army now rules the stock market",
-      "published": "Mon, 04 May 2026 04:00:33 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.149,
-      "source_weight": 0.9,
-      "age_hours": 5.06,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/ee8a0604-84cb-44da-bb33-f36818944581",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/ee8a0604-84cb-44da-bb33-f36818944581"
-      ]
-    },
-    {
       "title": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
       "published": "Sat, 02 May 2026 23:19:27 GMT",
       "actors": [
@@ -573,10 +708,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.025,
-      "raw_impact": -0.028,
+      "impact": -0.023,
+      "raw_impact": -0.025,
       "source_weight": 1.0,
-      "age_hours": 33.74,
+      "age_hours": 36.14,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -607,10 +742,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.108,
+      "impact": 0.02,
+      "raw_impact": 0.094,
       "source_weight": 0.85,
-      "age_hours": 10.66,
+      "age_hours": 13.05,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -633,40 +768,6 @@
       ]
     },
     {
-      "title": "Iran lawmaker says Strait of Hormuz will not return to pre\u2011war state",
-      "published": "Sun, 03 May 2026 20:51:57 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.099,
-      "source_weight": 0.9,
-      "age_hours": 12.2,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/3/iran-lawmaker-says-strait-of-hormuz-will-not-return-to-pre%e2%80%91war-state?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/5/3/iran-lawmaker-says-strait-of-hormuz-will-not-return-to-pre%e2%80%91war-state?traffic_source=rss"
-      ]
-    },
-    {
       "title": "DPRK Korea: Continued militarisation a \u2018serious concern\u2019, political affairs chief warns Security Council",
       "published": "Thu, 30 Apr 2026 12:00:00 +0000",
       "actors": [
@@ -675,10 +776,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.009,
-      "raw_impact": 0.01,
+      "impact": 0.007,
+      "raw_impact": 0.008,
       "source_weight": 1.1,
-      "age_hours": 93.07,
+      "age_hours": 95.46,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -712,7 +813,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 299.85,
+      "age_hours": 302.25,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -746,7 +847,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 169.13,
+      "age_hours": 171.53,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -781,7 +882,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 258.06,
+      "age_hours": 260.45,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -815,7 +916,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 260.29,
+      "age_hours": 262.69,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -849,7 +950,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 260.46,
+      "age_hours": 262.86,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -998,17 +1099,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 221,
-    "classified_count": 25,
-    "paired_count": 25,
+    "event_count": 222,
+    "classified_count": 28,
+    "paired_count": 28,
     "valid_pair_updates": 5,
-    "top_driver_count": 25,
-    "total_signal": 5.6655,
+    "top_driver_count": 28,
+    "total_signal": 7.8825,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 115,
-      "no_signal": 58,
-      "invalid_pair": 23,
+      "no_actor": 112,
+      "no_signal": 61,
+      "invalid_pair": 21,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
