@@ -1,21 +1,90 @@
 {
-  "last_updated": "2026-05-04 11:27:49 UTC",
-  "probability": 17.71,
-  "uncertainty": 5.91,
+  "last_updated": "2026-05-04 13:08:41 UTC",
+  "probability": 17.96,
+  "uncertainty": 5.96,
   "state": {
-    "us_russia": 4.247405131730934,
+    "us_russia": 4.2808074480331495,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.5255167573943815,
-    "iran_israel": 6.2553367348801165,
+    "iran_us": 5.576055777365766,
+    "iran_israel": 6.432522640405063,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.824042748059383,
+    "nk_sk": 2.821218720971749,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.0878890644446715
+    "russia_ukraine": 7.109191065486232
   },
   "top_drivers": [
+    {
+      "title": "Hezbollah deploys hard-to-jam fibre optic drones, shifting battlefield tactics",
+      "published": "Mon, 04 May 2026 12:00:46 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.91,
+      "raw_impact": 1.012,
+      "source_weight": 0.9,
+      "age_hours": 1.13,
+      "confidence": 0.781,
+      "signal_total": 1.08,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.12,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/spotlight/20260504-hezbollah-deploys-hard-to-jam-fibre-optic-drones-shifting-battlefield-tactics",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/spotlight/20260504-hezbollah-deploys-hard-to-jam-fibre-optic-drones-shifting-battlefield-tactics"
+      ]
+    },
+    {
+      "title": "Missile strike on Ukraine's Kharkiv region kills five, destroys infrastructure",
+      "published": "Mon, 04 May 2026 12:53:18 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.798,
+      "raw_impact": 0.887,
+      "source_weight": 0.9,
+      "age_hours": 0.26,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/europe/20260504-missile-strike-ukraine-kharkiv-region-kills-five-destroys-infrastructure",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/europe/20260504-missile-strike-ukraine-kharkiv-region-kills-five-destroys-infrastructure"
+      ]
+    },
     {
       "title": "Ukrainian drone hits upmarket Moscow high-rise ahead of Victory Day celebrations",
       "published": "Mon, 04 May 2026 09:49:05 GMT",
@@ -25,10 +94,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.818,
-      "raw_impact": 0.818,
+      "impact": 0.743,
+      "raw_impact": 0.743,
       "source_weight": 1.0,
-      "age_hours": 1.65,
+      "age_hours": 3.33,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +128,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.751,
-      "raw_impact": 0.834,
+      "impact": 0.681,
+      "raw_impact": 0.757,
       "source_weight": 0.9,
-      "age_hours": 1.32,
+      "age_hours": 3.0,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +162,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.708,
-      "raw_impact": 0.787,
+      "impact": 0.643,
+      "raw_impact": 0.714,
       "source_weight": 0.9,
-      "age_hours": 2.32,
+      "age_hours": 4.0,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +196,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.703,
-      "raw_impact": 0.781,
+      "impact": 0.638,
+      "raw_impact": 0.709,
       "source_weight": 0.9,
-      "age_hours": 2.45,
+      "age_hours": 4.13,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -153,41 +222,6 @@
       ]
     },
     {
-      "title": "Iran war live: US warship attacked with missiles in Hormuz by Iran\u2019s navy",
-      "published": "Mon, 04 May 2026 00:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.636,
-      "raw_impact": 0.707,
-      "source_weight": 0.9,
-      "age_hours": 11.46,
-      "confidence": 0.959,
-      "signal_total": 1.37,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.03,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/5/4/iran-war-live-tehran-says-trumps-hormuz-mission-violates-ceasefire?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/5/4/iran-war-live-tehran-says-trumps-hormuz-mission-violates-ceasefire?traffic_source=rss"
-      ]
-    },
-    {
       "title": "How to escape Russia\u2019s army: Soldiers serving in Ukraine seek a way out",
       "published": "Mon, 04 May 2026 06:15:24 +0000",
       "actors": [
@@ -196,10 +230,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.6,
-      "raw_impact": 0.666,
+      "impact": 0.544,
+      "raw_impact": 0.605,
       "source_weight": 0.9,
-      "age_hours": 5.21,
+      "age_hours": 6.89,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -222,74 +256,6 @@
       ]
     },
     {
-      "title": "Putin hunkers down for fear of assassination",
-      "published": "Mon, 04 May 2026 04:00:33 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.527,
-      "raw_impact": 0.585,
-      "source_weight": 0.9,
-      "age_hours": 7.45,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/fe70c89e-b5d7-4f89-8eb4-83afbe721d7c",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/fe70c89e-b5d7-4f89-8eb4-83afbe721d7c"
-      ]
-    },
-    {
-      "title": "European and Canadian leaders hold security talks in Yerevan amid uncertainty over US policy",
-      "published": "Mon, 04 May 2026 01:53:47 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.497,
-      "raw_impact": 0.691,
-      "source_weight": 0.9,
-      "age_hours": 9.57,
-      "confidence": 0.88,
-      "signal_total": 1.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/europe/20260504-europe-canada-leaders-meet-in-armenia-amid-uncertainty-over-us-policy-trump-russia-ukraine-iran-war-nato",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/europe/20260504-europe-canada-leaders-meet-in-armenia-amid-uncertainty-over-us-policy-trump-russia-ukraine-iran-war-nato"
-      ]
-    },
-    {
       "title": "Why Are Africans Fighting in Russia\u2019s War in Ukraine?",
       "published": "Mon, 04 May 2026 07:53:37 +0000",
       "actors": [
@@ -298,10 +264,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "movement",
-      "impact": 0.311,
-      "raw_impact": 0.407,
+      "impact": 0.282,
+      "raw_impact": 0.369,
       "source_weight": 0.9,
-      "age_hours": 3.57,
+      "age_hours": 5.25,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -324,41 +290,6 @@
       ]
     },
     {
-      "title": "A look at the US military presence in Europe as Trump seeks to withdraw troops from Germany",
-      "published": "Mon, 04 May 2026 07:19:05 GMT",
-      "actors": [
-        "us",
-        "russia"
-      ],
-      "state_key": "us_russia",
-      "class": "movement",
-      "impact": 0.156,
-      "raw_impact": 0.205,
-      "source_weight": 0.9,
-      "age_hours": 4.15,
-      "confidence": 0.53,
-      "signal_total": 0.26,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.04,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/europe/20260504-what-to-know-us-military-presence-europe-trump-seeks-troop-drawdown-germany",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/europe/20260504-what-to-know-us-military-presence-europe-trump-seeks-troop-drawdown-germany"
-      ]
-    },
-    {
       "title": "'Project freedom': Trump says the US will 'guide' stranded ships from the Strait of Hormuz",
       "published": "Mon, 04 May 2026 08:58:18 GMT",
       "actors": [
@@ -367,10 +298,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.14,
-      "raw_impact": -0.173,
+      "impact": -0.127,
+      "raw_impact": -0.157,
       "source_weight": 0.9,
-      "age_hours": 2.49,
+      "age_hours": 4.17,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -401,10 +332,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.055,
-      "raw_impact": 0.055,
+      "impact": 0.05,
+      "raw_impact": 0.05,
       "source_weight": 1.0,
-      "age_hours": 42.61,
+      "age_hours": 44.29,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -436,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.183,
+      "impact": 0.037,
+      "raw_impact": 0.166,
       "source_weight": 0.9,
-      "age_hours": 1.51,
+      "age_hours": 3.19,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -470,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.175,
+      "impact": 0.036,
+      "raw_impact": 0.159,
       "source_weight": 0.9,
-      "age_hours": 2.28,
+      "age_hours": 3.96,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -504,10 +435,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
+      "impact": 0.035,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 2.38,
+      "age_hours": 4.06,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -538,10 +469,10 @@
       ],
       "state_key": "us_russia",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
+      "impact": 0.035,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 2.39,
+      "age_hours": 4.07,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -572,10 +503,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
+      "impact": 0.035,
+      "raw_impact": 0.157,
       "source_weight": 0.9,
-      "age_hours": 2.47,
+      "age_hours": 4.15,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -606,10 +537,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.16,
+      "impact": 0.033,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 3.85,
+      "age_hours": 5.53,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -640,10 +571,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.159,
+      "impact": 0.033,
+      "raw_impact": 0.145,
       "source_weight": 0.9,
-      "age_hours": 3.94,
+      "age_hours": 5.62,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -674,10 +605,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.13,
+      "impact": 0.026,
+      "raw_impact": 0.118,
       "source_weight": 0.9,
-      "age_hours": 7.44,
+      "age_hours": 9.12,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -708,10 +639,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.023,
-      "raw_impact": -0.025,
+      "impact": -0.021,
+      "raw_impact": -0.023,
       "source_weight": 1.0,
-      "age_hours": 36.14,
+      "age_hours": 37.82,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -742,10 +673,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.094,
+      "impact": 0.018,
+      "raw_impact": 0.085,
       "source_weight": 0.85,
-      "age_hours": 13.05,
+      "age_hours": 14.73,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -776,10 +707,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.007,
+      "impact": 0.006,
       "raw_impact": 0.008,
       "source_weight": 1.1,
-      "age_hours": 95.46,
+      "age_hours": 97.14,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -813,7 +744,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 302.25,
+      "age_hours": 303.93,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -847,7 +778,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 171.53,
+      "age_hours": 173.21,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -882,7 +813,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 260.45,
+      "age_hours": 262.14,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -916,7 +847,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 262.69,
+      "age_hours": 264.37,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -950,7 +881,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 262.86,
+      "age_hours": 264.54,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1075,11 +1006,6 @@
       "domain": "www.france24.com"
     },
     {
-      "name": "www.ft.com",
-      "url": "https://www.ft.com/world?format=rss",
-      "domain": "www.ft.com"
-    },
-    {
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
@@ -1100,16 +1026,16 @@
   ],
   "debug": {
     "event_count": 222,
-    "classified_count": 28,
-    "paired_count": 28,
+    "classified_count": 26,
+    "paired_count": 26,
     "valid_pair_updates": 5,
-    "top_driver_count": 28,
-    "total_signal": 7.8825,
+    "top_driver_count": 26,
+    "total_signal": 7.0615,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 112,
-      "no_signal": 61,
-      "invalid_pair": 21,
+      "no_actor": 109,
+      "no_signal": 63,
+      "invalid_pair": 24,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
