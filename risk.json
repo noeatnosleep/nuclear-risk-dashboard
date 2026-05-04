@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-05-03 23:51:03 UTC",
-  "probability": 14.28,
-  "uncertainty": 5.9,
+  "last_updated": "2026-05-04 03:28:09 UTC",
+  "probability": 14.54,
+  "uncertainty": 5.87,
   "state": {
-    "us_russia": 3.4151583475473273,
+    "us_russia": 3.388992936834324,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 4.279735149262708,
-    "iran_israel": 5.724173822515769,
+    "iran_us": 4.914234298045813,
+    "iran_israel": 5.791870553766352,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.841847341634798,
+    "nk_sk": 2.837001067070782,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.041216383180985
+    "russia_ukraine": 6.830235877004473
   },
   "top_drivers": [
+    {
+      "title": "Europe, Canada leaders meet in Armenia amid uncertainty over US policy",
+      "published": "Mon, 04 May 2026 01:53:47 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.789,
+      "raw_impact": 1.096,
+      "source_weight": 0.9,
+      "age_hours": 1.57,
+      "confidence": 0.88,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/europe/20260504-europe-canada-leaders-meet-in-armenia-amid-uncertainty-over-us-policy-trump-russia-ukraine-iran-war-nato",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/europe/20260504-europe-canada-leaders-meet-in-armenia-amid-uncertainty-over-us-policy-trump-russia-ukraine-iran-war-nato"
+      ]
+    },
     {
       "title": "Russian strikes on Ukraine kill three",
       "published": "Sun, 03 May 2026 15:24:19 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.497,
-      "raw_impact": 0.553,
+      "impact": 0.404,
+      "raw_impact": 0.448,
       "source_weight": 0.9,
-      "age_hours": 8.45,
+      "age_hours": 12.06,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.47,
-      "raw_impact": 0.523,
+      "impact": 0.382,
+      "raw_impact": 0.424,
       "source_weight": 0.9,
-      "age_hours": 9.41,
+      "age_hours": 13.03,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.36,
-      "raw_impact": 0.399,
+      "impact": 0.292,
+      "raw_impact": 0.324,
       "source_weight": 0.9,
-      "age_hours": 8.43,
+      "age_hours": 12.05,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -120,6 +154,40 @@
       ]
     },
     {
+      "title": "Live: US to escort ships through Hormuz as Iran warns of ceasefire breach",
+      "published": "Mon, 04 May 2026 00:06:58 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.133,
+      "raw_impact": -0.165,
+      "source_weight": 0.9,
+      "age_hours": 3.35,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260504-live-us-to-escort-ships-through-strait-of-hormuz-as-iran-warns-of-ceasefire-breach-trump",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260504-live-us-to-escort-ships-through-strait-of-hormuz-as-iran-warns-of-ceasefire-breach-trump"
+      ]
+    },
+    {
       "title": "U.S. Fast-Tracks Arms Deals Valued at $8.6 Billion to Mideast Partners",
       "published": "Sat, 02 May 2026 16:18:33 +0000",
       "actors": [
@@ -128,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.131,
-      "raw_impact": 0.146,
+      "impact": 0.106,
+      "raw_impact": 0.118,
       "source_weight": 0.9,
-      "age_hours": 31.54,
+      "age_hours": 35.16,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -162,10 +230,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.108,
-      "raw_impact": 0.108,
+      "impact": 0.088,
+      "raw_impact": 0.088,
       "source_weight": 1.0,
-      "age_hours": 31.0,
+      "age_hours": 34.61,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -197,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.107,
-      "raw_impact": -0.133,
+      "impact": -0.087,
+      "raw_impact": -0.108,
       "source_weight": 0.9,
-      "age_hours": 7.1,
+      "age_hours": 10.72,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -223,6 +291,40 @@
       ]
     },
     {
+      "title": "Australia news live: daughter of Bondi terror victim reveals antisemitic abuse left her feeling \u2018shocked, exposed and unsafe\u2019",
+      "published": "Mon, 04 May 2026 03:16:07 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.044,
+      "raw_impact": 0.198,
+      "source_weight": 0.9,
+      "age_hours": 0.2,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.theguardian.com/australia-news/live/2026/may/04/australia-news-live-jim-chalmers-budget-inflation-labor-cost-of-living-interest-rates-bondi-shooting-royal-commission-antisemitism-ntwnfb",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.theguardian.com"
+      ],
+      "cluster_links": [
+        "https://www.theguardian.com/australia-news/live/2026/may/04/australia-news-live-jim-chalmers-budget-inflation-labor-cost-of-living-interest-rates-bondi-shooting-royal-commission-antisemitism-ntwnfb"
+      ]
+    },
+    {
       "title": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
       "published": "Sat, 02 May 2026 23:19:27 GMT",
       "actors": [
@@ -231,10 +333,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.044,
-      "raw_impact": -0.049,
+      "impact": -0.035,
+      "raw_impact": -0.039,
       "source_weight": 1.0,
-      "age_hours": 24.53,
+      "age_hours": 28.15,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -265,10 +367,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.184,
+      "impact": 0.032,
+      "raw_impact": 0.149,
       "source_weight": 0.85,
-      "age_hours": 1.44,
+      "age_hours": 5.06,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -299,10 +401,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.168,
+      "impact": 0.031,
+      "raw_impact": 0.137,
       "source_weight": 0.9,
-      "age_hours": 2.99,
+      "age_hours": 6.6,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -333,10 +435,10 @@
       ],
       "state_key": "nk_sk",
       "class": "strategic",
-      "impact": 0.014,
-      "raw_impact": 0.017,
+      "impact": 0.012,
+      "raw_impact": 0.013,
       "source_weight": 1.1,
-      "age_hours": 83.85,
+      "age_hours": 87.47,
       "confidence": 0.98,
       "signal_total": 2.1,
       "signal_components": {
@@ -359,7 +461,7 @@
       ]
     },
     {
-      "title": "Iran submits 14-point response to U.S. proposal to end war",
+      "title": "Iran submits a 14-point response to a U.S. proposal to end war",
       "published": "Sat, 02 May 2026 19:35:01 -0400",
       "actors": [
         "iran",
@@ -367,10 +469,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.049,
+      "impact": 0.009,
+      "raw_impact": 0.04,
       "source_weight": 0.85,
-      "age_hours": 24.27,
+      "age_hours": 27.89,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -404,7 +506,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 290.64,
+      "age_hours": 294.25,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -438,7 +540,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 159.92,
+      "age_hours": 163.54,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -473,7 +575,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 248.84,
+      "age_hours": 252.46,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -507,7 +609,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 251.08,
+      "age_hours": 254.7,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -541,7 +643,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 251.25,
+      "age_hours": 254.86,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -669,6 +771,11 @@
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
+    },
+    {
+      "name": "www.theguardian.com",
+      "url": "https://www.theguardian.com/world/rss",
+      "domain": "www.theguardian.com"
     }
   ],
   "driver_sort_default": "chronological",
@@ -681,16 +788,16 @@
   ],
   "debug": {
     "event_count": 222,
-    "classified_count": 16,
-    "paired_count": 16,
+    "classified_count": 19,
+    "paired_count": 19,
     "valid_pair_updates": 5,
-    "top_driver_count": 16,
-    "total_signal": 1.931,
+    "top_driver_count": 19,
+    "total_signal": 2.7858,
     "drop_reasons": {
       "missing_title": 0,
       "no_actor": 111,
-      "no_signal": 63,
-      "invalid_pair": 32,
+      "no_signal": 59,
+      "invalid_pair": 33,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
