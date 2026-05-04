@@ -1,24 +1,24 @@
 {
-  "last_updated": "2026-05-04 22:33:09 UTC",
-  "probability": 16.53,
-  "uncertainty": 5.79,
+  "last_updated": "2026-05-04 23:56:06 UTC",
+  "probability": 16.41,
+  "uncertainty": 5.67,
   "state": {
-    "us_russia": 3.71313987583984,
+    "us_russia": 3.667027253731471,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.630909631487227,
-    "iran_israel": 6.621169041232844,
+    "iran_us": 5.632045741727589,
+    "iran_israel": 6.626871053154948,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8069061565798092,
+    "nk_sk": 2.803668895683024,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.13231175239885
+    "russia_ukraine": 7.132790618461889
   },
   "top_drivers": [
     {
       "title": "Iran War Live Updates: Attacks in Gulf Threaten to Reignite Conflict",
-      "published": "Mon, 04 May 2026 22:23:53 +0000",
+      "published": "Mon, 04 May 2026 23:42:42 +0000",
       "actors": [
         "iran",
         "us"
@@ -28,7 +28,7 @@
       "impact": 1.125,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 0.15,
+      "age_hours": 0.22,
       "confidence": 0.959,
       "signal_total": 1.37,
       "signal_components": {
@@ -60,10 +60,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 1.007,
-      "raw_impact": 1.119,
+      "impact": 0.93,
+      "raw_impact": 1.033,
       "source_weight": 0.9,
-      "age_hours": 3.51,
+      "age_hours": 4.89,
       "confidence": 0.959,
       "signal_total": 1.37,
       "signal_components": {
@@ -87,6 +87,40 @@
       ]
     },
     {
+      "title": "US strikes Iranian fast boats as Iran attacks UAE oil facility",
+      "published": "Mon, 04 May 2026 23:42:27 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.888,
+      "raw_impact": 0.888,
+      "source_weight": 1.0,
+      "age_hours": 0.23,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Uncertainty continues over safety in the  Strait of Hormuz",
       "published": "Mon, 04 May 2026 12:00:00 +0000",
       "actors": [
@@ -95,10 +129,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.819,
-      "raw_impact": 0.745,
+      "impact": 0.756,
+      "raw_impact": 0.688,
       "source_weight": 1.1,
-      "age_hours": 10.55,
+      "age_hours": 11.94,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -130,10 +164,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.691,
-      "raw_impact": 0.768,
+      "impact": 0.638,
+      "raw_impact": 0.709,
       "source_weight": 0.9,
-      "age_hours": 2.75,
+      "age_hours": 4.13,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -156,6 +190,41 @@
       ]
     },
     {
+      "title": "US and UAE report Iran attacks as military pushes to reopen Strait of Hormuz",
+      "published": "Mon, 04 May 2026 23:43:01 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.578,
+      "raw_impact": 0.642,
+      "source_weight": 0.9,
+      "age_hours": 0.22,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260504-us-and-uae-report-iran-attacks-as-military-pushes-to-reopen-strait-of-hormuz",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260504-us-and-uae-report-iran-attacks-as-military-pushes-to-reopen-strait-of-hormuz"
+      ]
+    },
+    {
       "title": "Drone Hits a Moscow High-Rise Days Before a Major Military Parade",
       "published": "Mon, 04 May 2026 18:03:03 +0000",
       "actors": [
@@ -164,10 +233,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.625,
-      "raw_impact": 0.694,
+      "impact": 0.577,
+      "raw_impact": 0.641,
       "source_weight": 0.9,
-      "age_hours": 4.5,
+      "age_hours": 5.88,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -198,10 +267,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.578,
-      "raw_impact": 0.642,
+      "impact": 0.534,
+      "raw_impact": 0.593,
       "source_weight": 0.9,
-      "age_hours": 0.2,
+      "age_hours": 1.59,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -233,10 +302,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.534,
-      "raw_impact": 0.534,
+      "impact": 0.493,
+      "raw_impact": 0.493,
       "source_weight": 1.0,
-      "age_hours": 3.4,
+      "age_hours": 4.78,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -268,10 +337,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.528,
-      "raw_impact": 0.622,
+      "impact": 0.488,
+      "raw_impact": 0.574,
       "source_weight": 0.85,
-      "age_hours": 6.41,
+      "age_hours": 7.79,
       "confidence": 0.885,
       "signal_total": 0.9,
       "signal_components": {
@@ -302,10 +371,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.527,
-      "raw_impact": 0.586,
+      "impact": 0.487,
+      "raw_impact": 0.541,
       "source_weight": 0.9,
-      "age_hours": 1.81,
+      "age_hours": 3.19,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -337,10 +406,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.468,
-      "raw_impact": 0.52,
+      "impact": 0.432,
+      "raw_impact": 0.48,
       "source_weight": 0.9,
-      "age_hours": 3.87,
+      "age_hours": 5.25,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -372,10 +441,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.458,
-      "raw_impact": 0.509,
+      "impact": 0.423,
+      "raw_impact": 0.47,
       "source_weight": 0.9,
-      "age_hours": 4.24,
+      "age_hours": 5.62,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -407,10 +476,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.373,
-      "raw_impact": 0.415,
+      "impact": 0.345,
+      "raw_impact": 0.383,
       "source_weight": 0.9,
-      "age_hours": 13.41,
+      "age_hours": 14.79,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -441,10 +510,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.184,
+      "impact": -0.138,
+      "raw_impact": -0.17,
       "source_weight": 0.9,
-      "age_hours": 1.41,
+      "age_hours": 2.79,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -467,6 +536,40 @@
       ]
     },
     {
+      "title": "Opaque nature of US-Iran shadow war: Are they 'dancing their way out of a minefield' toward a deal?",
+      "published": "Mon, 04 May 2026 20:49:56 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.135,
+      "raw_impact": -0.167,
+      "source_weight": 0.9,
+      "age_hours": 3.1,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/spotlight/20260504-opaque-nature-of-us-iran-shadow-war-are-they-dancing-their-way-out-of-a-minefield-toward-a-deal",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/spotlight/20260504-opaque-nature-of-us-iran-shadow-war-are-they-dancing-their-way-out-of-a-minefield-toward-a-deal"
+      ]
+    },
+    {
       "title": "Moscow rehearses V-Day parade marking WWII victory",
       "published": "Mon, 04 May 2026 20:29:04 +0000",
       "actors": [
@@ -475,10 +578,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.144,
-      "raw_impact": -0.177,
+      "impact": -0.132,
+      "raw_impact": -0.164,
       "source_weight": 0.9,
-      "age_hours": 2.07,
+      "age_hours": 3.45,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -501,30 +604,29 @@
       ]
     },
     {
-      "title": "Allies jolted on defence as Trump pulls troops from Germany",
-      "published": "Mon, 04 May 2026 15:28:01 GMT",
+      "title": "Can solar cars become mainstream?",
+      "published": "Mon, 04 May 2026 21:24:09 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "movement",
-      "impact": 0.132,
+      "class": "rhetoric",
+      "impact": 0.039,
       "raw_impact": 0.173,
       "source_weight": 0.9,
-      "age_hours": 7.09,
-      "confidence": 0.53,
-      "signal_total": 0.26,
+      "age_hours": 2.53,
+      "confidence": 0.67,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
-        "movement": 0.5,
+        "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.04,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/video/20260504-allies-jolted-on-defence-as-trump-pulls-troops-from-germany",
+      "link": "https://www.france24.com/en/tv-shows/business/20260504-can-solar-cars-become-mainstream",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -532,7 +634,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/video/20260504-allies-jolted-on-defence-as-trump-pulls-troops-from-germany"
+        "https://www.france24.com/en/tv-shows/business/20260504-can-solar-cars-become-mainstream"
       ]
     },
     {
@@ -544,10 +646,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.124,
+      "impact": 0.026,
+      "raw_impact": 0.115,
       "source_weight": 0.9,
-      "age_hours": 8.26,
+      "age_hours": 9.64,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -578,10 +680,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.05,
+      "impact": 0.01,
+      "raw_impact": 0.046,
       "source_weight": 0.85,
-      "age_hours": 24.14,
+      "age_hours": 25.52,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -615,7 +717,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 313.34,
+      "age_hours": 314.72,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -649,7 +751,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 182.62,
+      "age_hours": 184.0,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -684,7 +786,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 271.54,
+      "age_hours": 272.93,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -718,7 +820,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 273.78,
+      "age_hours": 275.16,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -752,7 +854,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 273.95,
+      "age_hours": 275.33,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -897,16 +999,16 @@
   ],
   "debug": {
     "event_count": 223,
-    "classified_count": 22,
-    "paired_count": 22,
+    "classified_count": 25,
+    "paired_count": 25,
     "valid_pair_updates": 4,
-    "top_driver_count": 22,
-    "total_signal": 8.9751,
+    "top_driver_count": 25,
+    "total_signal": 9.9829,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 121,
-      "no_signal": 62,
-      "invalid_pair": 18,
+      "no_actor": 118,
+      "no_signal": 63,
+      "invalid_pair": 17,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
