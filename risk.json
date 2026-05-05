@@ -1,23 +1,57 @@
 {
-  "last_updated": "2026-05-05 16:25:34 UTC",
-  "probability": 16.62,
-  "uncertainty": 6.12,
+  "last_updated": "2026-05-05 17:59:53 UTC",
+  "probability": 16.87,
+  "uncertainty": 6.15,
   "state": {
-    "us_russia": 3.8421704400477696,
+    "us_russia": 3.913546523612737,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633304388450558,
-    "iran_israel": 6.137393475037388,
+    "iran_us": 5.633317956364359,
+    "iran_israel": 6.238485529959202,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.800082476271971,
+    "nk_sk": 2.8000438155194844,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.133321133177427
+    "russia_ukraine": 7.133326852000508
   },
   "top_drivers": [
     {
-      "title": "\u2018Pageantry and symbolism\u2019 over civilian lives: Putin \u2018doesn\u2019t care' about Russians or Ukrainians",
+      "title": "Iran War Live Updates: U.S. and Iran Both Claim Control Over Strait of Hormuz",
+      "published": "Tue, 05 May 2026 17:57:06 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.808,
+      "raw_impact": 0.898,
+      "source_weight": 0.9,
+      "age_hours": 0.05,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/05/05/world/iran-war-trump-hormuz",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/05/05/world/iran-war-trump-hormuz"
+      ]
+    },
+    {
+      "title": "Putin \u2018doesn\u2019t care' about Russians or Ukrainians: \u2018Pageantry and symbolism\u2019 over civilian lives",
       "published": "Tue, 05 May 2026 16:07:40 GMT",
       "actors": [
         "russia",
@@ -25,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.796,
-      "raw_impact": 0.885,
+      "impact": 0.727,
+      "raw_impact": 0.808,
       "source_weight": 0.9,
-      "age_hours": 0.3,
+      "age_hours": 1.87,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,52 +85,18 @@
       ]
     },
     {
-      "title": "US, Iran, UAE trade Hormuz attack claims: What we know",
-      "published": "Tue, 05 May 2026 13:00:23 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.665,
-      "raw_impact": 0.739,
-      "source_weight": 0.9,
-      "age_hours": 3.42,
-      "confidence": 0.9,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/5/us-iran-uae-trade-hormuz-attack-claims-what-we-know?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/5/us-iran-uae-trade-hormuz-attack-claims-what-we-know?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Russia and Ukraine announce rival ceasefires as deadly strikes continue",
-      "published": "Tue, 05 May 2026 15:08:10 GMT",
+      "title": "Russian attacks kill at least 20 ahead of rival ceasefires proposed by Kyiv and Moscow",
+      "published": "Tue, 05 May 2026 16:55:34 GMT",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.603,
-      "raw_impact": 0.603,
+      "impact": 0.611,
+      "raw_impact": 0.611,
       "source_weight": 1.0,
-      "age_hours": 1.29,
+      "age_hours": 1.07,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -120,18 +120,18 @@
       ]
     },
     {
-      "title": "What\u2019s the significance of UAE\u2019s Fujairah, hit on Monday?",
-      "published": "Tue, 05 May 2026 15:27:36 +0000",
+      "title": "UAE comes under Iranian attacks for second consecutive day",
+      "published": "Tue, 05 May 2026 16:50:48 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.553,
-      "raw_impact": 0.615,
+      "impact": 0.547,
+      "raw_impact": 0.608,
       "source_weight": 0.9,
-      "age_hours": 0.97,
+      "age_hours": 1.15,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -143,7 +143,7 @@
         "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/2026/5/5/whats-the-significance-of-uaes-fujairah-hit-on-monday?traffic_source=rss",
+      "link": "https://www.aljazeera.com/news/2026/5/5/uae-intercepts-missiles-and-drones-for-second-day?traffic_source=rss",
       "source": "https://www.aljazeera.com/xml/rss/all.xml",
       "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
@@ -151,22 +151,57 @@
         "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/5/whats-the-significance-of-uaes-fujairah-hit-on-monday?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/5/5/uae-intercepts-missiles-and-drones-for-second-day?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Ukraine, Russia exchange drone strikes ahead of V-Day \u2018ceasefire\u2019",
+      "published": "Tue, 05 May 2026 16:50:32 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.547,
+      "raw_impact": 0.608,
+      "source_weight": 0.9,
+      "age_hours": 1.16,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/5/ukraine-russia-exchange-drone-strikes-ahead-of-v-day?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/5/5/ukraine-russia-exchange-drone-strikes-ahead-of-v-day?traffic_source=rss"
       ]
     },
     {
       "title": "U.S. mission to reopen Strait of Hormuz will be temporary, Hegseth says",
-      "published": "Tue, 05 May 2026 15:00:00 +0000",
+      "published": "Tue, 05 May 2026 16:29:11 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.539,
-      "raw_impact": 0.599,
+      "impact": 0.536,
+      "raw_impact": 0.596,
       "source_weight": 0.9,
-      "age_hours": 1.43,
+      "age_hours": 1.51,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -190,6 +225,41 @@
       ]
     },
     {
+      "title": "What\u2019s the significance of UAE\u2019s Fujairah, hit on Monday?",
+      "published": "Tue, 05 May 2026 15:27:36 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.505,
+      "raw_impact": 0.561,
+      "source_weight": 0.9,
+      "age_hours": 2.54,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/5/5/whats-the-significance-of-uaes-fujairah-hit-on-monday?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/5/5/whats-the-significance-of-uaes-fujairah-hit-on-monday?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Several killed in Russian strikes on Ukraine ahead of rival ceasefires",
       "published": "Tue, 05 May 2026 14:52:12 GMT",
       "actors": [
@@ -198,10 +268,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.535,
-      "raw_impact": 0.594,
+      "impact": 0.488,
+      "raw_impact": 0.543,
       "source_weight": 0.9,
-      "age_hours": 1.56,
+      "age_hours": 3.13,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -233,10 +303,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.532,
-      "raw_impact": 0.591,
+      "impact": 0.486,
+      "raw_impact": 0.54,
       "source_weight": 0.9,
-      "age_hours": 1.65,
+      "age_hours": 3.22,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -268,10 +338,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.48,
-      "raw_impact": 0.533,
+      "impact": 0.438,
+      "raw_impact": 0.487,
       "source_weight": 0.9,
-      "age_hours": 3.43,
+      "age_hours": 5.0,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -303,10 +373,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.419,
-      "raw_impact": 0.466,
+      "impact": 0.383,
+      "raw_impact": 0.425,
       "source_weight": 0.9,
-      "age_hours": 5.77,
+      "age_hours": 7.34,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -338,10 +408,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.418,
-      "raw_impact": 0.464,
+      "impact": 0.382,
+      "raw_impact": 0.424,
       "source_weight": 0.9,
-      "age_hours": 11.46,
+      "age_hours": 13.03,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -364,19 +434,19 @@
       ]
     },
     {
-      "title": "Zelenskyy calls Putin\u2019s ceasefire appeal \u2018cynical\u2019 as strikes continue",
-      "published": "Tue, 05 May 2026 09:16:27 GMT",
+      "title": "U.S. says the Iran ceasefire holds despite attacks in Strait of Hormuz and against UAE",
+      "published": "Tue, 05 May 2026 06:39:41 -0400",
       "actors": [
-        "russia",
-        "ukraine"
+        "iran",
+        "us"
       ],
-      "state_key": "russia_ukraine",
+      "state_key": "iran_us",
       "class": "action",
-      "impact": 0.387,
-      "raw_impact": 0.43,
-      "source_weight": 0.9,
-      "age_hours": 7.15,
-      "confidence": 0.688,
+      "impact": 0.362,
+      "raw_impact": 0.425,
+      "source_weight": 0.85,
+      "age_hours": 7.34,
+      "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
         "deescalation": -0.2,
@@ -387,15 +457,15 @@
         "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.ft.com/content/c5de8705-9b6d-4532-8909-a765723f832f",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.ft.com"
+        "feeds.npr.org"
       ],
       "cluster_links": [
-        "https://www.ft.com/content/c5de8705-9b6d-4532-8909-a765723f832f"
+        "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates"
       ]
     },
     {
@@ -407,10 +477,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.299,
-      "raw_impact": 0.352,
+      "impact": 0.273,
+      "raw_impact": 0.321,
       "source_weight": 0.85,
-      "age_hours": 10.64,
+      "age_hours": 12.21,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -442,10 +512,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.292,
-      "raw_impact": 0.265,
+      "impact": 0.266,
+      "raw_impact": 0.242,
       "source_weight": 1.1,
-      "age_hours": 28.43,
+      "age_hours": 30.0,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -477,10 +547,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.19,
-      "raw_impact": 0.19,
+      "impact": 0.174,
+      "raw_impact": 0.174,
       "source_weight": 1.0,
-      "age_hours": 21.27,
+      "age_hours": 22.84,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -512,10 +582,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.188,
-      "raw_impact": 0.221,
+      "impact": 0.172,
+      "raw_impact": 0.202,
       "source_weight": 0.85,
-      "age_hours": 24.28,
+      "age_hours": 25.86,
       "confidence": 0.885,
       "signal_total": 0.9,
       "signal_components": {
@@ -538,40 +608,6 @@
       ]
     },
     {
-      "title": "US-Iran ceasefire holds despite Hormuz standoff: Pentagon chief Hegseth",
-      "published": "Tue, 05 May 2026 14:46:45 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.148,
-      "raw_impact": -0.182,
-      "source_weight": 0.9,
-      "age_hours": 1.65,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/5/us-iran-ceasefire-holds-despite-hormuz-standoff-pentagon-chief-hegseth?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/5/us-iran-ceasefire-holds-despite-hormuz-standoff-pentagon-chief-hegseth?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Hegseth 'seeking to reassure people US is still in control' in Middle East",
       "published": "Tue, 05 May 2026 14:50:23 GMT",
       "actors": [
@@ -580,10 +616,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.148,
-      "raw_impact": -0.182,
+      "impact": -0.135,
+      "raw_impact": -0.167,
       "source_weight": 0.9,
-      "age_hours": 1.59,
+      "age_hours": 3.16,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -606,6 +642,40 @@
       ]
     },
     {
+      "title": "US-Iran ceasefire holds despite Hormuz standoff: Pentagon chief Hegseth",
+      "published": "Tue, 05 May 2026 14:46:45 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.134,
+      "raw_impact": -0.166,
+      "source_weight": 0.9,
+      "age_hours": 3.22,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/5/5/us-iran-ceasefire-holds-despite-hormuz-standoff-pentagon-chief-hegseth?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/5/5/us-iran-ceasefire-holds-despite-hormuz-standoff-pentagon-chief-hegseth?traffic_source=rss"
+      ]
+    },
+    {
       "title": "REPLAY: Pentagon chief Hegseth says ceasefire with Iran not over",
       "published": "Tue, 05 May 2026 13:38:44 GMT",
       "actors": [
@@ -614,10 +684,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.138,
-      "raw_impact": -0.17,
+      "impact": -0.126,
+      "raw_impact": -0.156,
       "source_weight": 0.9,
-      "age_hours": 2.78,
+      "age_hours": 4.35,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -648,10 +718,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.133,
-      "raw_impact": 0.148,
+      "impact": 0.121,
+      "raw_impact": 0.135,
       "source_weight": 0.9,
-      "age_hours": 31.28,
+      "age_hours": 32.86,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -674,74 +744,6 @@
       ]
     },
     {
-      "title": "The U.S. attempt to open the Strait of Hormuz tests the fragile Iran war ceasefire",
-      "published": "Tue, 05 May 2026 06:39:41 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.11,
-      "raw_impact": -0.143,
-      "source_weight": 0.85,
-      "age_hours": 5.76,
-      "confidence": 0.745,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates"
-      ]
-    },
-    {
-      "title": "Iran War Live Updates: U.S. and Iran Both Claim Control Over Strait of Hormuz",
-      "published": "Tue, 05 May 2026 16:10:46 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.197,
-      "source_weight": 0.9,
-      "age_hours": 0.25,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/05/05/world/iran-war-trump-hormuz",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/05/05/world/iran-war-trump-hormuz"
-      ]
-    },
-    {
       "title": "Gulf migrant workers face tough choices amid Mideast war",
       "published": "Tue, 05 May 2026 15:44:21 GMT",
       "actors": [
@@ -750,10 +752,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.192,
+      "impact": 0.04,
+      "raw_impact": 0.176,
       "source_weight": 0.9,
-      "age_hours": 0.69,
+      "age_hours": 2.26,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -784,10 +786,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.044,
+      "impact": 0.009,
+      "raw_impact": 0.04,
       "source_weight": 0.9,
-      "age_hours": 26.13,
+      "age_hours": 27.7,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -821,7 +823,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 331.21,
+      "age_hours": 332.78,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -855,7 +857,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 200.49,
+      "age_hours": 202.07,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -890,7 +892,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 289.42,
+      "age_hours": 290.99,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -924,7 +926,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 291.65,
+      "age_hours": 293.23,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -958,7 +960,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 291.82,
+      "age_hours": 293.39,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1112,12 +1114,12 @@
     "paired_count": 28,
     "valid_pair_updates": 4,
     "top_driver_count": 28,
-    "total_signal": 7.7728,
+    "total_signal": 8.7009,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 123,
-      "no_signal": 56,
-      "invalid_pair": 20,
+      "no_actor": 125,
+      "no_signal": 53,
+      "invalid_pair": 21,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
