@@ -1,24 +1,24 @@
 {
-  "last_updated": "2026-05-05 06:02:17 UTC",
-  "probability": 16.35,
-  "uncertainty": 5.89,
+  "last_updated": "2026-05-05 08:32:48 UTC",
+  "probability": 16.27,
+  "uncertainty": 5.95,
   "state": {
-    "us_russia": 3.6431821819863717,
+    "us_russia": 3.610980706029167,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.632969940780541,
-    "iran_israel": 6.631509506212676,
+    "iran_us": 5.633140281039662,
+    "iran_israel": 6.632364425175484,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.801035459816791,
+    "nk_sk": 2.8005500880276704,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.133180164780748
+    "russia_ukraine": 7.133251962539773
   },
   "top_drivers": [
     {
-      "title": "Iran War Live Updates: Attacks in Gulf Threaten to Reignite Conflict",
-      "published": "Tue, 05 May 2026 04:59:17 +0000",
+      "title": "Attacks in Gulf Threaten to Reignite Conflict",
+      "published": "Tue, 05 May 2026 08:09:02 +0000",
       "actors": [
         "iran",
         "us"
@@ -28,7 +28,7 @@
       "impact": 1.125,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 1.05,
+      "age_hours": 0.4,
       "confidence": 0.959,
       "signal_total": 1.37,
       "signal_components": {
@@ -52,6 +52,40 @@
       ]
     },
     {
+      "title": "Iran says US military killed five civilians in attacks on passenger boats",
+      "published": "Tue, 05 May 2026 05:52:08 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.694,
+      "raw_impact": 0.771,
+      "source_weight": 0.9,
+      "age_hours": 2.68,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/5/5/iran-says-us-military-killed-five-civilians-in-attacks-on-passenger-boats?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/5/5/iran-says-us-military-killed-five-civilians-in-attacks-on-passenger-boats?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Drone Hits a Moscow High-Rise Days Before a Major Military Parade",
       "published": "Tue, 05 May 2026 04:58:11 +0000",
       "actors": [
@@ -60,10 +94,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.762,
-      "raw_impact": 0.846,
+      "impact": 0.659,
+      "raw_impact": 0.732,
       "source_weight": 0.9,
-      "age_hours": 1.07,
+      "age_hours": 3.58,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -86,37 +120,38 @@
       ]
     },
     {
-      "title": "Iran war live: Washington, Tehran trade threats over Strait of Hormuz",
-      "published": "Tue, 05 May 2026 00:00:00 +0000",
+      "title": "Attacks in Strait of Hormuz, Gulf region imperil fragile U.S.-Iran ceasefire",
+      "published": "Tue, 05 May 2026 08:27:17 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.571,
-      "raw_impact": 0.635,
+      "impact": 0.582,
+      "raw_impact": 0.647,
       "source_weight": 0.9,
-      "age_hours": 6.04,
-      "confidence": 0.9,
-      "signal_total": 0.9,
+      "age_hours": 0.09,
+      "confidence": 0.688,
+      "signal_total": 0.65,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.9,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/5/5/iran-war-live-washington-tehran-trade-threats-over-strait-of-hormuz?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.washingtonpost.com/world/2026/05/04/us-ships-iran-hormuz-ceasefire/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "feeds.washingtonpost.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/5/5/iran-war-live-washington-tehran-trade-threats-over-strait-of-hormuz?traffic_source=rss"
+        "https://www.washingtonpost.com/world/2026/05/04/us-ships-iran-hormuz-ceasefire/"
       ]
     },
     {
@@ -128,10 +163,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.545,
-      "raw_impact": 0.641,
+      "impact": 0.471,
+      "raw_impact": 0.554,
       "source_weight": 0.85,
-      "age_hours": 0.25,
+      "age_hours": 2.76,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -163,10 +198,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.536,
-      "raw_impact": 0.596,
+      "impact": 0.464,
+      "raw_impact": 0.515,
       "source_weight": 0.9,
-      "age_hours": 1.51,
+      "age_hours": 4.02,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -198,10 +233,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.532,
-      "raw_impact": 0.483,
+      "impact": 0.46,
+      "raw_impact": 0.418,
       "source_weight": 1.1,
-      "age_hours": 18.04,
+      "age_hours": 20.55,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -233,10 +268,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.448,
-      "raw_impact": 0.498,
+      "impact": 0.388,
+      "raw_impact": 0.431,
       "source_weight": 0.9,
-      "age_hours": 10.23,
+      "age_hours": 12.74,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -267,10 +302,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.406,
-      "raw_impact": 0.451,
+      "impact": 0.351,
+      "raw_impact": 0.39,
       "source_weight": 0.9,
-      "age_hours": 6.32,
+      "age_hours": 8.83,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -294,41 +329,6 @@
       ]
     },
     {
-      "title": "Attacks in Strait of Hormuz, Gulf region imperil fragile U.S.-Iran ceasefire",
-      "published": "Mon, 04 May 2026 22:20:58 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.375,
-      "raw_impact": 0.417,
-      "source_weight": 0.9,
-      "age_hours": 7.69,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/05/04/us-ships-iran-hormuz-ceasefire/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/05/04/us-ships-iran-hormuz-ceasefire/"
-      ]
-    },
-    {
       "title": "Ukrainian drone hits upmarket Moscow high-rise ahead of Victory Day celebrations",
       "published": "Mon, 04 May 2026 19:09:14 GMT",
       "actors": [
@@ -337,10 +337,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.347,
-      "raw_impact": 0.347,
+      "impact": 0.3,
+      "raw_impact": 0.3,
       "source_weight": 1.0,
-      "age_hours": 10.88,
+      "age_hours": 13.39,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -372,10 +372,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.343,
-      "raw_impact": 0.403,
+      "impact": 0.297,
+      "raw_impact": 0.349,
       "source_weight": 0.85,
-      "age_hours": 13.9,
+      "age_hours": 16.4,
       "confidence": 0.885,
       "signal_total": 0.9,
       "signal_components": {
@@ -398,41 +398,6 @@
       ]
     },
     {
-      "title": "Russia and Ukraine declare competing ceasefires",
-      "published": "Mon, 04 May 2026 20:44:46 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.342,
-      "raw_impact": 0.38,
-      "source_weight": 0.9,
-      "age_hours": 9.29,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/4/russia-and-ukraine-declare-competing-ceasefires?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/4/russia-and-ukraine-declare-competing-ceasefires?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Putin and Zelensky both unilaterally declare conflicting 2-day truces",
       "published": "Mon, 04 May 2026 18:40:56 GMT",
       "actors": [
@@ -441,10 +406,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.304,
-      "raw_impact": 0.337,
+      "impact": 0.263,
+      "raw_impact": 0.292,
       "source_weight": 0.9,
-      "age_hours": 11.36,
+      "age_hours": 13.86,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -476,10 +441,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.297,
-      "raw_impact": 0.33,
+      "impact": 0.257,
+      "raw_impact": 0.286,
       "source_weight": 0.9,
-      "age_hours": 11.73,
+      "age_hours": 14.24,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -511,10 +476,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.242,
-      "raw_impact": 0.269,
+      "impact": 0.21,
+      "raw_impact": 0.233,
       "source_weight": 0.9,
-      "age_hours": 20.9,
+      "age_hours": 23.4,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -537,74 +502,6 @@
       ]
     },
     {
-      "title": "Middle East war live: Saudi Arabia calls for de-escalation after US-Iran clashes",
-      "published": "Tue, 05 May 2026 01:03:49 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.122,
-      "raw_impact": -0.15,
-      "source_weight": 0.9,
-      "age_hours": 4.97,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260505-middle-east-war-live-saudi-arabia-calls-for-de-escalation-after-us%E2%80%93iran-clashes",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260505-middle-east-war-live-saudi-arabia-calls-for-de-escalation-after-us%E2%80%93iran-clashes"
-      ]
-    },
-    {
-      "title": "Hormuz tensions push ceasefire to the brink as Trump threatens Iran",
-      "published": "Mon, 04 May 2026 21:08:35 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.097,
-      "raw_impact": -0.12,
-      "source_weight": 0.9,
-      "age_hours": 8.9,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/4/hormuz-tensions-push-ceasefire-to-the-brink-as-trump-threatens-iran?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/4/hormuz-tensions-push-ceasefire-to-the-brink-as-trump-threatens-iran?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Opaque nature of US-Iran shadow war: Are they 'dancing their way out of a minefield' toward a deal?",
       "published": "Mon, 04 May 2026 20:49:56 GMT",
       "actors": [
@@ -613,10 +510,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.118,
+      "impact": -0.082,
+      "raw_impact": -0.102,
       "source_weight": 0.9,
-      "age_hours": 9.21,
+      "age_hours": 11.71,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -639,41 +536,41 @@
       ]
     },
     {
-      "title": "Moscow rehearses V-Day parade marking WWII victory",
-      "published": "Mon, 04 May 2026 20:29:04 +0000",
+      "title": "RBA interest rates: Michele Bullock says Australians poorer with \u2018no way out\u2019 as she warns of more rate hikes",
+      "published": "Tue, 05 May 2026 07:44:12 GMT",
       "actors": [
-        "russia",
-        "ukraine"
+        "iran",
+        "us"
       ],
-      "state_key": "russia_ukraine",
-      "class": "deescalation",
-      "impact": -0.094,
-      "raw_impact": -0.115,
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.191,
       "source_weight": 0.9,
-      "age_hours": 9.55,
-      "confidence": 0.75,
-      "signal_total": -0.2,
+      "age_hours": 0.81,
+      "confidence": 0.68,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/4/moscow-rehearses-v-day-parade-marking-wwii-victory?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.theguardian.com/australia-news/2026/may/05/rba-interest-rate-decision-reserve-bank-australia-rates-inflation",
+      "source": "https://www.theguardian.com/world/rss",
+      "source_domain": "www.theguardian.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "www.theguardian.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/5/4/moscow-rehearses-v-day-parade-marking-wwii-victory?traffic_source=rss"
+        "https://www.theguardian.com/australia-news/2026/may/05/rba-interest-rate-decision-reserve-bank-australia-rates-inflation"
       ]
     },
     {
-      "title": "Reeves rowed with Bessent over Iran war criticism",
+      "title": "Reeves clashed with Bessent over Iran war criticism",
       "published": "Tue, 05 May 2026 04:00:34 GMT",
       "actors": [
         "iran",
@@ -681,10 +578,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
+      "impact": 0.035,
+      "raw_impact": 0.154,
       "source_weight": 0.9,
-      "age_hours": 2.03,
+      "age_hours": 4.54,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -707,6 +604,40 @@
       ]
     },
     {
+      "title": "Middle East live: Iran 'not even started' with Hormuz standoff as US tries to force open the strait",
+      "published": "Tue, 05 May 2026 01:03:49 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.029,
+      "raw_impact": 0.13,
+      "source_weight": 0.9,
+      "age_hours": 7.48,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260505-middle-east-war-live-saudi-arabia-calls-for-de-escalation-after-us%E2%80%93iran-clashes",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260505-middle-east-war-live-saudi-arabia-calls-for-de-escalation-after-us%E2%80%93iran-clashes"
+      ]
+    },
+    {
       "title": "Can solar cars become mainstream?",
       "published": "Mon, 04 May 2026 21:24:09 GMT",
       "actors": [
@@ -715,10 +646,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.121,
+      "impact": 0.024,
+      "raw_impact": 0.105,
       "source_weight": 0.9,
-      "age_hours": 8.64,
+      "age_hours": 11.14,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -749,10 +680,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.081,
+      "impact": 0.016,
+      "raw_impact": 0.07,
       "source_weight": 0.9,
-      "age_hours": 15.74,
+      "age_hours": 18.25,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -786,7 +717,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 320.82,
+      "age_hours": 323.33,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -820,7 +751,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 190.11,
+      "age_hours": 192.61,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -855,7 +786,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 279.03,
+      "age_hours": 281.54,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -889,7 +820,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 281.27,
+      "age_hours": 283.77,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -923,7 +854,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 281.43,
+      "age_hours": 283.94,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1061,6 +992,11 @@
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
+    },
+    {
+      "name": "www.theguardian.com",
+      "url": "https://www.theguardian.com/world/rss",
+      "domain": "www.theguardian.com"
     }
   ],
   "driver_sort_default": "chronological",
@@ -1072,17 +1008,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 223,
-    "classified_count": 27,
-    "paired_count": 27,
+    "event_count": 222,
+    "classified_count": 25,
+    "paired_count": 25,
     "valid_pair_updates": 4,
-    "top_driver_count": 27,
-    "total_signal": 8.2021,
+    "top_driver_count": 25,
+    "total_signal": 8.1975,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 116,
+      "no_actor": 118,
       "no_signal": 55,
-      "invalid_pair": 25,
+      "invalid_pair": 24,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
