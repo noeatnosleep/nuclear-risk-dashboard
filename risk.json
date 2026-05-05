@@ -1,34 +1,34 @@
 {
-  "last_updated": "2026-05-05 22:31:13 UTC",
-  "probability": 16.49,
-  "uncertainty": 6.47,
+  "last_updated": "2026-05-05 23:51:18 UTC",
+  "probability": 16.25,
+  "uncertainty": 6.46,
   "state": {
-    "us_russia": 3.8533486015426397,
+    "us_russia": 3.7973589667014624,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633331027820376,
-    "iran_israel": 5.840899024579338,
+    "iran_us": 5.633332108529575,
+    "iran_israel": 5.666802124284266,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.800006569386207,
+    "nk_sk": 2.8000034899864223,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.1333323615685575
+    "russia_ukraine": 7.133332817083296
   },
   "top_drivers": [
     {
       "title": "Deadly Russian Strikes Rip Into Ukrainian Cities",
-      "published": "Tue, 05 May 2026 22:07:19 +0000",
+      "published": "Tue, 05 May 2026 22:27:55 +0000",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.792,
-      "raw_impact": 0.88,
+      "impact": 0.748,
+      "raw_impact": 0.831,
       "source_weight": 0.9,
-      "age_hours": 0.4,
+      "age_hours": 1.39,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.56,
-      "raw_impact": 0.622,
+      "impact": 0.518,
+      "raw_impact": 0.576,
       "source_weight": 0.9,
-      "age_hours": 6.39,
+      "age_hours": 7.73,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.542,
-      "raw_impact": 0.542,
+      "impact": 0.502,
+      "raw_impact": 0.502,
       "source_weight": 1.0,
-      "age_hours": 3.13,
+      "age_hours": 4.47,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -128,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.52,
-      "raw_impact": 0.578,
+      "impact": 0.482,
+      "raw_impact": 0.535,
       "source_weight": 0.9,
-      "age_hours": 2.03,
+      "age_hours": 3.36,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -163,10 +163,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.421,
-      "raw_impact": 0.468,
+      "impact": 0.39,
+      "raw_impact": 0.434,
       "source_weight": 0.9,
-      "age_hours": 5.68,
+      "age_hours": 7.01,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -190,41 +190,6 @@
       ]
     },
     {
-      "title": "Several killed in Russian strikes on Ukraine ahead of rival ceasefires",
-      "published": "Tue, 05 May 2026 14:52:12 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.376,
-      "raw_impact": 0.418,
-      "source_weight": 0.9,
-      "age_hours": 7.65,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260505-several-killed-in-russian-strikes-on-ukraine-ahead-of-rival-ceasefires",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260505-several-killed-in-russian-strikes-on-ukraine-ahead-of-rival-ceasefires"
-      ]
-    },
-    {
       "title": "U.S. and Iran exchange taunts as attacks imperil fragile ceasefire",
       "published": "Tue, 05 May 2026 10:39:25 +0000",
       "actors": [
@@ -233,10 +198,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.295,
-      "raw_impact": 0.328,
+      "impact": 0.273,
+      "raw_impact": 0.303,
       "source_weight": 0.9,
-      "age_hours": 11.86,
+      "age_hours": 13.2,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -260,41 +225,6 @@
       ]
     },
     {
-      "title": "U.S. says the Iran ceasefire holds despite attacks in Strait of Hormuz and against UAE",
-      "published": "Tue, 05 May 2026 06:39:41 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.279,
-      "raw_impact": 0.328,
-      "source_weight": 0.85,
-      "age_hours": 11.86,
-      "confidence": 0.683,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates"
-      ]
-    },
-    {
       "title": "Russia declares a truce in Ukraine to mark Victory Day",
       "published": "Tue, 05 May 2026 01:47:24 -0400",
       "actors": [
@@ -303,10 +233,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.21,
-      "raw_impact": 0.247,
+      "impact": 0.195,
+      "raw_impact": 0.229,
       "source_weight": 0.85,
-      "age_hours": 16.73,
+      "age_hours": 18.07,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -338,10 +268,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.205,
-      "raw_impact": 0.187,
+      "impact": 0.19,
+      "raw_impact": 0.173,
       "source_weight": 1.1,
-      "age_hours": 34.52,
+      "age_hours": 35.86,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -365,19 +295,19 @@
       ]
     },
     {
-      "title": "Offensive stage of Iran war is over, US Secretary of State Rubio says",
-      "published": "Tue, 05 May 2026 22:17:44 GMT",
+      "title": "Rubio says US military has completed offensive operations in Iran",
+      "published": "Tue, 05 May 2026 22:39:05 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.177,
-      "raw_impact": -0.197,
-      "source_weight": 1.0,
-      "age_hours": 0.22,
-      "confidence": 0.76,
+      "impact": -0.151,
+      "raw_impact": -0.187,
+      "source_weight": 0.9,
+      "age_hours": 1.2,
+      "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
@@ -387,15 +317,15 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.bbc.com/news/articles/clypekl71gdo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
+      "link": "https://www.france24.com/en/middle-east/20260505-rubio-says-us-military-has-completed-offensive-operations-in-iran",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.bbci.co.uk"
+        "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.bbc.com/news/articles/clypekl71gdo?at_medium=RSS&at_campaign=rss"
+        "https://www.france24.com/en/middle-east/20260505-rubio-says-us-military-has-completed-offensive-operations-in-iran"
       ]
     },
     {
@@ -407,10 +337,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.134,
-      "raw_impact": 0.134,
+      "impact": 0.124,
+      "raw_impact": 0.124,
       "source_weight": 1.0,
-      "age_hours": 27.37,
+      "age_hours": 28.7,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -442,10 +372,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.094,
-      "raw_impact": 0.104,
+      "impact": 0.087,
+      "raw_impact": 0.096,
       "source_weight": 0.9,
-      "age_hours": 37.38,
+      "age_hours": 38.71,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -468,8 +398,8 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Rubio Tries to Shift War\u2019s Focus From Combat to Strait",
-      "published": "Tue, 05 May 2026 22:05:11 +0000",
+      "title": "Iran War Live Updates: Trump Again Shifts U.S. Focus on Strait, Pausing Day-Old Escort Mission",
+      "published": "Tue, 05 May 2026 23:40:35 +0000",
       "actors": [
         "iran",
         "us"
@@ -477,9 +407,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.044,
-      "raw_impact": 0.195,
+      "raw_impact": 0.198,
       "source_weight": 0.9,
-      "age_hours": 0.43,
+      "age_hours": 0.18,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -510,10 +440,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.146,
+      "impact": 0.037,
+      "raw_impact": 0.135,
       "source_weight": 1.1,
-      "age_hours": 5.42,
+      "age_hours": 6.76,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -544,10 +474,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.17,
+      "impact": 0.035,
+      "raw_impact": 0.158,
       "source_weight": 0.9,
-      "age_hours": 2.77,
+      "age_hours": 4.1,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -578,10 +508,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.18,
+      "impact": 0.035,
+      "raw_impact": 0.167,
       "source_weight": 0.85,
-      "age_hours": 1.78,
+      "age_hours": 3.12,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -612,10 +542,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.161,
+      "impact": 0.034,
+      "raw_impact": 0.149,
       "source_weight": 0.9,
-      "age_hours": 3.72,
+      "age_hours": 5.05,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -646,10 +576,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.159,
+      "impact": 0.031,
+      "raw_impact": 0.147,
       "source_weight": 0.85,
-      "age_hours": 3.97,
+      "age_hours": 5.3,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -680,10 +610,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.135,
+      "impact": 0.028,
+      "raw_impact": 0.125,
       "source_weight": 0.9,
-      "age_hours": 6.78,
+      "age_hours": 8.12,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -706,6 +636,40 @@
       ]
     },
     {
+      "title": "Trump says he's paused U.S. effort to guide stranded vessels out of Strait of Hormuz",
+      "published": "Tue, 05 May 2026 06:39:41 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.02,
+      "raw_impact": 0.093,
+      "source_weight": 0.85,
+      "age_hours": 13.19,
+      "confidence": 0.665,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates"
+      ]
+    },
+    {
       "title": "How the Kremlin Lures Africans Into Russia\u2019s War in Ukraine",
       "published": "Mon, 04 May 2026 14:17:47 +0000",
       "actors": [
@@ -714,10 +678,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.007,
-      "raw_impact": 0.031,
+      "impact": 0.006,
+      "raw_impact": 0.029,
       "source_weight": 0.9,
-      "age_hours": 32.22,
+      "age_hours": 33.56,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -751,7 +715,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 337.31,
+      "age_hours": 338.64,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -785,7 +749,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 206.59,
+      "age_hours": 207.92,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -820,7 +784,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 295.51,
+      "age_hours": 296.85,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -854,7 +818,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 297.75,
+      "age_hours": 299.08,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -888,7 +852,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 297.91,
+      "age_hours": 299.25,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1038,15 +1002,15 @@
   ],
   "debug": {
     "event_count": 228,
-    "classified_count": 26,
-    "paired_count": 26,
+    "classified_count": 25,
+    "paired_count": 25,
     "valid_pair_updates": 4,
-    "top_driver_count": 26,
-    "total_signal": 6.0392,
+    "top_driver_count": 25,
+    "total_signal": 5.0467,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 121,
-      "no_signal": 54,
+      "no_actor": 119,
+      "no_signal": 57,
       "invalid_pair": 27,
       "low_confidence": 0,
       "classifier_error": 0,
