@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-05-05 21:05:48 UTC",
-  "probability": 16.6,
-  "uncertainty": 6.61,
+  "last_updated": "2026-05-05 22:31:13 UTC",
+  "probability": 16.49,
+  "uncertainty": 6.47,
   "state": {
-    "us_russia": 3.853185873544054,
+    "us_russia": 3.8533486015426397,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.6333289935442385,
-    "iran_israel": 6.039865491627618,
+    "iran_us": 5.633331027820376,
+    "iran_israel": 5.840899024579338,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.800012365903448,
+    "nk_sk": 2.800006569386207,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.133331504129049
+    "russia_ukraine": 7.1333323615685575
   },
   "top_drivers": [
+    {
+      "title": "Deadly Russian Strikes Rip Into Ukrainian Cities",
+      "published": "Tue, 05 May 2026 22:07:19 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.792,
+      "raw_impact": 0.88,
+      "source_weight": 0.9,
+      "age_hours": 0.4,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/05/05/world/europe/russia-ukraine-zaporizhzhia-attacks.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/05/05/world/europe/russia-ukraine-zaporizhzhia-attacks.html"
+      ]
+    },
     {
       "title": "Putin \u2018doesn\u2019t care' about Russians or Ukrainians: \u2018Pageantry and symbolism\u2019 over civilian lives",
       "published": "Tue, 05 May 2026 16:07:40 GMT",
@@ -25,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.608,
-      "raw_impact": 0.675,
+      "impact": 0.56,
+      "raw_impact": 0.622,
       "source_weight": 0.9,
-      "age_hours": 4.97,
+      "age_hours": 6.39,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.589,
-      "raw_impact": 0.589,
+      "impact": 0.542,
+      "raw_impact": 0.542,
       "source_weight": 1.0,
-      "age_hours": 1.71,
+      "age_hours": 3.13,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -94,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.565,
-      "raw_impact": 0.628,
+      "impact": 0.52,
+      "raw_impact": 0.578,
       "source_weight": 0.9,
-      "age_hours": 0.6,
+      "age_hours": 2.03,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -129,10 +163,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.458,
-      "raw_impact": 0.508,
+      "impact": 0.421,
+      "raw_impact": 0.468,
       "source_weight": 0.9,
-      "age_hours": 4.25,
+      "age_hours": 5.68,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -156,41 +190,6 @@
       ]
     },
     {
-      "title": "What\u2019s the significance of UAE\u2019s Fujairah, hit on Monday?",
-      "published": "Tue, 05 May 2026 15:27:36 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.422,
-      "raw_impact": 0.469,
-      "source_weight": 0.9,
-      "age_hours": 5.64,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/5/whats-the-significance-of-uaes-fujairah-hit-on-monday?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/5/whats-the-significance-of-uaes-fujairah-hit-on-monday?traffic_source=rss"
-      ]
-    },
-    {
       "title": "Several killed in Russian strikes on Ukraine ahead of rival ceasefires",
       "published": "Tue, 05 May 2026 14:52:12 GMT",
       "actors": [
@@ -199,10 +198,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.408,
-      "raw_impact": 0.454,
+      "impact": 0.376,
+      "raw_impact": 0.418,
       "source_weight": 0.9,
-      "age_hours": 6.23,
+      "age_hours": 7.65,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -226,41 +225,6 @@
       ]
     },
     {
-      "title": "Ukraine's Zelensky slams Russian 'cynicism' ahead of separate truces",
-      "published": "Tue, 05 May 2026 14:46:36 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.406,
-      "raw_impact": 0.451,
-      "source_weight": 0.9,
-      "age_hours": 6.32,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260505-ukraine-s-zelensky-slams-russian-cynicism-ahead-of-separate-truces",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260505-ukraine-s-zelensky-slams-russian-cynicism-ahead-of-separate-truces"
-      ]
-    },
-    {
       "title": "U.S. and Iran exchange taunts as attacks imperil fragile ceasefire",
       "published": "Tue, 05 May 2026 10:39:25 +0000",
       "actors": [
@@ -269,10 +233,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.32,
-      "raw_impact": 0.356,
+      "impact": 0.295,
+      "raw_impact": 0.328,
       "source_weight": 0.9,
-      "age_hours": 10.44,
+      "age_hours": 11.86,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -304,10 +268,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.302,
-      "raw_impact": 0.356,
+      "impact": 0.279,
+      "raw_impact": 0.328,
       "source_weight": 0.85,
-      "age_hours": 10.44,
+      "age_hours": 11.86,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -339,10 +303,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.228,
-      "raw_impact": 0.268,
+      "impact": 0.21,
+      "raw_impact": 0.247,
       "source_weight": 0.85,
-      "age_hours": 15.31,
+      "age_hours": 16.73,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -374,10 +338,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.223,
-      "raw_impact": 0.203,
+      "impact": 0.205,
+      "raw_impact": 0.187,
       "source_weight": 1.1,
-      "age_hours": 33.1,
+      "age_hours": 34.52,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -401,6 +365,40 @@
       ]
     },
     {
+      "title": "Offensive stage of Iran war is over, US Secretary of State Rubio says",
+      "published": "Tue, 05 May 2026 22:17:44 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.177,
+      "raw_impact": -0.197,
+      "source_weight": 1.0,
+      "age_hours": 0.22,
+      "confidence": 0.76,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/clypekl71gdo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/clypekl71gdo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Ukrainian drone hits upmarket Moscow high-rise ahead of Victory Day celebrations",
       "published": "Mon, 04 May 2026 19:09:14 GMT",
       "actors": [
@@ -409,10 +407,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.145,
-      "raw_impact": 0.145,
+      "impact": 0.134,
+      "raw_impact": 0.134,
       "source_weight": 1.0,
-      "age_hours": 25.94,
+      "age_hours": 27.37,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -436,40 +434,6 @@
       ]
     },
     {
-      "title": "Hegseth 'seeking to reassure people US is still in control' in Middle East",
-      "published": "Tue, 05 May 2026 14:50:23 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.113,
-      "raw_impact": -0.139,
-      "source_weight": 0.9,
-      "age_hours": 6.26,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260505-hegseth-seeking-to-reassure-people-us-is-still-in-control-in-middle-east",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260505-hegseth-seeking-to-reassure-people-us-is-still-in-control-in-middle-east"
-      ]
-    },
-    {
       "title": "With World Distracted by Iran War, Israeli Settlers Intensify Attacks in West Bank",
       "published": "Mon, 04 May 2026 09:08:33 +0000",
       "actors": [
@@ -478,10 +442,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.102,
-      "raw_impact": 0.113,
+      "impact": 0.094,
+      "raw_impact": 0.104,
       "source_weight": 0.9,
-      "age_hours": 35.95,
+      "age_hours": 37.38,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -504,18 +468,18 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Rubio Tries to Shift War\u2019s Focus to Strait",
-      "published": "Tue, 05 May 2026 20:59:12 +0000",
+      "title": "Iran War Live Updates: Rubio Tries to Shift War\u2019s Focus From Combat to Strait",
+      "published": "Tue, 05 May 2026 22:05:11 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.199,
+      "impact": 0.044,
+      "raw_impact": 0.195,
       "source_weight": 0.9,
-      "age_hours": 0.11,
+      "age_hours": 0.43,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -546,10 +510,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.159,
+      "impact": 0.04,
+      "raw_impact": 0.146,
       "source_weight": 1.1,
-      "age_hours": 4.0,
+      "age_hours": 5.42,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -580,10 +544,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.185,
+      "impact": 0.038,
+      "raw_impact": 0.17,
       "source_weight": 0.9,
-      "age_hours": 1.34,
+      "age_hours": 2.77,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -614,10 +578,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.196,
+      "impact": 0.038,
+      "raw_impact": 0.18,
       "source_weight": 0.85,
-      "age_hours": 0.36,
+      "age_hours": 1.78,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -648,10 +612,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.175,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 2.29,
+      "age_hours": 3.72,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -682,10 +646,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.173,
+      "impact": 0.034,
+      "raw_impact": 0.159,
       "source_weight": 0.85,
-      "age_hours": 2.54,
+      "age_hours": 3.97,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -716,10 +680,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.147,
+      "impact": 0.03,
+      "raw_impact": 0.135,
       "source_weight": 0.9,
-      "age_hours": 5.36,
+      "age_hours": 6.78,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -751,9 +715,9 @@
       "state_key": "russia_ukraine",
       "class": "rhetoric",
       "impact": 0.007,
-      "raw_impact": 0.034,
+      "raw_impact": 0.031,
       "source_weight": 0.9,
-      "age_hours": 30.8,
+      "age_hours": 32.22,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -787,7 +751,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 335.88,
+      "age_hours": 337.31,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -821,7 +785,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 205.16,
+      "age_hours": 206.59,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -856,7 +820,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 294.09,
+      "age_hours": 295.51,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -890,7 +854,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 296.32,
+      "age_hours": 297.75,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -924,7 +888,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 296.49,
+      "age_hours": 297.91,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1073,17 +1037,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 227,
-    "classified_count": 27,
-    "paired_count": 27,
+    "event_count": 228,
+    "classified_count": 26,
+    "paired_count": 26,
     "valid_pair_updates": 4,
-    "top_driver_count": 27,
-    "total_signal": 6.6577,
+    "top_driver_count": 26,
+    "total_signal": 6.0392,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 123,
-      "no_signal": 51,
-      "invalid_pair": 26,
+      "no_actor": 121,
+      "no_signal": 54,
+      "invalid_pair": 27,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
