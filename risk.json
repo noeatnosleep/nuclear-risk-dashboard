@@ -1,24 +1,24 @@
 {
-  "last_updated": "2026-05-04 23:56:06 UTC",
-  "probability": 16.41,
+  "last_updated": "2026-05-05 03:23:03 UTC",
+  "probability": 16.25,
   "uncertainty": 5.67,
   "state": {
-    "us_russia": 3.667027253731471,
+    "us_russia": 3.607409539905011,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.632045741727589,
-    "iran_israel": 6.626871053154948,
+    "iran_us": 5.6326493002927815,
+    "iran_israel": 6.629900246988567,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.803668895683024,
+    "nk_sk": 2.801949100831606,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.132790618461889
+    "russia_ukraine": 7.133045016057878
   },
   "top_drivers": [
     {
       "title": "Iran War Live Updates: Attacks in Gulf Threaten to Reignite Conflict",
-      "published": "Mon, 04 May 2026 23:42:42 +0000",
+      "published": "Tue, 05 May 2026 02:03:09 +0000",
       "actors": [
         "iran",
         "us"
@@ -28,7 +28,7 @@
       "impact": 1.125,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 0.22,
+      "age_hours": 1.33,
       "confidence": 0.959,
       "signal_total": 1.37,
       "signal_components": {
@@ -52,6 +52,40 @@
       ]
     },
     {
+      "title": "US strikes Iranian fast boats as Iran attacks UAE oil facility",
+      "published": "Tue, 05 May 2026 01:50:39 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.823,
+      "raw_impact": 0.823,
+      "source_weight": 1.0,
+      "age_hours": 1.54,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Iran-US clash over alleged warship attack in Strait of Hormuz",
       "published": "Mon, 04 May 2026 19:02:46 +0000",
       "actors": [
@@ -60,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.93,
-      "raw_impact": 1.033,
+      "impact": 0.762,
+      "raw_impact": 0.846,
       "source_weight": 0.9,
-      "age_hours": 4.89,
+      "age_hours": 8.34,
       "confidence": 0.959,
       "signal_total": 1.37,
       "signal_components": {
@@ -87,18 +121,18 @@
       ]
     },
     {
-      "title": "US strikes Iranian fast boats as Iran attacks UAE oil facility",
-      "published": "Mon, 04 May 2026 23:42:27 GMT",
+      "title": "Iran war live: Washington, Tehran trade threats over Strait of Hormuz",
+      "published": "Tue, 05 May 2026 00:00:00 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.888,
-      "raw_impact": 0.888,
-      "source_weight": 1.0,
-      "age_hours": 0.23,
+      "impact": 0.666,
+      "raw_impact": 0.74,
+      "source_weight": 0.9,
+      "age_hours": 3.38,
       "confidence": 0.9,
       "signal_total": 0.9,
       "signal_components": {
@@ -109,15 +143,15 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/5/5/iran-war-live-washington-tehran-trade-threats-over-strait-of-hormuz?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "feeds.bbci.co.uk"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&at_campaign=rss"
+        "https://www.aljazeera.com/news/liveblog/2026/5/5/iran-war-live-washington-tehran-trade-threats-over-strait-of-hormuz?traffic_source=rss"
       ]
     },
     {
@@ -129,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.756,
-      "raw_impact": 0.688,
+      "impact": 0.62,
+      "raw_impact": 0.563,
       "source_weight": 1.1,
-      "age_hours": 11.94,
+      "age_hours": 15.38,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -164,10 +198,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.638,
-      "raw_impact": 0.709,
+      "impact": 0.523,
+      "raw_impact": 0.581,
       "source_weight": 0.9,
-      "age_hours": 4.13,
+      "age_hours": 7.58,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -198,10 +232,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.578,
-      "raw_impact": 0.642,
+      "impact": 0.473,
+      "raw_impact": 0.526,
       "source_weight": 0.9,
-      "age_hours": 0.22,
+      "age_hours": 3.67,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -233,10 +267,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.577,
-      "raw_impact": 0.641,
+      "impact": 0.472,
+      "raw_impact": 0.525,
       "source_weight": 0.9,
-      "age_hours": 5.88,
+      "age_hours": 9.33,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -267,10 +301,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.534,
-      "raw_impact": 0.593,
+      "impact": 0.437,
+      "raw_impact": 0.486,
       "source_weight": 0.9,
-      "age_hours": 1.59,
+      "age_hours": 5.03,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -302,10 +336,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.493,
-      "raw_impact": 0.493,
+      "impact": 0.404,
+      "raw_impact": 0.404,
       "source_weight": 1.0,
-      "age_hours": 4.78,
+      "age_hours": 8.23,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -337,10 +371,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.488,
-      "raw_impact": 0.574,
+      "impact": 0.4,
+      "raw_impact": 0.47,
       "source_weight": 0.85,
-      "age_hours": 7.79,
+      "age_hours": 11.24,
       "confidence": 0.885,
       "signal_total": 0.9,
       "signal_components": {
@@ -371,10 +405,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.487,
-      "raw_impact": 0.541,
+      "impact": 0.399,
+      "raw_impact": 0.443,
       "source_weight": 0.9,
-      "age_hours": 3.19,
+      "age_hours": 6.64,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -406,10 +440,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.432,
-      "raw_impact": 0.48,
+      "impact": 0.354,
+      "raw_impact": 0.393,
       "source_weight": 0.9,
-      "age_hours": 5.25,
+      "age_hours": 8.7,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -441,10 +475,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.423,
-      "raw_impact": 0.47,
+      "impact": 0.346,
+      "raw_impact": 0.385,
       "source_weight": 0.9,
-      "age_hours": 5.62,
+      "age_hours": 9.07,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -476,10 +510,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.345,
-      "raw_impact": 0.383,
+      "impact": 0.282,
+      "raw_impact": 0.314,
       "source_weight": 0.9,
-      "age_hours": 14.79,
+      "age_hours": 18.24,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -502,6 +536,40 @@
       ]
     },
     {
+      "title": "Middle East war live: Saudi Arabia calls for de-escalation after US\u2013Iran clashes",
+      "published": "Tue, 05 May 2026 01:03:49 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.141,
+      "raw_impact": -0.175,
+      "source_weight": 0.9,
+      "age_hours": 2.32,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260505-middle-east-war-live-saudi-arabia-calls-for-de-escalation-after-us%E2%80%93iran-clashes",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260505-middle-east-war-live-saudi-arabia-calls-for-de-escalation-after-us%E2%80%93iran-clashes"
+      ]
+    },
+    {
       "title": "Hormuz tensions push ceasefire to the brink as Trump threatens Iran",
       "published": "Mon, 04 May 2026 21:08:35 +0000",
       "actors": [
@@ -510,10 +578,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.138,
-      "raw_impact": -0.17,
+      "impact": -0.113,
+      "raw_impact": -0.139,
       "source_weight": 0.9,
-      "age_hours": 2.79,
+      "age_hours": 6.24,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -544,10 +612,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.135,
-      "raw_impact": -0.167,
+      "impact": -0.111,
+      "raw_impact": -0.137,
       "source_weight": 0.9,
-      "age_hours": 3.1,
+      "age_hours": 6.55,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -578,10 +646,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "deescalation",
-      "impact": -0.132,
-      "raw_impact": -0.164,
+      "impact": -0.109,
+      "raw_impact": -0.134,
       "source_weight": 0.9,
-      "age_hours": 3.45,
+      "age_hours": 6.9,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -604,6 +672,40 @@
       ]
     },
     {
+      "title": "US and Iran exchange fire as Hormuz crisis reignites",
+      "published": "Tue, 05 May 2026 01:58:22 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.184,
+      "source_weight": 0.9,
+      "age_hours": 1.41,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/2e483f6e-4ecc-4063-acac-9e2509ccda98",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/2e483f6e-4ecc-4063-acac-9e2509ccda98"
+      ]
+    },
+    {
       "title": "Can solar cars become mainstream?",
       "published": "Mon, 04 May 2026 21:24:09 GMT",
       "actors": [
@@ -612,10 +714,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.173,
+      "impact": 0.032,
+      "raw_impact": 0.142,
       "source_weight": 0.9,
-      "age_hours": 2.53,
+      "age_hours": 5.98,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -646,10 +748,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.115,
+      "impact": 0.021,
+      "raw_impact": 0.094,
       "source_weight": 0.9,
-      "age_hours": 9.64,
+      "age_hours": 13.09,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -680,10 +782,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.01,
-      "raw_impact": 0.046,
+      "impact": 0.008,
+      "raw_impact": 0.038,
       "source_weight": 0.85,
-      "age_hours": 25.52,
+      "age_hours": 28.97,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -717,7 +819,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 314.72,
+      "age_hours": 318.17,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -751,7 +853,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 184.0,
+      "age_hours": 187.45,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -786,7 +888,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 272.93,
+      "age_hours": 276.37,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -820,7 +922,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 275.16,
+      "age_hours": 278.61,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -854,7 +956,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 275.33,
+      "age_hours": 278.78,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -984,6 +1086,11 @@
       "domain": "www.france24.com"
     },
     {
+      "name": "www.ft.com",
+      "url": "https://www.ft.com/world?format=rss",
+      "domain": "www.ft.com"
+    },
+    {
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
@@ -999,16 +1106,16 @@
   ],
   "debug": {
     "event_count": 223,
-    "classified_count": 25,
-    "paired_count": 25,
+    "classified_count": 28,
+    "paired_count": 28,
     "valid_pair_updates": 4,
-    "top_driver_count": 25,
-    "total_signal": 9.9829,
+    "top_driver_count": 28,
+    "total_signal": 9.3477,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 118,
-      "no_signal": 63,
-      "invalid_pair": 17,
+      "no_actor": 113,
+      "no_signal": 62,
+      "invalid_pair": 20,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
