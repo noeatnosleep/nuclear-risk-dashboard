@@ -1,56 +1,21 @@
 {
-  "last_updated": "2026-05-05 10:48:39 UTC",
-  "probability": 16.44,
-  "uncertainty": 5.89,
+  "last_updated": "2026-05-05 12:04:50 UTC",
+  "probability": 16.28,
+  "uncertainty": 5.98,
   "state": {
-    "us_russia": 3.676802615272317,
+    "us_russia": 3.6934926908609462,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633230774302321,
-    "iran_israel": 6.632818600874476,
+    "iran_us": 5.633278848848108,
+    "iran_israel": 6.246410797267812,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8002922342647,
+    "nk_sk": 2.800155249453122,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.133290105099254
+    "russia_ukraine": 7.133310368333979
   },
   "top_drivers": [
-    {
-      "title": "Attacks in Gulf Threaten to Reignite Conflict",
-      "published": "Tue, 05 May 2026 09:06:56 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 1.118,
-      "raw_impact": 1.242,
-      "source_weight": 0.9,
-      "age_hours": 1.7,
-      "confidence": 0.959,
-      "signal_total": 1.37,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.03,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/05/04/world/iran-hormuz-ships-navy",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/05/04/world/iran-hormuz-ships-navy"
-      ]
-    },
     {
       "title": "Russian air attacks kill five at Ukraine\u2019s Naftogaz gas facilities",
       "published": "Tue, 05 May 2026 09:14:14 +0000",
@@ -60,10 +25,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.74,
-      "raw_impact": 0.822,
+      "impact": 0.687,
+      "raw_impact": 0.764,
       "source_weight": 0.9,
-      "age_hours": 1.57,
+      "age_hours": 2.84,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -86,40 +51,6 @@
       ]
     },
     {
-      "title": "Iran says US military killed five civilians in attacks on passenger boats",
-      "published": "Tue, 05 May 2026 05:52:08 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.609,
-      "raw_impact": 0.676,
-      "source_weight": 0.9,
-      "age_hours": 4.94,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/5/iran-says-us-military-killed-five-civilians-in-attacks-on-passenger-boats?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/5/iran-says-us-military-killed-five-civilians-in-attacks-on-passenger-boats?traffic_source=rss"
-      ]
-    },
-    {
       "title": "U.S. and Iran exchange taunts as attacks imperil fragile ceasefire",
       "published": "Tue, 05 May 2026 10:39:25 +0000",
       "actors": [
@@ -128,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.58,
-      "raw_impact": 0.644,
+      "impact": 0.539,
+      "raw_impact": 0.599,
       "source_weight": 0.9,
-      "age_hours": 0.15,
+      "age_hours": 1.42,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -163,10 +94,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.578,
-      "raw_impact": 0.642,
+      "impact": 0.537,
+      "raw_impact": 0.597,
       "source_weight": 0.9,
-      "age_hours": 5.84,
+      "age_hours": 7.11,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -197,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.568,
-      "raw_impact": 0.632,
+      "impact": 0.528,
+      "raw_impact": 0.587,
       "source_weight": 0.9,
-      "age_hours": 0.5,
+      "age_hours": 1.77,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -232,10 +163,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.548,
-      "raw_impact": 0.644,
+      "impact": 0.509,
+      "raw_impact": 0.599,
       "source_weight": 0.85,
-      "age_hours": 0.15,
+      "age_hours": 1.42,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -267,10 +198,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.535,
-      "raw_impact": 0.595,
+      "impact": 0.497,
+      "raw_impact": 0.553,
       "source_weight": 0.9,
-      "age_hours": 1.54,
+      "age_hours": 2.81,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -294,41 +225,6 @@
       ]
     },
     {
-      "title": "Truce under threat as Iran, US trade fire in Strait of Hormuz",
-      "published": "Tue, 05 May 2026 09:00:35 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.527,
-      "raw_impact": 0.586,
-      "source_weight": 0.9,
-      "age_hours": 1.8,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260505-truce-under-threat-as-iran-us-trade-fire-in-strait-of-hormuz",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260505-truce-under-threat-as-iran-us-trade-fire-in-strait-of-hormuz"
-      ]
-    },
-    {
       "title": "Russia declares a truce in Ukraine to mark Victory Day",
       "published": "Tue, 05 May 2026 01:47:24 -0400",
       "actors": [
@@ -337,10 +233,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.413,
-      "raw_impact": 0.486,
+      "impact": 0.384,
+      "raw_impact": 0.452,
       "source_weight": 0.85,
-      "age_hours": 5.02,
+      "age_hours": 6.29,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -372,10 +268,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.404,
-      "raw_impact": 0.367,
+      "impact": 0.375,
+      "raw_impact": 0.341,
       "source_weight": 1.1,
-      "age_hours": 22.81,
+      "age_hours": 24.08,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -399,41 +295,6 @@
       ]
     },
     {
-      "title": "US and UAE report Iran attacks as military pushes to reopen Strait of Hormuz",
-      "published": "Mon, 04 May 2026 23:43:01 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.308,
-      "raw_impact": 0.342,
-      "source_weight": 0.9,
-      "age_hours": 11.09,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260504-us-and-uae-report-iran-attacks-as-military-pushes-to-reopen-strait-of-hormuz",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260504-us-and-uae-report-iran-attacks-as-military-pushes-to-reopen-strait-of-hormuz"
-      ]
-    },
-    {
       "title": "Ukrainian drone hits upmarket Moscow high-rise ahead of Victory Day celebrations",
       "published": "Mon, 04 May 2026 19:09:14 GMT",
       "actors": [
@@ -442,10 +303,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.263,
-      "raw_impact": 0.263,
+      "impact": 0.245,
+      "raw_impact": 0.245,
       "source_weight": 1.0,
-      "age_hours": 15.66,
+      "age_hours": 16.93,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -477,10 +338,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.26,
-      "raw_impact": 0.306,
+      "impact": 0.242,
+      "raw_impact": 0.285,
       "source_weight": 0.85,
-      "age_hours": 18.67,
+      "age_hours": 19.94,
       "confidence": 0.885,
       "signal_total": 0.9,
       "signal_components": {
@@ -511,10 +372,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.184,
-      "raw_impact": 0.204,
+      "impact": 0.171,
+      "raw_impact": 0.19,
       "source_weight": 0.9,
-      "age_hours": 25.67,
+      "age_hours": 26.94,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -545,10 +406,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.146,
-      "raw_impact": -0.18,
+      "impact": -0.136,
+      "raw_impact": -0.168,
       "source_weight": 0.9,
-      "age_hours": 1.78,
+      "age_hours": 3.05,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -571,18 +432,18 @@
       ]
     },
     {
-      "title": "Reeves clashed with Bessent over Iran war criticism",
-      "published": "Tue, 05 May 2026 04:00:34 GMT",
+      "title": "Iran War Live Updates: Iranian Official Warns of Escalation in Strait of Hormuz Standoff",
+      "published": "Tue, 05 May 2026 11:07:36 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.135,
+      "impact": 0.043,
+      "raw_impact": 0.189,
       "source_weight": 0.9,
-      "age_hours": 6.8,
+      "age_hours": 0.95,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -593,49 +454,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.ft.com/content/85f851c6-3cc2-44ee-b527-5a1136f851e7",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
+      "link": "https://www.nytimes.com/live/2026/05/05/world/iran-war-trump-hormuz",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.ft.com"
+        "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.ft.com/content/85f851c6-3cc2-44ee-b527-5a1136f851e7"
-      ]
-    },
-    {
-      "title": "Middle East live: Iran 'not even started' with Hormuz standoff as US tries to force open the strait",
-      "published": "Tue, 05 May 2026 01:03:49 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.114,
-      "source_weight": 0.9,
-      "age_hours": 9.75,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260505-middle-east-war-live-saudi-arabia-calls-for-de-escalation-after-us%E2%80%93iran-clashes",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260505-middle-east-war-live-saudi-arabia-calls-for-de-escalation-after-us%E2%80%93iran-clashes"
+        "https://www.nytimes.com/live/2026/05/05/world/iran-war-trump-hormuz"
       ]
     },
     {
@@ -647,10 +474,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.061,
+      "impact": 0.013,
+      "raw_impact": 0.057,
       "source_weight": 0.9,
-      "age_hours": 20.51,
+      "age_hours": 21.78,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -684,7 +511,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 325.6,
+      "age_hours": 326.87,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -718,7 +545,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 194.88,
+      "age_hours": 196.15,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -753,7 +580,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 283.8,
+      "age_hours": 285.07,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -787,7 +614,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 286.04,
+      "age_hours": 287.31,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -821,7 +648,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 286.21,
+      "age_hours": 287.48,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -970,17 +797,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 225,
-    "classified_count": 24,
-    "paired_count": 24,
+    "event_count": 226,
+    "classified_count": 19,
+    "paired_count": 19,
     "valid_pair_updates": 4,
-    "top_driver_count": 24,
-    "total_signal": 9.0072,
+    "top_driver_count": 19,
+    "total_signal": 5.4676,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 122,
-      "no_signal": 54,
-      "invalid_pair": 25,
+      "no_actor": 120,
+      "no_signal": 65,
+      "invalid_pair": 22,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
