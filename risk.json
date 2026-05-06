@@ -1,57 +1,23 @@
 {
-  "last_updated": "2026-05-06 09:12:27 UTC",
-  "probability": 17.6,
-  "uncertainty": 6.33,
+  "last_updated": "2026-05-06 11:25:34 UTC",
+  "probability": 19.64,
+  "uncertainty": 6.38,
   "state": {
-    "us_russia": 3.5803462872480654,
-    "us_china": 3.7193474938529913,
-    "china_taiwan": 4.1438694987705995,
+    "us_russia": 4.269565199198892,
+    "us_china": 3.7467081839551715,
+    "china_taiwan": 4.149341636791035,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333149695001,
-    "iran_israel": 5.885642784762926,
+    "iran_us": 5.633333235775469,
+    "iran_israel": 5.747233390929797,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8000005232636505,
+    "nk_sk": 2.800000277983814,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.133333255930489
+    "russia_ukraine": 7.133333292213073
   },
   "top_drivers": [
     {
-      "title": "US president Trump restarts Pope feud ahead of Rubio visit to Vatican",
-      "published": "Wed, 06 May 2026 05:23:37 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.9,
-      "raw_impact": 1.25,
-      "source_weight": 0.9,
-      "age_hours": 3.81,
-      "confidence": 0.96,
-      "signal_total": 2.1,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 1.2,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/6/us-president-trump-restarts-pope-feud-ahead-of-rubio-visit-to-vatican?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/5/6/us-president-trump-restarts-pope-feud-ahead-of-rubio-visit-to-vatican?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Oil falls on report of one-page peace memorandum between US and Iran",
+      "title": "Oil tumbles below $100 on hopes for US-Iran peace deal",
       "published": "Wed, 06 May 2026 09:11:46 GMT",
       "actors": [
         "iran",
@@ -59,10 +25,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.863,
-      "raw_impact": 1.199,
+      "impact": 0.759,
+      "raw_impact": 1.055,
       "source_weight": 0.9,
-      "age_hours": 0.01,
+      "age_hours": 2.23,
       "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
@@ -85,18 +51,52 @@
       ]
     },
     {
-      "title": "Ukraine reports Russian drone, missile attacks after Kyiv-declared ceasefire begins",
-      "published": "Wed, 06 May 2026 05:30:46 GMT",
+      "title": "Russia launches deadly attack in Ukraine: At least 28 killed",
+      "published": "Wed, 06 May 2026 09:35:57 GMT",
+      "actors": [
+        "us",
+        "russia"
+      ],
+      "state_key": "us_russia",
+      "class": "action",
+      "impact": 0.729,
+      "raw_impact": 0.81,
+      "source_weight": 0.9,
+      "age_hours": 1.83,
+      "confidence": 0.9,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/russia-launches-deadly-attack-in-ukraine-at-least-28-killed",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/russia-launches-deadly-attack-in-ukraine-at-least-28-killed"
+      ]
+    },
+    {
+      "title": "Kyiv says Russia broke unilateral ceasefire with drone and missile attacks",
+      "published": "Wed, 06 May 2026 10:11:28 GMT",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.473,
-      "raw_impact": 0.525,
+      "impact": 0.545,
+      "raw_impact": 0.605,
       "source_weight": 0.9,
-      "age_hours": 3.69,
+      "age_hours": 1.24,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -108,7 +108,7 @@
         "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/europe/20260506-ukraine-reports-russian-strike-after-kyiv-declared-ceasefire-begins",
+      "link": "https://www.france24.com/en/kyiv-says-russia-broke-unilateral-ceasefire-with-drone-and-missile-attacks",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -116,7 +116,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/europe/20260506-ukraine-reports-russian-strike-after-kyiv-declared-ceasefire-begins"
+        "https://www.france24.com/en/kyiv-says-russia-broke-unilateral-ceasefire-with-drone-and-missile-attacks"
       ]
     },
     {
@@ -128,10 +128,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.472,
-      "raw_impact": 0.555,
+      "impact": 0.415,
+      "raw_impact": 0.488,
       "source_weight": 0.85,
-      "age_hours": 2.74,
+      "age_hours": 4.96,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -163,10 +163,10 @@
       ],
       "state_key": "us_china",
       "class": "movement",
-      "impact": 0.352,
-      "raw_impact": 0.488,
+      "impact": 0.31,
+      "raw_impact": 0.429,
       "source_weight": 0.85,
-      "age_hours": 0.44,
+      "age_hours": 2.66,
       "confidence": 0.735,
       "signal_total": 0.5,
       "signal_components": {
@@ -197,10 +197,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.293,
-      "raw_impact": 0.293,
+      "impact": 0.257,
+      "raw_impact": 0.257,
       "source_weight": 1.0,
-      "age_hours": 13.82,
+      "age_hours": 16.04,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -232,10 +232,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.159,
-      "raw_impact": 0.177,
+      "impact": 0.14,
+      "raw_impact": 0.155,
       "source_weight": 0.9,
-      "age_hours": 22.55,
+      "age_hours": 24.77,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -267,10 +267,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.111,
-      "raw_impact": 0.101,
+      "impact": 0.097,
+      "raw_impact": 0.089,
       "source_weight": 1.1,
-      "age_hours": 45.21,
+      "age_hours": 47.43,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -294,37 +294,37 @@
       ]
     },
     {
-      "title": "Rubio says US military completed offensive operations in Iran",
-      "published": "Tue, 05 May 2026 22:39:05 GMT",
+      "title": "Oil prices drop and stock markets rise after reports of deal to end Iran war",
+      "published": "Wed, 06 May 2026 11:14:45 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.088,
-      "raw_impact": -0.109,
-      "source_weight": 0.9,
-      "age_hours": 10.56,
-      "confidence": 0.75,
-      "signal_total": -0.2,
+      "class": "rhetoric",
+      "impact": 0.05,
+      "raw_impact": 0.198,
+      "source_weight": 1.0,
+      "age_hours": 0.18,
+      "confidence": 0.68,
+      "signal_total": 0.2,
       "signal_components": {
-        "deescalation": -0.2,
+        "deescalation": 0.0,
         "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
-        "rhetoric": 0.0,
+        "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/middle-east/20260505-rubio-says-us-military-has-completed-offensive-operations-in-iran",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.bbc.com/news/articles/c4g8zejyyr3o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "feeds.bbci.co.uk"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260505-rubio-says-us-military-has-completed-offensive-operations-in-iran"
+        "https://www.bbc.com/news/articles/c4g8zejyyr3o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -336,10 +336,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.052,
-      "raw_impact": -0.058,
+      "impact": -0.046,
+      "raw_impact": -0.051,
       "source_weight": 1.0,
-      "age_hours": 21.57,
+      "age_hours": 23.79,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -370,10 +370,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.05,
-      "raw_impact": 0.056,
+      "impact": 0.044,
+      "raw_impact": 0.049,
       "source_weight": 0.9,
-      "age_hours": 48.07,
+      "age_hours": 50.28,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -396,6 +396,74 @@
       ]
     },
     {
+      "title": "How the Kremlin Lures Africans Into Russia\u2019s War in Ukraine",
+      "published": "Wed, 06 May 2026 10:22:24 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "rhetoric",
+      "impact": 0.042,
+      "raw_impact": 0.188,
+      "source_weight": 0.9,
+      "age_hours": 1.05,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/05/04/world/africa/ukraine-russia-war-african-soldiers.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/05/04/world/africa/ukraine-russia-war-african-soldiers.html"
+      ]
+    },
+    {
+      "title": "US petrol prices 50 percent higher than before war on Iran",
+      "published": "Wed, 06 May 2026 08:52:13 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.039,
+      "raw_impact": 0.173,
+      "source_weight": 0.9,
+      "age_hours": 2.56,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/5/6/gasoline-in-the-us-costs-50-more-now-than-before-iran-war?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/5/6/gasoline-in-the-us-costs-50-more-now-than-before-iran-war?traffic_source=rss"
+      ]
+    },
+    {
       "title": "\u2018A stress test\u2019: US-Germany rift widens as Iran war drags on",
       "published": "Wed, 06 May 2026 08:35:21 +0000",
       "actors": [
@@ -404,10 +472,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.193,
+      "impact": 0.038,
+      "raw_impact": 0.17,
       "source_weight": 0.9,
-      "age_hours": 0.62,
+      "age_hours": 2.84,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -438,10 +506,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.19,
+      "impact": 0.037,
+      "raw_impact": 0.167,
       "source_weight": 0.9,
-      "age_hours": 0.91,
+      "age_hours": 3.13,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -472,10 +540,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.183,
+      "impact": 0.036,
+      "raw_impact": 0.161,
       "source_weight": 0.9,
-      "age_hours": 1.58,
+      "age_hours": 3.8,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -506,10 +574,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.18,
+      "impact": 0.036,
+      "raw_impact": 0.159,
       "source_weight": 0.9,
-      "age_hours": 1.78,
+      "age_hours": 3.99,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -532,74 +600,6 @@
       ]
     },
     {
-      "title": "China Meets Iranian Official as U.S. Demands Strait of Hormuz Open",
-      "published": "Wed, 06 May 2026 06:20:21 +0000",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
-      "source_weight": 0.9,
-      "age_hours": 2.87,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/05/06/world/asia/china-iran-us-trump-hormuz.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/05/06/world/asia/china-iran-us-trump-hormuz.html"
-      ]
-    },
-    {
-      "title": "Iran\u2019s top diplomat visits China ahead of Trump-Xi summit",
-      "published": "Wed, 06 May 2026 06:19:46 GMT",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
-      "source_weight": 0.9,
-      "age_hours": 2.88,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/f932425a-5023-426e-ae89-1521dbbfc07a",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/f932425a-5023-426e-ae89-1521dbbfc07a"
-      ]
-    },
-    {
       "title": "'Project Freedom' Aims to Get Thousands of Commercial Ships Safely Through Strait of Hormuz",
       "published": "Tue, 05 May 2026 17:06:00 GMT",
       "actors": [
@@ -608,10 +608,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.079,
+      "impact": 0.019,
+      "raw_impact": 0.069,
       "source_weight": 1.1,
-      "age_hours": 16.11,
+      "age_hours": 18.33,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -642,10 +642,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.097,
+      "impact": 0.018,
+      "raw_impact": 0.086,
       "source_weight": 0.85,
-      "age_hours": 12.47,
+      "age_hours": 14.69,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -676,10 +676,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.086,
+      "impact": 0.016,
+      "raw_impact": 0.075,
       "source_weight": 0.85,
-      "age_hours": 14.65,
+      "age_hours": 16.87,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -710,10 +710,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.054,
+      "impact": 0.01,
+      "raw_impact": 0.048,
       "source_weight": 0.85,
-      "age_hours": 22.55,
+      "age_hours": 24.76,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -736,40 +736,6 @@
       ]
     },
     {
-      "title": "How the Kremlin Lures Africans Into Russia\u2019s War in Ukraine",
-      "published": "Mon, 04 May 2026 14:17:47 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.004,
-      "raw_impact": 0.017,
-      "source_weight": 0.9,
-      "age_hours": 42.91,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/05/04/world/africa/ukraine-russia-war-african-soldiers.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/05/04/world/africa/ukraine-russia-war-african-soldiers.html"
-      ]
-    },
-    {
       "title": "A dangerous blind spot in Donald Trump\u2019s Iran war strategy",
       "published": "Tue, 21 Apr 2026 21:12:55 +0000",
       "actors": [
@@ -781,7 +747,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 347.99,
+      "age_hours": 350.21,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -815,7 +781,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 217.28,
+      "age_hours": 219.49,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -850,7 +816,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 306.2,
+      "age_hours": 308.42,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -884,7 +850,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 308.44,
+      "age_hours": 310.65,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -918,7 +884,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 308.6,
+      "age_hours": 310.82,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1073,16 +1039,16 @@
   ],
   "debug": {
     "event_count": 227,
-    "classified_count": 27,
-    "paired_count": 27,
+    "classified_count": 26,
+    "paired_count": 26,
     "valid_pair_updates": 6,
-    "top_driver_count": 27,
-    "total_signal": 6.2247,
+    "top_driver_count": 26,
+    "total_signal": 5.5361,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 115,
-      "no_signal": 54,
-      "invalid_pair": 31,
+      "no_actor": 113,
+      "no_signal": 58,
+      "invalid_pair": 30,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
