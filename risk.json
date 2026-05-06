@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-05-05 23:51:18 UTC",
-  "probability": 16.25,
-  "uncertainty": 6.46,
+  "last_updated": "2026-05-06 03:24:53 UTC",
+  "probability": 15.89,
+  "uncertainty": 6.32,
   "state": {
-    "us_russia": 3.7973589667014624,
+    "us_russia": 3.689335564445482,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633332108529575,
-    "iran_israel": 5.666802124284266,
+    "iran_us": 5.633332682656337,
+    "iran_israel": 5.535816175949155,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8000034899864223,
+    "nk_sk": 2.800001854055287,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.133332817083296
+    "russia_ukraine": 7.133333059075501
   },
   "top_drivers": [
+    {
+      "title": "Trump and Rubio Insist Iran War Is Over, Even as Missiles Fly During Cease-Fire",
+      "published": "Wed, 06 May 2026 01:21:47 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.719,
+      "raw_impact": 0.799,
+      "source_weight": 0.9,
+      "age_hours": 2.05,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/05/05/us/politics/trump-iran-war-political-crisis-rhetoric.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/05/05/us/politics/trump-iran-war-political-crisis-rhetoric.html"
+      ]
+    },
     {
       "title": "Deadly Russian Strikes Rip Into Ukrainian Cities",
       "published": "Tue, 05 May 2026 22:27:55 +0000",
@@ -25,10 +59,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.748,
-      "raw_impact": 0.831,
+      "impact": 0.609,
+      "raw_impact": 0.676,
       "source_weight": 0.9,
-      "age_hours": 1.39,
+      "age_hours": 4.95,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.518,
-      "raw_impact": 0.576,
+      "impact": 0.422,
+      "raw_impact": 0.469,
       "source_weight": 0.9,
-      "age_hours": 7.73,
+      "age_hours": 11.29,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.502,
-      "raw_impact": 0.502,
+      "impact": 0.409,
+      "raw_impact": 0.409,
       "source_weight": 1.0,
-      "age_hours": 4.47,
+      "age_hours": 8.03,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -120,76 +154,6 @@
       ]
     },
     {
-      "title": "U.S. mission to reopen Strait of Hormuz will be temporary, Hegseth says",
-      "published": "Tue, 05 May 2026 20:29:38 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.482,
-      "raw_impact": 0.535,
-      "source_weight": 0.9,
-      "age_hours": 3.36,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/05/05/hegseth-briefing-iran-strait-hormuz-ceasefire/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/05/05/hegseth-briefing-iran-strait-hormuz-ceasefire/"
-      ]
-    },
-    {
-      "title": "Ukraine, Russia exchange drone strikes ahead of V-Day \u2018ceasefire\u2019",
-      "published": "Tue, 05 May 2026 16:50:32 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.39,
-      "raw_impact": 0.434,
-      "source_weight": 0.9,
-      "age_hours": 7.01,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/5/ukraine-russia-exchange-drone-strikes-ahead-of-v-day?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/5/5/ukraine-russia-exchange-drone-strikes-ahead-of-v-day?traffic_source=rss"
-      ]
-    },
-    {
       "title": "U.S. and Iran exchange taunts as attacks imperil fragile ceasefire",
       "published": "Tue, 05 May 2026 10:39:25 +0000",
       "actors": [
@@ -198,10 +162,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.273,
-      "raw_impact": 0.303,
+      "impact": 0.222,
+      "raw_impact": 0.247,
       "source_weight": 0.9,
-      "age_hours": 13.2,
+      "age_hours": 16.76,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -233,10 +197,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.195,
-      "raw_impact": 0.229,
+      "impact": 0.158,
+      "raw_impact": 0.186,
       "source_weight": 0.85,
-      "age_hours": 18.07,
+      "age_hours": 21.62,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -268,10 +232,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.19,
-      "raw_impact": 0.173,
+      "impact": 0.155,
+      "raw_impact": 0.141,
       "source_weight": 1.1,
-      "age_hours": 35.86,
+      "age_hours": 39.41,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -295,6 +259,74 @@
       ]
     },
     {
+      "title": "Middle East war live: Trump pauses US Strait of Hormuz escort operation",
+      "published": "Wed, 06 May 2026 00:06:37 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.134,
+      "raw_impact": -0.165,
+      "source_weight": 0.9,
+      "age_hours": 3.3,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation"
+      ]
+    },
+    {
+      "title": "Iran war live: Trump says Hormuz operation paused amid US, Tehran talks",
+      "published": "Wed, 06 May 2026 00:00:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.133,
+      "raw_impact": -0.164,
+      "source_weight": 0.9,
+      "age_hours": 3.41,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/liveblog/2026/5/6/iran-war-live-trump-says-hormuz-operation-paused-amid-us-tehran-talks?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/liveblog/2026/5/6/iran-war-live-trump-says-hormuz-operation-paused-amid-us-tehran-talks?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Rubio says US military has completed offensive operations in Iran",
       "published": "Tue, 05 May 2026 22:39:05 GMT",
       "actors": [
@@ -303,10 +335,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.151,
-      "raw_impact": -0.187,
+      "impact": -0.123,
+      "raw_impact": -0.152,
       "source_weight": 0.9,
-      "age_hours": 1.2,
+      "age_hours": 4.76,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -337,10 +369,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.124,
-      "raw_impact": 0.124,
+      "impact": 0.101,
+      "raw_impact": 0.101,
       "source_weight": 1.0,
-      "age_hours": 28.7,
+      "age_hours": 32.26,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -372,10 +404,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.087,
-      "raw_impact": 0.096,
+      "impact": 0.07,
+      "raw_impact": 0.078,
       "source_weight": 0.9,
-      "age_hours": 38.71,
+      "age_hours": 42.27,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -399,17 +431,17 @@
     },
     {
       "title": "Iran War Live Updates: Trump Again Shifts U.S. Focus on Strait, Pausing Day-Old Escort Mission",
-      "published": "Tue, 05 May 2026 23:40:35 +0000",
+      "published": "Wed, 06 May 2026 03:19:38 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.198,
+      "impact": 0.045,
+      "raw_impact": 0.199,
       "source_weight": 0.9,
-      "age_hours": 0.18,
+      "age_hours": 0.09,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -432,6 +464,40 @@
       ]
     },
     {
+      "title": "US pauses \u2018Project Freedom\u2019 as Trump seeks way out of Hormuz impasse",
+      "published": "Wed, 06 May 2026 01:54:47 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.183,
+      "source_weight": 0.9,
+      "age_hours": 1.5,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66"
+      ]
+    },
+    {
       "title": "'Project Freedom' Aims to Get Thousands of Commercial Ships Safely Through Strait of Hormuz",
       "published": "Tue, 05 May 2026 17:06:00 GMT",
       "actors": [
@@ -440,10 +506,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.135,
+      "impact": 0.03,
+      "raw_impact": 0.11,
       "source_weight": 1.1,
-      "age_hours": 6.76,
+      "age_hours": 10.31,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -474,10 +540,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.158,
+      "impact": 0.029,
+      "raw_impact": 0.128,
       "source_weight": 0.9,
-      "age_hours": 4.1,
+      "age_hours": 7.66,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -508,10 +574,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.167,
+      "impact": 0.029,
+      "raw_impact": 0.136,
       "source_weight": 0.85,
-      "age_hours": 3.12,
+      "age_hours": 6.68,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -542,10 +608,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.149,
+      "impact": 0.027,
+      "raw_impact": 0.122,
       "source_weight": 0.9,
-      "age_hours": 5.05,
+      "age_hours": 8.61,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -576,10 +642,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.031,
-      "raw_impact": 0.147,
+      "impact": 0.025,
+      "raw_impact": 0.12,
       "source_weight": 0.85,
-      "age_hours": 5.3,
+      "age_hours": 8.86,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -610,10 +676,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.028,
-      "raw_impact": 0.125,
+      "impact": 0.023,
+      "raw_impact": 0.102,
       "source_weight": 0.9,
-      "age_hours": 8.12,
+      "age_hours": 11.68,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -644,10 +710,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.02,
-      "raw_impact": 0.093,
+      "impact": 0.016,
+      "raw_impact": 0.076,
       "source_weight": 0.85,
-      "age_hours": 13.19,
+      "age_hours": 16.75,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -678,10 +744,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.006,
-      "raw_impact": 0.029,
+      "impact": 0.005,
+      "raw_impact": 0.023,
       "source_weight": 0.9,
-      "age_hours": 33.56,
+      "age_hours": 37.12,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -715,7 +781,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 338.64,
+      "age_hours": 342.2,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -749,7 +815,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 207.92,
+      "age_hours": 211.48,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -784,7 +850,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 296.85,
+      "age_hours": 300.41,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -818,7 +884,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 299.08,
+      "age_hours": 302.64,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -852,7 +918,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 299.25,
+      "age_hours": 302.81,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -987,6 +1053,11 @@
       "domain": "www.france24.com"
     },
     {
+      "name": "www.ft.com",
+      "url": "https://www.ft.com/world?format=rss",
+      "domain": "www.ft.com"
+    },
+    {
       "name": "www.iss.europa.eu",
       "url": "https://www.iss.europa.eu/rss.xml",
       "domain": "www.iss.europa.eu"
@@ -1002,16 +1073,16 @@
   ],
   "debug": {
     "event_count": 228,
-    "classified_count": 25,
-    "paired_count": 25,
+    "classified_count": 27,
+    "paired_count": 27,
     "valid_pair_updates": 4,
-    "top_driver_count": 25,
-    "total_signal": 5.0467,
+    "top_driver_count": 27,
+    "total_signal": 4.0351,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 119,
+      "no_actor": 115,
       "no_signal": 57,
-      "invalid_pair": 27,
+      "invalid_pair": 29,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
