@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-06 06:17:38 UTC",
-  "probability": 16.0,
-  "uncertainty": 6.06,
+  "last_updated": "2026-05-06 09:12:27 UTC",
+  "probability": 17.6,
+  "uncertainty": 6.33,
   "state": {
-    "us_russia": 3.6803115142986043,
-    "us_china": 3.0000000000000004,
-    "china_taiwan": 4.000000000000001,
+    "us_russia": 3.5803462872480654,
+    "us_china": 3.7193474938529913,
+    "china_taiwan": 4.1438694987705995,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633332987661179,
-    "iran_israel": 5.779091565212147,
+    "iran_us": 5.633333149695001,
+    "iran_israel": 5.885642784762926,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.800000984966871,
+    "nk_sk": 2.8000005232636505,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.13333318763386
+    "russia_ukraine": 7.133333255930489
   },
   "top_drivers": [
     {
@@ -28,7 +28,7 @@
       "impact": 0.9,
       "raw_impact": 1.25,
       "source_weight": 0.9,
-      "age_hours": 0.9,
+      "age_hours": 3.81,
       "confidence": 0.96,
       "signal_total": 2.1,
       "signal_components": {
@@ -51,19 +51,19 @@
       ]
     },
     {
-      "title": "Trump renews feud with Pope Leo XIV days ahead of planned Marco Rubio visit to the Vatican",
-      "published": "Wed, 06 May 2026 05:41:58 +0200",
+      "title": "Oil falls on report of one-page peace memorandum between US and Iran",
+      "published": "Wed, 06 May 2026 09:11:46 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.702,
-      "raw_impact": 1.033,
-      "source_weight": 0.85,
-      "age_hours": 2.59,
-      "confidence": 0.945,
+      "impact": 0.863,
+      "raw_impact": 1.199,
+      "source_weight": 0.9,
+      "age_hours": 0.01,
+      "confidence": 0.95,
       "signal_total": 1.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -73,53 +73,19 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "http://www.euronews.com/2026/05/06/trump-renews-feud-with-pope-leo-xiv-days-ahead-of-planned-marco-rubio-visit-to-the-vatican",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
+      "link": "https://www.ft.com/content/8dd8d23a-2c5d-42c5-aedb-bbc1f49fcbea",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.euronews.com"
+        "www.ft.com"
       ],
       "cluster_links": [
-        "http://www.euronews.com/2026/05/06/trump-renews-feud-with-pope-leo-xiv-days-ahead-of-planned-marco-rubio-visit-to-the-vatican"
+        "https://www.ft.com/content/8dd8d23a-2c5d-42c5-aedb-bbc1f49fcbea"
       ]
     },
     {
-      "title": "Trump and Rubio Insist Iran War Is Over, Even as Missiles Fly During Cease-Fire",
-      "published": "Wed, 06 May 2026 01:21:47 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.609,
-      "raw_impact": 0.677,
-      "source_weight": 0.9,
-      "age_hours": 4.93,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/05/05/us/politics/trump-iran-war-political-crisis-rhetoric.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/05/05/us/politics/trump-iran-war-political-crisis-rhetoric.html"
-      ]
-    },
-    {
-      "title": "Ukraine reports Russian strike after Kyiv-declared ceasefire begins",
+      "title": "Ukraine reports Russian drone, missile attacks after Kyiv-declared ceasefire begins",
       "published": "Wed, 06 May 2026 05:30:46 GMT",
       "actors": [
         "russia",
@@ -127,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.559,
-      "raw_impact": 0.621,
+      "impact": 0.473,
+      "raw_impact": 0.525,
       "source_weight": 0.9,
-      "age_hours": 0.78,
+      "age_hours": 3.69,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -154,71 +120,72 @@
       ]
     },
     {
-      "title": "Deadly Russian Strikes Rip Into Ukrainian Cities",
-      "published": "Tue, 05 May 2026 22:27:55 +0000",
+      "title": "Zelenskyy slams Russia as strikes kill 22 in Ukraine before announced ceasefire",
+      "published": "Wed, 06 May 2026 02:27:48 -0400",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.515,
-      "raw_impact": 0.573,
-      "source_weight": 0.9,
-      "age_hours": 7.83,
-      "confidence": 0.89,
-      "signal_total": 0.9,
+      "impact": 0.472,
+      "raw_impact": 0.555,
+      "source_weight": 0.85,
+      "age_hours": 2.74,
+      "confidence": 0.683,
+      "signal_total": 0.65,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.9,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/2026/05/05/world/europe/russia-ukraine-zaporizhzhia-attacks.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.npr.org/2026/05/06/g-s1-120377/zelenskyy-slams-russia-as-strikes-kill-22-in-ukraine",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "feeds.npr.org"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/05/05/world/europe/russia-ukraine-zaporizhzhia-attacks.html"
+        "https://www.npr.org/2026/05/06/g-s1-120377/zelenskyy-slams-russia-as-strikes-kill-22-in-ukraine"
       ]
     },
     {
-      "title": "Putin \u2018doesn\u2019t care' about Russians or Ukrainians: \u2018Pageantry and symbolism\u2019 over civilian lives",
-      "published": "Tue, 05 May 2026 16:07:40 GMT",
+      "title": "U.S. stages largest-ever annual military drills in the Philippines",
+      "published": "Wed, 06 May 2026 04:46:13 -0400",
       "actors": [
-        "russia",
-        "ukraine"
+        "us",
+        "china"
       ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.357,
-      "raw_impact": 0.397,
-      "source_weight": 0.9,
-      "age_hours": 14.17,
-      "confidence": 0.81,
-      "signal_total": 0.9,
+      "state_key": "us_china",
+      "class": "movement",
+      "impact": 0.352,
+      "raw_impact": 0.488,
+      "source_weight": 0.85,
+      "age_hours": 0.44,
+      "confidence": 0.735,
+      "signal_total": 0.5,
       "signal_components": {
         "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
+        "action": 0.0,
+        "movement": 0.5,
         "strategic": 0.0,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/pageantry-and-symbolism-over-civilian-lives-putin-doesn-t-care-about-russians-or-ukrainians",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
+      "link": "https://www.npr.org/2026/05/06/nx-s1-5810616/u-s-stages-largest-ever-annual-military-drills-in-the-philippines",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.france24.com"
+        "feeds.npr.org"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/pageantry-and-symbolism-over-civilian-lives-putin-doesn-t-care-about-russians-or-ukrainians"
+        "https://www.npr.org/2026/05/06/nx-s1-5810616/u-s-stages-largest-ever-annual-military-drills-in-the-philippines"
       ]
     },
     {
@@ -230,10 +197,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.346,
-      "raw_impact": 0.346,
+      "impact": 0.293,
+      "raw_impact": 0.293,
       "source_weight": 1.0,
-      "age_hours": 10.91,
+      "age_hours": 13.82,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -257,41 +224,6 @@
       ]
     },
     {
-      "title": "At least 26 killed in Russian strikes across Ukraine as Zelenskyy denounces Moscow's 'cynicism'",
-      "published": "Tue, 05 May 2026 20:06:37 +0200",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.273,
-      "raw_impact": 0.322,
-      "source_weight": 0.85,
-      "age_hours": 12.18,
-      "confidence": 0.683,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "http://www.euronews.com/2026/05/05/at-least-18-killed-in-russian-strikes-across-ukraine-as-zelenskyy-denounces-moscows-cynici",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.euronews.com"
-      ],
-      "cluster_links": [
-        "http://www.euronews.com/2026/05/05/at-least-18-killed-in-russian-strikes-across-ukraine-as-zelenskyy-denounces-moscows-cynici"
-      ]
-    },
-    {
       "title": "U.S. and Iran exchange taunts as attacks imperil fragile ceasefire",
       "published": "Tue, 05 May 2026 10:39:25 +0000",
       "actors": [
@@ -300,10 +232,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.188,
-      "raw_impact": 0.209,
+      "impact": 0.159,
+      "raw_impact": 0.177,
       "source_weight": 0.9,
-      "age_hours": 19.64,
+      "age_hours": 22.55,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -327,41 +259,6 @@
       ]
     },
     {
-      "title": "Russia declares a truce in Ukraine to mark Victory Day",
-      "published": "Tue, 05 May 2026 01:47:24 -0400",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.134,
-      "raw_impact": 0.158,
-      "source_weight": 0.85,
-      "age_hours": 24.5,
-      "confidence": 0.683,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/05/05/g-s1-120129/russia-declares-a-truce-in-ukraine-to-mark-victory-day",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/05/05/g-s1-120129/russia-declares-a-truce-in-ukraine-to-mark-victory-day"
-      ]
-    },
-    {
       "title": "Uncertainty continues over safety in the  Strait of Hormuz",
       "published": "Mon, 04 May 2026 12:00:00 +0000",
       "actors": [
@@ -370,10 +267,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.131,
-      "raw_impact": 0.119,
+      "impact": 0.111,
+      "raw_impact": 0.101,
       "source_weight": 1.1,
-      "age_hours": 42.29,
+      "age_hours": 45.21,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -397,74 +294,6 @@
       ]
     },
     {
-      "title": "Iran war live: Trump says Hormuz operation paused amid US, Tehran talks",
-      "published": "Wed, 06 May 2026 00:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.113,
-      "raw_impact": -0.139,
-      "source_weight": 0.9,
-      "age_hours": 6.29,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/liveblog/2026/5/6/iran-war-live-trump-says-hormuz-operation-paused-amid-us-tehran-talks?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/liveblog/2026/5/6/iran-war-live-trump-says-hormuz-operation-paused-amid-us-tehran-talks?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Middle East war live: Trump pauses US Strait of Hormuz escort operation",
-      "published": "Wed, 06 May 2026 00:06:37 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.113,
-      "raw_impact": -0.14,
-      "source_weight": 0.9,
-      "age_hours": 6.18,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation"
-      ]
-    },
-    {
       "title": "Rubio says US military completed offensive operations in Iran",
       "published": "Tue, 05 May 2026 22:39:05 GMT",
       "actors": [
@@ -473,10 +302,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.104,
-      "raw_impact": -0.129,
+      "impact": -0.088,
+      "raw_impact": -0.109,
       "source_weight": 0.9,
-      "age_hours": 7.64,
+      "age_hours": 10.56,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -507,10 +336,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.061,
-      "raw_impact": -0.068,
+      "impact": -0.052,
+      "raw_impact": -0.058,
       "source_weight": 1.0,
-      "age_hours": 18.66,
+      "age_hours": 21.57,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -541,10 +370,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.06,
-      "raw_impact": 0.066,
+      "impact": 0.05,
+      "raw_impact": 0.056,
       "source_weight": 0.9,
-      "age_hours": 45.15,
+      "age_hours": 48.07,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -567,8 +396,8 @@
       ]
     },
     {
-      "title": "Trump pauses US plan to guide ships through Strait of Hormuz",
-      "published": "Wed, 06 May 2026 05:44:02 GMT",
+      "title": "\u2018A stress test\u2019: US-Germany rift widens as Iran war drags on",
+      "published": "Wed, 06 May 2026 08:35:21 +0000",
       "actors": [
         "iran",
         "us"
@@ -576,9 +405,43 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.043,
-      "raw_impact": 0.194,
+      "raw_impact": 0.193,
       "source_weight": 0.9,
-      "age_hours": 0.56,
+      "age_hours": 0.62,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/5/6/a-stress-test-us-germany-rift-widens-as-iran-war-drags-on?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/5/6/a-stress-test-us-germany-rift-widens-as-iran-war-drags-on?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Trump pauses US plan to guide ships through Strait of Hormuz",
+      "published": "Wed, 06 May 2026 08:17:58 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.19,
+      "source_weight": 0.9,
+      "age_hours": 0.91,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -601,19 +464,19 @@
       ]
     },
     {
-      "title": "Resilience amid ruins: Why markets are hitting record highs despite the Iran war",
-      "published": "Wed, 06 May 2026 07:00:16 +0200",
+      "title": "US must not insult IRGC during the World Cup: Iran\u2019s football chief",
+      "published": "Wed, 06 May 2026 07:37:22 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.186,
-      "source_weight": 0.85,
-      "age_hours": 1.29,
-      "confidence": 0.675,
+      "impact": 0.041,
+      "raw_impact": 0.183,
+      "source_weight": 0.9,
+      "age_hours": 1.58,
+      "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -623,15 +486,117 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "http://www.euronews.com/business/2026/05/06/resilience-amid-ruins-why-markets-are-hitting-record-highs-despite-iran-war-effects",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
+      "link": "https://www.aljazeera.com/sports/2026/5/6/us-must-not-insult-irgc-during-the-world-cup-irans-football-chief?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.euronews.com"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "http://www.euronews.com/business/2026/05/06/resilience-amid-ruins-why-markets-are-hitting-record-highs-despite-iran-war-effects"
+        "https://www.aljazeera.com/sports/2026/5/6/us-must-not-insult-irgc-during-the-world-cup-irans-football-chief?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Iran war day 68: Trump talks about progress in talks; Rubio says war \u2018over\u2019",
+      "published": "Wed, 06 May 2026 07:25:53 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.18,
+      "source_weight": 0.9,
+      "age_hours": 1.78,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/5/6/iran-war-day-68-trump-talks-about-progress-in-talks-rubio-says-war-over?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/5/6/iran-war-day-68-trump-talks-about-progress-in-talks-rubio-says-war-over?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "China Meets Iranian Official as U.S. Demands Strait of Hormuz Open",
+      "published": "Wed, 06 May 2026 06:20:21 +0000",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.038,
+      "raw_impact": 0.169,
+      "source_weight": 0.9,
+      "age_hours": 2.87,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/05/06/world/asia/china-iran-us-trump-hormuz.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/05/06/world/asia/china-iran-us-trump-hormuz.html"
+      ]
+    },
+    {
+      "title": "Iran\u2019s top diplomat visits China ahead of Trump-Xi summit",
+      "published": "Wed, 06 May 2026 06:19:46 GMT",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.038,
+      "raw_impact": 0.169,
+      "source_weight": 0.9,
+      "age_hours": 2.88,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/f932425a-5023-426e-ae89-1521dbbfc07a",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/f932425a-5023-426e-ae89-1521dbbfc07a"
       ]
     },
     {
@@ -643,10 +608,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.093,
+      "impact": 0.022,
+      "raw_impact": 0.079,
       "source_weight": 1.1,
-      "age_hours": 13.19,
+      "age_hours": 16.11,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -669,40 +634,6 @@
       ]
     },
     {
-      "title": "Miscalculation over Strait of Hormuz could \u2018bring an all-out war\u2019",
-      "published": "Tue, 05 May 2026 19:45:10 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.109,
-      "source_weight": 0.9,
-      "age_hours": 10.54,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/quotable/2026/5/5/miscalculation-over-strait-of-hormuz-could-bring-an-all-out?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/quotable/2026/5/5/miscalculation-over-strait-of-hormuz-could-bring-an-all-out?traffic_source=rss"
-      ]
-    },
-    {
       "title": "U.S. says it's made Hormuz safe for commercial shipping, but standoff hasn't changed",
       "published": "Tue, 05 May 2026 16:44:09 -0400",
       "actors": [
@@ -711,10 +642,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.115,
+      "impact": 0.021,
+      "raw_impact": 0.097,
       "source_weight": 0.85,
-      "age_hours": 9.56,
+      "age_hours": 12.47,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -745,10 +676,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.102,
+      "impact": 0.018,
+      "raw_impact": 0.086,
       "source_weight": 0.85,
-      "age_hours": 11.74,
+      "age_hours": 14.65,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -771,40 +702,6 @@
       ]
     },
     {
-      "title": "Gulf migrant workers face tough choices amid Mideast war",
-      "published": "Tue, 05 May 2026 15:44:21 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.019,
-      "raw_impact": 0.086,
-      "source_weight": 0.9,
-      "age_hours": 14.55,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260505-gulf-migrant-workers-face-tough-choices-amid-mideast-war",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260505-gulf-migrant-workers-face-tough-choices-amid-mideast-war"
-      ]
-    },
-    {
       "title": "Trump says he's paused U.S. effort to guide stranded vessels out of Strait of Hormuz",
       "published": "Tue, 05 May 2026 06:39:41 -0400",
       "actors": [
@@ -813,10 +710,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.014,
-      "raw_impact": 0.064,
+      "impact": 0.011,
+      "raw_impact": 0.054,
       "source_weight": 0.85,
-      "age_hours": 19.63,
+      "age_hours": 22.55,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -848,9 +745,9 @@
       "state_key": "russia_ukraine",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.02,
+      "raw_impact": 0.017,
       "source_weight": 0.9,
-      "age_hours": 40.0,
+      "age_hours": 42.91,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -884,7 +781,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 345.08,
+      "age_hours": 347.99,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -918,7 +815,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 214.36,
+      "age_hours": 217.28,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -953,7 +850,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 303.28,
+      "age_hours": 306.2,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -987,7 +884,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 305.52,
+      "age_hours": 308.44,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -1021,7 +918,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 305.69,
+      "age_hours": 308.6,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1064,11 +961,6 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
-    },
-    {
-      "name": "euronews_world",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1156,11 +1048,6 @@
       "domain": "www.economist.com"
     },
     {
-      "name": "www.euronews.com",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
-    },
-    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -1185,17 +1072,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 248,
-    "classified_count": 30,
-    "paired_count": 30,
-    "valid_pair_updates": 4,
-    "top_driver_count": 30,
-    "total_signal": 6.4983,
+    "event_count": 227,
+    "classified_count": 27,
+    "paired_count": 27,
+    "valid_pair_updates": 6,
+    "top_driver_count": 27,
+    "total_signal": 6.2247,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 130,
-      "no_signal": 59,
-      "invalid_pair": 29,
+      "no_actor": 115,
+      "no_signal": 54,
+      "invalid_pair": 31,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
