@@ -1,21 +1,89 @@
 {
-  "last_updated": "2026-05-06 03:24:53 UTC",
-  "probability": 15.89,
-  "uncertainty": 6.32,
+  "last_updated": "2026-05-06 06:17:38 UTC",
+  "probability": 16.0,
+  "uncertainty": 6.06,
   "state": {
-    "us_russia": 3.689335564445482,
+    "us_russia": 3.6803115142986043,
     "us_china": 3.0000000000000004,
     "china_taiwan": 4.000000000000001,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633332682656337,
-    "iran_israel": 5.535816175949155,
+    "iran_us": 5.633332987661179,
+    "iran_israel": 5.779091565212147,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.800001854055287,
+    "nk_sk": 2.800000984966871,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.133333059075501
+    "russia_ukraine": 7.13333318763386
   },
   "top_drivers": [
+    {
+      "title": "US president Trump restarts Pope feud ahead of Rubio visit to Vatican",
+      "published": "Wed, 06 May 2026 05:23:37 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.9,
+      "raw_impact": 1.25,
+      "source_weight": 0.9,
+      "age_hours": 0.9,
+      "confidence": 0.96,
+      "signal_total": 2.1,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/6/us-president-trump-restarts-pope-feud-ahead-of-rubio-visit-to-vatican?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/5/6/us-president-trump-restarts-pope-feud-ahead-of-rubio-visit-to-vatican?traffic_source=rss"
+      ]
+    },
+    {
+      "title": "Trump renews feud with Pope Leo XIV days ahead of planned Marco Rubio visit to the Vatican",
+      "published": "Wed, 06 May 2026 05:41:58 +0200",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.702,
+      "raw_impact": 1.033,
+      "source_weight": 0.85,
+      "age_hours": 2.59,
+      "confidence": 0.945,
+      "signal_total": 1.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/2026/05/06/trump-renews-feud-with-pope-leo-xiv-days-ahead-of-planned-marco-rubio-visit-to-the-vatican",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/2026/05/06/trump-renews-feud-with-pope-leo-xiv-days-ahead-of-planned-marco-rubio-visit-to-the-vatican"
+      ]
+    },
     {
       "title": "Trump and Rubio Insist Iran War Is Over, Even as Missiles Fly During Cease-Fire",
       "published": "Wed, 06 May 2026 01:21:47 +0000",
@@ -25,10 +93,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.719,
-      "raw_impact": 0.799,
+      "impact": 0.609,
+      "raw_impact": 0.677,
       "source_weight": 0.9,
-      "age_hours": 2.05,
+      "age_hours": 4.93,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,6 +119,41 @@
       ]
     },
     {
+      "title": "Ukraine reports Russian strike after Kyiv-declared ceasefire begins",
+      "published": "Wed, 06 May 2026 05:30:46 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.559,
+      "raw_impact": 0.621,
+      "source_weight": 0.9,
+      "age_hours": 0.78,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/europe/20260506-ukraine-reports-russian-strike-after-kyiv-declared-ceasefire-begins",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/europe/20260506-ukraine-reports-russian-strike-after-kyiv-declared-ceasefire-begins"
+      ]
+    },
+    {
       "title": "Deadly Russian Strikes Rip Into Ukrainian Cities",
       "published": "Tue, 05 May 2026 22:27:55 +0000",
       "actors": [
@@ -59,10 +162,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.609,
-      "raw_impact": 0.676,
+      "impact": 0.515,
+      "raw_impact": 0.573,
       "source_weight": 0.9,
-      "age_hours": 4.95,
+      "age_hours": 7.83,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +196,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.422,
-      "raw_impact": 0.469,
+      "impact": 0.357,
+      "raw_impact": 0.397,
       "source_weight": 0.9,
-      "age_hours": 11.29,
+      "age_hours": 14.17,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +230,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.409,
-      "raw_impact": 0.409,
+      "impact": 0.346,
+      "raw_impact": 0.346,
       "source_weight": 1.0,
-      "age_hours": 8.03,
+      "age_hours": 10.91,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -154,6 +257,41 @@
       ]
     },
     {
+      "title": "At least 26 killed in Russian strikes across Ukraine as Zelenskyy denounces Moscow's 'cynicism'",
+      "published": "Tue, 05 May 2026 20:06:37 +0200",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.273,
+      "raw_impact": 0.322,
+      "source_weight": 0.85,
+      "age_hours": 12.18,
+      "confidence": 0.683,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/2026/05/05/at-least-18-killed-in-russian-strikes-across-ukraine-as-zelenskyy-denounces-moscows-cynici",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/2026/05/05/at-least-18-killed-in-russian-strikes-across-ukraine-as-zelenskyy-denounces-moscows-cynici"
+      ]
+    },
+    {
       "title": "U.S. and Iran exchange taunts as attacks imperil fragile ceasefire",
       "published": "Tue, 05 May 2026 10:39:25 +0000",
       "actors": [
@@ -162,10 +300,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.222,
-      "raw_impact": 0.247,
+      "impact": 0.188,
+      "raw_impact": 0.209,
       "source_weight": 0.9,
-      "age_hours": 16.76,
+      "age_hours": 19.64,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -197,10 +335,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.158,
-      "raw_impact": 0.186,
+      "impact": 0.134,
+      "raw_impact": 0.158,
       "source_weight": 0.85,
-      "age_hours": 21.62,
+      "age_hours": 24.5,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -232,10 +370,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.155,
-      "raw_impact": 0.141,
+      "impact": 0.131,
+      "raw_impact": 0.119,
       "source_weight": 1.1,
-      "age_hours": 39.41,
+      "age_hours": 42.29,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -259,40 +397,6 @@
       ]
     },
     {
-      "title": "Middle East war live: Trump pauses US Strait of Hormuz escort operation",
-      "published": "Wed, 06 May 2026 00:06:37 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.134,
-      "raw_impact": -0.165,
-      "source_weight": 0.9,
-      "age_hours": 3.3,
-      "confidence": 0.75,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation"
-      ]
-    },
-    {
       "title": "Iran war live: Trump says Hormuz operation paused amid US, Tehran talks",
       "published": "Wed, 06 May 2026 00:00:00 +0000",
       "actors": [
@@ -301,10 +405,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.133,
-      "raw_impact": -0.164,
+      "impact": -0.113,
+      "raw_impact": -0.139,
       "source_weight": 0.9,
-      "age_hours": 3.41,
+      "age_hours": 6.29,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -327,7 +431,41 @@
       ]
     },
     {
-      "title": "Rubio says US military has completed offensive operations in Iran",
+      "title": "Middle East war live: Trump pauses US Strait of Hormuz escort operation",
+      "published": "Wed, 06 May 2026 00:06:37 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.113,
+      "raw_impact": -0.14,
+      "source_weight": 0.9,
+      "age_hours": 6.18,
+      "confidence": 0.75,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260506-middle-east-war-live-trump-pauses-us-strait-of-hormuz-escort-operation"
+      ]
+    },
+    {
+      "title": "Rubio says US military completed offensive operations in Iran",
       "published": "Tue, 05 May 2026 22:39:05 GMT",
       "actors": [
         "iran",
@@ -335,10 +473,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.123,
-      "raw_impact": -0.152,
+      "impact": -0.104,
+      "raw_impact": -0.129,
       "source_weight": 0.9,
-      "age_hours": 4.76,
+      "age_hours": 7.64,
       "confidence": 0.75,
       "signal_total": -0.2,
       "signal_components": {
@@ -361,30 +499,29 @@
       ]
     },
     {
-      "title": "Ukrainian drone hits upmarket Moscow high-rise ahead of Victory Day celebrations",
-      "published": "Mon, 04 May 2026 19:09:14 GMT",
+      "title": "Bowen: Strait of Hormuz standoff raises risk of sliding back into all-out war",
+      "published": "Tue, 05 May 2026 11:38:03 GMT",
       "actors": [
-        "russia",
-        "ukraine"
+        "iran",
+        "us"
       ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.101,
-      "raw_impact": 0.101,
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.061,
+      "raw_impact": -0.068,
       "source_weight": 1.0,
-      "age_hours": 32.26,
-      "confidence": 0.698,
-      "signal_total": 0.65,
+      "age_hours": 18.66,
+      "confidence": 0.76,
+      "signal_total": -0.2,
       "signal_components": {
         "deescalation": -0.2,
-        "action": 0.9,
+        "action": 0.0,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.bbc.com/news/articles/cwy234llx3vo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.com/news/articles/cgrpnq00j5vo?at_medium=RSS&at_campaign=rss",
       "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
       "source_domain": "feeds.bbci.co.uk",
       "corroboration_count": 1,
@@ -392,7 +529,7 @@
         "feeds.bbci.co.uk"
       ],
       "cluster_links": [
-        "https://www.bbc.com/news/articles/cwy234llx3vo?at_medium=RSS&at_campaign=rss"
+        "https://www.bbc.com/news/articles/cgrpnq00j5vo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -404,10 +541,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.07,
-      "raw_impact": 0.078,
+      "impact": 0.06,
+      "raw_impact": 0.066,
       "source_weight": 0.9,
-      "age_hours": 42.27,
+      "age_hours": 45.15,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -430,52 +567,18 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Trump Again Shifts U.S. Focus on Strait, Pausing Day-Old Escort Mission",
-      "published": "Wed, 06 May 2026 03:19:38 +0000",
+      "title": "Trump pauses US plan to guide ships through Strait of Hormuz",
+      "published": "Wed, 06 May 2026 05:44:02 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.199,
+      "impact": 0.043,
+      "raw_impact": 0.194,
       "source_weight": 0.9,
-      "age_hours": 0.09,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/05/05/world/iran-war-trump-hormuz",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/05/05/world/iran-war-trump-hormuz"
-      ]
-    },
-    {
-      "title": "US pauses \u2018Project Freedom\u2019 as Trump seeks way out of Hormuz impasse",
-      "published": "Wed, 06 May 2026 01:54:47 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.183,
-      "source_weight": 0.9,
-      "age_hours": 1.5,
+      "age_hours": 0.56,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -498,6 +601,40 @@
       ]
     },
     {
+      "title": "Resilience amid ruins: Why markets are hitting record highs despite the Iran war",
+      "published": "Wed, 06 May 2026 07:00:16 +0200",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.186,
+      "source_weight": 0.85,
+      "age_hours": 1.29,
+      "confidence": 0.675,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/business/2026/05/06/resilience-amid-ruins-why-markets-are-hitting-record-highs-despite-iran-war-effects",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/business/2026/05/06/resilience-amid-ruins-why-markets-are-hitting-record-highs-despite-iran-war-effects"
+      ]
+    },
+    {
       "title": "'Project Freedom' Aims to Get Thousands of Commercial Ships Safely Through Strait of Hormuz",
       "published": "Tue, 05 May 2026 17:06:00 GMT",
       "actors": [
@@ -506,10 +643,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.11,
+      "impact": 0.026,
+      "raw_impact": 0.093,
       "source_weight": 1.1,
-      "age_hours": 10.31,
+      "age_hours": 13.19,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -540,10 +677,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.128,
+      "impact": 0.025,
+      "raw_impact": 0.109,
       "source_weight": 0.9,
-      "age_hours": 7.66,
+      "age_hours": 10.54,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -574,10 +711,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.136,
+      "impact": 0.025,
+      "raw_impact": 0.115,
       "source_weight": 0.85,
-      "age_hours": 6.68,
+      "age_hours": 9.56,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -600,40 +737,6 @@
       ]
     },
     {
-      "title": "Video: Trump says Iran should \u2018wave the white flag\u2019",
-      "published": "Tue, 05 May 2026 18:48:10 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.027,
-      "raw_impact": 0.122,
-      "source_weight": 0.9,
-      "age_hours": 8.61,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/5/video-trump-says-iran-should-wave-the-white-flag?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/video/newsfeed/2026/5/5/video-trump-says-iran-should-wave-the-white-flag?traffic_source=rss"
-      ]
-    },
-    {
       "title": "The Iran war sent jet fuel prices sky-high. Here's what air travelers should know",
       "published": "Tue, 05 May 2026 14:33:19 -0400",
       "actors": [
@@ -642,10 +745,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.025,
-      "raw_impact": 0.12,
+      "impact": 0.021,
+      "raw_impact": 0.102,
       "source_weight": 0.85,
-      "age_hours": 8.86,
+      "age_hours": 11.74,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -676,10 +779,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.023,
-      "raw_impact": 0.102,
+      "impact": 0.019,
+      "raw_impact": 0.086,
       "source_weight": 0.9,
-      "age_hours": 11.68,
+      "age_hours": 14.55,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -710,10 +813,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.016,
-      "raw_impact": 0.076,
+      "impact": 0.014,
+      "raw_impact": 0.064,
       "source_weight": 0.85,
-      "age_hours": 16.75,
+      "age_hours": 19.63,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -744,10 +847,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.005,
-      "raw_impact": 0.023,
+      "impact": 0.004,
+      "raw_impact": 0.02,
       "source_weight": 0.9,
-      "age_hours": 37.12,
+      "age_hours": 40.0,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -781,7 +884,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 342.2,
+      "age_hours": 345.08,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -815,7 +918,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 211.48,
+      "age_hours": 214.36,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -850,7 +953,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 300.41,
+      "age_hours": 303.28,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -884,7 +987,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 302.64,
+      "age_hours": 305.52,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -918,7 +1021,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 302.81,
+      "age_hours": 305.69,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -961,6 +1064,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "euronews_world",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1048,6 +1156,11 @@
       "domain": "www.economist.com"
     },
     {
+      "name": "www.euronews.com",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
+    },
+    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -1072,16 +1185,16 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 228,
-    "classified_count": 27,
-    "paired_count": 27,
+    "event_count": 248,
+    "classified_count": 30,
+    "paired_count": 30,
     "valid_pair_updates": 4,
-    "top_driver_count": 27,
-    "total_signal": 4.0351,
+    "top_driver_count": 30,
+    "total_signal": 6.4983,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 115,
-      "no_signal": 57,
+      "no_actor": 130,
+      "no_signal": 59,
       "invalid_pair": 29,
       "low_confidence": 0,
       "classifier_error": 0,
