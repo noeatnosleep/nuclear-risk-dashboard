@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-05-06 13:14:35 UTC",
-  "probability": 18.83,
-  "uncertainty": 6.32,
+  "last_updated": "2026-05-06 15:41:04 UTC",
+  "probability": 19.14,
+  "uncertainty": 6.2,
   "state": {
-    "us_russia": 3.9507083540474732,
-    "us_china": 3.7249193399677054,
-    "china_taiwan": 4.144983867993541,
+    "us_russia": 3.825932649173143,
+    "us_china": 3.961076052466187,
+    "china_taiwan": 4.192215210493237,
     "india_pakistan": 4.500000000000001,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333281505718,
-    "iran_israel": 6.107800941626081,
+    "iran_us": 5.633333305799913,
+    "iran_israel": 6.164315594577118,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.800000147678901,
+    "nk_sk": 2.800000078454416,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.133333311488195
+    "russia_ukraine": 7.133333321728104
   },
   "top_drivers": [
+    {
+      "title": "Iran War Live Updates: Tehran Says It Is Reviewing U.S. Proposal as Trump Makes New Threats",
+      "published": "Wed, 06 May 2026 15:32:44 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.804,
+      "raw_impact": 0.893,
+      "source_weight": 0.9,
+      "age_hours": 0.14,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/live/2026/05/06/world/iran-us-hormuz-oil",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/live/2026/05/06/world/iran-us-hormuz-oil"
+      ]
+    },
     {
       "title": "What is the FDD, the pro-Israel think tank shaping Trump\u2019s Iran policy?",
       "published": "Wed, 06 May 2026 12:39:22 +0000",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.835,
-      "raw_impact": 1.16,
+      "impact": 0.726,
+      "raw_impact": 1.007,
       "source_weight": 0.9,
-      "age_hours": 0.59,
+      "age_hours": 3.03,
       "confidence": 0.88,
       "signal_total": 1.2,
       "signal_components": {
@@ -51,6 +85,40 @@
       ]
     },
     {
+      "title": "Russian drone hits kindergarten in Ukraine",
+      "published": "Wed, 06 May 2026 13:42:25 +0000",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.723,
+      "raw_impact": 0.803,
+      "source_weight": 0.9,
+      "age_hours": 1.98,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/6/russian-drone-hits-kindergarten-in-ukraine?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/5/6/russian-drone-hits-kindergarten-in-ukraine?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Lessons from the war: A call for strategic reckoning in West Asia",
       "published": "Wed, 06 May 2026 12:01:11 +0000",
       "actors": [
@@ -59,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.805,
-      "raw_impact": 1.118,
+      "impact": 0.699,
+      "raw_impact": 0.971,
       "source_weight": 0.9,
-      "age_hours": 1.22,
+      "age_hours": 3.66,
       "confidence": 0.88,
       "signal_total": 1.2,
       "signal_components": {
@@ -85,37 +153,72 @@
       ]
     },
     {
-      "title": "Has the US accepted Iran\u2019s demand to settle Hormuz first, nuclear later?",
-      "published": "Wed, 06 May 2026 12:00:10 +0000",
+      "title": "Iran says ships can pass Strait of Hormuz as Trump warns of bombings without a deal",
+      "published": "Wed, 06 May 2026 08:33:09 -0400",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.804,
-      "raw_impact": 1.117,
-      "source_weight": 0.9,
-      "age_hours": 1.24,
-      "confidence": 0.96,
-      "signal_total": 1.2,
+      "class": "action",
+      "impact": 0.638,
+      "raw_impact": 0.751,
+      "source_weight": 0.85,
+      "age_hours": 3.13,
+      "confidence": 0.805,
+      "signal_total": 0.9,
       "signal_components": {
         "deescalation": 0.0,
-        "action": 0.0,
+        "action": 0.9,
         "movement": 0.0,
-        "strategic": 1.2,
+        "strategic": 0.0,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/news/2026/5/6/has-the-us-accepted-irans-demand-to-settle-hormuz-first-nuclear-later?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.npr.org/2026/05/06/nx-s1-5813497/iran-war-strait-hormuz-updates",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "feeds.npr.org"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/6/has-the-us-accepted-irans-demand-to-settle-hormuz-first-nuclear-later?traffic_source=rss"
+        "https://www.npr.org/2026/05/06/nx-s1-5813497/iran-war-strait-hormuz-updates"
+      ]
+    },
+    {
+      "title": "Russia ignores Ukraine's unilateral ceasefire and attacks kindergarten",
+      "published": "Wed, 06 May 2026 11:53:20 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.522,
+      "raw_impact": 0.522,
+      "source_weight": 1.0,
+      "age_hours": 3.8,
+      "confidence": 0.698,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cpdpxdd5n6yo?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cpdpxdd5n6yo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -127,10 +230,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.577,
-      "raw_impact": 0.641,
+      "impact": 0.501,
+      "raw_impact": 0.557,
       "source_weight": 0.9,
-      "age_hours": 0.24,
+      "age_hours": 2.68,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -154,41 +257,6 @@
       ]
     },
     {
-      "title": "Kyiv says Russia broke unilateral ceasefire with drone and missile attacks",
-      "published": "Wed, 06 May 2026 10:11:28 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.49,
-      "raw_impact": 0.545,
-      "source_weight": 0.9,
-      "age_hours": 3.05,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/kyiv-says-russia-broke-unilateral-ceasefire-with-drone-and-missile-attacks",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/kyiv-says-russia-broke-unilateral-ceasefire-with-drone-and-missile-attacks"
-      ]
-    },
-    {
       "title": "Zelenskyy slams Russia as strikes kill 22 in Ukraine before announced ceasefire",
       "published": "Wed, 06 May 2026 02:27:48 -0400",
       "actors": [
@@ -197,10 +265,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.373,
-      "raw_impact": 0.439,
+      "impact": 0.324,
+      "raw_impact": 0.382,
       "source_weight": 0.85,
-      "age_hours": 6.78,
+      "age_hours": 9.22,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -232,10 +300,10 @@
       ],
       "state_key": "us_china",
       "class": "movement",
-      "impact": 0.279,
-      "raw_impact": 0.386,
+      "impact": 0.242,
+      "raw_impact": 0.335,
       "source_weight": 0.85,
-      "age_hours": 4.47,
+      "age_hours": 6.91,
       "confidence": 0.735,
       "signal_total": 0.5,
       "signal_components": {
@@ -266,10 +334,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.232,
-      "raw_impact": 0.232,
+      "impact": 0.201,
+      "raw_impact": 0.201,
       "source_weight": 1.0,
-      "age_hours": 17.85,
+      "age_hours": 20.3,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -301,10 +369,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.126,
-      "raw_impact": 0.14,
+      "impact": 0.109,
+      "raw_impact": 0.122,
       "source_weight": 0.9,
-      "age_hours": 26.59,
+      "age_hours": 29.03,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -336,10 +404,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.088,
-      "raw_impact": 0.08,
+      "impact": 0.076,
+      "raw_impact": 0.069,
       "source_weight": 1.1,
-      "age_hours": 49.24,
+      "age_hours": 51.68,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -364,17 +432,17 @@
     },
     {
       "title": "Oil prices drop and stock markets rise after reports of deal to end Iran war",
-      "published": "Wed, 06 May 2026 12:54:37 GMT",
+      "published": "Wed, 06 May 2026 14:03:53 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.049,
-      "raw_impact": 0.196,
+      "impact": 0.045,
+      "raw_impact": 0.182,
       "source_weight": 1.0,
-      "age_hours": 0.33,
+      "age_hours": 1.62,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -397,6 +465,40 @@
       ]
     },
     {
+      "title": "Araghchi in Beijing: How China could shape the direction of the US-Iran war",
+      "published": "Wed, 06 May 2026 13:47:54 +0000",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.04,
+      "raw_impact": 0.179,
+      "source_weight": 0.9,
+      "age_hours": 1.89,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/5/6/araghchi-in-beijing-how-china-could-shape-the-direction-of-the-us-iran-war?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/5/6/araghchi-in-beijing-how-china-could-shape-the-direction-of-the-us-iran-war?traffic_source=rss"
+      ]
+    },
+    {
       "title": "The second world war fixation gets the US into trouble again",
       "published": "Wed, 06 May 2026 12:17:47 GMT",
       "actors": [
@@ -405,10 +507,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.043,
-      "raw_impact": 0.189,
+      "impact": 0.037,
+      "raw_impact": 0.164,
       "source_weight": 0.9,
-      "age_hours": 0.95,
+      "age_hours": 3.39,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -439,10 +541,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.187,
+      "impact": 0.036,
+      "raw_impact": 0.162,
       "source_weight": 0.9,
-      "age_hours": 1.19,
+      "age_hours": 3.63,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -465,53 +567,19 @@
       ]
     },
     {
-      "title": "Bowen: Strait of Hormuz standoff raises risk of sliding back into all-out war",
-      "published": "Tue, 05 May 2026 11:38:03 GMT",
+      "title": "In Talks With Iran, China Calls for Opening of Strait of Hormuz",
+      "published": "Wed, 06 May 2026 09:58:55 +0000",
       "actors": [
-        "iran",
-        "us"
+        "us",
+        "china"
       ],
-      "state_key": "iran_us",
-      "class": "deescalation",
-      "impact": -0.041,
-      "raw_impact": -0.046,
-      "source_weight": 1.0,
-      "age_hours": 25.61,
-      "confidence": 0.76,
-      "signal_total": -0.2,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cgrpnq00j5vo?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cgrpnq00j5vo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "title": "Iran's Revolutionary Guard says ships can now pass the Strait of Hormuz",
-      "published": "Wed, 06 May 2026 08:33:09 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
+      "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.192,
-      "source_weight": 0.85,
-      "age_hours": 0.69,
-      "confidence": 0.665,
+      "impact": 0.032,
+      "raw_impact": 0.144,
+      "source_weight": 0.9,
+      "age_hours": 5.7,
+      "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -521,41 +589,7 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.npr.org/2026/05/06/nx-s1-5813497/iran-war-strait-hormuz-updates",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/05/06/nx-s1-5813497/iran-war-strait-hormuz-updates"
-      ]
-    },
-    {
-      "title": "With World Distracted by Iran War, Israeli Settlers Intensify Attacks in West Bank",
-      "published": "Mon, 04 May 2026 09:08:33 +0000",
-      "actors": [
-        "iran",
-        "israel"
-      ],
-      "state_key": "iran_israel",
-      "class": "action",
-      "impact": 0.04,
-      "raw_impact": 0.044,
-      "source_weight": 0.9,
-      "age_hours": 52.1,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/05/04/world/middleeast/israel-palestinians-west-bank-settler-violence-iran-war.html",
+      "link": "https://www.nytimes.com/2026/05/06/world/asia/china-iran-us-trump-hormuz.html",
       "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
@@ -563,177 +597,7 @@
         "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/05/04/world/middleeast/israel-palestinians-west-bank-settler-violence-iran-war.html"
-      ]
-    },
-    {
-      "title": "How the Kremlin Lures Africans Into Russia\u2019s War in Ukraine",
-      "published": "Wed, 06 May 2026 10:22:24 +0000",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "rhetoric",
-      "impact": 0.038,
-      "raw_impact": 0.169,
-      "source_weight": 0.9,
-      "age_hours": 2.87,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/05/04/world/africa/ukraine-russia-war-african-soldiers.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/05/04/world/africa/ukraine-russia-war-african-soldiers.html"
-      ]
-    },
-    {
-      "title": "US petrol prices 50 percent higher than before war on Iran",
-      "published": "Wed, 06 May 2026 08:52:13 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.155,
-      "source_weight": 0.9,
-      "age_hours": 4.37,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/6/gasoline-in-the-us-costs-50-more-now-than-before-iran-war?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/6/gasoline-in-the-us-costs-50-more-now-than-before-iran-war?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "\u2018A stress test\u2019: US-Germany rift widens as Iran war drags on",
-      "published": "Wed, 06 May 2026 08:35:21 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.153,
-      "source_weight": 0.9,
-      "age_hours": 4.65,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/6/a-stress-test-us-germany-rift-widens-as-iran-war-drags-on?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/6/a-stress-test-us-germany-rift-widens-as-iran-war-drags-on?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "Trump pauses US plan to guide ships through Strait of Hormuz",
-      "published": "Wed, 06 May 2026 08:17:58 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.15,
-      "source_weight": 0.9,
-      "age_hours": 4.94,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66",
-      "source": "https://www.ft.com/world?format=rss",
-      "source_domain": "www.ft.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.ft.com"
-      ],
-      "cluster_links": [
-        "https://www.ft.com/content/5f7ba94e-8a42-4f36-8c4c-19be932c8f66"
-      ]
-    },
-    {
-      "title": "U.S. says it's made Hormuz safe for commercial shipping, but standoff hasn't changed",
-      "published": "Tue, 05 May 2026 16:44:09 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.077,
-      "source_weight": 0.85,
-      "age_hours": 16.51,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5812487/u-s-says-its-made-hormuz-safe-for-commercial-shipping-but-standoff-hasnt-changed",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/05/05/nx-s1-5812487/u-s-says-its-made-hormuz-safe-for-commercial-shipping-but-standoff-hasnt-changed"
+        "https://www.nytimes.com/2026/05/06/world/asia/china-iran-us-trump-hormuz.html"
       ]
     },
     {
@@ -745,10 +609,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.017,
-      "raw_impact": 0.062,
+      "impact": 0.015,
+      "raw_impact": 0.054,
       "source_weight": 1.1,
-      "age_hours": 20.14,
+      "age_hours": 22.58,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -771,6 +635,40 @@
       ]
     },
     {
+      "title": "U.S. says it's made Hormuz safe for commercial shipping, but standoff hasn't changed",
+      "published": "Tue, 05 May 2026 16:44:09 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.014,
+      "raw_impact": 0.067,
+      "source_weight": 0.85,
+      "age_hours": 18.95,
+      "confidence": 0.665,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5812487/u-s-says-its-made-hormuz-safe-for-commercial-shipping-but-standoff-hasnt-changed",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/05/05/nx-s1-5812487/u-s-says-its-made-hormuz-safe-for-commercial-shipping-but-standoff-hasnt-changed"
+      ]
+    },
+    {
       "title": "The Iran war sent jet fuel prices sky-high. Here's what air travelers should know",
       "published": "Tue, 05 May 2026 14:33:19 -0400",
       "actors": [
@@ -779,10 +677,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.015,
-      "raw_impact": 0.068,
+      "impact": 0.013,
+      "raw_impact": 0.059,
       "source_weight": 0.85,
-      "age_hours": 18.69,
+      "age_hours": 21.13,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -816,7 +714,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 352.03,
+      "age_hours": 354.47,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -850,7 +748,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 221.31,
+      "age_hours": 223.75,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -885,7 +783,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 310.23,
+      "age_hours": 312.68,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -919,7 +817,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 312.47,
+      "age_hours": 314.91,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -953,7 +851,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 312.64,
+      "age_hours": 315.08,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -1108,16 +1006,16 @@
   ],
   "debug": {
     "event_count": 228,
-    "classified_count": 28,
-    "paired_count": 28,
+    "classified_count": 25,
+    "paired_count": 25,
     "valid_pair_updates": 6,
-    "top_driver_count": 28,
-    "total_signal": 7.8729,
+    "top_driver_count": 25,
+    "total_signal": 8.0505,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 111,
-      "no_signal": 60,
-      "invalid_pair": 29,
+      "no_actor": 118,
+      "no_signal": 58,
+      "invalid_pair": 27,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
