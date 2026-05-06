@@ -1,34 +1,34 @@
 {
-  "last_updated": "2026-05-06 21:15:29 UTC",
-  "probability": 17.18,
-  "uncertainty": 6.61,
+  "last_updated": "2026-05-06 22:25:15 UTC",
+  "probability": 16.97,
+  "uncertainty": 6.52,
   "state": {
-    "us_russia": 3.4914828448905384,
-    "us_china": 3.9787946304671373,
-    "china_taiwan": 4.195758926093427,
-    "india_pakistan": 4.251185975078769,
+    "us_russia": 3.4447986826669803,
+    "us_china": 3.940260100565423,
+    "china_taiwan": 4.188052020113084,
+    "india_pakistan": 4.246825032770618,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333329205169,
-    "iran_israel": 5.47069506257073,
+    "iran_us": 5.633333331140246,
+    "iran_israel": 5.508166530688971,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.800000011762895,
+    "nk_sk": 2.800000006249038,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.892598632700128
+    "russia_ukraine": 6.904905046137259
   },
   "top_drivers": [
     {
       "title": "Trump threatens intense bombing if Iran peace deal is not reached",
-      "published": "Wed, 06 May 2026 19:35:21 +0000",
+      "published": "Wed, 06 May 2026 22:01:00 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.736,
-      "raw_impact": 0.817,
+      "impact": 0.791,
+      "raw_impact": 0.879,
       "source_weight": 0.9,
-      "age_hours": 1.67,
+      "age_hours": 0.4,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -51,6 +51,40 @@
       ]
     },
     {
+      "title": "Trump says had \u2018very good talks\u2019 with Iran as Tehran reviews US proposal",
+      "published": "Wed, 06 May 2026 21:17:47 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.759,
+      "raw_impact": 0.843,
+      "source_weight": 0.9,
+      "age_hours": 1.12,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/2026/5/6/trump-says-had-very-good-talks-with-iran-as-tehran-reviews-us-proposal?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/2026/5/6/trump-says-had-very-good-talks-with-iran-as-tehran-reviews-us-proposal?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Russia ignores Ukraine's unilateral ceasefire and attacks kindergarten",
       "published": "Wed, 06 May 2026 11:53:20 GMT",
       "actors": [
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.378,
-      "raw_impact": 0.378,
+      "impact": 0.354,
+      "raw_impact": 0.354,
       "source_weight": 1.0,
-      "age_hours": 9.37,
+      "age_hours": 10.53,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -94,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.35,
-      "raw_impact": 0.458,
+      "impact": 0.328,
+      "raw_impact": 0.428,
       "source_weight": 0.9,
-      "age_hours": 1.51,
+      "age_hours": 2.68,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -128,10 +162,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.235,
-      "raw_impact": 0.277,
+      "impact": 0.22,
+      "raw_impact": 0.259,
       "source_weight": 0.85,
-      "age_hours": 14.79,
+      "age_hours": 15.96,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -163,10 +197,10 @@
       ],
       "state_key": "us_china",
       "class": "movement",
-      "impact": 0.176,
-      "raw_impact": 0.243,
+      "impact": 0.164,
+      "raw_impact": 0.227,
       "source_weight": 0.85,
-      "age_hours": 12.49,
+      "age_hours": 13.65,
       "confidence": 0.735,
       "signal_total": 0.5,
       "signal_components": {
@@ -190,17 +224,17 @@
     },
     {
       "title": "Iran War Live Updates: Tehran and U.S. Offer Conflicting Messages on State of Negotiations",
-      "published": "Wed, 06 May 2026 21:03:44 +0000",
+      "published": "Wed, 06 May 2026 21:50:40 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.16,
-      "raw_impact": -0.198,
+      "impact": -0.157,
+      "raw_impact": -0.193,
       "source_weight": 0.9,
-      "age_hours": 0.2,
+      "age_hours": 0.58,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -231,10 +265,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.146,
-      "raw_impact": 0.146,
+      "impact": 0.136,
+      "raw_impact": 0.136,
       "source_weight": 1.0,
-      "age_hours": 25.87,
+      "age_hours": 27.03,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -266,10 +300,10 @@
       ],
       "state_key": "india_pakistan",
       "class": "deescalation",
-      "impact": -0.116,
-      "raw_impact": -0.144,
+      "impact": -0.109,
+      "raw_impact": -0.134,
       "source_weight": 0.9,
-      "age_hours": 5.71,
+      "age_hours": 6.88,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -300,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.079,
-      "raw_impact": 0.088,
+      "impact": 0.074,
+      "raw_impact": 0.082,
       "source_weight": 0.9,
-      "age_hours": 34.6,
+      "age_hours": 35.76,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -335,10 +369,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.055,
-      "raw_impact": 0.05,
+      "impact": 0.052,
+      "raw_impact": 0.047,
       "source_weight": 1.1,
-      "age_hours": 57.26,
+      "age_hours": 58.42,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -362,6 +396,40 @@
       ]
     },
     {
+      "title": "'Enjoy the show. Ignore the war': Venice Biennale faces backlash after including Russia",
+      "published": "Wed, 06 May 2026 21:29:18 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "rhetoric",
+      "impact": 0.048,
+      "raw_impact": 0.19,
+      "source_weight": 1.0,
+      "age_hours": 0.93,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cvgz14e1zeno?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cvgz14e1zeno?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Iran Says It Is Reviewing a U.S. Proposal to End the War",
       "published": "Wed, 06 May 2026 21:02:23 +0000",
       "actors": [
@@ -370,10 +438,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.197,
+      "impact": 0.042,
+      "raw_impact": 0.185,
       "source_weight": 0.9,
-      "age_hours": 0.22,
+      "age_hours": 1.38,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -404,10 +472,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.186,
+      "impact": 0.039,
+      "raw_impact": 0.173,
       "source_weight": 0.9,
-      "age_hours": 1.3,
+      "age_hours": 2.47,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -438,10 +506,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.149,
+      "impact": 0.035,
+      "raw_impact": 0.14,
       "source_weight": 1.0,
-      "age_hours": 5.06,
+      "age_hours": 6.23,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -472,10 +540,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.166,
+      "impact": 0.035,
+      "raw_impact": 0.155,
       "source_weight": 0.9,
-      "age_hours": 3.27,
+      "age_hours": 4.43,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -506,10 +574,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.024,
-      "raw_impact": 0.104,
+      "impact": 0.022,
+      "raw_impact": 0.097,
       "source_weight": 0.9,
-      "age_hours": 11.28,
+      "age_hours": 12.44,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -532,40 +600,6 @@
       ]
     },
     {
-      "title": "'Project Freedom' Aims to Get Thousands of Commercial Ships Safely Through Strait of Hormuz",
-      "published": "Tue, 05 May 2026 17:06:00 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.011,
-      "raw_impact": 0.039,
-      "source_weight": 1.1,
-      "age_hours": 28.16,
-      "confidence": 0.69,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.war.gov/News/News-Stories/Article/Article/4477864/project-freedom-aims-to-get-thousands-of-commercial-ships-safely-through-strait/",
-      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
-      "source_domain": "www.defense.gov",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.defense.gov"
-      ],
-      "cluster_links": [
-        "https://www.war.gov/News/News-Stories/Article/Article/4477864/project-freedom-aims-to-get-thousands-of-commercial-ships-safely-through-strait/"
-      ]
-    },
-    {
       "title": "U.S. says it's made Hormuz safe for commercial shipping, but standoff hasn't changed",
       "published": "Tue, 05 May 2026 16:44:09 -0400",
       "actors": [
@@ -575,9 +609,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.01,
-      "raw_impact": 0.049,
+      "raw_impact": 0.045,
       "source_weight": 0.85,
-      "age_hours": 24.52,
+      "age_hours": 25.69,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -600,6 +634,40 @@
       ]
     },
     {
+      "title": "'Project Freedom' Aims to Get Thousands of Commercial Ships Safely Through Strait of Hormuz",
+      "published": "Tue, 05 May 2026 17:06:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.01,
+      "raw_impact": 0.037,
+      "source_weight": 1.1,
+      "age_hours": 29.32,
+      "confidence": 0.69,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.war.gov/News/News-Stories/Article/Article/4477864/project-freedom-aims-to-get-thousands-of-commercial-ships-safely-through-strait/",
+      "source": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
+      "source_domain": "www.defense.gov",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.defense.gov"
+      ],
+      "cluster_links": [
+        "https://www.war.gov/News/News-Stories/Article/Article/4477864/project-freedom-aims-to-get-thousands-of-commercial-ships-safely-through-strait/"
+      ]
+    },
+    {
       "title": "The Iran war sent jet fuel prices sky-high. Here's what air travelers should know",
       "published": "Tue, 05 May 2026 14:33:19 -0400",
       "actors": [
@@ -609,9 +677,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.009,
-      "raw_impact": 0.043,
+      "raw_impact": 0.04,
       "source_weight": 0.85,
-      "age_hours": 26.7,
+      "age_hours": 27.87,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -645,7 +713,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 360.04,
+      "age_hours": 361.21,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -679,7 +747,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 229.33,
+      "age_hours": 230.49,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -714,7 +782,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 318.25,
+      "age_hours": 319.41,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -748,7 +816,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 320.49,
+      "age_hours": 321.65,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -782,7 +850,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 320.65,
+      "age_hours": 321.82,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -897,6 +965,11 @@
       "domain": "feeds.washingtonpost.com"
     },
     {
+      "name": "www.aljazeera.com",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "domain": "www.aljazeera.com"
+    },
+    {
       "name": "www.defense.gov",
       "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20",
       "domain": "www.defense.gov"
@@ -927,16 +1000,16 @@
   ],
   "debug": {
     "event_count": 231,
-    "classified_count": 23,
-    "paired_count": 23,
+    "classified_count": 25,
+    "paired_count": 25,
     "valid_pair_updates": 7,
-    "top_driver_count": 23,
-    "total_signal": 3.567,
+    "top_driver_count": 25,
+    "total_signal": 4.5696,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 116,
-      "no_signal": 63,
-      "invalid_pair": 29,
+      "no_actor": 115,
+      "no_signal": 58,
+      "invalid_pair": 33,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
