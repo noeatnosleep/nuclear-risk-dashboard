@@ -1,21 +1,90 @@
 {
-  "last_updated": "2026-05-07 22:01:37 UTC",
-  "probability": 21.82,
-  "uncertainty": 6.12,
+  "last_updated": "2026-05-07 23:28:19 UTC",
+  "probability": 21.2,
+  "uncertainty": 5.94,
   "state": {
-    "us_russia": 4.402524607868918,
-    "us_china": 4.164118612019628,
-    "china_taiwan": 4.232823722403926,
-    "india_pakistan": 4.49784202724102,
+    "us_russia": 4.284399770104183,
+    "us_china": 4.096281074098203,
+    "china_taiwan": 4.219256214819641,
+    "india_pakistan": 4.498853576971792,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333333331247,
-    "iran_israel": 6.607283934286972,
+    "iran_us": 5.633333333332225,
+    "iran_israel": 6.619494590089953,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8000000000059444,
+    "nk_sk": 2.8000000000031577,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.077660051406022
+    "russia_ukraine": 7.045367266159129
   },
   "top_drivers": [
+    {
+      "title": "U.S. strikes Iran in response to attacks on warships, military says",
+      "published": "Thu, 07 May 2026 22:55:51 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 1.125,
+      "raw_impact": 1.25,
+      "source_weight": 0.9,
+      "age_hours": 0.54,
+      "confidence": 0.959,
+      "signal_total": 1.37,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.5,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.03,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/national-security/2026/05/07/us-strikes-iran-ceasefire/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/national-security/2026/05/07/us-strikes-iran-ceasefire/"
+      ]
+    },
+    {
+      "title": "U.S. military says it intercepted Iranian attacks on 3 Navy ships in Strait of Hormuz",
+      "published": "Thu, 07 May 2026 18:32:47 -0400",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.725,
+      "raw_impact": 0.853,
+      "source_weight": 0.85,
+      "age_hours": 0.93,
+      "confidence": 0.885,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.npr.org/2026/05/07/g-s1-120978/u-s-military-intercepted-iran-attacks-navy-ships-hormuz",
+      "source": "https://feeds.npr.org/1004/rss.xml",
+      "source_domain": "feeds.npr.org",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.npr.org"
+      ],
+      "cluster_links": [
+        "https://www.npr.org/2026/05/07/g-s1-120978/u-s-military-intercepted-iran-attacks-navy-ships-hormuz"
+      ]
+    },
     {
       "title": "Aides cite friendly meeting as Rubio aims to mend U.S. ties with Pope Leo",
       "published": "Thu, 07 May 2026 21:22:14 +0000",
@@ -25,10 +94,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.78,
-      "raw_impact": 0.867,
+      "impact": 0.717,
+      "raw_impact": 0.797,
       "source_weight": 0.9,
-      "age_hours": 0.66,
+      "age_hours": 2.1,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +128,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.771,
-      "raw_impact": 0.857,
+      "impact": 0.71,
+      "raw_impact": 0.789,
       "source_weight": 0.9,
-      "age_hours": 0.84,
+      "age_hours": 2.29,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +162,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.746,
-      "raw_impact": 0.828,
+      "impact": 0.686,
+      "raw_impact": 0.762,
       "source_weight": 0.9,
-      "age_hours": 1.43,
+      "age_hours": 2.88,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +196,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.744,
-      "raw_impact": 0.826,
+      "impact": 0.684,
+      "raw_impact": 0.76,
       "source_weight": 0.9,
-      "age_hours": 1.48,
+      "age_hours": 2.93,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -153,6 +222,76 @@
       ]
     },
     {
+      "title": "Middle East war live: US and Iran accuse each other of ceasefire violations in Strait of Hormuz",
+      "published": "Thu, 07 May 2026 23:12:45 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.576,
+      "raw_impact": 0.64,
+      "source_weight": 0.9,
+      "age_hours": 0.26,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/middle-east/20260507-middle-east-war-live-us-and-iran-accuse-each-other-of-ceasefire-violations-in-strait-of-hormuz",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/middle-east/20260507-middle-east-war-live-us-and-iran-accuse-each-other-of-ceasefire-violations-in-strait-of-hormuz"
+      ]
+    },
+    {
+      "title": "US and Iran clash in Hormuz as ceasefire comes under strain",
+      "published": "Thu, 07 May 2026 21:47:39 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.531,
+      "raw_impact": 0.59,
+      "source_weight": 0.9,
+      "age_hours": 1.68,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/21131ff4-35e1-4e5c-b827-1e07c9153e8e",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/21131ff4-35e1-4e5c-b827-1e07c9153e8e"
+      ]
+    },
+    {
       "title": "U.S. intelligence says Iran can outlast Trump\u2019s Hormuz blockade for months",
       "published": "Thu, 07 May 2026 15:19:08 +0000",
       "actors": [
@@ -161,10 +300,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.55,
-      "raw_impact": 0.611,
+      "impact": 0.506,
+      "raw_impact": 0.562,
       "source_weight": 0.9,
-      "age_hours": 6.71,
+      "age_hours": 8.15,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -195,10 +334,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.546,
-      "raw_impact": 0.757,
+      "impact": 0.502,
+      "raw_impact": 0.697,
       "source_weight": 0.9,
-      "age_hours": 3.74,
+      "age_hours": 5.18,
       "confidence": 0.756,
       "signal_total": 0.94,
       "signal_components": {
@@ -230,10 +369,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.519,
-      "raw_impact": 0.577,
+      "impact": 0.478,
+      "raw_impact": 0.531,
       "source_weight": 0.9,
-      "age_hours": 7.69,
+      "age_hours": 9.14,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -264,10 +403,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.497,
-      "raw_impact": 0.552,
+      "impact": 0.457,
+      "raw_impact": 0.508,
       "source_weight": 0.9,
-      "age_hours": 2.83,
+      "age_hours": 4.27,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -299,10 +438,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.416,
-      "raw_impact": 0.463,
+      "impact": 0.383,
+      "raw_impact": 0.425,
       "source_weight": 0.9,
-      "age_hours": 5.89,
+      "age_hours": 7.34,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -326,41 +465,6 @@
       ]
     },
     {
-      "title": "Russian attacks kill 27 before deadline for ceasefire proposed by Kyiv",
-      "published": "Thu, 07 May 2026 14:15:16 GMT",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.373,
-      "raw_impact": 0.415,
-      "source_weight": 0.9,
-      "age_hours": 7.77,
-      "confidence": 0.688,
-      "signal_total": 0.65,
-      "signal_components": {
-        "deescalation": -0.2,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.05,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260507-russian-attacks-kill-27-before-deadline-for-ceasefire-proposed-by-kyiv",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260507-russian-attacks-kill-27-before-deadline-for-ceasefire-proposed-by-kyiv"
-      ]
-    },
-    {
       "title": "Small changes, big impact: How Trump\u2019s latest decision removes a key component of Europe\u2019s deterrence",
       "published": "Wed, 06 May 2026 20:32:24 +0000",
       "actors": [
@@ -369,10 +473,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.306,
-      "raw_impact": 0.509,
+      "impact": 0.281,
+      "raw_impact": 0.469,
       "source_weight": 0.75,
-      "age_hours": 25.49,
+      "age_hours": 26.93,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -396,52 +500,18 @@
       ]
     },
     {
-      "title": "Trump threatens intense bombing if Iran peace deal is not reached",
-      "published": "Wed, 06 May 2026 22:01:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.202,
-      "raw_impact": 0.225,
-      "source_weight": 0.9,
-      "age_hours": 24.01,
-      "confidence": 0.81,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.washingtonpost.com/world/2026/05/05/hegseth-briefing-iran-strait-hormuz-ceasefire/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/05/05/hegseth-briefing-iran-strait-hormuz-ceasefire/"
-      ]
-    },
-    {
       "title": "Iran War Live Updates: U.S. and Iran Exchange Fire Amid a Declared Truce",
-      "published": "Thu, 07 May 2026 21:55:39 +0000",
+      "published": "Thu, 07 May 2026 23:16:50 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.198,
-      "raw_impact": 0.259,
+      "impact": 0.196,
+      "raw_impact": 0.257,
       "source_weight": 0.9,
-      "age_hours": 0.1,
+      "age_hours": 0.19,
       "confidence": 0.53,
       "signal_total": 0.26,
       "signal_components": {
@@ -465,6 +535,40 @@
       ]
     },
     {
+      "title": "Trump threatens intense bombing if Iran peace deal is not reached",
+      "published": "Wed, 06 May 2026 22:01:00 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.186,
+      "raw_impact": 0.207,
+      "source_weight": 0.9,
+      "age_hours": 25.46,
+      "confidence": 0.81,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/05/05/hegseth-briefing-iran-strait-hormuz-ceasefire/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/05/05/hegseth-briefing-iran-strait-hormuz-ceasefire/"
+      ]
+    },
+    {
       "title": "Trump's 'irresponsible war' to blame for economic slowdown, German minister says",
       "published": "Thu, 07 May 2026 18:13:11 GMT",
       "actors": [
@@ -473,10 +577,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.161,
+      "impact": 0.037,
+      "raw_impact": 0.148,
       "source_weight": 1.0,
-      "age_hours": 3.81,
+      "age_hours": 5.25,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -507,10 +611,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.141,
+      "impact": 0.033,
+      "raw_impact": 0.13,
       "source_weight": 1.0,
-      "age_hours": 6.03,
+      "age_hours": 7.47,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -541,10 +645,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.152,
+      "impact": 0.032,
+      "raw_impact": 0.14,
       "source_weight": 0.9,
-      "age_hours": 4.75,
+      "age_hours": 6.2,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -575,10 +679,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.03,
-      "raw_impact": 0.132,
+      "impact": 0.027,
+      "raw_impact": 0.122,
       "source_weight": 0.9,
-      "age_hours": 7.17,
+      "age_hours": 8.62,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -609,10 +713,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.022,
-      "raw_impact": 0.106,
+      "impact": 0.021,
+      "raw_impact": 0.098,
       "source_weight": 0.85,
-      "age_hours": 10.95,
+      "age_hours": 12.4,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -646,7 +750,7 @@
       "impact": 0.003,
       "raw_impact": 0.009,
       "source_weight": 1.1,
-      "age_hours": 52.93,
+      "age_hours": 54.37,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -680,7 +784,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 384.81,
+      "age_hours": 386.26,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -714,7 +818,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 254.09,
+      "age_hours": 255.54,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -749,7 +853,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 343.02,
+      "age_hours": 344.46,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -783,7 +887,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 345.25,
+      "age_hours": 346.7,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -817,7 +921,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 345.42,
+      "age_hours": 346.87,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -966,16 +1070,16 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 231,
-    "classified_count": 24,
-    "paired_count": 24,
+    "event_count": 232,
+    "classified_count": 27,
+    "paired_count": 27,
     "valid_pair_updates": 6,
-    "top_driver_count": 24,
-    "total_signal": 8.7642,
+    "top_driver_count": 27,
+    "total_signal": 11.2543,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 110,
-      "no_signal": 65,
+      "no_actor": 107,
+      "no_signal": 66,
       "invalid_pair": 32,
       "low_confidence": 0,
       "classifier_error": 0,
