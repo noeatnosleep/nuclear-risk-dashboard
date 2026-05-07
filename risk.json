@@ -1,53 +1,53 @@
 {
-  "last_updated": "2026-05-07 15:13:49 UTC",
-  "probability": 21.27,
-  "uncertainty": 5.91,
+  "last_updated": "2026-05-07 17:17:13 UTC",
+  "probability": 22.29,
+  "uncertainty": 6.26,
   "state": {
-    "us_russia": 4.707449396732809,
-    "us_china": 3.9317716017424713,
-    "china_taiwan": 4.186354320348494,
-    "india_pakistan": 4.472907431140416,
+    "us_russia": 4.656174999042198,
+    "us_china": 4.178031916554304,
+    "china_taiwan": 4.235606383310861,
+    "india_pakistan": 4.485607072793346,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333333307143,
-    "iran_israel": 6.306292533361619,
+    "iran_us": 5.63333333331942,
+    "iran_israel": 6.45959290834836,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.8000000000746286,
+    "nk_sk": 2.8000000000396463,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.4343753794030425
+    "russia_ukraine": 6.762011920307866
   },
   "top_drivers": [
     {
-      "title": "US underlines 'strong relationship' with Vatican as Rubio meets pope after Trump criticism",
-      "published": "Thu, 07 May 2026 16:13:46 +0200",
+      "title": "U.S. intelligence says Iran can outlast Trump\u2019s Hormuz blockade for months",
+      "published": "Thu, 07 May 2026 15:19:08 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "strategic",
-      "impact": 0.77,
-      "raw_impact": 1.133,
-      "source_weight": 0.85,
-      "age_hours": 1.0,
-      "confidence": 0.865,
-      "signal_total": 1.2,
+      "class": "action",
+      "impact": 0.723,
+      "raw_impact": 0.803,
+      "source_weight": 0.9,
+      "age_hours": 1.97,
+      "confidence": 0.89,
+      "signal_total": 0.9,
       "signal_components": {
         "deescalation": 0.0,
-        "action": 0.0,
+        "action": 0.9,
         "movement": 0.0,
-        "strategic": 1.2,
+        "strategic": 0.0,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "http://www.euronews.com/2026/05/07/us-underlines-strong-relationship-with-vatican-as-rubio-meets-pope-after-trump-criticism",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
+      "link": "https://www.washingtonpost.com/national-security/2026/05/07/cia-intelligence-iran-trump-blockade-missiles/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.euronews.com"
+        "feeds.washingtonpost.com"
       ],
       "cluster_links": [
-        "http://www.euronews.com/2026/05/07/us-underlines-strong-relationship-with-vatican-as-rubio-meets-pope-after-trump-criticism"
+        "https://www.washingtonpost.com/national-security/2026/05/07/cia-intelligence-iran-trump-blockade-missiles/"
       ]
     },
     {
@@ -59,10 +59,10 @@
       ],
       "state_key": "us_china",
       "class": "action",
-      "impact": 0.769,
-      "raw_impact": 0.855,
+      "impact": 0.683,
+      "raw_impact": 0.759,
       "source_weight": 0.9,
-      "age_hours": 0.9,
+      "age_hours": 2.95,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.766,
-      "raw_impact": 0.851,
+      "impact": 0.68,
+      "raw_impact": 0.755,
       "source_weight": 0.9,
-      "age_hours": 0.98,
+      "age_hours": 3.03,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.694,
-      "raw_impact": 0.771,
+      "impact": 0.616,
+      "raw_impact": 0.684,
       "source_weight": 0.9,
-      "age_hours": 2.68,
+      "age_hours": 4.74,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -153,63 +153,65 @@
       ]
     },
     {
-      "title": "Russia strikes Kharkiv residential district as drone attacks escalate",
-      "published": "Thu, 07 May 2026 14:22:12 +0200",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.648,
-      "raw_impact": 0.763,
-      "source_weight": 0.85,
-      "age_hours": 2.86,
-      "confidence": 0.885,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "http://www.euronews.com/video/2026/05/07/russia-strikes-kharkiv-residential-district-as-drone-attacks-escalate",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.euronews.com"
-      ],
-      "cluster_links": [
-        "http://www.euronews.com/video/2026/05/07/russia-strikes-kharkiv-residential-district-as-drone-attacks-escalate"
-      ]
-    },
-    {
-      "title": "US Rubio seeks to ease tensions with US pope after Trump's attacks",
-      "published": "Thu, 07 May 2026 09:43:45 GMT",
+      "title": "Israel Says It Killed a Hezbollah Chief Near Beirut, Testing the Truce",
+      "published": "Thu, 07 May 2026 17:07:51 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.589,
-      "raw_impact": 0.655,
+      "impact": 0.58,
+      "raw_impact": 0.644,
       "source_weight": 0.9,
-      "age_hours": 5.5,
-      "confidence": 0.9,
-      "signal_total": 0.9,
+      "age_hours": 0.16,
+      "confidence": 0.698,
+      "signal_total": 0.65,
       "signal_components": {
-        "deescalation": 0.0,
+        "deescalation": -0.2,
         "action": 0.9,
         "movement": 0.0,
         "strategic": 0.0,
         "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.france24.com/en/video/20260507-us-rubio-seeks-to-ease-tensions-with-us-pope-after-trump-s-attacks",
+      "link": "https://www.nytimes.com/2026/05/07/world/middleeast/israel-hezbollah-commander-beirut-strike.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/05/07/world/middleeast/israel-hezbollah-commander-beirut-strike.html"
+      ]
+    },
+    {
+      "title": "Israel strikes Beirut and southern Lebanon despite truce",
+      "published": "Thu, 07 May 2026 16:08:09 GMT",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.547,
+      "raw_impact": 0.608,
+      "source_weight": 0.9,
+      "age_hours": 1.15,
+      "confidence": 0.688,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/video/20260507-israel-strikes-beirut-and-southern-lebanon-despite-truce",
       "source": "https://www.france24.com/en/rss",
       "source_domain": "www.france24.com",
       "corroboration_count": 1,
@@ -217,7 +219,7 @@
         "www.france24.com"
       ],
       "cluster_links": [
-        "https://www.france24.com/en/video/20260507-us-rubio-seeks-to-ease-tensions-with-us-pope-after-trump-s-attacks"
+        "https://www.france24.com/en/video/20260507-israel-strikes-beirut-and-southern-lebanon-despite-truce"
       ]
     },
     {
@@ -229,10 +231,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.553,
-      "raw_impact": 0.614,
+      "impact": 0.491,
+      "raw_impact": 0.546,
       "source_weight": 0.9,
-      "age_hours": 0.98,
+      "age_hours": 3.03,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -264,10 +266,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.453,
-      "raw_impact": 0.754,
+      "impact": 0.402,
+      "raw_impact": 0.67,
       "source_weight": 0.75,
-      "age_hours": 18.69,
+      "age_hours": 20.75,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -299,10 +301,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.3,
-      "raw_impact": 0.333,
+      "impact": 0.266,
+      "raw_impact": 0.296,
       "source_weight": 0.9,
-      "age_hours": 17.21,
+      "age_hours": 19.27,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -333,10 +335,10 @@
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.095,
-      "raw_impact": -0.105,
+      "impact": -0.084,
+      "raw_impact": -0.093,
       "source_weight": 1.0,
-      "age_hours": 11.12,
+      "age_hours": 13.18,
       "confidence": 0.77,
       "signal_total": -0.2,
       "signal_components": {
@@ -359,8 +361,42 @@
       ]
     },
     {
+      "title": "Rosenberg: Russia's Victory Day parade with no tanks a sign Ukraine war not going to plan",
+      "published": "Thu, 07 May 2026 16:00:05 GMT",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "rhetoric",
+      "impact": 0.046,
+      "raw_impact": 0.186,
+      "source_weight": 1.0,
+      "age_hours": 1.29,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cwy2gj2jlr8o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cwy2gj2jlr8o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Iran War Live Updates: U.S. Awaits Tehran\u2019s Response to Peace Proposal",
-      "published": "Thu, 07 May 2026 14:45:38 +0000",
+      "published": "Thu, 07 May 2026 17:07:53 +0000",
       "actors": [
         "iran",
         "us"
@@ -368,9 +404,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.044,
-      "raw_impact": 0.195,
+      "raw_impact": 0.198,
       "source_weight": 0.9,
-      "age_hours": 0.47,
+      "age_hours": 0.16,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -393,19 +429,19 @@
       ]
     },
     {
-      "title": "US-Israel war on Iran leaves Jordan\u2019s Petra nearly empty of tourists",
-      "published": "Thu, 07 May 2026 13:57:55 +0000",
+      "title": "EU prepares for \u2018potential\u2019 talks with Putin, says official",
+      "published": "Thu, 07 May 2026 16:41:27 GMT",
       "actors": [
-        "iran",
-        "us"
+        "russia",
+        "ukraine"
       ],
-      "state_key": "iran_us",
+      "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.186,
+      "impact": 0.043,
+      "raw_impact": 0.193,
       "source_weight": 0.9,
-      "age_hours": 1.27,
-      "confidence": 0.68,
+      "age_hours": 0.6,
+      "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
         "deescalation": 0.0,
@@ -415,30 +451,30 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.aljazeera.com/gallery/2026/5/7/us-israel-war-on-iran-leaves-jordans-petra-nearly-empty-of-tourists?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
+      "link": "https://www.ft.com/content/b093dae1-939b-47b4-96e4-40f212e87430",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.aljazeera.com"
+        "www.ft.com"
       ],
       "cluster_links": [
-        "https://www.aljazeera.com/gallery/2026/5/7/us-israel-war-on-iran-leaves-jordans-petra-nearly-empty-of-tourists?traffic_source=rss"
+        "https://www.ft.com/content/b093dae1-939b-47b4-96e4-40f212e87430"
       ]
     },
     {
       "title": "U.S. Awaits Iran\u2019s Response to Latest Peace Proposal to End War",
-      "published": "Thu, 07 May 2026 13:51:42 +0000",
+      "published": "Thu, 07 May 2026 15:18:06 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.185,
+      "impact": 0.04,
+      "raw_impact": 0.178,
       "source_weight": 0.9,
-      "age_hours": 1.37,
+      "age_hours": 1.99,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -461,6 +497,40 @@
       ]
     },
     {
+      "title": "Propaganda war: The Gen Z team behind Iran\u2019s hit anti-Trump videos",
+      "published": "Thu, 07 May 2026 14:51:18 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.039,
+      "raw_impact": 0.174,
+      "source_weight": 0.9,
+      "age_hours": 2.43,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 1.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/the-observers/20260507-propaganda-war-gen-z-team-behind-iran-hit-anti-trump-videos",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/the-observers/20260507-propaganda-war-gen-z-team-behind-iran-hit-anti-trump-videos"
+      ]
+    },
+    {
       "title": "Israel's war priorities sidelined as Trump pushes toward a limited deal with Iran",
       "published": "Thu, 07 May 2026 14:11:21 GMT",
       "actors": [
@@ -469,10 +539,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.188,
+      "impact": 0.038,
+      "raw_impact": 0.167,
       "source_weight": 0.9,
-      "age_hours": 1.04,
+      "age_hours": 3.1,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -495,6 +565,40 @@
       ]
     },
     {
+      "title": "US-Israel war on Iran leaves Jordan\u2019s Petra nearly empty of tourists",
+      "published": "Thu, 07 May 2026 13:57:55 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.037,
+      "raw_impact": 0.165,
+      "source_weight": 0.9,
+      "age_hours": 3.32,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/gallery/2026/5/7/us-israel-war-on-iran-leaves-jordans-petra-nearly-empty-of-tourists?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/gallery/2026/5/7/us-israel-war-on-iran-leaves-jordans-petra-nearly-empty-of-tourists?traffic_source=rss"
+      ]
+    },
+    {
       "title": "War in the Middle East: Satellite imagery reveal scale of damage to US bases in Gulf",
       "published": "Thu, 07 May 2026 14:09:26 GMT",
       "actors": [
@@ -503,10 +607,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.188,
+      "impact": 0.037,
+      "raw_impact": 0.167,
       "source_weight": 0.9,
-      "age_hours": 1.07,
+      "age_hours": 3.13,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -529,6 +633,40 @@
       ]
     },
     {
+      "title": "Rubio seeks to mend US\u00a0ties with Pope Leo",
+      "published": "Thu, 07 May 2026 13:24:14 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.036,
+      "raw_impact": 0.16,
+      "source_weight": 0.9,
+      "age_hours": 3.88,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/054423a4-56f4-48c6-b94e-345879eaf3ea",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/054423a4-56f4-48c6-b94e-345879eaf3ea"
+      ]
+    },
+    {
       "title": "Why is the US seeking UN help to open Hormuz after undermining it?",
       "published": "Thu, 07 May 2026 13:05:42 +0000",
       "actors": [
@@ -537,10 +675,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.177,
+      "impact": 0.035,
+      "raw_impact": 0.157,
       "source_weight": 0.9,
-      "age_hours": 2.14,
+      "age_hours": 4.19,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -571,10 +709,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.157,
+      "impact": 0.03,
+      "raw_impact": 0.14,
       "source_weight": 0.85,
-      "age_hours": 4.16,
+      "age_hours": 6.21,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -597,40 +735,6 @@
       ]
     },
     {
-      "title": "Rubio faces challenge in Pope Leo meeting after Trump's criticism over Iran",
-      "published": "Thu, 07 May 2026 09:44:26 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.146,
-      "source_weight": 0.9,
-      "age_hours": 5.49,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.france24.com/en/video/20260507-rubio-faces-challenge-in-pope-leo-meeting-after-trump-s-criticism-over-iran",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260507-rubio-faces-challenge-in-pope-leo-meeting-after-trump-s-criticism-over-iran"
-      ]
-    },
-    {
       "title": "Uncertainty continues over safety in the  Strait of Hormuz",
       "published": "Mon, 04 May 2026 12:00:00 +0000",
       "actors": [
@@ -639,10 +743,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.02,
-      "raw_impact": 0.018,
+      "impact": 0.017,
+      "raw_impact": 0.016,
       "source_weight": 1.1,
-      "age_hours": 75.23,
+      "age_hours": 77.29,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -675,9 +779,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.004,
-      "raw_impact": 0.014,
+      "raw_impact": 0.012,
       "source_weight": 1.1,
-      "age_hours": 46.13,
+      "age_hours": 48.19,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -711,7 +815,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 378.02,
+      "age_hours": 380.07,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -745,7 +849,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 247.3,
+      "age_hours": 249.35,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -780,7 +884,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 336.22,
+      "age_hours": 338.28,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -814,7 +918,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 338.46,
+      "age_hours": 340.51,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -848,7 +952,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 338.62,
+      "age_hours": 340.68,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -891,11 +995,6 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
-    },
-    {
-      "name": "euronews_world",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -983,14 +1082,14 @@
       "domain": "www.economist.com"
     },
     {
-      "name": "www.euronews.com",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
-    },
-    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
+    },
+    {
+      "name": "www.ft.com",
+      "url": "https://www.ft.com/world?format=rss",
+      "domain": "www.ft.com"
     },
     {
       "name": "www.iss.europa.eu",
@@ -1007,17 +1106,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 249,
-    "classified_count": 25,
-    "paired_count": 25,
+    "event_count": 230,
+    "classified_count": 28,
+    "paired_count": 28,
     "valid_pair_updates": 6,
-    "top_driver_count": 25,
-    "total_signal": 8.1484,
+    "top_driver_count": 28,
+    "total_signal": 7.7178,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 133,
-      "no_signal": 56,
-      "invalid_pair": 35,
+      "no_actor": 115,
+      "no_signal": 55,
+      "invalid_pair": 32,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
