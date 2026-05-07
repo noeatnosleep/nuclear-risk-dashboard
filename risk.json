@@ -1,79 +1,45 @@
 {
-  "last_updated": "2026-05-07 19:16:03 UTC",
-  "probability": 22.38,
-  "uncertainty": 6.2,
+  "last_updated": "2026-05-07 20:48:20 UTC",
+  "probability": 22.17,
+  "uncertainty": 6.03,
   "state": {
-    "us_russia": 4.558619873832044,
-    "us_china": 4.235025984176362,
-    "china_taiwan": 4.247005196835272,
-    "india_pakistan": 4.492353757421465,
+    "us_russia": 4.4815844654009895,
+    "us_china": 4.213516275555648,
+    "china_taiwan": 4.242703255111129,
+    "india_pakistan": 4.495937933630153,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333333325942,
-    "iran_israel": 6.5410337325600665,
+    "iran_us": 5.633333333329406,
+    "iran_israel": 6.584299170422535,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.800000000021062,
+    "nk_sk": 2.800000000011189,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 6.936068832663554
+    "russia_ukraine": 7.028536567352513
   },
   "top_drivers": [
     {
-      "title": "U.S. intelligence says Iran can outlast Trump\u2019s Hormuz blockade for months",
-      "published": "Thu, 07 May 2026 15:19:08 +0000",
+      "title": "Iran War Live Updates: Tehran Says It Is Discussing Plan With U.S. to End Hostilities",
+      "published": "Thu, 07 May 2026 20:39:44 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.645,
-      "raw_impact": 0.716,
+      "class": "strategic",
+      "impact": 0.857,
+      "raw_impact": 1.19,
       "source_weight": 0.9,
-      "age_hours": 3.95,
-      "confidence": 0.89,
-      "signal_total": 0.9,
+      "age_hours": 0.14,
+      "confidence": 0.95,
+      "signal_total": 1.2,
       "signal_components": {
         "deescalation": 0.0,
-        "action": 0.9,
+        "action": 0.0,
         "movement": 0.0,
-        "strategic": 0.0,
+        "strategic": 1.2,
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.washingtonpost.com/national-security/2026/05/07/cia-intelligence-iran-trump-blockade-missiles/",
-      "source": "https://feeds.washingtonpost.com/rss/world",
-      "source_domain": "feeds.washingtonpost.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.washingtonpost.com"
-      ],
-      "cluster_links": [
-        "https://www.washingtonpost.com/national-security/2026/05/07/cia-intelligence-iran-trump-blockade-missiles/"
-      ]
-    },
-    {
-      "title": "New NTSB Report Into Deadly China Eastern Crash Suggests Struggle in Cockpit",
-      "published": "Thu, 07 May 2026 14:20:08 +0000",
-      "actors": [
-        "us",
-        "china"
-      ],
-      "state_key": "us_china",
-      "class": "action",
-      "impact": 0.609,
-      "raw_impact": 0.677,
-      "source_weight": 0.9,
-      "age_hours": 4.93,
-      "confidence": 0.81,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/05/07/world/asia/china-eastern-plane-crash-flight-5735-ntsb.html",
+      "link": "https://www.nytimes.com/live/2026/05/07/world/iran-trump-hormuz-peace-deal",
       "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
@@ -81,22 +47,22 @@
         "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/05/07/world/asia/china-eastern-plane-crash-flight-5735-ntsb.html"
+        "https://www.nytimes.com/live/2026/05/07/world/iran-trump-hormuz-peace-deal"
       ]
     },
     {
       "title": "Russia Ramps Up Threats Toward Ukraine Over Victory Day Parade",
-      "published": "Thu, 07 May 2026 14:15:19 +0000",
+      "published": "Thu, 07 May 2026 20:35:32 +0000",
       "actors": [
         "russia",
         "ukraine"
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.606,
-      "raw_impact": 0.674,
+      "impact": 0.8,
+      "raw_impact": 0.889,
       "source_weight": 0.9,
-      "age_hours": 5.01,
+      "age_hours": 0.21,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -119,18 +85,18 @@
       ]
     },
     {
-      "title": "Rubio visits Rome aiming to repair White House ties with Pope Leo",
-      "published": "Thu, 07 May 2026 12:32:50 +0000",
+      "title": "As Stockpiles Fall, U.S. Sells More Missiles Worth $17 Billion to Gulf Nations",
+      "published": "Thu, 07 May 2026 20:32:43 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.549,
-      "raw_impact": 0.61,
+      "impact": 0.798,
+      "raw_impact": 0.887,
       "source_weight": 0.9,
-      "age_hours": 6.72,
+      "age_hours": 0.26,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -141,7 +107,41 @@
         "rhetoric": 0.0,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.washingtonpost.com/world/2026/05/07/trump-pope-leo-rubio-rift/",
+      "link": "https://www.nytimes.com/2026/05/07/us/politics/weapons-stockpiles-iran-war.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/05/07/us/politics/weapons-stockpiles-iran-war.html"
+      ]
+    },
+    {
+      "title": "U.S. intelligence says Iran can outlast Trump\u2019s Hormuz blockade for months",
+      "published": "Thu, 07 May 2026 15:19:08 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.59,
+      "raw_impact": 0.656,
+      "source_weight": 0.9,
+      "age_hours": 5.49,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/national-security/2026/05/07/cia-intelligence-iran-trump-blockade-missiles/",
       "source": "https://feeds.washingtonpost.com/rss/world",
       "source_domain": "feeds.washingtonpost.com",
       "corroboration_count": 1,
@@ -149,22 +149,91 @@
         "feeds.washingtonpost.com"
       ],
       "cluster_links": [
-        "https://www.washingtonpost.com/world/2026/05/07/trump-pope-leo-rubio-rift/"
+        "https://www.washingtonpost.com/national-security/2026/05/07/cia-intelligence-iran-trump-blockade-missiles/"
+      ]
+    },
+    {
+      "title": "Still no sign of a solution in Iran: US president says the war will be over soon",
+      "published": "Thu, 07 May 2026 18:17:16 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "strategic",
+      "impact": 0.585,
+      "raw_impact": 0.813,
+      "source_weight": 0.9,
+      "age_hours": 2.52,
+      "confidence": 0.756,
+      "signal_total": 0.94,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 1.2,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.06,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.france24.com/en/tv-shows/the-debate/20260507-still-no-sign-of-a-solution-in-iran-us-president-says-the-war-will-be-over-soon",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.france24.com"
+      ],
+      "cluster_links": [
+        "https://www.france24.com/en/tv-shows/the-debate/20260507-still-no-sign-of-a-solution-in-iran-us-president-says-the-war-will-be-over-soon"
+      ]
+    },
+    {
+      "title": "New NTSB Report Into Deadly China Eastern Crash Suggests Struggle in Cockpit",
+      "published": "Thu, 07 May 2026 14:20:08 +0000",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "action",
+      "impact": 0.557,
+      "raw_impact": 0.619,
+      "source_weight": 0.9,
+      "age_hours": 6.47,
+      "confidence": 0.81,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.nytimes.com/2026/05/07/world/asia/china-eastern-plane-crash-flight-5735-ntsb.html",
+      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "source_domain": "rss.nytimes.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "rss.nytimes.com"
+      ],
+      "cluster_links": [
+        "https://www.nytimes.com/2026/05/07/world/asia/china-eastern-plane-crash-flight-5735-ntsb.html"
       ]
     },
     {
       "title": "Israel Says It Killed a Hezbollah Chief Near Beirut, Testing the Truce",
-      "published": "Thu, 07 May 2026 17:21:28 +0000",
+      "published": "Thu, 07 May 2026 19:11:56 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.524,
-      "raw_impact": 0.582,
+      "impact": 0.533,
+      "raw_impact": 0.592,
       "source_weight": 0.9,
-      "age_hours": 1.91,
+      "age_hours": 1.61,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -188,6 +257,40 @@
       ]
     },
     {
+      "title": "Rubio visits Rome aiming to repair White House ties with Pope Leo",
+      "published": "Thu, 07 May 2026 12:32:50 +0000",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "action",
+      "impact": 0.503,
+      "raw_impact": 0.559,
+      "source_weight": 0.9,
+      "age_hours": 8.26,
+      "confidence": 0.89,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.washingtonpost.com/world/2026/05/07/trump-pope-leo-rubio-rift/",
+      "source": "https://feeds.washingtonpost.com/rss/world",
+      "source_domain": "feeds.washingtonpost.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.washingtonpost.com"
+      ],
+      "cluster_links": [
+        "https://www.washingtonpost.com/world/2026/05/07/trump-pope-leo-rubio-rift/"
+      ]
+    },
+    {
       "title": "Israel strikes Beirut and southern Lebanon despite truce",
       "published": "Thu, 07 May 2026 16:08:09 GMT",
       "actors": [
@@ -196,10 +299,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.488,
-      "raw_impact": 0.542,
+      "impact": 0.447,
+      "raw_impact": 0.496,
       "source_weight": 0.9,
-      "age_hours": 3.13,
+      "age_hours": 4.67,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -231,10 +334,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.438,
-      "raw_impact": 0.487,
+      "impact": 0.401,
+      "raw_impact": 0.445,
       "source_weight": 0.9,
-      "age_hours": 5.01,
+      "age_hours": 6.55,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -266,10 +369,10 @@
       ],
       "state_key": "us_russia",
       "class": "strategic",
-      "impact": 0.358,
-      "raw_impact": 0.597,
+      "impact": 0.328,
+      "raw_impact": 0.547,
       "source_weight": 0.75,
-      "age_hours": 22.73,
+      "age_hours": 24.27,
       "confidence": 0.798,
       "signal_total": 2.22,
       "signal_components": {
@@ -301,10 +404,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.237,
-      "raw_impact": 0.264,
+      "impact": 0.217,
+      "raw_impact": 0.241,
       "source_weight": 0.9,
-      "age_hours": 21.25,
+      "age_hours": 22.79,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -335,10 +438,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.047,
-      "raw_impact": 0.188,
+      "impact": 0.043,
+      "raw_impact": 0.172,
       "source_weight": 1.0,
-      "age_hours": 1.05,
+      "age_hours": 2.59,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -361,18 +464,18 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: U.S. Awaits Tehran\u2019s Response to Peace Proposal",
-      "published": "Thu, 07 May 2026 19:07:44 +0000",
+      "title": "U.S. Awaits Iran\u2019s Response to Latest Peace Proposal to End War",
+      "published": "Thu, 07 May 2026 19:59:53 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.045,
-      "raw_impact": 0.198,
+      "impact": 0.043,
+      "raw_impact": 0.191,
       "source_weight": 0.9,
-      "age_hours": 0.14,
+      "age_hours": 0.81,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -383,7 +486,7 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/live/2026/05/07/world/iran-trump-hormuz-peace-deal",
+      "link": "https://www.nytimes.com/live/2026/05/07/world/iran-trump-hormuz-peace-deal/iran-war-us-peace-plan-trump",
       "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       "source_domain": "rss.nytimes.com",
       "corroboration_count": 1,
@@ -391,7 +494,7 @@
         "rss.nytimes.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/live/2026/05/07/world/iran-trump-hormuz-peace-deal"
+        "https://www.nytimes.com/live/2026/05/07/world/iran-trump-hormuz-peace-deal/iran-war-us-peace-plan-trump"
       ]
     },
     {
@@ -403,10 +506,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.042,
-      "raw_impact": 0.166,
+      "impact": 0.038,
+      "raw_impact": 0.152,
       "source_weight": 1.0,
-      "age_hours": 3.27,
+      "age_hours": 4.8,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -437,10 +540,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.178,
+      "impact": 0.037,
+      "raw_impact": 0.163,
       "source_weight": 0.9,
-      "age_hours": 1.99,
+      "age_hours": 3.53,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -463,40 +566,6 @@
       ]
     },
     {
-      "title": "U.S. Awaits Iran\u2019s Response to Latest Peace Proposal to End War",
-      "published": "Thu, 07 May 2026 15:18:06 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.036,
-      "raw_impact": 0.159,
-      "source_weight": 0.9,
-      "age_hours": 3.97,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/live/2026/05/07/world/iran-trump-hormuz-peace-deal/iran-war-us-peace-plan-trump",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/live/2026/05/07/world/iran-trump-hormuz-peace-deal/iran-war-us-peace-plan-trump"
-      ]
-    },
-    {
       "title": "Propaganda war: The Gen Z team behind Iran\u2019s hit anti-Trump videos",
       "published": "Thu, 07 May 2026 14:51:18 GMT",
       "actors": [
@@ -505,10 +574,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.155,
+      "impact": 0.032,
+      "raw_impact": 0.142,
       "source_weight": 0.9,
-      "age_hours": 4.41,
+      "age_hours": 5.95,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -539,10 +608,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.149,
+      "impact": 0.031,
+      "raw_impact": 0.136,
       "source_weight": 0.9,
-      "age_hours": 5.08,
+      "age_hours": 6.62,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -565,40 +634,6 @@
       ]
     },
     {
-      "title": "War in the Middle East: Satellite imagery reveal scale of damage to US bases in Gulf",
-      "published": "Thu, 07 May 2026 14:09:26 GMT",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.034,
-      "raw_impact": 0.149,
-      "source_weight": 0.9,
-      "age_hours": 5.11,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 1.0
-      },
-      "link": "https://www.france24.com/en/video/20260507-war-in-the-middle-east-satellite-imagery-reveal-scale-of-damage-to-us-bases-in-gulf",
-      "source": "https://www.france24.com/en/rss",
-      "source_domain": "www.france24.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.france24.com"
-      ],
-      "cluster_links": [
-        "https://www.france24.com/en/video/20260507-war-in-the-middle-east-satellite-imagery-reveal-scale-of-damage-to-us-bases-in-gulf"
-      ]
-    },
-    {
       "title": "Iran reviews U.S. proposal. And, Rubio to meet Pope Leo after Trump's criticism",
       "published": "Thu, 07 May 2026 07:04:29 -0400",
       "actors": [
@@ -607,10 +642,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.026,
-      "raw_impact": 0.125,
+      "impact": 0.024,
+      "raw_impact": 0.114,
       "source_weight": 0.85,
-      "age_hours": 8.19,
+      "age_hours": 9.73,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -633,41 +668,6 @@
       ]
     },
     {
-      "title": "Uncertainty continues over safety in the  Strait of Hormuz",
-      "published": "Mon, 04 May 2026 12:00:00 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "action",
-      "impact": 0.015,
-      "raw_impact": 0.014,
-      "source_weight": 1.1,
-      "age_hours": 79.27,
-      "confidence": 0.979,
-      "signal_total": 1.37,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.5,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "contradiction_adjustment": -0.03,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://news.un.org/feed/view/en/story/2026/05/1167432",
-      "source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "source_domain": "news.un.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "news.un.org"
-      ],
-      "cluster_links": [
-        "https://news.un.org/feed/view/en/story/2026/05/1167432"
-      ]
-    },
-    {
       "title": "'Project Freedom' Aims to Get Thousands of Commercial Ships Safely Through Strait of Hormuz",
       "published": "Tue, 05 May 2026 17:06:00 GMT",
       "actors": [
@@ -677,9 +677,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.003,
-      "raw_impact": 0.011,
+      "raw_impact": 0.01,
       "source_weight": 1.1,
-      "age_hours": 50.17,
+      "age_hours": 51.71,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -713,7 +713,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 382.05,
+      "age_hours": 383.59,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -747,7 +747,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 251.34,
+      "age_hours": 252.87,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -782,7 +782,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 340.26,
+      "age_hours": 341.8,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -816,7 +816,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 342.5,
+      "age_hours": 344.03,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -850,7 +850,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 342.66,
+      "age_hours": 344.2,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -930,11 +930,6 @@
       "domain": "www.iss.europa.eu"
     },
     {
-      "name": "news.un.org",
-      "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
-      "domain": "news.un.org"
-    },
-    {
       "name": "npr_world",
       "url": "https://feeds.npr.org/1004/rss.xml",
       "domain": "feeds.npr.org"
@@ -999,17 +994,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 230,
+    "event_count": 231,
     "classified_count": 25,
     "paired_count": 25,
     "valid_pair_updates": 6,
     "top_driver_count": 25,
-    "total_signal": 6.7826,
+    "total_signal": 9.3497,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 114,
-      "no_signal": 58,
-      "invalid_pair": 33,
+      "no_actor": 108,
+      "no_signal": 64,
+      "invalid_pair": 34,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
