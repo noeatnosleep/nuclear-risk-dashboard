@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-05-07 01:17:32 UTC",
-  "probability": 17.84,
-  "uncertainty": 6.21,
+  "last_updated": "2026-05-07 04:57:52 UTC",
+  "probability": 17.79,
+  "uncertainty": 6.36,
   "state": {
-    "us_russia": 3.5141091424225563,
-    "us_china": 3.9960457972785406,
-    "china_taiwan": 4.199209159455708,
-    "india_pakistan": 4.265504598469295,
+    "us_russia": 3.4712676439877863,
+    "us_china": 3.950071678339673,
+    "china_taiwan": 4.190014335667935,
+    "india_pakistan": 4.292514808925996,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333332714386,
-    "iran_israel": 6.154537497457193,
+    "iran_us": 5.633333333004518,
+    "iran_israel": 6.378973045524134,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.800000001763644,
+    "nk_sk": 2.800000000936936,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.068864803060222
+    "russia_ukraine": 7.099084426625743
   },
   "top_drivers": [
     {
@@ -25,10 +25,10 @@
       ],
       "state_key": "iran_israel",
       "class": "action",
-      "impact": 0.752,
-      "raw_impact": 0.835,
+      "impact": 0.608,
+      "raw_impact": 0.676,
       "source_weight": 0.9,
-      "age_hours": 1.29,
+      "age_hours": 4.96,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -59,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.718,
-      "raw_impact": 0.997,
+      "impact": 0.581,
+      "raw_impact": 0.807,
       "source_weight": 0.9,
-      "age_hours": 3.2,
+      "age_hours": 6.87,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -93,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.689,
-      "raw_impact": 0.766,
+      "impact": 0.557,
+      "raw_impact": 0.619,
       "source_weight": 0.9,
-      "age_hours": 2.8,
+      "age_hours": 6.47,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.67,
-      "raw_impact": 0.745,
+      "impact": 0.542,
+      "raw_impact": 0.602,
       "source_weight": 0.9,
-      "age_hours": 3.28,
+      "age_hours": 6.95,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -153,53 +153,19 @@
       ]
     },
     {
-      "title": "Trump says had \u2018very good talks\u2019 with Iran as Tehran reviews US proposal",
-      "published": "Wed, 06 May 2026 21:17:47 +0000",
+      "title": "Middle East war live: Trump says Iran war will be 'over quickly'",
+      "published": "Thu, 07 May 2026 02:37:26 GMT",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.643,
-      "raw_impact": 0.714,
+      "impact": 0.511,
+      "raw_impact": 0.568,
       "source_weight": 0.9,
-      "age_hours": 4.0,
-      "confidence": 0.89,
-      "signal_total": 0.9,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.9,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.0,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.aljazeera.com/news/2026/5/6/trump-says-had-very-good-talks-with-iran-as-tehran-reviews-us-proposal?traffic_source=rss",
-      "source": "https://www.aljazeera.com/xml/rss/all.xml",
-      "source_domain": "www.aljazeera.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "www.aljazeera.com"
-      ],
-      "cluster_links": [
-        "https://www.aljazeera.com/news/2026/5/6/trump-says-had-very-good-talks-with-iran-as-tehran-reviews-us-proposal?traffic_source=rss"
-      ]
-    },
-    {
-      "title": "\u2019Ukraine will respond in kind\u2019, Zelenskyy says after Russia breaks Kyiv\u2019s ceasefire",
-      "published": "Wed, 06 May 2026 21:34:48 +0200",
-      "actors": [
-        "russia",
-        "ukraine"
-      ],
-      "state_key": "russia_ukraine",
-      "class": "action",
-      "impact": 0.397,
-      "raw_impact": 0.467,
-      "source_weight": 0.85,
-      "age_hours": 5.71,
-      "confidence": 0.683,
+      "age_hours": 2.34,
+      "confidence": 0.608,
       "signal_total": 0.65,
       "signal_components": {
         "deescalation": -0.2,
@@ -210,15 +176,15 @@
         "contradiction_adjustment": -0.05,
         "deescalation_verified": 0.0
       },
-      "link": "http://www.euronews.com/2026/05/06/ukraine-will-respond-in-kind-zelenskyy-says-after-russia-breaks-kyivs-ceasefire",
-      "source": "https://www.euronews.com/rss?format=mrss",
-      "source_domain": "www.euronews.com",
+      "link": "https://www.france24.com/en/middle-east/20260507-middle-east-war-live-source-close-to-hezbollah-says-top-commander-killed-in-israeli-strike",
+      "source": "https://www.france24.com/en/rss",
+      "source_domain": "www.france24.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "www.euronews.com"
+        "www.france24.com"
       ],
       "cluster_links": [
-        "http://www.euronews.com/2026/05/06/ukraine-will-respond-in-kind-zelenskyy-says-after-russia-breaks-kyivs-ceasefire"
+        "https://www.france24.com/en/middle-east/20260507-middle-east-war-live-source-close-to-hezbollah-says-top-commander-killed-in-israeli-strike"
       ]
     },
     {
@@ -230,10 +196,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.3,
-      "raw_impact": 0.3,
+      "impact": 0.242,
+      "raw_impact": 0.242,
       "source_weight": 1.0,
-      "age_hours": 13.4,
+      "age_hours": 17.08,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -265,10 +231,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.278,
-      "raw_impact": 0.363,
+      "impact": 0.224,
+      "raw_impact": 0.294,
       "source_weight": 0.9,
-      "age_hours": 5.55,
+      "age_hours": 9.22,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -291,6 +257,40 @@
       ]
     },
     {
+      "title": "Iran considering US proposal as Trump says war will be 'over quickly'",
+      "published": "Thu, 07 May 2026 04:06:33 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "deescalation",
+      "impact": -0.171,
+      "raw_impact": -0.19,
+      "source_weight": 1.0,
+      "age_hours": 0.86,
+      "confidence": 0.77,
+      "signal_total": -0.2,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.bbc.com/news/articles/cj0pq2q8221o?at_medium=RSS&at_campaign=rss",
+      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "source_domain": "feeds.bbci.co.uk",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "feeds.bbci.co.uk"
+      ],
+      "cluster_links": [
+        "https://www.bbc.com/news/articles/cj0pq2q8221o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "title": "Zelenskyy slams Russia as strikes kill 22 in Ukraine before announced ceasefire",
       "published": "Wed, 06 May 2026 02:27:48 -0400",
       "actors": [
@@ -299,10 +299,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.186,
-      "raw_impact": 0.219,
+      "impact": 0.151,
+      "raw_impact": 0.177,
       "source_weight": 0.85,
-      "age_hours": 18.83,
+      "age_hours": 22.5,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -326,18 +326,18 @@
       ]
     },
     {
-      "title": "Iran War Live Updates: Tehran and U.S. Offer Conflicting Messages on State of Negotiations",
-      "published": "Wed, 06 May 2026 23:53:20 +0000",
+      "title": "Iran War Updates: Tehran and U.S. Offer Conflicting Messages on State of Negotiations",
+      "published": "Thu, 07 May 2026 02:22:06 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.149,
-      "raw_impact": -0.184,
+      "impact": -0.14,
+      "raw_impact": -0.172,
       "source_weight": 0.9,
-      "age_hours": 1.4,
+      "age_hours": 2.6,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -368,10 +368,10 @@
       ],
       "state_key": "us_china",
       "class": "movement",
-      "impact": 0.139,
-      "raw_impact": 0.193,
+      "impact": 0.112,
+      "raw_impact": 0.156,
       "source_weight": 0.85,
-      "age_hours": 16.52,
+      "age_hours": 20.19,
       "confidence": 0.735,
       "signal_total": 0.5,
       "signal_components": {
@@ -402,10 +402,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.116,
-      "raw_impact": 0.116,
+      "impact": 0.093,
+      "raw_impact": 0.093,
       "source_weight": 1.0,
-      "age_hours": 29.9,
+      "age_hours": 33.58,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -437,10 +437,10 @@
       ],
       "state_key": "india_pakistan",
       "class": "deescalation",
-      "impact": -0.092,
-      "raw_impact": -0.114,
+      "impact": -0.075,
+      "raw_impact": -0.092,
       "source_weight": 0.9,
-      "age_hours": 9.75,
+      "age_hours": 13.42,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -471,10 +471,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.063,
-      "raw_impact": 0.07,
+      "impact": 0.051,
+      "raw_impact": 0.056,
       "source_weight": 0.9,
-      "age_hours": 38.64,
+      "age_hours": 42.31,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -498,6 +498,74 @@
       ]
     },
     {
+      "title": "\u2018Maga divorce\u2019: how Trump\u2019s Iran war is splitting the US right",
+      "published": "Thu, 07 May 2026 04:00:04 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.189,
+      "source_weight": 0.9,
+      "age_hours": 0.96,
+      "confidence": 0.67,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/32d37b38-9585-487d-898e-337672d071da",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/32d37b38-9585-487d-898e-337672d071da"
+      ]
+    },
+    {
+      "title": "Ukraine, Iran and the lessons of war",
+      "published": "Thu, 07 May 2026 04:00:00 GMT",
+      "actors": [
+        "iran",
+        "us"
+      ],
+      "state_key": "iran_us",
+      "class": "rhetoric",
+      "impact": 0.043,
+      "raw_impact": 0.189,
+      "source_weight": 0.9,
+      "age_hours": 0.96,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.ft.com/content/25f10f5c-cb0d-4100-bf6c-6e5dd1bcc0f6",
+      "source": "https://www.ft.com/world?format=rss",
+      "source_domain": "www.ft.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.ft.com"
+      ],
+      "cluster_links": [
+        "https://www.ft.com/content/25f10f5c-cb0d-4100-bf6c-6e5dd1bcc0f6"
+      ]
+    },
+    {
       "title": "Uncertainty continues over safety in the  Strait of Hormuz",
       "published": "Mon, 04 May 2026 12:00:00 +0000",
       "actors": [
@@ -506,10 +574,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.044,
-      "raw_impact": 0.04,
+      "impact": 0.035,
+      "raw_impact": 0.032,
       "source_weight": 1.1,
-      "age_hours": 61.29,
+      "age_hours": 64.96,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -541,10 +609,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.041,
-      "raw_impact": 0.183,
+      "impact": 0.033,
+      "raw_impact": 0.148,
       "source_weight": 0.9,
-      "age_hours": 1.58,
+      "age_hours": 5.25,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -567,52 +635,18 @@
       ]
     },
     {
-      "title": "Iran considering US proposal to end war, official says",
-      "published": "Wed, 06 May 2026 21:27:59 GMT",
+      "title": "Trump says war will be \u2018over quickly\u2019 as Iran reviews US peace proposal",
+      "published": "Wed, 06 May 2026 21:17:47 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.04,
-      "raw_impact": 0.16,
-      "source_weight": 1.0,
-      "age_hours": 3.83,
-      "confidence": 0.68,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.bbc.com/news/articles/cj0pq2q8221o?at_medium=RSS&at_campaign=rss",
-      "source": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "source_domain": "feeds.bbci.co.uk",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.bbci.co.uk"
-      ],
-      "cluster_links": [
-        "https://www.bbc.com/news/articles/cj0pq2q8221o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "title": "Iran Says It Is Reviewing a U.S. Proposal to End the War",
-      "published": "Wed, 06 May 2026 21:02:23 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.035,
-      "raw_impact": 0.156,
+      "impact": 0.029,
+      "raw_impact": 0.128,
       "source_weight": 0.9,
-      "age_hours": 4.25,
+      "age_hours": 7.67,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -623,15 +657,15 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.nytimes.com/2026/05/06/world/middleeast/us-iran-peace-proposal.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
+      "link": "https://www.aljazeera.com/news/2026/5/6/trump-says-had-very-good-talks-with-iran-as-tehran-reviews-us-proposal?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
       "corroboration_count": 1,
       "cluster_sources": [
-        "rss.nytimes.com"
+        "www.aljazeera.com"
       ],
       "cluster_links": [
-        "https://www.nytimes.com/2026/05/06/world/middleeast/us-iran-peace-proposal.html"
+        "https://www.aljazeera.com/news/2026/5/6/trump-says-had-very-good-talks-with-iran-as-tehran-reviews-us-proposal?traffic_source=rss"
       ]
     },
     {
@@ -643,10 +677,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.118,
+      "impact": 0.024,
+      "raw_impact": 0.096,
       "source_weight": 1.0,
-      "age_hours": 9.1,
+      "age_hours": 12.77,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -677,10 +711,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.029,
-      "raw_impact": 0.131,
+      "impact": 0.024,
+      "raw_impact": 0.106,
       "source_weight": 0.9,
-      "age_hours": 7.3,
+      "age_hours": 10.97,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -711,10 +745,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.018,
-      "raw_impact": 0.083,
+      "impact": 0.015,
+      "raw_impact": 0.067,
       "source_weight": 0.9,
-      "age_hours": 15.31,
+      "age_hours": 18.98,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -745,10 +779,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.031,
+      "impact": 0.007,
+      "raw_impact": 0.025,
       "source_weight": 1.1,
-      "age_hours": 32.19,
+      "age_hours": 35.86,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -779,10 +813,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.008,
-      "raw_impact": 0.038,
+      "impact": 0.006,
+      "raw_impact": 0.031,
       "source_weight": 0.85,
-      "age_hours": 28.56,
+      "age_hours": 32.23,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -816,7 +850,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 364.08,
+      "age_hours": 367.75,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -850,7 +884,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 233.36,
+      "age_hours": 237.03,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -885,7 +919,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 322.28,
+      "age_hours": 325.96,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -919,7 +953,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 324.52,
+      "age_hours": 328.19,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -953,7 +987,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 324.69,
+      "age_hours": 328.36,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -996,11 +1030,6 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
-    },
-    {
-      "name": "euronews_world",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1088,14 +1117,14 @@
       "domain": "www.economist.com"
     },
     {
-      "name": "www.euronews.com",
-      "url": "https://www.euronews.com/rss?format=mrss",
-      "domain": "www.euronews.com"
-    },
-    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
+    },
+    {
+      "name": "www.ft.com",
+      "url": "https://www.ft.com/world?format=rss",
+      "domain": "www.ft.com"
     },
     {
       "name": "www.iss.europa.eu",
@@ -1112,17 +1141,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 251,
-    "classified_count": 28,
-    "paired_count": 28,
+    "event_count": 231,
+    "classified_count": 29,
+    "paired_count": 29,
     "valid_pair_updates": 7,
-    "top_driver_count": 28,
-    "total_signal": 6.8928,
+    "top_driver_count": 29,
+    "total_signal": 5.2128,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 120,
-      "no_signal": 64,
-      "invalid_pair": 39,
+      "no_actor": 113,
+      "no_signal": 56,
+      "invalid_pair": 33,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
