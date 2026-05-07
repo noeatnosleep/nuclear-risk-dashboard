@@ -1,21 +1,55 @@
 {
-  "last_updated": "2026-05-06 23:27:25 UTC",
-  "probability": 17.15,
-  "uncertainty": 6.27,
+  "last_updated": "2026-05-07 01:17:32 UTC",
+  "probability": 17.84,
+  "uncertainty": 6.21,
   "state": {
-    "us_russia": 3.473548808488975,
-    "us_china": 3.8953731399916327,
-    "china_taiwan": 4.179074627998326,
-    "india_pakistan": 4.2515372243377065,
+    "us_russia": 3.5141091424225563,
+    "us_china": 3.9960457972785406,
+    "china_taiwan": 4.199209159455708,
+    "india_pakistan": 4.265504598469295,
     "china_india": 2.8000000000000003,
-    "iran_us": 5.633333332168256,
-    "iran_israel": 5.732070583448834,
+    "iran_us": 5.633333332714386,
+    "iran_israel": 6.154537497457193,
     "nk_us": 3.0000000000000004,
-    "nk_sk": 2.800000003319801,
+    "nk_sk": 2.800000001763644,
     "nk_japan": 2.6000000000000005,
-    "russia_ukraine": 7.011980805760419
+    "russia_ukraine": 7.068864803060222
   },
   "top_drivers": [
+    {
+      "title": "Iran war live: Trump says deal with Tehran \u2018possible\u2019; Israel bombs Beirut",
+      "published": "Thu, 07 May 2026 00:00:00 +0000",
+      "actors": [
+        "iran",
+        "israel"
+      ],
+      "state_key": "iran_israel",
+      "class": "action",
+      "impact": 0.752,
+      "raw_impact": 0.835,
+      "source_weight": 0.9,
+      "age_hours": 1.29,
+      "confidence": 0.81,
+      "signal_total": 0.9,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/news/liveblog/2026/5/7/iran-war-live-trump-says-deal-with-tehran-possible-israel-bombs-beirut?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/news/liveblog/2026/5/7/iran-war-live-trump-says-deal-with-tehran-possible-israel-bombs-beirut?traffic_source=rss"
+      ]
+    },
     {
       "title": "In rare push, US lawmakers demand transparency on Israel nuclear capability",
       "published": "Wed, 06 May 2026 22:05:28 +0000",
@@ -25,10 +59,10 @@
       ],
       "state_key": "iran_us",
       "class": "strategic",
-      "impact": 0.798,
-      "raw_impact": 1.109,
+      "impact": 0.718,
+      "raw_impact": 0.997,
       "source_weight": 0.9,
-      "age_hours": 1.37,
+      "age_hours": 3.2,
       "confidence": 0.96,
       "signal_total": 1.2,
       "signal_components": {
@@ -59,10 +93,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.766,
-      "raw_impact": 0.851,
+      "impact": 0.689,
+      "raw_impact": 0.766,
       "source_weight": 0.9,
-      "age_hours": 0.96,
+      "age_hours": 2.8,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -93,10 +127,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.745,
-      "raw_impact": 0.828,
+      "impact": 0.67,
+      "raw_impact": 0.745,
       "source_weight": 0.9,
-      "age_hours": 1.44,
+      "age_hours": 3.28,
       "confidence": 0.81,
       "signal_total": 0.9,
       "signal_components": {
@@ -127,10 +161,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.715,
-      "raw_impact": 0.794,
+      "impact": 0.643,
+      "raw_impact": 0.714,
       "source_weight": 0.9,
-      "age_hours": 2.16,
+      "age_hours": 4.0,
       "confidence": 0.89,
       "signal_total": 0.9,
       "signal_components": {
@@ -153,6 +187,41 @@
       ]
     },
     {
+      "title": "\u2019Ukraine will respond in kind\u2019, Zelenskyy says after Russia breaks Kyiv\u2019s ceasefire",
+      "published": "Wed, 06 May 2026 21:34:48 +0200",
+      "actors": [
+        "russia",
+        "ukraine"
+      ],
+      "state_key": "russia_ukraine",
+      "class": "action",
+      "impact": 0.397,
+      "raw_impact": 0.467,
+      "source_weight": 0.85,
+      "age_hours": 5.71,
+      "confidence": 0.683,
+      "signal_total": 0.65,
+      "signal_components": {
+        "deescalation": -0.2,
+        "action": 0.9,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.0,
+        "contradiction_adjustment": -0.05,
+        "deescalation_verified": 0.0
+      },
+      "link": "http://www.euronews.com/2026/05/06/ukraine-will-respond-in-kind-zelenskyy-says-after-russia-breaks-kyivs-ceasefire",
+      "source": "https://www.euronews.com/rss?format=mrss",
+      "source_domain": "www.euronews.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.euronews.com"
+      ],
+      "cluster_links": [
+        "http://www.euronews.com/2026/05/06/ukraine-will-respond-in-kind-zelenskyy-says-after-russia-breaks-kyivs-ceasefire"
+      ]
+    },
+    {
       "title": "Russia ignores Ukraine's unilateral ceasefire and attacks kindergarten",
       "published": "Wed, 06 May 2026 11:53:20 GMT",
       "actors": [
@@ -161,10 +230,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.333,
-      "raw_impact": 0.333,
+      "impact": 0.3,
+      "raw_impact": 0.3,
       "source_weight": 1.0,
-      "age_hours": 11.57,
+      "age_hours": 13.4,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -196,10 +265,10 @@
       ],
       "state_key": "iran_us",
       "class": "movement",
-      "impact": 0.309,
-      "raw_impact": 0.403,
+      "impact": 0.278,
+      "raw_impact": 0.363,
       "source_weight": 0.9,
-      "age_hours": 3.71,
+      "age_hours": 5.55,
       "confidence": 0.73,
       "signal_total": 0.5,
       "signal_components": {
@@ -230,10 +299,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.207,
-      "raw_impact": 0.244,
+      "impact": 0.186,
+      "raw_impact": 0.219,
       "source_weight": 0.85,
-      "age_hours": 16.99,
+      "age_hours": 18.83,
       "confidence": 0.683,
       "signal_total": 0.65,
       "signal_components": {
@@ -258,17 +327,17 @@
     },
     {
       "title": "Iran War Live Updates: Tehran and U.S. Offer Conflicting Messages on State of Negotiations",
-      "published": "Wed, 06 May 2026 23:11:42 +0000",
+      "published": "Wed, 06 May 2026 23:53:20 +0000",
       "actors": [
         "iran",
         "us"
       ],
       "state_key": "iran_us",
       "class": "deescalation",
-      "impact": -0.159,
-      "raw_impact": -0.197,
+      "impact": -0.149,
+      "raw_impact": -0.184,
       "source_weight": 0.9,
-      "age_hours": 0.26,
+      "age_hours": 1.4,
       "confidence": 0.68,
       "signal_total": -0.2,
       "signal_components": {
@@ -299,10 +368,10 @@
       ],
       "state_key": "us_china",
       "class": "movement",
-      "impact": 0.155,
-      "raw_impact": 0.214,
+      "impact": 0.139,
+      "raw_impact": 0.193,
       "source_weight": 0.85,
-      "age_hours": 14.69,
+      "age_hours": 16.52,
       "confidence": 0.735,
       "signal_total": 0.5,
       "signal_components": {
@@ -333,10 +402,10 @@
       ],
       "state_key": "russia_ukraine",
       "class": "action",
-      "impact": 0.128,
-      "raw_impact": 0.128,
+      "impact": 0.116,
+      "raw_impact": 0.116,
       "source_weight": 1.0,
-      "age_hours": 28.07,
+      "age_hours": 29.9,
       "confidence": 0.698,
       "signal_total": 0.65,
       "signal_components": {
@@ -368,10 +437,10 @@
       ],
       "state_key": "india_pakistan",
       "class": "deescalation",
-      "impact": -0.103,
-      "raw_impact": -0.127,
+      "impact": -0.092,
+      "raw_impact": -0.114,
       "source_weight": 0.9,
-      "age_hours": 7.91,
+      "age_hours": 9.75,
       "confidence": 0.76,
       "signal_total": -0.2,
       "signal_components": {
@@ -402,10 +471,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.07,
-      "raw_impact": 0.078,
+      "impact": 0.063,
+      "raw_impact": 0.07,
       "source_weight": 0.9,
-      "age_hours": 36.8,
+      "age_hours": 38.64,
       "confidence": 0.688,
       "signal_total": 0.65,
       "signal_components": {
@@ -437,10 +506,10 @@
       ],
       "state_key": "iran_us",
       "class": "action",
-      "impact": 0.049,
-      "raw_impact": 0.044,
+      "impact": 0.044,
+      "raw_impact": 0.04,
       "source_weight": 1.1,
-      "age_hours": 59.46,
+      "age_hours": 61.29,
       "confidence": 0.979,
       "signal_total": 1.37,
       "signal_components": {
@@ -464,6 +533,40 @@
       ]
     },
     {
+      "title": "What are China\u2019s surprise gains in the war on Iran?",
+      "published": "Wed, 06 May 2026 23:43:00 +0000",
+      "actors": [
+        "us",
+        "china"
+      ],
+      "state_key": "us_china",
+      "class": "rhetoric",
+      "impact": 0.041,
+      "raw_impact": 0.183,
+      "source_weight": 0.9,
+      "age_hours": 1.58,
+      "confidence": 0.68,
+      "signal_total": 0.2,
+      "signal_components": {
+        "deescalation": 0.0,
+        "action": 0.0,
+        "movement": 0.0,
+        "strategic": 0.0,
+        "rhetoric": 0.2,
+        "deescalation_verified": 0.0
+      },
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/5/6/what-are-chinas-surprise-gains-in-the-war-on-iran?traffic_source=rss",
+      "source": "https://www.aljazeera.com/xml/rss/all.xml",
+      "source_domain": "www.aljazeera.com",
+      "corroboration_count": 1,
+      "cluster_sources": [
+        "www.aljazeera.com"
+      ],
+      "cluster_links": [
+        "https://www.aljazeera.com/video/newsfeed/2026/5/6/what-are-chinas-surprise-gains-in-the-war-on-iran?traffic_source=rss"
+      ]
+    },
+    {
       "title": "Iran considering US proposal to end war, official says",
       "published": "Wed, 06 May 2026 21:27:59 GMT",
       "actors": [
@@ -472,10 +575,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.044,
-      "raw_impact": 0.178,
+      "impact": 0.04,
+      "raw_impact": 0.16,
       "source_weight": 1.0,
-      "age_hours": 1.99,
+      "age_hours": 3.83,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -506,10 +609,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.039,
-      "raw_impact": 0.174,
+      "impact": 0.035,
+      "raw_impact": 0.156,
       "source_weight": 0.9,
-      "age_hours": 2.42,
+      "age_hours": 4.25,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -532,40 +635,6 @@
       ]
     },
     {
-      "title": "Macron Calls for U.S. and Iran to Open Strait of Hormuz While They Negotiate",
-      "published": "Wed, 06 May 2026 19:57:20 +0000",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.037,
-      "raw_impact": 0.163,
-      "source_weight": 0.9,
-      "age_hours": 3.5,
-      "confidence": 0.67,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.nytimes.com/2026/05/06/world/middleeast/france-macron-strait-of-hormuz-iran-us.html",
-      "source": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-      "source_domain": "rss.nytimes.com",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "rss.nytimes.com"
-      ],
-      "cluster_links": [
-        "https://www.nytimes.com/2026/05/06/world/middleeast/france-macron-strait-of-hormuz-iran-us.html"
-      ]
-    },
-    {
       "title": "Oil prices drop and stock markets rise after reports of deal to end Iran war",
       "published": "Wed, 06 May 2026 16:11:44 GMT",
       "actors": [
@@ -574,10 +643,10 @@
       ],
       "state_key": "iran_us",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.131,
+      "impact": 0.029,
+      "raw_impact": 0.118,
       "source_weight": 1.0,
-      "age_hours": 7.26,
+      "age_hours": 9.1,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -608,10 +677,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.033,
-      "raw_impact": 0.146,
+      "impact": 0.029,
+      "raw_impact": 0.131,
       "source_weight": 0.9,
-      "age_hours": 5.47,
+      "age_hours": 7.3,
       "confidence": 0.67,
       "signal_total": 0.2,
       "signal_components": {
@@ -642,10 +711,10 @@
       ],
       "state_key": "us_china",
       "class": "rhetoric",
-      "impact": 0.021,
-      "raw_impact": 0.092,
+      "impact": 0.018,
+      "raw_impact": 0.083,
       "source_weight": 0.9,
-      "age_hours": 13.48,
+      "age_hours": 15.31,
       "confidence": 0.68,
       "signal_total": 0.2,
       "signal_components": {
@@ -668,40 +737,6 @@
       ]
     },
     {
-      "title": "U.S. says it's made Hormuz safe for commercial shipping, but standoff hasn't changed",
-      "published": "Tue, 05 May 2026 16:44:09 -0400",
-      "actors": [
-        "iran",
-        "us"
-      ],
-      "state_key": "iran_us",
-      "class": "rhetoric",
-      "impact": 0.009,
-      "raw_impact": 0.043,
-      "source_weight": 0.85,
-      "age_hours": 26.72,
-      "confidence": 0.665,
-      "signal_total": 0.2,
-      "signal_components": {
-        "deescalation": 0.0,
-        "action": 0.0,
-        "movement": 0.0,
-        "strategic": 0.0,
-        "rhetoric": 0.2,
-        "deescalation_verified": 0.0
-      },
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5812487/u-s-says-its-made-hormuz-safe-for-commercial-shipping-but-standoff-hasnt-changed",
-      "source": "https://feeds.npr.org/1004/rss.xml",
-      "source_domain": "feeds.npr.org",
-      "corroboration_count": 1,
-      "cluster_sources": [
-        "feeds.npr.org"
-      ],
-      "cluster_links": [
-        "https://www.npr.org/2026/05/05/nx-s1-5812487/u-s-says-its-made-hormuz-safe-for-commercial-shipping-but-standoff-hasnt-changed"
-      ]
-    },
-    {
       "title": "'Project Freedom' Aims to Get Thousands of Commercial Ships Safely Through Strait of Hormuz",
       "published": "Tue, 05 May 2026 17:06:00 GMT",
       "actors": [
@@ -711,9 +746,9 @@
       "state_key": "iran_us",
       "class": "rhetoric",
       "impact": 0.009,
-      "raw_impact": 0.035,
+      "raw_impact": 0.031,
       "source_weight": 1.1,
-      "age_hours": 30.36,
+      "age_hours": 32.19,
       "confidence": 0.69,
       "signal_total": 0.2,
       "signal_components": {
@@ -736,8 +771,8 @@
       ]
     },
     {
-      "title": "The Iran war sent jet fuel prices sky-high. Here's what air travelers should know",
-      "published": "Tue, 05 May 2026 14:33:19 -0400",
+      "title": "U.S. says it's made Hormuz safe for commercial shipping, but standoff hasn't changed",
+      "published": "Tue, 05 May 2026 16:44:09 -0400",
       "actors": [
         "iran",
         "us"
@@ -747,7 +782,7 @@
       "impact": 0.008,
       "raw_impact": 0.038,
       "source_weight": 0.85,
-      "age_hours": 28.9,
+      "age_hours": 28.56,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -758,7 +793,7 @@
         "rhetoric": 0.2,
         "deescalation_verified": 0.0
       },
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5811918/iran-war-jet-fuel-baggage-fees-travel-tips",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5812487/u-s-says-its-made-hormuz-safe-for-commercial-shipping-but-standoff-hasnt-changed",
       "source": "https://feeds.npr.org/1004/rss.xml",
       "source_domain": "feeds.npr.org",
       "corroboration_count": 1,
@@ -766,7 +801,7 @@
         "feeds.npr.org"
       ],
       "cluster_links": [
-        "https://www.npr.org/2026/05/05/nx-s1-5811918/iran-war-jet-fuel-baggage-fees-travel-tips"
+        "https://www.npr.org/2026/05/05/nx-s1-5812487/u-s-says-its-made-hormuz-safe-for-commercial-shipping-but-standoff-hasnt-changed"
       ]
     },
     {
@@ -781,7 +816,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 362.24,
+      "age_hours": 364.08,
       "confidence": 0.655,
       "signal_total": 0.2,
       "signal_components": {
@@ -815,7 +850,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 231.52,
+      "age_hours": 233.36,
       "confidence": 0.801,
       "signal_total": 1.79,
       "signal_components": {
@@ -850,7 +885,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 320.45,
+      "age_hours": 322.28,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -884,7 +919,7 @@
       "impact": 0.0,
       "raw_impact": -0.0,
       "source_weight": 0.75,
-      "age_hours": 322.68,
+      "age_hours": 324.52,
       "confidence": 0.735,
       "signal_total": -0.2,
       "signal_components": {
@@ -918,7 +953,7 @@
       "impact": 0.0,
       "raw_impact": 0.0,
       "source_weight": 0.75,
-      "age_hours": 322.85,
+      "age_hours": 324.69,
       "confidence": 0.665,
       "signal_total": 0.2,
       "signal_components": {
@@ -961,6 +996,11 @@
       "name": "economist_world",
       "url": "https://www.economist.com/international/rss.xml",
       "domain": "www.economist.com"
+    },
+    {
+      "name": "euronews_world",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
     },
     {
       "name": "feeds.bbci.co.uk",
@@ -1048,6 +1088,11 @@
       "domain": "www.economist.com"
     },
     {
+      "name": "www.euronews.com",
+      "url": "https://www.euronews.com/rss?format=mrss",
+      "domain": "www.euronews.com"
+    },
+    {
       "name": "www.france24.com",
       "url": "https://www.france24.com/en/rss",
       "domain": "www.france24.com"
@@ -1067,17 +1112,17 @@
     "corroboration"
   ],
   "debug": {
-    "event_count": 231,
-    "classified_count": 27,
-    "paired_count": 27,
+    "event_count": 251,
+    "classified_count": 28,
+    "paired_count": 28,
     "valid_pair_updates": 7,
-    "top_driver_count": 27,
-    "total_signal": 6.3464,
+    "top_driver_count": 28,
+    "total_signal": 6.8928,
     "drop_reasons": {
       "missing_title": 0,
-      "no_actor": 111,
-      "no_signal": 59,
-      "invalid_pair": 34,
+      "no_actor": 120,
+      "no_signal": 64,
+      "invalid_pair": 39,
       "low_confidence": 0,
       "classifier_error": 0,
       "non_positive_source_weight": 0
